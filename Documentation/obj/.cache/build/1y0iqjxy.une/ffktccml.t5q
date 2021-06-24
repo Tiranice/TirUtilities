@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseFormatter&lt;T&gt;
+   | TirUtilities </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseFormatter&lt;T&gt;
+   | TirUtilities ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1">
+  
+  
+  <h1 id="TirUtilities_External_OdinSerializer_BaseFormatter_1" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1" class="text-break">Class BaseFormatter&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Provides common functionality for serializing and deserializing values of type <see cref="!:T"></see>, and provides automatic support for the following common serialization conventions:
+<p>
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.iobjectreference">IObjectReference</a>, <see cref="!:ISerializationCallbackReceiver"></see>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.onserializingattribute">OnSerializingAttribute</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.onserializedattribute">OnSerializedAttribute</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.ondeserializingattribute">OnDeserializingAttribute</a> and <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.ondeserializedattribute">OnDeserializedAttribute</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">BaseFormatter&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.ArrayFormatter-1.html">ArrayFormatter&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.ArrayListFormatter.html">ArrayListFormatter</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.DelegateFormatter-1.html">DelegateFormatter&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.DictionaryFormatter-2.html">DictionaryFormatter&lt;TKey, TValue&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.DoubleLookupDictionaryFormatter-3.html">DoubleLookupDictionaryFormatter&lt;TPrimary, TSecondary, TValue&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.EasyBaseFormatter-1.html">EasyBaseFormatter&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.GenericCollectionFormatter-2.html">GenericCollectionFormatter&lt;TCollection, TElement&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.HashSetFormatter-1.html">HashSetFormatter&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.KeyValuePairFormatter-2.html">KeyValuePairFormatter&lt;TKey, TValue&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.ListFormatter-1.html">ListFormatter&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.MethodInfoFormatter-1.html">MethodInfoFormatter&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.MultiDimensionalArrayFormatter-2.html">MultiDimensionalArrayFormatter&lt;TArray, TElement&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.NullableFormatter-1.html">NullableFormatter&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.QueueFormatter-2.html">QueueFormatter&lt;TQueue, TValue&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.ReflectionFormatter-1.html">ReflectionFormatter&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.SelfFormatterFormatter-1.html">SelfFormatterFormatter&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.SerializableFormatter-1.html">SerializableFormatter&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="TirUtilities.External.OdinSerializer.StackFormatter-2.html">StackFormatter&lt;TStack, TValue&gt;</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter-1.html">IFormatter</a>&lt;T&gt;</div>
+    <div><a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter.html">IFormatter</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.External.OdinSerializer.html">TirUtilities.External.OdinSerializer</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseFormatter&lt;T&gt; : IFormatter&lt;T&gt;, IFormatter</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The type which can be serialized and deserialized by the formatter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_ImplementsIDeserializationCallback" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.ImplementsIDeserializationCallback">ImplementsIDeserializationCallback</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly bool ImplementsIDeserializationCallback</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_ImplementsIObjectReference" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.ImplementsIObjectReference">ImplementsIObjectReference</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly bool ImplementsIObjectReference</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_ImplementsISerializationCallbackReceiver" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.ImplementsISerializationCallbackReceiver">ImplementsISerializationCallbackReceiver</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly bool ImplementsISerializationCallbackReceiver</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_IsValueType" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.IsValueType">IsValueType</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Whether the serialized value is a value type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly bool IsValueType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_OnDeserializedCallbacks" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.OnDeserializedCallbacks">OnDeserializedCallbacks</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The on deserialized callbacks for type <see cref="!:T"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly BaseFormatter&lt;T&gt;.SerializationCallback[] OnDeserializedCallbacks</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.BaseFormatter-1.SerializationCallback.html">BaseFormatter.SerializationCallback</a>&lt;&gt;[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_OnDeserializingCallbacks" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.OnDeserializingCallbacks">OnDeserializingCallbacks</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The on deserializing callbacks for type <see cref="!:T"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly BaseFormatter&lt;T&gt;.SerializationCallback[] OnDeserializingCallbacks</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.BaseFormatter-1.SerializationCallback.html">BaseFormatter.SerializationCallback</a>&lt;&gt;[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_OnSerializedCallbacks" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.OnSerializedCallbacks">OnSerializedCallbacks</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The on serialized callbacks for type <see cref="!:T"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly BaseFormatter&lt;T&gt;.SerializationCallback[] OnSerializedCallbacks</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.BaseFormatter-1.SerializationCallback.html">BaseFormatter.SerializationCallback</a>&lt;&gt;[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_OnSerializingCallbacks" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.OnSerializingCallbacks">OnSerializingCallbacks</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The on serializing callbacks for type <see cref="!:T"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly BaseFormatter&lt;T&gt;.SerializationCallback[] OnSerializingCallbacks</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.BaseFormatter-1.SerializationCallback.html">BaseFormatter.SerializationCallback</a>&lt;&gt;[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_SerializedType_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.SerializedType*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_SerializedType" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.SerializedType">SerializedType</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the type that the formatter can serialize.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type SerializedType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The type that the formatter can serialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_Deserialize_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.Deserialize*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_Deserialize_TirUtilities_External_OdinSerializer_IDataReader_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.Deserialize(TirUtilities.External.OdinSerializer.IDataReader)">Deserialize(IDataReader)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Deserializes a value of type <see cref="!:T"></see> using a specified <a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Deserialize(IDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The reader to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_DeserializeImplementation_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.DeserializeImplementation*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_DeserializeImplementation__0__TirUtilities_External_OdinSerializer_IDataReader_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.DeserializeImplementation(`0@,TirUtilities.External.OdinSerializer.IDataReader)">DeserializeImplementation(ref T, IDataReader)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Provides the actual implementation for deserializing a value of type <see cref="!:T"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void DeserializeImplementation(ref T value, IDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The uninitialized value to serialize into. This value will have been created earlier using <a class="xref" href="TirUtilities.External.OdinSerializer.BaseFormatter-1.html#TirUtilities_External_OdinSerializer_BaseFormatter_1_GetUninitializedObject">GetUninitializedObject()</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The reader to deserialize with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_GetUninitializedObject_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.GetUninitializedObject*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_GetUninitializedObject" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.GetUninitializedObject">GetUninitializedObject()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Get an uninitialized object of type <see cref="!:T"></see>. WARNING: If you override this and return null, the object&apos;s ID will not be automatically registered and its OnDeserializing callbacks will not be automatically called, before deserialization begins.
+You will have to call <a class="xref" href="TirUtilities.External.OdinSerializer.BaseFormatter-1.html#TirUtilities_External_OdinSerializer_BaseFormatter_1_RegisterReferenceID__0_TirUtilities_External_OdinSerializer_IDataReader_">RegisterReferenceID(T, IDataReader)</a> and <a class="xref" href="TirUtilities.External.OdinSerializer.BaseFormatter-1.html#TirUtilities_External_OdinSerializer_BaseFormatter_1_InvokeOnDeserializingCallbacks__0__TirUtilities_External_OdinSerializer_DeserializationContext_">InvokeOnDeserializingCallbacks(ref T, DeserializationContext)</a> immediately after creating the object yourself during deserialization.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual T GetUninitializedObject()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">An uninitialized object of type <see cref="!:T"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_InvokeOnDeserializingCallbacks_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.InvokeOnDeserializingCallbacks*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_InvokeOnDeserializingCallbacks__0_TirUtilities_External_OdinSerializer_DeserializationContext_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.InvokeOnDeserializingCallbacks(`0,TirUtilities.External.OdinSerializer.DeserializationContext)">InvokeOnDeserializingCallbacks(T, DeserializationContext)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Invokes all methods on the object with the [OnDeserializing] attribute.
+<p>
+WARNING: This method will not be called automatically if you override GetUninitializedObject and return null! You will have to call it manually after having created the object instance during deserialization.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use the InvokeOnDeserializingCallbacks variant that takes a ref T value instead. This is for struct compatibility reasons.&quot;, false)]
+protected void InvokeOnDeserializingCallbacks(T value, DeserializationContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The value to invoke the callbacks on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The deserialization context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_InvokeOnDeserializingCallbacks_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.InvokeOnDeserializingCallbacks*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_InvokeOnDeserializingCallbacks__0__TirUtilities_External_OdinSerializer_DeserializationContext_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.InvokeOnDeserializingCallbacks(`0@,TirUtilities.External.OdinSerializer.DeserializationContext)">InvokeOnDeserializingCallbacks(ref T, DeserializationContext)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Invokes all methods on the object with the [OnDeserializing] attribute.
+<p>
+WARNING: This method will not be called automatically if you override GetUninitializedObject and return null! You will have to call it manually after having created the object instance during deserialization.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InvokeOnDeserializingCallbacks(ref T value, DeserializationContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The value to invoke the callbacks on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The deserialization context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_RegisterReferenceID_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.RegisterReferenceID*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_RegisterReferenceID__0_TirUtilities_External_OdinSerializer_IDataReader_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.RegisterReferenceID(`0,TirUtilities.External.OdinSerializer.IDataReader)">RegisterReferenceID(T, IDataReader)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Registers the given object reference in the deserialization context.
+<p>
+NOTE that this method only does anything if <see cref="!:T"></see> is not a value type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RegisterReferenceID(T value, IDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The value to register.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The reader which is currently being used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_Serialize_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.Serialize*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_Serialize__0_TirUtilities_External_OdinSerializer_IDataWriter_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.Serialize(`0,TirUtilities.External.OdinSerializer.IDataWriter)">Serialize(T, IDataWriter)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializes a value of type <see cref="!:T"></see> using a specified <a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Serialize(T value, IDataWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The writer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_SerializeImplementation_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.SerializeImplementation*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_SerializeImplementation__0__TirUtilities_External_OdinSerializer_IDataWriter_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.SerializeImplementation(`0@,TirUtilities.External.OdinSerializer.IDataWriter)">SerializeImplementation(ref T, IDataWriter)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Provides the actual implementation for serializing a value of type <see cref="!:T"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void SerializeImplementation(ref T value, IDataWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The writer to serialize with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_TirUtilities_External_OdinSerializer_IFormatter_Deserialize_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.TirUtilities#External#OdinSerializer#IFormatter#Deserialize*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_TirUtilities_External_OdinSerializer_IFormatter_Deserialize_TirUtilities_External_OdinSerializer_IDataReader_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.TirUtilities#External#OdinSerializer#IFormatter#Deserialize(TirUtilities.External.OdinSerializer.IDataReader)">IFormatter.Deserialize(IDataReader)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Deserializes a value using a specified <a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object IFormatter.Deserialize(IDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The reader to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_BaseFormatter_1_TirUtilities_External_OdinSerializer_IFormatter_Serialize_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.TirUtilities#External#OdinSerializer#IFormatter#Serialize*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_BaseFormatter_1_TirUtilities_External_OdinSerializer_IFormatter_Serialize_System_Object_TirUtilities_External_OdinSerializer_IDataWriter_" data-uid="TirUtilities.External.OdinSerializer.BaseFormatter`1.TirUtilities#External#OdinSerializer#IFormatter#Serialize(System.Object,TirUtilities.External.OdinSerializer.IDataWriter)">IFormatter.Serialize(Object, IDataWriter)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializes a value using a specified <a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IFormatter.Serialize(object value, IDataWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The writer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter-1.html">IFormatter&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter.html">IFormatter</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter-1.html">IFormatter</a>&lt;T&gt;</div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            TirUtilities
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

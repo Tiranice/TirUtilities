@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace TirUtilities.External.OdinSerializer
+   | TirUtilities </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace TirUtilities.External.OdinSerializer
+   | TirUtilities ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TirUtilities.External.OdinSerializer">
+  
+  <h1 id="TirUtilities_External_OdinSerializer" data-uid="TirUtilities.External.OdinSerializer" class="text-break">Namespace TirUtilities.External.OdinSerializer
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.AllowDeserializeInvalidDataAttribute.html">AllowDeserializeInvalidDataAttribute</a></h4>
+      <section><p>
+Applying this attribute to a type indicates that in the case where, when expecting to deserialize an instance of the type
+or any of its derived types, but encountering an incompatible, uncastable type in the data being read, the serializer
+should attempt to deserialize an instance of the expected type using the stored, possibly invalid data.
+</p>
+<p>
+This is equivalent to the <a class="xref" href="TirUtilities.External.OdinSerializer.SerializationConfig.html#TirUtilities_External_OdinSerializer_SerializationConfig_AllowDeserializeInvalidData">AllowDeserializeInvalidData</a> option, expect type-specific instead
+of global.
+</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.AlwaysFormatsSelfAttribute.html">AlwaysFormatsSelfAttribute</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.AlwaysFormatsSelfAttribute.yml" sourcestartlinenumber="2" sourceendlinenumber="6">Use this attribute to specify that a type that implements the <a class="xref" href="TirUtilities.External.OdinSerializer.ISelfFormatter.html">ISelfFormatter</a>
+interface should <em>always</em> format itself regardless of other formatters being specified.
+<p>
+This means that the interface will be used to format all types derived from the type that
+is decorated with this attribute, regardless of custom formatters for the derived types.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.AnimationCurveFormatter.html">AnimationCurveFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.AnimationCurveFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:AnimationCurve"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ArchitectureInfo.html">ArchitectureInfo</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ArchitectureInfo.yml" sourcestartlinenumber="2" sourceendlinenumber="3">This class gathers info about the current architecture for the purpose of determinining
+the unaligned read/write capabilities that we have to work with.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ArrayFormatter-1.html">ArrayFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ArrayFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Formatter for all non-primitive one-dimensional arrays.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ArrayListFormatter.html">ArrayListFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ArrayListFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the type <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.arraylist">ArrayList</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BaseDataReader.html">BaseDataReader</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseDataReader.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Provides basic functionality and overridable abstract methods for implementing a data reader.
+<p>
+If you inherit this class, it is VERY IMPORTANT that you implement each abstract method to the <em>exact</em> specifications the documentation specifies.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BaseDataReaderWriter.html">BaseDataReaderWriter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseDataReaderWriter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Implements functionality that is shared by both data readers and data writers.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BaseDataWriter.html">BaseDataWriter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseDataWriter.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Provides basic functionality and overridable abstract methods for implementing a data writer.
+<p>
+If you inherit this class, it is VERY IMPORTANT that you implement each abstract method to the <em>exact</em> specifications the documentation specifies.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BaseDictionaryKeyPathProvider-1.html">BaseDictionaryKeyPathProvider&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseDictionaryKeyPathProvider-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Not yet documented.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BaseFormatter-1.html">BaseFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Provides common functionality for serializing and deserializing values of type <see cref="!:T"></see>, and provides automatic support for the following common serialization conventions:
+<p>
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.iobjectreference">IObjectReference</a>, <see cref="!:ISerializationCallbackReceiver"></see>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.onserializingattribute">OnSerializingAttribute</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.onserializedattribute">OnSerializedAttribute</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.ondeserializingattribute">OnDeserializingAttribute</a> and <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.ondeserializedattribute">OnDeserializedAttribute</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BinaryDataReader.html">BinaryDataReader</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BinaryDataReader.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Reads data from a stream that has been written by a <a class="xref" href="TirUtilities.External.OdinSerializer.BinaryDataWriter.html">BinaryDataWriter</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BinaryDataWriter.html">BinaryDataWriter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BinaryDataWriter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Writes data to a stream that can be read by a <a class="xref" href="TirUtilities.External.OdinSerializer.BinaryDataReader.html">BinaryDataReader</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BindTypeNameToTypeAttribute.html">BindTypeNameToTypeAttribute</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BindTypeNameToTypeAttribute.yml" sourcestartlinenumber="2" sourceendlinenumber="3">An attribute that lets you help the DefaultSerializationBinder bind type names to types. This is useful if you&apos;re renaming a type,
+that would result in data loss, and what to specify the new type name to avoid loss of data.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BooleanSerializer.html">BooleanSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BooleanSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BoundsFormatter.html">BoundsFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BoundsFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:Bounds"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Buffer-1.html">Buffer&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Buffer-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Provides a way of claiming and releasing cached array buffers.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ByteSerializer.html">ByteSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ByteSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.CharSerializer.html">CharSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.CharSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Color32Formatter.html">Color32Formatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Color32Formatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:Color32"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ColorBlockFormatter-1.html">ColorBlockFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ColorBlockFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:ColorBlock"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ColorBlockFormatterLocator.html">ColorBlockFormatterLocator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ColorFormatter.html">ColorFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ColorFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:Color"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ComplexTypeSerializer-1.html">ComplexTypeSerializer&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ComplexTypeSerializer-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for all complex types; IE, types which are not primitives as determined by the <a class="xref" href="TirUtilities.External.OdinSerializer.FormatterUtilities.html#TirUtilities_External_OdinSerializer_FormatterUtilities_IsPrimitiveType_System_Type_">IsPrimitiveType(Type)</a> method.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.CoroutineFormatter.html">CoroutineFormatter</a></h4>
+      <section><p>
+Custom formatter for the <see cref="!:Coroutine"></see> type.
+This serializes nothing and always deserializes null,
+and only exists to ensure that no coroutine instances
+are ever created by the serialization system, since they
+will in almost all cases be invalid instances.
+</p>
+<p>
+Invalid coroutine instances crash Unity instantly when
+they are garbage collected.
+</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.CustomFormatterAttribute.html">CustomFormatterAttribute</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.CustomFormatterAttribute.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Attribute indicating that a class which implements the <a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter-1.html">IFormatter&lt;T&gt;</a> interface somewhere in its hierarchy is a custom formatter for the type T.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.CustomGenericFormatterAttribute.html">CustomGenericFormatterAttribute</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.CustomGenericFormatterAttribute.yml" sourcestartlinenumber="2" sourceendlinenumber="6">Attribute indicating that a generic type definition class which implements the <a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter-1.html">IFormatter&lt;T&gt;</a> interface somewhere in its hierarchy is a custom formatter for <em>any variation</em> of the generic type definition T.
+<p>
+The formatter&apos;s generic type parameters are mapped onto the serialized type&apos;s generic type parameters.
+<p>
+For example, <a class="xref" href="TirUtilities.External.OdinSerializer.DictionaryFormatter-2.html">DictionaryFormatter&lt;TKey, TValue&gt;</a> implements <a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter-1.html">IFormatter&lt;T&gt;</a>, where T is <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary&lt;TKey,TValue&gt;</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.CustomLogger.html">CustomLogger</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.CustomLogger.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A helper class for quickly and easily defining custom loggers.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.CustomSerializationPolicy.html">CustomSerializationPolicy</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.CustomSerializationPolicy.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Helper class for quickly and easily implementing the <a class="xref" href="TirUtilities.External.OdinSerializer.ISerializationPolicy.html">ISerializationPolicy</a> interface.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DateTimeFormatter.html">DateTimeFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DateTimeFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.datetime">DateTime</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DateTimeOffsetFormatter.html">DateTimeOffsetFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DateTimeOffsetFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DebugContext.html">DebugContext</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DebugContext.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Defines a context for debugging and logging during serialization and deserialization. This class is thread-safe.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DecimalSerializer.html">DecimalSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DecimalSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.decimal">Decimal</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DefaultLoggers.html">DefaultLoggers</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DefaultLoggers.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Defines default loggers for serialization and deserialization. This class and all of its loggers are thread safe.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DefaultSerializationBinder.html">DefaultSerializationBinder</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DefaultSerializationBinder.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Provides a default, catch-all <a class="xref" href="TirUtilities.External.OdinSerializer.TwoWaySerializationBinder.html">TwoWaySerializationBinder</a> implementation. This binder only includes assembly names, without versions and tokens, in order to increase compatibility.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DelegateFormatter-1.html">DelegateFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DelegateFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Formatter for all delegate types.
+<p>
+This formatter can handle anything but delegates for dynamic methods.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DeserializationContext.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The context of a given deserialization session. This class maintains all internal and external references during deserialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DictionaryFormatter-2.html">DictionaryFormatter&lt;TKey, TValue&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DictionaryFormatter-2.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom generic formatter for the generic type definition <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary&lt;TKey,TValue&gt;</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DictionaryKeyUtility.html">DictionaryKeyUtility</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DictionaryKeyUtility.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Provides utility methods for handling dictionary keys in the prefab modification system.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DictionaryKeyUtility.KeyComparer-1.html">DictionaryKeyUtility.KeyComparer&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DictionaryKeyUtility.KeyComparer-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A smart comparer for dictionary keys, that uses the most appropriate available comparison method for the given key types.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DoubleLookupDictionaryFormatter-3.html">DoubleLookupDictionaryFormatter&lt;TPrimary, TSecondary, TValue&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DoubleLookupDictionaryFormatter-3.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom Odin serialization formatter for <a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.DoubleLookupDictionary-3.html">DoubleLookupDictionary&lt;TFirstKey, TSecondKey, TValue&gt;</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DoubleSerializer.html">DoubleSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DoubleSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.EasyBaseFormatter-1.html">EasyBaseFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.EasyBaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Provides an easy way of implementing custom formatters.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.EmittedAssemblyAttribute.html">EmittedAssemblyAttribute</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.EmittedFormatterAttribute.html">EmittedFormatterAttribute</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.EmittedFormatterAttribute.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates that this formatter type has been emitted. Never put this on a type!</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.EmptyTypeFormatter-1.html">EmptyTypeFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.EmptyTypeFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A formatter for empty types. It writes no data, and skips all data that is to be read, deserializing a &quot;default&quot; value.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.EnumSerializer-1.html">EnumSerializer&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.EnumSerializer-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for all enums.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ExcludeDataFromInspectorAttribute.html">ExcludeDataFromInspectorAttribute</a></h4>
+      <section><p>
+Causes Odin&apos;s inspector to completely ignore a given member, preventing it from even being included in an Odin PropertyTree,
+and such will not cause any performance hits in the inspector.
+</p>
+<p>Note that Odin can still serialize an excluded member - it is merely ignored in the inspector itself.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.FormatterEmitter.html">FormatterEmitter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.FormatterEmitter.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Utility class for emitting formatters using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.emit">System.Reflection.Emit</a> namespace.
+<p>
+NOTE: Some platforms do not support emitting. Check whether you can emit on the current platform using <a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.html#TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CanEmit">CanEmit</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.FormatterEmitter.AOTEmittedFormatter-1.html">FormatterEmitter.AOTEmittedFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.FormatterEmitter.AOTEmittedFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Base type for all AOT-emitted formatters.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.FormatterEmitter.EmptyAOTEmittedFormatter-1.html">FormatterEmitter.EmptyAOTEmittedFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.FormatterEmitter.EmptyAOTEmittedFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Shortcut class that makes it easier to emit empty AOT formatters.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.FormatterLocator.html">FormatterLocator</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.FormatterLocator.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Utility class for locating and caching formatters for all non-primitive types.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.FormatterUtilities.html">FormatterUtilities</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.FormatterUtilities.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Provides an array of utility methods which are commonly used by serialization formatters.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.GenericCollectionFormatter.html">GenericCollectionFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.GenericCollectionFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Utility class for the <a class="xref" href="TirUtilities.External.OdinSerializer.GenericCollectionFormatter-2.html">GenericCollectionFormatter&lt;TCollection, TElement&gt;</a> class.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.GenericCollectionFormatter-2.html">GenericCollectionFormatter&lt;TCollection, TElement&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.GenericCollectionFormatter-2.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Formatter for all eligible types that implement the interface <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection&lt;T&gt;</a>, and which have no other formatters specified.
+<p>
+Eligibility for formatting by this class is determined by the <a class="xref" href="TirUtilities.External.OdinSerializer.GenericCollectionFormatter.html#TirUtilities_External_OdinSerializer_GenericCollectionFormatter_CanFormat_System_Type_System_Type__">CanFormat(Type, out Type)</a> method.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.GlobalSerializationConfig.html">GlobalSerializationConfig</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.GlobalSerializationConfig.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Contains global configuration options for the serialization system.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.GradientAlphaKeyFormatter.html">GradientAlphaKeyFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.GradientAlphaKeyFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:GradientAlphaKey"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.GradientColorKeyFormatter.html">GradientColorKeyFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.GradientColorKeyFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:GradientColorKey"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.GradientFormatter.html">GradientFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.GradientFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:Gradient"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.GuidSerializer.html">GuidSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.GuidSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.HashSetFormatter-1.html">HashSetFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.HashSetFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom generic formatter for the generic type definition <see cref="!:HashSet&lt;T>"></see>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Int16Serializer.html">Int16Serializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Int16Serializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Int32Serializer.html">Int32Serializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Int32Serializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Int64Serializer.html">Int64Serializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Int64Serializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IntPtrSerializer.html">IntPtrSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IntPtrSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.intptr">IntPtr</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.JsonConfig.html">JsonConfig</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.JsonConfig.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Contains various string constants used by the <a class="xref" href="TirUtilities.External.OdinSerializer.JsonDataWriter.html">JsonDataWriter</a>, <a class="xref" href="TirUtilities.External.OdinSerializer.JsonDataReader.html">JsonDataReader</a> and <a class="xref" href="TirUtilities.External.OdinSerializer.JsonTextReader.html">JsonTextReader</a> classes.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.JsonDataReader.html">JsonDataReader</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.JsonDataReader.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Reads json data from a stream that has been written by a <a class="xref" href="TirUtilities.External.OdinSerializer.JsonDataWriter.html">JsonDataWriter</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.JsonDataWriter.html">JsonDataWriter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.JsonDataWriter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Writes json data to a stream that can be read by a <a class="xref" href="TirUtilities.External.OdinSerializer.JsonDataReader.html">JsonDataReader</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.JsonTextReader.html">JsonTextReader</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.JsonTextReader.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Parses json entries from a stream.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.KeyframeFormatter.html">KeyframeFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.KeyframeFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:Keyframe"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.KeyValuePairFormatter-2.html">KeyValuePairFormatter&lt;TKey, TValue&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.KeyValuePairFormatter-2.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom generic formatter for the generic type definition <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair&lt;TKey,TValue&gt;</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.LayerMaskFormatter.html">LayerMaskFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.LayerMaskFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:LayerMask"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ListFormatter-1.html">ListFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ListFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom generic formatter for the generic type definition <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List&lt;T&gt;</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.MethodInfoFormatter-1.html">MethodInfoFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.MethodInfoFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for MethodInfo, since Unity Mono&apos;s MethodInfo ISerializable implementation will often crash if the method no longer exists upon deserialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.MinimalBaseFormatter-1.html">MinimalBaseFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.MinimalBaseFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Minimal baseline formatter. Doesn&apos;t come with all the bells and whistles of any of the other BaseFormatter classes.
+Common serialization conventions aren&apos;t automatically supported, and common deserialization callbacks are not automatically invoked.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.MultiDimensionalArrayFormatter-2.html">MultiDimensionalArrayFormatter&lt;TArray, TElement&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.MultiDimensionalArrayFormatter-2.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Formatter for all arrays with more than one dimension.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.NullableFormatter-1.html">NullableFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.NullableFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Formatter for all <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable&lt;T&gt;</a> types.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.OdinSerializeAttribute.html">OdinSerializeAttribute</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.OdinSerializeAttribute.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates that an instance field or auto-property should be serialized by Odin.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.PrefabModification.html">PrefabModification</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.PrefabModification.yml" sourcestartlinenumber="2" sourceendlinenumber="2">An Odin-serialized prefab modification, containing all the information necessary to apply the modification.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.PreviouslySerializedAsAttribute.html">PreviouslySerializedAsAttribute</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.PreviouslySerializedAsAttribute.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates that an instance field or auto-property was previously serialized with a different name, so that values serialized with the old name will be properly deserialized into this member.</p>
+<p sourcefile="api/TirUtilities.External.OdinSerializer.PreviouslySerializedAsAttribute.yml" sourcestartlinenumber="4" sourceendlinenumber="4">This does the same as Unity&apos;s FormerlySerializedAs attribute, except it can also be applied to properties.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.PrimitiveArrayFormatter-1.html">PrimitiveArrayFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.PrimitiveArrayFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Formatter for all primitive one-dimensional arrays.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ProperBitConverter.html">ProperBitConverter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ProperBitConverter.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Corresponds to the .NET <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.bitconverter">BitConverter</a> class, but works only with buffers and so never allocates garbage.
+<p>
+This class always writes and reads bytes in a little endian format, regardless of system architecture.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.QuaternionFormatter.html">QuaternionFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.QuaternionFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:Quaternion"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.QueueFormatter-2.html">QueueFormatter&lt;TQueue, TValue&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.QueueFormatter-2.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom generic formatter for the generic type definition <see cref="!:Queue&lt;T>"></see>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.RectFormatter.html">RectFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.RectFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:Rect"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ReflectionFormatter-1.html">ReflectionFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ReflectionFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Final fallback formatter for all types which have no other formatters. This formatter relies on reflection to work, and is thus comparatively slow and creates more garbage than a custom formatter.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ReflectionOrEmittedBaseFormatter-1.html">ReflectionOrEmittedBaseFormatter&lt;T&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.RegisterDictionaryKeyPathProviderAttribute.html">RegisterDictionaryKeyPathProviderAttribute</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.RegisterFormatterAttribute.html">RegisterFormatterAttribute</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.RegisterFormatterLocatorAttribute.html">RegisterFormatterLocatorAttribute</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SByteSerializer.html">SByteSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SByteSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.sbyte">SByte</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SelfFormatterFormatter-1.html">SelfFormatterFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SelfFormatterFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Formatter for types that implement the <a class="xref" href="TirUtilities.External.OdinSerializer.ISelfFormatter.html">ISelfFormatter</a> interface.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializableFormatter-1.html">SerializableFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializableFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Formatter for all types that implement the ISerializable interface.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationAbortException.html">SerializationAbortException</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializationAbortException.yml" sourcestartlinenumber="2" sourceendlinenumber="2">An exception thrown when the serialization system has encountered an issue so severe that serialization is being aborted. If this exception is caught in the serialization system somewhere, it should be rethrown.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationConfig.html">SerializationConfig</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializationConfig.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Defines the configuration during serialization and deserialization. This class is thread-safe.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html">SerializationContext</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializationContext.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The context of a given serialization session. This class maintains all internal and external references during serialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationNodeDataReader.html">SerializationNodeDataReader</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializationNodeDataReader.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Not yet documented.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationNodeDataReaderWriterConfig.html">SerializationNodeDataReaderWriterConfig</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializationNodeDataReaderWriterConfig.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Shared config class for <a class="xref" href="TirUtilities.External.OdinSerializer.SerializationNodeDataReader.html">SerializationNodeDataReader</a> and <a class="xref" href="TirUtilities.External.OdinSerializer.SerializationNodeDataWriter.html">SerializationNodeDataWriter</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationNodeDataWriter.html">SerializationNodeDataWriter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializationNodeDataWriter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Not yet documented.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationPolicies.html">SerializationPolicies</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializationPolicies.yml" sourcestartlinenumber="2" sourceendlinenumber="10">Contains a set of default implementations of the <a class="xref" href="TirUtilities.External.OdinSerializer.ISerializationPolicy.html">ISerializationPolicy</a> interface.
+<p>
+NOTE: Policies are not necessarily compatible with each other in intuitive ways.
+Data serialized with the <a class="xref" href="TirUtilities.External.OdinSerializer.SerializationPolicies.html#TirUtilities_External_OdinSerializer_SerializationPolicies_Everything">Everything</a> policy
+will for example fail to deserialize auto-properties with <a class="xref" href="TirUtilities.External.OdinSerializer.SerializationPolicies.html#TirUtilities_External_OdinSerializer_SerializationPolicies_Strict">Strict</a>,
+even if only strict data is needed.
+It is best to ensure that you always use the same policy for serialization and deserialization.
+<p>
+This class and all of its policies are thread-safe.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationUtility.html">SerializationUtility</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializationUtility.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Provides an array of utility wrapper methods for easy serialization and deserialization of objects of any type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializedBehaviour.html">SerializedBehaviour</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializedBehaviour.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A Unity Behaviour which is serialized by the Sirenix serialization system.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializedComponent.html">SerializedComponent</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializedComponent.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A Unity Component which is serialized by the Sirenix serialization system.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializedMonoBehaviour.html">SerializedMonoBehaviour</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializedMonoBehaviour.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A Unity MonoBehaviour which is serialized by the Sirenix serialization system.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializedScriptableObject.html">SerializedScriptableObject</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializedScriptableObject.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A Unity ScriptableObject which is serialized by the Sirenix serialization system.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializedStateMachineBehaviour.html">SerializedStateMachineBehaviour</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializedStateMachineBehaviour.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A Unity StateMachineBehaviour which is serialized by the Sirenix serialization system.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializedUnityObject.html">SerializedUnityObject</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializedUnityObject.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A Unity ScriptableObject which is serialized by the Sirenix serialization system.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Serializer.html">Serializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Serializer.yml" sourcestartlinenumber="2" sourceendlinenumber="8">Serializes and deserializes a given type, and wraps serialization and deserialization with all the proper calls to free formatters from tedious boilerplate.
+<p>
+Whenever serializing or deserializing anything, it is <em>strongly recommended</em> to use <a class="xref" href="TirUtilities.External.OdinSerializer.Serializer.html#TirUtilities_External_OdinSerializer_Serializer_Get__1">Get&lt;T&gt;()</a> to get a proper wrapping serializer for that type.
+<p>
+NOTE: This class should NOT be inherited from; it is hard-coded into the system.
+<p>
+To extend the serialization system, instead create custom formatters, which are used by the <a class="xref" href="TirUtilities.External.OdinSerializer.ComplexTypeSerializer-1.html">ComplexTypeSerializer&lt;T&gt;</a> class.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Serializer-1.html">Serializer&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Serializer-1.yml" sourcestartlinenumber="2" sourceendlinenumber="8">Serializes and deserializes the type <see cref="!:T"></see>, and wraps serialization and deserialization with all the proper calls to free formatters from tedious boilerplate.
+<p>
+Whenever serializing or deserializing anything, it is <em>strongly recommended</em> to use <a class="xref" href="TirUtilities.External.OdinSerializer.Serializer.html#TirUtilities_External_OdinSerializer_Serializer_Get__1">Get&lt;T&gt;()</a> to get a proper wrapping serializer for that type.
+<p>
+NOTE: This class should NOT be inherited from; it is hard-coded into the system.
+<p>
+To extend the serialization system, instead create custom formatters, which are used by the <a class="xref" href="TirUtilities.External.OdinSerializer.ComplexTypeSerializer-1.html">ComplexTypeSerializer&lt;T&gt;</a> class.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SingleSerializer.html">SingleSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SingleSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.StackFormatter-2.html">StackFormatter&lt;TStack, TValue&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.StackFormatter-2.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom generic formatter for the generic type definition <see cref="!:Stack&lt;T>"></see> and types derived from it.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.StringSerializer.html">StringSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.StringSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.TimeSpanFormatter.html">TimeSpanFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.TimeSpanFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.TwoWaySerializationBinder.html">TwoWaySerializationBinder</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.TwoWaySerializationBinder.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Binds types to strings during serialization, and strings to types during deserialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.TypeFormatter.html">TypeFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.TypeFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Formatter for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a> type which uses the reader/writer&apos;s <a class="xref" href="TirUtilities.External.OdinSerializer.TwoWaySerializationBinder.html">TwoWaySerializationBinder</a> to bind types.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.UInt16Serializer.html">UInt16Serializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.UInt16Serializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.UInt32Serializer.html">UInt32Serializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.UInt32Serializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.UInt64Serializer.html">UInt64Serializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.UInt64Serializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.UIntPtrSerializer.html">UIntPtrSerializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.UIntPtrSerializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializer for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uintptr">UIntPtr</a> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.UnityEventFormatter-1.html">UnityEventFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.UnityEventFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom generic formatter for the <see cref="!:UnityEvent&lt;T0>"></see>, <see cref="!:UnityEvent&lt;T0, T1>"></see>, <see cref="!:UnityEvent&lt;T0, T1, T2>"></see> and <see cref="!:UnityEvent&lt;T0, T1, T2, T3>"></see> types.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.UnityReferenceResolver.html">UnityReferenceResolver</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.UnityReferenceResolver.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Resolves external index references to Unity objects.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.UnitySerializationInitializer.html">UnitySerializationInitializer</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.UnitySerializationInitializer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Utility class which initializes the Sirenix serialization system to be compatible with Unity.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.UnitySerializationUtility.html">UnitySerializationUtility</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.UnitySerializationUtility.yml" sourcestartlinenumber="2" sourceendlinenumber="7">Provides an array of utility wrapper methods for easy serialization and deserialization of Unity objects of any type.
+Note that, during serialization, it is always assumed that we are running on Unity&apos;s main thread. Deserialization can
+happen on any thread, and all API&apos;s interacting with deserialization are thread-safe.
+<p>
+Note that setting the IndexReferenceResolver on contexts passed into methods on this class will have no effect, as it will always
+be set to a UnityReferenceResolver.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Vector2DictionaryKeyPathProvider.html">Vector2DictionaryKeyPathProvider</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Vector2DictionaryKeyPathProvider.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Not yet documented.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Vector2Formatter.html">Vector2Formatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Vector2Formatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:Vector2"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Vector3DictionaryKeyPathProvider.html">Vector3DictionaryKeyPathProvider</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Vector3DictionaryKeyPathProvider.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Dictionary key path provider for <see cref="!:UnityEngine.Vector3"></see></p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Vector3Formatter.html">Vector3Formatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Vector3Formatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:Vector3"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Vector4DictionaryKeyPathProvider.html">Vector4DictionaryKeyPathProvider</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.Vector4Formatter.html">Vector4Formatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.Vector4Formatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <see cref="!:Vector4"></see> type.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.VersionFormatter.html">VersionFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.VersionFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Custom formatter for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.version">Version</a> type.</p>
+</section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.NodeInfo.html">NodeInfo</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.NodeInfo.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Contains information about a node during deserialization and serialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationData.html">SerializationData</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializationData.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Unity serialized data struct that contains all data needed by Odin serialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationNode.html">SerializationNode</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.SerializationNode.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A serialization node as used by the <a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html#TirUtilities_External_OdinSerializer_DataFormat_Nodes">Nodes</a> format.</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IAskIfCanFormatTypes.html">IAskIfCanFormatTypes</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IDataReader.yml" sourcestartlinenumber="2" sourceendlinenumber="6">Provides a set of methods for reading data stored in a format written by a corresponding <a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a> class.
+<p>
+If you implement this interface, it is VERY IMPORTANT that you implement each method to the <em>exact</em> specifications the documentation specifies.
+<p>
+It is strongly recommended to inherit from the <a class="xref" href="TirUtilities.External.OdinSerializer.BaseDataReader.html">BaseDataReader</a> class if you wish to implement a new data reader.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IDataWriter.yml" sourcestartlinenumber="2" sourceendlinenumber="6">Provides a set of methods for reading data stored in a format that can be read by a corresponding <a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a> class.
+<p>
+If you implement this interface, it is VERY IMPORTANT that you implement each method to the <em>exact</em> specifications the documentation specifies.
+<p>
+It is strongly recommended to inherit from the <a class="xref" href="TirUtilities.External.OdinSerializer.BaseDataWriter.html">BaseDataWriter</a> class if you wish to implement a new data writer.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider.html">IDictionaryKeyPathProvider</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Not yet documented.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider-1.html">IDictionaryKeyPathProvider&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Not yet documented.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IExternalGuidReferenceResolver.html">IExternalGuidReferenceResolver</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IExternalGuidReferenceResolver.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Resolves external guid references to reference objects during serialization and deserialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IExternalIndexReferenceResolver.html">IExternalIndexReferenceResolver</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IExternalIndexReferenceResolver.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Resolves external index references to reference objects during serialization and deserialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IExternalStringReferenceResolver.html">IExternalStringReferenceResolver</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IExternalStringReferenceResolver.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Resolves external strings references to reference objects during serialization and deserialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter.html">IFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Serializes and deserializes a given type.
+<p>
+NOTE that if you are implementing a custom formatter and registering it using the <a class="xref" href="TirUtilities.External.OdinSerializer.CustomFormatterAttribute.html">CustomFormatterAttribute</a>, it is not enough to implement <a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter.html">IFormatter</a> - you have to implement <a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter-1.html">IFormatter&lt;T&gt;</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IFormatter-1.html">IFormatter&lt;T&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IFormatter-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serializes and deserializes a given type T.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IFormatterLocator.html">IFormatterLocator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ILogger.html">ILogger</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ILogger.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Implements methods for logging warnings, errors and exceptions during serialization and deserialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IOverridesSerializationFormat.html">IOverridesSerializationFormat</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IOverridesSerializationFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates that an Odin-serialized Unity object controls its own serialization format. Every time it is serialized, it will be asked which format to use.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.IOverridesSerializationPolicy.html">IOverridesSerializationPolicy</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.IOverridesSerializationPolicy.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Indicates that an Odin-serialized Unity object provides its own serialization policy rather than using the default policy.
+<p>
+Note that THE VALUES RETURNED BY THIS INTERFACE WILL OVERRIDE THE PARAMETERS PASSED TO <a class="xref" href="TirUtilities.External.OdinSerializer.UnitySerializationUtility.html#TirUtilities_External_OdinSerializer_UnitySerializationUtility_SerializeUnityObject_UnityEngine_Object_TirUtilities_External_OdinSerializer_SerializationData__System_Boolean_TirUtilities_External_OdinSerializer_SerializationContext_">SerializeUnityObject(UnityEngine.Object, ref SerializationData, Boolean, SerializationContext)</a> and <a class="xref" href="TirUtilities.External.OdinSerializer.UnitySerializationUtility.html#TirUtilities_External_OdinSerializer_UnitySerializationUtility_DeserializeUnityObject_UnityEngine_Object_TirUtilities_External_OdinSerializer_SerializationData__TirUtilities_External_OdinSerializer_DeserializationContext_">DeserializeUnityObject(UnityEngine.Object, ref SerializationData, DeserializationContext)</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ISelfFormatter.html">ISelfFormatter</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ISelfFormatter.yml" sourcestartlinenumber="2" sourceendlinenumber="10">Specifies that a type is capable of serializing itself using an <a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a> and an
+<a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a>.
+<p>
+The deserialized type instance will be created without a constructor call using the
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.formatterservices.getuninitializedobject#System_Runtime_Serialization_FormatterServices_GetUninitializedObject_System_Type_">GetUninitializedObject(Type)</a>
+method if it is a reference type, otherwise it will be created using default(type).
+<p>
+Use <a class="xref" href="TirUtilities.External.OdinSerializer.AlwaysFormatsSelfAttribute.html">AlwaysFormatsSelfAttribute</a> to specify that a class which implements this
+interface should <em>always</em> format itself regardless of other formatters being specified.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ISerializationPolicy.html">ISerializationPolicy</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ISerializationPolicy.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Defines which members to serialize and deserialize when there aren&apos;t any custom formatters for a type.
+Usually, it governs the behaviour of the <a class="xref" href="TirUtilities.External.OdinSerializer.FormatterEmitter.html">FormatterEmitter</a> and <a class="xref" href="TirUtilities.External.OdinSerializer.ReflectionFormatter-1.html">ReflectionFormatter&lt;T&gt;</a> classes.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ISupportsPrefabSerialization.html">ISupportsPrefabSerialization</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ISupportsPrefabSerialization.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates that an Odin-serialized Unity object supports prefab serialization.</p>
+</section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BinaryEntryType.html">BinaryEntryType</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.BinaryEntryType.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Entry types in the binary format written by <a class="xref" href="TirUtilities.External.OdinSerializer.BinaryDataWriter.html">BinaryDataWriter</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.DataFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Specifies a data format to read and write in.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.EntryType.html">EntryType</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.EntryType.yml" sourcestartlinenumber="2" sourceendlinenumber="2">An entry type which is part of a stream being read by a <a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.ErrorHandlingPolicy.html">ErrorHandlingPolicy</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.ErrorHandlingPolicy.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The policy for handling errors during serialization and deserialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.FormatterLocationStep.html">FormatterLocationStep</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.LoggingPolicy.html">LoggingPolicy</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.LoggingPolicy.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The policy for which level of logging to do during serialization and deserialization.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.PrefabModificationType.html">PrefabModificationType</a></h4>
+      <section><p sourcefile="api/TirUtilities.External.OdinSerializer.PrefabModificationType.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Types of prefab modification that can be applied.</p>
+</section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="TirUtilities.External.OdinSerializer.BaseFormatter-1.SerializationCallback.html">BaseFormatter&lt;T&gt;.SerializationCallback</a></h4>
+      <section></section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            TirUtilities
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
