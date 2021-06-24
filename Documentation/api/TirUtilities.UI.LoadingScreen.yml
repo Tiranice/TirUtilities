@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.UI.LoadingScreen
+  commentId: T:TirUtilities.UI.LoadingScreen
+  id: LoadingScreen
+  parent: TirUtilities.UI
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LoadingScreen
+  nameWithType: LoadingScreen
+  fullName: TirUtilities.UI.LoadingScreen
+  type: Class
+  source:
+    id: LoadingScreen
+    path: ''
+    startLine: 2435
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: 'public class LoadingScreen : MonoBehaviour'
+    content.vb: >-
+      Public Class LoadingScreen
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: TirUtilities.UI
+  commentId: N:TirUtilities.UI
+  name: TirUtilities.UI
+  nameWithType: TirUtilities.UI
+  fullName: TirUtilities.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

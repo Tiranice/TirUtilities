@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Experimental.QuittingState
+  commentId: T:TirUtilities.Experimental.QuittingState
+  id: QuittingState
+  parent: TirUtilities.Experimental
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: QuittingState
+  nameWithType: QuittingState
+  fullName: TirUtilities.Experimental.QuittingState
+  type: Class
+  source:
+    id: QuittingState
+    path: ''
+    startLine: 1513
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Experimental
+  syntax:
+    content: 'public class QuittingState : ApplicationState, IState<ApplicationStateMachine>'
+    content.vb: >-
+      Public Class QuittingState
+          Inherits ApplicationState
+          Implements IState(Of ApplicationStateMachine)
+  inheritance:
+  - System.Object
+  - TirUtilities.Experimental.ApplicationState
+  implements:
+  - TirUtilities.IState{TirUtilities.Experimental.ApplicationStateMachine}
+  inheritedMembers:
+  - TirUtilities.Experimental.ApplicationState._description
+  - TirUtilities.Experimental.ApplicationState.Description
+  - TirUtilities.Experimental.ApplicationState.PausedTimeScale
+  - TirUtilities.Experimental.ApplicationState.PlayingTimeScale
+  - TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  - TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
+  - TirUtilities.Experimental.ApplicationState.UpdateState(TirUtilities.Experimental.ApplicationStateMachine)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: TirUtilities.Experimental
+  commentId: N:TirUtilities.Experimental
+  name: TirUtilities.Experimental
+  nameWithType: TirUtilities.Experimental
+  fullName: TirUtilities.Experimental
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TirUtilities.Experimental.ApplicationState
+  commentId: T:TirUtilities.Experimental.ApplicationState
+  parent: TirUtilities.Experimental
+  name: ApplicationState
+  nameWithType: ApplicationState
+  fullName: TirUtilities.Experimental.ApplicationState
+- uid: TirUtilities.IState{TirUtilities.Experimental.ApplicationStateMachine}
+  commentId: T:TirUtilities.IState{TirUtilities.Experimental.ApplicationStateMachine}
+  parent: TirUtilities
+  definition: TirUtilities.IState`1
+  name: IState<ApplicationStateMachine>
+  nameWithType: IState<ApplicationStateMachine>
+  fullName: TirUtilities.IState<TirUtilities.Experimental.ApplicationStateMachine>
+  nameWithType.vb: IState(Of ApplicationStateMachine)
+  fullName.vb: TirUtilities.IState(Of TirUtilities.Experimental.ApplicationStateMachine)
+  name.vb: IState(Of ApplicationStateMachine)
+  spec.csharp:
+  - uid: TirUtilities.IState`1
+    name: IState
+    nameWithType: IState
+    fullName: TirUtilities.IState
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TirUtilities.Experimental.ApplicationStateMachine
+    name: ApplicationStateMachine
+    nameWithType: ApplicationStateMachine
+    fullName: TirUtilities.Experimental.ApplicationStateMachine
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TirUtilities.IState`1
+    name: IState
+    nameWithType: IState
+    fullName: TirUtilities.IState
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TirUtilities.Experimental.ApplicationStateMachine
+    name: ApplicationStateMachine
+    nameWithType: ApplicationStateMachine
+    fullName: TirUtilities.Experimental.ApplicationStateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Experimental.ApplicationState._description
+  commentId: F:TirUtilities.Experimental.ApplicationState._description
+  parent: TirUtilities.Experimental.ApplicationState
+  name: _description
+  nameWithType: ApplicationState._description
+  fullName: TirUtilities.Experimental.ApplicationState._description
+- uid: TirUtilities.Experimental.ApplicationState.Description
+  commentId: P:TirUtilities.Experimental.ApplicationState.Description
+  parent: TirUtilities.Experimental.ApplicationState
+  name: Description
+  nameWithType: ApplicationState.Description
+  fullName: TirUtilities.Experimental.ApplicationState.Description
+- uid: TirUtilities.Experimental.ApplicationState.PausedTimeScale
+  commentId: P:TirUtilities.Experimental.ApplicationState.PausedTimeScale
+  parent: TirUtilities.Experimental.ApplicationState
+  name: PausedTimeScale
+  nameWithType: ApplicationState.PausedTimeScale
+  fullName: TirUtilities.Experimental.ApplicationState.PausedTimeScale
+- uid: TirUtilities.Experimental.ApplicationState.PlayingTimeScale
+  commentId: P:TirUtilities.Experimental.ApplicationState.PlayingTimeScale
+  parent: TirUtilities.Experimental.ApplicationState
+  name: PlayingTimeScale
+  nameWithType: ApplicationState.PlayingTimeScale
+  fullName: TirUtilities.Experimental.ApplicationState.PlayingTimeScale
+- uid: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  commentId: M:TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  parent: TirUtilities.Experimental.ApplicationState
+  name: EnterState(ApplicationStateMachine)
+  nameWithType: ApplicationState.EnterState(ApplicationStateMachine)
+  fullName: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  spec.csharp:
+  - uid: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+    name: EnterState
+    nameWithType: ApplicationState.EnterState
+    fullName: TirUtilities.Experimental.ApplicationState.EnterState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TirUtilities.Experimental.ApplicationStateMachine
+    name: ApplicationStateMachine
+    nameWithType: ApplicationStateMachine
+    fullName: TirUtilities.Experimental.ApplicationStateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+    name: EnterState
+    nameWithType: ApplicationState.EnterState
+    fullName: TirUtilities.Experimental.ApplicationState.EnterState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TirUtilities.Experimental.ApplicationStateMachine
+    name: ApplicationStateMachine
+    nameWithType: ApplicationStateMachine
+    fullName: TirUtilities.Experimental.ApplicationStateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
+  commentId: M:TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
+  parent: TirUtilities.Experimental.ApplicationState
+  name: ExitState(ApplicationStateMachine)
+  nameWithType: ApplicationState.ExitState(ApplicationStateMachine)
+  fullName: TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
+  spec.csharp:
+  - uid: TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
+    name: ExitState
+    nameWithType: ApplicationState.ExitState
+    fullName: TirUtilities.Experimental.ApplicationState.ExitState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TirUtilities.Experimental.ApplicationStateMachine
+    name: ApplicationStateMachine
+    nameWithType: ApplicationStateMachine
+    fullName: TirUtilities.Experimental.ApplicationStateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
+    name: ExitState
+    nameWithType: ApplicationState.ExitState
+    fullName: TirUtilities.Experimental.ApplicationState.ExitState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TirUtilities.Experimental.ApplicationStateMachine
+    name: ApplicationStateMachine
+    nameWithType: ApplicationStateMachine
+    fullName: TirUtilities.Experimental.ApplicationStateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Experimental.ApplicationState.UpdateState(TirUtilities.Experimental.ApplicationStateMachine)
+  commentId: M:TirUtilities.Experimental.ApplicationState.UpdateState(TirUtilities.Experimental.ApplicationStateMachine)
+  parent: TirUtilities.Experimental.ApplicationState
+  name: UpdateState(ApplicationStateMachine)
+  nameWithType: ApplicationState.UpdateState(ApplicationStateMachine)
+  fullName: TirUtilities.Experimental.ApplicationState.UpdateState(TirUtilities.Experimental.ApplicationStateMachine)
+  spec.csharp:
+  - uid: TirUtilities.Experimental.ApplicationState.UpdateState(TirUtilities.Experimental.ApplicationStateMachine)
+    name: UpdateState
+    nameWithType: ApplicationState.UpdateState
+    fullName: TirUtilities.Experimental.ApplicationState.UpdateState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TirUtilities.Experimental.ApplicationStateMachine
+    name: ApplicationStateMachine
+    nameWithType: ApplicationStateMachine
+    fullName: TirUtilities.Experimental.ApplicationStateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TirUtilities.Experimental.ApplicationState.UpdateState(TirUtilities.Experimental.ApplicationStateMachine)
+    name: UpdateState
+    nameWithType: ApplicationState.UpdateState
+    fullName: TirUtilities.Experimental.ApplicationState.UpdateState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TirUtilities.Experimental.ApplicationStateMachine
+    name: ApplicationStateMachine
+    nameWithType: ApplicationStateMachine
+    fullName: TirUtilities.Experimental.ApplicationStateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.IState`1
+  commentId: T:TirUtilities.IState`1
+  name: IState<T>
+  nameWithType: IState<T>
+  fullName: TirUtilities.IState<T>
+  nameWithType.vb: IState(Of T)
+  fullName.vb: TirUtilities.IState(Of T)
+  name.vb: IState(Of T)
+  spec.csharp:
+  - uid: TirUtilities.IState`1
+    name: IState
+    nameWithType: IState
+    fullName: TirUtilities.IState
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TirUtilities.IState`1
+    name: IState
+    nameWithType: IState
+    fullName: TirUtilities.IState
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities
+  commentId: N:TirUtilities
+  name: TirUtilities
+  nameWithType: TirUtilities
+  fullName: TirUtilities

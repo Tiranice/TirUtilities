@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.CustomGizmos.DrawBoxGizmo
+  commentId: T:TirUtilities.CustomGizmos.DrawBoxGizmo
+  id: DrawBoxGizmo
+  parent: TirUtilities.CustomGizmos
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: DrawBoxGizmo
+  nameWithType: DrawBoxGizmo
+  fullName: TirUtilities.CustomGizmos.DrawBoxGizmo
+  type: Class
+  source:
+    id: DrawBoxGizmo
+    path: ''
+    startLine: 1786
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.CustomGizmos
+  summary: "\nDraws a box around a box collider.\n"
+  example: []
+  syntax:
+    content: 'public class DrawBoxGizmo : MonoBehaviour'
+    content.vb: >-
+      Public Class DrawBoxGizmo
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: TirUtilities.CustomGizmos
+  commentId: N:TirUtilities.CustomGizmos
+  name: TirUtilities.CustomGizmos
+  nameWithType: TirUtilities.CustomGizmos
+  fullName: TirUtilities.CustomGizmos
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

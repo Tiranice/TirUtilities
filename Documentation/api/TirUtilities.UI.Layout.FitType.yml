@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.UI.Layout.FitType
+  commentId: T:TirUtilities.UI.Layout.FitType
+  id: FitType
+  parent: TirUtilities.UI.Layout
+  children:
+  - TirUtilities.UI.Layout.FitType.FixedColumns
+  - TirUtilities.UI.Layout.FitType.FixedRows
+  - TirUtilities.UI.Layout.FitType.Height
+  - TirUtilities.UI.Layout.FitType.Uniform
+  - TirUtilities.UI.Layout.FitType.Width
+  langs:
+  - csharp
+  - vb
+  name: FitType
+  nameWithType: FitType
+  fullName: TirUtilities.UI.Layout.FitType
+  type: Enum
+  source:
+    id: FitType
+    path: ''
+    startLine: 3437
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: public enum FitType
+    content.vb: Public Enum FitType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TirUtilities.UI.Layout.FitType.Uniform
+  commentId: F:TirUtilities.UI.Layout.FitType.Uniform
+  id: Uniform
+  parent: TirUtilities.UI.Layout.FitType
+  langs:
+  - csharp
+  - vb
+  name: Uniform
+  nameWithType: FitType.Uniform
+  fullName: TirUtilities.UI.Layout.FitType.Uniform
+  type: Field
+  source:
+    id: Uniform
+    path: ''
+    startLine: 3439
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: Uniform = 0
+    return:
+      type: TirUtilities.UI.Layout.FitType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TirUtilities.UI.Layout.FitType.Width
+  commentId: F:TirUtilities.UI.Layout.FitType.Width
+  id: Width
+  parent: TirUtilities.UI.Layout.FitType
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: FitType.Width
+  fullName: TirUtilities.UI.Layout.FitType.Width
+  type: Field
+  source:
+    id: Width
+    path: ''
+    startLine: 3440
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: Width = 1
+    return:
+      type: TirUtilities.UI.Layout.FitType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TirUtilities.UI.Layout.FitType.Height
+  commentId: F:TirUtilities.UI.Layout.FitType.Height
+  id: Height
+  parent: TirUtilities.UI.Layout.FitType
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: FitType.Height
+  fullName: TirUtilities.UI.Layout.FitType.Height
+  type: Field
+  source:
+    id: Height
+    path: ''
+    startLine: 3441
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: Height = 2
+    return:
+      type: TirUtilities.UI.Layout.FitType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TirUtilities.UI.Layout.FitType.FixedRows
+  commentId: F:TirUtilities.UI.Layout.FitType.FixedRows
+  id: FixedRows
+  parent: TirUtilities.UI.Layout.FitType
+  langs:
+  - csharp
+  - vb
+  name: FixedRows
+  nameWithType: FitType.FixedRows
+  fullName: TirUtilities.UI.Layout.FitType.FixedRows
+  type: Field
+  source:
+    id: FixedRows
+    path: ''
+    startLine: 3442
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: FixedRows = 3
+    return:
+      type: TirUtilities.UI.Layout.FitType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TirUtilities.UI.Layout.FitType.FixedColumns
+  commentId: F:TirUtilities.UI.Layout.FitType.FixedColumns
+  id: FixedColumns
+  parent: TirUtilities.UI.Layout.FitType
+  langs:
+  - csharp
+  - vb
+  name: FixedColumns
+  nameWithType: FitType.FixedColumns
+  fullName: TirUtilities.UI.Layout.FitType.FixedColumns
+  type: Field
+  source:
+    id: FixedColumns
+    path: ''
+    startLine: 3443
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: FixedColumns = 4
+    return:
+      type: TirUtilities.UI.Layout.FitType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TirUtilities.UI.Layout
+  commentId: N:TirUtilities.UI.Layout
+  name: TirUtilities.UI.Layout
+  nameWithType: TirUtilities.UI.Layout
+  fullName: TirUtilities.UI.Layout
+- uid: TirUtilities.UI.Layout.FitType
+  commentId: T:TirUtilities.UI.Layout.FitType
+  parent: TirUtilities.UI.Layout
+  name: FitType
+  nameWithType: FitType
+  fullName: TirUtilities.UI.Layout.FitType

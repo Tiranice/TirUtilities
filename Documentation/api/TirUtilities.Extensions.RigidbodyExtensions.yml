@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Extensions.RigidbodyExtensions
+  commentId: T:TirUtilities.Extensions.RigidbodyExtensions
+  id: RigidbodyExtensions
+  parent: TirUtilities.Extensions
+  children:
+  - TirUtilities.Extensions.RigidbodyExtensions.CancelAllVelocity(Rigidbody)
+  langs:
+  - csharp
+  - vb
+  name: RigidbodyExtensions
+  nameWithType: RigidbodyExtensions
+  fullName: TirUtilities.Extensions.RigidbodyExtensions
+  type: Class
+  source:
+    id: RigidbodyExtensions
+    path: ''
+    startLine: 857
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Extensions
+  summary: "\nExtension methods for Unity rigidbodies.\n"
+  example: []
+  syntax:
+    content: public static class RigidbodyExtensions
+    content.vb: Public Module RigidbodyExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TirUtilities.Extensions.RigidbodyExtensions.CancelAllVelocity(Rigidbody)
+  commentId: M:TirUtilities.Extensions.RigidbodyExtensions.CancelAllVelocity(Rigidbody)
+  id: CancelAllVelocity(Rigidbody)
+  isExtensionMethod: true
+  parent: TirUtilities.Extensions.RigidbodyExtensions
+  langs:
+  - csharp
+  - vb
+  name: CancelAllVelocity(Rigidbody)
+  nameWithType: RigidbodyExtensions.CancelAllVelocity(Rigidbody)
+  fullName: TirUtilities.Extensions.RigidbodyExtensions.CancelAllVelocity(Rigidbody)
+  type: Method
+  source:
+    id: CancelAllVelocity
+    path: ''
+    startLine: 861
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Extensions
+  summary: 'Set velocity and angular velocity to zero. '
+  example: []
+  syntax:
+    content: public static void CancelAllVelocity(this Rigidbody rigidbody)
+    parameters:
+    - id: rigidbody
+      type: Global.Rigidbody
+      description: This rigidbody.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub CancelAllVelocity(rigidbody As Rigidbody)
+  overload: TirUtilities.Extensions.RigidbodyExtensions.CancelAllVelocity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TirUtilities.Extensions
+  commentId: N:TirUtilities.Extensions
+  name: TirUtilities.Extensions
+  nameWithType: TirUtilities.Extensions
+  fullName: TirUtilities.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.Extensions.RigidbodyExtensions.CancelAllVelocity*
+  commentId: Overload:TirUtilities.Extensions.RigidbodyExtensions.CancelAllVelocity
+  name: CancelAllVelocity
+  nameWithType: RigidbodyExtensions.CancelAllVelocity
+  fullName: TirUtilities.Extensions.RigidbodyExtensions.CancelAllVelocity
+- uid: Global.Rigidbody
+  commentId: '!:Global.Rigidbody'
+  isExternal: true
+  name: Rigidbody
+  nameWithType: Rigidbody
+  fullName: Rigidbody

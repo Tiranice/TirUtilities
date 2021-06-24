@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Serialization
+  commentId: N:TirUtilities.Serialization
+  id: TirUtilities.Serialization
+  children:
+  - TirUtilities.Serialization.TirJsonUtility
+  langs:
+  - csharp
+  - vb
+  name: TirUtilities.Serialization
+  nameWithType: TirUtilities.Serialization
+  fullName: TirUtilities.Serialization
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TirUtilities.Serialization.TirJsonUtility
+  commentId: T:TirUtilities.Serialization.TirJsonUtility
+  name: TirJsonUtility
+  nameWithType: TirJsonUtility
+  fullName: TirUtilities.Serialization.TirJsonUtility

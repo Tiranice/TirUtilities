@@ -1,0 +1,51 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+    #ROOTNAMESPACEBEGIN#
+///<!--
+/// #SCRIPTNAME#.cs
+/// 
+/// Project:  Project
+///        
+/// Author :  Author
+/// Created:  Jan. 01, 2021
+/// Updated:  Jan. 01, 2021
+/// -->
+/// <summary>
+///
+/// </summary>
+public class #SCRIPTNAME#
+{
+    #region Data Structures
+    #NOTRIM#
+    #endregion
+    #NOTRIM#
+    #region Fields
+    #NOTRIM#
+    #endregion
+    #NOTRIM#
+    #region Events
+    #NOTRIM#
+    #endregion
+    #region Constructor
+    #NOTRIM#
+    #endregion
+    #NOTRIM#
+    #region Private Methods
+    #NOTRIM#
+    #endregion
+    #NOTRIM#
+    #region Public Methods
+    #NOTRIM#
+    #endregion
+    #NOTRIM#
+    #region Private Properties
+    #NOTRIM#
+    #endregion
+    #NOTRIM#
+    #region Public Properties
+    #NOTRIM#
+    #endregion
+}
+#ROOTNAMESPACEEND#

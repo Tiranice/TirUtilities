@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.StateMachine
+  commentId: T:TirUtilities.StateMachine
+  id: StateMachine
+  parent: TirUtilities
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: TirUtilities.StateMachine
+  type: Class
+  source:
+    id: StateMachine
+    path: ''
+    startLine: 1632
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: 'public abstract class StateMachine : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class StateMachine
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - TirUtilities.Experimental.ApplicationStateMachine
+  - TirUtilities.UI.MenuStateMachine
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+references:
+- uid: TirUtilities
+  commentId: N:TirUtilities
+  name: TirUtilities
+  nameWithType: TirUtilities
+  fullName: TirUtilities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

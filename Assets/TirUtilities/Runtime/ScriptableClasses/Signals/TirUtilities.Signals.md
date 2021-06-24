@@ -1,0 +1,4 @@
+---
+uid: TirUtilities.Signal.Signals
+
+---

@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Editor.FlexGridInpector
+  commentId: T:TirUtilities.Editor.FlexGridInpector
+  id: FlexGridInpector
+  parent: TirUtilities.Editor
+  children:
+  - TirUtilities.Editor.FlexGridInpector.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: FlexGridInpector
+  nameWithType: FlexGridInpector
+  fullName: TirUtilities.Editor.FlexGridInpector
+  type: Class
+  source:
+    id: FlexGridInpector
+    path: ''
+    startLine: 63
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Editor
+  summary: "\nINCOMPLETE\n"
+  example: []
+  syntax:
+    content: 'public class FlexGridInpector : UnityEditor.Editor'
+    content.vb: >-
+      Public Class FlexGridInpector
+          Inherits UnityEditor.Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.Editor.FlexGridInpector.OnInspectorGUI
+  commentId: M:TirUtilities.Editor.FlexGridInpector.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: TirUtilities.Editor.FlexGridInpector
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: FlexGridInpector.OnInspectorGUI()
+  fullName: TirUtilities.Editor.FlexGridInpector.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 83
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Editor
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: TirUtilities.Editor.FlexGridInpector.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TirUtilities.Editor
+  commentId: N:TirUtilities.Editor
+  name: TirUtilities.Editor
+  nameWithType: TirUtilities.Editor
+  fullName: TirUtilities.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.Editor.FlexGridInpector.OnInspectorGUI*
+  commentId: Overload:TirUtilities.Editor.FlexGridInpector.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: FlexGridInpector.OnInspectorGUI
+  fullName: TirUtilities.Editor.FlexGridInpector.OnInspectorGUI

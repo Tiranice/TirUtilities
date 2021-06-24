@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Controllers
+  commentId: N:TirUtilities.Controllers
+  id: TirUtilities.Controllers
+  children:
+  - TirUtilities.Controllers.CameraLookEvents
+  - TirUtilities.Controllers.MouseUtility
+  - TirUtilities.Controllers.ThirdPersonController
+  langs:
+  - csharp
+  - vb
+  name: TirUtilities.Controllers
+  nameWithType: TirUtilities.Controllers
+  fullName: TirUtilities.Controllers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TirUtilities.Controllers.ThirdPersonController
+  commentId: T:TirUtilities.Controllers.ThirdPersonController
+  name: ThirdPersonController
+  nameWithType: ThirdPersonController
+  fullName: TirUtilities.Controllers.ThirdPersonController
+- uid: TirUtilities.Controllers.CameraLookEvents
+  commentId: T:TirUtilities.Controllers.CameraLookEvents
+  name: CameraLookEvents
+  nameWithType: CameraLookEvents
+  fullName: TirUtilities.Controllers.CameraLookEvents
+- uid: TirUtilities.Controllers.MouseUtility
+  commentId: T:TirUtilities.Controllers.MouseUtility
+  name: MouseUtility
+  nameWithType: MouseUtility
+  fullName: TirUtilities.Controllers.MouseUtility

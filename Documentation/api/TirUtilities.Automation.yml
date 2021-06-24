@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Automation
+  commentId: N:TirUtilities.Automation
+  id: TirUtilities.Automation
+  children:
+  - TirUtilities.Automation.AutoRotate
+  langs:
+  - csharp
+  - vb
+  name: TirUtilities.Automation
+  nameWithType: TirUtilities.Automation
+  fullName: TirUtilities.Automation
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TirUtilities.Automation.AutoRotate
+  commentId: T:TirUtilities.Automation.AutoRotate
+  name: AutoRotate
+  nameWithType: AutoRotate
+  fullName: TirUtilities.Automation.AutoRotate

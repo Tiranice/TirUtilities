@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Automation.AutoRotate
+  commentId: T:TirUtilities.Automation.AutoRotate
+  id: AutoRotate
+  parent: TirUtilities.Automation
+  children:
+  - TirUtilities.Automation.AutoRotate.ToggleRotation
+  langs:
+  - csharp
+  - vb
+  name: AutoRotate
+  nameWithType: AutoRotate
+  fullName: TirUtilities.Automation.AutoRotate
+  type: Class
+  source:
+    id: AutoRotate
+    path: ''
+    startLine: 909
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Automation
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: 'public class AutoRotate : MonoBehaviour'
+    content.vb: >-
+      Public Class AutoRotate
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.Automation.AutoRotate.ToggleRotation
+  commentId: M:TirUtilities.Automation.AutoRotate.ToggleRotation
+  id: ToggleRotation
+  parent: TirUtilities.Automation.AutoRotate
+  langs:
+  - csharp
+  - vb
+  name: ToggleRotation()
+  nameWithType: AutoRotate.ToggleRotation()
+  fullName: TirUtilities.Automation.AutoRotate.ToggleRotation()
+  type: Method
+  source:
+    id: ToggleRotation
+    path: ''
+    startLine: 966
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Automation
+  syntax:
+    content: public static void ToggleRotation()
+    content.vb: Public Shared Sub ToggleRotation
+  overload: TirUtilities.Automation.AutoRotate.ToggleRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TirUtilities.Automation
+  commentId: N:TirUtilities.Automation
+  name: TirUtilities.Automation
+  nameWithType: TirUtilities.Automation
+  fullName: TirUtilities.Automation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.Automation.AutoRotate.ToggleRotation*
+  commentId: Overload:TirUtilities.Automation.AutoRotate.ToggleRotation
+  name: ToggleRotation
+  nameWithType: AutoRotate.ToggleRotation
+  fullName: TirUtilities.Automation.AutoRotate.ToggleRotation

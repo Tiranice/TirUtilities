@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.UI.Layout.FlexibleGridLayoutGroup
+  commentId: T:TirUtilities.UI.Layout.FlexibleGridLayoutGroup
+  id: FlexibleGridLayoutGroup
+  parent: TirUtilities.UI.Layout
+  children:
+  - TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputHorizontal
+  - TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputVertical
+  - TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutHorizontal
+  - TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutVertical
+  langs:
+  - csharp
+  - vb
+  name: FlexibleGridLayoutGroup
+  nameWithType: FlexibleGridLayoutGroup
+  fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup
+  type: Class
+  source:
+    id: FlexibleGridLayoutGroup
+    path: ''
+    startLine: 3458
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: 'public class FlexibleGridLayoutGroup : LayoutGroup'
+    content.vb: >-
+      Public Class FlexibleGridLayoutGroup
+          Inherits LayoutGroup
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputHorizontal
+  commentId: M:TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputHorizontal
+  id: CalculateLayoutInputHorizontal
+  parent: TirUtilities.UI.Layout.FlexibleGridLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: CalculateLayoutInputHorizontal()
+  nameWithType: FlexibleGridLayoutGroup.CalculateLayoutInputHorizontal()
+  fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputHorizontal()
+  type: Method
+  source:
+    id: CalculateLayoutInputHorizontal
+    path: ''
+    startLine: 3498
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: public override void CalculateLayoutInputHorizontal()
+    content.vb: Public Overrides Sub CalculateLayoutInputHorizontal
+  overload: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputHorizontal*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputVertical
+  commentId: M:TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputVertical
+  id: CalculateLayoutInputVertical
+  parent: TirUtilities.UI.Layout.FlexibleGridLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: CalculateLayoutInputVertical()
+  nameWithType: FlexibleGridLayoutGroup.CalculateLayoutInputVertical()
+  fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputVertical()
+  type: Method
+  source:
+    id: CalculateLayoutInputVertical
+    path: ''
+    startLine: 3513
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: public override void CalculateLayoutInputVertical()
+    content.vb: Public Overrides Sub CalculateLayoutInputVertical
+  overload: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputVertical*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutHorizontal
+  commentId: M:TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutHorizontal
+  id: SetLayoutHorizontal
+  parent: TirUtilities.UI.Layout.FlexibleGridLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: SetLayoutHorizontal()
+  nameWithType: FlexibleGridLayoutGroup.SetLayoutHorizontal()
+  fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutHorizontal()
+  type: Method
+  source:
+    id: SetLayoutHorizontal
+    path: ''
+    startLine: 3522
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: public override void SetLayoutHorizontal()
+    content.vb: Public Overrides Sub SetLayoutHorizontal
+  overload: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutHorizontal*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutVertical
+  commentId: M:TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutVertical
+  id: SetLayoutVertical
+  parent: TirUtilities.UI.Layout.FlexibleGridLayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: SetLayoutVertical()
+  nameWithType: FlexibleGridLayoutGroup.SetLayoutVertical()
+  fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutVertical()
+  type: Method
+  source:
+    id: SetLayoutVertical
+    path: ''
+    startLine: 3524
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: public override void SetLayoutVertical()
+    content.vb: Public Overrides Sub SetLayoutVertical
+  overload: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutVertical*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: TirUtilities.UI.Layout
+  commentId: N:TirUtilities.UI.Layout
+  name: TirUtilities.UI.Layout
+  nameWithType: TirUtilities.UI.Layout
+  fullName: TirUtilities.UI.Layout
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputHorizontal*
+  commentId: Overload:TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputHorizontal
+  name: CalculateLayoutInputHorizontal
+  nameWithType: FlexibleGridLayoutGroup.CalculateLayoutInputHorizontal
+  fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputHorizontal
+- uid: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputVertical*
+  commentId: Overload:TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputVertical
+  name: CalculateLayoutInputVertical
+  nameWithType: FlexibleGridLayoutGroup.CalculateLayoutInputVertical
+  fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.CalculateLayoutInputVertical
+- uid: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutHorizontal*
+  commentId: Overload:TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutHorizontal
+  name: SetLayoutHorizontal
+  nameWithType: FlexibleGridLayoutGroup.SetLayoutHorizontal
+  fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutHorizontal
+- uid: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutVertical*
+  commentId: Overload:TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutVertical
+  name: SetLayoutVertical
+  nameWithType: FlexibleGridLayoutGroup.SetLayoutVertical
+  fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutVertical

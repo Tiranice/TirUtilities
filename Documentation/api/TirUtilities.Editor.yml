@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Editor
+  commentId: N:TirUtilities.Editor
+  id: TirUtilities.Editor
+  children:
+  - TirUtilities.Editor.FlexGridInpector
+  - TirUtilities.Editor.LevelSystemInspector
+  langs:
+  - csharp
+  - vb
+  name: TirUtilities.Editor
+  nameWithType: TirUtilities.Editor
+  fullName: TirUtilities.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TirUtilities.Editor.FlexGridInpector
+  commentId: T:TirUtilities.Editor.FlexGridInpector
+  name: FlexGridInpector
+  nameWithType: FlexGridInpector
+  fullName: TirUtilities.Editor.FlexGridInpector
+- uid: TirUtilities.Editor.LevelSystemInspector
+  commentId: T:TirUtilities.Editor.LevelSystemInspector
+  name: LevelSystemInspector
+  nameWithType: LevelSystemInspector
+  fullName: TirUtilities.Editor.LevelSystemInspector

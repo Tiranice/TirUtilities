@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Signals.ByteSignal
+  commentId: T:TirUtilities.Signals.ByteSignal
+  id: ByteSignal
+  parent: TirUtilities.Signals
+  children:
+  - TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction{System.Byte})
+  - TirUtilities.Signals.ByteSignal.Emit(System.Byte)
+  - TirUtilities.Signals.ByteSignal.RemoveReceiver(UnityAction{System.Byte})
+  langs:
+  - csharp
+  - vb
+  name: ByteSignal
+  nameWithType: ByteSignal
+  fullName: TirUtilities.Signals.ByteSignal
+  type: Class
+  source:
+    id: ByteSignal
+    path: ''
+    startLine: 2589
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nHolds a UnityAction so that it can be referenced across scenes and assigned in the inspector.\n"
+  example: []
+  syntax:
+    content: 'public class ByteSignal : SignalBase'
+    content.vb: >-
+      Public Class ByteSignal
+          Inherits SignalBase
+  inheritance:
+  - System.Object
+  - TirUtilities.Signals.SignalBase
+  inheritedMembers:
+  - TirUtilities.Signals.SignalBase._description
+  - TirUtilities.Signals.SignalBase.Description
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction{System.Byte})
+  commentId: M:TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction{System.Byte})
+  id: AddReceiver(UnityAction{System.Byte})
+  parent: TirUtilities.Signals.ByteSignal
+  langs:
+  - csharp
+  - vb
+  name: AddReceiver(UnityAction<Byte>)
+  nameWithType: ByteSignal.AddReceiver(UnityAction<Byte>)
+  fullName: TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction<System.Byte>)
+  type: Method
+  source:
+    id: AddReceiver
+    path: ''
+    startLine: 2608
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nRegister a callback function to be invoked when this signal is <xref href=\"TirUtilities.Signals.ByteSignal.Emit(System.Byte)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public virtual void AddReceiver(UnityAction<byte> receiver)
+    parameters:
+    - id: receiver
+      type: Global.UnityAction{System.Byte}
+      description: The callback to be invoked.
+    content.vb: Public Overridable Sub AddReceiver(receiver As UnityAction(Of Byte))
+  overload: TirUtilities.Signals.ByteSignal.AddReceiver*
+  nameWithType.vb: ByteSignal.AddReceiver(UnityAction(Of Byte))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction(Of System.Byte))
+  name.vb: AddReceiver(UnityAction(Of Byte))
+- uid: TirUtilities.Signals.ByteSignal.RemoveReceiver(UnityAction{System.Byte})
+  commentId: M:TirUtilities.Signals.ByteSignal.RemoveReceiver(UnityAction{System.Byte})
+  id: RemoveReceiver(UnityAction{System.Byte})
+  parent: TirUtilities.Signals.ByteSignal
+  langs:
+  - csharp
+  - vb
+  name: RemoveReceiver(UnityAction<Byte>)
+  nameWithType: ByteSignal.RemoveReceiver(UnityAction<Byte>)
+  fullName: TirUtilities.Signals.ByteSignal.RemoveReceiver(UnityAction<System.Byte>)
+  type: Method
+  source:
+    id: RemoveReceiver
+    path: ''
+    startLine: 2614
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nUnregister a callback function.\n"
+  example: []
+  syntax:
+    content: public virtual void RemoveReceiver(UnityAction<byte> receiver)
+    parameters:
+    - id: receiver
+      type: Global.UnityAction{System.Byte}
+      description: The callback function.
+    content.vb: Public Overridable Sub RemoveReceiver(receiver As UnityAction(Of Byte))
+  overload: TirUtilities.Signals.ByteSignal.RemoveReceiver*
+  nameWithType.vb: ByteSignal.RemoveReceiver(UnityAction(Of Byte))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: TirUtilities.Signals.ByteSignal.RemoveReceiver(UnityAction(Of System.Byte))
+  name.vb: RemoveReceiver(UnityAction(Of Byte))
+- uid: TirUtilities.Signals.ByteSignal.Emit(System.Byte)
+  commentId: M:TirUtilities.Signals.ByteSignal.Emit(System.Byte)
+  id: Emit(System.Byte)
+  parent: TirUtilities.Signals.ByteSignal
+  langs:
+  - csharp
+  - vb
+  name: Emit(Byte)
+  nameWithType: ByteSignal.Emit(Byte)
+  fullName: TirUtilities.Signals.ByteSignal.Emit(System.Byte)
+  type: Method
+  source:
+    id: Emit
+    path: ''
+    startLine: 2620
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nEmit this signal to all receivers registered with \n<xref href=\"TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction%7bSystem.Byte%7d)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public virtual void Emit(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+    content.vb: Public Overridable Sub Emit(value As Byte)
+  overload: TirUtilities.Signals.ByteSignal.Emit*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: TirUtilities.Signals
+  commentId: N:TirUtilities.Signals
+  name: TirUtilities.Signals
+  nameWithType: TirUtilities.Signals
+  fullName: TirUtilities.Signals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TirUtilities.Signals.SignalBase
+  commentId: T:TirUtilities.Signals.SignalBase
+  parent: TirUtilities.Signals
+  name: SignalBase
+  nameWithType: SignalBase
+  fullName: TirUtilities.Signals.SignalBase
+- uid: TirUtilities.Signals.SignalBase._description
+  commentId: F:TirUtilities.Signals.SignalBase._description
+  parent: TirUtilities.Signals.SignalBase
+  name: _description
+  nameWithType: SignalBase._description
+  fullName: TirUtilities.Signals.SignalBase._description
+- uid: TirUtilities.Signals.SignalBase.Description
+  commentId: P:TirUtilities.Signals.SignalBase.Description
+  parent: TirUtilities.Signals.SignalBase
+  name: Description
+  nameWithType: SignalBase.Description
+  fullName: TirUtilities.Signals.SignalBase.Description
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.Signals.ByteSignal.Emit(System.Byte)
+  commentId: M:TirUtilities.Signals.ByteSignal.Emit(System.Byte)
+  isExternal: true
+- uid: TirUtilities.Signals.ByteSignal.AddReceiver*
+  commentId: Overload:TirUtilities.Signals.ByteSignal.AddReceiver
+  name: AddReceiver
+  nameWithType: ByteSignal.AddReceiver
+  fullName: TirUtilities.Signals.ByteSignal.AddReceiver
+- uid: Global.UnityAction{System.Byte}
+  commentId: '!:Global.UnityAction{System.Byte}'
+  definition: Global.UnityAction`1
+  name: UnityAction<Byte>
+  nameWithType: UnityAction<Byte>
+  fullName: UnityAction<System.Byte>
+  nameWithType.vb: UnityAction(Of Byte)
+  fullName.vb: UnityAction(Of System.Byte)
+  name.vb: UnityAction(Of Byte)
+  spec.csharp:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityAction`1
+  isExternal: true
+  name: UnityAction<>
+  nameWithType: UnityAction<>
+  fullName: UnityAction<>
+  nameWithType.vb: UnityAction(Of )
+  fullName.vb: UnityAction(Of )
+  name.vb: UnityAction(Of )
+  spec.csharp:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Signals.ByteSignal.RemoveReceiver*
+  commentId: Overload:TirUtilities.Signals.ByteSignal.RemoveReceiver
+  name: RemoveReceiver
+  nameWithType: ByteSignal.RemoveReceiver
+  fullName: TirUtilities.Signals.ByteSignal.RemoveReceiver
+- uid: TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction{System.Byte})
+  commentId: M:TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction{System.Byte})
+  isExternal: true
+- uid: TirUtilities.Signals.ByteSignal.Emit*
+  commentId: Overload:TirUtilities.Signals.ByteSignal.Emit
+  name: Emit
+  nameWithType: ByteSignal.Emit
+  fullName: TirUtilities.Signals.ByteSignal.Emit
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.DisplayOnlyAttribute
+  commentId: T:TirUtilities.DisplayOnlyAttribute
+  id: DisplayOnlyAttribute
+  parent: TirUtilities
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: DisplayOnlyAttribute
+  nameWithType: DisplayOnlyAttribute
+  fullName: TirUtilities.DisplayOnlyAttribute
+  type: Class
+  source:
+    id: DisplayOnlyAttribute
+    path: ''
+    startLine: 19
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  summary: "\nThe tagged field is be displayed in the inspector, but cannot be edited.\n"
+  remarks: "\nProperty drawer:  TirUtilities/Editor/PropertyDrawers/DisplayOnlyDrawer.cs\n"
+  example: []
+  syntax:
+    content: 'public class DisplayOnlyAttribute : PropertyAttribute'
+    content.vb: >-
+      Public Class DisplayOnlyAttribute
+          Inherits PropertyAttribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: TirUtilities
+  commentId: N:TirUtilities
+  name: TirUtilities
+  nameWithType: TirUtilities
+  fullName: TirUtilities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

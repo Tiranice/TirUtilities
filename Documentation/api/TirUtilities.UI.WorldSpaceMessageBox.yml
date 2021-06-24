@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.UI.WorldSpaceMessageBox
+  commentId: T:TirUtilities.UI.WorldSpaceMessageBox
+  id: WorldSpaceMessageBox
+  parent: TirUtilities.UI
+  children:
+  - TirUtilities.UI.WorldSpaceMessageBox.CreateMessageBox(System.String,GameObject)
+  - TirUtilities.UI.WorldSpaceMessageBox.IsFirstMessage
+  - TirUtilities.UI.WorldSpaceMessageBox.OnMessageBoxDismissed
+  - TirUtilities.UI.WorldSpaceMessageBox.Text
+  langs:
+  - csharp
+  - vb
+  name: WorldSpaceMessageBox
+  nameWithType: WorldSpaceMessageBox
+  fullName: TirUtilities.UI.WorldSpaceMessageBox
+  type: Class
+  source:
+    id: WorldSpaceMessageBox
+    path: ''
+    startLine: 3980
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: "\nA world space UI panel that holds TMP text and links to another message.\n"
+  example: []
+  syntax:
+    content: 'public class WorldSpaceMessageBox : MonoBehaviour'
+    content.vb: >-
+      Public Class WorldSpaceMessageBox
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.UI.WorldSpaceMessageBox.OnMessageBoxDismissed
+  commentId: F:TirUtilities.UI.WorldSpaceMessageBox.OnMessageBoxDismissed
+  id: OnMessageBoxDismissed
+  parent: TirUtilities.UI.WorldSpaceMessageBox
+  langs:
+  - csharp
+  - vb
+  name: OnMessageBoxDismissed
+  nameWithType: WorldSpaceMessageBox.OnMessageBoxDismissed
+  fullName: TirUtilities.UI.WorldSpaceMessageBox.OnMessageBoxDismissed
+  type: Field
+  source:
+    id: OnMessageBoxDismissed
+    path: ''
+    startLine: 4013
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  syntax:
+    content: public UnityEvent OnMessageBoxDismissed
+    return:
+      type: Global.UnityEvent
+    content.vb: Public OnMessageBoxDismissed As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TirUtilities.UI.WorldSpaceMessageBox.IsFirstMessage
+  commentId: P:TirUtilities.UI.WorldSpaceMessageBox.IsFirstMessage
+  id: IsFirstMessage
+  parent: TirUtilities.UI.WorldSpaceMessageBox
+  langs:
+  - csharp
+  - vb
+  name: IsFirstMessage
+  nameWithType: WorldSpaceMessageBox.IsFirstMessage
+  fullName: TirUtilities.UI.WorldSpaceMessageBox.IsFirstMessage
+  type: Property
+  source:
+    id: IsFirstMessage
+    path: ''
+    startLine: 4023
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: 'Whether or not this is the first message in a chain. '
+  example: []
+  syntax:
+    content: public bool IsFirstMessage { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFirstMessage As Boolean
+  overload: TirUtilities.UI.WorldSpaceMessageBox.IsFirstMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TirUtilities.UI.WorldSpaceMessageBox.Text
+  commentId: P:TirUtilities.UI.WorldSpaceMessageBox.Text
+  id: Text
+  parent: TirUtilities.UI.WorldSpaceMessageBox
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: WorldSpaceMessageBox.Text
+  fullName: TirUtilities.UI.WorldSpaceMessageBox.Text
+  type: Property
+  source:
+    id: Text
+    path: ''
+    startLine: 4026
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: 'The text stored in this message&apos;s <xref href="TirUtilities.UI.WorldSpaceMessageBox._billboard" data-throw-if-not-resolved="false"></xref>. '
+  example: []
+  syntax:
+    content: public string Text { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Text As String
+  overload: TirUtilities.UI.WorldSpaceMessageBox.Text*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TirUtilities.UI.WorldSpaceMessageBox.CreateMessageBox(System.String,GameObject)
+  commentId: M:TirUtilities.UI.WorldSpaceMessageBox.CreateMessageBox(System.String,GameObject)
+  id: CreateMessageBox(System.String,GameObject)
+  parent: TirUtilities.UI.WorldSpaceMessageBox
+  langs:
+  - csharp
+  - vb
+  name: CreateMessageBox(String, GameObject)
+  nameWithType: WorldSpaceMessageBox.CreateMessageBox(String, GameObject)
+  fullName: TirUtilities.UI.WorldSpaceMessageBox.CreateMessageBox(System.String, GameObject)
+  type: Method
+  source:
+    id: CreateMessageBox
+    path: ''
+    startLine: 4097
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: "\nUNFINISHED\n"
+  example: []
+  syntax:
+    content: public static WorldSpaceMessageBox CreateMessageBox(string text, GameObject nextMessage = null)
+    parameters:
+    - id: text
+      type: System.String
+      description: ''
+    - id: nextMessage
+      type: Global.GameObject
+      description: ''
+    return:
+      type: TirUtilities.UI.WorldSpaceMessageBox
+      description: ''
+    content.vb: Public Shared Function CreateMessageBox(text As String, nextMessage As GameObject = Nothing) As WorldSpaceMessageBox
+  overload: TirUtilities.UI.WorldSpaceMessageBox.CreateMessageBox*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TirUtilities.UI
+  commentId: N:TirUtilities.UI
+  name: TirUtilities.UI
+  nameWithType: TirUtilities.UI
+  fullName: TirUtilities.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: TirUtilities.UI.WorldSpaceMessageBox.IsFirstMessage*
+  commentId: Overload:TirUtilities.UI.WorldSpaceMessageBox.IsFirstMessage
+  name: IsFirstMessage
+  nameWithType: WorldSpaceMessageBox.IsFirstMessage
+  fullName: TirUtilities.UI.WorldSpaceMessageBox.IsFirstMessage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TirUtilities.UI.WorldSpaceMessageBox._billboard
+  commentId: F:TirUtilities.UI.WorldSpaceMessageBox._billboard
+  isExternal: true
+- uid: TirUtilities.UI.WorldSpaceMessageBox.Text*
+  commentId: Overload:TirUtilities.UI.WorldSpaceMessageBox.Text
+  name: Text
+  nameWithType: WorldSpaceMessageBox.Text
+  fullName: TirUtilities.UI.WorldSpaceMessageBox.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TirUtilities.UI.WorldSpaceMessageBox.CreateMessageBox*
+  commentId: Overload:TirUtilities.UI.WorldSpaceMessageBox.CreateMessageBox
+  name: CreateMessageBox
+  nameWithType: WorldSpaceMessageBox.CreateMessageBox
+  fullName: TirUtilities.UI.WorldSpaceMessageBox.CreateMessageBox
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: TirUtilities.UI.WorldSpaceMessageBox
+  commentId: T:TirUtilities.UI.WorldSpaceMessageBox
+  parent: TirUtilities.UI
+  name: WorldSpaceMessageBox
+  nameWithType: WorldSpaceMessageBox
+  fullName: TirUtilities.UI.WorldSpaceMessageBox

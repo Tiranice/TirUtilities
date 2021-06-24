@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Signals.LevelLoadSignal
+  commentId: T:TirUtilities.Signals.LevelLoadSignal
+  id: LevelLoadSignal
+  parent: TirUtilities.Signals
+  children:
+  - TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  - TirUtilities.Signals.LevelLoadSignal.Emit
+  - TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  langs:
+  - csharp
+  - vb
+  name: LevelLoadSignal
+  nameWithType: LevelLoadSignal
+  fullName: TirUtilities.Signals.LevelLoadSignal
+  type: Class
+  source:
+    id: LevelLoadSignal
+    path: ''
+    startLine: 2815
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nSignal that emits a copy of a <xref href=\"TirUtilities.LevelManagment.LevelData\" data-throw-if-not-resolved=\"false\"></xref> value.\n"
+  example: []
+  syntax:
+    content: 'public class LevelLoadSignal : SignalBase'
+    content.vb: >-
+      Public Class LevelLoadSignal
+          Inherits SignalBase
+  inheritance:
+  - System.Object
+  - TirUtilities.Signals.SignalBase
+  inheritedMembers:
+  - TirUtilities.Signals.SignalBase._description
+  - TirUtilities.Signals.SignalBase.Description
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  commentId: M:TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  id: AddReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  parent: TirUtilities.Signals.LevelLoadSignal
+  langs:
+  - csharp
+  - vb
+  name: AddReceiver(UnityAction<LevelData>)
+  nameWithType: LevelLoadSignal.AddReceiver(UnityAction<LevelData>)
+  fullName: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction<TirUtilities.LevelManagment.LevelData>)
+  type: Method
+  source:
+    id: AddReceiver
+    path: ''
+    startLine: 2843
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nRegister a callback function to be invoked when this signal is <xref href=\"TirUtilities.Signals.LevelLoadSignal.Emit\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public virtual void AddReceiver(UnityAction<LevelData> receiver)
+    parameters:
+    - id: receiver
+      type: Global.UnityAction{TirUtilities.LevelManagment.LevelData}
+      description: The callback to be invoked.
+    content.vb: Public Overridable Sub AddReceiver(receiver As UnityAction(Of LevelData))
+  overload: TirUtilities.Signals.LevelLoadSignal.AddReceiver*
+  nameWithType.vb: LevelLoadSignal.AddReceiver(UnityAction(Of LevelData))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction(Of TirUtilities.LevelManagment.LevelData))
+  name.vb: AddReceiver(UnityAction(Of LevelData))
+- uid: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  commentId: M:TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  id: RemoveReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  parent: TirUtilities.Signals.LevelLoadSignal
+  langs:
+  - csharp
+  - vb
+  name: RemoveReceiver(UnityAction<LevelData>)
+  nameWithType: LevelLoadSignal.RemoveReceiver(UnityAction<LevelData>)
+  fullName: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction<TirUtilities.LevelManagment.LevelData>)
+  type: Method
+  source:
+    id: RemoveReceiver
+    path: ''
+    startLine: 2849
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nUnregister a callback function.\n"
+  example: []
+  syntax:
+    content: public virtual void RemoveReceiver(UnityAction<LevelData> receiver)
+    parameters:
+    - id: receiver
+      type: Global.UnityAction{TirUtilities.LevelManagment.LevelData}
+      description: The callback function.
+    content.vb: Public Overridable Sub RemoveReceiver(receiver As UnityAction(Of LevelData))
+  overload: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver*
+  nameWithType.vb: LevelLoadSignal.RemoveReceiver(UnityAction(Of LevelData))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction(Of TirUtilities.LevelManagment.LevelData))
+  name.vb: RemoveReceiver(UnityAction(Of LevelData))
+- uid: TirUtilities.Signals.LevelLoadSignal.Emit
+  commentId: M:TirUtilities.Signals.LevelLoadSignal.Emit
+  id: Emit
+  parent: TirUtilities.Signals.LevelLoadSignal
+  langs:
+  - csharp
+  - vb
+  name: Emit()
+  nameWithType: LevelLoadSignal.Emit()
+  fullName: TirUtilities.Signals.LevelLoadSignal.Emit()
+  type: Method
+  source:
+    id: Emit
+    path: ''
+    startLine: 2855
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nEmit this signal to all receivers, calling their \n<xref href=\"TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction%7bTirUtilities.LevelManagment.LevelData%7d)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public virtual void Emit()
+    content.vb: Public Overridable Sub Emit
+  overload: TirUtilities.Signals.LevelLoadSignal.Emit*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: TirUtilities.LevelManagment.LevelData
+  commentId: T:TirUtilities.LevelManagment.LevelData
+  parent: TirUtilities.LevelManagment
+  name: LevelData
+  nameWithType: LevelData
+  fullName: TirUtilities.LevelManagment.LevelData
+- uid: TirUtilities.Signals
+  commentId: N:TirUtilities.Signals
+  name: TirUtilities.Signals
+  nameWithType: TirUtilities.Signals
+  fullName: TirUtilities.Signals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TirUtilities.Signals.SignalBase
+  commentId: T:TirUtilities.Signals.SignalBase
+  parent: TirUtilities.Signals
+  name: SignalBase
+  nameWithType: SignalBase
+  fullName: TirUtilities.Signals.SignalBase
+- uid: TirUtilities.Signals.SignalBase._description
+  commentId: F:TirUtilities.Signals.SignalBase._description
+  parent: TirUtilities.Signals.SignalBase
+  name: _description
+  nameWithType: SignalBase._description
+  fullName: TirUtilities.Signals.SignalBase._description
+- uid: TirUtilities.Signals.SignalBase.Description
+  commentId: P:TirUtilities.Signals.SignalBase.Description
+  parent: TirUtilities.Signals.SignalBase
+  name: Description
+  nameWithType: SignalBase.Description
+  fullName: TirUtilities.Signals.SignalBase.Description
+- uid: TirUtilities.LevelManagment
+  commentId: N:TirUtilities.LevelManagment
+  name: TirUtilities.LevelManagment
+  nameWithType: TirUtilities.LevelManagment
+  fullName: TirUtilities.LevelManagment
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.Signals.LevelLoadSignal.Emit
+  commentId: M:TirUtilities.Signals.LevelLoadSignal.Emit
+  isExternal: true
+- uid: TirUtilities.Signals.LevelLoadSignal.AddReceiver*
+  commentId: Overload:TirUtilities.Signals.LevelLoadSignal.AddReceiver
+  name: AddReceiver
+  nameWithType: LevelLoadSignal.AddReceiver
+  fullName: TirUtilities.Signals.LevelLoadSignal.AddReceiver
+- uid: Global.UnityAction{TirUtilities.LevelManagment.LevelData}
+  commentId: '!:Global.UnityAction{TirUtilities.LevelManagment.LevelData}'
+  definition: Global.UnityAction`1
+  name: UnityAction<LevelData>
+  nameWithType: UnityAction<LevelData>
+  fullName: UnityAction<TirUtilities.LevelManagment.LevelData>
+  nameWithType.vb: UnityAction(Of LevelData)
+  fullName.vb: UnityAction(Of TirUtilities.LevelManagment.LevelData)
+  name.vb: UnityAction(Of LevelData)
+  spec.csharp:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TirUtilities.LevelManagment.LevelData
+    name: LevelData
+    nameWithType: LevelData
+    fullName: TirUtilities.LevelManagment.LevelData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TirUtilities.LevelManagment.LevelData
+    name: LevelData
+    nameWithType: LevelData
+    fullName: TirUtilities.LevelManagment.LevelData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityAction`1
+  isExternal: true
+  name: UnityAction<>
+  nameWithType: UnityAction<>
+  fullName: UnityAction<>
+  nameWithType.vb: UnityAction(Of )
+  fullName.vb: UnityAction(Of )
+  name.vb: UnityAction(Of )
+  spec.csharp:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver*
+  commentId: Overload:TirUtilities.Signals.LevelLoadSignal.RemoveReceiver
+  name: RemoveReceiver
+  nameWithType: LevelLoadSignal.RemoveReceiver
+  fullName: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver
+- uid: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  commentId: M:TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  isExternal: true
+- uid: TirUtilities.Signals.LevelLoadSignal.Emit*
+  commentId: Overload:TirUtilities.Signals.LevelLoadSignal.Emit
+  name: Emit
+  nameWithType: LevelLoadSignal.Emit
+  fullName: TirUtilities.Signals.LevelLoadSignal.Emit

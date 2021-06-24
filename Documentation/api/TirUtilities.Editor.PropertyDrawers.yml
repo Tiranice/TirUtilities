@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Editor.PropertyDrawers
+  commentId: N:TirUtilities.Editor.PropertyDrawers
+  id: TirUtilities.Editor.PropertyDrawers
+  children:
+  - TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer
+  - TirUtilities.Editor.PropertyDrawers.ScenePathDrawer
+  langs:
+  - csharp
+  - vb
+  name: TirUtilities.Editor.PropertyDrawers
+  nameWithType: TirUtilities.Editor.PropertyDrawers
+  fullName: TirUtilities.Editor.PropertyDrawers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer
+  commentId: T:TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer
+  name: DisplayOnlyDrawer
+  nameWithType: DisplayOnlyDrawer
+  fullName: TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer
+- uid: TirUtilities.Editor.PropertyDrawers.ScenePathDrawer
+  commentId: T:TirUtilities.Editor.PropertyDrawers.ScenePathDrawer
+  name: ScenePathDrawer
+  nameWithType: ScenePathDrawer
+  fullName: TirUtilities.Editor.PropertyDrawers.ScenePathDrawer

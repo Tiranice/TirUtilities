@@ -1,0 +1,299 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Signals.GameObjectSignal
+  commentId: T:TirUtilities.Signals.GameObjectSignal
+  id: GameObjectSignal
+  parent: TirUtilities.Signals
+  children:
+  - TirUtilities.Signals.GameObjectSignal.AddReceiver(UnityAction{GameObject})
+  - TirUtilities.Signals.GameObjectSignal.Emit(GameObject)
+  - TirUtilities.Signals.GameObjectSignal.RemoveReceiver(UnityAction{GameObject})
+  langs:
+  - csharp
+  - vb
+  name: GameObjectSignal
+  nameWithType: GameObjectSignal
+  fullName: TirUtilities.Signals.GameObjectSignal
+  type: Class
+  source:
+    id: GameObjectSignal
+    path: ''
+    startLine: 2699
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nA <xref href=\"TirUtilities.Signals.Signal\" data-throw-if-not-resolved=\"false\"></xref> that emits a game object.\n"
+  example: []
+  syntax:
+    content: 'public class GameObjectSignal : SignalBase'
+    content.vb: >-
+      Public Class GameObjectSignal
+          Inherits SignalBase
+  inheritance:
+  - System.Object
+  - TirUtilities.Signals.SignalBase
+  inheritedMembers:
+  - TirUtilities.Signals.SignalBase._description
+  - TirUtilities.Signals.SignalBase.Description
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.Signals.GameObjectSignal.AddReceiver(UnityAction{GameObject})
+  commentId: M:TirUtilities.Signals.GameObjectSignal.AddReceiver(UnityAction{GameObject})
+  id: AddReceiver(UnityAction{GameObject})
+  parent: TirUtilities.Signals.GameObjectSignal
+  langs:
+  - csharp
+  - vb
+  name: AddReceiver(UnityAction<GameObject>)
+  nameWithType: GameObjectSignal.AddReceiver(UnityAction<GameObject>)
+  fullName: TirUtilities.Signals.GameObjectSignal.AddReceiver(UnityAction<GameObject>)
+  type: Method
+  source:
+    id: AddReceiver
+    path: ''
+    startLine: 2718
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nRegister a callback function to be invoked when this signal is <xref href=\"TirUtilities.Signals.GameObjectSignal.Emit(GameObject)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public virtual void AddReceiver(UnityAction<GameObject> receiver)
+    parameters:
+    - id: receiver
+      type: Global.UnityAction{GameObject}
+      description: The callback to be invoked.
+    content.vb: Public Overridable Sub AddReceiver(receiver As UnityAction(Of GameObject))
+  overload: TirUtilities.Signals.GameObjectSignal.AddReceiver*
+  nameWithType.vb: GameObjectSignal.AddReceiver(UnityAction(Of GameObject))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: TirUtilities.Signals.GameObjectSignal.AddReceiver(UnityAction(Of GameObject))
+  name.vb: AddReceiver(UnityAction(Of GameObject))
+- uid: TirUtilities.Signals.GameObjectSignal.RemoveReceiver(UnityAction{GameObject})
+  commentId: M:TirUtilities.Signals.GameObjectSignal.RemoveReceiver(UnityAction{GameObject})
+  id: RemoveReceiver(UnityAction{GameObject})
+  parent: TirUtilities.Signals.GameObjectSignal
+  langs:
+  - csharp
+  - vb
+  name: RemoveReceiver(UnityAction<GameObject>)
+  nameWithType: GameObjectSignal.RemoveReceiver(UnityAction<GameObject>)
+  fullName: TirUtilities.Signals.GameObjectSignal.RemoveReceiver(UnityAction<GameObject>)
+  type: Method
+  source:
+    id: RemoveReceiver
+    path: ''
+    startLine: 2724
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nRegister a callback function.\n"
+  example: []
+  syntax:
+    content: public virtual void RemoveReceiver(UnityAction<GameObject> receiver)
+    parameters:
+    - id: receiver
+      type: Global.UnityAction{GameObject}
+      description: The callback function.
+    content.vb: Public Overridable Sub RemoveReceiver(receiver As UnityAction(Of GameObject))
+  overload: TirUtilities.Signals.GameObjectSignal.RemoveReceiver*
+  nameWithType.vb: GameObjectSignal.RemoveReceiver(UnityAction(Of GameObject))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: TirUtilities.Signals.GameObjectSignal.RemoveReceiver(UnityAction(Of GameObject))
+  name.vb: RemoveReceiver(UnityAction(Of GameObject))
+- uid: TirUtilities.Signals.GameObjectSignal.Emit(GameObject)
+  commentId: M:TirUtilities.Signals.GameObjectSignal.Emit(GameObject)
+  id: Emit(GameObject)
+  parent: TirUtilities.Signals.GameObjectSignal
+  langs:
+  - csharp
+  - vb
+  name: Emit(GameObject)
+  nameWithType: GameObjectSignal.Emit(GameObject)
+  fullName: TirUtilities.Signals.GameObjectSignal.Emit(GameObject)
+  type: Method
+  source:
+    id: Emit
+    path: ''
+    startLine: 2730
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nEmit this signal to all receivers, calling their \n<xref href=\"TirUtilities.Signals.GameObjectSignal.AddReceiver(UnityAction%7bGameObject%7d)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public virtual void Emit(GameObject target)
+    parameters:
+    - id: target
+      type: Global.GameObject
+    content.vb: Public Overridable Sub Emit(target As GameObject)
+  overload: TirUtilities.Signals.GameObjectSignal.Emit*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: TirUtilities.Signals.Signal
+  commentId: T:TirUtilities.Signals.Signal
+  name: Signal
+  nameWithType: Signal
+  fullName: TirUtilities.Signals.Signal
+- uid: TirUtilities.Signals
+  commentId: N:TirUtilities.Signals
+  name: TirUtilities.Signals
+  nameWithType: TirUtilities.Signals
+  fullName: TirUtilities.Signals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TirUtilities.Signals.SignalBase
+  commentId: T:TirUtilities.Signals.SignalBase
+  parent: TirUtilities.Signals
+  name: SignalBase
+  nameWithType: SignalBase
+  fullName: TirUtilities.Signals.SignalBase
+- uid: TirUtilities.Signals.SignalBase._description
+  commentId: F:TirUtilities.Signals.SignalBase._description
+  parent: TirUtilities.Signals.SignalBase
+  name: _description
+  nameWithType: SignalBase._description
+  fullName: TirUtilities.Signals.SignalBase._description
+- uid: TirUtilities.Signals.SignalBase.Description
+  commentId: P:TirUtilities.Signals.SignalBase.Description
+  parent: TirUtilities.Signals.SignalBase
+  name: Description
+  nameWithType: SignalBase.Description
+  fullName: TirUtilities.Signals.SignalBase.Description
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.Signals.GameObjectSignal.Emit(GameObject)
+  commentId: M:TirUtilities.Signals.GameObjectSignal.Emit(GameObject)
+  isExternal: true
+- uid: TirUtilities.Signals.GameObjectSignal.AddReceiver*
+  commentId: Overload:TirUtilities.Signals.GameObjectSignal.AddReceiver
+  name: AddReceiver
+  nameWithType: GameObjectSignal.AddReceiver
+  fullName: TirUtilities.Signals.GameObjectSignal.AddReceiver
+- uid: Global.UnityAction{GameObject}
+  commentId: '!:Global.UnityAction{GameObject}'
+  definition: Global.UnityAction`1
+  name: UnityAction<GameObject>
+  nameWithType: UnityAction<GameObject>
+  fullName: UnityAction<GameObject>
+  nameWithType.vb: UnityAction(Of GameObject)
+  fullName.vb: UnityAction(Of GameObject)
+  name.vb: UnityAction(Of GameObject)
+  spec.csharp:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityAction`1
+  isExternal: true
+  name: UnityAction<>
+  nameWithType: UnityAction<>
+  fullName: UnityAction<>
+  nameWithType.vb: UnityAction(Of )
+  fullName.vb: UnityAction(Of )
+  name.vb: UnityAction(Of )
+  spec.csharp:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Signals.GameObjectSignal.RemoveReceiver*
+  commentId: Overload:TirUtilities.Signals.GameObjectSignal.RemoveReceiver
+  name: RemoveReceiver
+  nameWithType: GameObjectSignal.RemoveReceiver
+  fullName: TirUtilities.Signals.GameObjectSignal.RemoveReceiver
+- uid: TirUtilities.Signals.GameObjectSignal.AddReceiver(UnityAction{GameObject})
+  commentId: M:TirUtilities.Signals.GameObjectSignal.AddReceiver(UnityAction{GameObject})
+  isExternal: true
+- uid: TirUtilities.Signals.GameObjectSignal.Emit*
+  commentId: Overload:TirUtilities.Signals.GameObjectSignal.Emit
+  name: Emit
+  nameWithType: GameObjectSignal.Emit
+  fullName: TirUtilities.Signals.GameObjectSignal.Emit
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

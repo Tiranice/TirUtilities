@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.UI.Layout.FitTypeExtensions
+  commentId: T:TirUtilities.UI.Layout.FitTypeExtensions
+  id: FitTypeExtensions
+  parent: TirUtilities.UI.Layout
+  children:
+  - TirUtilities.UI.Layout.FitTypeExtensions.DistributesColumnwise(TirUtilities.UI.Layout.FitType)
+  - TirUtilities.UI.Layout.FitTypeExtensions.DistributesEvenly(TirUtilities.UI.Layout.FitType)
+  - TirUtilities.UI.Layout.FitTypeExtensions.DistributesRowise(TirUtilities.UI.Layout.FitType)
+  langs:
+  - csharp
+  - vb
+  name: FitTypeExtensions
+  nameWithType: FitTypeExtensions
+  fullName: TirUtilities.UI.Layout.FitTypeExtensions
+  type: Class
+  source:
+    id: FitTypeExtensions
+    path: ''
+    startLine: 3446
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: public static class FitTypeExtensions
+    content.vb: Public Module FitTypeExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TirUtilities.UI.Layout.FitTypeExtensions.DistributesEvenly(TirUtilities.UI.Layout.FitType)
+  commentId: M:TirUtilities.UI.Layout.FitTypeExtensions.DistributesEvenly(TirUtilities.UI.Layout.FitType)
+  id: DistributesEvenly(TirUtilities.UI.Layout.FitType)
+  isExtensionMethod: true
+  parent: TirUtilities.UI.Layout.FitTypeExtensions
+  langs:
+  - csharp
+  - vb
+  name: DistributesEvenly(FitType)
+  nameWithType: FitTypeExtensions.DistributesEvenly(FitType)
+  fullName: TirUtilities.UI.Layout.FitTypeExtensions.DistributesEvenly(TirUtilities.UI.Layout.FitType)
+  type: Method
+  source:
+    id: DistributesEvenly
+    path: ''
+    startLine: 3448
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: public static bool DistributesEvenly(this FitType fitType)
+    parameters:
+    - id: fitType
+      type: TirUtilities.UI.Layout.FitType
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DistributesEvenly(fitType As FitType) As Boolean
+  overload: TirUtilities.UI.Layout.FitTypeExtensions.DistributesEvenly*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.UI.Layout.FitTypeExtensions.DistributesColumnwise(TirUtilities.UI.Layout.FitType)
+  commentId: M:TirUtilities.UI.Layout.FitTypeExtensions.DistributesColumnwise(TirUtilities.UI.Layout.FitType)
+  id: DistributesColumnwise(TirUtilities.UI.Layout.FitType)
+  isExtensionMethod: true
+  parent: TirUtilities.UI.Layout.FitTypeExtensions
+  langs:
+  - csharp
+  - vb
+  name: DistributesColumnwise(FitType)
+  nameWithType: FitTypeExtensions.DistributesColumnwise(FitType)
+  fullName: TirUtilities.UI.Layout.FitTypeExtensions.DistributesColumnwise(TirUtilities.UI.Layout.FitType)
+  type: Method
+  source:
+    id: DistributesColumnwise
+    path: ''
+    startLine: 3451
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: public static bool DistributesColumnwise(this FitType fitType)
+    parameters:
+    - id: fitType
+      type: TirUtilities.UI.Layout.FitType
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DistributesColumnwise(fitType As FitType) As Boolean
+  overload: TirUtilities.UI.Layout.FitTypeExtensions.DistributesColumnwise*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.UI.Layout.FitTypeExtensions.DistributesRowise(TirUtilities.UI.Layout.FitType)
+  commentId: M:TirUtilities.UI.Layout.FitTypeExtensions.DistributesRowise(TirUtilities.UI.Layout.FitType)
+  id: DistributesRowise(TirUtilities.UI.Layout.FitType)
+  isExtensionMethod: true
+  parent: TirUtilities.UI.Layout.FitTypeExtensions
+  langs:
+  - csharp
+  - vb
+  name: DistributesRowise(FitType)
+  nameWithType: FitTypeExtensions.DistributesRowise(FitType)
+  fullName: TirUtilities.UI.Layout.FitTypeExtensions.DistributesRowise(TirUtilities.UI.Layout.FitType)
+  type: Method
+  source:
+    id: DistributesRowise
+    path: ''
+    startLine: 3454
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI.Layout
+  syntax:
+    content: public static bool DistributesRowise(this FitType fitType)
+    parameters:
+    - id: fitType
+      type: TirUtilities.UI.Layout.FitType
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DistributesRowise(fitType As FitType) As Boolean
+  overload: TirUtilities.UI.Layout.FitTypeExtensions.DistributesRowise*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TirUtilities.UI.Layout
+  commentId: N:TirUtilities.UI.Layout
+  name: TirUtilities.UI.Layout
+  nameWithType: TirUtilities.UI.Layout
+  fullName: TirUtilities.UI.Layout
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.UI.Layout.FitTypeExtensions.DistributesEvenly*
+  commentId: Overload:TirUtilities.UI.Layout.FitTypeExtensions.DistributesEvenly
+  name: DistributesEvenly
+  nameWithType: FitTypeExtensions.DistributesEvenly
+  fullName: TirUtilities.UI.Layout.FitTypeExtensions.DistributesEvenly
+- uid: TirUtilities.UI.Layout.FitType
+  commentId: T:TirUtilities.UI.Layout.FitType
+  parent: TirUtilities.UI.Layout
+  name: FitType
+  nameWithType: FitType
+  fullName: TirUtilities.UI.Layout.FitType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TirUtilities.UI.Layout.FitTypeExtensions.DistributesColumnwise*
+  commentId: Overload:TirUtilities.UI.Layout.FitTypeExtensions.DistributesColumnwise
+  name: DistributesColumnwise
+  nameWithType: FitTypeExtensions.DistributesColumnwise
+  fullName: TirUtilities.UI.Layout.FitTypeExtensions.DistributesColumnwise
+- uid: TirUtilities.UI.Layout.FitTypeExtensions.DistributesRowise*
+  commentId: Overload:TirUtilities.UI.Layout.FitTypeExtensions.DistributesRowise
+  name: DistributesRowise
+  nameWithType: FitTypeExtensions.DistributesRowise
+  fullName: TirUtilities.UI.Layout.FitTypeExtensions.DistributesRowise

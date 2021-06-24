@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities
+  commentId: N:TirUtilities
+  id: TirUtilities
+  children:
+  - TirUtilities.DisplayOnlyAttribute
+  - TirUtilities.IState`1
+  - TirUtilities.ScenePathAttribute
+  - TirUtilities.Singleton
+  - TirUtilities.State
+  - TirUtilities.StateAction
+  - TirUtilities.StateMachine
+  - TirUtilities.TirLogger
+  - TirUtilities.Vector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: TirUtilities
+  nameWithType: TirUtilities
+  fullName: TirUtilities
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TirUtilities.DisplayOnlyAttribute
+  commentId: T:TirUtilities.DisplayOnlyAttribute
+  name: DisplayOnlyAttribute
+  nameWithType: DisplayOnlyAttribute
+  fullName: TirUtilities.DisplayOnlyAttribute
+- uid: TirUtilities.ScenePathAttribute
+  commentId: T:TirUtilities.ScenePathAttribute
+  name: ScenePathAttribute
+  nameWithType: ScenePathAttribute
+  fullName: TirUtilities.ScenePathAttribute
+- uid: TirUtilities.Vector3Extensions
+  commentId: T:TirUtilities.Vector3Extensions
+  name: Vector3Extensions
+  nameWithType: Vector3Extensions
+  fullName: TirUtilities.Vector3Extensions
+- uid: TirUtilities.Singleton
+  commentId: T:TirUtilities.Singleton
+  parent: TirUtilities
+  name: Singleton
+  nameWithType: Singleton
+  fullName: TirUtilities.Singleton
+- uid: TirUtilities.TirLogger
+  commentId: T:TirUtilities.TirLogger
+  name: TirLogger
+  nameWithType: TirLogger
+  fullName: TirUtilities.TirLogger
+- uid: TirUtilities.IState`1
+  commentId: T:TirUtilities.IState`1
+  name: IState<T>
+  nameWithType: IState<T>
+  fullName: TirUtilities.IState<T>
+  nameWithType.vb: IState(Of T)
+  fullName.vb: TirUtilities.IState(Of T)
+  name.vb: IState(Of T)
+  spec.csharp:
+  - uid: TirUtilities.IState`1
+    name: IState
+    nameWithType: IState
+    fullName: TirUtilities.IState
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TirUtilities.IState`1
+    name: IState
+    nameWithType: IState
+    fullName: TirUtilities.IState
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.StateMachine
+  commentId: T:TirUtilities.StateMachine
+  parent: TirUtilities
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: TirUtilities.StateMachine
+- uid: TirUtilities.State
+  commentId: T:TirUtilities.State
+  parent: TirUtilities
+  name: State
+  nameWithType: State
+  fullName: TirUtilities.State
+- uid: TirUtilities.StateAction
+  commentId: T:TirUtilities.StateAction
+  name: StateAction
+  nameWithType: StateAction
+  fullName: TirUtilities.StateAction
+- uid: TirUtilities
+  commentId: N:TirUtilities
+  name: TirUtilities
+  nameWithType: TirUtilities
+  fullName: TirUtilities

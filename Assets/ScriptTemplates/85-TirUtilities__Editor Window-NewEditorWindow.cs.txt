@@ -1,0 +1,70 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEditor;
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+///<!--
+/// #SCRIPTNAME#.cs
+/// 
+/// Project:  Project
+///        
+/// Author :  Author
+/// Created:  Jan. 01, 2021
+/// Updated:  Jan. 01, 2021
+/// -->
+/// <summary>
+///
+/// </summary>
+public class #SCRIPTNAME# : EditorWindow
+{
+    #region Data Structures
+    #NOTRIM#
+    #endregion
+    
+    #NOTRIM#
+    
+    #region Fields
+    #NOTRIM#
+    #endregion
+    
+    #NOTRIM#
+    
+    #region Open & Close
+    #NOTRIM#
+    
+    [MenuItem("Menu/#SCRIPTNAME#")]
+    public static void Open()
+    {
+        var window = GetWindow<#SCRIPTNAME#>();
+        window.titleContent = new GUIContent("#SCRIPTNAME#");
+    }
+    
+    #NOTRIM#
+    #endregion
+
+    #NOTRIM#
+    
+    #region Unity Messages
+    #NOTRIM#
+    
+    private void OnGUI() => PopulateWindow();
+    
+    #NOTRIM#
+    #endregion
+
+    #NOTRIM#
+    
+    #region Private Methods
+    #NOTRIM#
+    
+    private void PopulateWindow()
+    {
+    #NOTRIM#
+    }
+    
+    #NOTRIM#
+    #endregion
+}
+#ROOTNAMESPACEEND#

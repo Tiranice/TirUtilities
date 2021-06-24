@@ -1,0 +1,373 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Serialization.TirJsonUtility
+  commentId: T:TirUtilities.Serialization.TirJsonUtility
+  id: TirJsonUtility
+  parent: TirUtilities.Serialization
+  children:
+  - TirUtilities.Serialization.TirJsonUtility.GetFilesInDirectory(System.String,System.String)
+  - TirUtilities.Serialization.TirJsonUtility.ParseJsonToList``1(System.String)
+  - TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(List{``0}@,System.String)
+  langs:
+  - csharp
+  - vb
+  name: TirJsonUtility
+  nameWithType: TirJsonUtility
+  fullName: TirUtilities.Serialization.TirJsonUtility
+  type: Class
+  source:
+    id: TirJsonUtility
+    path: ''
+    startLine: 3166
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Serialization
+  summary: "\nLoads song jsons from a directory.\n"
+  example: []
+  syntax:
+    content: public class TirJsonUtility
+    content.vb: Public Class TirJsonUtility
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.Serialization.TirJsonUtility.GetFilesInDirectory(System.String,System.String)
+  commentId: M:TirUtilities.Serialization.TirJsonUtility.GetFilesInDirectory(System.String,System.String)
+  id: GetFilesInDirectory(System.String,System.String)
+  parent: TirUtilities.Serialization.TirJsonUtility
+  langs:
+  - csharp
+  - vb
+  name: GetFilesInDirectory(String, String)
+  nameWithType: TirJsonUtility.GetFilesInDirectory(String, String)
+  fullName: TirUtilities.Serialization.TirJsonUtility.GetFilesInDirectory(System.String, System.String)
+  type: Method
+  source:
+    id: GetFilesInDirectory
+    path: ''
+    startLine: 3175
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Serialization
+  summary: "\nStores the paths to all files within the given directory, whose file extensions match the\nsupplied regex.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<string> GetFilesInDirectory(string path, string fileExtensions = "*.txt")
+    parameters:
+    - id: path
+      type: System.String
+      description: The path to the json files.
+    - id: fileExtensions
+      type: System.String
+      description: A regex of file extensions, *.txt by default.
+    return:
+      type: Global.IEnumerable{System.String}
+      description: An IEnumerable over the file paths.
+    content.vb: Public Shared Function GetFilesInDirectory(path As String, fileExtensions As String = "*.txt") As IEnumerable(Of String)
+  overload: TirUtilities.Serialization.TirJsonUtility.GetFilesInDirectory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.Serialization.TirJsonUtility.ParseJsonToList``1(System.String)
+  commentId: M:TirUtilities.Serialization.TirJsonUtility.ParseJsonToList``1(System.String)
+  id: ParseJsonToList``1(System.String)
+  parent: TirUtilities.Serialization.TirJsonUtility
+  langs:
+  - csharp
+  - vb
+  name: ParseJsonToList<T>(String)
+  nameWithType: TirJsonUtility.ParseJsonToList<T>(String)
+  fullName: TirUtilities.Serialization.TirJsonUtility.ParseJsonToList<T>(System.String)
+  type: Method
+  source:
+    id: ParseJsonToList
+    path: ''
+    startLine: 3186
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Serialization
+  summary: "\nDeserializes a json file into a list of objects of type T.\n"
+  remarks: "\nThe json must be formated so that the curly braces are on their own lines.\n"
+  example: []
+  syntax:
+    content: public static List<T> ParseJsonToList<T>(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: The path to the json file.
+    typeParameters:
+    - id: T
+    return:
+      type: Global.List{{T}}
+      description: 'List of objects. '
+    content.vb: Public Shared Function ParseJsonToList(Of T)(path As String) As List(Of T)
+  overload: TirUtilities.Serialization.TirJsonUtility.ParseJsonToList*
+  nameWithType.vb: TirJsonUtility.ParseJsonToList(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TirUtilities.Serialization.TirJsonUtility.ParseJsonToList(Of T)(System.String)
+  name.vb: ParseJsonToList(Of T)(String)
+- uid: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(List{``0}@,System.String)
+  commentId: M:TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(List{``0}@,System.String)
+  id: TryParseJsonToList``1(List{``0}@,System.String)
+  parent: TirUtilities.Serialization.TirJsonUtility
+  langs:
+  - csharp
+  - vb
+  name: TryParseJsonToList<T>(out List<T>, String)
+  nameWithType: TirJsonUtility.TryParseJsonToList<T>(out List<T>, String)
+  fullName: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList<T>(out List<T>, System.String)
+  type: Method
+  source:
+    id: TryParseJsonToList
+    path: ''
+    startLine: 3225
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Serialization
+  summary: "\nDeserializes a json file into a list of objects of type T. If the path is invalid, then\nthe output list is set to null and false is returned.\n"
+  example: []
+  syntax:
+    content: public static bool TryParseJsonToList<T>(out List<T> data, string path)
+    parameters:
+    - id: data
+      type: Global.List{{T}}
+      description: The list that will hold the deserialized objects.
+    - id: path
+      type: System.String
+      description: The path to the json file.
+    typeParameters:
+    - id: T
+      description: Type of the objects represented by the json.
+    return:
+      type: System.Boolean
+      description: True the path is valid, false if the path is invalid.
+    content.vb: Public Shared Function TryParseJsonToList(Of T)(ByRef data As List(Of T), path As String) As Boolean
+  overload: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList*
+  nameWithType.vb: TirJsonUtility.TryParseJsonToList(Of T)(ByRef List(Of T), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList(Of T)(ByRef List(Of T), System.String)
+  name.vb: TryParseJsonToList(Of T)(ByRef List(Of T), String)
+references:
+- uid: TirUtilities.Serialization
+  commentId: N:TirUtilities.Serialization
+  name: TirUtilities.Serialization
+  nameWithType: TirUtilities.Serialization
+  fullName: TirUtilities.Serialization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.Serialization.TirJsonUtility.GetFilesInDirectory*
+  commentId: Overload:TirUtilities.Serialization.TirJsonUtility.GetFilesInDirectory
+  name: GetFilesInDirectory
+  nameWithType: TirJsonUtility.GetFilesInDirectory
+  fullName: TirUtilities.Serialization.TirJsonUtility.GetFilesInDirectory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.IEnumerable{System.String}
+  commentId: '!:Global.IEnumerable{System.String}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.IEnumerable`1
+  commentId: '!:Global.IEnumerable`1'
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Serialization.TirJsonUtility.ParseJsonToList*
+  commentId: Overload:TirUtilities.Serialization.TirJsonUtility.ParseJsonToList
+  name: ParseJsonToList
+  nameWithType: TirJsonUtility.ParseJsonToList
+  fullName: TirUtilities.Serialization.TirJsonUtility.ParseJsonToList
+- uid: Global.List{{T}}
+  commentId: '!:Global.List{``0}'
+  definition: Global.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList*
+  commentId: Overload:TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList
+  name: TryParseJsonToList
+  nameWithType: TirJsonUtility.TryParseJsonToList
+  fullName: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

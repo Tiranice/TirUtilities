@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.LevelManagment.LevelData
+  commentId: T:TirUtilities.LevelManagment.LevelData
+  id: LevelData
+  parent: TirUtilities.LevelManagment
+  children:
+  - TirUtilities.LevelManagment.LevelData.#ctor(System.String,List{System.String})
+  - TirUtilities.LevelManagment.LevelData.ActiveScene
+  - TirUtilities.LevelManagment.LevelData.AddativeScenes
+  langs:
+  - csharp
+  - vb
+  name: LevelData
+  nameWithType: LevelData
+  fullName: TirUtilities.LevelManagment.LevelData
+  type: Struct
+  source:
+    id: LevelData
+    path: ''
+    startLine: 2201
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.LevelManagment
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct LevelData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure LevelData
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: TirUtilities.LevelManagment.LevelData.#ctor(System.String,List{System.String})
+  commentId: M:TirUtilities.LevelManagment.LevelData.#ctor(System.String,List{System.String})
+  id: '#ctor(System.String,List{System.String})'
+  parent: TirUtilities.LevelManagment.LevelData
+  langs:
+  - csharp
+  - vb
+  name: LevelData(String, List<String>)
+  nameWithType: LevelData.LevelData(String, List<String>)
+  fullName: TirUtilities.LevelManagment.LevelData.LevelData(System.String, List<System.String>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2213
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.LevelManagment
+  syntax:
+    content: public LevelData(string activeScene, List<string> addativeScenes = null)
+    parameters:
+    - id: activeScene
+      type: System.String
+    - id: addativeScenes
+      type: Global.List{System.String}
+    content.vb: Public Sub New(activeScene As String, addativeScenes As List(Of String) = Nothing)
+  overload: TirUtilities.LevelManagment.LevelData.#ctor*
+  nameWithType.vb: LevelData.LevelData(String, List(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TirUtilities.LevelManagment.LevelData.LevelData(System.String, List(Of System.String))
+  name.vb: LevelData(String, List(Of String))
+- uid: TirUtilities.LevelManagment.LevelData.ActiveScene
+  commentId: P:TirUtilities.LevelManagment.LevelData.ActiveScene
+  id: ActiveScene
+  parent: TirUtilities.LevelManagment.LevelData
+  langs:
+  - csharp
+  - vb
+  name: ActiveScene
+  nameWithType: LevelData.ActiveScene
+  fullName: TirUtilities.LevelManagment.LevelData.ActiveScene
+  type: Property
+  source:
+    id: ActiveScene
+    path: ''
+    startLine: 2223
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.LevelManagment
+  syntax:
+    content: public string ActiveScene { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ActiveScene As String
+  overload: TirUtilities.LevelManagment.LevelData.ActiveScene*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TirUtilities.LevelManagment.LevelData.AddativeScenes
+  commentId: P:TirUtilities.LevelManagment.LevelData.AddativeScenes
+  id: AddativeScenes
+  parent: TirUtilities.LevelManagment.LevelData
+  langs:
+  - csharp
+  - vb
+  name: AddativeScenes
+  nameWithType: LevelData.AddativeScenes
+  fullName: TirUtilities.LevelManagment.LevelData.AddativeScenes
+  type: Property
+  source:
+    id: AddativeScenes
+    path: ''
+    startLine: 2224
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.LevelManagment
+  syntax:
+    content: public List<string> AddativeScenes { get; }
+    parameters: []
+    return:
+      type: Global.List{System.String}
+    content.vb: Public ReadOnly Property AddativeScenes As List(Of String)
+  overload: TirUtilities.LevelManagment.LevelData.AddativeScenes*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: TirUtilities.LevelManagment
+  commentId: N:TirUtilities.LevelManagment
+  name: TirUtilities.LevelManagment
+  nameWithType: TirUtilities.LevelManagment
+  fullName: TirUtilities.LevelManagment
+- uid: TirUtilities.LevelManagment.LevelData.#ctor*
+  commentId: Overload:TirUtilities.LevelManagment.LevelData.#ctor
+  name: LevelData
+  nameWithType: LevelData.LevelData
+  fullName: TirUtilities.LevelManagment.LevelData.LevelData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.LevelManagment.LevelData.ActiveScene*
+  commentId: Overload:TirUtilities.LevelManagment.LevelData.ActiveScene
+  name: ActiveScene
+  nameWithType: LevelData.ActiveScene
+  fullName: TirUtilities.LevelManagment.LevelData.ActiveScene
+- uid: TirUtilities.LevelManagment.LevelData.AddativeScenes*
+  commentId: Overload:TirUtilities.LevelManagment.LevelData.AddativeScenes
+  name: AddativeScenes
+  nameWithType: LevelData.AddativeScenes
+  fullName: TirUtilities.LevelManagment.LevelData.AddativeScenes

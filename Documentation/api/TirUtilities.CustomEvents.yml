@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.CustomEvents
+  commentId: N:TirUtilities.CustomEvents
+  id: TirUtilities.CustomEvents
+  children:
+  - TirUtilities.CustomEvents.BoolEvent
+  - TirUtilities.CustomEvents.GameObjectEvent
+  langs:
+  - csharp
+  - vb
+  name: TirUtilities.CustomEvents
+  nameWithType: TirUtilities.CustomEvents
+  fullName: TirUtilities.CustomEvents
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TirUtilities.CustomEvents.BoolEvent
+  commentId: T:TirUtilities.CustomEvents.BoolEvent
+  name: BoolEvent
+  nameWithType: BoolEvent
+  fullName: TirUtilities.CustomEvents.BoolEvent
+- uid: TirUtilities.CustomEvents.GameObjectEvent
+  commentId: T:TirUtilities.CustomEvents.GameObjectEvent
+  parent: TirUtilities.CustomEvents
+  name: GameObjectEvent
+  nameWithType: GameObjectEvent
+  fullName: TirUtilities.CustomEvents.GameObjectEvent
+- uid: TirUtilities.CustomEvents
+  commentId: N:TirUtilities.CustomEvents
+  name: TirUtilities.CustomEvents
+  nameWithType: TirUtilities.CustomEvents
+  fullName: TirUtilities.CustomEvents

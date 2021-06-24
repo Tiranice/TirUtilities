@@ -1,0 +1,36 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+    #ROOTNAMESPACEBEGIN#
+///<!--
+/// #SCRIPTNAME#.cs
+/// 
+/// Project:  Project
+///        
+/// Author :  Author
+/// Created:  Jan. 01, 2021
+/// Updated:  Jan. 01, 2021
+/// -->
+/// <summary>
+///
+/// </summary>
+public struct #SCRIPTNAME#
+{
+    #region Fields
+    #NOTRIM#
+    #endregion
+    #NOTRIM#
+    #region Constructor
+    #NOTRIM#
+    #endregion
+    #NOTRIM#
+    #region Private Properties
+    #NOTRIM#
+    #endregion
+    #NOTRIM#
+    #region Public Properties
+    #NOTRIM#
+    #endregion
+}
+#ROOTNAMESPACEEND#

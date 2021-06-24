@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Detection
+  commentId: N:TirUtilities.Detection
+  id: TirUtilities.Detection
+  children:
+  - TirUtilities.Detection.TriggerVolume
+  langs:
+  - csharp
+  - vb
+  name: TirUtilities.Detection
+  nameWithType: TirUtilities.Detection
+  fullName: TirUtilities.Detection
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TirUtilities.Detection.TriggerVolume
+  commentId: T:TirUtilities.Detection.TriggerVolume
+  name: TriggerVolume
+  nameWithType: TriggerVolume
+  fullName: TirUtilities.Detection.TriggerVolume

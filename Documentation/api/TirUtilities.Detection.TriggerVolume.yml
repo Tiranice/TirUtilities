@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Detection.TriggerVolume
+  commentId: T:TirUtilities.Detection.TriggerVolume
+  id: TriggerVolume
+  parent: TirUtilities.Detection
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TriggerVolume
+  nameWithType: TriggerVolume
+  fullName: TirUtilities.Detection.TriggerVolume
+  type: Class
+  source:
+    id: TriggerVolume
+    path: ''
+    startLine: 1654
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Detection
+  summary: "\nChecks if the object that enter&apos;s its collider is on a layer in the layer mask.  If it was,\n<xref href=\"TirUtilities.Detection.TriggerVolume.OnEnterVolume\" data-throw-if-not-resolved=\"false\"></xref> is invoked.\n"
+  example: []
+  syntax:
+    content: 'public class TriggerVolume : MonoBehaviour'
+    content.vb: >-
+      Public Class TriggerVolume
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: TirUtilities.Detection.TriggerVolume.OnEnterVolume
+  commentId: F:TirUtilities.Detection.TriggerVolume.OnEnterVolume
+  isExternal: true
+- uid: TirUtilities.Detection
+  commentId: N:TirUtilities.Detection
+  name: TirUtilities.Detection
+  nameWithType: TirUtilities.Detection
+  fullName: TirUtilities.Detection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.LevelManagment
+  commentId: N:TirUtilities.LevelManagment
+  id: TirUtilities.LevelManagment
+  children:
+  - TirUtilities.LevelManagment.LevelData
+  - TirUtilities.LevelManagment.LevelLoader
+  - TirUtilities.LevelManagment.LevelSystem
+  langs:
+  - csharp
+  - vb
+  name: TirUtilities.LevelManagment
+  nameWithType: TirUtilities.LevelManagment
+  fullName: TirUtilities.LevelManagment
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TirUtilities.LevelManagment.LevelData
+  commentId: T:TirUtilities.LevelManagment.LevelData
+  parent: TirUtilities.LevelManagment
+  name: LevelData
+  nameWithType: LevelData
+  fullName: TirUtilities.LevelManagment.LevelData
+- uid: TirUtilities.LevelManagment.LevelLoader
+  commentId: T:TirUtilities.LevelManagment.LevelLoader
+  name: LevelLoader
+  nameWithType: LevelLoader
+  fullName: TirUtilities.LevelManagment.LevelLoader
+- uid: TirUtilities.LevelManagment.LevelSystem
+  commentId: T:TirUtilities.LevelManagment.LevelSystem
+  name: LevelSystem
+  nameWithType: LevelSystem
+  fullName: TirUtilities.LevelManagment.LevelSystem
+- uid: TirUtilities.LevelManagment
+  commentId: N:TirUtilities.LevelManagment
+  name: TirUtilities.LevelManagment
+  nameWithType: TirUtilities.LevelManagment
+  fullName: TirUtilities.LevelManagment

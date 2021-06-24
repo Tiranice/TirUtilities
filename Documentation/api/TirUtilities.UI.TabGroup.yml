@@ -1,0 +1,350 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.UI.TabGroup
+  commentId: T:TirUtilities.UI.TabGroup
+  id: TabGroup
+  parent: TirUtilities.UI
+  children:
+  - TirUtilities.UI.TabGroup.OnTabEnter(TirUtilities.UI.TabButton)
+  - TirUtilities.UI.TabGroup.OnTabExit
+  - TirUtilities.UI.TabGroup.OnTabSelected(TirUtilities.UI.TabButton)
+  - TirUtilities.UI.TabGroup.ResetTabs
+  - TirUtilities.UI.TabGroup.Subscribe(TirUtilities.UI.TabButton)
+  - TirUtilities.UI.TabGroup.tabButtons
+  langs:
+  - csharp
+  - vb
+  name: TabGroup
+  nameWithType: TabGroup
+  fullName: TirUtilities.UI.TabGroup
+  type: Class
+  source:
+    id: TabGroup
+    path: ''
+    startLine: 4202
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: "\nDerived from code written by Matt Gambell https://youtu.be/211t6r12XPQ\n\nMaintains all tabs in child objects.\n"
+  example: []
+  syntax:
+    content: 'public class TabGroup : MonoBehaviour'
+    content.vb: >-
+      Public Class TabGroup
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.UI.TabGroup.tabButtons
+  commentId: F:TirUtilities.UI.TabGroup.tabButtons
+  id: tabButtons
+  parent: TirUtilities.UI.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: tabButtons
+  nameWithType: TabGroup.tabButtons
+  fullName: TirUtilities.UI.TabGroup.tabButtons
+  type: Field
+  source:
+    id: tabButtons
+    path: ''
+    startLine: 4207
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  syntax:
+    content: public List<TabButton> tabButtons
+    return:
+      type: Global.List{TirUtilities.UI.TabButton}
+    content.vb: Public tabButtons As List(Of TabButton)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TirUtilities.UI.TabGroup.Subscribe(TirUtilities.UI.TabButton)
+  commentId: M:TirUtilities.UI.TabGroup.Subscribe(TirUtilities.UI.TabButton)
+  id: Subscribe(TirUtilities.UI.TabButton)
+  parent: TirUtilities.UI.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: Subscribe(TabButton)
+  nameWithType: TabGroup.Subscribe(TabButton)
+  fullName: TirUtilities.UI.TabGroup.Subscribe(TirUtilities.UI.TabButton)
+  type: Method
+  source:
+    id: Subscribe
+    path: ''
+    startLine: 4276
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: "\nAdds a button the the list of buttons managed by the tab group.\n"
+  example: []
+  syntax:
+    content: public void Subscribe(TabButton button)
+    parameters:
+    - id: button
+      type: TirUtilities.UI.TabButton
+      description: ''
+    content.vb: Public Sub Subscribe(button As TabButton)
+  overload: TirUtilities.UI.TabGroup.Subscribe*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TirUtilities.UI.TabGroup.OnTabEnter(TirUtilities.UI.TabButton)
+  commentId: M:TirUtilities.UI.TabGroup.OnTabEnter(TirUtilities.UI.TabButton)
+  id: OnTabEnter(TirUtilities.UI.TabButton)
+  parent: TirUtilities.UI.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: OnTabEnter(TabButton)
+  nameWithType: TabGroup.OnTabEnter(TabButton)
+  fullName: TirUtilities.UI.TabGroup.OnTabEnter(TirUtilities.UI.TabButton)
+  type: Method
+  source:
+    id: OnTabEnter
+    path: ''
+    startLine: 4287
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: "\nCall when the mouse hovers over a tab.\n"
+  example: []
+  syntax:
+    content: public void OnTabEnter(TabButton button)
+    parameters:
+    - id: button
+      type: TirUtilities.UI.TabButton
+      description: ''
+    content.vb: Public Sub OnTabEnter(button As TabButton)
+  overload: TirUtilities.UI.TabGroup.OnTabEnter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TirUtilities.UI.TabGroup.OnTabExit
+  commentId: M:TirUtilities.UI.TabGroup.OnTabExit
+  id: OnTabExit
+  parent: TirUtilities.UI.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: OnTabExit()
+  nameWithType: TabGroup.OnTabExit()
+  fullName: TirUtilities.UI.TabGroup.OnTabExit()
+  type: Method
+  source:
+    id: OnTabExit
+    path: ''
+    startLine: 4296
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: "\nCall when a tab is deselected or the mouse leaves the tab.\n"
+  example: []
+  syntax:
+    content: public void OnTabExit()
+    content.vb: Public Sub OnTabExit
+  overload: TirUtilities.UI.TabGroup.OnTabExit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TirUtilities.UI.TabGroup.OnTabSelected(TirUtilities.UI.TabButton)
+  commentId: M:TirUtilities.UI.TabGroup.OnTabSelected(TirUtilities.UI.TabButton)
+  id: OnTabSelected(TirUtilities.UI.TabButton)
+  parent: TirUtilities.UI.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: OnTabSelected(TabButton)
+  nameWithType: TabGroup.OnTabSelected(TabButton)
+  fullName: TirUtilities.UI.TabGroup.OnTabSelected(TirUtilities.UI.TabButton)
+  type: Method
+  source:
+    id: OnTabSelected
+    path: ''
+    startLine: 4302
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: "\nCall when a tab is selected.\n"
+  example: []
+  syntax:
+    content: public void OnTabSelected(TabButton button)
+    parameters:
+    - id: button
+      type: TirUtilities.UI.TabButton
+      description: ''
+    content.vb: Public Sub OnTabSelected(button As TabButton)
+  overload: TirUtilities.UI.TabGroup.OnTabSelected*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TirUtilities.UI.TabGroup.ResetTabs
+  commentId: M:TirUtilities.UI.TabGroup.ResetTabs
+  id: ResetTabs
+  parent: TirUtilities.UI.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: ResetTabs()
+  nameWithType: TabGroup.ResetTabs()
+  fullName: TirUtilities.UI.TabGroup.ResetTabs()
+  type: Method
+  source:
+    id: ResetTabs
+    path: ''
+    startLine: 4316
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: "\nCall to reset all tabs to their default state.\n"
+  example: []
+  syntax:
+    content: public void ResetTabs()
+    content.vb: Public Sub ResetTabs
+  overload: TirUtilities.UI.TabGroup.ResetTabs*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TirUtilities.UI
+  commentId: N:TirUtilities.UI
+  name: TirUtilities.UI
+  nameWithType: TirUtilities.UI
+  fullName: TirUtilities.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{TirUtilities.UI.TabButton}
+  commentId: '!:Global.List{TirUtilities.UI.TabButton}'
+  definition: Global.List`1
+  name: List<TabButton>
+  nameWithType: List<TabButton>
+  fullName: List<TirUtilities.UI.TabButton>
+  nameWithType.vb: List(Of TabButton)
+  fullName.vb: List(Of TirUtilities.UI.TabButton)
+  name.vb: List(Of TabButton)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TirUtilities.UI.TabButton
+    name: TabButton
+    nameWithType: TabButton
+    fullName: TirUtilities.UI.TabButton
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TirUtilities.UI.TabButton
+    name: TabButton
+    nameWithType: TabButton
+    fullName: TirUtilities.UI.TabButton
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.UI.TabGroup.Subscribe*
+  commentId: Overload:TirUtilities.UI.TabGroup.Subscribe
+  name: Subscribe
+  nameWithType: TabGroup.Subscribe
+  fullName: TirUtilities.UI.TabGroup.Subscribe
+- uid: TirUtilities.UI.TabButton
+  commentId: T:TirUtilities.UI.TabButton
+  parent: TirUtilities.UI
+  name: TabButton
+  nameWithType: TabButton
+  fullName: TirUtilities.UI.TabButton
+- uid: TirUtilities.UI.TabGroup.OnTabEnter*
+  commentId: Overload:TirUtilities.UI.TabGroup.OnTabEnter
+  name: OnTabEnter
+  nameWithType: TabGroup.OnTabEnter
+  fullName: TirUtilities.UI.TabGroup.OnTabEnter
+- uid: TirUtilities.UI.TabGroup.OnTabExit*
+  commentId: Overload:TirUtilities.UI.TabGroup.OnTabExit
+  name: OnTabExit
+  nameWithType: TabGroup.OnTabExit
+  fullName: TirUtilities.UI.TabGroup.OnTabExit
+- uid: TirUtilities.UI.TabGroup.OnTabSelected*
+  commentId: Overload:TirUtilities.UI.TabGroup.OnTabSelected
+  name: OnTabSelected
+  nameWithType: TabGroup.OnTabSelected
+  fullName: TirUtilities.UI.TabGroup.OnTabSelected
+- uid: TirUtilities.UI.TabGroup.ResetTabs*
+  commentId: Overload:TirUtilities.UI.TabGroup.ResetTabs
+  name: ResetTabs
+  nameWithType: TabGroup.ResetTabs
+  fullName: TirUtilities.UI.TabGroup.ResetTabs

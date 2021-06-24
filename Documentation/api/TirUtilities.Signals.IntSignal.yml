@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Signals.IntSignal
+  commentId: T:TirUtilities.Signals.IntSignal
+  id: IntSignal
+  parent: TirUtilities.Signals
+  children:
+  - TirUtilities.Signals.IntSignal.AddReceiver(UnityAction{System.Int32})
+  - TirUtilities.Signals.IntSignal.Emit(System.Int32)
+  - TirUtilities.Signals.IntSignal.RemoveReceiver(UnityAction{System.Int32})
+  langs:
+  - csharp
+  - vb
+  name: IntSignal
+  nameWithType: IntSignal
+  fullName: TirUtilities.Signals.IntSignal
+  type: Class
+  source:
+    id: IntSignal
+    path: ''
+    startLine: 2754
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nA <xref href=\"TirUtilities.Signals.Signal\" data-throw-if-not-resolved=\"false\"></xref> that emits an int.\n"
+  example: []
+  syntax:
+    content: 'public class IntSignal : SignalBase'
+    content.vb: >-
+      Public Class IntSignal
+          Inherits SignalBase
+  inheritance:
+  - System.Object
+  - TirUtilities.Signals.SignalBase
+  inheritedMembers:
+  - TirUtilities.Signals.SignalBase._description
+  - TirUtilities.Signals.SignalBase.Description
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.Signals.IntSignal.AddReceiver(UnityAction{System.Int32})
+  commentId: M:TirUtilities.Signals.IntSignal.AddReceiver(UnityAction{System.Int32})
+  id: AddReceiver(UnityAction{System.Int32})
+  parent: TirUtilities.Signals.IntSignal
+  langs:
+  - csharp
+  - vb
+  name: AddReceiver(UnityAction<Int32>)
+  nameWithType: IntSignal.AddReceiver(UnityAction<Int32>)
+  fullName: TirUtilities.Signals.IntSignal.AddReceiver(UnityAction<System.Int32>)
+  type: Method
+  source:
+    id: AddReceiver
+    path: ''
+    startLine: 2773
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nRegister a callback function to be invoked when this signal is <xref href=\"TirUtilities.Signals.IntSignal.Emit(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public virtual void AddReceiver(UnityAction<int> receiver)
+    parameters:
+    - id: receiver
+      type: Global.UnityAction{System.Int32}
+      description: The callback to be invoked.
+    content.vb: Public Overridable Sub AddReceiver(receiver As UnityAction(Of Integer))
+  overload: TirUtilities.Signals.IntSignal.AddReceiver*
+  nameWithType.vb: IntSignal.AddReceiver(UnityAction(Of Int32))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: TirUtilities.Signals.IntSignal.AddReceiver(UnityAction(Of System.Int32))
+  name.vb: AddReceiver(UnityAction(Of Int32))
+- uid: TirUtilities.Signals.IntSignal.RemoveReceiver(UnityAction{System.Int32})
+  commentId: M:TirUtilities.Signals.IntSignal.RemoveReceiver(UnityAction{System.Int32})
+  id: RemoveReceiver(UnityAction{System.Int32})
+  parent: TirUtilities.Signals.IntSignal
+  langs:
+  - csharp
+  - vb
+  name: RemoveReceiver(UnityAction<Int32>)
+  nameWithType: IntSignal.RemoveReceiver(UnityAction<Int32>)
+  fullName: TirUtilities.Signals.IntSignal.RemoveReceiver(UnityAction<System.Int32>)
+  type: Method
+  source:
+    id: RemoveReceiver
+    path: ''
+    startLine: 2779
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nUnregister a callback function.\n"
+  example: []
+  syntax:
+    content: public virtual void RemoveReceiver(UnityAction<int> receiver)
+    parameters:
+    - id: receiver
+      type: Global.UnityAction{System.Int32}
+      description: The callback function.
+    content.vb: Public Overridable Sub RemoveReceiver(receiver As UnityAction(Of Integer))
+  overload: TirUtilities.Signals.IntSignal.RemoveReceiver*
+  nameWithType.vb: IntSignal.RemoveReceiver(UnityAction(Of Int32))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: TirUtilities.Signals.IntSignal.RemoveReceiver(UnityAction(Of System.Int32))
+  name.vb: RemoveReceiver(UnityAction(Of Int32))
+- uid: TirUtilities.Signals.IntSignal.Emit(System.Int32)
+  commentId: M:TirUtilities.Signals.IntSignal.Emit(System.Int32)
+  id: Emit(System.Int32)
+  parent: TirUtilities.Signals.IntSignal
+  langs:
+  - csharp
+  - vb
+  name: Emit(Int32)
+  nameWithType: IntSignal.Emit(Int32)
+  fullName: TirUtilities.Signals.IntSignal.Emit(System.Int32)
+  type: Method
+  source:
+    id: Emit
+    path: ''
+    startLine: 2785
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: "\nEmit this signal to all receivers registered with \n<xref href=\"TirUtilities.Signals.IntSignal.AddReceiver(UnityAction%7bSystem.Int32%7d)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public virtual void Emit(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    content.vb: Public Overridable Sub Emit(value As Integer)
+  overload: TirUtilities.Signals.IntSignal.Emit*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: TirUtilities.Signals.Signal
+  commentId: T:TirUtilities.Signals.Signal
+  name: Signal
+  nameWithType: Signal
+  fullName: TirUtilities.Signals.Signal
+- uid: TirUtilities.Signals
+  commentId: N:TirUtilities.Signals
+  name: TirUtilities.Signals
+  nameWithType: TirUtilities.Signals
+  fullName: TirUtilities.Signals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TirUtilities.Signals.SignalBase
+  commentId: T:TirUtilities.Signals.SignalBase
+  parent: TirUtilities.Signals
+  name: SignalBase
+  nameWithType: SignalBase
+  fullName: TirUtilities.Signals.SignalBase
+- uid: TirUtilities.Signals.SignalBase._description
+  commentId: F:TirUtilities.Signals.SignalBase._description
+  parent: TirUtilities.Signals.SignalBase
+  name: _description
+  nameWithType: SignalBase._description
+  fullName: TirUtilities.Signals.SignalBase._description
+- uid: TirUtilities.Signals.SignalBase.Description
+  commentId: P:TirUtilities.Signals.SignalBase.Description
+  parent: TirUtilities.Signals.SignalBase
+  name: Description
+  nameWithType: SignalBase.Description
+  fullName: TirUtilities.Signals.SignalBase.Description
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.Signals.IntSignal.Emit(System.Int32)
+  commentId: M:TirUtilities.Signals.IntSignal.Emit(System.Int32)
+  isExternal: true
+- uid: TirUtilities.Signals.IntSignal.AddReceiver*
+  commentId: Overload:TirUtilities.Signals.IntSignal.AddReceiver
+  name: AddReceiver
+  nameWithType: IntSignal.AddReceiver
+  fullName: TirUtilities.Signals.IntSignal.AddReceiver
+- uid: Global.UnityAction{System.Int32}
+  commentId: '!:Global.UnityAction{System.Int32}'
+  definition: Global.UnityAction`1
+  name: UnityAction<Int32>
+  nameWithType: UnityAction<Int32>
+  fullName: UnityAction<System.Int32>
+  nameWithType.vb: UnityAction(Of Int32)
+  fullName.vb: UnityAction(Of System.Int32)
+  name.vb: UnityAction(Of Int32)
+  spec.csharp:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityAction`1
+  isExternal: true
+  name: UnityAction<>
+  nameWithType: UnityAction<>
+  fullName: UnityAction<>
+  nameWithType.vb: UnityAction(Of )
+  fullName.vb: UnityAction(Of )
+  name.vb: UnityAction(Of )
+  spec.csharp:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Signals.IntSignal.RemoveReceiver*
+  commentId: Overload:TirUtilities.Signals.IntSignal.RemoveReceiver
+  name: RemoveReceiver
+  nameWithType: IntSignal.RemoveReceiver
+  fullName: TirUtilities.Signals.IntSignal.RemoveReceiver
+- uid: TirUtilities.Signals.IntSignal.AddReceiver(UnityAction{System.Int32})
+  commentId: M:TirUtilities.Signals.IntSignal.AddReceiver(UnityAction{System.Int32})
+  isExternal: true
+- uid: TirUtilities.Signals.IntSignal.Emit*
+  commentId: Overload:TirUtilities.Signals.IntSignal.Emit
+  name: Emit
+  nameWithType: IntSignal.Emit
+  fullName: TirUtilities.Signals.IntSignal.Emit
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.LevelManagment.LevelSystem
+  commentId: T:TirUtilities.LevelManagment.LevelSystem
+  id: LevelSystem
+  parent: TirUtilities.LevelManagment
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LevelSystem
+  nameWithType: LevelSystem
+  fullName: TirUtilities.LevelManagment.LevelSystem
+  type: Class
+  source:
+    id: LevelSystem
+    path: ''
+    startLine: 2296
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.LevelManagment
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: 'public class LevelSystem : MonoBehaviour'
+    content.vb: >-
+      Public Class LevelSystem
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: TirUtilities.LevelManagment
+  commentId: N:TirUtilities.LevelManagment
+  name: TirUtilities.LevelManagment
+  nameWithType: TirUtilities.LevelManagment
+  fullName: TirUtilities.LevelManagment
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

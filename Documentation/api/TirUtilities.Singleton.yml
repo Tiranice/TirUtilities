@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Singleton
+  commentId: T:TirUtilities.Singleton
+  id: Singleton
+  parent: TirUtilities
+  children:
+  - TirUtilities.Singleton.Exists
+  - TirUtilities.Singleton.Instance
+  langs:
+  - csharp
+  - vb
+  name: Singleton
+  nameWithType: Singleton
+  fullName: TirUtilities.Singleton
+  type: Class
+  source:
+    id: Singleton
+    path: ''
+    startLine: 1553
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  summary: "\nThis is intended only as an example. DO NOT USE!!!\n"
+  example: []
+  syntax:
+    content: public sealed class Singleton
+    content.vb: Public NotInheritable Class Singleton
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: TirUtilities.Singleton.Instance
+  commentId: P:TirUtilities.Singleton.Instance
+  id: Instance
+  parent: TirUtilities.Singleton
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Singleton.Instance
+  fullName: TirUtilities.Singleton.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 1559
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  syntax:
+    content: public static Singleton Instance { get; }
+    parameters: []
+    return:
+      type: TirUtilities.Singleton
+    content.vb: Public Shared ReadOnly Property Instance As Singleton
+  overload: TirUtilities.Singleton.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TirUtilities.Singleton.Exists
+  commentId: P:TirUtilities.Singleton.Exists
+  id: Exists
+  parent: TirUtilities.Singleton
+  langs:
+  - csharp
+  - vb
+  name: Exists
+  nameWithType: Singleton.Exists
+  fullName: TirUtilities.Singleton.Exists
+  type: Property
+  source:
+    id: Exists
+    path: ''
+    startLine: 1561
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  syntax:
+    content: public static bool Exists { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property Exists As Boolean
+  overload: TirUtilities.Singleton.Exists*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: TirUtilities
+  commentId: N:TirUtilities
+  name: TirUtilities
+  nameWithType: TirUtilities
+  fullName: TirUtilities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.Singleton.Instance*
+  commentId: Overload:TirUtilities.Singleton.Instance
+  name: Instance
+  nameWithType: Singleton.Instance
+  fullName: TirUtilities.Singleton.Instance
+- uid: TirUtilities.Singleton
+  commentId: T:TirUtilities.Singleton
+  parent: TirUtilities
+  name: Singleton
+  nameWithType: Singleton
+  fullName: TirUtilities.Singleton
+- uid: TirUtilities.Singleton.Exists*
+  commentId: Overload:TirUtilities.Singleton.Exists
+  name: Exists
+  nameWithType: Singleton.Exists
+  fullName: TirUtilities.Singleton.Exists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

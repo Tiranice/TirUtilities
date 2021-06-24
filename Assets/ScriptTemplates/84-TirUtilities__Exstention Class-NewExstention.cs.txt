@@ -1,0 +1,22 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+    #ROOTNAMESPACEBEGIN#
+///<!--
+/// #SCRIPTNAME#.cs
+/// 
+/// Project:  Project
+///        
+/// Author :  Author
+/// Created:  Jan. 01, 2021
+/// Updated:  Jan. 01, 2021
+/// -->
+/// <summary>
+///
+/// </summary>
+public static class #SCRIPTNAME#
+{
+    //public static void ExtensionMethod(this FooBar fooBar) { }
+}
+#ROOTNAMESPACEEND#

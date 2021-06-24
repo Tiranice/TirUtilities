@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.CustomGizmos.DrawColliderGizmo
+  commentId: T:TirUtilities.CustomGizmos.DrawColliderGizmo
+  id: DrawColliderGizmo
+  parent: TirUtilities.CustomGizmos
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: DrawColliderGizmo
+  nameWithType: DrawColliderGizmo
+  fullName: TirUtilities.CustomGizmos.DrawColliderGizmo
+  type: Class
+  source:
+    id: DrawColliderGizmo
+    path: ''
+    startLine: 1913
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.CustomGizmos
+  summary: "\nDraws a gizmo for the given collider.\n"
+  remarks: "\nSupported colliders:\n<ul><li></li><li></li><li></li><li> Only wire gizmo. </li></ul>\n"
+  example: []
+  syntax:
+    content: 'public class DrawColliderGizmo : MonoBehaviour'
+    content.vb: >-
+      Public Class DrawColliderGizmo
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: TirUtilities.CustomGizmos
+  commentId: N:TirUtilities.CustomGizmos
+  name: TirUtilities.CustomGizmos
+  nameWithType: TirUtilities.CustomGizmos
+  fullName: TirUtilities.CustomGizmos
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

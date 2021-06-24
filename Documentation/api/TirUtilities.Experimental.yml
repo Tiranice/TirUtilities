@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Experimental
+  commentId: N:TirUtilities.Experimental
+  id: TirUtilities.Experimental
+  children:
+  - TirUtilities.Experimental.ApplicationState
+  - TirUtilities.Experimental.ApplicationStateMachine
+  - TirUtilities.Experimental.Command
+  - TirUtilities.Experimental.PausedState
+  - TirUtilities.Experimental.PlayingState
+  - TirUtilities.Experimental.QuittingState
+  langs:
+  - csharp
+  - vb
+  name: TirUtilities.Experimental
+  nameWithType: TirUtilities.Experimental
+  fullName: TirUtilities.Experimental
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TirUtilities.Experimental.ApplicationStateMachine
+  commentId: T:TirUtilities.Experimental.ApplicationStateMachine
+  parent: TirUtilities.Experimental
+  name: ApplicationStateMachine
+  nameWithType: ApplicationStateMachine
+  fullName: TirUtilities.Experimental.ApplicationStateMachine
+- uid: TirUtilities.Experimental.ApplicationState
+  commentId: T:TirUtilities.Experimental.ApplicationState
+  parent: TirUtilities.Experimental
+  name: ApplicationState
+  nameWithType: ApplicationState
+  fullName: TirUtilities.Experimental.ApplicationState
+- uid: TirUtilities.Experimental.PlayingState
+  commentId: T:TirUtilities.Experimental.PlayingState
+  name: PlayingState
+  nameWithType: PlayingState
+  fullName: TirUtilities.Experimental.PlayingState
+- uid: TirUtilities.Experimental.PausedState
+  commentId: T:TirUtilities.Experimental.PausedState
+  name: PausedState
+  nameWithType: PausedState
+  fullName: TirUtilities.Experimental.PausedState
+- uid: TirUtilities.Experimental.QuittingState
+  commentId: T:TirUtilities.Experimental.QuittingState
+  name: QuittingState
+  nameWithType: QuittingState
+  fullName: TirUtilities.Experimental.QuittingState
+- uid: TirUtilities.Experimental.Command
+  commentId: T:TirUtilities.Experimental.Command
+  name: Command
+  nameWithType: Command
+  fullName: TirUtilities.Experimental.Command
+- uid: TirUtilities.Experimental
+  commentId: N:TirUtilities.Experimental
+  name: TirUtilities.Experimental
+  nameWithType: TirUtilities.Experimental
+  fullName: TirUtilities.Experimental

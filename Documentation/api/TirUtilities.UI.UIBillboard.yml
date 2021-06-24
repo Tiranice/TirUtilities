@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.UI.UIBillboard
+  commentId: T:TirUtilities.UI.UIBillboard
+  id: UIBillboard
+  parent: TirUtilities.UI
+  children:
+  - TirUtilities.UI.UIBillboard.Text
+  langs:
+  - csharp
+  - vb
+  name: UIBillboard
+  nameWithType: UIBillboard
+  fullName: TirUtilities.UI.UIBillboard
+  type: Class
+  source:
+    id: UIBillboard
+    path: ''
+    startLine: 3284
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: "\nTurns the attached canvas to face the main camera and sets the text of the child TMP text\ncomponent.\n"
+  example: []
+  syntax:
+    content: 'public class UIBillboard : MonoBehaviour'
+    content.vb: >-
+      Public Class UIBillboard
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.UI.UIBillboard.Text
+  commentId: P:TirUtilities.UI.UIBillboard.Text
+  id: Text
+  parent: TirUtilities.UI.UIBillboard
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: UIBillboard.Text
+  fullName: TirUtilities.UI.UIBillboard.Text
+  type: Property
+  source:
+    id: Text
+    path: ''
+    startLine: 3314
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  summary: 'Get and set the <xref href="TirUtilities.UI.UIBillboard._text" data-throw-if-not-resolved="false"></xref> displayed on the billboard. '
+  example: []
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: TirUtilities.UI.UIBillboard.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: TirUtilities.UI
+  commentId: N:TirUtilities.UI
+  name: TirUtilities.UI
+  nameWithType: TirUtilities.UI
+  fullName: TirUtilities.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities.UI.UIBillboard._text
+  commentId: F:TirUtilities.UI.UIBillboard._text
+  isExternal: true
+- uid: TirUtilities.UI.UIBillboard.Text*
+  commentId: Overload:TirUtilities.UI.UIBillboard.Text
+  name: Text
+  nameWithType: UIBillboard.Text
+  fullName: TirUtilities.UI.UIBillboard.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

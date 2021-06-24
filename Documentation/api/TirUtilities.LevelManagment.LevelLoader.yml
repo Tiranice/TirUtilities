@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.LevelManagment.LevelLoader
+  commentId: T:TirUtilities.LevelManagment.LevelLoader
+  id: LevelLoader
+  parent: TirUtilities.LevelManagment
+  children:
+  - TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagment.LevelData)
+  - TirUtilities.LevelManagment.LevelLoader.OnLoadComplete
+  langs:
+  - csharp
+  - vb
+  name: LevelLoader
+  nameWithType: LevelLoader
+  fullName: TirUtilities.LevelManagment.LevelLoader
+  type: Class
+  source:
+    id: LevelLoader
+    path: ''
+    startLine: 2248
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.LevelManagment
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static class LevelLoader
+    content.vb: Public Module LevelLoader
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TirUtilities.LevelManagment.LevelLoader.OnLoadComplete
+  commentId: E:TirUtilities.LevelManagment.LevelLoader.OnLoadComplete
+  id: OnLoadComplete
+  parent: TirUtilities.LevelManagment.LevelLoader
+  langs:
+  - csharp
+  - vb
+  name: OnLoadComplete
+  nameWithType: LevelLoader.OnLoadComplete
+  fullName: TirUtilities.LevelManagment.LevelLoader.OnLoadComplete
+  type: Event
+  source:
+    id: OnLoadComplete
+    path: ''
+    startLine: 2252
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.LevelManagment
+  syntax:
+    content: public static event Action OnLoadComplete
+    return:
+      type: System.Action
+    content.vb: Public Shared Event OnLoadComplete As Action
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagment.LevelData)
+  commentId: M:TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagment.LevelData)
+  id: LoadLevelDataAsync(TirUtilities.LevelManagment.LevelData)
+  parent: TirUtilities.LevelManagment.LevelLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadLevelDataAsync(LevelData)
+  nameWithType: LevelLoader.LoadLevelDataAsync(LevelData)
+  fullName: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagment.LevelData)
+  type: Method
+  source:
+    id: LoadLevelDataAsync
+    path: ''
+    startLine: 2258
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.LevelManagment
+  syntax:
+    content: public static IEnumerator LoadLevelDataAsync(LevelData level)
+    parameters:
+    - id: level
+      type: TirUtilities.LevelManagment.LevelData
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Shared Function LoadLevelDataAsync(level As LevelData) As IEnumerator
+  overload: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TirUtilities.LevelManagment
+  commentId: N:TirUtilities.LevelManagment
+  name: TirUtilities.LevelManagment
+  nameWithType: TirUtilities.LevelManagment
+  fullName: TirUtilities.LevelManagment
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync*
+  commentId: Overload:TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync
+  name: LoadLevelDataAsync
+  nameWithType: LevelLoader.LoadLevelDataAsync
+  fullName: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync
+- uid: TirUtilities.LevelManagment.LevelData
+  commentId: T:TirUtilities.LevelManagment.LevelData
+  parent: TirUtilities.LevelManagment
+  name: LevelData
+  nameWithType: LevelData
+  fullName: TirUtilities.LevelManagment.LevelData
+- uid: Global.IEnumerator
+  commentId: '!:Global.IEnumerator'
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator

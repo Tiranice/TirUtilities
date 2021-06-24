@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.IState`1
+  commentId: T:TirUtilities.IState`1
+  id: IState`1
+  parent: TirUtilities
+  children:
+  - TirUtilities.IState`1.EnterState(`0)
+  - TirUtilities.IState`1.ExitState(`0)
+  - TirUtilities.IState`1.UpdateState(`0)
+  langs:
+  - csharp
+  - vb
+  name: IState<T>
+  nameWithType: IState<T>
+  fullName: TirUtilities.IState<T>
+  type: Interface
+  source:
+    id: IState
+    path: ''
+    startLine: 1608
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: >-
+      public interface IState<T>
+          where T : StateMachine
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IState(Of T As StateMachine)
+  nameWithType.vb: IState(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: TirUtilities.IState(Of T)
+  name.vb: IState(Of T)
+- uid: TirUtilities.IState`1.EnterState(`0)
+  commentId: M:TirUtilities.IState`1.EnterState(`0)
+  id: EnterState(`0)
+  parent: TirUtilities.IState`1
+  langs:
+  - csharp
+  - vb
+  name: EnterState(T)
+  nameWithType: IState<T>.EnterState(T)
+  fullName: TirUtilities.IState<T>.EnterState(T)
+  type: Method
+  source:
+    id: EnterState
+    path: ''
+    startLine: 1610
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  syntax:
+    content: void EnterState(T stateMachine)
+    parameters:
+    - id: stateMachine
+      type: '{T}'
+    content.vb: Sub EnterState(stateMachine As T)
+  overload: TirUtilities.IState`1.EnterState*
+  nameWithType.vb: IState(Of T).EnterState(T)
+  fullName.vb: TirUtilities.IState(Of T).EnterState(T)
+- uid: TirUtilities.IState`1.ExitState(`0)
+  commentId: M:TirUtilities.IState`1.ExitState(`0)
+  id: ExitState(`0)
+  parent: TirUtilities.IState`1
+  langs:
+  - csharp
+  - vb
+  name: ExitState(T)
+  nameWithType: IState<T>.ExitState(T)
+  fullName: TirUtilities.IState<T>.ExitState(T)
+  type: Method
+  source:
+    id: ExitState
+    path: ''
+    startLine: 1611
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  syntax:
+    content: void ExitState(T stateMachine)
+    parameters:
+    - id: stateMachine
+      type: '{T}'
+    content.vb: Sub ExitState(stateMachine As T)
+  overload: TirUtilities.IState`1.ExitState*
+  nameWithType.vb: IState(Of T).ExitState(T)
+  fullName.vb: TirUtilities.IState(Of T).ExitState(T)
+- uid: TirUtilities.IState`1.UpdateState(`0)
+  commentId: M:TirUtilities.IState`1.UpdateState(`0)
+  id: UpdateState(`0)
+  parent: TirUtilities.IState`1
+  langs:
+  - csharp
+  - vb
+  name: UpdateState(T)
+  nameWithType: IState<T>.UpdateState(T)
+  fullName: TirUtilities.IState<T>.UpdateState(T)
+  type: Method
+  source:
+    id: UpdateState
+    path: ''
+    startLine: 1612
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  syntax:
+    content: void UpdateState(T stateMachine)
+    parameters:
+    - id: stateMachine
+      type: '{T}'
+    content.vb: Sub UpdateState(stateMachine As T)
+  overload: TirUtilities.IState`1.UpdateState*
+  nameWithType.vb: IState(Of T).UpdateState(T)
+  fullName.vb: TirUtilities.IState(Of T).UpdateState(T)
+references:
+- uid: TirUtilities
+  commentId: N:TirUtilities
+  name: TirUtilities
+  nameWithType: TirUtilities
+  fullName: TirUtilities
+- uid: TirUtilities.IState`1.EnterState*
+  commentId: Overload:TirUtilities.IState`1.EnterState
+  name: EnterState
+  nameWithType: IState<T>.EnterState
+  fullName: TirUtilities.IState<T>.EnterState
+  nameWithType.vb: IState(Of T).EnterState
+  fullName.vb: TirUtilities.IState(Of T).EnterState
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: TirUtilities.IState`1.ExitState*
+  commentId: Overload:TirUtilities.IState`1.ExitState
+  name: ExitState
+  nameWithType: IState<T>.ExitState
+  fullName: TirUtilities.IState<T>.ExitState
+  nameWithType.vb: IState(Of T).ExitState
+  fullName.vb: TirUtilities.IState(Of T).ExitState
+- uid: TirUtilities.IState`1.UpdateState*
+  commentId: Overload:TirUtilities.IState`1.UpdateState
+  name: UpdateState
+  nameWithType: IState<T>.UpdateState
+  fullName: TirUtilities.IState<T>.UpdateState
+  nameWithType.vb: IState(Of T).UpdateState
+  fullName.vb: TirUtilities.IState(Of T).UpdateState

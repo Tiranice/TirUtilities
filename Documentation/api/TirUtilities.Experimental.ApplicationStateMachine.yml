@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: TirUtilities.Experimental.ApplicationStateMachine
+  commentId: T:TirUtilities.Experimental.ApplicationStateMachine
+  id: ApplicationStateMachine
+  parent: TirUtilities.Experimental
+  children:
+  - TirUtilities.Experimental.ApplicationStateMachine.CurrentState
+  - TirUtilities.Experimental.ApplicationStateMachine.TogglePaused
+  langs:
+  - csharp
+  - vb
+  name: ApplicationStateMachine
+  nameWithType: ApplicationStateMachine
+  fullName: TirUtilities.Experimental.ApplicationStateMachine
+  type: Class
+  source:
+    id: ApplicationStateMachine
+    path: ''
+    startLine: 1450
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Experimental
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: 'public class ApplicationStateMachine : StateMachine'
+    content.vb: >-
+      Public Class ApplicationStateMachine
+          Inherits StateMachine
+  inheritance:
+  - System.Object
+  - TirUtilities.StateMachine
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TirUtilities.Experimental.ApplicationStateMachine.CurrentState
+  commentId: P:TirUtilities.Experimental.ApplicationStateMachine.CurrentState
+  id: CurrentState
+  parent: TirUtilities.Experimental.ApplicationStateMachine
+  langs:
+  - csharp
+  - vb
+  name: CurrentState
+  nameWithType: ApplicationStateMachine.CurrentState
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.CurrentState
+  type: Property
+  source:
+    id: CurrentState
+    path: ''
+    startLine: 1452
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Experimental
+  syntax:
+    content: public ApplicationState CurrentState { get; set; }
+    parameters: []
+    return:
+      type: TirUtilities.Experimental.ApplicationState
+    content.vb: Public Property CurrentState As ApplicationState
+  overload: TirUtilities.Experimental.ApplicationStateMachine.CurrentState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: TirUtilities.Experimental.ApplicationStateMachine.TogglePaused
+  commentId: M:TirUtilities.Experimental.ApplicationStateMachine.TogglePaused
+  id: TogglePaused
+  parent: TirUtilities.Experimental.ApplicationStateMachine
+  langs:
+  - csharp
+  - vb
+  name: TogglePaused()
+  nameWithType: ApplicationStateMachine.TogglePaused()
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.TogglePaused()
+  type: Method
+  source:
+    id: TogglePaused
+    path: ''
+    startLine: 1456
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Experimental
+  syntax:
+    content: public static void TogglePaused()
+    content.vb: Public Shared Sub TogglePaused
+  overload: TirUtilities.Experimental.ApplicationStateMachine.TogglePaused*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TirUtilities.Experimental
+  commentId: N:TirUtilities.Experimental
+  name: TirUtilities.Experimental
+  nameWithType: TirUtilities.Experimental
+  fullName: TirUtilities.Experimental
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TirUtilities.StateMachine
+  commentId: T:TirUtilities.StateMachine
+  parent: TirUtilities
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: TirUtilities.StateMachine
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TirUtilities
+  commentId: N:TirUtilities
+  name: TirUtilities
+  nameWithType: TirUtilities
+  fullName: TirUtilities
+- uid: TirUtilities.Experimental.ApplicationStateMachine.CurrentState*
+  commentId: Overload:TirUtilities.Experimental.ApplicationStateMachine.CurrentState
+  name: CurrentState
+  nameWithType: ApplicationStateMachine.CurrentState
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.CurrentState
+- uid: TirUtilities.Experimental.ApplicationState
+  commentId: T:TirUtilities.Experimental.ApplicationState
+  parent: TirUtilities.Experimental
+  name: ApplicationState
+  nameWithType: ApplicationState
+  fullName: TirUtilities.Experimental.ApplicationState
+- uid: TirUtilities.Experimental.ApplicationStateMachine.TogglePaused*
+  commentId: Overload:TirUtilities.Experimental.ApplicationStateMachine.TogglePaused
+  name: TogglePaused
+  nameWithType: ApplicationStateMachine.TogglePaused
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.TogglePaused
