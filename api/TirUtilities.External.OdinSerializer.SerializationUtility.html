@@ -1,0 +1,1769 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SerializationUtility
+   | TirUtilities </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SerializationUtility
+   | TirUtilities ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility">
+  
+  
+  <h1 id="TirUtilities_External_OdinSerializer_SerializationUtility" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility" class="text-break">Class SerializationUtility
+  </h1>
+  <div class="markdown level0 summary"><p>Provides an array of utility wrapper methods for easy serialization and deserialization of objects of any type.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SerializationUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.External.OdinSerializer.html">TirUtilities.External.OdinSerializer</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TirUtilities_External_OdinSerializer_SerializationUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SerializationUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_CreateCopy_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.CreateCopy*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_CreateCopy_System_Object_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.CreateCopy(System.Object)">CreateCopy(Object)</h4>
+  <div class="markdown level1 summary"><p>Creates a deep copy of an object. Returns null if null. All Unity objects references will remain the same - they will not get copied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object CreateCopy(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_CreateReader_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.CreateReader*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_CreateReader_System_IO_Stream_TirUtilities_External_OdinSerializer_DeserializationContext_TirUtilities_External_OdinSerializer_DataFormat_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.CreateReader(System.IO.Stream,TirUtilities.External.OdinSerializer.DeserializationContext,TirUtilities.External.OdinSerializer.DataFormat)">CreateReader(Stream, DeserializationContext, DataFormat)</h4>
+  <div class="markdown level1 summary"><p>Creates an <a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a> for a given format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDataReader CreateReader(Stream stream, DeserializationContext context, DataFormat format)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to read from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The deserialization context to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a></td>
+        <td><p>An <a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a> for a given format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notimplementedexception">NotImplementedException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_CreateWriter_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.CreateWriter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_CreateWriter_System_IO_Stream_TirUtilities_External_OdinSerializer_SerializationContext_TirUtilities_External_OdinSerializer_DataFormat_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.CreateWriter(System.IO.Stream,TirUtilities.External.OdinSerializer.SerializationContext,TirUtilities.External.OdinSerializer.DataFormat)">CreateWriter(Stream, SerializationContext, DataFormat)</h4>
+  <div class="markdown level1 summary"><p>Creates an <a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a> for a given format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDataWriter CreateWriter(Stream stream, SerializationContext context, DataFormat format)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html">SerializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The serialization context to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a></td>
+        <td><p>An <a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a> for a given format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notimplementedexception">NotImplementedException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue__1_System_Byte___TirUtilities_External_OdinSerializer_DataFormat_System_Collections_Generic_List_UnityEngine_Object__TirUtilities_External_OdinSerializer_DeserializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue``1(System.Byte[],TirUtilities.External.OdinSerializer.DataFormat,System.Collections.Generic.List{UnityEngine.Object},TirUtilities.External.OdinSerializer.DeserializationContext)">DeserializeValue&lt;T&gt;(Byte[], DataFormat, List&lt;UnityEngine.Object&gt;, DeserializationContext)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value of a given type from the given byte array in the given format, using the given list of Unity objects for external index reference resolution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T DeserializeValue&lt;T&gt;(byte[] bytes, DataFormat format, List&lt;UnityEngine.Object&gt; referencedUnityObjects, DeserializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>The bytes to deserialize from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">referencedUnityObjects</span></td>
+        <td><p>The list of Unity objects to use for external index reference resolution.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type to deserialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue__1_System_Byte___TirUtilities_External_OdinSerializer_DataFormat_TirUtilities_External_OdinSerializer_DeserializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue``1(System.Byte[],TirUtilities.External.OdinSerializer.DataFormat,TirUtilities.External.OdinSerializer.DeserializationContext)">DeserializeValue&lt;T&gt;(Byte[], DataFormat, DeserializationContext)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value of a given type from the given byte array in the given format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T DeserializeValue&lt;T&gt;(byte[] bytes, DataFormat format, DeserializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>The bytes to deserialize from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type to deserialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue__1_System_IO_Stream_TirUtilities_External_OdinSerializer_DataFormat_System_Collections_Generic_List_UnityEngine_Object__TirUtilities_External_OdinSerializer_DeserializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue``1(System.IO.Stream,TirUtilities.External.OdinSerializer.DataFormat,System.Collections.Generic.List{UnityEngine.Object},TirUtilities.External.OdinSerializer.DeserializationContext)">DeserializeValue&lt;T&gt;(Stream, DataFormat, List&lt;UnityEngine.Object&gt;, DeserializationContext)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value of a given type from the given stream in the given format, using the given list of Unity objects for external index reference resolution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T DeserializeValue&lt;T&gt;(Stream stream, DataFormat format, List&lt;UnityEngine.Object&gt; referencedUnityObjects, DeserializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to read from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">referencedUnityObjects</span></td>
+        <td><p>The list of Unity objects to use for external index reference resolution.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type to deserialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue__1_System_IO_Stream_TirUtilities_External_OdinSerializer_DataFormat_TirUtilities_External_OdinSerializer_DeserializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue``1(System.IO.Stream,TirUtilities.External.OdinSerializer.DataFormat,TirUtilities.External.OdinSerializer.DeserializationContext)">DeserializeValue&lt;T&gt;(Stream, DataFormat, DeserializationContext)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value of a given type from the given stream in the given format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T DeserializeValue&lt;T&gt;(Stream stream, DataFormat format, DeserializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to read from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type to deserialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue__1_TirUtilities_External_OdinSerializer_IDataReader_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue``1(TirUtilities.External.OdinSerializer.IDataReader)">DeserializeValue&lt;T&gt;(IDataReader)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value from the given reader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T DeserializeValue&lt;T&gt;(IDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The reader to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type to deserialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValue__1_TirUtilities_External_OdinSerializer_IDataReader_System_Collections_Generic_List_UnityEngine_Object__" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValue``1(TirUtilities.External.OdinSerializer.IDataReader,System.Collections.Generic.List{UnityEngine.Object})">DeserializeValue&lt;T&gt;(IDataReader, List&lt;UnityEngine.Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value of a given type from the given reader, using the given list of Unity objects for external index reference resolution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T DeserializeValue&lt;T&gt;(IDataReader reader, List&lt;UnityEngine.Object&gt; referencedUnityObjects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The reader to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">referencedUnityObjects</span></td>
+        <td><p>The list of Unity objects to use for external index reference resolution.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type to deserialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_System_Byte___TirUtilities_External_OdinSerializer_DataFormat_System_Collections_Generic_List_UnityEngine_Object__" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak(System.Byte[],TirUtilities.External.OdinSerializer.DataFormat,System.Collections.Generic.List{UnityEngine.Object})">DeserializeValueWeak(Byte[], DataFormat, List&lt;UnityEngine.Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value from the given byte array in the given format, using the given list of Unity objects for external index reference resolution. This might fail with primitive values, as they don&apos;t come with type metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object DeserializeValueWeak(byte[] bytes, DataFormat format, List&lt;UnityEngine.Object&gt; referencedUnityObjects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>The bytes to deserialize from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">referencedUnityObjects</span></td>
+        <td><p>The list of Unity objects to use for external index reference resolution.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_System_Byte___TirUtilities_External_OdinSerializer_DataFormat_TirUtilities_External_OdinSerializer_DeserializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak(System.Byte[],TirUtilities.External.OdinSerializer.DataFormat,TirUtilities.External.OdinSerializer.DeserializationContext)">DeserializeValueWeak(Byte[], DataFormat, DeserializationContext)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value from the given byte array in the given format. This might fail with primitive values, as they don&apos;t come with type metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object DeserializeValueWeak(byte[] bytes, DataFormat format, DeserializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>The bytes to deserialize from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_System_IO_Stream_TirUtilities_External_OdinSerializer_DataFormat_System_Collections_Generic_List_UnityEngine_Object__TirUtilities_External_OdinSerializer_DeserializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak(System.IO.Stream,TirUtilities.External.OdinSerializer.DataFormat,System.Collections.Generic.List{UnityEngine.Object},TirUtilities.External.OdinSerializer.DeserializationContext)">DeserializeValueWeak(Stream, DataFormat, List&lt;UnityEngine.Object&gt;, DeserializationContext)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value from the given stream in the given format, using the given list of Unity objects for external index reference resolution. This might fail with primitive values, as they don&apos;t come with type metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object DeserializeValueWeak(Stream stream, DataFormat format, List&lt;UnityEngine.Object&gt; referencedUnityObjects, DeserializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to read from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">referencedUnityObjects</span></td>
+        <td><p>The list of Unity objects to use for external index reference resolution.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_System_IO_Stream_TirUtilities_External_OdinSerializer_DataFormat_TirUtilities_External_OdinSerializer_DeserializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak(System.IO.Stream,TirUtilities.External.OdinSerializer.DataFormat,TirUtilities.External.OdinSerializer.DeserializationContext)">DeserializeValueWeak(Stream, DataFormat, DeserializationContext)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value from the given stream in the given format. This might fail with primitive values, as they don&apos;t come with type metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object DeserializeValueWeak(Stream stream, DataFormat format, DeserializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The reader to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DeserializationContext.html">DeserializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_TirUtilities_External_OdinSerializer_IDataReader_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak(TirUtilities.External.OdinSerializer.IDataReader)">DeserializeValueWeak(IDataReader)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value from the given reader. This might fail with primitive values, as they don&apos;t come with metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object DeserializeValueWeak(IDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The reader to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_DeserializeValueWeak_TirUtilities_External_OdinSerializer_IDataReader_System_Collections_Generic_List_UnityEngine_Object__" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.DeserializeValueWeak(TirUtilities.External.OdinSerializer.IDataReader,System.Collections.Generic.List{UnityEngine.Object})">DeserializeValueWeak(IDataReader, List&lt;UnityEngine.Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Deserializes a value from the given reader, using the given list of Unity objects for external index reference resolution. This might fail with primitive values, as they don&apos;t come with type metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object DeserializeValueWeak(IDataReader reader, List&lt;UnityEngine.Object&gt; referencedUnityObjects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The reader to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">referencedUnityObjects</span></td>
+        <td><p>The list of Unity objects to use for external index reference resolution.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><p>The deserialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue__1___0_System_IO_Stream_TirUtilities_External_OdinSerializer_DataFormat_System_Collections_Generic_List_UnityEngine_Object___TirUtilities_External_OdinSerializer_SerializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue``1(``0,System.IO.Stream,TirUtilities.External.OdinSerializer.DataFormat,System.Collections.Generic.List{UnityEngine.Object}@,TirUtilities.External.OdinSerializer.SerializationContext)">SerializeValue&lt;T&gt;(T, Stream, DataFormat, out List&lt;UnityEngine.Object&gt;, SerializationContext)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value to a given stream in the specified format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeValue&lt;T&gt;(T value, Stream stream, DataFormat format, out List&lt;UnityEngine.Object&gt; unityObjects, SerializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to serialize to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to serialize in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">unityObjects</span></td>
+        <td><p>A list of the Unity objects which were referenced during serialization.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html">SerializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value to serialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue__1___0_System_IO_Stream_TirUtilities_External_OdinSerializer_DataFormat_TirUtilities_External_OdinSerializer_SerializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue``1(``0,System.IO.Stream,TirUtilities.External.OdinSerializer.DataFormat,TirUtilities.External.OdinSerializer.SerializationContext)">SerializeValue&lt;T&gt;(T, Stream, DataFormat, SerializationContext)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value to a given stream in the specified format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeValue&lt;T&gt;(T value, Stream stream, DataFormat format, SerializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to serialize to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to serialize in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html">SerializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value to serialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue__1___0_TirUtilities_External_OdinSerializer_DataFormat_System_Collections_Generic_List_UnityEngine_Object___TirUtilities_External_OdinSerializer_SerializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue``1(``0,TirUtilities.External.OdinSerializer.DataFormat,System.Collections.Generic.List{UnityEngine.Object}@,TirUtilities.External.OdinSerializer.SerializationContext)">SerializeValue&lt;T&gt;(T, DataFormat, out List&lt;UnityEngine.Object&gt;, SerializationContext)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value using the specified format and returns the result as a byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] SerializeValue&lt;T&gt;(T value, DataFormat format, out List&lt;UnityEngine.Object&gt; unityObjects, SerializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">unityObjects</span></td>
+        <td><p>A list of the Unity objects which were referenced during serialization.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html">SerializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><p>A byte array containing the serialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value to serialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue__1___0_TirUtilities_External_OdinSerializer_DataFormat_TirUtilities_External_OdinSerializer_SerializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue``1(``0,TirUtilities.External.OdinSerializer.DataFormat,TirUtilities.External.OdinSerializer.SerializationContext)">SerializeValue&lt;T&gt;(T, DataFormat, SerializationContext)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value using the specified format, and returns the result as a byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] SerializeValue&lt;T&gt;(T value, DataFormat format, SerializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html">SerializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><p>A byte array containing the serialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value to serialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue__1___0_TirUtilities_External_OdinSerializer_IDataWriter_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue``1(``0,TirUtilities.External.OdinSerializer.IDataWriter)">SerializeValue&lt;T&gt;(T, IDataWriter)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value using the given writer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeValue&lt;T&gt;(T value, IDataWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The writer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value to serialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValue__1___0_TirUtilities_External_OdinSerializer_IDataWriter_System_Collections_Generic_List_UnityEngine_Object___" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValue``1(``0,TirUtilities.External.OdinSerializer.IDataWriter,System.Collections.Generic.List{UnityEngine.Object}@)">SerializeValue&lt;T&gt;(T, IDataWriter, out List&lt;UnityEngine.Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value, using the given writer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeValue&lt;T&gt;(T value, IDataWriter writer, out List&lt;UnityEngine.Object&gt; unityObjects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The writer to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">unityObjects</span></td>
+        <td><p>A list of the Unity objects which were referenced during serialization.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value to serialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_System_Object_System_IO_Stream_TirUtilities_External_OdinSerializer_DataFormat_System_Collections_Generic_List_UnityEngine_Object___TirUtilities_External_OdinSerializer_SerializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak(System.Object,System.IO.Stream,TirUtilities.External.OdinSerializer.DataFormat,System.Collections.Generic.List{UnityEngine.Object}@,TirUtilities.External.OdinSerializer.SerializationContext)">SerializeValueWeak(Object, Stream, DataFormat, out List&lt;UnityEngine.Object&gt;, SerializationContext)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value to a given stream in the specified format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeValueWeak(object value, Stream stream, DataFormat format, out List&lt;UnityEngine.Object&gt; unityObjects, SerializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to serialize to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to serialize in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">unityObjects</span></td>
+        <td><p>A list of the Unity objects which were referenced during serialization.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html">SerializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_System_Object_System_IO_Stream_TirUtilities_External_OdinSerializer_DataFormat_TirUtilities_External_OdinSerializer_SerializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak(System.Object,System.IO.Stream,TirUtilities.External.OdinSerializer.DataFormat,TirUtilities.External.OdinSerializer.SerializationContext)">SerializeValueWeak(Object, Stream, DataFormat, SerializationContext)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value to a given stream in the specified format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeValueWeak(object value, Stream stream, DataFormat format, SerializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to serialize to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to serialize in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html">SerializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_System_Object_TirUtilities_External_OdinSerializer_DataFormat_System_Collections_Generic_List_UnityEngine_Object___" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak(System.Object,TirUtilities.External.OdinSerializer.DataFormat,System.Collections.Generic.List{UnityEngine.Object}@)">SerializeValueWeak(Object, DataFormat, out List&lt;UnityEngine.Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value using the specified format, and returns the result as a byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] SerializeValueWeak(object value, DataFormat format, out List&lt;UnityEngine.Object&gt; unityObjects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">unityObjects</span></td>
+        <td><p>A list of the Unity objects which were referenced during serialization.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><p>A byte array containing the serialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_System_Object_TirUtilities_External_OdinSerializer_DataFormat_TirUtilities_External_OdinSerializer_SerializationContext_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak(System.Object,TirUtilities.External.OdinSerializer.DataFormat,TirUtilities.External.OdinSerializer.SerializationContext)">SerializeValueWeak(Object, DataFormat, SerializationContext)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value using the specified format, and returns the result as a byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] SerializeValueWeak(object value, DataFormat format, SerializationContext context = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.DataFormat.html">DataFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The format to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html">SerializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><p>A byte array containing the serialized value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_System_Object_TirUtilities_External_OdinSerializer_IDataWriter_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak(System.Object,TirUtilities.External.OdinSerializer.IDataWriter)">SerializeValueWeak(Object, IDataWriter)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value using the given writer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeValueWeak(object value, IDataWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The writer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_SerializationUtility_SerializeValueWeak_System_Object_TirUtilities_External_OdinSerializer_IDataWriter_System_Collections_Generic_List_UnityEngine_Object___" data-uid="TirUtilities.External.OdinSerializer.SerializationUtility.SerializeValueWeak(System.Object,TirUtilities.External.OdinSerializer.IDataWriter,System.Collections.Generic.List{UnityEngine.Object}@)">SerializeValueWeak(Object, IDataWriter, out List&lt;UnityEngine.Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Serializes the given value, using the given writer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeValueWeak(object value, IDataWriter writer, out List&lt;UnityEngine.Object&gt; unityObjects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to serialize.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html">IDataWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The writer to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Object</span>&gt;</td>
+        <td><span class="parametername">unityObjects</span></td>
+        <td><p>A list of the Unity objects which were referenced during serialization.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            TirUtilities
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

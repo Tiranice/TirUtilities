@@ -1,0 +1,3545 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/TirUtilities/TirUtilities/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Automation.AutoRotate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Automation.AutoRotate.html",
+          "hash": "+2OWE5AGu9xZPMAD9I1DF6WuHwhblKaVF6qqzbpSXLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Automation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Automation.html",
+          "hash": "ApBPTjd4ogDwQV+Qz6xt+t/Qzqah4MTcAtMHlJGd4EI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.CameraLookEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.CameraLookEvents.html",
+          "hash": "NZj0xa6mt6F3HxQThNfOAIQzf4GwkZS6naqOm3aS8E0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.MouseUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.MouseUtility.html",
+          "hash": "+HCSYpXp1Uds8+kBQTg5TBSOPpYlyoI1akecSmkMdVk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.ThirdPersonController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.ThirdPersonController.html",
+          "hash": "EsKLr1ViTngL7VXg9Z3S5a7ABQIeBM+7Zzvt1JotDac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.html",
+          "hash": "bzUHk646xO2DbPOS9tOLeT5SehqE7wac6KIMSVIGw3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomEvents.BoolEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomEvents.BoolEvent.html",
+          "hash": "qNFWdOuLBVvV0w7SOJOUETDl6B1BReVwUrw1P2e8Upc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomEvents.GameObjectEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomEvents.GameObjectEvent.html",
+          "hash": "HOAJ/JOPswop9kibW7yGa6VgnEbQRFHRKBcv8bPtvw8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomEvents.html",
+          "hash": "ZfjhGzFo1EpOQPLSkjsIH/VkAmZXjhcRRE6BpxVUOvE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomGizmos.DrawBoxGizmo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomGizmos.DrawBoxGizmo.html",
+          "hash": "YpseutTl9t8tbX7v0B41IUODfGdAJ2aLrCBIR2e9sZw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomGizmos.DrawCameraGizmo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomGizmos.DrawCameraGizmo.html",
+          "hash": "QfiYzK2ycJN/jKPKkeCKlRCLK8g/HnCMv78vaHXztLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomGizmos.DrawColliderGizmo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomGizmos.DrawColliderGizmo.html",
+          "hash": "puB3CVx7PomFsyUh7vlKEPBorqy05VIBrWtzuO3mn3g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomGizmos.DrawForwardGizmo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomGizmos.DrawForwardGizmo.html",
+          "hash": "UxNT4Kpf7Aij8pdiCvopQL4PAQQ+Cqhp42EaglGnL9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomGizmos.TirGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomGizmos.TirGizmos.html",
+          "hash": "Gu8FxY+x9hf+VohEPXLK35P64MTkc5AJvoGlThDcnhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomGizmos.html",
+          "hash": "c462nyPA2BTezDsGBCJW9i42I/u9nWyr55UxxSJqMqM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Detection.TriggerVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Detection.TriggerVolume.html",
+          "hash": "PprI6+K4xfo/olFiVMao1+bV60w5Ac3jSS9ZUOS6P6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Detection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Detection.html",
+          "hash": "h1mcHK9j2y/ZFlzGtJFaJ1kOfvMkfLoLblgogwaw7XA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.DisplayOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.DisplayOnlyAttribute.html",
+          "hash": "3LAwltv01kuyDCAYV3u2QZxrbb2QdnYRnP5hJHvXpb8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Experimental.MenuStateMachineInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Experimental.MenuStateMachineInspector.html",
+          "hash": "INmirbnOEoqJ5I/bsqafkh0Jt9czmeZznAlVKbXwrHY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Experimental.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Experimental.html",
+          "hash": "qYWFo7vgqQaTGSLkusv8P9fNJXTfAQiPCsbyQWkZUkk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.FlexGridInpector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.FlexGridInpector.html",
+          "hash": "Iclezpnwdsdg7+ExJL2mAt0McwUSMKhp1Pa4WwAMLjg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.MenuPageContextMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.MenuPageContextMenu.html",
+          "hash": "0WSn4kPdes5jUZwhsnArtZAebwVzH8t2zzseZPGHhI0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.ProjectEditorPaths.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.ProjectEditorPaths.html",
+          "hash": "c/iGL5MYFCAHIxihm75XMLL7fqBIWfgRCTkkHnR7oHo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer.html",
+          "hash": "gsMN4mpooyoJQfGYe2PmiJQ1awjxNlT4C7Er/+bm4FE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.PropertyDrawers.ScenePathDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.PropertyDrawers.ScenePathDrawer.html",
+          "hash": "uTUWqo4TDrOKtrvIQ1g21N6cZzgfbighf5il+3IV81k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.PropertyDrawers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.PropertyDrawers.html",
+          "hash": "4lBMjzQevBaiy7U/deJGVmdngKB5VCmPAocL2VXow/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.html",
+          "hash": "r8DTeqbYE0QyOB4KZ0efVEdV/lUzq1nXW9bDnM68BuA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Experimental.ApplicationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Experimental.ApplicationState.html",
+          "hash": "9lYZtfgZQ1htXN/iW21VTKxw4ZasB4kGs32E1MdvdWY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Experimental.ApplicationStateMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Experimental.ApplicationStateMachine.html",
+          "hash": "2baaI7IzrVPlAalyYLnOXXDGVa6xvY7E9D1ZLriTq/s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Experimental.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Experimental.Command.html",
+          "hash": "nVJNRSEJ3Gi8SzhbcafRqoGOsxVjpu43ddPuIXE6CSc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Experimental.PausedState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Experimental.PausedState.html",
+          "hash": "2/to65sPO7qQR2uzAv6XStbmcc5R4e8oWmTbvG3N3Vw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Experimental.PlayingState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Experimental.PlayingState.html",
+          "hash": "rTVVkz8mUMygnUWKjRb9r1NASHO16b8+nvjXft8hbzA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Experimental.QuittingState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Experimental.QuittingState.html",
+          "hash": "S144VSfzIxHkAVyXOoQYWY9BSi0SZy7UX7DQ4VZYUB4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Experimental.Singleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Experimental.Singleton.html",
+          "hash": "tgz4S6WobZ8dgEKIWnsPkLZYQmZ2CGq80F9JzAGWUfQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Experimental.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Experimental.State.html",
+          "hash": "t0yy2IDJdUN7JjdSZK8XgIALPGp3A2xzpzTMTztTioU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Experimental.StateAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Experimental.StateAction.html",
+          "hash": "8lrqzr7+U5Qa6qy3rWDSjHIyIuzfgpazdBGujwkEzdM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Experimental.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Experimental.html",
+          "hash": "ROwHkc0dAcaGbKqTo436xbQ2A+ZAbGYs3/IpWB/+tAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Extensions.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Extensions.ColorExtensions.html",
+          "hash": "xM8vLYejLan6rN/1pqLfxzqttzfxHoNAbIvyojpJhTw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Extensions.EventExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Extensions.EventExtension.html",
+          "hash": "THBGJhNh5L1p2i8ivSKC6zJoE7ZOYE8c0qQ4vncmUOU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Extensions.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Extensions.ListExtensions.html",
+          "hash": "BEwhdX7W9962szyylaBoPONtNzmwA8QPSH7kOKmK+6w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Extensions.ObjectExstentions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Extensions.ObjectExstentions.html",
+          "hash": "7iNK60BrvMUlhXeGQ/pJdysoIZmkzXS13OWas2L9bJ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Extensions.RigidbodyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Extensions.RigidbodyExtensions.html",
+          "hash": "2BFc9zWU3hrnP76PECxvDvr9FcFewLy71HQbOmevJOw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Extensions.html",
+          "hash": "Uu9+RrZgpHT7bx0nv7HGaxpqhY+NZC8FffWV/AA2PW0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.AllowDeserializeInvalidDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.AllowDeserializeInvalidDataAttribute.html",
+          "hash": "OCEvoIxkPeBDUqBzUbCEcMYAFwX6j76JOD1xOwEoE4c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.AlwaysFormatsSelfAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.AlwaysFormatsSelfAttribute.html",
+          "hash": "yrz6eEfkONM38sw6nINsxdHazps7no+jcxrum4Eq/gs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.AnimationCurveFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.AnimationCurveFormatter.html",
+          "hash": "zTGyduCoRXO0tRTUnsc7nkErKQsBE+IZLIg9OZZi/5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ArchitectureInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ArchitectureInfo.html",
+          "hash": "7naQG2cjd/WUwc0Y4Ki9wJCgl3ohMkJPbwqHMCAcKOg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ArrayFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ArrayFormatter-1.html",
+          "hash": "64Z6Ro+pzGQ0etQX1dEHC/qgq4YmUtD0GFcF9/zsJrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ArrayListFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ArrayListFormatter.html",
+          "hash": "Bi+QlZv5fgbUBmcA2RuGBsfPHJxlKTtiSMuSd+wANLE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BaseDataReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BaseDataReader.html",
+          "hash": "bG9+dzkCC7I5fc8lLrBCu+D9htyX/hwNQgQJ0ACrFRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BaseDataReaderWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BaseDataReaderWriter.html",
+          "hash": "fNjVqnBYu05VfI3XGtK3W06Lu1K6SJ4yz1Yjgd9QhdU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BaseDataWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BaseDataWriter.html",
+          "hash": "7DiV0uLRcMMn7puOahuTrK6M1XIdoDgYFvo2IrAceEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BaseDictionaryKeyPathProvider-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BaseDictionaryKeyPathProvider-1.html",
+          "hash": "scMyym0Hg5BCBWfQrbXP+QXwX4kmahoZTB6Ncf//RO0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BaseFormatter-1.SerializationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BaseFormatter-1.SerializationCallback.html",
+          "hash": "1M5eL4cesL2o43hbEZ46G+V98gEj20gom3+hDnLNjMU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BaseFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BaseFormatter-1.html",
+          "hash": "c9RYf32X5TjaJO/VxZ3XbsF6m/HPPt5h6/haDX8kuRk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BinaryDataReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BinaryDataReader.html",
+          "hash": "wWXzW8P9gXhMU+139e3h8Y6ryDqz2OA0AFdbpst1clw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BinaryDataWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BinaryDataWriter.html",
+          "hash": "XbjLI0sMWfOowxPZa5ipqUfO3EBQyQpKTqRnzvM3dIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BinaryEntryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BinaryEntryType.html",
+          "hash": "uMqPFHVT2Km+hy1RWQcyaR8uxeazxfKtPT2vIZE/C9E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BindTypeNameToTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BindTypeNameToTypeAttribute.html",
+          "hash": "lLtBwYIq2fAFP978G4HyijdCqnpBsDlq2+jFnzGCICM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BooleanSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BooleanSerializer.html",
+          "hash": "8TBeyCUkxHCamZyw7qSe8SvwbVqZUppYIuTpaRPXdVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.BoundsFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.BoundsFormatter.html",
+          "hash": "X3Kwm3eMxmg3zSgKzUNPAiSGPBtIFhfAoxErtuIoriw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Buffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Buffer-1.html",
+          "hash": "YYYk8pXW7atl8LNWvBjqft1dLesU1szvfjDjPmkl9kA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ByteSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ByteSerializer.html",
+          "hash": "JRI/k/M9U9il0dRP9frUEDtNiiVnQ3kYC0AzRC/ZkL0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.CharSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.CharSerializer.html",
+          "hash": "NZP/BiSXJgVgjJKyfiHVdZqnNQ5koA1pfppBqFwqKNY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Color32Formatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Color32Formatter.html",
+          "hash": "AjEC4du2cE5BQ0M+hLbYVCPK4zDv0hWjcEwapJhOYbA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ColorBlockFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ColorBlockFormatter-1.html",
+          "hash": "jCv0qbqvZq0oGjhv36MuusKK5t1Ro58AuR1jlQjysN4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ColorBlockFormatterLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ColorBlockFormatterLocator.html",
+          "hash": "Yr5Y1w7ls0UYFsOTEnPOx+Gcy2p/4eEzZocWBIGDSqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ColorFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ColorFormatter.html",
+          "hash": "pwBlPg9EgFQDDwek4zOJqL1AfwZ+9BeOpdoTJHVdHWs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ComplexTypeSerializer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ComplexTypeSerializer-1.html",
+          "hash": "JoXG4CyVE9uMX9mv+7STQjNHpv8Ip/wo9/zFFXA6Jww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.CoroutineFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.CoroutineFormatter.html",
+          "hash": "ikUOrtl/n9FHBd7578fk0lqxQo1qXCDKuZxN4NTok+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.CustomFormatterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.CustomFormatterAttribute.html",
+          "hash": "LQ5OQtBmiDl3tvUN9ByhFOV9BGhxREu28qiEwlqW4y8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.CustomGenericFormatterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.CustomGenericFormatterAttribute.html",
+          "hash": "AVNBWe+srwGFu9VpVjuL1hMc6jqI2/gmugNtLwXkX+I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.CustomLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.CustomLogger.html",
+          "hash": "Hnufw1Z1VGel9ZDh4i4UvynfJ9DxDGjcyWanH0D4ERQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.CustomSerializationPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.CustomSerializationPolicy.html",
+          "hash": "VANx0K0ylVJmjLwV5Ee9UVDi7INGLozdlnkr/84da4E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DataFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DataFormat.html",
+          "hash": "lG6IzoFQsUoA8HLWWOgnuKh4j37E7NEDBprnDoBodbw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DateTimeFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DateTimeFormatter.html",
+          "hash": "IafEKWlz9HzBNBpRLr67wngvja5b/zRwvexRUU1vnx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DateTimeOffsetFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DateTimeOffsetFormatter.html",
+          "hash": "oYLSoJD6kcS8J8IttkQHejs9z6h4TWpKAW6Sw3XG5kg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DebugContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DebugContext.html",
+          "hash": "Ow/s/IttAEFZ7ZfH3fH1H0bbAFLZIijyBeCS6VX8mss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DecimalSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DecimalSerializer.html",
+          "hash": "iM/yUZnFTBo7gz3RrIuhYIpUAyEzXcC4mCD4V7+iNdU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DefaultLoggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DefaultLoggers.html",
+          "hash": "WTr0XP8WiZmtTWUFlXMNFgdF6liuPTW0R0cnDZXzO7I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DefaultSerializationBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DefaultSerializationBinder.html",
+          "hash": "fUzrJe6N7jcLh3rrq4G5QWPn9wkY3Z/17b8SyfebL60="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DelegateFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DelegateFormatter-1.html",
+          "hash": "UgGjAcmpy7/sw7K1wvtg13QEOguywHcx334Y2m8LT4o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DeserializationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DeserializationContext.html",
+          "hash": "uixM8iNCdBwqeDyoBUB1LWCWn0pvbs3bmWJYycSNbvE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DictionaryFormatter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DictionaryFormatter-2.html",
+          "hash": "nAkKqtXUEnsQfLNcqvHWujH7EEZT68xZH95bMN0ve9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DictionaryKeyUtility.KeyComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DictionaryKeyUtility.KeyComparer-1.html",
+          "hash": "osDs2MEKeOmH0yBYtwDC2HaVW1Tm74kXICW24ZvxLAg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DictionaryKeyUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DictionaryKeyUtility.html",
+          "hash": "RLzgVE+SooXXHjUlp/XKMlfJVrSg6dQaHX7A+U6zdu4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DoubleLookupDictionaryFormatter-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DoubleLookupDictionaryFormatter-3.html",
+          "hash": "xYdH2PkYR8Z5QiSU8sQgEahiyyo8ocMv6iUV+vLd/ho="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.DoubleSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.DoubleSerializer.html",
+          "hash": "aWM55/Tdo1EYO9Z3idcW+z6P4+wp9oVVpPD5Ex/rC9s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.EasyBaseFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.EasyBaseFormatter-1.html",
+          "hash": "B+Q+vLjLHKlz0zLW6fSaCaI+60sKHEA2C3I/Ug7oWTs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.EmittedAssemblyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.EmittedAssemblyAttribute.html",
+          "hash": "jP1O1qXf4rnSN5CrdhvL3eH6ZPYpTJ96rfTuNwkVNio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.EmittedFormatterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.EmittedFormatterAttribute.html",
+          "hash": "nzOBWzx/+ssnJtSVm1rTm/ajOamCVTdM3mzqM5e7HtA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.EmptyTypeFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.EmptyTypeFormatter-1.html",
+          "hash": "CKPmeBmfAQ4H0lxAtDPRwP9wTXEjhld1NIzO2X5zH7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.EntryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.EntryType.html",
+          "hash": "pcbbHyQD2g6uGXN3oAX58Cz07zPtQ/0w5WXVX+IIJ8A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.EnumSerializer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.EnumSerializer-1.html",
+          "hash": "2sz/Zemq3cwuBp3IAQ8utzGHCl8uyl/6u1dbT/SWz6o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ErrorHandlingPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ErrorHandlingPolicy.html",
+          "hash": "0ZGIYcFoIUijGCg0YBzoaTzYSQ6ZtfxZ/6QZj7F9c+g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ExcludeDataFromInspectorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ExcludeDataFromInspectorAttribute.html",
+          "hash": "HERlBcW+dZffd6k8r8rC9ptiGVHwFqr6n2jp9pH13uk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.FormatterEmitter.AOTEmittedFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.FormatterEmitter.AOTEmittedFormatter-1.html",
+          "hash": "7eANnqXuSKO417bgEsXf1jtqnTw2XA87nCp/z+aSlRo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.FormatterEmitter.EmptyAOTEmittedFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.FormatterEmitter.EmptyAOTEmittedFormatter-1.html",
+          "hash": "QeqHS+Hho536XRKpfeTYqkFDIAZYeMuIOrWmw1vQojA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.FormatterEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.FormatterEmitter.html",
+          "hash": "38zvJxA08uO8/uqnA0GRH64RsmR/9a/RNYm3njj5TCU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.FormatterLocationStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.FormatterLocationStep.html",
+          "hash": "UPpcVUq5m/kCqePjkyxdqMjZXOt+2uxylG3xdsn+/3g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.FormatterLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.FormatterLocator.html",
+          "hash": "0kZyjBma0QcgPyASiqfK6QmAt6oK7v6aiP+ughDDFag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.FormatterUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.FormatterUtilities.html",
+          "hash": "j1/nZHdUZSJjX+LdqmxQoSCvf3G1xr2H/5WYShJgYmc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.GenericCollectionFormatter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.GenericCollectionFormatter-2.html",
+          "hash": "i+QaS1HqjJhguc3CPUmzGr+nACYg0eKHuncJjJv3bTY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.GenericCollectionFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.GenericCollectionFormatter.html",
+          "hash": "V/cNHSr/CYYzMk8JVMkwXo4DY3yuK+OvaDBNzPPrmoo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.GlobalSerializationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.GlobalSerializationConfig.html",
+          "hash": "ZUJ0XTN1aIU4Hclcxt5SYSuJ2Gp0URIXPnR2mxqzXjM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.GradientAlphaKeyFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.GradientAlphaKeyFormatter.html",
+          "hash": "AAh6r9ynDCcLnUbWkyHolCgBvR/Wc9ViJ3t0rjUSAT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.GradientColorKeyFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.GradientColorKeyFormatter.html",
+          "hash": "nV2QwQx3tF9asJxNiOaiaKa+8Qwu3qaYvADuP78Cbrs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.GradientFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.GradientFormatter.html",
+          "hash": "hhpmBHxiKnPemVt5jyRNo3TWxtIhnXOXmNOjs7MnDu0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.GuidSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.GuidSerializer.html",
+          "hash": "vN9Ls/oviQsccqLW8NpeNp+nhFnGR/PLhS5FJpO/ekI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.HashSetFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.HashSetFormatter-1.html",
+          "hash": "jyD83hmnQqRWz/tNmVDIvgBtO+xd0hCQtyCetNjvqSw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IAskIfCanFormatTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IAskIfCanFormatTypes.html",
+          "hash": "LN34dedBM5tBJE7OXm7ghRFueE0AnF1861GSqIPqCxs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IDataReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IDataReader.html",
+          "hash": "Nv21+RJDvAaUa4vVopkd8XdPH9NMMXsgeUWCbwRYWfM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IDataWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IDataWriter.html",
+          "hash": "CA338MgdRdlOG/Fj6NCNC83e2eqPGtuXfy/NSPtTVv4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider-1.html",
+          "hash": "LuZVuAGYqrQheOMYp3pest+rktPmmME1ZFYB0sWpq2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider.html",
+          "hash": "/051BBQGfpwe1WtIreNcYStSyLioJZ+4v4p3VJpzRSY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IExternalGuidReferenceResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IExternalGuidReferenceResolver.html",
+          "hash": "yDMVtsVhuAB4qzKaSH/4G/AmmER3QpgYaJaY7SdVIVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IExternalIndexReferenceResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IExternalIndexReferenceResolver.html",
+          "hash": "QpZ8yK9zN1hHxNd7FmbQrOhCO7ye6AUCmGMxgu4sZfk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IExternalStringReferenceResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IExternalStringReferenceResolver.html",
+          "hash": "1Jlpgt4oxp8YxaFK4KCBkgw1pmXaqyi3jDAuYATgQS8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IFormatter-1.html",
+          "hash": "gxo8BmYXXNR06BgC3sxuumCvSu0z528bRL88QuOA7o8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IFormatter.html",
+          "hash": "jJPUpxyOw+1r+m0YVDfRjKXhxmUuknPUv9FFwTIzpWg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IFormatterLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IFormatterLocator.html",
+          "hash": "SlpbhkA5bSZV6nYxePcKwHbCGw03l9lc7fgMCzpHqMU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ILogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ILogger.html",
+          "hash": "R24hsOSXz2BP8DFbIuH/zscpXCSvs90UZgBDlU6zDUM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IOverridesSerializationFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IOverridesSerializationFormat.html",
+          "hash": "AkMlNzvqpZhoFhtcPdRyFmSTn+Nqs6qnguyjlwvJZ3k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IOverridesSerializationPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IOverridesSerializationPolicy.html",
+          "hash": "UMYpbXvF6Xz9j6kVtOzhmifloAzo4XPQ9MxLnvGXZKM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ISelfFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ISelfFormatter.html",
+          "hash": "EaqL78WhN8tPi5KXB03hElNNVEIAZpo/xmOVVBOLO3c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ISerializationPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ISerializationPolicy.html",
+          "hash": "8aGnHpBtaAkDRPoMXF0psSzQhtzyy38awKmmz5OH3Q0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ISupportsPrefabSerialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ISupportsPrefabSerialization.html",
+          "hash": "x+SszAFEfm9yccNSOVW24cIC2dFXL8m3FjlLCgOokco="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Int16Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Int16Serializer.html",
+          "hash": "wx5+4scJ4e2vFGut+QsD35pGXHPbktbKcbIXseThVoY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Int32Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Int32Serializer.html",
+          "hash": "G5pfgW4afBAb2lCi2MySKqZh4vcrQvyhj48EubVHWUQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Int64Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Int64Serializer.html",
+          "hash": "f3AAAAH8kyMY9vQUs0s8pzDVMCefxx/Uv+EbsKtvKsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.IntPtrSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.IntPtrSerializer.html",
+          "hash": "huxODWYWQrarUiRWp+PSvuNRbYb8hfX6DrReHKHh36E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.JsonConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.JsonConfig.html",
+          "hash": "HK3Ov4Cee/GTiws92fzE2slOKWUZx257dV2lWgwtDLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.JsonDataReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.JsonDataReader.html",
+          "hash": "vIUlDQkYdlLygHHtA8zLTpK9vU25/oKOpq8YsWUnJY8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.JsonDataWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.JsonDataWriter.html",
+          "hash": "aV2/7J7g+e1Lg7yaZRUUgftIsnA/AJb7rWHsDRnL3Pc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.JsonTextReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.JsonTextReader.html",
+          "hash": "qb8rUfPeEsluNJR1IqrdHF189HvawgrxV5yLCoBn2w4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.KeyValuePairFormatter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.KeyValuePairFormatter-2.html",
+          "hash": "0gzPN/l1uUAmzWYB8a9gTQYcS3wBTA/3N+KeYyC/fQ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.KeyframeFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.KeyframeFormatter.html",
+          "hash": "PdrtWPHTRpwNc4U9n8pbDd06iUbtGO2yf5jbQevWicc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.LayerMaskFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.LayerMaskFormatter.html",
+          "hash": "AejWgqfWrPTUJ183uvsgYFclcuXiXhJ/gg2bIbf5JOE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ListFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ListFormatter-1.html",
+          "hash": "xvC52V6mMKugdAThK4FWP5bULBh46E4b9S91pOpVEvA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.LoggingPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.LoggingPolicy.html",
+          "hash": "MvSibiiz3aW85Ua2Nvr8RI9l7Ou4NXWmwuBijaucya4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.MethodInfoFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.MethodInfoFormatter-1.html",
+          "hash": "z3rwHul7pfdjLcI9kMefDmorn1kUtwih2btj4sgtSw8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.MinimalBaseFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.MinimalBaseFormatter-1.html",
+          "hash": "/PI9OAy+EVqaUY6dySV89scGV+MhSOCF7I8yz0ZmTdE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.MultiDimensionalArrayFormatter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.MultiDimensionalArrayFormatter-2.html",
+          "hash": "e+jfFOEm6KUvbKwdKi/l8OfhHdKd4CDtBKlEMewht6s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.NodeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.NodeInfo.html",
+          "hash": "vb3ebEkNbZZgB3WJci07JsnG+oa76RhBpmT6lculBfY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.NullableFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.NullableFormatter-1.html",
+          "hash": "lnJSy/W7ds6Rg3snBBYvbFkdBYo9GHap2ZWEm+ZvmB8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.OdinSerializeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.OdinSerializeAttribute.html",
+          "hash": "aXhJeih2a9/QpS3CYlElXS6Ye1QQN5UBdT1/tqZdISE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.PrefabModification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.PrefabModification.html",
+          "hash": "i8IPV6p4ibvnvFpVh8KJn3ek8/lm2krxheypD0Nf3ZU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.PrefabModificationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.PrefabModificationType.html",
+          "hash": "FWgB0zazdi6yn6bhBmYCjrlLdW13zfwk4RivJth3dhw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.PreviouslySerializedAsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.PreviouslySerializedAsAttribute.html",
+          "hash": "keSWQzIbNl5kThO30TLH/CSu5qltgtPX998MqhAEcxc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.PrimitiveArrayFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.PrimitiveArrayFormatter-1.html",
+          "hash": "urgCwSMFnmPSM/wD4UFz42Xj4CE4hIfO8Jsw/vRRiCg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ProperBitConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ProperBitConverter.html",
+          "hash": "UYuam1kKT2K364p3Noq5KWS4HhbzXkTw3GTqQc5Rhns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.QuaternionFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.QuaternionFormatter.html",
+          "hash": "k9vgY6mJqI6SZsPisLNideVdbmq3LjkemsJxrdPmvWs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.QueueFormatter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.QueueFormatter-2.html",
+          "hash": "9QgzMfu5R3vrQeTz2H+kySz77kTcFf13E4jkoAM9KRs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.RectFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.RectFormatter.html",
+          "hash": "PYD9P1p6HiCzmMA+j9l5qQVBBvyoJ6265mWt36z7Fik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ReflectionFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ReflectionFormatter-1.html",
+          "hash": "J1hXw9jvz0gGEwwXRlnUcMuInq4v4+CH3LbTg1BLkhQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.ReflectionOrEmittedBaseFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.ReflectionOrEmittedBaseFormatter-1.html",
+          "hash": "LqGsJZd+jfhXLQs0qpQJ4TyRdIhgeib8+P31dlo95ME="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.RegisterDictionaryKeyPathProviderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.RegisterDictionaryKeyPathProviderAttribute.html",
+          "hash": "yPkhTLKCbLxDvQEn9rQtWWy/FNkHoMeXwYHsQb5SVU0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.RegisterFormatterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.RegisterFormatterAttribute.html",
+          "hash": "aI0R2ozC0ohT6YLrvXe6Tpqb9bPSiyO5qagzsWmLn6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.RegisterFormatterLocatorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.RegisterFormatterLocatorAttribute.html",
+          "hash": "yjbiS5QxQ5awJRL7Wic6XXKhZb/mG5dy4bbprCVfKdY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SByteSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SByteSerializer.html",
+          "hash": "TTPeUdoFptj69DdQyb+jCZ7EUna5ysUuhsktSWR4FqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SelfFormatterFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SelfFormatterFormatter-1.html",
+          "hash": "utDgjGMpzpOef4nhZowliMrJ2/5mapBOcph2Qx2nCvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializableFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializableFormatter-1.html",
+          "hash": "Ru5iHIZiFwFVTu1k98aJQbHr751u9723DTIbX1QPZeU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializationAbortException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializationAbortException.html",
+          "hash": "dSUy2FdXFDdgJVPohk8cZOeNsHzwGbdVJ3SGGF/9qio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializationConfig.html",
+          "hash": "fnYo1PFFk85I4mW5WoBxPWfWvBd8rI2HCvkO6vAuiuY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializationContext.html",
+          "hash": "kcEgi2O73ss3BfvePNxTkYX/SfZL06rw/VjMDVhQ7bE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializationData.html",
+          "hash": "A+ypuRUrH1iWVlU2cFuqFvnq7OiWpu9eDhNC+Fo5XKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializationNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializationNode.html",
+          "hash": "/yUVW33+WHS9Z6Tyvs5tg6VSaXWYX78yTnXWn9j5TRM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializationNodeDataReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializationNodeDataReader.html",
+          "hash": "aWMM50Ff1tgMIvJWgIQ3cHyBS8nnyPd7yrowdMkdi7c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializationNodeDataReaderWriterConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializationNodeDataReaderWriterConfig.html",
+          "hash": "RDlaQWYVqsjLUn8p1qRZJZyDtuvfizkd7YpQZZADmE8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializationNodeDataWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializationNodeDataWriter.html",
+          "hash": "+rx78WqN1jMgjsofrIiwgzerjFIICL3F6om/+7omU+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializationPolicies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializationPolicies.html",
+          "hash": "smrjqDaG8X2I/1aw05mcYrsJbJCsJ6olIkZGhmsiXrI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializationUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializationUtility.html",
+          "hash": "ipbZVOmHZoJE6oirWyUXznBj2iv5mbysFTEkE35kv8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializedBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializedBehaviour.html",
+          "hash": "d79XRJMBqco/Y0VzsvdFVOW9LIO8EvK+m0/yGYZJ8ug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializedComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializedComponent.html",
+          "hash": "5M9uipNippv0NCquuspFAmxxe7P72s70XYNnyC945zw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializedMonoBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializedMonoBehaviour.html",
+          "hash": "S2si+B9G7QVOPDrESyZznZ/3hK8i0l5pvnRjkAdtPeo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializedScriptableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializedScriptableObject.html",
+          "hash": "Ms2kZ9pj3cPjV+fy578wy4htHMbufKpU8a8/at4oZf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializedStateMachineBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializedStateMachineBehaviour.html",
+          "hash": "gjjx/cpA7xd6fJvfh/vJXoGbDkGkZv5HVZxz4WHappk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SerializedUnityObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SerializedUnityObject.html",
+          "hash": "DgztqDhs5MZQvtNrSkNj95daUIK3mzkRIp/qIn7OVro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Serializer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Serializer-1.html",
+          "hash": "+6Uqc56fJdWAoJSiY09fzx40id1h9gB0THDTzzfiMIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Serializer.html",
+          "hash": "s0Zn+UP571T5ZgJYvaKe/UfyKEucHlmf9Rf/IxCJTb8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.SingleSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.SingleSerializer.html",
+          "hash": "UsMC6YeG4RBLeuRv0dzGLM1att5SmItgJl8I7UmEgjk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.StackFormatter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.StackFormatter-2.html",
+          "hash": "8oZ94m9rjxq+OpMI73dMoL7ihqqlrqTQEOC2OXSAtq8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.StringSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.StringSerializer.html",
+          "hash": "4BU+9of0kq4WJ3jmE7U9BFz2uAlccCyWyeukVFgbrdU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.TimeSpanFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.TimeSpanFormatter.html",
+          "hash": "O63EtzxbpGEAXSVIuci64+AfxCYJ0daiRqTIZaG7d24="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.TwoWaySerializationBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.TwoWaySerializationBinder.html",
+          "hash": "o3S47+R+6Vg5f0LuzveC/hbYZnnyLovUZpK9h6fZn+g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.TypeFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.TypeFormatter.html",
+          "hash": "eM8m4FIdpYquxY8SLuVYtC6YuRed8SBs22q9sZbgrd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.UInt16Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.UInt16Serializer.html",
+          "hash": "dG009yxSZf9Qa8SFBbwdFLpIj5DLj9PM40r+hcK+z2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.UInt32Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.UInt32Serializer.html",
+          "hash": "ay8qWbKDbhoClGyfyJomZ0xjAMdo2xb3YHsLXlkGi4I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.UInt64Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.UInt64Serializer.html",
+          "hash": "c1F/FeKT37lHparthmh3YGBcObDXkK+ykGQRcUCd6Bw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.UIntPtrSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.UIntPtrSerializer.html",
+          "hash": "t8On1T+6bMPLEyYNqg7tpqaO2eaJ2nvNwrQYnKvBuAw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.UnityEventFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.UnityEventFormatter-1.html",
+          "hash": "Y4dLYEwPBTbx6jYSbg8LVYNxdycKypmqxdOdYMQ+Rpw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.UnityReferenceResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.UnityReferenceResolver.html",
+          "hash": "lCNm//131nD77iUemO+D1Tqf9rQgrrjRSeSgwaG1JgI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.UnitySerializationInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.UnitySerializationInitializer.html",
+          "hash": "JBCd/HRtvHlfAJOiNyI5lmrJp/D52fY7EIQr/94qzvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.UnitySerializationUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.UnitySerializationUtility.html",
+          "hash": "PF0QYUBVOkJdu/I6B0DzApDPEPlqMb0BkwuE22im9is="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.Cache-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.Cache-1.html",
+          "hash": "XU8WKo5HIWhyDiYmrVL8g9RzCm6OJC2EuoJ1kQxKYyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.DoubleLookupDictionary-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.DoubleLookupDictionary-3.html",
+          "hash": "AjZUuTwf84TMuXddn3xTndDPocfghOexrdavydGp+6A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.InstanceRefMethodCaller-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.InstanceRefMethodCaller-1.html",
+          "hash": "tbowjt16RLtkv222CbeC/oPAFlo+ox0piBDFutV8ENM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.InstanceRefMethodCaller-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.InstanceRefMethodCaller-2.html",
+          "hash": "YTHLbiKEdU/QnU/GVkdiVByaupvOSr1aedzGB8UqgjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.html",
+          "hash": "R0IeCMNi1yd2xKqyH/mweX9fOB88oSwXqSluQtxHJhk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.FastTypeComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.FastTypeComparer.html",
+          "hash": "+TYQmbWTCVtHozuajan0o6sqsa8IZO50VEHtBsexyR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.FieldInfoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.FieldInfoExtensions.html",
+          "hash": "1kSqKRedc5ou6PeeS+Vba+LHNZD4OFz5IV/piwyg930="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.Flags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.Flags.html",
+          "hash": "yfxG2FGAXe6yHScNXVDk7Yo9TJiUdpJ01ITVHf96KGE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.DictionaryIterator-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.DictionaryIterator-2.html",
+          "hash": "BUocfAhn7oafp7bbHU/Tgq1UdKrM05qV3R4LLQeQiaU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.DictionaryValueIterator-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.DictionaryValueIterator-2.html",
+          "hash": "ib7A/L7sM947TZJxOgwVb0nU3VRdl9CCae6YHzRQBS4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.HashsetIterator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.HashsetIterator-1.html",
+          "hash": "YNB2oWjuUrcdLY55PuZiqVDRl0lmi2cavbHJjNF786k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.ListIterator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.ListIterator-1.html",
+          "hash": "Recwq5LUIt+u9v9m9z4Izi9GKXJ+EpikOuaH8jF7XNU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.html",
+          "hash": "YKijk3Amjw2/1Qn+CbSabo0A4xv2nJNE3ctyi6XrW3c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ICache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ICache.html",
+          "hash": "U4asgjdN3kIc/R1gBXl8eZA9iAYT+O2CekGo8kTdavM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ICacheNotificationReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ICacheNotificationReceiver.html",
+          "hash": "617pIvs8cmF0Gu6n9blYfKMY/0hzHWsv3y6O1LiuQwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.IImmutableList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.IImmutableList-1.html",
+          "hash": "Tb7/BuWOuGQi39k4o/xnegELHVM85I4w3aJzhT10sr0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.IImmutableList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.IImmutableList.html",
+          "hash": "/3rgxx7hEu68skafF6x/vMNBuL5QkBdecJL8mpcwKQw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ImmutableList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ImmutableList-1.html",
+          "hash": "4dJEJo3dBFqQkFccwvpcLccHzm2Cx2ZHPffH+z/sM94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ImmutableList-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ImmutableList-2.html",
+          "hash": "60YC9Zf/1lM072Enm+xYnBT38MsNSzMxxeQT8BaqCZU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ImmutableList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ImmutableList.html",
+          "hash": "b3br/W6jZDKdj8/VbA4zi3y36VnDmJmZdS6LuH/hbic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.LinqExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.LinqExtensions.html",
+          "hash": "gJnhozjgMGP+JDADaRfq4AyX50QJfA1OqpVWnohSSdg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.MemberAliasFieldInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.MemberAliasFieldInfo.html",
+          "hash": "Uz9dDCep4wqc6wCnOtNwcDmNshbRRyAHGlLeKaepS6A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.MemberAliasMethodInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.MemberAliasMethodInfo.html",
+          "hash": "a8/YIa45AUC94VtOGeVUX3MGuWS0aFcFI9GDG+mBbwQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.MemberAliasPropertyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.MemberAliasPropertyInfo.html",
+          "hash": "ygdICe4bAAipm6VttFrUZWkafxyQrnYIS0+30e0QvbU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.MemberInfoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.MemberInfoExtensions.html",
+          "hash": "gOKCNBS+gHSfgau3f/+wOL49r2p2lmMezxh5krul9oc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.MethodInfoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.MethodInfoExtensions.html",
+          "hash": "JJAVb/MnVuduoVKFTDcH3hr5s/Bl7iczxzbkYL8J4kU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.Operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.Operator.html",
+          "hash": "l2FsbBSV/2oAmJ044WSOC3rzwEiVnk/gSVkbtejeE34="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.PathUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.PathUtilities.html",
+          "hash": "kSYGgFC61drXrS/5HuWezjfbLMHX9qv100W1fNUXMCo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.PropertyInfoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.PropertyInfoExtensions.html",
+          "hash": "CbbUHYmGqbOCqrh14QHpvwtFQN1yKv3WcC30rnnbTEs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ReferenceEqualityComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ReferenceEqualityComparer-1.html",
+          "hash": "27XZti+wWrBbEvhoIhpcLabek3d2HNTvT3NdMuTZ3SY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.StringExtensions.html",
+          "hash": "4//WkyyxJ6GLV5dGZ8z8b9evOFoNHK93ljxEletZTg0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.TypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.TypeExtensions.html",
+          "hash": "J7lQFpCmZVf/tfpSrM5mtYPQpIe0MZWaSKfgIfvSAJ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.UnityExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.UnityExtensions.html",
+          "hash": "0R35ewKwJlgmMMmnKfFI/2hPAIdgFh3USRO82JIaoac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.UnityVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.UnityVersion.html",
+          "hash": "2edGyqngoypRxY7Pi7l26jSlCjDISajfmhwxTugijt4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.Unsafe.UnsafeUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.Unsafe.UnsafeUtilities.html",
+          "hash": "TfmZNbj7PAesaZ5awGDZFP5+xKoPhwacl/6hiuPv/+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.Unsafe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.Unsafe.html",
+          "hash": "VUdQECNUld5sVScXQ7GKghSZpmF8VfzTPNqXBzGeHWM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ValueGetter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ValueGetter-2.html",
+          "hash": "/W4iVosDsYu3HWKYXRsMs8DC8iPKEHU9AFxzVKne/uA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ValueSetter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.ValueSetter-2.html",
+          "hash": "bcDYfewPebXTi87VnMK3b4ZJ3l8HgzEauQUFcYih9L4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter-1.html",
+          "hash": "Ntv0Za3dGS53+k9Z6TtYnY/fR+oCiDbiUZLHpNWc6xA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter.html",
+          "hash": "+rgcTrwCpQPufR2S4xcON1i0KzKgbec9L/jj35HfDDA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter-1.html",
+          "hash": "ap66hJ3wl/Qr1xgWMZOPCBphBFwbDRoypDJvpgTBg9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter.html",
+          "hash": "ZZycMC2VUJc4Hsxmi/7smB/rFnXCKOdmSdjo1kqzb2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Utilities.html",
+          "hash": "S3UCHBrvEcdaxVnQ0mcnlL30IgdjAQNQDwIshHPn3is="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Vector2DictionaryKeyPathProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Vector2DictionaryKeyPathProvider.html",
+          "hash": "1/OqIl3knaV/IlsIpBGMKqOhRCIgisMO3nrGtRRu0t8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Vector2Formatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Vector2Formatter.html",
+          "hash": "AyeIlrxWnqqer73939pwVI9zB0jR9p79qV1l8t0L95g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Vector3DictionaryKeyPathProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Vector3DictionaryKeyPathProvider.html",
+          "hash": "ELfY5KVGUaKtQwysCd67ZywKBqTc4kRhGHBhmZBoy6g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Vector3Formatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Vector3Formatter.html",
+          "hash": "P/zVW5E6YfhgBxaOd4ozaFTQTrm/xqtEOH5wYw3F5zw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Vector4DictionaryKeyPathProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Vector4DictionaryKeyPathProvider.html",
+          "hash": "24h9xXyNpDm7qIPeVE9EeQvC6h9ANqpnAECAHnZS7Yk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.Vector4Formatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.Vector4Formatter.html",
+          "hash": "o0MRlFgVOTGPasuiqVTuMsRYypV7CPaTEzWMmNCcMSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.VersionFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.VersionFormatter.html",
+          "hash": "IouD4EwCI2p7rXKUv0PmkIVb7anjFn3H0hpxw8OPn20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.External.OdinSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.External.OdinSerializer.html",
+          "hash": "9UnL3vHzmrZtBWCSIVkVFz2tWupWVs1KRUylXqGx0dk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.IState-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.IState-1.html",
+          "hash": "JOP6DZmMiBoukiaetp7HLEXzwyvp47Q0vFgumpZC5MM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.LevelManagment.LevelData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.LevelManagment.LevelData.html",
+          "hash": "KKk5JnmtP4YPd3Ta0E84qekBnFKaeiJDXYp9MXuJqFI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.LevelManagment.LevelLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.LevelManagment.LevelLoader.html",
+          "hash": "7H2FxuosGjIfwiV43ULncxhYbYPt0V9diUmStzyH1gU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.LevelManagment.LevelSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.LevelManagment.LevelSystem.html",
+          "hash": "gapmkquJWqtIpa5oCTVuidh38kDdmtpprdUcBo8OPFI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.LevelManagment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.LevelManagment.html",
+          "hash": "wiCs+ntqOWBOu1ZSoTOIIrLHAJWUetBcYPEBTlv2RZU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.ScenePathAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.ScenePathAttribute.html",
+          "hash": "Jh8PEpNLPt6pdK8Gn030btTb110+meQ93NYCm0zvRbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Serialization.TirJsonUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Serialization.TirJsonUtility.html",
+          "hash": "BafWoxBhDErqLbe8IoX8v0y1WTu2Q2f2vGr91C8rk9g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Serialization.html",
+          "hash": "rmpT1xPHGiK9GCx07Jhq3kfQGQvOr66a2v8uSUpMk5I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.BoolSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.BoolSignal.html",
+          "hash": "qBPVNEv2tNsRgr785sG8zriBjYoRn8gOi5r2WeGljzA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.ByteSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.ByteSignal.html",
+          "hash": "zvEdwzghbSRj4f8SbhbREdOtWCgjYMwGtFNFHI7y1l4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.FloatSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.FloatSignal.html",
+          "hash": "cZiRgLNgHVrXUTqa7117Ot/5wNOHK6OMGb5ArNQQZfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.GameObjectSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.GameObjectSignal.html",
+          "hash": "xoeBQT4m3x6fzGalL8k/v0ehSXAT0Y+IVIHI1Lo5D08="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.IntSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.IntSignal.html",
+          "hash": "4LOehrRywpNSWs0upnkKURyfLLXdOZpxspQffSlY29M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.LevelLoadSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.LevelLoadSignal.html",
+          "hash": "9F8xB2nJEQfGWrVtPh5EbQLrSW1bu/v6lhLe48i5ELw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.Signal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.Signal.html",
+          "hash": "0SbFpIhDh6U/xIPWmBa18T2NbaJqDmumuwzziMkxULg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.SignalBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.SignalBase.html",
+          "hash": "LpyLYshbw9w5oYWjOPdrhfJQFzOxu1FwCyiNIdM1kWk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.SignalReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.SignalReceiver.html",
+          "hash": "aJ1pVD8sH4HhA7+pe1xrTdwnC/Dm8lc8QHmOkPpJji4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.StringSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.StringSignal.html",
+          "hash": "D2umseKF3wo/13UlvN+5SbhqA7fgRd8Y4Lok5FQVdsc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.html",
+          "hash": "7brA3sSAOkY3+cEetIxeX3Jkf8QfQ0NhBWfWmKt5NqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.StateMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.StateMachine.html",
+          "hash": "N7/r/7vMQkkWh4JyUR5IrsMWyItLxp8iTggq/CrNHgs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.TirLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.TirLogger.html",
+          "hash": "6CLTMbfsCNFhFfDoGzrH15eDGVRrlU3DRQ8b7tH3S9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.Buttons.ButtonHotKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.Buttons.ButtonHotKey.html",
+          "hash": "vv26SyGBjYFJnTDjYpb6S5BYIeKjC34xHRgvD8i7P5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.Buttons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.Buttons.html",
+          "hash": "oIw5QMRF19/v8z2/GMM5j11KvIoO9tvg/faX9MycIoU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.Layout.FitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.Layout.FitType.html",
+          "hash": "MLH4h4oouDdRihNmWqRfrT35uPkNHYFrRifUQUdSpFA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.Layout.FitTypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.Layout.FitTypeExtensions.html",
+          "hash": "gitIOJoEJznlAczNbfUsEcq9E5Ek0detp9Uo7UWiEVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.Layout.FlexibleGridLayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.Layout.FlexibleGridLayoutGroup.html",
+          "hash": "1LtCsL5qVY0RnN8mzez+qcmbSjZtwdJC+Occi3zu4yA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.Layout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.Layout.html",
+          "hash": "d7H7qyERfVvLhg121DDgZ2PyPFo2AV2iCemJBQ1ka7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.LoadingScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.LoadingScreen.html",
+          "hash": "b4GjaU9vhH9FrsFAs4JjKlHU46+KtkGM8F8UdvUdNDM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.MenuPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.MenuPage.html",
+          "hash": "7oYShOqohWvRNUSsxRjnGKI7uRLXFoLGT31E+bHZ0EQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.MenuState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.MenuState.html",
+          "hash": "vcvL1WgL0nYV5ys0g3qvnynPqDJ4XJe5hW8XpPsuOX4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.MenuStateMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.MenuStateMachine.html",
+          "hash": "lfeLSO+00t9Bwad2ukIkhwM457TtduVduIeBEqH40PM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.MessagePanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.MessagePanel.html",
+          "hash": "vbFx6AwekZdElEfPVydHr8BNHKn96kHofFTYoH1nhhQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.TabButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.TabButton.html",
+          "hash": "IcnrkDxzFLGTi/JVlUFaQhEBC42SuFQiJqyFDLZa16g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.TabGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.TabGroup.html",
+          "hash": "9DqGXMeVcsUi/KfuAP8cYLsbCbdGtTaIvN+LBjK/S1w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.UIBillboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.UIBillboard.html",
+          "hash": "AcsvPqN6m2rm5rTgMP7DbjvzEFyZXF2+gVoIN5EB4S8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.UIMessageBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.UIMessageBox.html",
+          "hash": "xfVEgcQDIpgwENqNhIdysbOaH2kJ1jiA9bs833lwCS8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.WorldSpaceMessageBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.WorldSpaceMessageBox.html",
+          "hash": "T9CVuRGOy8Q/DOKT8AnV4lbMUzHfpd4G2scYfj8mFOI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.UI.html",
+          "hash": "f59VGkwA5dOwMEcFcF4T6fYkDX1SH31BuokP7ShFnCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Vector3Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Vector3Extensions.html",
+          "hash": "ShsdMVCfW0Onif0kcpk+g3WBi/2jTbe3ZuG3fTl4hTw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.html",
+          "hash": "VbFLrFzIzdP/Q3rasZmA7BfRp3D2kW4kTVTRo8NTUv0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "/K8IdpF5AEWi8sy3EChhQtECnD/qp+XIR0zvR+MKj7c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "fg2BB8pS3ZTByYPP7zqGJ3wkQbzsHD0fxXmigH0iv/4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/manual.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/manual.html",
+          "hash": "hWs5EFShLRKi/CDsmIwCCtZrtRdJ8ogh1s9WyQbi5mQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "q7EzmopDuuxIhCzUtXfwJ9MMZjagKZoYThPFU/37S+g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "YgP1IH0wTgmuIl/gBXi8Ren9jj4fqoPU+MO46JeWL7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 286,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

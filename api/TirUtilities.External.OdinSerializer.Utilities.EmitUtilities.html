@@ -1,0 +1,2057 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EmitUtilities
+   | TirUtilities </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EmitUtilities
+   | TirUtilities ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities">
+  
+  
+  <h1 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities" class="text-break">Class EmitUtilities
+  </h1>
+  <div class="markdown level0 summary"><p>Provides utilities for using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.emit">System.Reflection.Emit</a> namespace.
+<p>
+This class is due for refactoring. Use at your own peril.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">EmitUtilities</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.html">TirUtilities.External.OdinSerializer.Utilities</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class EmitUtilities</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CanEmit_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CanEmit*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CanEmit" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CanEmit">CanEmit</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether emitting is supported on the current platform.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CanEmit { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the current platform can emit; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceFieldGetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceFieldGetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceFieldGetter__2_System_Reflection_FieldInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceFieldGetter``2(System.Reflection.FieldInfo)">CreateInstanceFieldGetter&lt;InstanceType, FieldType&gt;(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which gets the value of a field. If emitting is not supported on the current platform, the delegate will use reflection to get the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ValueGetter&lt;InstanceType, FieldType&gt; CreateInstanceFieldGetter&lt;InstanceType, FieldType&gt;(FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a getter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.ValueGetter-2.html">ValueGetter</a>&lt;InstanceType, FieldType&gt;</td>
+        <td><p>A delegate which gets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">InstanceType</span></td>
+        <td><p>The type of the instance to get a value from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">FieldType</span></td>
+        <td><p>The type of the field to get a value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceFieldSetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceFieldSetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceFieldSetter__2_System_Reflection_FieldInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceFieldSetter``2(System.Reflection.FieldInfo)">CreateInstanceFieldSetter&lt;InstanceType, FieldType&gt;(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which sets the value of a field. If emitting is not supported on the current platform, the delegate will use reflection to set the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ValueSetter&lt;InstanceType, FieldType&gt; CreateInstanceFieldSetter&lt;InstanceType, FieldType&gt;(FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a setter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.ValueSetter-2.html">ValueSetter</a>&lt;InstanceType, FieldType&gt;</td>
+        <td><p>A delegate which sets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">InstanceType</span></td>
+        <td><p>The type of the instance to set a value on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">FieldType</span></td>
+        <td><p>The type of the field to set a value to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceMethodCaller_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceMethodCaller*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceMethodCaller__1_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceMethodCaller``1(System.Reflection.MethodInfo)">CreateInstanceMethodCaller&lt;InstanceType&gt;(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a fast delegate method which calls a given parameterless instance method on a reference type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;InstanceType&gt; CreateInstanceMethodCaller&lt;InstanceType&gt;(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The method info instance which is used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;InstanceType&gt;</td>
+        <td><p>A delegate which calls the method and returns the result, except it&apos;s hundreds of times faster than MethodInfo.Invoke.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">InstanceType</span></td>
+        <td><p>The type of the class which the method is on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceMethodCaller_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceMethodCaller*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceMethodCaller__2_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceMethodCaller``2(System.Reflection.MethodInfo)">CreateInstanceMethodCaller&lt;InstanceType, Arg1&gt;(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a fast delegate method which calls a given instance method with a given argument on a reference type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;InstanceType, Arg1&gt; CreateInstanceMethodCaller&lt;InstanceType, Arg1&gt;(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The method info instance which is used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;InstanceType, Arg1&gt;</td>
+        <td><p>A delegate which calls the method and returns the result, except it&apos;s hundreds of times faster than MethodInfo.Invoke.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">InstanceType</span></td>
+        <td><p>The type of the class which the method is on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Arg1</span></td>
+        <td><p>The type of the argument with which to call the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstancePropertyGetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstancePropertyGetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstancePropertyGetter__2_System_Reflection_PropertyInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstancePropertyGetter``2(System.Reflection.PropertyInfo)">CreateInstancePropertyGetter&lt;InstanceType, PropType&gt;(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which gets the value of a property. If emitting is not supported on the current platform, the delegate will use reflection to get the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ValueGetter&lt;InstanceType, PropType&gt; CreateInstancePropertyGetter&lt;InstanceType, PropType&gt;(PropertyInfo propertyInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a></td>
+        <td><span class="parametername">propertyInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a> instance describing the property to create a getter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.ValueGetter-2.html">ValueGetter</a>&lt;InstanceType, PropType&gt;</td>
+        <td><p>A delegate which gets the value of the given property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">InstanceType</span></td>
+        <td><p>The type of the instance to get a value from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">PropType</span></td>
+        <td><p>The type of the property to get a value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The propertyInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstancePropertySetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstancePropertySetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstancePropertySetter__2_System_Reflection_PropertyInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstancePropertySetter``2(System.Reflection.PropertyInfo)">CreateInstancePropertySetter&lt;InstanceType, PropType&gt;(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which sets the value of a property. If emitting is not supported on the current platform, the delegate will use reflection to set the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ValueSetter&lt;InstanceType, PropType&gt; CreateInstancePropertySetter&lt;InstanceType, PropType&gt;(PropertyInfo propertyInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a></td>
+        <td><span class="parametername">propertyInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a> instance describing the property to create a setter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.ValueSetter-2.html">ValueSetter</a>&lt;InstanceType, PropType&gt;</td>
+        <td><p>A delegate which sets the value of the given property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">InstanceType</span></td>
+        <td><p>The type of the instance to set a value on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">PropType</span></td>
+        <td><p>The type of the property to set a value to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The propertyInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceRefMethodCaller_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceRefMethodCaller*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceRefMethodCaller__1_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceRefMethodCaller``1(System.Reflection.MethodInfo)">CreateInstanceRefMethodCaller&lt;InstanceType&gt;(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a fast delegate method which calls a given parameterless instance method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EmitUtilities.InstanceRefMethodCaller&lt;InstanceType&gt; CreateInstanceRefMethodCaller&lt;InstanceType&gt;(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The method info instance which is used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.InstanceRefMethodCaller-1.html">EmitUtilities.InstanceRefMethodCaller</a>&lt;InstanceType&gt;</td>
+        <td><p>A delegate which calls the method and returns the result, except it&apos;s hundreds of times faster than MethodInfo.Invoke.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">InstanceType</span></td>
+        <td><p>The type of the class which the method is on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceRefMethodCaller_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceRefMethodCaller*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateInstanceRefMethodCaller__2_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateInstanceRefMethodCaller``2(System.Reflection.MethodInfo)">CreateInstanceRefMethodCaller&lt;InstanceType, Arg1&gt;(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a fast delegate method which calls a given instance method with a given argument on a struct type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EmitUtilities.InstanceRefMethodCaller&lt;InstanceType, Arg1&gt; CreateInstanceRefMethodCaller&lt;InstanceType, Arg1&gt;(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The method info instance which is used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.InstanceRefMethodCaller-2.html">EmitUtilities.InstanceRefMethodCaller</a>&lt;InstanceType, Arg1&gt;</td>
+        <td><p>A delegate which calls the method and returns the result, except it&apos;s hundreds of times faster than MethodInfo.Invoke.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">InstanceType</span></td>
+        <td><p>The type of the class which the method is on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">Arg1</span></td>
+        <td><p>The type of the argument with which to call the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateMethodReturner_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateMethodReturner*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateMethodReturner__2_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateMethodReturner``2(System.Reflection.MethodInfo)">CreateMethodReturner&lt;InstanceType, ReturnType&gt;(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a fast delegate method which calls a given parameterless instance method and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;InstanceType, ReturnType&gt; CreateMethodReturner&lt;InstanceType, ReturnType&gt;(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The method info instance which is used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;InstanceType, ReturnType&gt;</td>
+        <td><p>A delegate which calls the method and returns the result, except it&apos;s hundreds of times faster than MethodInfo.Invoke.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">InstanceType</span></td>
+        <td><p>The type of the class which the method is on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">ReturnType</span></td>
+        <td><p>The type which is returned by the given method info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateStaticFieldGetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateStaticFieldGetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateStaticFieldGetter__1_System_Reflection_FieldInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateStaticFieldGetter``1(System.Reflection.FieldInfo)">CreateStaticFieldGetter&lt;FieldType&gt;(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which gets the value of a field. If emitting is not supported on the current platform, the delegate will use reflection to get the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;FieldType&gt; CreateStaticFieldGetter&lt;FieldType&gt;(FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a getter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;FieldType&gt;</td>
+        <td><p>A delegate which gets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">FieldType</span></td>
+        <td><p>The type of the field to get a value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateStaticFieldSetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateStaticFieldSetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateStaticFieldSetter__1_System_Reflection_FieldInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateStaticFieldSetter``1(System.Reflection.FieldInfo)">CreateStaticFieldSetter&lt;FieldType&gt;(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which sets the value of a field. If emitting is not supported on the current platform, the delegate will use reflection to set the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;FieldType&gt; CreateStaticFieldSetter&lt;FieldType&gt;(FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a setter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;FieldType&gt;</td>
+        <td><p>A delegate which sets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">FieldType</span></td>
+        <td><p>The type of the field to set a value to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateStaticMethodCaller_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateStaticMethodCaller*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateStaticMethodCaller_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateStaticMethodCaller(System.Reflection.MethodInfo)">CreateStaticMethodCaller(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a fast delegate method which calls a given parameterless static method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action CreateStaticMethodCaller(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The method info instance which is used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><p>A delegate which calls the method and returns the result, except it&apos;s hundreds of times faster than MethodInfo.Invoke.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateStaticPropertyGetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateStaticPropertyGetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateStaticPropertyGetter__1_System_Reflection_PropertyInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateStaticPropertyGetter``1(System.Reflection.PropertyInfo)">CreateStaticPropertyGetter&lt;PropType&gt;(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which gets the value of a property. If emitting is not supported on the current platform, the delegate will use reflection to get the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;PropType&gt; CreateStaticPropertyGetter&lt;PropType&gt;(PropertyInfo propertyInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a></td>
+        <td><span class="parametername">propertyInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a> instance describing the property to create a getter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;PropType&gt;</td>
+        <td><p>A delegate which gets the value of the given property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">PropType</span></td>
+        <td><p>The type of the property to get a value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The propertyInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateStaticPropertySetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateStaticPropertySetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateStaticPropertySetter__1_System_Reflection_PropertyInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateStaticPropertySetter``1(System.Reflection.PropertyInfo)">CreateStaticPropertySetter&lt;PropType&gt;(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which sets the value of a property. If emitting is not supported on the current platform, the delegate will use reflection to set the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;PropType&gt; CreateStaticPropertySetter&lt;PropType&gt;(PropertyInfo propertyInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a></td>
+        <td><span class="parametername">propertyInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a> instance describing the property to create a setter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;PropType&gt;</td>
+        <td><p>A delegate which sets the value of the given property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">PropType</span></td>
+        <td><p>The type of the property to set a value to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The propertyInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceFieldGetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceFieldGetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceFieldGetter_System_Type_System_Reflection_FieldInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceFieldGetter(System.Type,System.Reflection.FieldInfo)">CreateWeakInstanceFieldGetter(Type, FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which gets the weakly typed value of a field from a weakly typed instance of a given type. If emitting is not supported on the current platform, the delegate will use reflection to get the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WeakValueGetter CreateWeakInstanceFieldGetter(Type instanceType, FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">instanceType</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a> of the instance to get a value from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a getter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter.html">WeakValueGetter</a></td>
+        <td><p>A delegate which gets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceFieldGetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceFieldGetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceFieldGetter__1_System_Type_System_Reflection_FieldInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceFieldGetter``1(System.Type,System.Reflection.FieldInfo)">CreateWeakInstanceFieldGetter&lt;FieldType&gt;(Type, FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which gets the value of a field from a weakly typed instance of a given type. If emitting is not supported on the current platform, the delegate will use reflection to get the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WeakValueGetter&lt;FieldType&gt; CreateWeakInstanceFieldGetter&lt;FieldType&gt;(Type instanceType, FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">instanceType</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a> of the instance to get a value from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a getter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter-1.html">WeakValueGetter</a>&lt;FieldType&gt;</td>
+        <td><p>A delegate which gets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">FieldType</span></td>
+        <td><p>The type of the field to get a value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceFieldSetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceFieldSetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceFieldSetter_System_Type_System_Reflection_FieldInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceFieldSetter(System.Type,System.Reflection.FieldInfo)">CreateWeakInstanceFieldSetter(Type, FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which sets the weakly typed value of a field on a weakly typed instance of a given type. If emitting is not supported on the current platform, the delegate will use reflection to set the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WeakValueSetter CreateWeakInstanceFieldSetter(Type instanceType, FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">instanceType</span></td>
+        <td><p>Type of the instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a setter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter.html">WeakValueSetter</a></td>
+        <td><p>A delegate which sets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Field cannot be static.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceFieldSetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceFieldSetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceFieldSetter__1_System_Type_System_Reflection_FieldInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceFieldSetter``1(System.Type,System.Reflection.FieldInfo)">CreateWeakInstanceFieldSetter&lt;FieldType&gt;(Type, FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which sets the value of a field on a weakly typed instance of a given type. If emitting is not supported on the current platform, the delegate will use reflection to set the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WeakValueSetter&lt;FieldType&gt; CreateWeakInstanceFieldSetter&lt;FieldType&gt;(Type instanceType, FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">instanceType</span></td>
+        <td><p>Type of the instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a setter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter-1.html">WeakValueSetter</a>&lt;FieldType&gt;</td>
+        <td><p>A delegate which sets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">FieldType</span></td>
+        <td><p>The type of the field to set a value to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Field cannot be static.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceMethodCaller_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceMethodCaller*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceMethodCaller_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceMethodCaller(System.Reflection.MethodInfo)">CreateWeakInstanceMethodCaller(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Not yet documented.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;object&gt; CreateWeakInstanceMethodCaller(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceMethodCaller_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceMethodCaller*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceMethodCaller__1_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceMethodCaller``1(System.Reflection.MethodInfo)">CreateWeakInstanceMethodCaller&lt;TArg1&gt;(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a fast delegate method which calls a given parameterless weakly typed instance method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;object, TArg1&gt; CreateWeakInstanceMethodCaller&lt;TArg1&gt;(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The method info instance which is used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>, TArg1&gt;</td>
+        <td><p>A delegate which calls the method and returns the result, except it&apos;s hundreds of times faster than MethodInfo.Invoke.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TArg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceMethodCaller_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceMethodCaller*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceMethodCaller__2_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceMethodCaller``2(System.Reflection.MethodInfo)">CreateWeakInstanceMethodCaller&lt;TResult, TArg1&gt;(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a fast delegate method which calls a given weakly typed instance method with one argument and returns a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;object, TArg1, TResult&gt; CreateWeakInstanceMethodCaller&lt;TResult, TArg1&gt;(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td><p>The method info instance which is used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>, TArg1, TResult&gt;</td>
+        <td><p>A delegate which calls the method and returns the result, except it&apos;s hundreds of times faster than MethodInfo.Invoke.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the result.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TArg1</span></td>
+        <td><p>The type of the first argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>methodInfo</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Given method &apos; + methodInfo.Name + &apos; is static when it has to be an instance method.
+or
+Given method &apos; + methodInfo.Name + &apos; must return type  + typeof(TResult) + .
+or
+Given method &apos; + methodInfo.Name + &apos; must have exactly one parameter.
+or
+The first parameter of the method &apos; + methodInfo.Name + &apos; must be of type  + typeof(TArg1) + .</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceMethodCallerFunc_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceMethodCallerFunc*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceMethodCallerFunc__1_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceMethodCallerFunc``1(System.Reflection.MethodInfo)">CreateWeakInstanceMethodCallerFunc&lt;TResult&gt;(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Not yet documented.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;object, TResult&gt; CreateWeakInstanceMethodCallerFunc&lt;TResult&gt;(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceMethodCallerFunc_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceMethodCallerFunc*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstanceMethodCallerFunc__2_System_Reflection_MethodInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstanceMethodCallerFunc``2(System.Reflection.MethodInfo)">CreateWeakInstanceMethodCallerFunc&lt;TArg, TResult&gt;(MethodInfo)</h4>
+  <div class="markdown level1 summary"><p>Not yet documented.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;object, TArg, TResult&gt; CreateWeakInstanceMethodCallerFunc&lt;TArg, TResult&gt;(MethodInfo methodInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.methodinfo">MethodInfo</a></td>
+        <td><span class="parametername">methodInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>, TArg, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TArg</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstancePropertyGetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstancePropertyGetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstancePropertyGetter_System_Type_System_Reflection_PropertyInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstancePropertyGetter(System.Type,System.Reflection.PropertyInfo)">CreateWeakInstancePropertyGetter(Type, PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which gets the weakly typed value of a field from a weakly typed instance of a given type. If emitting is not supported on the current platform, the delegate will use reflection to get the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WeakValueGetter CreateWeakInstancePropertyGetter(Type instanceType, PropertyInfo propertyInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">instanceType</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a> of the instance to get a value from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a></td>
+        <td><span class="parametername">propertyInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a getter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter.html">WeakValueGetter</a></td>
+        <td><p>A delegate which gets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstancePropertySetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstancePropertySetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakInstancePropertySetter_System_Type_System_Reflection_PropertyInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakInstancePropertySetter(System.Type,System.Reflection.PropertyInfo)">CreateWeakInstancePropertySetter(Type, PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which sets the weakly typed value of a property on a weakly typed instance of a given type. If emitting is not supported on the current platform, the delegate will use reflection to set the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WeakValueSetter CreateWeakInstancePropertySetter(Type instanceType, PropertyInfo propertyInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">instanceType</span></td>
+        <td><p>Type of the instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a></td>
+        <td><span class="parametername">propertyInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo">PropertyInfo</a> instance describing the property to create a setter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter.html">WeakValueSetter</a></td>
+        <td><p>A delegate which sets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Property cannot be static.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakStaticFieldGetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakStaticFieldGetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakStaticFieldGetter_System_Reflection_FieldInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakStaticFieldGetter(System.Reflection.FieldInfo)">CreateWeakStaticFieldGetter(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which gets the value of a field. If emitting is not supported on the current platform, the delegate will use reflection to get the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;object&gt; CreateWeakStaticFieldGetter(FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a getter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
+        <td><p>A delegate which gets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakStaticFieldSetter_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakStaticFieldSetter*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_Utilities_EmitUtilities_CreateWeakStaticFieldSetter_System_Reflection_FieldInfo_" data-uid="TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.CreateWeakStaticFieldSetter(System.Reflection.FieldInfo)">CreateWeakStaticFieldSetter(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a delegate which sets the value of a field. If emitting is not supported on the current platform, the delegate will use reflection to set the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;object&gt; CreateWeakStaticFieldSetter(FieldInfo fieldInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a></td>
+        <td><span class="parametername">fieldInfo</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.fieldinfo">FieldInfo</a> instance describing the field to create a setter for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
+        <td><p>A delegate which sets the value of the given field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>The fieldInfo parameter is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            TirUtilities
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

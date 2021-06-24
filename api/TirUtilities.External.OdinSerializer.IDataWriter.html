@@ -1,0 +1,1190 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IDataWriter
+   | TirUtilities </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IDataWriter
+   | TirUtilities ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TirUtilities.External.OdinSerializer.IDataWriter">
+  
+  
+  <h1 id="TirUtilities_External_OdinSerializer_IDataWriter" data-uid="TirUtilities.External.OdinSerializer.IDataWriter" class="text-break">Interface IDataWriter
+  </h1>
+  <div class="markdown level0 summary"><p>Provides a set of methods for reading data stored in a format that can be read by a corresponding <a class="xref" href="TirUtilities.External.OdinSerializer.IDataReader.html">IDataReader</a> class.
+<p>
+If you implement this interface, it is VERY IMPORTANT that you implement each method to the <em>exact</em> specifications the documentation specifies.
+<p>
+It is strongly recommended to inherit from the <a class="xref" href="TirUtilities.External.OdinSerializer.BaseDataWriter.html">BaseDataWriter</a> class if you wish to implement a new data writer.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.External.OdinSerializer.html">TirUtilities.External.OdinSerializer</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TirUtilities_External_OdinSerializer_IDataWriter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IDataWriter : IDisposable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_Binder_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.Binder*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_Binder" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.Binder">Binder</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the reader&apos;s serialization binder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TwoWaySerializationBinder Binder { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.TwoWaySerializationBinder.html">TwoWaySerializationBinder</a></td>
+        <td><p>The reader&apos;s serialization binder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_Context_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.Context*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_Context" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.Context">Context</h4>
+  <div class="markdown level1 summary"><p>Gets the serialization context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SerializationContext Context { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html">SerializationContext</a></td>
+        <td><p>The serialization context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_IsInArrayNode_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.IsInArrayNode*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_IsInArrayNode" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.IsInArrayNode">IsInArrayNode</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the writer is in an array node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsInArrayNode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the writer is in an array node; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_Stream_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.Stream*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_Stream" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.Stream">Stream</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the base stream of the writer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Data readers and writers don't necessarily have streams any longer, so this API has been made obsolete. Using this property may result in NotSupportedExceptions being thrown.&quot;, false)]
+Stream Stream { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><p>The base stream of the writer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_BeginArrayNode_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.BeginArrayNode*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_BeginArrayNode_System_Int64_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.BeginArrayNode(System.Int64)">BeginArrayNode(Int64)</h4>
+  <div class="markdown level1 summary"><p>Begins an array node of the given length.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void BeginArrayNode(long length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">length</span></td>
+        <td><p>The length of the array to come.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_BeginReferenceNode_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.BeginReferenceNode*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_BeginReferenceNode_System_String_System_Type_System_Int32_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.BeginReferenceNode(System.String,System.Type,System.Int32)">BeginReferenceNode(String, Type, Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes the beginning of a reference node.
+<p>
+This call MUST eventually be followed by a corresponding call to <a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html#TirUtilities_External_OdinSerializer_IDataWriter_EndNode_System_String_">EndNode(String)</a>, with the same name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void BeginReferenceNode(string name, Type type, int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the reference node.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the reference node. If null, no type metadata will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id of the reference node. This id is acquired by calling <a class="xref" href="TirUtilities.External.OdinSerializer.SerializationContext.html#TirUtilities_External_OdinSerializer_SerializationContext_TryRegisterInternalReference_System_Object_System_Int32__">TryRegisterInternalReference(Object, out Int32)</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_BeginStructNode_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.BeginStructNode*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_BeginStructNode_System_String_System_Type_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.BeginStructNode(System.String,System.Type)">BeginStructNode(String, Type)</h4>
+  <div class="markdown level1 summary"><p>Begins a struct/value type node. This is essentially the same as a reference node, except it has no internal reference id.
+<p>
+This call MUST eventually be followed by a corresponding call to <a class="xref" href="TirUtilities.External.OdinSerializer.IDataWriter.html#TirUtilities_External_OdinSerializer_IDataWriter_EndNode_System_String_">EndNode(String)</a>, with the same name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void BeginStructNode(string name, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the struct node.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the struct node. If null, no type metadata will be written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_EndArrayNode_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.EndArrayNode*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_EndArrayNode" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.EndArrayNode">EndArrayNode()</h4>
+  <div class="markdown level1 summary"><p>Ends the current array node, if the current node is an array node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EndArrayNode()</code></pre>
+  </div>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_EndNode_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.EndNode*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_EndNode_System_String_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.EndNode(System.String)">EndNode(String)</h4>
+  <div class="markdown level1 summary"><p>Ends the current node with the given name. If the current node has another name, an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> is thrown.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EndNode(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the node to end. This has to be the name of the current node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_FlushToStream_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.FlushToStream*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_FlushToStream" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.FlushToStream">FlushToStream()</h4>
+  <div class="markdown level1 summary"><p>Flushes everything that has been written so far to the writer&apos;s base stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void FlushToStream()</code></pre>
+  </div>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_GetDataDump_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.GetDataDump*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_GetDataDump" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.GetDataDump">GetDataDump()</h4>
+  <div class="markdown level1 summary"><p>Gets a dump of the data currently written by the writer. The format of this dump varies, but should be useful for debugging purposes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetDataDump()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_PrepareNewSerializationSession_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.PrepareNewSerializationSession*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_PrepareNewSerializationSession" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.PrepareNewSerializationSession">PrepareNewSerializationSession()</h4>
+  <div class="markdown level1 summary"><p>Tells the writer that a new serialization session is about to begin, and that it should clear all cached values left over from any prior serialization sessions.
+This method is only relevant when the same writer is used to serialize several different, unrelated values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PrepareNewSerializationSession()</code></pre>
+  </div>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteBoolean_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteBoolean*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteBoolean_System_String_System_Boolean_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteBoolean(System.String,System.Boolean)">WriteBoolean(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Writes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteBoolean(string name, bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteByte_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteByte*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteByte_System_String_System_Byte_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteByte(System.String,System.Byte)">WriteByte(String, Byte)</h4>
+  <div class="markdown level1 summary"><p>Writes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteByte(string name, byte value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteChar_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteChar*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteChar_System_String_System_Char_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteChar(System.String,System.Char)">WriteChar(String, Char)</h4>
+  <div class="markdown level1 summary"><p>Writes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteChar(string name, char value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteDecimal_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteDecimal*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteDecimal_System_String_System_Decimal_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteDecimal(System.String,System.Decimal)">WriteDecimal(String, Decimal)</h4>
+  <div class="markdown level1 summary"><p>Writes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.decimal">Decimal</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteDecimal(string name, decimal value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.decimal">Decimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteDouble_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteDouble*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteDouble_System_String_System_Double_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteDouble(System.String,System.Double)">WriteDouble(String, Double)</h4>
+  <div class="markdown level1 summary"><p>Writes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteDouble(string name, double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteExternalReference_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteExternalReference*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteExternalReference_System_String_System_Guid_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteExternalReference(System.String,System.Guid)">WriteExternalReference(String, Guid)</h4>
+  <div class="markdown level1 summary"><p>Writes an external guid reference to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteExternalReference(string name, Guid guid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">guid</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteExternalReference_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteExternalReference*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteExternalReference_System_String_System_Int32_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteExternalReference(System.String,System.Int32)">WriteExternalReference(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes an external index reference to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteExternalReference(string name, int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteExternalReference_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteExternalReference*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteExternalReference_System_String_System_String_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteExternalReference(System.String,System.String)">WriteExternalReference(String, String)</h4>
+  <div class="markdown level1 summary"><p>Writes an external string reference to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteExternalReference(string name, string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteGuid_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteGuid*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteGuid_System_String_System_Guid_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteGuid(System.String,System.Guid)">WriteGuid(String, Guid)</h4>
+  <div class="markdown level1 summary"><p>Writes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteGuid(string name, Guid value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteInt16_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteInt16*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteInt16_System_String_System_Int16_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteInt16(System.String,System.Int16)">WriteInt16(String, Int16)</h4>
+  <div class="markdown level1 summary"><p>Writes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteInt16(string name, short value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteInt32_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteInt32*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteInt32_System_String_System_Int32_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteInt32(System.String,System.Int32)">WriteInt32(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteInt32(string name, int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteInt64_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteInt64*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteInt64_System_String_System_Int64_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteInt64(System.String,System.Int64)">WriteInt64(String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Writes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteInt64(string name, long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteInternalReference_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteInternalReference*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteInternalReference_System_String_System_Int32_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteInternalReference(System.String,System.Int32)">WriteInternalReference(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes an internal reference to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteInternalReference(string name, int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteNull_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteNull*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteNull_System_String_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteNull(System.String)">WriteNull(String)</h4>
+  <div class="markdown level1 summary"><p>Writes a null value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteNull(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WritePrimitiveArray_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WritePrimitiveArray*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WritePrimitiveArray__1___0___" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WritePrimitiveArray``1(``0[])">WritePrimitiveArray&lt;T&gt;(T[])</h4>
+  <div class="markdown level1 summary"><p>Writes a primitive array to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WritePrimitiveArray&lt;T&gt;(T[] array)
+    where T : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
+        <td><p>The primitive array to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The element type of the primitive array. Valid element types can be determined using <a class="xref" href="TirUtilities.External.OdinSerializer.FormatterUtilities.html#TirUtilities_External_OdinSerializer_FormatterUtilities_IsPrimitiveArrayType_System_Type_">IsPrimitiveArrayType(Type)</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteSByte_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteSByte*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteSByte_System_String_System_SByte_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteSByte(System.String,System.SByte)">WriteSByte(String, SByte)</h4>
+  <div class="markdown level1 summary"><p>Writes an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.sbyte">SByte</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteSByte(string name, sbyte value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.sbyte">SByte</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteSingle_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteSingle*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteSingle_System_String_System_Single_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteSingle(System.String,System.Single)">WriteSingle(String, Single)</h4>
+  <div class="markdown level1 summary"><p>Writes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteSingle(string name, float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteString_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteString*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteString_System_String_System_String_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteString(System.String,System.String)">WriteString(String, String)</h4>
+  <div class="markdown level1 summary"><p>Writes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteString(string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteUInt16_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteUInt16*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteUInt16_System_String_System_UInt16_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteUInt16(System.String,System.UInt16)">WriteUInt16(String, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Writes an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteUInt16(string name, ushort value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteUInt32_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteUInt32*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteUInt32_System_String_System_UInt32_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteUInt32(System.String,System.UInt32)">WriteUInt32(String, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Writes an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteUInt32(string name, uint value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_External_OdinSerializer_IDataWriter_WriteUInt64_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteUInt64*"></a>
+  <h4 id="TirUtilities_External_OdinSerializer_IDataWriter_WriteUInt64_System_String_System_UInt64_" data-uid="TirUtilities.External.OdinSerializer.IDataWriter.WriteUInt64(System.String,System.UInt64)">WriteUInt64(String, UInt64)</h4>
+  <div class="markdown level1 summary"><p>Writes an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a> value to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteUInt64(string name, ulong value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the value. If this is null, no name will be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            TirUtilities
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
