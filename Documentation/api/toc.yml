@@ -9,12 +9,6 @@
     name.vb: IState(Of T)
   - uid: TirUtilities.ScenePathAttribute
     name: ScenePathAttribute
-  - uid: TirUtilities.Singleton
-    name: Singleton
-  - uid: TirUtilities.State
-    name: State
-  - uid: TirUtilities.StateAction
-    name: StateAction
   - uid: TirUtilities.StateMachine
     name: StateMachine
   - uid: TirUtilities.TirLogger
@@ -65,8 +59,15 @@
   items:
   - uid: TirUtilities.Editor.FlexGridInpector
     name: FlexGridInpector
-  - uid: TirUtilities.Editor.LevelSystemInspector
-    name: LevelSystemInspector
+  - uid: TirUtilities.Editor.MenuPageContextMenu
+    name: MenuPageContextMenu
+  - uid: TirUtilities.Editor.ProjectEditorPaths
+    name: ProjectEditorPaths
+- uid: TirUtilities.Editor.Experimental
+  name: TirUtilities.Editor.Experimental
+  items:
+  - uid: TirUtilities.Editor.Experimental.MenuStateMachineInspector
+    name: MenuStateMachineInspector
 - uid: TirUtilities.Editor.PropertyDrawers
   name: TirUtilities.Editor.PropertyDrawers
   items:
@@ -89,6 +90,12 @@
     name: PlayingState
   - uid: TirUtilities.Experimental.QuittingState
     name: QuittingState
+  - uid: TirUtilities.Experimental.Singleton
+    name: Singleton
+  - uid: TirUtilities.Experimental.State
+    name: State
+  - uid: TirUtilities.Experimental.StateAction
+    name: StateAction
 - uid: TirUtilities.Extensions
   name: TirUtilities.Extensions
   items:
@@ -102,6 +109,464 @@
     name: ObjectExstentions
   - uid: TirUtilities.Extensions.RigidbodyExtensions
     name: RigidbodyExtensions
+- uid: TirUtilities.External.OdinSerializer
+  name: TirUtilities.External.OdinSerializer
+  items:
+  - uid: TirUtilities.External.OdinSerializer.AllowDeserializeInvalidDataAttribute
+    name: AllowDeserializeInvalidDataAttribute
+  - uid: TirUtilities.External.OdinSerializer.AlwaysFormatsSelfAttribute
+    name: AlwaysFormatsSelfAttribute
+  - uid: TirUtilities.External.OdinSerializer.AnimationCurveFormatter
+    name: AnimationCurveFormatter
+  - uid: TirUtilities.External.OdinSerializer.ArchitectureInfo
+    name: ArchitectureInfo
+  - uid: TirUtilities.External.OdinSerializer.ArrayFormatter`1
+    name: ArrayFormatter<T>
+    name.vb: ArrayFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.ArrayListFormatter
+    name: ArrayListFormatter
+  - uid: TirUtilities.External.OdinSerializer.BaseDataReader
+    name: BaseDataReader
+  - uid: TirUtilities.External.OdinSerializer.BaseDataReaderWriter
+    name: BaseDataReaderWriter
+  - uid: TirUtilities.External.OdinSerializer.BaseDataWriter
+    name: BaseDataWriter
+  - uid: TirUtilities.External.OdinSerializer.BaseDictionaryKeyPathProvider`1
+    name: BaseDictionaryKeyPathProvider<T>
+    name.vb: BaseDictionaryKeyPathProvider(Of T)
+  - uid: TirUtilities.External.OdinSerializer.BaseFormatter`1
+    name: BaseFormatter<T>
+    name.vb: BaseFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.BaseFormatter`1.SerializationCallback
+    name: BaseFormatter<T>.SerializationCallback
+    name.vb: BaseFormatter(Of T).SerializationCallback
+  - uid: TirUtilities.External.OdinSerializer.BinaryDataReader
+    name: BinaryDataReader
+  - uid: TirUtilities.External.OdinSerializer.BinaryDataWriter
+    name: BinaryDataWriter
+  - uid: TirUtilities.External.OdinSerializer.BinaryEntryType
+    name: BinaryEntryType
+  - uid: TirUtilities.External.OdinSerializer.BindTypeNameToTypeAttribute
+    name: BindTypeNameToTypeAttribute
+  - uid: TirUtilities.External.OdinSerializer.BooleanSerializer
+    name: BooleanSerializer
+  - uid: TirUtilities.External.OdinSerializer.BoundsFormatter
+    name: BoundsFormatter
+  - uid: TirUtilities.External.OdinSerializer.Buffer`1
+    name: Buffer<T>
+    name.vb: Buffer(Of T)
+  - uid: TirUtilities.External.OdinSerializer.ByteSerializer
+    name: ByteSerializer
+  - uid: TirUtilities.External.OdinSerializer.CharSerializer
+    name: CharSerializer
+  - uid: TirUtilities.External.OdinSerializer.Color32Formatter
+    name: Color32Formatter
+  - uid: TirUtilities.External.OdinSerializer.ColorBlockFormatter`1
+    name: ColorBlockFormatter<T>
+    name.vb: ColorBlockFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.ColorBlockFormatterLocator
+    name: ColorBlockFormatterLocator
+  - uid: TirUtilities.External.OdinSerializer.ColorFormatter
+    name: ColorFormatter
+  - uid: TirUtilities.External.OdinSerializer.ComplexTypeSerializer`1
+    name: ComplexTypeSerializer<T>
+    name.vb: ComplexTypeSerializer(Of T)
+  - uid: TirUtilities.External.OdinSerializer.CoroutineFormatter
+    name: CoroutineFormatter
+  - uid: TirUtilities.External.OdinSerializer.CustomFormatterAttribute
+    name: CustomFormatterAttribute
+  - uid: TirUtilities.External.OdinSerializer.CustomGenericFormatterAttribute
+    name: CustomGenericFormatterAttribute
+  - uid: TirUtilities.External.OdinSerializer.CustomLogger
+    name: CustomLogger
+  - uid: TirUtilities.External.OdinSerializer.CustomSerializationPolicy
+    name: CustomSerializationPolicy
+  - uid: TirUtilities.External.OdinSerializer.DataFormat
+    name: DataFormat
+  - uid: TirUtilities.External.OdinSerializer.DateTimeFormatter
+    name: DateTimeFormatter
+  - uid: TirUtilities.External.OdinSerializer.DateTimeOffsetFormatter
+    name: DateTimeOffsetFormatter
+  - uid: TirUtilities.External.OdinSerializer.DebugContext
+    name: DebugContext
+  - uid: TirUtilities.External.OdinSerializer.DecimalSerializer
+    name: DecimalSerializer
+  - uid: TirUtilities.External.OdinSerializer.DefaultLoggers
+    name: DefaultLoggers
+  - uid: TirUtilities.External.OdinSerializer.DefaultSerializationBinder
+    name: DefaultSerializationBinder
+  - uid: TirUtilities.External.OdinSerializer.DelegateFormatter`1
+    name: DelegateFormatter<T>
+    name.vb: DelegateFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.DeserializationContext
+    name: DeserializationContext
+  - uid: TirUtilities.External.OdinSerializer.DictionaryFormatter`2
+    name: DictionaryFormatter<TKey, TValue>
+    name.vb: DictionaryFormatter(Of TKey, TValue)
+  - uid: TirUtilities.External.OdinSerializer.DictionaryKeyUtility
+    name: DictionaryKeyUtility
+  - uid: TirUtilities.External.OdinSerializer.DictionaryKeyUtility.KeyComparer`1
+    name: DictionaryKeyUtility.KeyComparer<T>
+    name.vb: DictionaryKeyUtility.KeyComparer(Of T)
+  - uid: TirUtilities.External.OdinSerializer.DoubleLookupDictionaryFormatter`3
+    name: DoubleLookupDictionaryFormatter<TPrimary, TSecondary, TValue>
+    name.vb: DoubleLookupDictionaryFormatter(Of TPrimary, TSecondary, TValue)
+  - uid: TirUtilities.External.OdinSerializer.DoubleSerializer
+    name: DoubleSerializer
+  - uid: TirUtilities.External.OdinSerializer.EasyBaseFormatter`1
+    name: EasyBaseFormatter<T>
+    name.vb: EasyBaseFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.EmittedAssemblyAttribute
+    name: EmittedAssemblyAttribute
+  - uid: TirUtilities.External.OdinSerializer.EmittedFormatterAttribute
+    name: EmittedFormatterAttribute
+  - uid: TirUtilities.External.OdinSerializer.EmptyTypeFormatter`1
+    name: EmptyTypeFormatter<T>
+    name.vb: EmptyTypeFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.EntryType
+    name: EntryType
+  - uid: TirUtilities.External.OdinSerializer.EnumSerializer`1
+    name: EnumSerializer<T>
+    name.vb: EnumSerializer(Of T)
+  - uid: TirUtilities.External.OdinSerializer.ErrorHandlingPolicy
+    name: ErrorHandlingPolicy
+  - uid: TirUtilities.External.OdinSerializer.ExcludeDataFromInspectorAttribute
+    name: ExcludeDataFromInspectorAttribute
+  - uid: TirUtilities.External.OdinSerializer.FormatterEmitter
+    name: FormatterEmitter
+  - uid: TirUtilities.External.OdinSerializer.FormatterEmitter.AOTEmittedFormatter`1
+    name: FormatterEmitter.AOTEmittedFormatter<T>
+    name.vb: FormatterEmitter.AOTEmittedFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.FormatterEmitter.EmptyAOTEmittedFormatter`1
+    name: FormatterEmitter.EmptyAOTEmittedFormatter<T>
+    name.vb: FormatterEmitter.EmptyAOTEmittedFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.FormatterLocationStep
+    name: FormatterLocationStep
+  - uid: TirUtilities.External.OdinSerializer.FormatterLocator
+    name: FormatterLocator
+  - uid: TirUtilities.External.OdinSerializer.FormatterUtilities
+    name: FormatterUtilities
+  - uid: TirUtilities.External.OdinSerializer.GenericCollectionFormatter
+    name: GenericCollectionFormatter
+  - uid: TirUtilities.External.OdinSerializer.GenericCollectionFormatter`2
+    name: GenericCollectionFormatter<TCollection, TElement>
+    name.vb: GenericCollectionFormatter(Of TCollection, TElement)
+  - uid: TirUtilities.External.OdinSerializer.GlobalSerializationConfig
+    name: GlobalSerializationConfig
+  - uid: TirUtilities.External.OdinSerializer.GradientAlphaKeyFormatter
+    name: GradientAlphaKeyFormatter
+  - uid: TirUtilities.External.OdinSerializer.GradientColorKeyFormatter
+    name: GradientColorKeyFormatter
+  - uid: TirUtilities.External.OdinSerializer.GradientFormatter
+    name: GradientFormatter
+  - uid: TirUtilities.External.OdinSerializer.GuidSerializer
+    name: GuidSerializer
+  - uid: TirUtilities.External.OdinSerializer.HashSetFormatter`1
+    name: HashSetFormatter<T>
+    name.vb: HashSetFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.IAskIfCanFormatTypes
+    name: IAskIfCanFormatTypes
+  - uid: TirUtilities.External.OdinSerializer.IDataReader
+    name: IDataReader
+  - uid: TirUtilities.External.OdinSerializer.IDataWriter
+    name: IDataWriter
+  - uid: TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider
+    name: IDictionaryKeyPathProvider
+  - uid: TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider`1
+    name: IDictionaryKeyPathProvider<T>
+    name.vb: IDictionaryKeyPathProvider(Of T)
+  - uid: TirUtilities.External.OdinSerializer.IExternalGuidReferenceResolver
+    name: IExternalGuidReferenceResolver
+  - uid: TirUtilities.External.OdinSerializer.IExternalIndexReferenceResolver
+    name: IExternalIndexReferenceResolver
+  - uid: TirUtilities.External.OdinSerializer.IExternalStringReferenceResolver
+    name: IExternalStringReferenceResolver
+  - uid: TirUtilities.External.OdinSerializer.IFormatter
+    name: IFormatter
+  - uid: TirUtilities.External.OdinSerializer.IFormatter`1
+    name: IFormatter<T>
+    name.vb: IFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.IFormatterLocator
+    name: IFormatterLocator
+  - uid: TirUtilities.External.OdinSerializer.ILogger
+    name: ILogger
+  - uid: TirUtilities.External.OdinSerializer.Int16Serializer
+    name: Int16Serializer
+  - uid: TirUtilities.External.OdinSerializer.Int32Serializer
+    name: Int32Serializer
+  - uid: TirUtilities.External.OdinSerializer.Int64Serializer
+    name: Int64Serializer
+  - uid: TirUtilities.External.OdinSerializer.IntPtrSerializer
+    name: IntPtrSerializer
+  - uid: TirUtilities.External.OdinSerializer.IOverridesSerializationFormat
+    name: IOverridesSerializationFormat
+  - uid: TirUtilities.External.OdinSerializer.IOverridesSerializationPolicy
+    name: IOverridesSerializationPolicy
+  - uid: TirUtilities.External.OdinSerializer.ISelfFormatter
+    name: ISelfFormatter
+  - uid: TirUtilities.External.OdinSerializer.ISerializationPolicy
+    name: ISerializationPolicy
+  - uid: TirUtilities.External.OdinSerializer.ISupportsPrefabSerialization
+    name: ISupportsPrefabSerialization
+  - uid: TirUtilities.External.OdinSerializer.JsonConfig
+    name: JsonConfig
+  - uid: TirUtilities.External.OdinSerializer.JsonDataReader
+    name: JsonDataReader
+  - uid: TirUtilities.External.OdinSerializer.JsonDataWriter
+    name: JsonDataWriter
+  - uid: TirUtilities.External.OdinSerializer.JsonTextReader
+    name: JsonTextReader
+  - uid: TirUtilities.External.OdinSerializer.KeyframeFormatter
+    name: KeyframeFormatter
+  - uid: TirUtilities.External.OdinSerializer.KeyValuePairFormatter`2
+    name: KeyValuePairFormatter<TKey, TValue>
+    name.vb: KeyValuePairFormatter(Of TKey, TValue)
+  - uid: TirUtilities.External.OdinSerializer.LayerMaskFormatter
+    name: LayerMaskFormatter
+  - uid: TirUtilities.External.OdinSerializer.ListFormatter`1
+    name: ListFormatter<T>
+    name.vb: ListFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.LoggingPolicy
+    name: LoggingPolicy
+  - uid: TirUtilities.External.OdinSerializer.MethodInfoFormatter`1
+    name: MethodInfoFormatter<T>
+    name.vb: MethodInfoFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.MinimalBaseFormatter`1
+    name: MinimalBaseFormatter<T>
+    name.vb: MinimalBaseFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.MultiDimensionalArrayFormatter`2
+    name: MultiDimensionalArrayFormatter<TArray, TElement>
+    name.vb: MultiDimensionalArrayFormatter(Of TArray, TElement)
+  - uid: TirUtilities.External.OdinSerializer.NodeInfo
+    name: NodeInfo
+  - uid: TirUtilities.External.OdinSerializer.NullableFormatter`1
+    name: NullableFormatter<T>
+    name.vb: NullableFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.OdinSerializeAttribute
+    name: OdinSerializeAttribute
+  - uid: TirUtilities.External.OdinSerializer.PrefabModification
+    name: PrefabModification
+  - uid: TirUtilities.External.OdinSerializer.PrefabModificationType
+    name: PrefabModificationType
+  - uid: TirUtilities.External.OdinSerializer.PreviouslySerializedAsAttribute
+    name: PreviouslySerializedAsAttribute
+  - uid: TirUtilities.External.OdinSerializer.PrimitiveArrayFormatter`1
+    name: PrimitiveArrayFormatter<T>
+    name.vb: PrimitiveArrayFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.ProperBitConverter
+    name: ProperBitConverter
+  - uid: TirUtilities.External.OdinSerializer.QuaternionFormatter
+    name: QuaternionFormatter
+  - uid: TirUtilities.External.OdinSerializer.QueueFormatter`2
+    name: QueueFormatter<TQueue, TValue>
+    name.vb: QueueFormatter(Of TQueue, TValue)
+  - uid: TirUtilities.External.OdinSerializer.RectFormatter
+    name: RectFormatter
+  - uid: TirUtilities.External.OdinSerializer.ReflectionFormatter`1
+    name: ReflectionFormatter<T>
+    name.vb: ReflectionFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.ReflectionOrEmittedBaseFormatter`1
+    name: ReflectionOrEmittedBaseFormatter<T>
+    name.vb: ReflectionOrEmittedBaseFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.RegisterDictionaryKeyPathProviderAttribute
+    name: RegisterDictionaryKeyPathProviderAttribute
+  - uid: TirUtilities.External.OdinSerializer.RegisterFormatterAttribute
+    name: RegisterFormatterAttribute
+  - uid: TirUtilities.External.OdinSerializer.RegisterFormatterLocatorAttribute
+    name: RegisterFormatterLocatorAttribute
+  - uid: TirUtilities.External.OdinSerializer.SByteSerializer
+    name: SByteSerializer
+  - uid: TirUtilities.External.OdinSerializer.SelfFormatterFormatter`1
+    name: SelfFormatterFormatter<T>
+    name.vb: SelfFormatterFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.SerializableFormatter`1
+    name: SerializableFormatter<T>
+    name.vb: SerializableFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.SerializationAbortException
+    name: SerializationAbortException
+  - uid: TirUtilities.External.OdinSerializer.SerializationConfig
+    name: SerializationConfig
+  - uid: TirUtilities.External.OdinSerializer.SerializationContext
+    name: SerializationContext
+  - uid: TirUtilities.External.OdinSerializer.SerializationData
+    name: SerializationData
+  - uid: TirUtilities.External.OdinSerializer.SerializationNode
+    name: SerializationNode
+  - uid: TirUtilities.External.OdinSerializer.SerializationNodeDataReader
+    name: SerializationNodeDataReader
+  - uid: TirUtilities.External.OdinSerializer.SerializationNodeDataReaderWriterConfig
+    name: SerializationNodeDataReaderWriterConfig
+  - uid: TirUtilities.External.OdinSerializer.SerializationNodeDataWriter
+    name: SerializationNodeDataWriter
+  - uid: TirUtilities.External.OdinSerializer.SerializationPolicies
+    name: SerializationPolicies
+  - uid: TirUtilities.External.OdinSerializer.SerializationUtility
+    name: SerializationUtility
+  - uid: TirUtilities.External.OdinSerializer.SerializedBehaviour
+    name: SerializedBehaviour
+  - uid: TirUtilities.External.OdinSerializer.SerializedComponent
+    name: SerializedComponent
+  - uid: TirUtilities.External.OdinSerializer.SerializedMonoBehaviour
+    name: SerializedMonoBehaviour
+  - uid: TirUtilities.External.OdinSerializer.SerializedScriptableObject
+    name: SerializedScriptableObject
+  - uid: TirUtilities.External.OdinSerializer.SerializedStateMachineBehaviour
+    name: SerializedStateMachineBehaviour
+  - uid: TirUtilities.External.OdinSerializer.SerializedUnityObject
+    name: SerializedUnityObject
+  - uid: TirUtilities.External.OdinSerializer.Serializer
+    name: Serializer
+  - uid: TirUtilities.External.OdinSerializer.Serializer`1
+    name: Serializer<T>
+    name.vb: Serializer(Of T)
+  - uid: TirUtilities.External.OdinSerializer.SingleSerializer
+    name: SingleSerializer
+  - uid: TirUtilities.External.OdinSerializer.StackFormatter`2
+    name: StackFormatter<TStack, TValue>
+    name.vb: StackFormatter(Of TStack, TValue)
+  - uid: TirUtilities.External.OdinSerializer.StringSerializer
+    name: StringSerializer
+  - uid: TirUtilities.External.OdinSerializer.TimeSpanFormatter
+    name: TimeSpanFormatter
+  - uid: TirUtilities.External.OdinSerializer.TwoWaySerializationBinder
+    name: TwoWaySerializationBinder
+  - uid: TirUtilities.External.OdinSerializer.TypeFormatter
+    name: TypeFormatter
+  - uid: TirUtilities.External.OdinSerializer.UInt16Serializer
+    name: UInt16Serializer
+  - uid: TirUtilities.External.OdinSerializer.UInt32Serializer
+    name: UInt32Serializer
+  - uid: TirUtilities.External.OdinSerializer.UInt64Serializer
+    name: UInt64Serializer
+  - uid: TirUtilities.External.OdinSerializer.UIntPtrSerializer
+    name: UIntPtrSerializer
+  - uid: TirUtilities.External.OdinSerializer.UnityEventFormatter`1
+    name: UnityEventFormatter<T>
+    name.vb: UnityEventFormatter(Of T)
+  - uid: TirUtilities.External.OdinSerializer.UnityReferenceResolver
+    name: UnityReferenceResolver
+  - uid: TirUtilities.External.OdinSerializer.UnitySerializationInitializer
+    name: UnitySerializationInitializer
+  - uid: TirUtilities.External.OdinSerializer.UnitySerializationUtility
+    name: UnitySerializationUtility
+  - uid: TirUtilities.External.OdinSerializer.Vector2DictionaryKeyPathProvider
+    name: Vector2DictionaryKeyPathProvider
+  - uid: TirUtilities.External.OdinSerializer.Vector2Formatter
+    name: Vector2Formatter
+  - uid: TirUtilities.External.OdinSerializer.Vector3DictionaryKeyPathProvider
+    name: Vector3DictionaryKeyPathProvider
+  - uid: TirUtilities.External.OdinSerializer.Vector3Formatter
+    name: Vector3Formatter
+  - uid: TirUtilities.External.OdinSerializer.Vector4DictionaryKeyPathProvider
+    name: Vector4DictionaryKeyPathProvider
+  - uid: TirUtilities.External.OdinSerializer.Vector4Formatter
+    name: Vector4Formatter
+  - uid: TirUtilities.External.OdinSerializer.VersionFormatter
+    name: VersionFormatter
+- uid: TirUtilities.External.OdinSerializer.Utilities
+  name: TirUtilities.External.OdinSerializer.Utilities
+  items:
+  - uid: TirUtilities.External.OdinSerializer.Utilities.Cache`1
+    name: Cache<T>
+    name.vb: Cache(Of T)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.DoubleLookupDictionary`3
+    name: DoubleLookupDictionary<TFirstKey, TSecondKey, TValue>
+    name.vb: DoubleLookupDictionary(Of TFirstKey, TSecondKey, TValue)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.EmitUtilities
+    name: EmitUtilities
+  - uid: TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.InstanceRefMethodCaller`2
+    name: EmitUtilities.InstanceRefMethodCaller<InstanceType, TArg1>
+    name.vb: EmitUtilities.InstanceRefMethodCaller(Of InstanceType, TArg1)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.InstanceRefMethodCaller`1
+    name: EmitUtilities.InstanceRefMethodCaller<InstanceType>
+    name.vb: EmitUtilities.InstanceRefMethodCaller(Of InstanceType)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.FastTypeComparer
+    name: FastTypeComparer
+  - uid: TirUtilities.External.OdinSerializer.Utilities.FieldInfoExtensions
+    name: FieldInfoExtensions
+  - uid: TirUtilities.External.OdinSerializer.Utilities.Flags
+    name: Flags
+  - uid: TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators
+    name: GarbageFreeIterators
+  - uid: TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.DictionaryIterator`2
+    name: GarbageFreeIterators.DictionaryIterator<T1, T2>
+    name.vb: GarbageFreeIterators.DictionaryIterator(Of T1, T2)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.DictionaryValueIterator`2
+    name: GarbageFreeIterators.DictionaryValueIterator<T1, T2>
+    name.vb: GarbageFreeIterators.DictionaryValueIterator(Of T1, T2)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.HashsetIterator`1
+    name: GarbageFreeIterators.HashsetIterator<T>
+    name.vb: GarbageFreeIterators.HashsetIterator(Of T)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.ListIterator`1
+    name: GarbageFreeIterators.ListIterator<T>
+    name.vb: GarbageFreeIterators.ListIterator(Of T)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.ICache
+    name: ICache
+  - uid: TirUtilities.External.OdinSerializer.Utilities.ICacheNotificationReceiver
+    name: ICacheNotificationReceiver
+  - uid: TirUtilities.External.OdinSerializer.Utilities.IImmutableList
+    name: IImmutableList
+  - uid: TirUtilities.External.OdinSerializer.Utilities.IImmutableList`1
+    name: IImmutableList<T>
+    name.vb: IImmutableList(Of T)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.ImmutableList
+    name: ImmutableList
+  - uid: TirUtilities.External.OdinSerializer.Utilities.ImmutableList`1
+    name: ImmutableList<T>
+    name.vb: ImmutableList(Of T)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.ImmutableList`2
+    name: ImmutableList<TList, TElement>
+    name.vb: ImmutableList(Of TList, TElement)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.LinqExtensions
+    name: LinqExtensions
+  - uid: TirUtilities.External.OdinSerializer.Utilities.MemberAliasFieldInfo
+    name: MemberAliasFieldInfo
+  - uid: TirUtilities.External.OdinSerializer.Utilities.MemberAliasMethodInfo
+    name: MemberAliasMethodInfo
+  - uid: TirUtilities.External.OdinSerializer.Utilities.MemberAliasPropertyInfo
+    name: MemberAliasPropertyInfo
+  - uid: TirUtilities.External.OdinSerializer.Utilities.MemberInfoExtensions
+    name: MemberInfoExtensions
+  - uid: TirUtilities.External.OdinSerializer.Utilities.MethodInfoExtensions
+    name: MethodInfoExtensions
+  - uid: TirUtilities.External.OdinSerializer.Utilities.Operator
+    name: Operator
+  - uid: TirUtilities.External.OdinSerializer.Utilities.PathUtilities
+    name: PathUtilities
+  - uid: TirUtilities.External.OdinSerializer.Utilities.PropertyInfoExtensions
+    name: PropertyInfoExtensions
+  - uid: TirUtilities.External.OdinSerializer.Utilities.ReferenceEqualityComparer`1
+    name: ReferenceEqualityComparer<T>
+    name.vb: ReferenceEqualityComparer(Of T)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.StringExtensions
+    name: StringExtensions
+  - uid: TirUtilities.External.OdinSerializer.Utilities.TypeExtensions
+    name: TypeExtensions
+  - uid: TirUtilities.External.OdinSerializer.Utilities.UnityExtensions
+    name: UnityExtensions
+  - uid: TirUtilities.External.OdinSerializer.Utilities.UnityVersion
+    name: UnityVersion
+  - uid: TirUtilities.External.OdinSerializer.Utilities.ValueGetter`2
+    name: ValueGetter<InstanceType, FieldType>
+    name.vb: ValueGetter(Of InstanceType, FieldType)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.ValueSetter`2
+    name: ValueSetter<InstanceType, FieldType>
+    name.vb: ValueSetter(Of InstanceType, FieldType)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter
+    name: WeakValueGetter
+  - uid: TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter`1
+    name: WeakValueGetter<FieldType>
+    name.vb: WeakValueGetter(Of FieldType)
+  - uid: TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter
+    name: WeakValueSetter
+  - uid: TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter`1
+    name: WeakValueSetter<FieldType>
+    name.vb: WeakValueSetter(Of FieldType)
+- uid: TirUtilities.External.OdinSerializer.Utilities.Unsafe
+  name: TirUtilities.External.OdinSerializer.Utilities.Unsafe
+  items:
+  - uid: TirUtilities.External.OdinSerializer.Utilities.Unsafe.UnsafeUtilities
+    name: UnsafeUtilities
 - uid: TirUtilities.LevelManagment
   name: TirUtilities.LevelManagment
   items:

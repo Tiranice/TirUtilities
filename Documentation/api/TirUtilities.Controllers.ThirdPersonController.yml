@@ -17,7 +17,7 @@ items:
   source:
     id: ThirdPersonController
     path: ''
-    startLine: 994
+    startLine: 1260
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -50,7 +50,7 @@ items:
   source:
     id: SetMoveDirection
     path: ''
-    startLine: 1094
+    startLine: 1360
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -79,7 +79,7 @@ items:
   source:
     id: Jump
     path: ''
-    startLine: 1096
+    startLine: 1362
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -116,7 +116,6 @@ references:
   nameWithType: ThirdPersonController.SetMoveDirection
   fullName: TirUtilities.Controllers.ThirdPersonController.SetMoveDirection
 - uid: Global.Vector2
-  commentId: '!:Global.Vector2'
   isExternal: true
   name: Vector2
   nameWithType: Vector2

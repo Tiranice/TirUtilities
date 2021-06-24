@@ -17,7 +17,7 @@ items:
   source:
     id: LevelLoader
     path: ''
-    startLine: 2248
+    startLine: 2619
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
@@ -49,7 +49,7 @@ items:
   source:
     id: OnLoadComplete
     path: ''
-    startLine: 2252
+    startLine: 2623
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
@@ -78,7 +78,7 @@ items:
   source:
     id: LoadLevelDataAsync
     path: ''
-    startLine: 2258
+    startLine: 2629
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment

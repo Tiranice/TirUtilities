@@ -16,7 +16,7 @@ items:
   source:
     id: AutoRotate
     path: ''
-    startLine: 909
+    startLine: 1178
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Automation
@@ -49,20 +49,18 @@ items:
   source:
     id: ToggleRotation
     path: ''
-    startLine: 966
+    startLine: 1235
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Automation
   syntax:
-    content: public static void ToggleRotation()
-    content.vb: Public Shared Sub ToggleRotation
+    content: public void ToggleRotation()
+    content.vb: Public Sub ToggleRotation
   overload: TirUtilities.Automation.AutoRotate.ToggleRotation*
   modifiers.csharp:
   - public
-  - static
   modifiers.vb:
   - Public
-  - Shared
 references:
 - uid: TirUtilities.Automation
   commentId: N:TirUtilities.Automation

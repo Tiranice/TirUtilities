@@ -15,7 +15,7 @@ items:
   source:
     id: ButtonHotKey
     path: ''
-    startLine: 3399
+    startLine: 3766
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI.Buttons

@@ -15,7 +15,7 @@ items:
   source:
     id: DrawColliderGizmo
     path: ''
-    startLine: 1913
+    startLine: 2284
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.CustomGizmos

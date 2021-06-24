@@ -10,6 +10,9 @@ items:
   - TirUtilities.Experimental.PausedState
   - TirUtilities.Experimental.PlayingState
   - TirUtilities.Experimental.QuittingState
+  - TirUtilities.Experimental.Singleton
+  - TirUtilities.Experimental.State
+  - TirUtilities.Experimental.StateAction
   langs:
   - csharp
   - vb
@@ -52,6 +55,23 @@ references:
   name: Command
   nameWithType: Command
   fullName: TirUtilities.Experimental.Command
+- uid: TirUtilities.Experimental.Singleton
+  commentId: T:TirUtilities.Experimental.Singleton
+  parent: TirUtilities.Experimental
+  name: Singleton
+  nameWithType: Singleton
+  fullName: TirUtilities.Experimental.Singleton
+- uid: TirUtilities.Experimental.State
+  commentId: T:TirUtilities.Experimental.State
+  parent: TirUtilities.Experimental
+  name: State
+  nameWithType: State
+  fullName: TirUtilities.Experimental.State
+- uid: TirUtilities.Experimental.StateAction
+  commentId: T:TirUtilities.Experimental.StateAction
+  name: StateAction
+  nameWithType: StateAction
+  fullName: TirUtilities.Experimental.StateAction
 - uid: TirUtilities.Experimental
   commentId: N:TirUtilities.Experimental
   name: TirUtilities.Experimental

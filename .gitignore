@@ -74,3 +74,6 @@ crashlytics-build.properties
 
 /_site/
 /[Dd]ocumentation/obj/
+/[Dd]ocumentation/api/
+/[Dd]ocumentation/index.*
+/[Aa]ssets/**/obj*

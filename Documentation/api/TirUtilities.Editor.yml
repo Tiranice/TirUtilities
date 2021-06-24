@@ -5,7 +5,8 @@ items:
   id: TirUtilities.Editor
   children:
   - TirUtilities.Editor.FlexGridInpector
-  - TirUtilities.Editor.LevelSystemInspector
+  - TirUtilities.Editor.MenuPageContextMenu
+  - TirUtilities.Editor.ProjectEditorPaths
   langs:
   - csharp
   - vb
@@ -16,13 +17,18 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: TirUtilities.Editor.ProjectEditorPaths
+  commentId: T:TirUtilities.Editor.ProjectEditorPaths
+  name: ProjectEditorPaths
+  nameWithType: ProjectEditorPaths
+  fullName: TirUtilities.Editor.ProjectEditorPaths
 - uid: TirUtilities.Editor.FlexGridInpector
   commentId: T:TirUtilities.Editor.FlexGridInpector
   name: FlexGridInpector
   nameWithType: FlexGridInpector
   fullName: TirUtilities.Editor.FlexGridInpector
-- uid: TirUtilities.Editor.LevelSystemInspector
-  commentId: T:TirUtilities.Editor.LevelSystemInspector
-  name: LevelSystemInspector
-  nameWithType: LevelSystemInspector
-  fullName: TirUtilities.Editor.LevelSystemInspector
+- uid: TirUtilities.Editor.MenuPageContextMenu
+  commentId: T:TirUtilities.Editor.MenuPageContextMenu
+  name: MenuPageContextMenu
+  nameWithType: MenuPageContextMenu
+  fullName: TirUtilities.Editor.MenuPageContextMenu

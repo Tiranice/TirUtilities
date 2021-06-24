@@ -16,7 +16,7 @@ items:
   source:
     id: ColorExtensions
     path: ''
-    startLine: 601
+    startLine: 870
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -49,7 +49,7 @@ items:
   source:
     id: SetRandColor
     path: ''
-    startLine: 603
+    startLine: 872
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -96,7 +96,6 @@ references:
   nameWithType: ColorExtensions.SetRandColor
   fullName: TirUtilities.Extensions.ColorExtensions.SetRandColor
 - uid: Global.Color
-  commentId: '!:Global.Color'
   isExternal: true
   name: Color
   nameWithType: Color

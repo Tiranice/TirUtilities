@@ -7,6 +7,7 @@ items:
   children:
   - TirUtilities.UI.MenuStateMachine.ActivePage
   - TirUtilities.UI.MenuStateMachine.Back
+  - TirUtilities.UI.MenuStateMachine.MenuPages
   - TirUtilities.UI.MenuStateMachine.PreviousPage
   - TirUtilities.UI.MenuStateMachine.TransitionTo(TirUtilities.UI.MenuState)
   langs:
@@ -19,7 +20,7 @@ items:
   source:
     id: MenuStateMachine
     path: ''
-    startLine: 3716
+    startLine: 4051
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -53,7 +54,7 @@ items:
   source:
     id: ActivePage
     path: ''
-    startLine: 3754
+    startLine: 4089
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -86,7 +87,7 @@ items:
   source:
     id: PreviousPage
     path: ''
-    startLine: 3757
+    startLine: 4092
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -119,7 +120,7 @@ items:
   source:
     id: TransitionTo
     path: ''
-    startLine: 3793
+    startLine: 4128
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -151,7 +152,7 @@ items:
   source:
     id: Back
     path: ''
-    startLine: 3813
+    startLine: 4148
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -165,6 +166,37 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: TirUtilities.UI.MenuStateMachine.MenuPages
+  commentId: P:TirUtilities.UI.MenuStateMachine.MenuPages
+  id: MenuPages
+  parent: TirUtilities.UI.MenuStateMachine
+  langs:
+  - csharp
+  - vb
+  name: MenuPages
+  nameWithType: MenuStateMachine.MenuPages
+  fullName: TirUtilities.UI.MenuStateMachine.MenuPages
+  type: Property
+  source:
+    id: MenuPages
+    path: ''
+    startLine: 4163
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  syntax:
+    content: public List<MenuPage> MenuPages { get; }
+    parameters: []
+    return:
+      type: Global.List{TirUtilities.UI.MenuPage}
+    content.vb: Public ReadOnly Property MenuPages As List(Of MenuPage)
+  overload: TirUtilities.UI.MenuStateMachine.MenuPages*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: TirUtilities.UI.MenuPage
   commentId: T:TirUtilities.UI.MenuPage
@@ -227,3 +259,87 @@ references:
   name: Back
   nameWithType: MenuStateMachine.Back
   fullName: TirUtilities.UI.MenuStateMachine.Back
+- uid: TirUtilities.UI.MenuStateMachine.MenuPages*
+  commentId: Overload:TirUtilities.UI.MenuStateMachine.MenuPages
+  name: MenuPages
+  nameWithType: MenuStateMachine.MenuPages
+  fullName: TirUtilities.UI.MenuStateMachine.MenuPages
+- uid: Global.List{TirUtilities.UI.MenuPage}
+  commentId: '!:Global.List{TirUtilities.UI.MenuPage}'
+  definition: Global.List`1
+  name: List<MenuPage>
+  nameWithType: List<MenuPage>
+  fullName: List<TirUtilities.UI.MenuPage>
+  nameWithType.vb: List(Of MenuPage)
+  fullName.vb: List(Of TirUtilities.UI.MenuPage)
+  name.vb: List(Of MenuPage)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TirUtilities.UI.MenuPage
+    name: MenuPage
+    nameWithType: MenuPage
+    fullName: TirUtilities.UI.MenuPage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TirUtilities.UI.MenuPage
+    name: MenuPage
+    nameWithType: MenuPage
+    fullName: TirUtilities.UI.MenuPage
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

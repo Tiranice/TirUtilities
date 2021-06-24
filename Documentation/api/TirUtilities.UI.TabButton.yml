@@ -23,7 +23,7 @@ items:
   source:
     id: TabButton
     path: ''
-    startLine: 4131
+    startLine: 4471
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -61,7 +61,7 @@ items:
   source:
     id: Background
     path: ''
-    startLine: 4137
+    startLine: 4477
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -92,7 +92,7 @@ items:
   source:
     id: onTabSelected
     path: ''
-    startLine: 4143
+    startLine: 4483
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -119,7 +119,7 @@ items:
   source:
     id: onTabDeselected
     path: ''
-    startLine: 4144
+    startLine: 4484
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -146,7 +146,7 @@ items:
   source:
     id: OnPointerEnter
     path: ''
-    startLine: 4160
+    startLine: 4500
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -175,7 +175,7 @@ items:
   source:
     id: OnPointerClick
     path: ''
-    startLine: 4162
+    startLine: 4502
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -204,7 +204,7 @@ items:
   source:
     id: OnPointerExit
     path: ''
-    startLine: 4164
+    startLine: 4504
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -233,7 +233,7 @@ items:
   source:
     id: Select
     path: ''
-    startLine: 4173
+    startLine: 4513
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -261,7 +261,7 @@ items:
   source:
     id: Deselect
     path: ''
-    startLine: 4178
+    startLine: 4518
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI

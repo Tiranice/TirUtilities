@@ -15,7 +15,7 @@ items:
   source:
     id: DrawCameraGizmo
     path: ''
-    startLine: 1832
+    startLine: 2203
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.CustomGizmos

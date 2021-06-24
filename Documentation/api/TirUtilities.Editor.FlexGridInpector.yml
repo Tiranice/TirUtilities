@@ -16,11 +16,11 @@ items:
   source:
     id: FlexGridInpector
     path: ''
-    startLine: 63
+    startLine: 88
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Editor
-  summary: "\nINCOMPLETE\n"
+  summary: "\nDraws the inspector for <xref href=\"TirUtilities.UI.Layout.FlexibleGridLayoutGroup\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
   syntax:
     content: 'public class FlexGridInpector : UnityEditor.Editor'
@@ -49,7 +49,7 @@ items:
   source:
     id: OnInspectorGUI
     path: ''
-    startLine: 83
+    startLine: 131
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Editor
@@ -64,6 +64,11 @@ items:
   - Public
   - Overrides
 references:
+- uid: TirUtilities.UI.Layout.FlexibleGridLayoutGroup
+  commentId: T:TirUtilities.UI.Layout.FlexibleGridLayoutGroup
+  name: FlexibleGridLayoutGroup
+  nameWithType: FlexibleGridLayoutGroup
+  fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup
 - uid: TirUtilities.Editor
   commentId: N:TirUtilities.Editor
   name: TirUtilities.Editor

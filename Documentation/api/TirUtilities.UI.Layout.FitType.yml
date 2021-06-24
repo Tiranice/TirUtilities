@@ -20,7 +20,7 @@ items:
   source:
     id: FitType
     path: ''
-    startLine: 3437
+    startLine: 3805
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI.Layout
@@ -47,7 +47,7 @@ items:
   source:
     id: Uniform
     path: ''
-    startLine: 3439
+    startLine: 3807
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI.Layout
@@ -75,7 +75,7 @@ items:
   source:
     id: Width
     path: ''
-    startLine: 3440
+    startLine: 3808
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI.Layout
@@ -103,7 +103,7 @@ items:
   source:
     id: Height
     path: ''
-    startLine: 3441
+    startLine: 3809
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI.Layout
@@ -131,7 +131,7 @@ items:
   source:
     id: FixedRows
     path: ''
-    startLine: 3442
+    startLine: 3810
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI.Layout
@@ -159,7 +159,7 @@ items:
   source:
     id: FixedColumns
     path: ''
-    startLine: 3443
+    startLine: 3811
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI.Layout

@@ -21,7 +21,7 @@ items:
   source:
     id: ListExtensions
     path: ''
-    startLine: 777
+    startLine: 1046
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -54,7 +54,7 @@ items:
   source:
     id: IsEmpty
     path: ''
-    startLine: 783
+    startLine: 1052
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -101,7 +101,7 @@ items:
   source:
     id: NotEmpty
     path: ''
-    startLine: 789
+    startLine: 1058
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -148,7 +148,7 @@ items:
   source:
     id: IsNull
     path: ''
-    startLine: 795
+    startLine: 1064
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -195,7 +195,7 @@ items:
   source:
     id: NotNull
     path: ''
-    startLine: 801
+    startLine: 1070
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -242,7 +242,7 @@ items:
   source:
     id: IsNullOrEmpty
     path: ''
-    startLine: 807
+    startLine: 1076
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -289,7 +289,7 @@ items:
   source:
     id: IndexInRange
     path: ''
-    startLine: 814
+    startLine: 1083
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions

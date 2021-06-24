@@ -22,7 +22,7 @@ items:
   source:
     id: ApplicationState
     path: ''
-    startLine: 1464
+    startLine: 1835
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -60,7 +60,7 @@ items:
   source:
     id: _description
     path: ''
-    startLine: 1472
+    startLine: 1843
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -89,7 +89,7 @@ items:
   source:
     id: Description
     path: ''
-    startLine: 1477
+    startLine: 1848
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -122,7 +122,7 @@ items:
   source:
     id: PausedTimeScale
     path: ''
-    startLine: 1483
+    startLine: 1854
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -155,7 +155,7 @@ items:
   source:
     id: PlayingTimeScale
     path: ''
-    startLine: 1484
+    startLine: 1855
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -188,7 +188,7 @@ items:
   source:
     id: EnterState
     path: ''
-    startLine: 1490
+    startLine: 1861
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -221,7 +221,7 @@ items:
   source:
     id: ExitState
     path: ''
-    startLine: 1491
+    startLine: 1862
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -254,7 +254,7 @@ items:
   source:
     id: UpdateState
     path: ''
-    startLine: 1492
+    startLine: 1863
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental

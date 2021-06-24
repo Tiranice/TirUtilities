@@ -7,9 +7,6 @@ items:
   - TirUtilities.DisplayOnlyAttribute
   - TirUtilities.IState`1
   - TirUtilities.ScenePathAttribute
-  - TirUtilities.Singleton
-  - TirUtilities.State
-  - TirUtilities.StateAction
   - TirUtilities.StateMachine
   - TirUtilities.TirLogger
   - TirUtilities.Vector3Extensions
@@ -38,12 +35,6 @@ references:
   name: Vector3Extensions
   nameWithType: Vector3Extensions
   fullName: TirUtilities.Vector3Extensions
-- uid: TirUtilities.Singleton
-  commentId: T:TirUtilities.Singleton
-  parent: TirUtilities
-  name: Singleton
-  nameWithType: Singleton
-  fullName: TirUtilities.Singleton
 - uid: TirUtilities.TirLogger
   commentId: T:TirUtilities.TirLogger
   name: TirLogger
@@ -91,17 +82,6 @@ references:
   name: StateMachine
   nameWithType: StateMachine
   fullName: TirUtilities.StateMachine
-- uid: TirUtilities.State
-  commentId: T:TirUtilities.State
-  parent: TirUtilities
-  name: State
-  nameWithType: State
-  fullName: TirUtilities.State
-- uid: TirUtilities.StateAction
-  commentId: T:TirUtilities.StateAction
-  name: StateAction
-  nameWithType: StateAction
-  fullName: TirUtilities.StateAction
 - uid: TirUtilities
   commentId: N:TirUtilities
   name: TirUtilities

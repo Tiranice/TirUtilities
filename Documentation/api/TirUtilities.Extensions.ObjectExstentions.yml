@@ -17,7 +17,7 @@ items:
   source:
     id: ObjectExstentions
     path: ''
-    startLine: 834
+    startLine: 1103
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -50,7 +50,7 @@ items:
   source:
     id: IsNull
     path: ''
-    startLine: 836
+    startLine: 1105
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -87,7 +87,7 @@ items:
   source:
     id: NotNull
     path: ''
-    startLine: 837
+    startLine: 1106
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
