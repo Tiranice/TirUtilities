@@ -2,1723 +2,1723 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Automation.AutoRotate.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Automation.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Controllers.CameraLookEvents.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Controllers.MouseUtility.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Controllers.ThirdPersonController.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Controllers.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomEvents.BoolEvent.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomEvents.GameObjectEvent.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomEvents.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.DrawBoxGizmo.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.DrawCameraGizmo.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.DrawColliderGizmo.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.DrawForwardGizmo.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.TirGizmos.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Detection.TriggerVolume.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Detection.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.DisplayOnlyAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.Experimental.MenuStateMachineInspector.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.Experimental.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.FlexGridInpector.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.MenuPageContextMenu.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.ProjectEditorPaths.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.PropertyDrawers.ScenePathDrawer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.PropertyDrawers.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.ApplicationState.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.ApplicationStateMachine.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.Command.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.PausedState.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.PlayingState.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.QuittingState.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.Singleton.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.State.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.StateAction.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.ColorExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.EventExtension.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.ListExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.ObjectExstentions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.RigidbodyExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.AllowDeserializeInvalidDataAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.AlwaysFormatsSelfAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.AnimationCurveFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ArchitectureInfo.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ArrayFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ArrayListFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BaseDataReader.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BaseDataReaderWriter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BaseDataWriter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BaseDictionaryKeyPathProvider-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BaseFormatter-1.SerializationCallback.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BaseFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BinaryDataReader.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BinaryDataWriter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BinaryEntryType.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BindTypeNameToTypeAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BooleanSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.BoundsFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Buffer-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ByteSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.CharSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Color32Formatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ColorBlockFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ColorBlockFormatterLocator.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ColorFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ComplexTypeSerializer-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.CoroutineFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.CustomFormatterAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.CustomGenericFormatterAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.CustomLogger.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.CustomSerializationPolicy.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DataFormat.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DateTimeFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DateTimeOffsetFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DebugContext.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DecimalSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DefaultLoggers.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DefaultSerializationBinder.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DelegateFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DeserializationContext.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DictionaryFormatter-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DictionaryKeyUtility.KeyComparer-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DictionaryKeyUtility.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DoubleLookupDictionaryFormatter-3.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.DoubleSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.EasyBaseFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.EmittedAssemblyAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.EmittedFormatterAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.EmptyTypeFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.EntryType.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.EnumSerializer-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ErrorHandlingPolicy.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ExcludeDataFromInspectorAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.FormatterEmitter.AOTEmittedFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.FormatterEmitter.EmptyAOTEmittedFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.FormatterEmitter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.FormatterLocationStep.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.FormatterLocator.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.FormatterUtilities.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.GenericCollectionFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.GenericCollectionFormatter-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.GlobalSerializationConfig.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.GradientAlphaKeyFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.GradientColorKeyFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.GradientFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.GuidSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.HashSetFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IAskIfCanFormatTypes.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IDataReader.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IDataWriter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IDictionaryKeyPathProvider-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IExternalGuidReferenceResolver.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IExternalIndexReferenceResolver.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IExternalStringReferenceResolver.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IFormatterLocator.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ILogger.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Int16Serializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Int32Serializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Int64Serializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IntPtrSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IOverridesSerializationFormat.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.IOverridesSerializationPolicy.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ISelfFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ISerializationPolicy.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ISupportsPrefabSerialization.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.JsonConfig.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.JsonDataReader.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.JsonDataWriter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.JsonTextReader.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.KeyframeFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.KeyValuePairFormatter-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.LayerMaskFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ListFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.LoggingPolicy.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.MethodInfoFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.MinimalBaseFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.MultiDimensionalArrayFormatter-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.NodeInfo.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.NullableFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.OdinSerializeAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.PrefabModification.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.PrefabModificationType.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.PreviouslySerializedAsAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.PrimitiveArrayFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ProperBitConverter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.QuaternionFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.QueueFormatter-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.RectFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ReflectionFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.ReflectionOrEmittedBaseFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.RegisterDictionaryKeyPathProviderAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.RegisterFormatterAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.RegisterFormatterLocatorAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SByteSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SelfFormatterFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializableFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializationAbortException.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializationConfig.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializationContext.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializationData.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializationNode.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializationNodeDataReader.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializationNodeDataReaderWriterConfig.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializationNodeDataWriter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializationPolicies.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializationUtility.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializedBehaviour.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializedComponent.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializedMonoBehaviour.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializedScriptableObject.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializedStateMachineBehaviour.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SerializedUnityObject.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Serializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Serializer-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.SingleSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.StackFormatter-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.StringSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.TimeSpanFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.TwoWaySerializationBinder.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.TypeFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.UInt16Serializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.UInt32Serializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.UInt64Serializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.UIntPtrSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.UnityEventFormatter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.UnityReferenceResolver.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.UnitySerializationInitializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.UnitySerializationUtility.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.Cache-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.DoubleLookupDictionary-3.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.InstanceRefMethodCaller-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.InstanceRefMethodCaller-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.EmitUtilities.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.FastTypeComparer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.FieldInfoExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.Flags.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.DictionaryIterator-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.DictionaryValueIterator-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.HashsetIterator-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.ListIterator-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.GarbageFreeIterators.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.ICache.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.ICacheNotificationReceiver.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.IImmutableList.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.IImmutableList-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.ImmutableList.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.ImmutableList-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.ImmutableList-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.LinqExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.MemberAliasFieldInfo.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.MemberAliasMethodInfo.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.MemberAliasPropertyInfo.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.MemberInfoExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.MethodInfoExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.Operator.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.PathUtilities.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.PropertyInfoExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.ReferenceEqualityComparer-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.StringExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.TypeExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.UnityExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.UnityVersion.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.Unsafe.UnsafeUtilities.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.Unsafe.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.ValueGetter-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.ValueSetter-2.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.WeakValueGetter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.WeakValueSetter-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Utilities.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Vector2DictionaryKeyPathProvider.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Vector2Formatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Vector3DictionaryKeyPathProvider.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Vector3Formatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Vector4DictionaryKeyPathProvider.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.Vector4Formatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.VersionFormatter.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.External.OdinSerializer.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.IState-1.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.LevelManagment.LevelData.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.LevelManagment.LevelLoader.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.LevelManagment.LevelSystem.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.LevelManagment.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.ScenePathAttribute.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Serialization.TirJsonUtility.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Serialization.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.BoolSignal.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.ByteSignal.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.FloatSignal.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.GameObjectSignal.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.IntSignal.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.LevelLoadSignal.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.Signal.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.SignalBase.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.SignalReceiver.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.StringSignal.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.StateMachine.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.TirLogger.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Buttons.ButtonHotKey.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Buttons.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Layout.FitType.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Layout.FitTypeExtensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Layout.FlexibleGridLayoutGroup.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Layout.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.LoadingScreen.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.MenuPage.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.MenuState.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.MenuStateMachine.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.MessagePanel.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.TabButton.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.TabGroup.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.UIBillboard.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.UIMessageBox.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.WorldSpaceMessageBox.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Vector3Extensions.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/index.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/manual/manual.html</loc>
-    <lastmod>2021-06-24T11:04:07+00:00</lastmod>
+    <lastmod>2021-06-24T11:10:46+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
