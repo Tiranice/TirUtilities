@@ -8,3 +8,6 @@ apiRules:
 - exclude:
     uidRegex: .*
     type: Namespace
+- exclude:
+    uidRegex: ^TirUtilities.External
+    type: Namespace
