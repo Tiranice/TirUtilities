@@ -62,6 +62,15 @@
                 ]
             }
         ],
+        "sitemap": {
+            "baseUrl": "https://tiranice.github.io/TirUtilities/",
+            "changefreq": "weekly",
+            "fileOptions": {
+                "api/*": {
+                    "changefreq": "daily"
+                }
+            }
+        },
         "xref": [
             "https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"
         ],
