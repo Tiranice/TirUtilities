@@ -1,4 +1,14 @@
 {
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://tiranice.github.io/TirUtilities/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://tiranice.github.io/TirUtilities/",
+    "changefreq": "weekly"
+  },
   "homepages": [],
   "source_base_path": "D:/a/TirUtilities/TirUtilities/Documentation",
   "xrefmap": "xrefmap.yml",
