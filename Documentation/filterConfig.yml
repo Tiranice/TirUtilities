@@ -6,8 +6,8 @@ apiRules:
     uidRegex: ^Global
     type: Namespace
 - exclude:
-    uidRegex: .*
+    uidRegex: ^TirUtilities\.External
     type: Namespace
 - exclude:
-    uidRegex: ^TirUtilities.External
+    uidRegex: .*
     type: Namespace
