@@ -38,7 +38,7 @@ namespace TirUtilities.LevelManagment
         #region Public Propitiates
 
         public string ActiveScene { get => _activeScene; }
-        public List<string> AddativeScenes { get => _addativeScenes; }
+        public List<string> AdditiveScenes { get => _addativeScenes; }
 
         #endregion
     }

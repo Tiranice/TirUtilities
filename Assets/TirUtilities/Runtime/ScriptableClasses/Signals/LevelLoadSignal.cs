@@ -73,7 +73,7 @@ namespace TirUtilities.Signals
         {
             EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
             EditorSceneManager.OpenScene(_levelData.ActiveScene);
-            foreach (var scene in _levelData.AddativeScenes)
+            foreach (var scene in _levelData.AdditiveScenes)
                 EditorSceneManager.OpenScene(scene, OpenSceneMode.Additive);
         }
 #endif

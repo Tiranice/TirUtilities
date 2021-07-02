@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
-using TirUtilities.Extensions;
-using TirUtilities.Signals;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace TirUtilities.LevelManagment
 {
+    using TirUtilities.LevelManagment.Experimental;
+    using TirUtilities.Extensions;
+    using TirUtilities.Signals;
     ///<!--
     /// LevelSystem.cs
     /// 
@@ -14,10 +14,11 @@ namespace TirUtilities.LevelManagment
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 05, 2021
-    /// Updated:  May 15, 2021
+    /// Updated:  July 01, 2021
     /// -->
     /// <summary>
-    ///
+    /// Handles the loading of <see cref="LevelData"/> emitted from <see cref="LevelLoadSignal"/>
+    /// assets.
     /// </summary>
     public class LevelSystem : MonoBehaviour
     {
@@ -31,26 +32,24 @@ namespace TirUtilities.LevelManagment
         #region Inspector Fields
 
         [Header("Initialization")]
-        [Tooltip("This should contain all of the scenes needed when the game first starts.")]
-        [SerializeField] private LevelData _rootLevelData;
+        [Tooltip("The root level data will be loaded on awake if this is checked."), SerializeField]
+        private bool _shouldLoadRootOnAwake = false;
+        [Tooltip("This should contain all of the scenes needed when the game first starts."), SerializeField]
+        private LevelData _rootLevelData;
 
         [Header("Loading Screen")]
-        [Tooltip("This should be a child image that is faded in an out by the level loader.")]
-        [SerializeField] private Image _loadingScreen;
-
-        #endregion
-
-        #region Private Fields
-
-        private bool _isLoading = false;
+        [Tooltip("The loading screen that will fade in and out as loading starts and completes."), SerializeField]
+        private LoadingScreen _loadingScreen;
 
         #endregion
 
         #region Events & Signals
 
         [Header("Signals")]
-        [SerializeField] private List<LevelLoadSignal> _levelLoadSignals;
-        [SerializeField] private Signal _loadCompleteSignal;
+        [Tooltip("Emit one to load its level data.\nLoaded from the resources folder."), SerializeField]
+        private List<LevelLoadSignal> _levelLoadSignals;
+        [Tooltip("Emitted when the level loader finishes."), SerializeField]
+        private Signal _loadCompleteSignal;
 
         #endregion
 
@@ -58,14 +57,20 @@ namespace TirUtilities.LevelManagment
 
         private void Awake() => Wakeup();
 
-        private void Update() => UpdateLoadingScreen();
-
         private void OnDestroy() => Teardown();
 
         #endregion
 
         #region Setup & Teardown
 
+        /// <summary>
+        /// Runs setup that must occur at awake time.
+        /// <list type="bullet">
+        ///     <item> Assigns receivers to the level load signals. </item>
+        ///     <item> Loads the root level data if needed. </item>
+        ///     <item> Sends this game object to DontDestroyOnLoad. </item>
+        /// </list>
+        /// </summary>
         private void Wakeup()
         {
             lock (_Lock)
@@ -88,53 +93,57 @@ namespace TirUtilities.LevelManagment
                 foreach (var signal in _levelLoadSignals)
                     signal.AddReceiver(LevelLoadSignalReceicer);
 
-                StartCoroutine(LevelLoader.LoadLevelDataAsync(_rootLevelData));
+                if (_shouldLoadRootOnAwake)
+                    StartCoroutine(LevelLoader.LoadLevelDataAsync(_rootLevelData));
 
                 LevelLoader.OnLoadComplete += OnLoadComplete__EmitSignal;
             }
         }
 
-
+        /// <summary> Removes event listeners and signal receivers. </summary>
         private void Teardown()
         {
             foreach (var signal in _levelLoadSignals)
                 signal.RemoveReceiver(LevelLoadSignalReceicer);
-        }
 
-        #endregion
-
-        #region Private Methods
-
-        private void UpdateLoadingScreen()
-        {
-            if (_isLoading)
-                _loadingScreen.color = Color.Lerp(_loadingScreen.color, Color.black, Time.deltaTime);
-            else
-                _loadingScreen.color = Color.Lerp(_loadingScreen.color, Color.clear, Time.deltaTime);
+            LevelLoader.OnLoadComplete -= OnLoadComplete__EmitSignal;
         }
 
         #endregion
 
         #region Listeners & Receivers
 
+        /// <summary> 
+        /// Hides the loading screen and emits the <see cref="_loadCompleteSignal"/>.
+        /// </summary>
         private void OnLoadComplete__EmitSignal()
         {
-            _isLoading = false;
+            if (_loadingScreen.NotNull())
+                StartCoroutine(_loadingScreen.Hide());
+
             if (_loadCompleteSignal.NotNull())
                 _loadCompleteSignal.Emit();
         }
 
-        private void LevelLoadSignalReceicer(LevelData levelData) => 
+        /// <summary>
+        /// Shows the loading screen and loads the passed level data.
+        /// </summary>
+        /// <param name="levelData"> The scenes to be loaded. </param>
+        private void LevelLoadSignalReceicer(LevelData levelData)
+        {
+            if (_loadingScreen.NotNull())
+                StartCoroutine(_loadingScreen.Show());
+
             StartCoroutine(LevelLoader.LoadLevelDataAsync(levelData));
+        }
 
         #endregion
 
         #region Editor
 #if UNITY_EDITOR
-        private void OnValidate()
-        {
+        // Fetch all of the level load signals in the resources folder.
+        private void OnValidate() => 
             _levelLoadSignals = Resources.FindObjectsOfTypeAll<LevelLoadSignal>().ToList();
-        }
 #endif
         #endregion
     }
