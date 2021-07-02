@@ -1165,6 +1165,44 @@ references:
   commentId: N:TirUtilities.LevelManagment
   fullName: TirUtilities.LevelManagment
   nameWithType: TirUtilities.LevelManagment
+- uid: TirUtilities.LevelManagment.Experimental
+  name: TirUtilities.LevelManagment.Experimental
+  href: api/TirUtilities.LevelManagment.Experimental.html
+  commentId: N:TirUtilities.LevelManagment.Experimental
+  fullName: TirUtilities.LevelManagment.Experimental
+  nameWithType: TirUtilities.LevelManagment.Experimental
+- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen
+  name: LoadingScreen
+  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html
+  commentId: T:TirUtilities.LevelManagment.Experimental.LoadingScreen
+  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen
+  nameWithType: LoadingScreen
+- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
+  name: Hide()
+  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide
+  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
+  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide()
+  nameWithType: LoadingScreen.Hide()
+- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide*
+  name: Hide
+  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide_
+  commentId: Overload:TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
+  nameWithType: LoadingScreen.Hide
+- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show
+  name: Show()
+  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Show
+  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Show
+  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show()
+  nameWithType: LoadingScreen.Show()
+- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show*
+  name: Show
+  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Show_
+  commentId: Overload:TirUtilities.LevelManagment.Experimental.LoadingScreen.Show
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show
+  nameWithType: LoadingScreen.Show
 - uid: TirUtilities.LevelManagment.LevelData
   name: LevelData
   href: api/TirUtilities.LevelManagment.LevelData.html
@@ -1200,19 +1238,19 @@ references:
   isSpec: "True"
   fullName: TirUtilities.LevelManagment.LevelData.ActiveScene
   nameWithType: LevelData.ActiveScene
-- uid: TirUtilities.LevelManagment.LevelData.AddativeScenes
-  name: AddativeScenes
-  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData_AddativeScenes
-  commentId: P:TirUtilities.LevelManagment.LevelData.AddativeScenes
-  fullName: TirUtilities.LevelManagment.LevelData.AddativeScenes
-  nameWithType: LevelData.AddativeScenes
-- uid: TirUtilities.LevelManagment.LevelData.AddativeScenes*
-  name: AddativeScenes
-  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData_AddativeScenes_
-  commentId: Overload:TirUtilities.LevelManagment.LevelData.AddativeScenes
+- uid: TirUtilities.LevelManagment.LevelData.AdditiveScenes
+  name: AdditiveScenes
+  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData_AdditiveScenes
+  commentId: P:TirUtilities.LevelManagment.LevelData.AdditiveScenes
+  fullName: TirUtilities.LevelManagment.LevelData.AdditiveScenes
+  nameWithType: LevelData.AdditiveScenes
+- uid: TirUtilities.LevelManagment.LevelData.AdditiveScenes*
+  name: AdditiveScenes
+  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData_AdditiveScenes_
+  commentId: Overload:TirUtilities.LevelManagment.LevelData.AdditiveScenes
   isSpec: "True"
-  fullName: TirUtilities.LevelManagment.LevelData.AddativeScenes
-  nameWithType: LevelData.AddativeScenes
+  fullName: TirUtilities.LevelManagment.LevelData.AdditiveScenes
+  nameWithType: LevelData.AdditiveScenes
 - uid: TirUtilities.LevelManagment.LevelLoader
   name: LevelLoader
   href: api/TirUtilities.LevelManagment.LevelLoader.html
@@ -1934,12 +1972,6 @@ references:
   isSpec: "True"
   fullName: TirUtilities.UI.Layout.FlexibleGridLayoutGroup.SetLayoutVertical
   nameWithType: FlexibleGridLayoutGroup.SetLayoutVertical
-- uid: TirUtilities.UI.LoadingScreen
-  name: LoadingScreen
-  href: api/TirUtilities.UI.LoadingScreen.html
-  commentId: T:TirUtilities.UI.LoadingScreen
-  fullName: TirUtilities.UI.LoadingScreen
-  nameWithType: LoadingScreen
 - uid: TirUtilities.UI.MenuPage
   name: MenuPage
   href: api/TirUtilities.UI.MenuPage.html

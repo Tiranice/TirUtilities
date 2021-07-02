@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace TirUtilities.UI
-   | TirUtilities </title>
+    <title>Level System | TirUtilities </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace TirUtilities.UI
-   | TirUtilities ">
+    <meta name="title" content="Level System | TirUtilities ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,44 +76,50 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="TirUtilities.UI">
-  
-  <h1 id="TirUtilities_UI" data-uid="TirUtilities.UI" class="text-break">Namespace TirUtilities.UI
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="TirUtilities.UI.MenuPage.html">MenuPage</a></h4>
-      <section><p>Represents a UI canvas to the <a class="xref" href="TirUtilities.UI.MenuStateMachine.html">MenuStateMachine</a>.</p>
-</section>
-      <h4><a class="xref" href="TirUtilities.UI.MenuState.html">MenuState</a></h4>
-      <section><p>Used by the <a class="xref" href="TirUtilities.UI.MenuStateMachine.html">MenuStateMachine</a> to control which menu is shown.</p>
-</section>
-      <h4><a class="xref" href="TirUtilities.UI.MenuStateMachine.html">MenuStateMachine</a></h4>
-      <section><p>Controls the state of a set of <a class="xref" href="TirUtilities.UI.MenuPage.html">MenuPage</a> objects in the scene.</p>
-</section>
-      <h4><a class="xref" href="TirUtilities.UI.MessagePanel.html">MessagePanel</a></h4>
-      <section><p>A UI panel that displays TMP text elements and moves through them in order.</p>
-</section>
-      <h4><a class="xref" href="TirUtilities.UI.TabButton.html">TabButton</a></h4>
-      <section><p>Derived from code written by Matt Gambell <a href="https://youtu.be/211t6r12XPQ">https://youtu.be/211t6r12XPQ</a></p>
-<p>Contains all of the pointer event logic.</p>
-</section>
-      <h4><a class="xref" href="TirUtilities.UI.TabGroup.html">TabGroup</a></h4>
-      <section><p>Derived from code written by Matt Gambell <a href="https://youtu.be/211t6r12XPQ">https://youtu.be/211t6r12XPQ</a></p>
-<p>Maintains all tabs in child objects.</p>
-</section>
-      <h4><a class="xref" href="TirUtilities.UI.UIBillboard.html">UIBillboard</a></h4>
-      <section><p>Turns the attached canvas to face the main camera and sets the text of the child TMP text
-component.</p>
-</section>
-      <h4><a class="xref" href="TirUtilities.UI.UIMessageBox.html">UIMessageBox</a></h4>
-      <section></section>
-      <h4><a class="xref" href="TirUtilities.UI.WorldSpaceMessageBox.html">WorldSpaceMessageBox</a></h4>
-      <section><p>A world space UI panel that holds TMP text and links to another message.</p>
-</section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="level-system">Level System</h1>
+
+<p>This functions as a centralized system for loading scenes.  Loading scenes is usually a simple process, but leads to a lot of code duplication.  For example:</p>
+<pre><code class="lang-cs">// This behaviour would need to be attached to each object that
+// needs to will needs to start a scene transition.
+public class Loader : MonoBehaviour
+{
+    [SerializeField] 
+    private string _activeSceneName;
+    [SerializeField] 
+    private List&lt;string&gt; _additiveScenes = new List&lt;string&gt;();
+
+    // This will load the scenes asynchronously.
+    public void LoadLevel()
+    {
+        SceneManager.LoadSceneAsync(_activeSceneName)
+            .completed += LevelLoader__completed;
+
+        OnLoadComplete?.Invoke();
+    }
+
+    private static void LevelLoader__completed(AsyncOperation operation)
+    {
+        foreach (string scene in _additiveScenes)
+            SceneManager.LoadSceneAsync(scene, LoadSceneMode.Additive);
+    }
+}
+</code></pre><p>Maintaining these string references on multiple objects is cumbersome and error prone.  The level system avoids this by isolating all of the logic from the scene references.  A prefab with the level system attached can be found under Resources/Prefabs.</p>
+<p><img src="../resources/levelsystemprefab.png"></p>
+<p>This object will be moved to DontDestroyOnLoad on awake.</p>
+<hr>
+<h2 id="usage">Usage</h2>
+<h3 id="component-setup">Component Setup</h3>
+<p><img src="../resources/level-system-example.png"></p>
+<p>The level system component should be placed on a game object that can be moved to DontDestroyOnLoad.  The optional root level data will be loaded if required, then each level load signal will be assigned the receiver <code>StartCoroutine(LevelLoader.LoadLevelDataAsync(levelData))</code>.  As a result, level signals SHOULD NOT be emitted in awake or start to avoid race conditions.</p>
+<p>When the level system finishes loading a level it will emit the signal assigned to Load Complete Signal.</p>
+<h3 id="loading-levels">Loading Levels</h3>
+<p>In this system level consist of an active scene and a set of optional additive scenes.  These are stored as a level data struct on a level load signal.  When adding new levels to your game, you must first create a new level load signal in the resources folder as pictured below.</p>
+<p><img src="../resources/level-load-signal.png"></p>
+<p>Once the signal has bee created scenes can be assigned in the inspector.</p>
+<p><img src="../resources/level-load-signal-level-data.png"></p>
+<p>To load a level, simply emit its signal.</p>
+<p><img src="../resources/load-button.png"></p>
 </article>
           </div>
           
@@ -123,6 +127,9 @@ component.</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Tiranice/TirUtilities/blob/main/Documentation/manual/level-system.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
