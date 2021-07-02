@@ -27,7 +27,7 @@ items:
   source:
     id: EventExtension
     path: ''
-    startLine: 898
+    startLine: 42283
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -60,7 +60,7 @@ items:
   source:
     id: SafeInvoke
     path: ''
-    startLine: 907
+    startLine: 42292
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -101,7 +101,7 @@ items:
   source:
     id: IsNull
     path: ''
-    startLine: 920
+    startLine: 42305
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -142,7 +142,7 @@ items:
   source:
     id: NotNull
     path: ''
-    startLine: 927
+    startLine: 42312
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -183,7 +183,7 @@ items:
   source:
     id: SafeInvoke
     path: ''
-    startLine: 939
+    startLine: 42324
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -232,7 +232,7 @@ items:
   source:
     id: IsNull
     path: ''
-    startLine: 952
+    startLine: 42337
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -278,7 +278,7 @@ items:
   source:
     id: NotNull
     path: ''
-    startLine: 959
+    startLine: 42344
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -324,7 +324,7 @@ items:
   source:
     id: SafeInvoke
     path: ''
-    startLine: 970
+    startLine: 42355
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -365,7 +365,7 @@ items:
   source:
     id: IsNull
     path: ''
-    startLine: 983
+    startLine: 42368
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -405,7 +405,7 @@ items:
   source:
     id: NotNull
     path: ''
-    startLine: 990
+    startLine: 42375
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -445,7 +445,7 @@ items:
   source:
     id: SafeInvoke
     path: ''
-    startLine: 1003
+    startLine: 42388
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -495,7 +495,7 @@ items:
   source:
     id: IsNull
     path: ''
-    startLine: 1016
+    startLine: 42401
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -540,7 +540,7 @@ items:
   source:
     id: NotNull
     path: ''
-    startLine: 1023
+    startLine: 42408
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions

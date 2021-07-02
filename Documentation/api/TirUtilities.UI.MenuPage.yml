@@ -18,7 +18,7 @@ items:
   source:
     id: MenuPage
     path: ''
-    startLine: 3995
+    startLine: 45380
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -51,7 +51,7 @@ items:
   source:
     id: ShowPanel
     path: ''
-    startLine: 4014
+    startLine: 45399
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -79,7 +79,7 @@ items:
   source:
     id: HidePanel
     path: ''
-    startLine: 4018
+    startLine: 45403
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -107,7 +107,7 @@ items:
   source:
     id: State
     path: ''
-    startLine: 4026
+    startLine: 45411
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI

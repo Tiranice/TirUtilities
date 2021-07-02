@@ -16,7 +16,7 @@ items:
   source:
     id: RigidbodyExtensions
     path: ''
-    startLine: 1126
+    startLine: 42511
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -49,7 +49,7 @@ items:
   source:
     id: CancelAllVelocity
     path: ''
-    startLine: 1130
+    startLine: 42515
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions

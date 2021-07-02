@@ -15,7 +15,7 @@ items:
   source:
     id: DrawBoxGizmo
     path: ''
-    startLine: 2157
+    startLine: 43542
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.CustomGizmos

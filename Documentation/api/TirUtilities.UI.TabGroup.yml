@@ -21,7 +21,7 @@ items:
   source:
     id: TabGroup
     path: ''
-    startLine: 4542
+    startLine: 45927
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -54,7 +54,7 @@ items:
   source:
     id: tabButtons
     path: ''
-    startLine: 4547
+    startLine: 45932
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -81,7 +81,7 @@ items:
   source:
     id: Subscribe
     path: ''
-    startLine: 4616
+    startLine: 46001
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -113,7 +113,7 @@ items:
   source:
     id: OnTabEnter
     path: ''
-    startLine: 4627
+    startLine: 46012
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -145,7 +145,7 @@ items:
   source:
     id: OnTabExit
     path: ''
-    startLine: 4636
+    startLine: 46021
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -173,7 +173,7 @@ items:
   source:
     id: OnTabSelected
     path: ''
-    startLine: 4642
+    startLine: 46027
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -205,7 +205,7 @@ items:
   source:
     id: ResetTabs
     path: ''
-    startLine: 4656
+    startLine: 46041
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI

@@ -15,7 +15,7 @@ items:
   source:
     id: LoadingScreen
     path: ''
-    startLine: 2806
+    startLine: 44191
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI

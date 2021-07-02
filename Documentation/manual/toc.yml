@@ -1,5 +1,9 @@
 - name: TirUtilities Manual
   href: manual.md
-- name: Attributes
-  href: Attributes/toc.yml
-#   topicHref: Attributes/overview.md
+- name: Signals
+  href: signals.md
+- name: Level System
+  href: level-system.md
+  items:
+  - name: Level Data
+    href: level-data.md

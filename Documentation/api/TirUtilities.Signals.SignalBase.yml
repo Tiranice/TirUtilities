@@ -17,7 +17,7 @@ items:
   source:
     id: SignalBase
     path: ''
-    startLine: 3317
+    startLine: 44702
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -59,7 +59,7 @@ items:
   source:
     id: _description
     path: ''
-    startLine: 3325
+    startLine: 44710
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -88,7 +88,7 @@ items:
   source:
     id: Description
     path: ''
-    startLine: 3330
+    startLine: 44715
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals

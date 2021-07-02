@@ -16,7 +16,7 @@ items:
   source:
     id: UIMessageBox
     path: ''
-    startLine: 4265
+    startLine: 45650
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -49,7 +49,7 @@ items:
   source:
     id: OnDissmissed
     path: ''
-    startLine: 4283
+    startLine: 45668
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
