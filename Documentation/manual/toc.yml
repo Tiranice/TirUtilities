@@ -1,5 +1,9 @@
 - name: TirUtilities Manual
   href: manual.md
+- name: Changelog
+  href: CHANGELOG.md
+- name: Roadmap
+  href: ROADMAP.md
 - name: Signals
   href: signals.md
 - name: Level System

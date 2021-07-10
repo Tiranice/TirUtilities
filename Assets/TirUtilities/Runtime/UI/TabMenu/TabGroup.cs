@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace TirUtilities.UI
@@ -10,7 +11,7 @@ namespace TirUtilities.UI
     /// 
     /// Author :  Devon Wilson  
     /// Created:  Oct. 08, 2020
-    /// Updated:  Feb. 22, 2021
+    /// Updated:  July 03, 2021
     /// -->
     /// <summary>
     /// Derived from code written by Matt Gambell https://youtu.be/211t6r12XPQ
@@ -19,29 +20,43 @@ namespace TirUtilities.UI
     /// </summary>
     public class TabGroup : MonoBehaviour
     {
-        #region FIELDS
+        #region Inspector Fields
 
-        [Header("All tabs associated with the group.")]
-        public List<TabButton> tabButtons;
-        [Tooltip("Tab unselected.")]
-        [SerializeField] private Sprite _tabIdle;
-        [Tooltip("Tab clicked.")]
-        [SerializeField] private Sprite _tabSelected;
-        [Tooltip("Defaluts to #c8c8c8")]
-        [SerializeField] private Color _hoverColor = new Color(_shadeColor, _shadeColor, _shadeColor);
+        [Header("Button Settings")]
+        [SerializeField, Tooltip("The panel where all of the buttons live.")]
+        private GameObject _tabButtonPanel;
 
-        private TabButton _selectedTab;
-        private static readonly float _shadeColor = 200.0f / 255.0f;
+        [DisplayOnly, SerializeField, Tooltip("All tabs associated with this group.")] 
+        private List<TabButton> _tabButtons;
+        [Tooltip("Tab unselected."), SerializeField] 
+        private Sprite _tabIdle;
+        [Tooltip("Tab clicked."), SerializeField] 
+        private Sprite _tabSelected;
+        [Tooltip("Defaults to #c8c8c8"), SerializeField] 
+        private Color _hoverColor = new Color(_ShadeColor, _ShadeColor, _ShadeColor);
 
         #endregion
 
-        #region UNITY_MESSAGES
+        #region Private Fields
+
+        private TabButton _selectedTab;
+        private static readonly float _ShadeColor = 200.0f / 255.0f;
+
+        #endregion
+
+        #region Unity Messages
 
         private void Update() => TabNavigation();
 
+        private void OnValidate()
+        {
+            _tabButtons = _tabButtonPanel.GetComponentsInChildren<TabButton>().ToList();
+            _tabButtons.Sort(CompareIndex);
+        }
+
         #endregion
 
-        #region PRIVATE_METHODS
+        #region Private Methods
 
         /// <summary>
         /// Used to sort tabs in tabButtons list.
@@ -58,8 +73,7 @@ namespace TirUtilities.UI
             if (tabAIndex == 0)
             {
                 // tabA and tabB are the same object.
-                if (tabBIndex == 0) return 0;
-                else return -1;
+                return tabBIndex == 0 ? 0 : -1;
             }
             // tabB is the top
             else if (tabBIndex == 0) return 1;
@@ -75,27 +89,28 @@ namespace TirUtilities.UI
         /// </remarks>
         private void TabNavigation()
         {
+            // TODO: Link to the input system instead.
             if (Input.GetKeyDown(KeyCode.Tab) && _selectedTab != null)
             {
                 int index = _selectedTab.transform.GetSiblingIndex();
-                TabButton button = (index < tabButtons.Count - 1) ? tabButtons[index + 1] : tabButtons[0];
+                TabButton button = (index < _tabButtons.Count - 1) ? _tabButtons[index + 1] : _tabButtons[0];
                 OnTabSelected(button);
             }
         }
 
         #endregion
 
-        #region PUBLIC_METHODS
+        #region Public Methods
 
         /// <summary>
-        /// Adds a button the the list of buttons managed by the tab group.
+        /// Adds a button the list of buttons managed by the tab group.
         /// </summary>
         /// <param name="button"></param>
         public void Subscribe(TabButton button)
         {
-            if (tabButtons == null) tabButtons = new List<TabButton>();
-            tabButtons?.Add(button);
-            tabButtons.Sort(CompareIndex);
+            if (_tabButtons == null) _tabButtons = new List<TabButton>();
+            _tabButtons?.Add(button);
+            _tabButtons.Sort(CompareIndex);
         }
 
         /// <summary>
@@ -133,7 +148,7 @@ namespace TirUtilities.UI
         /// </summary>
         public void ResetTabs()
         {
-            foreach (var button in tabButtons)
+            foreach (var button in _tabButtons)
             {
                 if (_selectedTab != null && button.Equals(_selectedTab)) continue;
                 button.Background.sprite = _tabIdle;

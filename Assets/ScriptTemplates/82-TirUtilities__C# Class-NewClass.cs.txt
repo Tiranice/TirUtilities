@@ -28,6 +28,7 @@ public class #SCRIPTNAME#
     #region Events
     #NOTRIM#
     #endregion
+    #NOTRIM#
     #region Constructor
     #NOTRIM#
     #endregion

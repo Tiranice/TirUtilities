@@ -14,7 +14,7 @@ namespace TirUtilities.Editor
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 15, 2021
-    /// Updated:  June 19, 2021
+    /// Updated:  July 09, 2021
     /// -->
     /// <summary>
     /// Draws the inspector for <see cref="FlexibleGridLayoutGroup"/>.
@@ -42,13 +42,13 @@ namespace TirUtilities.Editor
         private const string _PaddingLeft = "m_Left";
         private const string _PaddingRight = "m_Right";
         private const string _PaddingTop = "m_Top";
-        private const string RelativePropertyPath = "m_Bottom";
+        private const string _RelativePropertyPath = "m_Bottom";
 
         #endregion
 
         #region Serialized Properties
 
-        private List<SerializedProperty> _drawnProperites = new List<SerializedProperty>();
+        private readonly List<SerializedProperty> _drawnProperites = new List<SerializedProperty>();
         private SerializedProperty _fitTypeToDisplay;
 
         #endregion
@@ -78,7 +78,7 @@ namespace TirUtilities.Editor
 
             SerializedProperty propertyIterator = serializedObject.GetIterator();
 
-            ScriptProperty(propertyIterator);
+            DrawScriptProperty(propertyIterator);
 
             FitTypeProperty();
             RowColumnProperties();
@@ -98,17 +98,6 @@ namespace TirUtilities.Editor
         #endregion
 
         #region Draw Methods
-
-        /// <summary> Draw the first property in an iterator. </summary>
-        /// <param name="property"></param>
-        private static void ScriptProperty(SerializedProperty property)
-        {
-            property.NextVisible(true);
-            using (new EditorGUI.DisabledScope(_Script == property.propertyPath))
-            {
-                EditorGUILayout.PropertyField(property, true);
-            }
-        }
 
         /// <summary> Draw the fit type. </summary>
         private void FitTypeProperty()
@@ -152,6 +141,9 @@ namespace TirUtilities.Editor
                 }
                 EditorGUILayout.PropertyField(columns);
             }
+
+            serializedObject.FindProperty(_Rows).intValue = rows.intValue;
+            serializedObject.FindProperty(_Columns).intValue = columns.intValue;
 
             _drawnProperites.Add(rows);
             _drawnProperites.Add(columns);
@@ -207,9 +199,7 @@ namespace TirUtilities.Editor
             sectionHeader.normal.background = Texture2D.grayTexture;
 
             if (GUI.Button(rect, new GUIContent(_ExtraSettingsLabel), sectionHeader))
-            {
                 _foldExtraSettings = !_foldExtraSettings;
-            }
             var rightLabel = new GUIStyle(EditorStyles.label)
             {
                 alignment = TextAnchor.MiddleRight,
@@ -259,11 +249,10 @@ namespace TirUtilities.Editor
             vec.x = padding.FindPropertyRelative(_PaddingLeft).intValue;
             vec.y = padding.FindPropertyRelative(_PaddingRight).intValue;
             vec.z = padding.FindPropertyRelative(_PaddingTop).intValue;
-            vec.w = padding.FindPropertyRelative(RelativePropertyPath).intValue;
+            vec.w = padding.FindPropertyRelative(_RelativePropertyPath).intValue;
 
 
-            float widthB = width - old_LabelWidth;
-            float fieldWidth = widthB / 4;
+            float fieldWidth = (width - old_FieldWidth) / 5.75f;
             pos0.width = fieldWidth - 5;
 
             // Labels
@@ -307,9 +296,7 @@ namespace TirUtilities.Editor
             var spaceAround = serializedObject.FindProperty("_spaceAround");
             _drawnProperites.Add(spaceAround);
             if (_foldExtraSettings)
-            {
                 EditorGUILayout.PropertyField(spaceAround);
-            }
         }
 
         private void DrawRest(SerializedProperty property)

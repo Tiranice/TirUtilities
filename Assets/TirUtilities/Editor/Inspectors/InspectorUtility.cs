@@ -10,7 +10,7 @@ namespace TirUtilities.Editor
     ///        
     /// Author :  Devon Wilson
     /// Created:  June 19, 2021
-    /// Updated:  June 19, 2021
+    /// Updated:  July 03, 2021
     /// -->
     /// <summary>
     ///
@@ -59,6 +59,26 @@ namespace TirUtilities.Editor
             // Y Field
             origin.x += FontSize;
             tempVec.y = EditorGUI.FloatField(origin, GUIContent.none, tempVec.y);
+        }
+
+        internal static void DrawScriptProperty(SerializedObject serializedObject)
+        {
+            using var iterator = serializedObject.GetIterator();
+
+            iterator.NextVisible(true);
+            using (new EditorGUI.DisabledScope("m_Script" == iterator.propertyPath))
+            {
+                EditorGUILayout.PropertyField(iterator, true);
+            }
+        }
+
+        internal static void DrawScriptProperty(SerializedProperty iterator)
+        {
+            iterator.NextVisible(true);
+            using (new EditorGUI.DisabledScope("m_Script" == iterator.propertyPath))
+            {
+                EditorGUILayout.PropertyField(iterator, true);
+            }
         }
 
         #endregion

@@ -22,7 +22,7 @@ namespace TirUtilities.UI
     [RequireComponent(typeof(Image))]
     public class TabButton : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler
     {
-        #region FIELDS
+        #region Inspector Field
 
         [SerializeField] private TabGroup _tabGroup;
         public Image Background { get; private set; }

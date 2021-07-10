@@ -2,7 +2,6 @@ using UnityEngine;
 
 namespace TirUtilities
 {
-    using TirUtilities.UI;
     ///<!--
     /// StateMachine.cs
     /// 
@@ -13,7 +12,7 @@ namespace TirUtilities
     /// Updated:  June 06, 2021
     /// -->    
     /// <summary>
-    ///
+    /// Base class for all state machines.
     /// </summary>
     [AddComponentMenu("")]
     public abstract class StateMachine : MonoBehaviour { }

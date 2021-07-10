@@ -22,7 +22,10 @@ namespace TirUtilities.UI
     {
         #region Data Structures
 
+        /// <summary> The set of states and the pages they link to. </summary>
         private readonly Dictionary<MenuState, MenuPage> _transitions = new Dictionary<MenuState, MenuPage>();
+
+        /// <summary> The states that were visited before the current one. </summary>
         private readonly Stack<MenuState> _history = new Stack<MenuState>();
 
         #endregion
@@ -33,7 +36,7 @@ namespace TirUtilities.UI
         [Tooltip("The menu state for the root menu page.")]
         [SerializeField] private MenuState _rootState;
         [Space]
-        [Tooltip("All of the pages that this state machine manages.  MUST be set manually in the inspector!")]
+        [Tooltip("All of the pages that this state machine manages.")]
         [SerializeField] private List<MenuPage> _menuPages;
 
         [Header("Controls")]
@@ -45,10 +48,10 @@ namespace TirUtilities.UI
         #region Private Fields
 
         [Header("Debug Display")]
-        [DisplayOnly][SerializeField]
+        [DisplayOnly, SerializeField]
         private MenuPage _activePage;
 
-        [DisplayOnly][SerializeField]
+        [DisplayOnly, SerializeField]
         private MenuPage _previousPage;
 
         #endregion

@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
-using UnityEngine;
 
 namespace TirUtilities.Editor.Experimental
 {
@@ -10,11 +6,11 @@ namespace TirUtilities.Editor.Experimental
     ///<!--
     /// MenuStateMachineInspector.cs
     /// 
-    /// Project:  Project
+    /// Project:  TirUtilities
     ///        
-    /// Author :  Author
-    /// Created:  Jan. 01, 2021
-    /// Updated:  Jan. 01, 2021
+    /// Author :  Devon Wilson
+    /// Created:  July 05, 2021
+    /// Updated:  July 05, 2021
     /// -->
     /// <summary>
     ///
