@@ -1,4 +1,14 @@
 {
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace Global | TirUtilities",
+    "keywords": "Namespace Global Classes RebindTest"
+  },
+  "api/Global.RebindTest.html": {
+    "href": "api/Global.RebindTest.html",
+    "title": "Class RebindTest | TirUtilities",
+    "keywords": "Class RebindTest Inheritance Object RebindTest Namespace : Global Assembly : cs.temp.dll.dll Syntax public class RebindTest : MonoBehaviour Methods StartInteractiveRebind() Declaration public void StartInteractiveRebind()"
+  },
   "api/TirUtilities.Automation.AutoRotate.html": {
     "href": "api/TirUtilities.Automation.AutoRotate.html",
     "title": "Class AutoRotate | TirUtilities",
@@ -87,7 +97,7 @@
   "api/TirUtilities.DisplayOnlyAttribute.html": {
     "href": "api/TirUtilities.DisplayOnlyAttribute.html",
     "title": "Class DisplayOnlyAttribute | TirUtilities",
-    "keywords": "Class DisplayOnlyAttribute The tagged field is be displayed in the inspector, but cannot be edited. Inheritance Object DisplayOnlyAttribute Namespace : TirUtilities Assembly : cs.temp.dll.dll Syntax public class DisplayOnlyAttribute : PropertyAttribute Remarks Property drawer: TirUtilities/Editor/PropertyDrawers/DisplayOnlyDrawer.cs"
+    "keywords": "Class DisplayOnlyAttribute The decorated field is be displayed in the inspector, but cannot be edited. Inheritance Object DisplayOnlyAttribute Namespace : TirUtilities Assembly : cs.temp.dll.dll Syntax public class DisplayOnlyAttribute : PropertyAttribute Remarks Property drawer: TirUtilities/Editor/PropertyDrawers/DisplayOnlyDrawer.cs"
   },
   "api/TirUtilities.Editor.Experimental.html": {
     "href": "api/TirUtilities.Editor.Experimental.html",
@@ -137,12 +147,12 @@
   "api/TirUtilities.Experimental.ApplicationState.html": {
     "href": "api/TirUtilities.Experimental.ApplicationState.html",
     "title": "Class ApplicationState | TirUtilities",
-    "keywords": "Class ApplicationState Inheritance Object ApplicationState PausedState PlayingState QuittingState Implements IState < ApplicationStateMachine > Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public class ApplicationState : ScriptableObject, IState<ApplicationStateMachine> Fields _description The description of what this state is intended to be used for. Declaration protected string _description Field Value Type Description String Properties Description The description of what this state is intended to be used for. Declaration public string Description { get; } Property Value Type Description String PausedTimeScale Declaration protected static float PausedTimeScale { get; } Property Value Type Description Single PlayingTimeScale Declaration protected static float PlayingTimeScale { get; } Property Value Type Description Single Methods EnterState(ApplicationStateMachine) Declaration public virtual void EnterState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine ExitState(ApplicationStateMachine) Declaration public virtual void ExitState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine UpdateState(ApplicationStateMachine) Declaration public virtual void UpdateState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine Implements IState<T>"
+    "keywords": "Class ApplicationState Base class for states that belong to the ApplicationStateMachine . Inheritance Object ApplicationState MenuState PausedState PlayingState QuittingState Implements IState < ApplicationStateMachine > Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public class ApplicationState : IState<ApplicationStateMachine> Fields _description The description of what this state is intended to be used for. Declaration protected string _description Field Value Type Description String Properties Description The description of what this state is intended to be used for. Declaration public string Description { get; } Property Value Type Description String PausedTimeScale Small number 1.0e-13f. Declaration protected static float PausedTimeScale { get; } Property Value Type Description Single PlayingTimeScale One 1.0f Declaration protected static float PlayingTimeScale { get; } Property Value Type Description Single Methods EnterState(ApplicationStateMachine) Logic that should run when the state is entered. Declaration public virtual void EnterState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine ExitState(ApplicationStateMachine) Logic that should run when the state is exited. Declaration public virtual void ExitState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine UpdateState(ApplicationStateMachine) Logic that should run when the state machine needs to update data maintained by the current state. Declaration public virtual void UpdateState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine Implements IState<T>"
   },
   "api/TirUtilities.Experimental.ApplicationStateMachine.html": {
     "href": "api/TirUtilities.Experimental.ApplicationStateMachine.html",
     "title": "Class ApplicationStateMachine | TirUtilities",
-    "keywords": "Class ApplicationStateMachine Inheritance Object StateMachine ApplicationStateMachine Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public class ApplicationStateMachine : StateMachine Properties CurrentState Declaration public ApplicationState CurrentState { get; set; } Property Value Type Description ApplicationState Methods TogglePaused() Declaration public static void TogglePaused()"
+    "keywords": "Class ApplicationStateMachine Controls the current state of the application. See also: ApplicationState Inheritance Object StateMachine ApplicationStateMachine Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public class ApplicationStateMachine : StateMachine Properties CurrentState Declaration public ApplicationState CurrentState { get; set; } Property Value Type Description ApplicationState InGame Declaration public bool InGame { get; set; } Property Value Type Description Boolean Methods QuitGame() Declaration public void QuitGame() TogglePaused() Declaration public void TogglePaused()"
   },
   "api/TirUtilities.Experimental.Command.html": {
     "href": "api/TirUtilities.Experimental.Command.html",
@@ -152,22 +162,27 @@
   "api/TirUtilities.Experimental.html": {
     "href": "api/TirUtilities.Experimental.html",
     "title": "Namespace TirUtilities.Experimental | TirUtilities",
-    "keywords": "Namespace TirUtilities.Experimental Classes ApplicationState ApplicationStateMachine Command PausedState PlayingState QuittingState Singleton This is intended only as an example. DO NOT USE!!! State StateAction"
+    "keywords": "Namespace TirUtilities.Experimental Classes ApplicationState Base class for states that belong to the ApplicationStateMachine . ApplicationStateMachine Controls the current state of the application. See also: ApplicationState Command MenuState State machine enters this state when in a menu. PausedState Sets the time scale to PausedTimeScale when entered. PlayingState Sets the time scale to PausedTimeScale . QuittingState Quits the game or exits play mode in the editor. Singleton This is intended only as an example. DO NOT USE!!! State StateAction"
+  },
+  "api/TirUtilities.Experimental.MenuState.html": {
+    "href": "api/TirUtilities.Experimental.MenuState.html",
+    "title": "Class MenuState | TirUtilities",
+    "keywords": "Class MenuState State machine enters this state when in a menu. Inheritance Object ApplicationState MenuState Implements IState < ApplicationStateMachine > Inherited Members ApplicationState._description ApplicationState.Description ApplicationState.PausedTimeScale ApplicationState.PlayingTimeScale ApplicationState.ExitState(ApplicationStateMachine) ApplicationState.UpdateState(ApplicationStateMachine) Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public sealed class MenuState : ApplicationState, IState<ApplicationStateMachine> Methods EnterState(ApplicationStateMachine) Declaration public override void EnterState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine Overrides ApplicationState.EnterState(ApplicationStateMachine) Implements IState<T>"
   },
   "api/TirUtilities.Experimental.PausedState.html": {
     "href": "api/TirUtilities.Experimental.PausedState.html",
     "title": "Class PausedState | TirUtilities",
-    "keywords": "Class PausedState Inheritance Object ApplicationState PausedState Implements IState < ApplicationStateMachine > Inherited Members ApplicationState._description ApplicationState.Description ApplicationState.PausedTimeScale ApplicationState.PlayingTimeScale ApplicationState.ExitState(ApplicationStateMachine) ApplicationState.UpdateState(ApplicationStateMachine) Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public class PausedState : ApplicationState, IState<ApplicationStateMachine> Methods EnterState(ApplicationStateMachine) Declaration public override void EnterState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine Overrides ApplicationState.EnterState(ApplicationStateMachine) Implements IState<T>"
+    "keywords": "Class PausedState Sets the time scale to PausedTimeScale when entered. Inheritance Object ApplicationState PausedState Implements IState < ApplicationStateMachine > Inherited Members ApplicationState._description ApplicationState.Description ApplicationState.PausedTimeScale ApplicationState.PlayingTimeScale ApplicationState.ExitState(ApplicationStateMachine) ApplicationState.UpdateState(ApplicationStateMachine) Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public sealed class PausedState : ApplicationState, IState<ApplicationStateMachine> Methods EnterState(ApplicationStateMachine) Declaration public override void EnterState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine Overrides ApplicationState.EnterState(ApplicationStateMachine) Implements IState<T>"
   },
   "api/TirUtilities.Experimental.PlayingState.html": {
     "href": "api/TirUtilities.Experimental.PlayingState.html",
     "title": "Class PlayingState | TirUtilities",
-    "keywords": "Class PlayingState Inheritance Object ApplicationState PlayingState Implements IState < ApplicationStateMachine > Inherited Members ApplicationState._description ApplicationState.Description ApplicationState.PausedTimeScale ApplicationState.PlayingTimeScale ApplicationState.EnterState(ApplicationStateMachine) ApplicationState.ExitState(ApplicationStateMachine) ApplicationState.UpdateState(ApplicationStateMachine) Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public class PlayingState : ApplicationState, IState<ApplicationStateMachine> Implements IState<T>"
+    "keywords": "Class PlayingState Sets the time scale to PausedTimeScale . Inheritance Object ApplicationState PlayingState Implements IState < ApplicationStateMachine > Inherited Members ApplicationState._description ApplicationState.Description ApplicationState.PausedTimeScale ApplicationState.PlayingTimeScale ApplicationState.ExitState(ApplicationStateMachine) ApplicationState.UpdateState(ApplicationStateMachine) Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public sealed class PlayingState : ApplicationState, IState<ApplicationStateMachine> Methods EnterState(ApplicationStateMachine) Declaration public override void EnterState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine Overrides ApplicationState.EnterState(ApplicationStateMachine) Implements IState<T>"
   },
   "api/TirUtilities.Experimental.QuittingState.html": {
     "href": "api/TirUtilities.Experimental.QuittingState.html",
     "title": "Class QuittingState | TirUtilities",
-    "keywords": "Class QuittingState Inheritance Object ApplicationState QuittingState Implements IState < ApplicationStateMachine > Inherited Members ApplicationState._description ApplicationState.Description ApplicationState.PausedTimeScale ApplicationState.PlayingTimeScale ApplicationState.EnterState(ApplicationStateMachine) ApplicationState.ExitState(ApplicationStateMachine) ApplicationState.UpdateState(ApplicationStateMachine) Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public class QuittingState : ApplicationState, IState<ApplicationStateMachine> Implements IState<T>"
+    "keywords": "Class QuittingState Quits the game or exits play mode in the editor. Inheritance Object ApplicationState QuittingState Implements IState < ApplicationStateMachine > Inherited Members ApplicationState._description ApplicationState.Description ApplicationState.PausedTimeScale ApplicationState.PlayingTimeScale ApplicationState.ExitState(ApplicationStateMachine) ApplicationState.UpdateState(ApplicationStateMachine) Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public sealed class QuittingState : ApplicationState, IState<ApplicationStateMachine> Methods EnterState(ApplicationStateMachine) Declaration public override void EnterState(ApplicationStateMachine stateMachine) Parameters Type Name Description ApplicationStateMachine stateMachine Overrides ApplicationState.EnterState(ApplicationStateMachine) Implements IState<T>"
   },
   "api/TirUtilities.Experimental.Singleton.html": {
     "href": "api/TirUtilities.Experimental.Singleton.html",
@@ -217,7 +232,7 @@
   "api/TirUtilities.html": {
     "href": "api/TirUtilities.html",
     "title": "Namespace TirUtilities | TirUtilities",
-    "keywords": "Namespace TirUtilities Classes DisplayOnlyAttribute The tagged field is be displayed in the inspector, but cannot be edited. ScenePathAttribute Converts a string field to a UnityEditor.SceneAsset in the inspector. StateMachine TirLogger Vector3Extensions Interfaces IState<T>"
+    "keywords": "Namespace TirUtilities Classes DisplayOnlyAttribute The decorated field is be displayed in the inspector, but cannot be edited. ScenePathAttribute Converts a string field to a UnityEditor.SceneAsset in the inspector. StateMachine Base class for all state machines. TirLogger Vector3Extensions Interfaces IState<T>"
   },
   "api/TirUtilities.IState-1.html": {
     "href": "api/TirUtilities.IState-1.html",
@@ -327,7 +342,7 @@
   "api/TirUtilities.StateMachine.html": {
     "href": "api/TirUtilities.StateMachine.html",
     "title": "Class StateMachine | TirUtilities",
-    "keywords": "Class StateMachine Inheritance Object StateMachine ApplicationStateMachine MenuStateMachine Namespace : TirUtilities Assembly : cs.temp.dll.dll Syntax public abstract class StateMachine : MonoBehaviour"
+    "keywords": "Class StateMachine Base class for all state machines. Inheritance Object StateMachine ApplicationStateMachine MenuStateMachine Namespace : TirUtilities Assembly : cs.temp.dll.dll Syntax public abstract class StateMachine : MonoBehaviour"
   },
   "api/TirUtilities.TirLogger.html": {
     "href": "api/TirUtilities.TirLogger.html",
@@ -343,6 +358,16 @@
     "href": "api/TirUtilities.UI.Buttons.html",
     "title": "Namespace TirUtilities.UI.Buttons | TirUtilities",
     "keywords": "Namespace TirUtilities.UI.Buttons Classes ButtonHotKey Invokes the OnClick event on a button."
+  },
+  "api/TirUtilities.UI.Experimental.html": {
+    "href": "api/TirUtilities.UI.Experimental.html",
+    "title": "Namespace TirUtilities.UI.Experimental | TirUtilities",
+    "keywords": "Namespace TirUtilities.UI.Experimental Classes TabMenu"
+  },
+  "api/TirUtilities.UI.Experimental.TabMenu.html": {
+    "href": "api/TirUtilities.UI.Experimental.TabMenu.html",
+    "title": "Class TabMenu | TirUtilities",
+    "keywords": "Class TabMenu Inheritance Object TabMenu Namespace : TirUtilities.UI.Experimental Assembly : cs.temp.dll.dll Syntax public class TabMenu : MonoBehaviour"
   },
   "api/TirUtilities.UI.html": {
     "href": "api/TirUtilities.UI.html",
@@ -397,7 +422,7 @@
   "api/TirUtilities.UI.TabGroup.html": {
     "href": "api/TirUtilities.UI.TabGroup.html",
     "title": "Class TabGroup | TirUtilities",
-    "keywords": "Class TabGroup Derived from code written by Matt Gambell https://youtu.be/211t6r12XPQ Maintains all tabs in child objects. Inheritance Object TabGroup Namespace : TirUtilities.UI Assembly : cs.temp.dll.dll Syntax public class TabGroup : MonoBehaviour Fields tabButtons Declaration public List<TabButton> tabButtons Field Value Type Description List < TabButton > Methods OnTabEnter(TabButton) Call when the mouse hovers over a tab. Declaration public void OnTabEnter(TabButton button) Parameters Type Name Description TabButton button OnTabExit() Call when a tab is deselected or the mouse leaves the tab. Declaration public void OnTabExit() OnTabSelected(TabButton) Call when a tab is selected. Declaration public void OnTabSelected(TabButton button) Parameters Type Name Description TabButton button ResetTabs() Call to reset all tabs to their default state. Declaration public void ResetTabs() Subscribe(TabButton) Adds a button the the list of buttons managed by the tab group. Declaration public void Subscribe(TabButton button) Parameters Type Name Description TabButton button"
+    "keywords": "Class TabGroup Derived from code written by Matt Gambell https://youtu.be/211t6r12XPQ Maintains all tabs in child objects. Inheritance Object TabGroup Namespace : TirUtilities.UI Assembly : cs.temp.dll.dll Syntax public class TabGroup : MonoBehaviour Methods OnTabEnter(TabButton) Call when the mouse hovers over a tab. Declaration public void OnTabEnter(TabButton button) Parameters Type Name Description TabButton button OnTabExit() Call when a tab is deselected or the mouse leaves the tab. Declaration public void OnTabExit() OnTabSelected(TabButton) Call when a tab is selected. Declaration public void OnTabSelected(TabButton button) Parameters Type Name Description TabButton button ResetTabs() Call to reset all tabs to their default state. Declaration public void ResetTabs() Subscribe(TabButton) Adds a button the list of buttons managed by the tab group. Declaration public void Subscribe(TabButton button) Parameters Type Name Description TabButton button"
   },
   "api/TirUtilities.UI.UIBillboard.html": {
     "href": "api/TirUtilities.UI.UIBillboard.html",
@@ -424,6 +449,11 @@
     "title": "TirUtilities | TirUtilities",
     "keywords": "TirUtilities Description This is a set of utilities that I use in all of my projects. Usage Open the Unity package found under releases. You may have to go to the assembly definition TirUtilities.Editor and exclude all platforms except the editor. Unity tends to lose the settings for assembly definitions when exporting a package for some reason."
   },
+  "manual/CHANGELOG.html": {
+    "href": "manual/CHANGELOG.html",
+    "title": "Changelog | TirUtilities",
+    "keywords": "Changelog All notable changes to this project will be documented in this file. The format is based on Keep a Changelog , and this project adheres to Semantic Versioning . Added: New features. Changed: Changes in existing functionality. Deprecated: Once-stable features removed in upcoming releases. Removed: Deprecated features removed in this release. Fixed: Any bug fixes. Security: Invite users to upgrade in case of vulnerabilities. [Unreleased] [0.0.0-alpha.5] — Next release"
+  },
   "manual/level-data.html": {
     "href": "manual/level-data.html",
     "title": "| TirUtilities",
@@ -438,6 +468,11 @@
     "href": "manual/manual.html",
     "title": "TirUtilities Manual | TirUtilities",
     "keywords": "TirUtilities Manual This is a set of generally useful scripts and assets that I use in most projects."
+  },
+  "manual/ROADMAP.html": {
+    "href": "manual/ROADMAP.html",
+    "title": "Roadmap | TirUtilities",
+    "keywords": "Roadmap Last Updated: 07-08-2021 Key ⚪ Planned 🔵 Research 🟢 Active Work Features 🔵 Save System A system to create save files using Odin Serializer. 🟢 Application State Machine This will control the game's play/pause state as well as keeping track of what should happen when the is in a menu vs. when it is in the normal game."
   },
   "manual/signals.html": {
     "href": "manual/signals.html",

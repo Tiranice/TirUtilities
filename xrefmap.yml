@@ -1,6 +1,33 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Global
+  name: Global
+  href: api/Global.html
+  name.vb: ''
+  fullName: Global
+  fullName.vb: ''
+  nameWithType: Global
+  nameWithType.vb: ''
+- uid: Global.RebindTest
+  name: RebindTest
+  href: api/Global.RebindTest.html
+  commentId: T:Global.RebindTest
+  fullName: RebindTest
+  nameWithType: RebindTest
+- uid: Global.RebindTest.StartInteractiveRebind
+  name: StartInteractiveRebind()
+  href: api/Global.RebindTest.html#Global_RebindTest_StartInteractiveRebind
+  commentId: M:Global.RebindTest.StartInteractiveRebind
+  fullName: RebindTest.StartInteractiveRebind()
+  nameWithType: RebindTest.StartInteractiveRebind()
+- uid: Global.RebindTest.StartInteractiveRebind*
+  name: StartInteractiveRebind
+  href: api/Global.RebindTest.html#Global_RebindTest_StartInteractiveRebind_
+  commentId: Overload:Global.RebindTest.StartInteractiveRebind
+  isSpec: "True"
+  fullName: RebindTest.StartInteractiveRebind
+  nameWithType: RebindTest.StartInteractiveRebind
 - uid: TirUtilities
   name: TirUtilities
   href: api/TirUtilities.html
@@ -636,6 +663,32 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Experimental.ApplicationStateMachine.CurrentState
   nameWithType: ApplicationStateMachine.CurrentState
+- uid: TirUtilities.Experimental.ApplicationStateMachine.InGame
+  name: InGame
+  href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_InGame
+  commentId: P:TirUtilities.Experimental.ApplicationStateMachine.InGame
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.InGame
+  nameWithType: ApplicationStateMachine.InGame
+- uid: TirUtilities.Experimental.ApplicationStateMachine.InGame*
+  name: InGame
+  href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_InGame_
+  commentId: Overload:TirUtilities.Experimental.ApplicationStateMachine.InGame
+  isSpec: "True"
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.InGame
+  nameWithType: ApplicationStateMachine.InGame
+- uid: TirUtilities.Experimental.ApplicationStateMachine.QuitGame
+  name: QuitGame()
+  href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_QuitGame
+  commentId: M:TirUtilities.Experimental.ApplicationStateMachine.QuitGame
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.QuitGame()
+  nameWithType: ApplicationStateMachine.QuitGame()
+- uid: TirUtilities.Experimental.ApplicationStateMachine.QuitGame*
+  name: QuitGame
+  href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_QuitGame_
+  commentId: Overload:TirUtilities.Experimental.ApplicationStateMachine.QuitGame
+  isSpec: "True"
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.QuitGame
+  nameWithType: ApplicationStateMachine.QuitGame
 - uid: TirUtilities.Experimental.ApplicationStateMachine.TogglePaused
   name: TogglePaused()
   href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_TogglePaused
@@ -681,6 +734,25 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Experimental.Command.Undo
   nameWithType: Command.Undo
+- uid: TirUtilities.Experimental.MenuState
+  name: MenuState
+  href: api/TirUtilities.Experimental.MenuState.html
+  commentId: T:TirUtilities.Experimental.MenuState
+  fullName: TirUtilities.Experimental.MenuState
+  nameWithType: MenuState
+- uid: TirUtilities.Experimental.MenuState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  name: EnterState(ApplicationStateMachine)
+  href: api/TirUtilities.Experimental.MenuState.html#TirUtilities_Experimental_MenuState_EnterState_TirUtilities_Experimental_ApplicationStateMachine_
+  commentId: M:TirUtilities.Experimental.MenuState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  fullName: TirUtilities.Experimental.MenuState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  nameWithType: MenuState.EnterState(ApplicationStateMachine)
+- uid: TirUtilities.Experimental.MenuState.EnterState*
+  name: EnterState
+  href: api/TirUtilities.Experimental.MenuState.html#TirUtilities_Experimental_MenuState_EnterState_
+  commentId: Overload:TirUtilities.Experimental.MenuState.EnterState
+  isSpec: "True"
+  fullName: TirUtilities.Experimental.MenuState.EnterState
+  nameWithType: MenuState.EnterState
 - uid: TirUtilities.Experimental.PausedState
   name: PausedState
   href: api/TirUtilities.Experimental.PausedState.html
@@ -706,12 +778,38 @@ references:
   commentId: T:TirUtilities.Experimental.PlayingState
   fullName: TirUtilities.Experimental.PlayingState
   nameWithType: PlayingState
+- uid: TirUtilities.Experimental.PlayingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  name: EnterState(ApplicationStateMachine)
+  href: api/TirUtilities.Experimental.PlayingState.html#TirUtilities_Experimental_PlayingState_EnterState_TirUtilities_Experimental_ApplicationStateMachine_
+  commentId: M:TirUtilities.Experimental.PlayingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  fullName: TirUtilities.Experimental.PlayingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  nameWithType: PlayingState.EnterState(ApplicationStateMachine)
+- uid: TirUtilities.Experimental.PlayingState.EnterState*
+  name: EnterState
+  href: api/TirUtilities.Experimental.PlayingState.html#TirUtilities_Experimental_PlayingState_EnterState_
+  commentId: Overload:TirUtilities.Experimental.PlayingState.EnterState
+  isSpec: "True"
+  fullName: TirUtilities.Experimental.PlayingState.EnterState
+  nameWithType: PlayingState.EnterState
 - uid: TirUtilities.Experimental.QuittingState
   name: QuittingState
   href: api/TirUtilities.Experimental.QuittingState.html
   commentId: T:TirUtilities.Experimental.QuittingState
   fullName: TirUtilities.Experimental.QuittingState
   nameWithType: QuittingState
+- uid: TirUtilities.Experimental.QuittingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  name: EnterState(ApplicationStateMachine)
+  href: api/TirUtilities.Experimental.QuittingState.html#TirUtilities_Experimental_QuittingState_EnterState_TirUtilities_Experimental_ApplicationStateMachine_
+  commentId: M:TirUtilities.Experimental.QuittingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  fullName: TirUtilities.Experimental.QuittingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  nameWithType: QuittingState.EnterState(ApplicationStateMachine)
+- uid: TirUtilities.Experimental.QuittingState.EnterState*
+  name: EnterState
+  href: api/TirUtilities.Experimental.QuittingState.html#TirUtilities_Experimental_QuittingState_EnterState_
+  commentId: Overload:TirUtilities.Experimental.QuittingState.EnterState
+  isSpec: "True"
+  fullName: TirUtilities.Experimental.QuittingState.EnterState
+  nameWithType: QuittingState.EnterState
 - uid: TirUtilities.Experimental.Singleton
   name: Singleton
   href: api/TirUtilities.Experimental.Singleton.html
@@ -1827,6 +1925,18 @@ references:
   commentId: T:TirUtilities.UI.Buttons.ButtonHotKey
   fullName: TirUtilities.UI.Buttons.ButtonHotKey
   nameWithType: ButtonHotKey
+- uid: TirUtilities.UI.Experimental
+  name: TirUtilities.UI.Experimental
+  href: api/TirUtilities.UI.Experimental.html
+  commentId: N:TirUtilities.UI.Experimental
+  fullName: TirUtilities.UI.Experimental
+  nameWithType: TirUtilities.UI.Experimental
+- uid: TirUtilities.UI.Experimental.TabMenu
+  name: TabMenu
+  href: api/TirUtilities.UI.Experimental.TabMenu.html
+  commentId: T:TirUtilities.UI.Experimental.TabMenu
+  fullName: TirUtilities.UI.Experimental.TabMenu
+  nameWithType: TabMenu
 - uid: TirUtilities.UI.Layout
   name: TirUtilities.UI.Layout
   href: api/TirUtilities.UI.Layout.html
@@ -2325,12 +2435,6 @@ references:
   isSpec: "True"
   fullName: TirUtilities.UI.TabGroup.Subscribe
   nameWithType: TabGroup.Subscribe
-- uid: TirUtilities.UI.TabGroup.tabButtons
-  name: tabButtons
-  href: api/TirUtilities.UI.TabGroup.html#TirUtilities_UI_TabGroup_tabButtons
-  commentId: F:TirUtilities.UI.TabGroup.tabButtons
-  fullName: TirUtilities.UI.TabGroup.tabButtons
-  nameWithType: TabGroup.tabButtons
 - uid: TirUtilities.UI.UIBillboard
   name: UIBillboard
   href: api/TirUtilities.UI.UIBillboard.html

@@ -83,12 +83,14 @@
   
   <h1 id="TirUtilities_Experimental_ApplicationState" data-uid="TirUtilities.Experimental.ApplicationState" class="text-break">Class ApplicationState
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Base class for states that belong to the <a class="xref" href="TirUtilities.Experimental.ApplicationStateMachine.html">ApplicationStateMachine</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">ApplicationState</span></div>
+      <div class="level2"><a class="xref" href="TirUtilities.Experimental.MenuState.html">MenuState</a></div>
       <div class="level2"><a class="xref" href="TirUtilities.Experimental.PausedState.html">PausedState</a></div>
       <div class="level2"><a class="xref" href="TirUtilities.Experimental.PlayingState.html">PlayingState</a></div>
       <div class="level2"><a class="xref" href="TirUtilities.Experimental.QuittingState.html">QuittingState</a></div>
@@ -101,7 +103,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="TirUtilities_Experimental_ApplicationState_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ApplicationState : ScriptableObject, IState&lt;ApplicationStateMachine&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class ApplicationState : IState&lt;ApplicationStateMachine&gt;</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -162,7 +164,8 @@
   
   <a id="TirUtilities_Experimental_ApplicationState_PausedTimeScale_" data-uid="TirUtilities.Experimental.ApplicationState.PausedTimeScale*"></a>
   <h4 id="TirUtilities_Experimental_ApplicationState_PausedTimeScale" data-uid="TirUtilities.Experimental.ApplicationState.PausedTimeScale">PausedTimeScale</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Small number 1.0e-13f. </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -187,7 +190,8 @@
   
   <a id="TirUtilities_Experimental_ApplicationState_PlayingTimeScale_" data-uid="TirUtilities.Experimental.ApplicationState.PlayingTimeScale*"></a>
   <h4 id="TirUtilities_Experimental_ApplicationState_PlayingTimeScale" data-uid="TirUtilities.Experimental.ApplicationState.PlayingTimeScale">PlayingTimeScale</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>One 1.0f </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -214,7 +218,8 @@
   
   <a id="TirUtilities_Experimental_ApplicationState_EnterState_" data-uid="TirUtilities.Experimental.ApplicationState.EnterState*"></a>
   <h4 id="TirUtilities_Experimental_ApplicationState_EnterState_TirUtilities_Experimental_ApplicationStateMachine_" data-uid="TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)">EnterState(ApplicationStateMachine)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logic that should run when the state is entered.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -241,7 +246,8 @@
   
   <a id="TirUtilities_Experimental_ApplicationState_ExitState_" data-uid="TirUtilities.Experimental.ApplicationState.ExitState*"></a>
   <h4 id="TirUtilities_Experimental_ApplicationState_ExitState_TirUtilities_Experimental_ApplicationStateMachine_" data-uid="TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)">ExitState(ApplicationStateMachine)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logic that should run when the state is exited.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -268,7 +274,9 @@
   
   <a id="TirUtilities_Experimental_ApplicationState_UpdateState_" data-uid="TirUtilities.Experimental.ApplicationState.UpdateState*"></a>
   <h4 id="TirUtilities_Experimental_ApplicationState_UpdateState_TirUtilities_Experimental_ApplicationStateMachine_" data-uid="TirUtilities.Experimental.ApplicationState.UpdateState(TirUtilities.Experimental.ApplicationStateMachine)">UpdateState(ApplicationStateMachine)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logic that should run when the state machine needs to update data maintained by the
+current state.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

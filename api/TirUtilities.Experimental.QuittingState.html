@@ -83,7 +83,8 @@
   
   <h1 id="TirUtilities_Experimental_QuittingState" data-uid="TirUtilities.Experimental.QuittingState" class="text-break">Class QuittingState
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Quits the game or exits play mode in the editor.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -110,9 +111,6 @@
       <a class="xref" href="TirUtilities.Experimental.ApplicationState.html#TirUtilities_Experimental_ApplicationState_PlayingTimeScale">ApplicationState.PlayingTimeScale</a>
     </div>
     <div>
-      <a class="xref" href="TirUtilities.Experimental.ApplicationState.html#TirUtilities_Experimental_ApplicationState_EnterState_TirUtilities_Experimental_ApplicationStateMachine_">ApplicationState.EnterState(ApplicationStateMachine)</a>
-    </div>
-    <div>
       <a class="xref" href="TirUtilities.Experimental.ApplicationState.html#TirUtilities_Experimental_ApplicationState_ExitState_TirUtilities_Experimental_ApplicationStateMachine_">ApplicationState.ExitState(ApplicationStateMachine)</a>
     </div>
     <div>
@@ -123,8 +121,39 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="TirUtilities_Experimental_QuittingState_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class QuittingState : ApplicationState, IState&lt;ApplicationStateMachine&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class QuittingState : ApplicationState, IState&lt;ApplicationStateMachine&gt;</code></pre>
   </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TirUtilities_Experimental_QuittingState_EnterState_" data-uid="TirUtilities.Experimental.QuittingState.EnterState*"></a>
+  <h4 id="TirUtilities_Experimental_QuittingState_EnterState_TirUtilities_Experimental_ApplicationStateMachine_" data-uid="TirUtilities.Experimental.QuittingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)">EnterState(ApplicationStateMachine)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void EnterState(ApplicationStateMachine stateMachine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TirUtilities.Experimental.ApplicationStateMachine.html">ApplicationStateMachine</a></td>
+        <td><span class="parametername">stateMachine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TirUtilities.Experimental.ApplicationState.html#TirUtilities_Experimental_ApplicationState_EnterState_TirUtilities_Experimental_ApplicationStateMachine_">ApplicationState.EnterState(ApplicationStateMachine)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="TirUtilities.IState-1.html">IState&lt;T&gt;</a>
