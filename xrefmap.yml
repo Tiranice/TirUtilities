@@ -165,15 +165,15 @@ references:
   commentId: M:TirUtilities.Controllers.MouseUtility.MouseRaycast2D
   fullName: TirUtilities.Controllers.MouseUtility.MouseRaycast2D()
   nameWithType: MouseUtility.MouseRaycast2D()
-- uid: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@)
-  name: MouseRaycast2D(out RaycastHit2D)
-  href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_MouseRaycast2D_RaycastHit2D__
-  commentId: M:TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@)
-  name.vb: MouseRaycast2D(ByRef RaycastHit2D)
-  fullName: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(out RaycastHit2D)
-  fullName.vb: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(ByRef RaycastHit2D)
-  nameWithType: MouseUtility.MouseRaycast2D(out RaycastHit2D)
-  nameWithType.vb: MouseUtility.MouseRaycast2D(ByRef RaycastHit2D)
+- uid: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@,LayerMask,System.Single)
+  name: MouseRaycast2D(out RaycastHit2D, LayerMask, Single)
+  href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_MouseRaycast2D_RaycastHit2D__LayerMask_System_Single_
+  commentId: M:TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@,LayerMask,System.Single)
+  name.vb: MouseRaycast2D(ByRef RaycastHit2D, LayerMask, Single)
+  fullName: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(out RaycastHit2D, LayerMask, System.Single)
+  fullName.vb: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(ByRef RaycastHit2D, LayerMask, System.Single)
+  nameWithType: MouseUtility.MouseRaycast2D(out RaycastHit2D, LayerMask, Single)
+  nameWithType.vb: MouseUtility.MouseRaycast2D(ByRef RaycastHit2D, LayerMask, Single)
 - uid: TirUtilities.Controllers.MouseUtility.MouseRaycast2D*
   name: MouseRaycast2D
   href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_MouseRaycast2D_
@@ -194,15 +194,15 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Controllers.MouseUtility.RightMouseButtonDown
   nameWithType: MouseUtility.RightMouseButtonDown
-- uid: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@)
-  name: TryGetGameObjectOnClick2D(out GameObject)
-  href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_TryGetGameObjectOnClick2D_GameObject__
-  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@)
-  name.vb: TryGetGameObjectOnClick2D(ByRef GameObject)
-  fullName: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(out GameObject)
-  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(ByRef GameObject)
-  nameWithType: MouseUtility.TryGetGameObjectOnClick2D(out GameObject)
-  nameWithType.vb: MouseUtility.TryGetGameObjectOnClick2D(ByRef GameObject)
+- uid: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@,LayerMask)
+  name: TryGetGameObjectOnClick2D(out GameObject, LayerMask)
+  href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_TryGetGameObjectOnClick2D_GameObject__LayerMask_
+  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@,LayerMask)
+  name.vb: TryGetGameObjectOnClick2D(ByRef GameObject, LayerMask)
+  fullName: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(out GameObject, LayerMask)
+  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(ByRef GameObject, LayerMask)
+  nameWithType: MouseUtility.TryGetGameObjectOnClick2D(out GameObject, LayerMask)
+  nameWithType.vb: MouseUtility.TryGetGameObjectOnClick2D(ByRef GameObject, LayerMask)
 - uid: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D*
   name: TryGetGameObjectOnClick2D
   href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_TryGetGameObjectOnClick2D_
@@ -210,15 +210,15 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D
   nameWithType: MouseUtility.TryGetGameObjectOnClick2D
-- uid: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@)
-  name: TryGetHoveredCollider2D(out Collider2D)
-  href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_TryGetHoveredCollider2D_Collider2D__
-  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@)
-  name.vb: TryGetHoveredCollider2D(ByRef Collider2D)
-  fullName: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(out Collider2D)
-  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(ByRef Collider2D)
-  nameWithType: MouseUtility.TryGetHoveredCollider2D(out Collider2D)
-  nameWithType.vb: MouseUtility.TryGetHoveredCollider2D(ByRef Collider2D)
+- uid: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@,LayerMask)
+  name: TryGetHoveredCollider2D(out Collider2D, LayerMask)
+  href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_TryGetHoveredCollider2D_Collider2D__LayerMask_
+  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@,LayerMask)
+  name.vb: TryGetHoveredCollider2D(ByRef Collider2D, LayerMask)
+  fullName: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(out Collider2D, LayerMask)
+  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(ByRef Collider2D, LayerMask)
+  nameWithType: MouseUtility.TryGetHoveredCollider2D(out Collider2D, LayerMask)
+  nameWithType.vb: MouseUtility.TryGetHoveredCollider2D(ByRef Collider2D, LayerMask)
 - uid: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D*
   name: TryGetHoveredCollider2D
   href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_TryGetHoveredCollider2D_
@@ -226,15 +226,15 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D
   nameWithType: MouseUtility.TryGetHoveredCollider2D
-- uid: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@)
-  name: TryGetHoveredGameObject2D(out GameObject)
-  href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_TryGetHoveredGameObject2D_GameObject__
-  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@)
-  name.vb: TryGetHoveredGameObject2D(ByRef GameObject)
-  fullName: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(out GameObject)
-  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(ByRef GameObject)
-  nameWithType: MouseUtility.TryGetHoveredGameObject2D(out GameObject)
-  nameWithType.vb: MouseUtility.TryGetHoveredGameObject2D(ByRef GameObject)
+- uid: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@,LayerMask)
+  name: TryGetHoveredGameObject2D(out GameObject, LayerMask)
+  href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_TryGetHoveredGameObject2D_GameObject__LayerMask_
+  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@,LayerMask)
+  name.vb: TryGetHoveredGameObject2D(ByRef GameObject, LayerMask)
+  fullName: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(out GameObject, LayerMask)
+  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(ByRef GameObject, LayerMask)
+  nameWithType: MouseUtility.TryGetHoveredGameObject2D(out GameObject, LayerMask)
+  nameWithType.vb: MouseUtility.TryGetHoveredGameObject2D(ByRef GameObject, LayerMask)
 - uid: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D*
   name: TryGetHoveredGameObject2D
   href: api/TirUtilities.Controllers.MouseUtility.html#TirUtilities_Controllers_MouseUtility_TryGetHoveredGameObject2D_
@@ -1281,6 +1281,12 @@ references:
   commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
   fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide()
   nameWithType: LoadingScreen.Hide()
+- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(IEnumerator)
+  name: Hide(IEnumerator)
+  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide_IEnumerator_
+  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(IEnumerator)
+  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(IEnumerator)
+  nameWithType: LoadingScreen.Hide(IEnumerator)
 - uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide*
   name: Hide
   href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide_
@@ -1288,12 +1294,12 @@ references:
   isSpec: "True"
   fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
   nameWithType: LoadingScreen.Hide
-- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show
-  name: Show()
-  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Show
-  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Show
-  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show()
-  nameWithType: LoadingScreen.Show()
+- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(IEnumerator)
+  name: Show(IEnumerator)
+  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Show_IEnumerator_
+  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(IEnumerator)
+  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(IEnumerator)
+  nameWithType: LoadingScreen.Show(IEnumerator)
 - uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show*
   name: Show
   href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Show_

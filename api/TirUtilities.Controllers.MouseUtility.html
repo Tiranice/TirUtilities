@@ -103,7 +103,8 @@
   
   <a id="TirUtilities_Controllers_MouseUtility_LeftMouseButtonDown_" data-uid="TirUtilities.Controllers.MouseUtility.LeftMouseButtonDown*"></a>
   <h4 id="TirUtilities_Controllers_MouseUtility_LeftMouseButtonDown" data-uid="TirUtilities.Controllers.MouseUtility.LeftMouseButtonDown">LeftMouseButtonDown</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Short hand for Input.GetMouseButtonDown(0) </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -128,7 +129,8 @@
   
   <a id="TirUtilities_Controllers_MouseUtility_MiddleMouseButtonDown_" data-uid="TirUtilities.Controllers.MouseUtility.MiddleMouseButtonDown*"></a>
   <h4 id="TirUtilities_Controllers_MouseUtility_MiddleMouseButtonDown" data-uid="TirUtilities.Controllers.MouseUtility.MiddleMouseButtonDown">MiddleMouseButtonDown</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Short hand for Input.GetMouseButtonDown(2) </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -153,7 +155,8 @@
   
   <a id="TirUtilities_Controllers_MouseUtility_RightMouseButtonDown_" data-uid="TirUtilities.Controllers.MouseUtility.RightMouseButtonDown*"></a>
   <h4 id="TirUtilities_Controllers_MouseUtility_RightMouseButtonDown" data-uid="TirUtilities.Controllers.MouseUtility.RightMouseButtonDown">RightMouseButtonDown</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Short hand for Input.GetMouseButtonDown(1) </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -413,14 +416,14 @@ the out parameter.</p>
   
   
   <a id="TirUtilities_Controllers_MouseUtility_MouseRaycast2D_" data-uid="TirUtilities.Controllers.MouseUtility.MouseRaycast2D*"></a>
-  <h4 id="TirUtilities_Controllers_MouseUtility_MouseRaycast2D_RaycastHit2D__" data-uid="TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@)">MouseRaycast2D(out RaycastHit2D)</h4>
+  <h4 id="TirUtilities_Controllers_MouseUtility_MouseRaycast2D_RaycastHit2D__LayerMask_System_Single_" data-uid="TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@,LayerMask,System.Single)">MouseRaycast2D(out RaycastHit2D, LayerMask, Single)</h4>
   <div class="markdown level1 summary"><p>Casts a ray from the camera returning true if it hits anything and assigns that hit to
 the out parameter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool MouseRaycast2D(out RaycastHit2D raycastHit2D)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool MouseRaycast2D(out RaycastHit2D raycastHit2D, LayerMask targetLayers, float distance = default(float))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -435,6 +438,16 @@ the out parameter.</p>
       <tr>
         <td><span class="xref">RaycastHit2D</span></td>
         <td><span class="parametername">raycastHit2D</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">targetLayers</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">distance</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -458,12 +471,12 @@ the out parameter.</p>
   
   
   <a id="TirUtilities_Controllers_MouseUtility_TryGetGameObjectOnClick2D_" data-uid="TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D*"></a>
-  <h4 id="TirUtilities_Controllers_MouseUtility_TryGetGameObjectOnClick2D_GameObject__" data-uid="TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@)">TryGetGameObjectOnClick2D(out GameObject)</h4>
+  <h4 id="TirUtilities_Controllers_MouseUtility_TryGetGameObjectOnClick2D_GameObject__LayerMask_" data-uid="TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@,LayerMask)">TryGetGameObjectOnClick2D(out GameObject, LayerMask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryGetGameObjectOnClick2D(out GameObject gameObject)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryGetGameObjectOnClick2D(out GameObject gameObject, LayerMask targetLayers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -478,6 +491,11 @@ the out parameter.</p>
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">targetLayers</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -500,12 +518,12 @@ the out parameter.</p>
   
   
   <a id="TirUtilities_Controllers_MouseUtility_TryGetHoveredCollider2D_" data-uid="TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D*"></a>
-  <h4 id="TirUtilities_Controllers_MouseUtility_TryGetHoveredCollider2D_Collider2D__" data-uid="TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@)">TryGetHoveredCollider2D(out Collider2D)</h4>
+  <h4 id="TirUtilities_Controllers_MouseUtility_TryGetHoveredCollider2D_Collider2D__LayerMask_" data-uid="TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@,LayerMask)">TryGetHoveredCollider2D(out Collider2D, LayerMask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryGetHoveredCollider2D(out Collider2D collider)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryGetHoveredCollider2D(out Collider2D collider, LayerMask targetLayers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -520,6 +538,11 @@ the out parameter.</p>
       <tr>
         <td><span class="xref">Collider2D</span></td>
         <td><span class="parametername">collider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">targetLayers</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -542,12 +565,12 @@ the out parameter.</p>
   
   
   <a id="TirUtilities_Controllers_MouseUtility_TryGetHoveredGameObject2D_" data-uid="TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D*"></a>
-  <h4 id="TirUtilities_Controllers_MouseUtility_TryGetHoveredGameObject2D_GameObject__" data-uid="TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@)">TryGetHoveredGameObject2D(out GameObject)</h4>
+  <h4 id="TirUtilities_Controllers_MouseUtility_TryGetHoveredGameObject2D_GameObject__LayerMask_" data-uid="TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@,LayerMask)">TryGetHoveredGameObject2D(out GameObject, LayerMask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryGetHoveredGameObject2D(out GameObject gameObject)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryGetHoveredGameObject2D(out GameObject gameObject, LayerMask targetLayers)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -562,6 +585,11 @@ the out parameter.</p>
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">targetLayers</span></td>
         <td></td>
       </tr>
     </tbody>
