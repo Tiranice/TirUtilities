@@ -13,4 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Mouse Utility now has layer mask option for some 2D methods.
+
+### Changed
+
+- Level System now fades the loading screen before the load operation starts.
+
 ## [0.0.0-alpha.5] — Next release
