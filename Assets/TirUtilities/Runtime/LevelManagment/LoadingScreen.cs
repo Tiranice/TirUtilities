@@ -64,15 +64,23 @@ namespace TirUtilities.LevelManagment.Experimental
 
         #region Public Methods
 
-        public IEnumerator Show()
+        public IEnumerator Show(IEnumerator callbackCoroutine)
         {
             _loadingScreenPanel.SetActive(true);
-            yield return StartCoroutine(FadeLoadingScreen(targetAlpha: 1, duration: 1));
+            yield return StartCoroutine(FadeLoadingScreen(targetAlpha: 1, duration: 0.5f));
+            yield return StartCoroutine(callbackCoroutine);
         }
 
         public IEnumerator Hide()
         {
-            yield return StartCoroutine(FadeLoadingScreen(targetAlpha: 0, duration: 1));
+            yield return StartCoroutine(FadeLoadingScreen(targetAlpha: 0, duration: 0.5f));
+            _loadingScreenPanel.SetActive(false);
+        }
+
+        public IEnumerator Hide(IEnumerator callbackCoroutine)
+        {
+            yield return StartCoroutine(FadeLoadingScreen(targetAlpha: 0, duration: 0.5f));
+            yield return StartCoroutine(callbackCoroutine);
             _loadingScreenPanel.SetActive(false);
         }
 

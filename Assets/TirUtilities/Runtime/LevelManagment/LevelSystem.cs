@@ -132,9 +132,7 @@ namespace TirUtilities.LevelManagment
         private void LevelLoadSignalReceicer(LevelData levelData)
         {
             if (_loadingScreen.NotNull())
-                StartCoroutine(_loadingScreen.Show());
-
-            StartCoroutine(LevelLoader.LoadLevelDataAsync(levelData));
+                StartCoroutine(_loadingScreen.Show(LevelLoader.LoadLevelDataAsync(levelData)));
         }
 
         #endregion

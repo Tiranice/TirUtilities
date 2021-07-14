@@ -76,3 +76,7 @@ crashlytics-build.properties
 /[Dd]ocumentation/api/
 /[Dd]ocumentation/index.*
 /[Aa]ssets/**/obj*
+
+# Plugins
+
+/[Aa]ssets/[Pp]lugins/[Gg]it[Hh]ub*
