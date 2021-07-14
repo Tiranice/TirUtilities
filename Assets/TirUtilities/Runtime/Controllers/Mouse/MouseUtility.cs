@@ -12,7 +12,7 @@ namespace TirUtilities.Controllers
     ///        
     /// Author :  Devon Wilson
     /// Created:  April 24, 2021
-    /// Updated:  June 19, 2021
+    /// Updated:  July 13, 2021
     /// -->
     /// <summary>
     /// Contains utility functions that make working with the mouse easier. 
@@ -21,9 +21,14 @@ namespace TirUtilities.Controllers
     {
         #region Mouse Button Properties
 
+        /// <summary> Short hand for Input.GetMouseButtonDown(0) </summary>
         public static bool LeftMouseButtonDown => Input.GetMouseButtonDown(0);
+
+        /// <summary> Short hand for Input.GetMouseButtonDown(1) </summary>
         public static bool RightMouseButtonDown => Input.GetMouseButtonDown(1);
-        public static bool MiddleMouseButtonDown => Input.GetMouseButtonDown(3);
+        
+        /// <summary> Short hand for Input.GetMouseButtonDown(2) </summary>
+        public static bool MiddleMouseButtonDown => Input.GetMouseButtonDown(2);
 
         #endregion
 
@@ -45,11 +50,11 @@ namespace TirUtilities.Controllers
         /// </summary>
         /// <param name="raycastHit2D"></param>
         /// <returns> True if the ray hits a Collider2D. </returns>
-        public static bool MouseRaycast2D(out RaycastHit2D raycastHit2D)
+        public static bool MouseRaycast2D(out RaycastHit2D raycastHit2D, LayerMask targetLayers, float distance = Mathf.Infinity)
         {
             var cameraRay = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            raycastHit2D = Physics2D.Raycast(cameraRay.origin, cameraRay.direction);
+            raycastHit2D = Physics2D.Raycast(cameraRay.origin, cameraRay.direction, distance, targetLayers);
             return raycastHit2D;
         }
 
@@ -64,7 +69,8 @@ namespace TirUtilities.Controllers
         /// <returns> True if something was hit, otherwise false. </returns>
         public static bool TryGetWorldSpaceMousePosition2D(out Vector3 point)
         {
-            if (MouseRaycast2D(out RaycastHit2D raycastHit))
+            LayerMask everything = ~0;
+            if (MouseRaycast2D(out RaycastHit2D raycastHit, everything))
             {
                 point = raycastHit.point;
                 return true;
@@ -218,9 +224,9 @@ namespace TirUtilities.Controllers
 
         #region Game Object Methods 2D
 
-        public static bool TryGetHoveredCollider2D(out Collider2D collider)
+        public static bool TryGetHoveredCollider2D(out Collider2D collider, LayerMask targetLayers)
         {
-            if (MouseRaycast2D(out RaycastHit2D raycastHit))
+            if (MouseRaycast2D(out RaycastHit2D raycastHit, targetLayers))
             {
                 collider = raycastHit.collider;
                 return true;
@@ -229,9 +235,9 @@ namespace TirUtilities.Controllers
             return false;
         }
 
-        public static bool TryGetHoveredGameObject2D(out GameObject gameObject)
+        public static bool TryGetHoveredGameObject2D(out GameObject gameObject, LayerMask targetLayers)
         {
-            if (MouseRaycast2D(out RaycastHit2D raycastHit))
+            if (MouseRaycast2D(out RaycastHit2D raycastHit, targetLayers))
             {
                 gameObject = raycastHit.collider.gameObject;
                 return true;
@@ -240,9 +246,9 @@ namespace TirUtilities.Controllers
             return false;
         }
 
-        public static bool TryGetGameObjectOnClick2D(out GameObject gameObject)
+        public static bool TryGetGameObjectOnClick2D(out GameObject gameObject, LayerMask targetLayers)
         {
-            if (LeftMouseButtonDown && MouseRaycast2D(out RaycastHit2D raycastHit))
+            if (LeftMouseButtonDown && MouseRaycast2D(out RaycastHit2D raycastHit, targetLayers))
             {
                 gameObject = raycastHit.collider.gameObject;
                 return true;
