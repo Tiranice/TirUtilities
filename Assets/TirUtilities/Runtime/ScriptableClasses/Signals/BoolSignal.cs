@@ -25,7 +25,7 @@ namespace TirUtilities.Signals
         /// Invoked in <see cref="Emit">Emit</see>, calling receivers.
         /// </summary>
         [SerializeField]
-        private UnityAction<bool> _OnEmit;
+        protected UnityAction<bool> _OnEmit;
 
         #endregion
 

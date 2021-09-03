@@ -15,7 +15,7 @@ namespace TirUtilities.Signals
     /// <summary>
     /// Base type for all signals.
     /// </summary>
-    public class SignalBase : ScriptableObject
+    public abstract class SignalBase : ScriptableObject
     {
         #region Inspector Fields
 

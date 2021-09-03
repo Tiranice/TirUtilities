@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: HierarchyDividerSettings
   m_EditorClassIdentifier: 
   _dividers:
-  - ----- Camera & Lighting -----
-  - -------- Environment --------
-  - ----------- Props -----------
-  - ---------- Player ----------
-  - ---------- Actors ----------
-  - ------------ UI ------------
+  - "\u2013\u2013\u2013\u2013\u2013 Camera & Lighting \u2013\u2013\u2013\u2013\u2013"
+  - "\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 Environment \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013"
+  - "\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 Props \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013"
+  - "\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 Player \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013"
+  - "\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 Actors \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013"
+  - "\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 UI
+    \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013"
   _dividerTitles:
   - Camera & Lighting
   - Environment
@@ -26,5 +27,5 @@ MonoBehaviour:
   - Player
   - Actors
   - UI
-  _separator: 45
+  _separator: 8211
   _length: 14
