@@ -32,13 +32,13 @@ namespace TirUtilities.Extensions
         /// <typeparam name="T"></typeparam>
         /// <param name="list"></param>
         /// <returns>True if the list is null.</returns>
-        public static bool IsNull<T>(this List<T> list) => list.Equals(null);
+        public static bool IsNull<T>(this List<T> list) => list == null;
 
         /// <summary> Shorthand for <code>!list.Equals(null);</code> </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="list"></param>
         /// <returns>True if the list is not null.</returns>
-        public static bool NotNull<T>(this List<T> list) => !list.Equals(null);
+        public static bool NotNull<T>(this List<T> list) => list != null;
 
         /// <summary> Shorthand for <code>list.IsNull() || list.IsEmpty();</code> </summary>
         /// <typeparam name="T"></typeparam>

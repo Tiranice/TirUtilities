@@ -13,7 +13,7 @@ namespace TirUtilities.UI
     /// 
     /// Author :  Devon Wilson
     /// Created:  June 03, 2021
-    /// Updated:  June 03, 2021
+    /// Updated:  Aug. 22, 2021
     /// -->
     /// <summary>
     /// Controls the state of a set of <see cref="MenuPage"/> objects in the scene.
@@ -114,7 +114,7 @@ namespace TirUtilities.UI
                 state.EnterState(this);
             }
 
-            bool NotRootState(MenuState state) => state != _rootState;
+            bool NotRootState(MenuState target) => target != _rootState;
         }
 
         /// <summary> Go back to the previous page in the history. </summary>
