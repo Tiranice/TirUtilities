@@ -2,631 +2,631 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/Global.BuiltInResourcesWindow.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/Global.Connection.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/Global.ConnectionPoint.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/Global.ConnectionPointType.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/Global.NodeBase.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/Global.NodeBasedEditor.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/Global.PieChartTest.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/Global.RebindTest.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/Global.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Automation.AutoRotate.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Automation.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Controllers.CameraLookEvents.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Controllers.MouseUtility.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Controllers.ThirdPersonController.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Controllers.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomEvents.BoolEvent.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomEvents.GameObjectEvent.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomEvents.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.DrawBoxGizmo.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.DrawCameraGizmo.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.DrawColliderGizmo.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.DrawForwardGizmo.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.TirGizmos.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.CustomGizmos.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Detection.TriggerVolume.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Detection.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.DisplayOnlyAttribute.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.Experimental.MenuStateMachineInspector.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.Experimental.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.FlexGridInpector.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.MenuPageContextMenu.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.ProjectEditorPaths.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.PropertyDrawers.ScenePathDrawer.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.PropertyDrawers.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.SignalMenus.LevelLoaderMenu.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.SignalMenus.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Editor.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.ApplicationState.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.ApplicationStateMachine.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.Command.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.MenuState.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.PausedState.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.PlayingState.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.QuittingState.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.Singleton.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.State.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.StateAction.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Experimental.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.ColorExtensions.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.EventExtension.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.ListExtensions.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.ObjectExstentions.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.RigidbodyExtensions.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Extensions.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.IState-1.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.LevelManagment.Experimental.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.LevelManagment.LevelData.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.LevelManagment.LevelLoader.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.LevelManagment.LevelSystem.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.LevelManagment.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.ScenePathAttribute.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Serialization.TirJsonUtility.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Serialization.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.BoolSignal.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.ByteSignal.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.FloatSignal.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.GameObjectSignal.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.IntSignal.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.LevelLoadSignal.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.Signal.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.SignalBase.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.SignalReceiver.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.StringSignal.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Signals.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.StateMachine.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.TirLogger.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Buttons.ButtonHotKey.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Buttons.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Experimental.TabMenu.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Experimental.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Layout.FitType.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Layout.FitTypeExtensions.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Layout.FlexibleGridLayoutGroup.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.Layout.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.MenuPage.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.MenuState.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.MenuStateMachine.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.MessagePanel.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.TabButton.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.TabGroup.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.UIBillboard.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.UIMessageBox.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.WorldSpaceMessageBox.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.UI.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.Vector3Extensions.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/api/TirUtilities.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/index.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/manual/CHANGELOG.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/manual/level-data.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/manual/level-system.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/manual/manual.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/manual/ROADMAP.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tiranice.github.io/TirUtilities/manual/signals.html</loc>
-    <lastmod>2021-09-03T12:23:25+00:00</lastmod>
+    <lastmod>2021-09-03T12:23:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
