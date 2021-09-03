@@ -9,9 +9,9 @@ namespace TirUtilities.Serialization
     /// 
     /// Project:  TirUtilities
     /// 
-    /// Author:  Devon Wilson
-    /// Created on: Mar. 11, 2021
-    /// Updated on: Mar. 17, 2021
+    /// Author : Devon Wilson
+    /// Created: Mar. 11, 2021
+    /// Updated: Aug. 22, 2021
     ///-->
     /// <summary>
     /// Loads song jsons from a directory.
@@ -62,9 +62,13 @@ namespace TirUtilities.Serialization
             }
 
             return parsedObjects;
-
+#if UNITY_2020_2_OR_NEWER
             static bool IsStartOfNewObject(string line) => line.Equals("{");
             static bool IsEndOfJsonObject(string line) => line.Equals("}") || line.Equals("},");
+#else
+            bool IsStartOfNewObject(string line) => line.Equals("{");
+            bool IsEndOfJsonObject(string line) => line.Equals("}") || line.Equals("},");
+#endif
         }
 
         /// <summary>
@@ -110,8 +114,13 @@ namespace TirUtilities.Serialization
             data = parsedObjects;
             return true;
 
+#if UNITY_2020_2_OR_NEWER
             static bool IsStartOfNewObject(string line) => line.Equals("{");
             static bool IsEndOfJsonObject(string line) => line.Equals("}") || line.Equals("},");
+#else
+            bool IsStartOfNewObject(string line) => line.Equals("{");
+            bool IsEndOfJsonObject(string line) => line.Equals("}") || line.Equals("},");
+#endif
         }
 
     }

@@ -17,7 +17,7 @@ namespace TirUtilities.Signals
     /// 
     /// Author :  Devon Wilson
     /// Created:  May 05, 2021
-    /// Updated:  June 15, 2021
+    /// Updated:  Sep. 01, 2021
     /// -->
     /// <summary>
     /// Signal that emits a copy of a <see cref="LevelData"/> value.
@@ -32,6 +32,12 @@ namespace TirUtilities.Signals
         /// </summary>
         [Tooltip("The scenes that will be loaded when the signal is emitted.")]
         [SerializeField] private LevelData _levelData;
+
+        #endregion
+
+        #region Public Properties
+
+        public string ActiveScene => _levelData.ActiveScene;
 
         #endregion
 
@@ -68,8 +74,11 @@ namespace TirUtilities.Signals
 
         #region Editor
 #if UNITY_EDITOR
+        /// <summary>
+        /// EDITOR ONLY!!!  Prompts the user to save changes, then loads the level data.
+        /// </summary>
         [ContextMenu(nameof(LoadLevelData))]
-        private void LoadLevelData()
+        public void LoadLevelData()
         {
             EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
             EditorSceneManager.OpenScene(_levelData.ActiveScene);

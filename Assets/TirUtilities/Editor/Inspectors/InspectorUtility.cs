@@ -63,13 +63,23 @@ namespace TirUtilities.Editor
 
         internal static void DrawScriptProperty(SerializedObject serializedObject)
         {
+#if UNITY_2020_2_OR_NEWER
             using var iterator = serializedObject.GetIterator();
-
             iterator.NextVisible(true);
             using (new EditorGUI.DisabledScope("m_Script" == iterator.propertyPath))
             {
                 EditorGUILayout.PropertyField(iterator, true);
             }
+#else
+            using (var iterator = serializedObject.GetIterator())
+            {
+                iterator.NextVisible(true);
+                using (new EditorGUI.DisabledScope("m_Script" == iterator.propertyPath))
+                {
+                    EditorGUILayout.PropertyField(iterator, true);
+                }
+            }
+#endif
         }
 
         internal static void DrawScriptProperty(SerializedProperty iterator)
