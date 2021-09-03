@@ -9,6 +9,270 @@ references:
   fullName.vb: ''
   nameWithType: Global
   nameWithType.vb: ''
+- uid: Global.BuiltInResourcesWindow
+  name: BuiltInResourcesWindow
+  href: api/Global.BuiltInResourcesWindow.html
+  commentId: T:Global.BuiltInResourcesWindow
+  fullName: BuiltInResourcesWindow
+  nameWithType: BuiltInResourcesWindow
+- uid: Global.BuiltInResourcesWindow.ShowWindow
+  name: ShowWindow()
+  href: api/Global.BuiltInResourcesWindow.html#Global_BuiltInResourcesWindow_ShowWindow
+  commentId: M:Global.BuiltInResourcesWindow.ShowWindow
+  fullName: BuiltInResourcesWindow.ShowWindow()
+  nameWithType: BuiltInResourcesWindow.ShowWindow()
+- uid: Global.BuiltInResourcesWindow.ShowWindow*
+  name: ShowWindow
+  href: api/Global.BuiltInResourcesWindow.html#Global_BuiltInResourcesWindow_ShowWindow_
+  commentId: Overload:Global.BuiltInResourcesWindow.ShowWindow
+  isSpec: "True"
+  fullName: BuiltInResourcesWindow.ShowWindow
+  nameWithType: BuiltInResourcesWindow.ShowWindow
+- uid: Global.Connection
+  name: Connection
+  href: api/Global.Connection.html
+  commentId: T:Global.Connection
+  fullName: Connection
+  nameWithType: Connection
+- uid: Global.Connection.#ctor(ConnectionPoint,ConnectionPoint,System.Action{Connection})
+  name: Connection(ConnectionPoint, ConnectionPoint, Action<Connection>)
+  href: api/Global.Connection.html#Global_Connection__ctor_ConnectionPoint_ConnectionPoint_System_Action_Connection__
+  commentId: M:Global.Connection.#ctor(ConnectionPoint,ConnectionPoint,System.Action{Connection})
+  name.vb: Connection(ConnectionPoint, ConnectionPoint, Action(Of Connection))
+  fullName: Connection.Connection(ConnectionPoint, ConnectionPoint, System.Action<Connection>)
+  fullName.vb: Connection.Connection(ConnectionPoint, ConnectionPoint, System.Action(Of Connection))
+  nameWithType: Connection.Connection(ConnectionPoint, ConnectionPoint, Action<Connection>)
+  nameWithType.vb: Connection.Connection(ConnectionPoint, ConnectionPoint, Action(Of Connection))
+- uid: Global.Connection.#ctor*
+  name: Connection
+  href: api/Global.Connection.html#Global_Connection__ctor_
+  commentId: Overload:Global.Connection.#ctor
+  isSpec: "True"
+  fullName: Connection.Connection
+  nameWithType: Connection.Connection
+- uid: Global.Connection.Draw
+  name: Draw()
+  href: api/Global.Connection.html#Global_Connection_Draw
+  commentId: M:Global.Connection.Draw
+  fullName: Connection.Draw()
+  nameWithType: Connection.Draw()
+- uid: Global.Connection.Draw*
+  name: Draw
+  href: api/Global.Connection.html#Global_Connection_Draw_
+  commentId: Overload:Global.Connection.Draw
+  isSpec: "True"
+  fullName: Connection.Draw
+  nameWithType: Connection.Draw
+- uid: Global.ConnectionPoint
+  name: ConnectionPoint
+  href: api/Global.ConnectionPoint.html
+  commentId: T:Global.ConnectionPoint
+  fullName: ConnectionPoint
+  nameWithType: ConnectionPoint
+- uid: Global.ConnectionPoint.#ctor(ConnectionPointType,NodeBase,GUIStyle,System.Action{ConnectionPoint})
+  name: ConnectionPoint(ConnectionPointType, NodeBase, GUIStyle, Action<ConnectionPoint>)
+  href: api/Global.ConnectionPoint.html#Global_ConnectionPoint__ctor_ConnectionPointType_NodeBase_GUIStyle_System_Action_ConnectionPoint__
+  commentId: M:Global.ConnectionPoint.#ctor(ConnectionPointType,NodeBase,GUIStyle,System.Action{ConnectionPoint})
+  name.vb: ConnectionPoint(ConnectionPointType, NodeBase, GUIStyle, Action(Of ConnectionPoint))
+  fullName: ConnectionPoint.ConnectionPoint(ConnectionPointType, NodeBase, GUIStyle, System.Action<ConnectionPoint>)
+  fullName.vb: ConnectionPoint.ConnectionPoint(ConnectionPointType, NodeBase, GUIStyle, System.Action(Of ConnectionPoint))
+  nameWithType: ConnectionPoint.ConnectionPoint(ConnectionPointType, NodeBase, GUIStyle, Action<ConnectionPoint>)
+  nameWithType.vb: ConnectionPoint.ConnectionPoint(ConnectionPointType, NodeBase, GUIStyle, Action(Of ConnectionPoint))
+- uid: Global.ConnectionPoint.#ctor*
+  name: ConnectionPoint
+  href: api/Global.ConnectionPoint.html#Global_ConnectionPoint__ctor_
+  commentId: Overload:Global.ConnectionPoint.#ctor
+  isSpec: "True"
+  fullName: ConnectionPoint.ConnectionPoint
+  nameWithType: ConnectionPoint.ConnectionPoint
+- uid: Global.ConnectionPoint.Center
+  name: Center
+  href: api/Global.ConnectionPoint.html#Global_ConnectionPoint_Center
+  commentId: P:Global.ConnectionPoint.Center
+  fullName: ConnectionPoint.Center
+  nameWithType: ConnectionPoint.Center
+- uid: Global.ConnectionPoint.Center*
+  name: Center
+  href: api/Global.ConnectionPoint.html#Global_ConnectionPoint_Center_
+  commentId: Overload:Global.ConnectionPoint.Center
+  isSpec: "True"
+  fullName: ConnectionPoint.Center
+  nameWithType: ConnectionPoint.Center
+- uid: Global.ConnectionPoint.Draw
+  name: Draw()
+  href: api/Global.ConnectionPoint.html#Global_ConnectionPoint_Draw
+  commentId: M:Global.ConnectionPoint.Draw
+  fullName: ConnectionPoint.Draw()
+  nameWithType: ConnectionPoint.Draw()
+- uid: Global.ConnectionPoint.Draw*
+  name: Draw
+  href: api/Global.ConnectionPoint.html#Global_ConnectionPoint_Draw_
+  commentId: Overload:Global.ConnectionPoint.Draw
+  isSpec: "True"
+  fullName: ConnectionPoint.Draw
+  nameWithType: ConnectionPoint.Draw
+- uid: Global.ConnectionPoint.Node
+  name: Node
+  href: api/Global.ConnectionPoint.html#Global_ConnectionPoint_Node
+  commentId: P:Global.ConnectionPoint.Node
+  fullName: ConnectionPoint.Node
+  nameWithType: ConnectionPoint.Node
+- uid: Global.ConnectionPoint.Node*
+  name: Node
+  href: api/Global.ConnectionPoint.html#Global_ConnectionPoint_Node_
+  commentId: Overload:Global.ConnectionPoint.Node
+  isSpec: "True"
+  fullName: ConnectionPoint.Node
+  nameWithType: ConnectionPoint.Node
+- uid: Global.ConnectionPoint.OnClick
+  name: OnClick
+  href: api/Global.ConnectionPoint.html#Global_ConnectionPoint_OnClick
+  commentId: E:Global.ConnectionPoint.OnClick
+  fullName: ConnectionPoint.OnClick
+  nameWithType: ConnectionPoint.OnClick
+- uid: Global.ConnectionPointType
+  name: ConnectionPointType
+  href: api/Global.ConnectionPointType.html
+  commentId: T:Global.ConnectionPointType
+  fullName: ConnectionPointType
+  nameWithType: ConnectionPointType
+- uid: Global.ConnectionPointType.In
+  name: In
+  href: api/Global.ConnectionPointType.html#Global_ConnectionPointType_In
+  commentId: F:Global.ConnectionPointType.In
+  fullName: ConnectionPointType.In
+  nameWithType: ConnectionPointType.In
+- uid: Global.ConnectionPointType.Out
+  name: Out
+  href: api/Global.ConnectionPointType.html#Global_ConnectionPointType_Out
+  commentId: F:Global.ConnectionPointType.Out
+  fullName: ConnectionPointType.Out
+  nameWithType: ConnectionPointType.Out
+- uid: Global.NodeBase
+  name: NodeBase
+  href: api/Global.NodeBase.html
+  commentId: T:Global.NodeBase
+  fullName: NodeBase
+  nameWithType: NodeBase
+- uid: Global.NodeBase.#ctor(Vector2,System.Single,System.Single,System.String,GUIStyle,GUIStyle,GUIStyle,System.Action{ConnectionPoint},System.Action{ConnectionPoint})
+  name: NodeBase(Vector2, Single, Single, String, GUIStyle, GUIStyle, GUIStyle, Action<ConnectionPoint>, Action<ConnectionPoint>)
+  href: api/Global.NodeBase.html#Global_NodeBase__ctor_Vector2_System_Single_System_Single_System_String_GUIStyle_GUIStyle_GUIStyle_System_Action_ConnectionPoint__System_Action_ConnectionPoint__
+  commentId: M:Global.NodeBase.#ctor(Vector2,System.Single,System.Single,System.String,GUIStyle,GUIStyle,GUIStyle,System.Action{ConnectionPoint},System.Action{ConnectionPoint})
+  name.vb: NodeBase(Vector2, Single, Single, String, GUIStyle, GUIStyle, GUIStyle, Action(Of ConnectionPoint), Action(Of ConnectionPoint))
+  fullName: NodeBase.NodeBase(Vector2, System.Single, System.Single, System.String, GUIStyle, GUIStyle, GUIStyle, System.Action<ConnectionPoint>, System.Action<ConnectionPoint>)
+  fullName.vb: NodeBase.NodeBase(Vector2, System.Single, System.Single, System.String, GUIStyle, GUIStyle, GUIStyle, System.Action(Of ConnectionPoint), System.Action(Of ConnectionPoint))
+  nameWithType: NodeBase.NodeBase(Vector2, Single, Single, String, GUIStyle, GUIStyle, GUIStyle, Action<ConnectionPoint>, Action<ConnectionPoint>)
+  nameWithType.vb: NodeBase.NodeBase(Vector2, Single, Single, String, GUIStyle, GUIStyle, GUIStyle, Action(Of ConnectionPoint), Action(Of ConnectionPoint))
+- uid: Global.NodeBase.#ctor*
+  name: NodeBase
+  href: api/Global.NodeBase.html#Global_NodeBase__ctor_
+  commentId: Overload:Global.NodeBase.#ctor
+  isSpec: "True"
+  fullName: NodeBase.NodeBase
+  nameWithType: NodeBase.NodeBase
+- uid: Global.NodeBase.Drag(Vector2)
+  name: Drag(Vector2)
+  href: api/Global.NodeBase.html#Global_NodeBase_Drag_Vector2_
+  commentId: M:Global.NodeBase.Drag(Vector2)
+  fullName: NodeBase.Drag(Vector2)
+  nameWithType: NodeBase.Drag(Vector2)
+- uid: Global.NodeBase.Drag*
+  name: Drag
+  href: api/Global.NodeBase.html#Global_NodeBase_Drag_
+  commentId: Overload:Global.NodeBase.Drag
+  isSpec: "True"
+  fullName: NodeBase.Drag
+  nameWithType: NodeBase.Drag
+- uid: Global.NodeBase.Draw
+  name: Draw()
+  href: api/Global.NodeBase.html#Global_NodeBase_Draw
+  commentId: M:Global.NodeBase.Draw
+  fullName: NodeBase.Draw()
+  nameWithType: NodeBase.Draw()
+- uid: Global.NodeBase.Draw*
+  name: Draw
+  href: api/Global.NodeBase.html#Global_NodeBase_Draw_
+  commentId: Overload:Global.NodeBase.Draw
+  isSpec: "True"
+  fullName: NodeBase.Draw
+  nameWithType: NodeBase.Draw
+- uid: Global.NodeBase.GetRect
+  name: GetRect
+  href: api/Global.NodeBase.html#Global_NodeBase_GetRect
+  commentId: P:Global.NodeBase.GetRect
+  fullName: NodeBase.GetRect
+  nameWithType: NodeBase.GetRect
+- uid: Global.NodeBase.GetRect*
+  name: GetRect
+  href: api/Global.NodeBase.html#Global_NodeBase_GetRect_
+  commentId: Overload:Global.NodeBase.GetRect
+  isSpec: "True"
+  fullName: NodeBase.GetRect
+  nameWithType: NodeBase.GetRect
+- uid: Global.NodeBase.HalfHeight
+  name: HalfHeight
+  href: api/Global.NodeBase.html#Global_NodeBase_HalfHeight
+  commentId: P:Global.NodeBase.HalfHeight
+  fullName: NodeBase.HalfHeight
+  nameWithType: NodeBase.HalfHeight
+- uid: Global.NodeBase.HalfHeight*
+  name: HalfHeight
+  href: api/Global.NodeBase.html#Global_NodeBase_HalfHeight_
+  commentId: Overload:Global.NodeBase.HalfHeight
+  isSpec: "True"
+  fullName: NodeBase.HalfHeight
+  nameWithType: NodeBase.HalfHeight
+- uid: Global.NodeBase.IsDragged
+  name: IsDragged
+  href: api/Global.NodeBase.html#Global_NodeBase_IsDragged
+  commentId: P:Global.NodeBase.IsDragged
+  fullName: NodeBase.IsDragged
+  nameWithType: NodeBase.IsDragged
+- uid: Global.NodeBase.IsDragged*
+  name: IsDragged
+  href: api/Global.NodeBase.html#Global_NodeBase_IsDragged_
+  commentId: Overload:Global.NodeBase.IsDragged
+  isSpec: "True"
+  fullName: NodeBase.IsDragged
+  nameWithType: NodeBase.IsDragged
+- uid: Global.NodeBase.ProcessEvents(Event)
+  name: ProcessEvents(Event)
+  href: api/Global.NodeBase.html#Global_NodeBase_ProcessEvents_Event_
+  commentId: M:Global.NodeBase.ProcessEvents(Event)
+  fullName: NodeBase.ProcessEvents(Event)
+  nameWithType: NodeBase.ProcessEvents(Event)
+- uid: Global.NodeBase.ProcessEvents*
+  name: ProcessEvents
+  href: api/Global.NodeBase.html#Global_NodeBase_ProcessEvents_
+  commentId: Overload:Global.NodeBase.ProcessEvents
+  isSpec: "True"
+  fullName: NodeBase.ProcessEvents
+  nameWithType: NodeBase.ProcessEvents
+- uid: Global.NodeBasedEditor
+  name: NodeBasedEditor
+  href: api/Global.NodeBasedEditor.html
+  commentId: T:Global.NodeBasedEditor
+  fullName: NodeBasedEditor
+  nameWithType: NodeBasedEditor
+- uid: Global.NodeBasedEditor.Open
+  name: Open()
+  href: api/Global.NodeBasedEditor.html#Global_NodeBasedEditor_Open
+  commentId: M:Global.NodeBasedEditor.Open
+  fullName: NodeBasedEditor.Open()
+  nameWithType: NodeBasedEditor.Open()
+- uid: Global.NodeBasedEditor.Open*
+  name: Open
+  href: api/Global.NodeBasedEditor.html#Global_NodeBasedEditor_Open_
+  commentId: Overload:Global.NodeBasedEditor.Open
+  isSpec: "True"
+  fullName: NodeBasedEditor.Open
+  nameWithType: NodeBasedEditor.Open
+- uid: Global.PieChartTest
+  name: PieChartTest
+  href: api/Global.PieChartTest.html
+  commentId: T:Global.PieChartTest
+  fullName: PieChartTest
+  nameWithType: PieChartTest
 - uid: Global.RebindTest
   name: RebindTest
   href: api/Global.RebindTest.html
@@ -548,6 +812,31 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Editor.PropertyDrawers.ScenePathDrawer.OnGUI
   nameWithType: ScenePathDrawer.OnGUI
+- uid: TirUtilities.Editor.SignalMenus
+  name: TirUtilities.Editor.SignalMenus
+  href: api/TirUtilities.Editor.SignalMenus.html
+  commentId: N:TirUtilities.Editor.SignalMenus
+  fullName: TirUtilities.Editor.SignalMenus
+  nameWithType: TirUtilities.Editor.SignalMenus
+- uid: TirUtilities.Editor.SignalMenus.LevelLoaderMenu
+  name: LevelLoaderMenu
+  href: api/TirUtilities.Editor.SignalMenus.LevelLoaderMenu.html
+  commentId: T:TirUtilities.Editor.SignalMenus.LevelLoaderMenu
+  fullName: TirUtilities.Editor.SignalMenus.LevelLoaderMenu
+  nameWithType: LevelLoaderMenu
+- uid: TirUtilities.Editor.SignalMenus.LevelLoaderMenu.Open
+  name: Open()
+  href: api/TirUtilities.Editor.SignalMenus.LevelLoaderMenu.html#TirUtilities_Editor_SignalMenus_LevelLoaderMenu_Open
+  commentId: M:TirUtilities.Editor.SignalMenus.LevelLoaderMenu.Open
+  fullName: TirUtilities.Editor.SignalMenus.LevelLoaderMenu.Open()
+  nameWithType: LevelLoaderMenu.Open()
+- uid: TirUtilities.Editor.SignalMenus.LevelLoaderMenu.Open*
+  name: Open
+  href: api/TirUtilities.Editor.SignalMenus.LevelLoaderMenu.html#TirUtilities_Editor_SignalMenus_LevelLoaderMenu_Open_
+  commentId: Overload:TirUtilities.Editor.SignalMenus.LevelLoaderMenu.Open
+  isSpec: "True"
+  fullName: TirUtilities.Editor.SignalMenus.LevelLoaderMenu.Open
+  nameWithType: LevelLoaderMenu.Open
 - uid: TirUtilities.Experimental
   name: TirUtilities.Experimental
   href: api/TirUtilities.Experimental.html
@@ -1057,13 +1346,13 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Extensions.ListExtensions.IndexInRange
   nameWithType: ListExtensions.IndexInRange
-- uid: TirUtilities.Extensions.ListExtensions.IndexInRange``1(List{``0},System.Int32)
+- uid: TirUtilities.Extensions.ListExtensions.IndexInRange``1(System.Collections.Generic.List{``0},System.Int32)
   name: IndexInRange<T>(List<T>, Int32)
-  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_IndexInRange__1_List___0__System_Int32_
-  commentId: M:TirUtilities.Extensions.ListExtensions.IndexInRange``1(List{``0},System.Int32)
+  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_IndexInRange__1_System_Collections_Generic_List___0__System_Int32_
+  commentId: M:TirUtilities.Extensions.ListExtensions.IndexInRange``1(System.Collections.Generic.List{``0},System.Int32)
   name.vb: IndexInRange(Of T)(List(Of T), Int32)
-  fullName: TirUtilities.Extensions.ListExtensions.IndexInRange<T>(List<T>, System.Int32)
-  fullName.vb: TirUtilities.Extensions.ListExtensions.IndexInRange(Of T)(List(Of T), System.Int32)
+  fullName: TirUtilities.Extensions.ListExtensions.IndexInRange<T>(System.Collections.Generic.List<T>, System.Int32)
+  fullName.vb: TirUtilities.Extensions.ListExtensions.IndexInRange(Of T)(System.Collections.Generic.List(Of T), System.Int32)
   nameWithType: ListExtensions.IndexInRange<T>(List<T>, Int32)
   nameWithType.vb: ListExtensions.IndexInRange(Of T)(List(Of T), Int32)
 - uid: TirUtilities.Extensions.ListExtensions.IsEmpty*
@@ -1073,13 +1362,13 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Extensions.ListExtensions.IsEmpty
   nameWithType: ListExtensions.IsEmpty
-- uid: TirUtilities.Extensions.ListExtensions.IsEmpty``1(List{``0})
+- uid: TirUtilities.Extensions.ListExtensions.IsEmpty``1(System.Collections.Generic.List{``0})
   name: IsEmpty<T>(List<T>)
-  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_IsEmpty__1_List___0__
-  commentId: M:TirUtilities.Extensions.ListExtensions.IsEmpty``1(List{``0})
+  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_IsEmpty__1_System_Collections_Generic_List___0__
+  commentId: M:TirUtilities.Extensions.ListExtensions.IsEmpty``1(System.Collections.Generic.List{``0})
   name.vb: IsEmpty(Of T)(List(Of T))
-  fullName: TirUtilities.Extensions.ListExtensions.IsEmpty<T>(List<T>)
-  fullName.vb: TirUtilities.Extensions.ListExtensions.IsEmpty(Of T)(List(Of T))
+  fullName: TirUtilities.Extensions.ListExtensions.IsEmpty<T>(System.Collections.Generic.List<T>)
+  fullName.vb: TirUtilities.Extensions.ListExtensions.IsEmpty(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: ListExtensions.IsEmpty<T>(List<T>)
   nameWithType.vb: ListExtensions.IsEmpty(Of T)(List(Of T))
 - uid: TirUtilities.Extensions.ListExtensions.IsNull*
@@ -1089,13 +1378,13 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Extensions.ListExtensions.IsNull
   nameWithType: ListExtensions.IsNull
-- uid: TirUtilities.Extensions.ListExtensions.IsNull``1(List{``0})
+- uid: TirUtilities.Extensions.ListExtensions.IsNull``1(System.Collections.Generic.List{``0})
   name: IsNull<T>(List<T>)
-  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_IsNull__1_List___0__
-  commentId: M:TirUtilities.Extensions.ListExtensions.IsNull``1(List{``0})
+  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_IsNull__1_System_Collections_Generic_List___0__
+  commentId: M:TirUtilities.Extensions.ListExtensions.IsNull``1(System.Collections.Generic.List{``0})
   name.vb: IsNull(Of T)(List(Of T))
-  fullName: TirUtilities.Extensions.ListExtensions.IsNull<T>(List<T>)
-  fullName.vb: TirUtilities.Extensions.ListExtensions.IsNull(Of T)(List(Of T))
+  fullName: TirUtilities.Extensions.ListExtensions.IsNull<T>(System.Collections.Generic.List<T>)
+  fullName.vb: TirUtilities.Extensions.ListExtensions.IsNull(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: ListExtensions.IsNull<T>(List<T>)
   nameWithType.vb: ListExtensions.IsNull(Of T)(List(Of T))
 - uid: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty*
@@ -1105,13 +1394,13 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty
   nameWithType: ListExtensions.IsNullOrEmpty
-- uid: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty``1(List{``0})
+- uid: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty``1(System.Collections.Generic.List{``0})
   name: IsNullOrEmpty<T>(List<T>)
-  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_IsNullOrEmpty__1_List___0__
-  commentId: M:TirUtilities.Extensions.ListExtensions.IsNullOrEmpty``1(List{``0})
+  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_IsNullOrEmpty__1_System_Collections_Generic_List___0__
+  commentId: M:TirUtilities.Extensions.ListExtensions.IsNullOrEmpty``1(System.Collections.Generic.List{``0})
   name.vb: IsNullOrEmpty(Of T)(List(Of T))
-  fullName: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty<T>(List<T>)
-  fullName.vb: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty(Of T)(List(Of T))
+  fullName: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty<T>(System.Collections.Generic.List<T>)
+  fullName.vb: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: ListExtensions.IsNullOrEmpty<T>(List<T>)
   nameWithType.vb: ListExtensions.IsNullOrEmpty(Of T)(List(Of T))
 - uid: TirUtilities.Extensions.ListExtensions.NotEmpty*
@@ -1121,13 +1410,13 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Extensions.ListExtensions.NotEmpty
   nameWithType: ListExtensions.NotEmpty
-- uid: TirUtilities.Extensions.ListExtensions.NotEmpty``1(List{``0})
+- uid: TirUtilities.Extensions.ListExtensions.NotEmpty``1(System.Collections.Generic.List{``0})
   name: NotEmpty<T>(List<T>)
-  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_NotEmpty__1_List___0__
-  commentId: M:TirUtilities.Extensions.ListExtensions.NotEmpty``1(List{``0})
+  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_NotEmpty__1_System_Collections_Generic_List___0__
+  commentId: M:TirUtilities.Extensions.ListExtensions.NotEmpty``1(System.Collections.Generic.List{``0})
   name.vb: NotEmpty(Of T)(List(Of T))
-  fullName: TirUtilities.Extensions.ListExtensions.NotEmpty<T>(List<T>)
-  fullName.vb: TirUtilities.Extensions.ListExtensions.NotEmpty(Of T)(List(Of T))
+  fullName: TirUtilities.Extensions.ListExtensions.NotEmpty<T>(System.Collections.Generic.List<T>)
+  fullName.vb: TirUtilities.Extensions.ListExtensions.NotEmpty(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: ListExtensions.NotEmpty<T>(List<T>)
   nameWithType.vb: ListExtensions.NotEmpty(Of T)(List(Of T))
 - uid: TirUtilities.Extensions.ListExtensions.NotNull*
@@ -1137,13 +1426,13 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Extensions.ListExtensions.NotNull
   nameWithType: ListExtensions.NotNull
-- uid: TirUtilities.Extensions.ListExtensions.NotNull``1(List{``0})
+- uid: TirUtilities.Extensions.ListExtensions.NotNull``1(System.Collections.Generic.List{``0})
   name: NotNull<T>(List<T>)
-  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_NotNull__1_List___0__
-  commentId: M:TirUtilities.Extensions.ListExtensions.NotNull``1(List{``0})
+  href: api/TirUtilities.Extensions.ListExtensions.html#TirUtilities_Extensions_ListExtensions_NotNull__1_System_Collections_Generic_List___0__
+  commentId: M:TirUtilities.Extensions.ListExtensions.NotNull``1(System.Collections.Generic.List{``0})
   name.vb: NotNull(Of T)(List(Of T))
-  fullName: TirUtilities.Extensions.ListExtensions.NotNull<T>(List<T>)
-  fullName.vb: TirUtilities.Extensions.ListExtensions.NotNull(Of T)(List(Of T))
+  fullName: TirUtilities.Extensions.ListExtensions.NotNull<T>(System.Collections.Generic.List<T>)
+  fullName.vb: TirUtilities.Extensions.ListExtensions.NotNull(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: ListExtensions.NotNull<T>(List<T>)
   nameWithType.vb: ListExtensions.NotNull(Of T)(List(Of T))
 - uid: TirUtilities.Extensions.ObjectExstentions
@@ -1152,11 +1441,11 @@ references:
   commentId: T:TirUtilities.Extensions.ObjectExstentions
   fullName: TirUtilities.Extensions.ObjectExstentions
   nameWithType: ObjectExstentions
-- uid: TirUtilities.Extensions.ObjectExstentions.IsNull(Object)
+- uid: TirUtilities.Extensions.ObjectExstentions.IsNull(System.Object)
   name: IsNull(Object)
-  href: api/TirUtilities.Extensions.ObjectExstentions.html#TirUtilities_Extensions_ObjectExstentions_IsNull_Object_
-  commentId: M:TirUtilities.Extensions.ObjectExstentions.IsNull(Object)
-  fullName: TirUtilities.Extensions.ObjectExstentions.IsNull(Object)
+  href: api/TirUtilities.Extensions.ObjectExstentions.html#TirUtilities_Extensions_ObjectExstentions_IsNull_System_Object_
+  commentId: M:TirUtilities.Extensions.ObjectExstentions.IsNull(System.Object)
+  fullName: TirUtilities.Extensions.ObjectExstentions.IsNull(System.Object)
   nameWithType: ObjectExstentions.IsNull(Object)
 - uid: TirUtilities.Extensions.ObjectExstentions.IsNull*
   name: IsNull
@@ -1165,11 +1454,11 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Extensions.ObjectExstentions.IsNull
   nameWithType: ObjectExstentions.IsNull
-- uid: TirUtilities.Extensions.ObjectExstentions.NotNull(Object)
+- uid: TirUtilities.Extensions.ObjectExstentions.NotNull(System.Object)
   name: NotNull(Object)
-  href: api/TirUtilities.Extensions.ObjectExstentions.html#TirUtilities_Extensions_ObjectExstentions_NotNull_Object_
-  commentId: M:TirUtilities.Extensions.ObjectExstentions.NotNull(Object)
-  fullName: TirUtilities.Extensions.ObjectExstentions.NotNull(Object)
+  href: api/TirUtilities.Extensions.ObjectExstentions.html#TirUtilities_Extensions_ObjectExstentions_NotNull_System_Object_
+  commentId: M:TirUtilities.Extensions.ObjectExstentions.NotNull(System.Object)
+  fullName: TirUtilities.Extensions.ObjectExstentions.NotNull(System.Object)
   nameWithType: ObjectExstentions.NotNull(Object)
 - uid: TirUtilities.Extensions.ObjectExstentions.NotNull*
   name: NotNull
@@ -1281,11 +1570,11 @@ references:
   commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
   fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide()
   nameWithType: LoadingScreen.Hide()
-- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(IEnumerator)
+- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(System.Collections.IEnumerator)
   name: Hide(IEnumerator)
-  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide_IEnumerator_
-  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(IEnumerator)
-  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(IEnumerator)
+  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide_System_Collections_IEnumerator_
+  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(System.Collections.IEnumerator)
+  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(System.Collections.IEnumerator)
   nameWithType: LoadingScreen.Hide(IEnumerator)
 - uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide*
   name: Hide
@@ -1294,11 +1583,11 @@ references:
   isSpec: "True"
   fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
   nameWithType: LoadingScreen.Hide
-- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(IEnumerator)
+- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(System.Collections.IEnumerator)
   name: Show(IEnumerator)
-  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Show_IEnumerator_
-  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(IEnumerator)
-  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(IEnumerator)
+  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Show_System_Collections_IEnumerator_
+  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(System.Collections.IEnumerator)
+  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(System.Collections.IEnumerator)
   nameWithType: LoadingScreen.Show(IEnumerator)
 - uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show*
   name: Show
@@ -1313,13 +1602,13 @@ references:
   commentId: T:TirUtilities.LevelManagment.LevelData
   fullName: TirUtilities.LevelManagment.LevelData
   nameWithType: LevelData
-- uid: TirUtilities.LevelManagment.LevelData.#ctor(System.String,List{System.String})
+- uid: TirUtilities.LevelManagment.LevelData.#ctor(System.String,System.Collections.Generic.List{System.String})
   name: LevelData(String, List<String>)
-  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData__ctor_System_String_List_System_String__
-  commentId: M:TirUtilities.LevelManagment.LevelData.#ctor(System.String,List{System.String})
+  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData__ctor_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:TirUtilities.LevelManagment.LevelData.#ctor(System.String,System.Collections.Generic.List{System.String})
   name.vb: LevelData(String, List(Of String))
-  fullName: TirUtilities.LevelManagment.LevelData.LevelData(System.String, List<System.String>)
-  fullName.vb: TirUtilities.LevelManagment.LevelData.LevelData(System.String, List(Of System.String))
+  fullName: TirUtilities.LevelManagment.LevelData.LevelData(System.String, System.Collections.Generic.List<System.String>)
+  fullName.vb: TirUtilities.LevelManagment.LevelData.LevelData(System.String, System.Collections.Generic.List(Of System.String))
   nameWithType: LevelData.LevelData(String, List<String>)
   nameWithType.vb: LevelData.LevelData(String, List(Of String))
 - uid: TirUtilities.LevelManagment.LevelData.#ctor*
@@ -1440,13 +1729,13 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList
   nameWithType: TirJsonUtility.TryParseJsonToList
-- uid: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(List{``0}@,System.String)
+- uid: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(System.Collections.Generic.List{``0}@,System.String)
   name: TryParseJsonToList<T>(out List<T>, String)
-  href: api/TirUtilities.Serialization.TirJsonUtility.html#TirUtilities_Serialization_TirJsonUtility_TryParseJsonToList__1_List___0___System_String_
-  commentId: M:TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(List{``0}@,System.String)
+  href: api/TirUtilities.Serialization.TirJsonUtility.html#TirUtilities_Serialization_TirJsonUtility_TryParseJsonToList__1_System_Collections_Generic_List___0___System_String_
+  commentId: M:TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(System.Collections.Generic.List{``0}@,System.String)
   name.vb: TryParseJsonToList(Of T)(ByRef List(Of T), String)
-  fullName: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList<T>(out List<T>, System.String)
-  fullName.vb: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList(Of T)(ByRef List(Of T), System.String)
+  fullName: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList<T>(out System.Collections.Generic.List<T>, System.String)
+  fullName.vb: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList(Of T)(ByRef System.Collections.Generic.List(Of T), System.String)
   nameWithType: TirJsonUtility.TryParseJsonToList<T>(out List<T>, String)
   nameWithType.vb: TirJsonUtility.TryParseJsonToList(Of T)(ByRef List(Of T), String)
 - uid: TirUtilities.Signals
@@ -1716,6 +2005,19 @@ references:
   commentId: T:TirUtilities.Signals.LevelLoadSignal
   fullName: TirUtilities.Signals.LevelLoadSignal
   nameWithType: LevelLoadSignal
+- uid: TirUtilities.Signals.LevelLoadSignal.ActiveScene
+  name: ActiveScene
+  href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_ActiveScene
+  commentId: P:TirUtilities.Signals.LevelLoadSignal.ActiveScene
+  fullName: TirUtilities.Signals.LevelLoadSignal.ActiveScene
+  nameWithType: LevelLoadSignal.ActiveScene
+- uid: TirUtilities.Signals.LevelLoadSignal.ActiveScene*
+  name: ActiveScene
+  href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_ActiveScene_
+  commentId: Overload:TirUtilities.Signals.LevelLoadSignal.ActiveScene
+  isSpec: "True"
+  fullName: TirUtilities.Signals.LevelLoadSignal.ActiveScene
+  nameWithType: LevelLoadSignal.ActiveScene
 - uid: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
   name: AddReceiver(UnityAction<LevelData>)
   href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_AddReceiver_UnityAction_TirUtilities_LevelManagment_LevelData__

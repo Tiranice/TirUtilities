@@ -1,8 +1,43 @@
 {
+  "api/Global.BuiltInResourcesWindow.html": {
+    "href": "api/Global.BuiltInResourcesWindow.html",
+    "title": "Class BuiltInResourcesWindow | TirUtilities",
+    "keywords": "Class BuiltInResourcesWindow Inheritance Object BuiltInResourcesWindow Namespace : Global Assembly : cs.temp.dll.dll Syntax public class BuiltInResourcesWindow : EditorWindow Methods ShowWindow() Declaration public static void ShowWindow()"
+  },
+  "api/Global.Connection.html": {
+    "href": "api/Global.Connection.html",
+    "title": "Class Connection | TirUtilities",
+    "keywords": "Class Connection Inheritance Object Connection Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Connection Constructors Connection(ConnectionPoint, ConnectionPoint, Action<Connection>) Declaration public Connection(ConnectionPoint input, ConnectionPoint output, Action<Connection> OnClickRemoveCallback) Parameters Type Name Description ConnectionPoint input ConnectionPoint output Action < Connection > OnClickRemoveCallback Methods Draw() Declaration public void Draw()"
+  },
+  "api/Global.ConnectionPoint.html": {
+    "href": "api/Global.ConnectionPoint.html",
+    "title": "Class ConnectionPoint | TirUtilities",
+    "keywords": "Class ConnectionPoint Inheritance Object ConnectionPoint Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ConnectionPoint Constructors ConnectionPoint(ConnectionPointType, NodeBase, GUIStyle, Action<ConnectionPoint>) Declaration public ConnectionPoint(ConnectionPointType type, NodeBase node, GUIStyle style, Action<ConnectionPoint> OnClickCallback) Parameters Type Name Description ConnectionPointType type NodeBase node GUIStyle style Action < ConnectionPoint > OnClickCallback Properties Center Declaration public Vector2 Center { get; } Property Value Type Description Vector2 Node Declaration public NodeBase Node { get; } Property Value Type Description NodeBase Methods Draw() Declaration public void Draw() Events OnClick Declaration public event Action<ConnectionPoint> OnClick Event Type Type Description Action < ConnectionPoint >"
+  },
+  "api/Global.ConnectionPointType.html": {
+    "href": "api/Global.ConnectionPointType.html",
+    "title": "Enum ConnectionPointType | TirUtilities",
+    "keywords": "Enum ConnectionPointType Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum ConnectionPointType Fields Name Description In Out"
+  },
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | TirUtilities",
-    "keywords": "Namespace Global Classes RebindTest"
+    "keywords": "Namespace Global Classes BuiltInResourcesWindow Connection ConnectionPoint NodeBase NodeBasedEditor PieChartTest RebindTest Enums ConnectionPointType"
+  },
+  "api/Global.NodeBase.html": {
+    "href": "api/Global.NodeBase.html",
+    "title": "Class NodeBase | TirUtilities",
+    "keywords": "Class NodeBase Inheritance Object NodeBase Namespace : Global Assembly : cs.temp.dll.dll Syntax public class NodeBase Constructors NodeBase(Vector2, Single, Single, String, GUIStyle, GUIStyle, GUIStyle, Action<ConnectionPoint>, Action<ConnectionPoint>) Declaration public NodeBase(Vector2 position, float width, float height, string title, GUIStyle nodeStyle, GUIStyle inputStyle, GUIStyle outputStyle, Action<ConnectionPoint> OnClickInput, Action<ConnectionPoint> OnClickOutput) Parameters Type Name Description Vector2 position Single width Single height String title GUIStyle nodeStyle GUIStyle inputStyle GUIStyle outputStyle Action < ConnectionPoint > OnClickInput Action < ConnectionPoint > OnClickOutput Properties GetRect Declaration public Rect GetRect { get; } Property Value Type Description Rect HalfHeight Declaration public float HalfHeight { get; } Property Value Type Description Single IsDragged Declaration public bool IsDragged { get; set; } Property Value Type Description Boolean Methods Drag(Vector2) Declaration public void Drag(Vector2 delta) Parameters Type Name Description Vector2 delta Draw() Declaration public void Draw() ProcessEvents(Event) Declaration public bool ProcessEvents(Event event) Parameters Type Name Description Event event Returns Type Description Boolean"
+  },
+  "api/Global.NodeBasedEditor.html": {
+    "href": "api/Global.NodeBasedEditor.html",
+    "title": "Class NodeBasedEditor | TirUtilities",
+    "keywords": "Class NodeBasedEditor Inheritance Object NodeBasedEditor Namespace : Global Assembly : cs.temp.dll.dll Syntax public class NodeBasedEditor : EditorWindow Methods Open() Declaration public static void Open()"
+  },
+  "api/Global.PieChartTest.html": {
+    "href": "api/Global.PieChartTest.html",
+    "title": "Class PieChartTest | TirUtilities",
+    "keywords": "Class PieChartTest Inheritance Object PieChartTest Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PieChartTest : MonoBehaviour"
   },
   "api/Global.RebindTest.html": {
     "href": "api/Global.RebindTest.html",
@@ -144,6 +179,16 @@
     "title": "Class ScenePathDrawer | TirUtilities",
     "keywords": "Class ScenePathDrawer Converts a string field to a UnityEditor.SceneAsset in the inspector. Inheritance Object ScenePathDrawer Namespace : TirUtilities.Editor.PropertyDrawers Assembly : cs.temp.dll.dll Syntax public class ScenePathDrawer : PropertyDrawer Remarks Based on SceneDrawer.cs from Mirror. Methods OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
   },
+  "api/TirUtilities.Editor.SignalMenus.html": {
+    "href": "api/TirUtilities.Editor.SignalMenus.html",
+    "title": "Namespace TirUtilities.Editor.SignalMenus | TirUtilities",
+    "keywords": "Namespace TirUtilities.Editor.SignalMenus Classes LevelLoaderMenu"
+  },
+  "api/TirUtilities.Editor.SignalMenus.LevelLoaderMenu.html": {
+    "href": "api/TirUtilities.Editor.SignalMenus.LevelLoaderMenu.html",
+    "title": "Class LevelLoaderMenu | TirUtilities",
+    "keywords": "Class LevelLoaderMenu Inheritance Object LevelLoaderMenu Namespace : TirUtilities.Editor.SignalMenus Assembly : cs.temp.dll.dll Syntax public sealed class LevelLoaderMenu : EditorWindow Methods Open() Declaration public static void Open()"
+  },
   "api/TirUtilities.Experimental.ApplicationState.html": {
     "href": "api/TirUtilities.Experimental.ApplicationState.html",
     "title": "Class ApplicationState | TirUtilities",
@@ -222,7 +267,7 @@
   "api/TirUtilities.Extensions.ObjectExstentions.html": {
     "href": "api/TirUtilities.Extensions.ObjectExstentions.html",
     "title": "Class ObjectExstentions | TirUtilities",
-    "keywords": "Class ObjectExstentions A set of extensions to UnityEngine.Object. Inheritance Object ObjectExstentions Namespace : TirUtilities.Extensions Assembly : cs.temp.dll.dll Syntax public static class ObjectExstentions Methods IsNull(Object) Declaration public static bool IsNull(this Object self) Parameters Type Name Description Object self Returns Type Description Boolean NotNull(Object) Declaration public static bool NotNull(this Object self) Parameters Type Name Description Object self Returns Type Description Boolean"
+    "keywords": "Class ObjectExstentions A set of extensions to UnityEngine.Object. Inheritance Object ObjectExstentions Namespace : TirUtilities.Extensions Assembly : cs.temp.dll.dll Syntax public static class ObjectExstentions Methods IsNull(Object) Declaration public static bool IsNull(this object self) Parameters Type Name Description Object self Returns Type Description Boolean NotNull(Object) Declaration public static bool NotNull(this object self) Parameters Type Name Description Object self Returns Type Description Boolean"
   },
   "api/TirUtilities.Extensions.RigidbodyExtensions.html": {
     "href": "api/TirUtilities.Extensions.RigidbodyExtensions.html",
@@ -232,12 +277,12 @@
   "api/TirUtilities.html": {
     "href": "api/TirUtilities.html",
     "title": "Namespace TirUtilities | TirUtilities",
-    "keywords": "Namespace TirUtilities Classes DisplayOnlyAttribute The decorated field is be displayed in the inspector, but cannot be edited. ScenePathAttribute Converts a string field to a UnityEditor.SceneAsset in the inspector. StateMachine Base class for all state machines. TirLogger Vector3Extensions Interfaces IState<T>"
+    "keywords": "Namespace TirUtilities Classes DisplayOnlyAttribute The decorated field is be displayed in the inspector, but cannot be edited. ScenePathAttribute Converts a string field to a UnityEditor.SceneAsset in the inspector. StateMachine Base class for all state machines. TirLogger Vector3Extensions Interfaces IState<T> Implement this interface on object that should be states in a StateMachine ."
   },
   "api/TirUtilities.IState-1.html": {
     "href": "api/TirUtilities.IState-1.html",
     "title": "Interface IState<T> | TirUtilities",
-    "keywords": "Interface IState<T> Namespace : TirUtilities Assembly : cs.temp.dll.dll Syntax public interface IState<T> where T : StateMachine Type Parameters Name Description T Methods EnterState(T) Declaration void EnterState(T stateMachine) Parameters Type Name Description T stateMachine ExitState(T) Declaration void ExitState(T stateMachine) Parameters Type Name Description T stateMachine UpdateState(T) Declaration void UpdateState(T stateMachine) Parameters Type Name Description T stateMachine"
+    "keywords": "Interface IState<T> Implement this interface on object that should be states in a StateMachine . Namespace : TirUtilities Assembly : cs.temp.dll.dll Syntax public interface IState<T> where T : StateMachine Type Parameters Name Description T Methods EnterState(T) Declaration void EnterState(T stateMachine) Parameters Type Name Description T stateMachine ExitState(T) Declaration void ExitState(T stateMachine) Parameters Type Name Description T stateMachine UpdateState(T) Declaration void UpdateState(T stateMachine) Parameters Type Name Description T stateMachine"
   },
   "api/TirUtilities.LevelManagment.Experimental.html": {
     "href": "api/TirUtilities.LevelManagment.Experimental.html",
@@ -262,7 +307,7 @@
   "api/TirUtilities.LevelManagment.LevelLoader.html": {
     "href": "api/TirUtilities.LevelManagment.LevelLoader.html",
     "title": "Class LevelLoader | TirUtilities",
-    "keywords": "Class LevelLoader Loads scenes asynchronously when passed LevelData . Inheritance Object LevelLoader Namespace : TirUtilities.LevelManagment Assembly : cs.temp.dll.dll Syntax public static class LevelLoader Methods LoadLevelDataAsync(LevelData) Loads the scene in the given level data. Declaration public static IEnumerator LoadLevelDataAsync(LevelData level) Parameters Type Name Description LevelData level The data of the level being loaded. Returns Type Description IEnumerator Events OnLoadComplete Declaration public static event Action OnLoadComplete Event Type Type Description Action"
+    "keywords": "Class LevelLoader Loads scenes asynchronously when passed LevelData . Inheritance Object LevelLoader Namespace : TirUtilities.LevelManagment Assembly : cs.temp.dll.dll Syntax public static class LevelLoader Methods LoadLevelDataAsync(LevelData) Loads the scene in the given level data. Declaration public static IEnumerator LoadLevelDataAsync(LevelData level) Parameters Type Name Description LevelData level The data of the level being loaded. Returns Type Description IEnumerator AsyncOperation that loads the active scene. Events OnLoadComplete Invoked once all load operations have completed. Declaration public static event Action OnLoadComplete Event Type Type Description Action"
   },
   "api/TirUtilities.LevelManagment.LevelSystem.html": {
     "href": "api/TirUtilities.LevelManagment.LevelSystem.html",
@@ -317,7 +362,7 @@
   "api/TirUtilities.Signals.LevelLoadSignal.html": {
     "href": "api/TirUtilities.Signals.LevelLoadSignal.html",
     "title": "Class LevelLoadSignal | TirUtilities",
-    "keywords": "Class LevelLoadSignal Signal that emits a copy of a LevelData value. Inheritance Object SignalBase LevelLoadSignal Inherited Members SignalBase._description SignalBase.Description Namespace : TirUtilities.Signals Assembly : cs.temp.dll.dll Syntax public class LevelLoadSignal : SignalBase Methods AddReceiver(UnityAction<LevelData>) Register a callback function to be invoked when this signal is Emit() . Declaration public virtual void AddReceiver(UnityAction<LevelData> receiver) Parameters Type Name Description UnityAction < LevelData > receiver The callback to be invoked. Emit() Emit this signal to all receivers, calling their AddReceiver(UnityAction<LevelData>) . Declaration public virtual void Emit() RemoveReceiver(UnityAction<LevelData>) Unregister a callback function. Declaration public virtual void RemoveReceiver(UnityAction<LevelData> receiver) Parameters Type Name Description UnityAction < LevelData > receiver The callback function."
+    "keywords": "Class LevelLoadSignal Signal that emits a copy of a LevelData value. Inheritance Object SignalBase LevelLoadSignal Inherited Members SignalBase._description SignalBase.Description Namespace : TirUtilities.Signals Assembly : cs.temp.dll.dll Syntax public class LevelLoadSignal : SignalBase Properties ActiveScene Declaration public string ActiveScene { get; } Property Value Type Description String Methods AddReceiver(UnityAction<LevelData>) Register a callback function to be invoked when this signal is Emit() . Declaration public virtual void AddReceiver(UnityAction<LevelData> receiver) Parameters Type Name Description UnityAction < LevelData > receiver The callback to be invoked. Emit() Emit this signal to all receivers, calling their AddReceiver(UnityAction<LevelData>) . Declaration public virtual void Emit() RemoveReceiver(UnityAction<LevelData>) Unregister a callback function. Declaration public virtual void RemoveReceiver(UnityAction<LevelData> receiver) Parameters Type Name Description UnityAction < LevelData > receiver The callback function."
   },
   "api/TirUtilities.Signals.Signal.html": {
     "href": "api/TirUtilities.Signals.Signal.html",
