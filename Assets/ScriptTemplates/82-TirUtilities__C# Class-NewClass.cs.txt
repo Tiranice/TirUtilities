@@ -18,35 +18,35 @@ using System.Collections.Generic;
 public class #SCRIPTNAME#
 {
     #region Data Structures
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Fields
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Events
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Constructor
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Private Methods
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Public Methods
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Private Properties
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Public Properties
-    #NOTRIM#
+    
     #endregion
 }
 #ROOTNAMESPACEEND#

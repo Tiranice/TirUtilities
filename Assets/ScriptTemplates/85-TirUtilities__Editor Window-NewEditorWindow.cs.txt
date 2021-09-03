@@ -1,8 +1,7 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UIElements;
 
     #ROOTNAMESPACEBEGIN#
 ///<!--
@@ -20,37 +19,37 @@ using UnityEngine;
 public class #SCRIPTNAME# : EditorWindow
 {
     #region Data Structures
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Fields
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Open & Close
-    #NOTRIM#
+    
     [MenuItem("Menu/#SCRIPTNAME#")]
     public static void Open()
     {
         var window = GetWindow<#SCRIPTNAME#>();
         window.titleContent = new GUIContent("#SCRIPTNAME#");
     }
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Unity Messages
-    #NOTRIM#
-    private void OnGUI() => PopulateWindow();
-    #NOTRIM#
+    
+    private void CreateGUI() => PopulateWindow();
+    
     #endregion
-    #NOTRIM#
+    
     #region Private Methods
-    #NOTRIM#
+    
     private void PopulateWindow()
     {
-    #NOTRIM#
+        rootVisualElement.Add(new Label("I'm a Window!"));
     }
-    #NOTRIM#
+    
     #endregion
 }
 #ROOTNAMESPACEEND#

@@ -18,15 +18,15 @@ using System.Collections.Generic;
 public interface #SCRIPTNAME#
 {
     #region Events
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Public Methods
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Public Properties
-    #NOTRIM#
+    
     #endregion
 }
 #ROOTNAMESPACEEND#

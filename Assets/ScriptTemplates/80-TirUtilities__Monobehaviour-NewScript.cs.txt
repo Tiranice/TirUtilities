@@ -18,35 +18,35 @@ using UnityEngine;
 public class #SCRIPTNAME# : MonoBehaviour
 {
     #region Data Structures
-    #NOTRIM#
+
     #endregion
-    #NOTRIM#
+
     #region Inspector Fields
-    #NOTRIM#
+
     #endregion
-    #NOTRIM#
+
     #region Events & Signals
-    #NOTRIM#
+
     #endregion
-    #NOTRIM#
+
     #region Unity Messages
-    #NOTRIM#
+
     #endregion
-    #NOTRIM#
+
     #region Private Methods
-    #NOTRIM#
+
     #endregion
-    #NOTRIM#
+
     #region Public Methods
-    #NOTRIM#
+
     #endregion
-    #NOTRIM#
+
     #region Private Properties
-    #NOTRIM#
+
     #endregion
-    #NOTRIM#
+
     #region Public Properties
-    #NOTRIM#
+
     #endregion
 }
 #ROOTNAMESPACEEND#

@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
     #ROOTNAMESPACEBEGIN#
 ///<!--
 /// #SCRIPTNAME#.cs
@@ -20,35 +19,35 @@ using UnityEngine;
 public class #SCRIPTNAME# : ScriptableObject
 {
     #region Data Structures
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Inspector Fields
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
-    #region Events
-    #NOTRIM#
+    
+    #region Events & Signals
+    
     #endregion
-    #NOTRIM#
+    
     #region Unity Messages
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Private Methods
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Public Methods
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Private Properties
-    #NOTRIM#
+    
     #endregion
-    #NOTRIM#
+    
     #region Public Properties
-    #NOTRIM#
+    
     #endregion
 }
 #ROOTNAMESPACEEND#
