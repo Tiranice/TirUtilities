@@ -1750,6 +1750,12 @@ references:
   commentId: T:TirUtilities.Signals.BoolSignal
   fullName: TirUtilities.Signals.BoolSignal
   nameWithType: BoolSignal
+- uid: TirUtilities.Signals.BoolSignal._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.BoolSignal.html#TirUtilities_Signals_BoolSignal__OnEmit
+  commentId: F:TirUtilities.Signals.BoolSignal._OnEmit
+  fullName: TirUtilities.Signals.BoolSignal._OnEmit
+  nameWithType: BoolSignal._OnEmit
 - uid: TirUtilities.Signals.BoolSignal.AddReceiver(UnityAction{System.Boolean})
   name: AddReceiver(UnityAction<Boolean>)
   href: api/TirUtilities.Signals.BoolSignal.html#TirUtilities_Signals_BoolSignal_AddReceiver_UnityAction_System_Boolean__
@@ -1801,6 +1807,12 @@ references:
   commentId: T:TirUtilities.Signals.ByteSignal
   fullName: TirUtilities.Signals.ByteSignal
   nameWithType: ByteSignal
+- uid: TirUtilities.Signals.ByteSignal._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.ByteSignal.html#TirUtilities_Signals_ByteSignal__OnEmit
+  commentId: F:TirUtilities.Signals.ByteSignal._OnEmit
+  fullName: TirUtilities.Signals.ByteSignal._OnEmit
+  nameWithType: ByteSignal._OnEmit
 - uid: TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction{System.Byte})
   name: AddReceiver(UnityAction<Byte>)
   href: api/TirUtilities.Signals.ByteSignal.html#TirUtilities_Signals_ByteSignal_AddReceiver_UnityAction_System_Byte__
@@ -1852,6 +1864,12 @@ references:
   commentId: T:TirUtilities.Signals.FloatSignal
   fullName: TirUtilities.Signals.FloatSignal
   nameWithType: FloatSignal
+- uid: TirUtilities.Signals.FloatSignal._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.FloatSignal.html#TirUtilities_Signals_FloatSignal__OnEmit
+  commentId: F:TirUtilities.Signals.FloatSignal._OnEmit
+  fullName: TirUtilities.Signals.FloatSignal._OnEmit
+  nameWithType: FloatSignal._OnEmit
 - uid: TirUtilities.Signals.FloatSignal.AddReceiver(UnityAction{System.Single})
   name: AddReceiver(UnityAction<Single>)
   href: api/TirUtilities.Signals.FloatSignal.html#TirUtilities_Signals_FloatSignal_AddReceiver_UnityAction_System_Single__
@@ -1903,6 +1921,12 @@ references:
   commentId: T:TirUtilities.Signals.GameObjectSignal
   fullName: TirUtilities.Signals.GameObjectSignal
   nameWithType: GameObjectSignal
+- uid: TirUtilities.Signals.GameObjectSignal._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.GameObjectSignal.html#TirUtilities_Signals_GameObjectSignal__OnEmit
+  commentId: F:TirUtilities.Signals.GameObjectSignal._OnEmit
+  fullName: TirUtilities.Signals.GameObjectSignal._OnEmit
+  nameWithType: GameObjectSignal._OnEmit
 - uid: TirUtilities.Signals.GameObjectSignal.AddReceiver(UnityAction{GameObject})
   name: AddReceiver(UnityAction<GameObject>)
   href: api/TirUtilities.Signals.GameObjectSignal.html#TirUtilities_Signals_GameObjectSignal_AddReceiver_UnityAction_GameObject__
@@ -1954,6 +1978,12 @@ references:
   commentId: T:TirUtilities.Signals.IntSignal
   fullName: TirUtilities.Signals.IntSignal
   nameWithType: IntSignal
+- uid: TirUtilities.Signals.IntSignal._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.IntSignal.html#TirUtilities_Signals_IntSignal__OnEmit
+  commentId: F:TirUtilities.Signals.IntSignal._OnEmit
+  fullName: TirUtilities.Signals.IntSignal._OnEmit
+  nameWithType: IntSignal._OnEmit
 - uid: TirUtilities.Signals.IntSignal.AddReceiver(UnityAction{System.Int32})
   name: AddReceiver(UnityAction<Int32>)
   href: api/TirUtilities.Signals.IntSignal.html#TirUtilities_Signals_IntSignal_AddReceiver_UnityAction_System_Int32__
@@ -2005,6 +2035,12 @@ references:
   commentId: T:TirUtilities.Signals.LevelLoadSignal
   fullName: TirUtilities.Signals.LevelLoadSignal
   nameWithType: LevelLoadSignal
+- uid: TirUtilities.Signals.LevelLoadSignal._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal__OnEmit
+  commentId: F:TirUtilities.Signals.LevelLoadSignal._OnEmit
+  fullName: TirUtilities.Signals.LevelLoadSignal._OnEmit
+  nameWithType: LevelLoadSignal._OnEmit
 - uid: TirUtilities.Signals.LevelLoadSignal.ActiveScene
   name: ActiveScene
   href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_ActiveScene
@@ -2069,6 +2105,12 @@ references:
   commentId: T:TirUtilities.Signals.Signal
   fullName: TirUtilities.Signals.Signal
   nameWithType: Signal
+- uid: TirUtilities.Signals.Signal._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.Signal.html#TirUtilities_Signals_Signal__OnEmit
+  commentId: F:TirUtilities.Signals.Signal._OnEmit
+  fullName: TirUtilities.Signals.Signal._OnEmit
+  nameWithType: Signal._OnEmit
 - uid: TirUtilities.Signals.Signal.AddReceiver(UnityAction)
   name: AddReceiver(UnityAction)
   href: api/TirUtilities.Signals.Signal.html#TirUtilities_Signals_Signal_AddReceiver_UnityAction_
@@ -2145,6 +2187,12 @@ references:
   commentId: T:TirUtilities.Signals.StringSignal
   fullName: TirUtilities.Signals.StringSignal
   nameWithType: StringSignal
+- uid: TirUtilities.Signals.StringSignal._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.StringSignal.html#TirUtilities_Signals_StringSignal__OnEmit
+  commentId: F:TirUtilities.Signals.StringSignal._OnEmit
+  fullName: TirUtilities.Signals.StringSignal._OnEmit
+  nameWithType: StringSignal._OnEmit
 - uid: TirUtilities.Signals.StringSignal.AddReceiver(UnityAction{System.String})
   name: AddReceiver(UnityAction<String>)
   href: api/TirUtilities.Signals.StringSignal.html#TirUtilities_Signals_StringSignal_AddReceiver_UnityAction_System_String__
