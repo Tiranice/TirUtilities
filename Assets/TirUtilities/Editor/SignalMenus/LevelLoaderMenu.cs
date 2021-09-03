@@ -80,6 +80,8 @@ namespace TirUtilities.Editor.SignalMenus
         {
             _Buttons.Clear();
 
+            if (_Signals.Count < 1) return;
+
             System.Func<VisualElement> makeBox = MakeBox;
             System.Action<VisualElement, int> bindBox = BindBox;
 

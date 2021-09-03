@@ -1,10 +1,9 @@
 using UnityEngine;
 
-
 namespace TirUtilities.Signals
 {
     ///<!--
-    /// IntSignal.cs
+    /// SignalBase.cs
     /// 
     /// Project:  TirUtilities
     /// 
