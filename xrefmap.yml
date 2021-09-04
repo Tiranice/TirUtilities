@@ -9,6 +9,12 @@ references:
   fullName.vb: ''
   nameWithType: Global
   nameWithType.vb: ''
+- uid: Global.BehaviourSketch
+  name: BehaviourSketch
+  href: api/Global.BehaviourSketch.html
+  commentId: T:Global.BehaviourSketch
+  fullName: BehaviourSketch
+  nameWithType: BehaviourSketch
 - uid: Global.BuiltInResourcesWindow
   name: BuiltInResourcesWindow
   href: api/Global.BuiltInResourcesWindow.html
@@ -736,6 +742,174 @@ references:
   commentId: T:TirUtilities.Editor.MenuPageContextMenu
   fullName: TirUtilities.Editor.MenuPageContextMenu
   nameWithType: MenuPageContextMenu
+- uid: TirUtilities.Editor.Prefs
+  name: TirUtilities.Editor.Prefs
+  href: api/TirUtilities.Editor.Prefs.html
+  commentId: N:TirUtilities.Editor.Prefs
+  fullName: TirUtilities.Editor.Prefs
+  nameWithType: TirUtilities.Editor.Prefs
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1
+  name: EditorPrefsItem<T>
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html
+  commentId: T:TirUtilities.Editor.Prefs.EditorPrefsItem`1
+  name.vb: EditorPrefsItem(Of T)
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T)
+  nameWithType: EditorPrefsItem<T>
+  nameWithType.vb: EditorPrefsItem(Of T)
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.#ctor(System.String,GUIContent,`0)
+  name: EditorPrefsItem(String, GUIContent, T)
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1__ctor_System_String_GUIContent__0_
+  commentId: M:TirUtilities.Editor.Prefs.EditorPrefsItem`1.#ctor(System.String,GUIContent,`0)
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.EditorPrefsItem(System.String, GUIContent, T)
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).EditorPrefsItem(System.String, GUIContent, T)
+  nameWithType: EditorPrefsItem<T>.EditorPrefsItem(String, GUIContent, T)
+  nameWithType.vb: EditorPrefsItem(Of T).EditorPrefsItem(String, GUIContent, T)
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.#ctor*
+  name: EditorPrefsItem
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1__ctor_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsItem`1.#ctor
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.EditorPrefsItem
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).EditorPrefsItem
+  nameWithType: EditorPrefsItem<T>.EditorPrefsItem
+  nameWithType.vb: EditorPrefsItem(Of T).EditorPrefsItem
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.DefaultValue
+  name: DefaultValue
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_DefaultValue
+  commentId: P:TirUtilities.Editor.Prefs.EditorPrefsItem`1.DefaultValue
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.DefaultValue
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).DefaultValue
+  nameWithType: EditorPrefsItem<T>.DefaultValue
+  nameWithType.vb: EditorPrefsItem(Of T).DefaultValue
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.DefaultValue*
+  name: DefaultValue
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_DefaultValue_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsItem`1.DefaultValue
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.DefaultValue
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).DefaultValue
+  nameWithType: EditorPrefsItem<T>.DefaultValue
+  nameWithType.vb: EditorPrefsItem(Of T).DefaultValue
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.Draw
+  name: Draw()
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_Draw
+  commentId: M:TirUtilities.Editor.Prefs.EditorPrefsItem`1.Draw
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.Draw()
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Draw()
+  nameWithType: EditorPrefsItem<T>.Draw()
+  nameWithType.vb: EditorPrefsItem(Of T).Draw()
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.Draw*
+  name: Draw
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_Draw_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsItem`1.Draw
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.Draw
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Draw
+  nameWithType: EditorPrefsItem<T>.Draw
+  nameWithType.vb: EditorPrefsItem(Of T).Draw
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.Key
+  name: Key
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_Key
+  commentId: P:TirUtilities.Editor.Prefs.EditorPrefsItem`1.Key
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.Key
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Key
+  nameWithType: EditorPrefsItem<T>.Key
+  nameWithType.vb: EditorPrefsItem(Of T).Key
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.Key*
+  name: Key
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_Key_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsItem`1.Key
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.Key
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Key
+  nameWithType: EditorPrefsItem<T>.Key
+  nameWithType.vb: EditorPrefsItem(Of T).Key
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.Label
+  name: Label
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_Label
+  commentId: P:TirUtilities.Editor.Prefs.EditorPrefsItem`1.Label
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.Label
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Label
+  nameWithType: EditorPrefsItem<T>.Label
+  nameWithType.vb: EditorPrefsItem(Of T).Label
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.Label*
+  name: Label
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_Label_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsItem`1.Label
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.Label
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Label
+  nameWithType: EditorPrefsItem<T>.Label
+  nameWithType.vb: EditorPrefsItem(Of T).Label
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.op_Implicit(TirUtilities.Editor.Prefs.EditorPrefsItem{`0})~`0
+  name: Implicit(EditorPrefsItem<T> to T)
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_op_Implicit_TirUtilities_Editor_Prefs_EditorPrefsItem__0____0
+  commentId: M:TirUtilities.Editor.Prefs.EditorPrefsItem`1.op_Implicit(TirUtilities.Editor.Prefs.EditorPrefsItem{`0})~`0
+  name.vb: Widening(EditorPrefsItem(Of T) to T)
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.Implicit(TirUtilities.Editor.Prefs.EditorPrefsItem<T> to T)
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Widening(TirUtilities.Editor.Prefs.EditorPrefsItem(Of T) to T)
+  nameWithType: EditorPrefsItem<T>.Implicit(EditorPrefsItem<T> to T)
+  nameWithType.vb: EditorPrefsItem(Of T).Widening(EditorPrefsItem(Of T) to T)
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.op_Implicit*
+  name: Implicit
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_op_Implicit_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsItem`1.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.Implicit
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Widening
+  nameWithType: EditorPrefsItem<T>.Implicit
+  nameWithType.vb: EditorPrefsItem(Of T).Widening
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.Value
+  name: Value
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_Value
+  commentId: P:TirUtilities.Editor.Prefs.EditorPrefsItem`1.Value
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.Value
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Value
+  nameWithType: EditorPrefsItem<T>.Value
+  nameWithType.vb: EditorPrefsItem(Of T).Value
+- uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1.Value*
+  name: Value
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html#TirUtilities_Editor_Prefs_EditorPrefsItem_1_Value_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsItem`1.Value
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsItem<T>.Value
+  fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Value
+  nameWithType: EditorPrefsItem<T>.Value
+  nameWithType.vb: EditorPrefsItem(Of T).Value
+- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings
+  name: TirUtilitesProjectSettings
+  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html
+  commentId: T:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings
+  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings
+  nameWithType: TirUtilitesProjectSettings
+- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider
+  name: CreateSettingsProvider()
+  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_CreateSettingsProvider
+  commentId: M:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider
+  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider()
+  nameWithType: TirUtilitesProjectSettings.CreateSettingsProvider()
+- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider*
+  name: CreateSettingsProvider
+  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_CreateSettingsProvider_
+  commentId: Overload:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider
+  nameWithType: TirUtilitesProjectSettings.CreateSettingsProvider
+- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder
+  name: HomeFolder
+  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_HomeFolder
+  commentId: P:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder
+  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder
+  nameWithType: TirUtilitesProjectSettings.HomeFolder
+- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder*
+  name: HomeFolder
+  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_HomeFolder_
+  commentId: Overload:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder
+  nameWithType: TirUtilitesProjectSettings.HomeFolder
 - uid: TirUtilities.Editor.ProjectEditorPaths
   name: ProjectEditorPaths
   href: api/TirUtilities.Editor.ProjectEditorPaths.html
@@ -768,6 +942,19 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Editor.ProjectEditorPaths.PathToMenuPagePrefab
   nameWithType: ProjectEditorPaths.PathToMenuPagePrefab
+- uid: TirUtilities.Editor.ProjectEditorPaths.ProjectName
+  name: ProjectName
+  href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_ProjectName
+  commentId: P:TirUtilities.Editor.ProjectEditorPaths.ProjectName
+  fullName: TirUtilities.Editor.ProjectEditorPaths.ProjectName
+  nameWithType: ProjectEditorPaths.ProjectName
+- uid: TirUtilities.Editor.ProjectEditorPaths.ProjectName*
+  name: ProjectName
+  href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_ProjectName_
+  commentId: Overload:TirUtilities.Editor.ProjectEditorPaths.ProjectName
+  isSpec: "True"
+  fullName: TirUtilities.Editor.ProjectEditorPaths.ProjectName
+  nameWithType: ProjectEditorPaths.ProjectName
 - uid: TirUtilities.Editor.PropertyDrawers
   name: TirUtilities.Editor.PropertyDrawers
   href: api/TirUtilities.Editor.PropertyDrawers.html
@@ -1197,25 +1384,6 @@ references:
   commentId: N:TirUtilities.Extensions
   fullName: TirUtilities.Extensions
   nameWithType: TirUtilities.Extensions
-- uid: TirUtilities.Extensions.ColorExtensions
-  name: ColorExtensions
-  href: api/TirUtilities.Extensions.ColorExtensions.html
-  commentId: T:TirUtilities.Extensions.ColorExtensions
-  fullName: TirUtilities.Extensions.ColorExtensions
-  nameWithType: ColorExtensions
-- uid: TirUtilities.Extensions.ColorExtensions.SetRandColor(Color,System.Single)
-  name: SetRandColor(Color, Single)
-  href: api/TirUtilities.Extensions.ColorExtensions.html#TirUtilities_Extensions_ColorExtensions_SetRandColor_Color_System_Single_
-  commentId: M:TirUtilities.Extensions.ColorExtensions.SetRandColor(Color,System.Single)
-  fullName: TirUtilities.Extensions.ColorExtensions.SetRandColor(Color, System.Single)
-  nameWithType: ColorExtensions.SetRandColor(Color, Single)
-- uid: TirUtilities.Extensions.ColorExtensions.SetRandColor*
-  name: SetRandColor
-  href: api/TirUtilities.Extensions.ColorExtensions.html#TirUtilities_Extensions_ColorExtensions_SetRandColor_
-  commentId: Overload:TirUtilities.Extensions.ColorExtensions.SetRandColor
-  isSpec: "True"
-  fullName: TirUtilities.Extensions.ColorExtensions.SetRandColor
-  nameWithType: ColorExtensions.SetRandColor
 - uid: TirUtilities.Extensions.EventExtension
   name: EventExtension
   href: api/TirUtilities.Extensions.EventExtension.html

@@ -1,4 +1,9 @@
 {
+  "api/Global.BehaviourSketch.html": {
+    "href": "api/Global.BehaviourSketch.html",
+    "title": "Class BehaviourSketch | TirUtilities",
+    "keywords": "Class BehaviourSketch Inheritance Object BehaviourSketch Namespace : Global Assembly : cs.temp.dll.dll Syntax public class BehaviourSketch : MonoBehaviour"
+  },
   "api/Global.BuiltInResourcesWindow.html": {
     "href": "api/Global.BuiltInResourcesWindow.html",
     "title": "Class BuiltInResourcesWindow | TirUtilities",
@@ -22,7 +27,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | TirUtilities",
-    "keywords": "Namespace Global Classes BuiltInResourcesWindow Connection ConnectionPoint NodeBase NodeBasedEditor PieChartTest RebindTest Enums ConnectionPointType"
+    "keywords": "Namespace Global Classes BehaviourSketch BuiltInResourcesWindow Connection ConnectionPoint NodeBase NodeBasedEditor PieChartTest RebindTest Enums ConnectionPointType"
   },
   "api/Global.NodeBase.html": {
     "href": "api/Global.NodeBase.html",
@@ -159,10 +164,25 @@
     "title": "Class MenuPageContextMenu | TirUtilities",
     "keywords": "Class MenuPageContextMenu Context menu to create new Menu Pages int he hierarchy. Inheritance Object MenuPageContextMenu Namespace : TirUtilities.Editor Assembly : cs.temp.dll.dll Syntax public class MenuPageContextMenu : UEditor"
   },
+  "api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html": {
+    "href": "api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html",
+    "title": "Class EditorPrefsItem<T> | TirUtilities",
+    "keywords": "Class EditorPrefsItem<T> Inheritance Object EditorPrefsItem<T> Namespace : TirUtilities.Editor.Prefs Assembly : cs.temp.dll.dll Syntax public abstract class EditorPrefsItem<T> Type Parameters Name Description T Remarks Based on the EditorPrefItem class in the source of RainbowFolders. Constructors EditorPrefsItem(String, GUIContent, T) Declaration protected EditorPrefsItem(string key, GUIContent label, T defaultValue) Parameters Type Name Description String key GUIContent label T defaultValue Properties DefaultValue The default value stored with the key when it is created. Declaration protected T DefaultValue { get; } Property Value Type Description T Key Key used by EditorPrefs. Declaration protected string Key { get; } Property Value Type Description String Label Content to be drawn. Declaration protected GUIContent Label { get; } Property Value Type Description GUIContent Value Actual value of the item. Declaration public abstract T Value { get; set; } Property Value Type Description T Methods Draw() Draw this IMGUI item. Declaration public abstract void Draw() Operators Implicit(EditorPrefsItem<T> to T) Declaration public static implicit operator T(EditorPrefsItem<T> other) Parameters Type Name Description EditorPrefsItem <T> other Returns Type Description T"
+  },
+  "api/TirUtilities.Editor.Prefs.html": {
+    "href": "api/TirUtilities.Editor.Prefs.html",
+    "title": "Namespace TirUtilities.Editor.Prefs | TirUtilities",
+    "keywords": "Namespace TirUtilities.Editor.Prefs Classes EditorPrefsItem<T> TirUtilitesProjectSettings"
+  },
+  "api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html": {
+    "href": "api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html",
+    "title": "Class TirUtilitesProjectSettings | TirUtilities",
+    "keywords": "Class TirUtilitesProjectSettings Inheritance Object TirUtilitesProjectSettings Namespace : TirUtilities.Editor.Prefs Assembly : cs.temp.dll.dll Syntax public static class TirUtilitesProjectSettings Remarks Based on the ProjectPreferences class in the source of RainbowFolders. Properties HomeFolder Declaration public static string HomeFolder { get; set; } Property Value Type Description String Methods CreateSettingsProvider() Declaration public static SettingsProvider CreateSettingsProvider() Returns Type Description SettingsProvider"
+  },
   "api/TirUtilities.Editor.ProjectEditorPaths.html": {
     "href": "api/TirUtilities.Editor.ProjectEditorPaths.html",
     "title": "Struct ProjectEditorPaths | TirUtilities",
-    "keywords": "Struct ProjectEditorPaths Paths to important locations used by editor scripts. Namespace : TirUtilities.Editor Assembly : cs.temp.dll.dll Syntax public ref readonly struct ProjectEditorPaths Properties PathToHierarchyDividerSettings Declaration public static readonly string PathToHierarchyDividerSettings { get; } Property Value Type Description String PathToMenuPagePrefab Declaration public static readonly string PathToMenuPagePrefab { get; } Property Value Type Description String"
+    "keywords": "Struct ProjectEditorPaths Paths to important locations used by editor scripts. Namespace : TirUtilities.Editor Assembly : cs.temp.dll.dll Syntax public ref readonly struct ProjectEditorPaths Properties PathToHierarchyDividerSettings Declaration public static readonly string PathToHierarchyDividerSettings { get; } Property Value Type Description String PathToMenuPagePrefab Declaration public static readonly string PathToMenuPagePrefab { get; } Property Value Type Description String ProjectName Declaration public static readonly string ProjectName { get; } Property Value Type Description String"
   },
   "api/TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer.html": {
     "href": "api/TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer.html",
@@ -244,11 +264,6 @@
     "title": "Class StateAction | TirUtilities",
     "keywords": "Class StateAction Inheritance Object StateAction Namespace : TirUtilities.Experimental Assembly : cs.temp.dll.dll Syntax public class StateAction : ScriptableObject"
   },
-  "api/TirUtilities.Extensions.ColorExtensions.html": {
-    "href": "api/TirUtilities.Extensions.ColorExtensions.html",
-    "title": "Class ColorExtensions | TirUtilities",
-    "keywords": "Class ColorExtensions Inheritance Object ColorExtensions Namespace : TirUtilities.Extensions Assembly : cs.temp.dll.dll Syntax public static class ColorExtensions Methods SetRandColor(Color, Single) Declaration public static void SetRandColor(this Color color, float alpha = 1F) Parameters Type Name Description Color color Single alpha"
-  },
   "api/TirUtilities.Extensions.EventExtension.html": {
     "href": "api/TirUtilities.Extensions.EventExtension.html",
     "title": "Class EventExtension | TirUtilities",
@@ -257,7 +272,7 @@
   "api/TirUtilities.Extensions.html": {
     "href": "api/TirUtilities.Extensions.html",
     "title": "Namespace TirUtilities.Extensions | TirUtilities",
-    "keywords": "Namespace TirUtilities.Extensions Classes ColorExtensions EventExtension A set of extension methods for UnityActions and UnityEvents. ListExtensions A set of extensions to generic lists. ObjectExstentions A set of extensions to UnityEngine.Object. RigidbodyExtensions Extension methods for Unity rigidbodies."
+    "keywords": "Namespace TirUtilities.Extensions Classes EventExtension A set of extension methods for UnityActions and UnityEvents. ListExtensions A set of extensions to generic lists. ObjectExstentions A set of extensions to UnityEngine.Object. RigidbodyExtensions Extension methods for Unity rigidbodies."
   },
   "api/TirUtilities.Extensions.ListExtensions.html": {
     "href": "api/TirUtilities.Extensions.ListExtensions.html",

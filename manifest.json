@@ -24,6 +24,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.BehaviourSketch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BehaviourSketch.html",
+          "hash": "AIKJFQNvfroYiCTRqOvqLj/mq22DRN4ADBDydxWJ07o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.BuiltInResourcesWindow.yml",
       "output": {
         ".html": {
@@ -124,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "NaFv4DK+9L+J8bVWJqcoVD+FYSFQxQkelll73EEcSeg="
+          "hash": "MFgOn6RLoLCrc+PednJXnc0iMhzXcEsAsmycyKkjOMo="
         }
       },
       "is_incremental": false,
@@ -396,11 +408,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html",
+          "hash": "uAx+UEZEG3dbKV9Zo6TeX1J05QapVfPD9kVH8tfWC5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html",
+          "hash": "X2SM7H2G+IVLMcfU6RWAB3gCo8BHN/9v85u8RRTuG0c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Prefs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Prefs.html",
+          "hash": "SfOA1tHquCOfxStNE/UPM4hC54BUpb0pWSsC/3StLwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.Editor.ProjectEditorPaths.yml",
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Editor.ProjectEditorPaths.html",
-          "hash": "YNWpssUB0vUmEMjD3IyXfaxI1wNNJn8ByBPVmxwX4DI="
+          "hash": "oejksHsJMTbP5lMxHnQl3LdDI9tW+bhYpumFyc5PBIU="
         }
       },
       "is_incremental": false,
@@ -612,18 +660,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TirUtilities.Extensions.ColorExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TirUtilities.Extensions.ColorExtensions.html",
-          "hash": "pWw6KmiJ0s32O/xD5tNCdsoKc6riqHWZutjhF4yc9Wg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.Extensions.EventExtension.yml",
       "output": {
         ".html": {
@@ -676,7 +712,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Extensions.html",
-          "hash": "T3mo0Z7nHUQI3eJchpNdNcycjC8ftByIYzPyLRmzj10="
+          "hash": "OQn2+z4amr/L9JiG1ACec56CGvG50wvMotd7I5Whbp8="
         }
       },
       "is_incremental": false,
@@ -1204,7 +1240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "cjWjGBnsKzxEJigUqx/tqj1fPPn0XsKLeVtseIOZAcY="
+          "hash": "pUZk3iCQFk1faMah/fN+mqX1fOnUa8dSzhKLIMssTCw="
         }
       },
       "is_incremental": false,
@@ -1394,7 +1430,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 98,
+          "total_file_count": 101,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
