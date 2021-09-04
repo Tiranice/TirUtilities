@@ -22,27 +22,22 @@ namespace TirUtilities.Editor
     [CustomEditor(typeof(FlexibleGridLayoutGroup))]
     public class FlexGridInpector : UnityEditor.Editor
     {
-        #region Constants
+        #region String Constants
 
-        private const string _CellSizeLabel = "Cell Size";
         private const string _X = "X";
         private const string _Y = "Y";
-        private const string _PaddingLable = "Padding";
 
         private const string _ExtraSettingsLabel = "<b>Extra Settings</b>";
 
-        private const string _CellSize = "_cellSize";
         private const string _FitX = "_fitX";
         private const string _FitY = "_fitY";
-        private const string _Script = "m_Script";
-        private const string _FitType = "_fitType";
         private const string _Rows = "_rows";
         private const string _Columns = "_columns";
         private const string _Padding = "m_Padding";
         private const string _PaddingLeft = "m_Left";
         private const string _PaddingRight = "m_Right";
         private const string _PaddingTop = "m_Top";
-        private const string _RelativePropertyPath = "m_Bottom";
+        private const string _PaddingBottom = "m_Bottom";
 
         #endregion
 
@@ -102,7 +97,7 @@ namespace TirUtilities.Editor
         /// <summary> Draw the fit type. </summary>
         private void FitTypeProperty()
         {
-            _fitTypeToDisplay = serializedObject.FindProperty(_FitType);
+            _fitTypeToDisplay = serializedObject.FindProperty("_fitType");
             EditorGUILayout.PropertyField(_fitTypeToDisplay);
             EditorGUILayout.Space();
 
@@ -160,9 +155,9 @@ namespace TirUtilities.Editor
             var origin = new Rect(controlRect.x, controlRect.y, old_LabelWidth, controlRect.height);
 
             // Field Label
-            GUI.Label(origin, _CellSizeLabel);
+            GUI.Label(origin, "Cell Size");
 
-            var cellSize = serializedObject.FindProperty(_CellSize);
+            var cellSize = serializedObject.FindProperty("_cellSize");
             Vector2 tempVec = Vector2.zero;
             tempVec.x = cellSize.FindPropertyRelative(_X.ToLower()).floatValue;
             tempVec.y = cellSize.FindPropertyRelative(_Y.ToLower()).floatValue;
@@ -209,7 +204,7 @@ namespace TirUtilities.Editor
             GUI.Label(rect, (_foldExtraSettings ? _uiStateLabel[0] : _uiStateLabel[1]), rightLabel);
 
             FitProperties();
-            PaddingProperty(_PaddingLable);
+            PaddingProperty("Padding");
             SpaceAroundProperty();
         }
 
@@ -249,7 +244,7 @@ namespace TirUtilities.Editor
             vec.x = padding.FindPropertyRelative(_PaddingLeft).intValue;
             vec.y = padding.FindPropertyRelative(_PaddingRight).intValue;
             vec.z = padding.FindPropertyRelative(_PaddingTop).intValue;
-            vec.w = padding.FindPropertyRelative(_RelativePropertyPath).intValue;
+            vec.w = padding.FindPropertyRelative(_PaddingBottom).intValue;
 
 
             float fieldWidth = (width - old_FieldWidth) / 5.75f;
@@ -282,10 +277,10 @@ namespace TirUtilities.Editor
             pos0.x += fieldWidth;
             vec.w = EditorGUI.FloatField(pos0, GUIContent.none, vec.w);
 
-            padding.FindPropertyRelative("m_Left").intValue = (int)vec.x;
-            padding.FindPropertyRelative("m_Right").intValue = (int)vec.y;
-            padding.FindPropertyRelative("m_Top").intValue = (int)vec.z;
-            padding.FindPropertyRelative("m_Bottom").intValue = (int)vec.w;
+            padding.FindPropertyRelative(_PaddingLeft).intValue = (int)vec.x;
+            padding.FindPropertyRelative(_PaddingRight).intValue = (int)vec.y;
+            padding.FindPropertyRelative(_PaddingTop).intValue = (int)vec.z;
+            padding.FindPropertyRelative(_PaddingBottom).intValue = (int)vec.w;
 
             EditorGUIUtility.labelWidth = old_LabelWidth;
             EditorGUIUtility.fieldWidth = old_FieldWidth;
