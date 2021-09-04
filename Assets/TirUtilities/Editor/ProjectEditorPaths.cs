@@ -1,5 +1,6 @@
 namespace TirUtilities.Editor
 {
+    using static TirUtilities.Editor.Prefs.TirUtilitesProjectSettings;
     ///<!--
     /// ProjectPaths.cs
     /// 
@@ -7,17 +8,27 @@ namespace TirUtilities.Editor
     ///        
     /// Author :  Devon Wilson
     /// Created:  June 18, 2021
-    /// Updated:  June 18, 2021
+    /// Updated:  Sep. 03, 2021
     /// -->
     /// <summary>
     /// Paths to important locations used by editor scripts.
     /// </summary>
     public readonly ref struct ProjectEditorPaths
     {
+        public static string ProjectName
+        {
+            get
+            {
+                var splitPath = UnityEngine.Application.dataPath.Split('/');
+                return splitPath[splitPath.Length - 2];
+            }
+        }
+            
+
         public static string PathToHierarchyDividerSettings => 
-            @"Assets/TirUtilities/Resources/SettingsAssets/HierarchyDividerSettings.asset";
+            $@"{HomeFolder}/Resources/SettingsAssets/HierarchyDividerSettings.asset";
 
         public static string PathToMenuPagePrefab =>
-            @"Assets/TirUtilities/Resources/Prefabs/MenuPageCanvas.prefab";
+            $@"{HomeFolder}/Resources/Prefabs/MenuPageCanvas.prefab";
     }
 }
