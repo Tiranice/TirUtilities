@@ -9,12 +9,13 @@ using UnityEngine;
 /// 
 /// Project:  Project
 ///        
-/// Author :  Author
-/// Created:  Jan. 01, 2021
-/// Updated:  Jan. 01, 2021
+/// Author :  Devon Wilson | Tenebrous
+/// Created:  2021
+/// Updated:  2021
 /// -->
 /// <summary>
-///
+/// From <see href="https://wiki.unity3d.com/index.php/Show_Built_In_Resources">Show Built In Resources</see>
+/// on the community wiki.
 /// </summary>
 public class BuiltInResourcesWindow : EditorWindow
 {
@@ -51,23 +52,22 @@ public class BuiltInResourcesWindow : EditorWindow
             _oldPosition = position;
         }
 
-        GUILayout.BeginHorizontal();
-
-        if (GUILayout.Toggle(_showingStyles, "Styles", EditorStyles.toolbarButton) != _showingStyles)
+        using (new GUILayout.HorizontalScope()) 
         {
-            _showingStyles = !_showingStyles;
-            _showingIcons = !_showingStyles;
-            _drawings = null;
-        }
+            if (GUILayout.Toggle(_showingStyles, "Styles", EditorStyles.toolbarButton) != _showingStyles)
+            {
+                _showingStyles = !_showingStyles;
+                _showingIcons = !_showingStyles;
+                _drawings = null;
+            }
 
-        if (GUILayout.Toggle(_showingIcons, "Icons", EditorStyles.toolbarButton) != _showingIcons)
-        {
-            _showingIcons = !_showingIcons;
-            _showingStyles = !_showingIcons;
-            _drawings = null;
+            if (GUILayout.Toggle(_showingIcons, "Icons", EditorStyles.toolbarButton) != _showingIcons)
+            {
+                _showingIcons = !_showingIcons;
+                _showingStyles = !_showingIcons;
+                _drawings = null;
+            }
         }
-
-        GUILayout.EndHorizontal();
 
         string newSearch = GUILayout.TextField(_search);
         if (newSearch != _search)
@@ -125,10 +125,11 @@ public class BuiltInResourcesWindow : EditorWindow
                         if (GUILayout.Button(thisStyle.name, GUILayout.Width(width)))
                             CopyText("(GUIStyle)\"" + thisStyle.name + "\"");
 
-                        GUILayout.BeginHorizontal();
-                        GUILayout.Toggle(false, inactiveText, thisStyle, GUILayout.Width(width / 2));
-                        GUILayout.Toggle(false, activeText, thisStyle, GUILayout.Width(width / 2));
-                        GUILayout.EndHorizontal();
+                        using (new GUILayout.HorizontalScope()) 
+                        {
+                            GUILayout.Toggle(false, inactiveText, thisStyle, GUILayout.Width(width / 2));
+                            GUILayout.Toggle(false, activeText, thisStyle, GUILayout.Width(width / 2));
+                        }
                     };
 
                     x += width + 18.0f;
@@ -208,25 +209,23 @@ public class BuiltInResourcesWindow : EditorWindow
         _scrollPos = GUI.VerticalScrollbar(r, _scrollPos, areaHeight, 0.0f, _maxY);
 
         var area = new Rect(0, top, position.width - 16.0f, areaHeight);
-        GUILayout.BeginArea(area);
-
-        int count = 0;
-        foreach (Drawing draw in _drawings)
+        using (new GUILayout.AreaScope(area))
         {
-            Rect newRect = draw.Rect;
-            newRect.y -= _scrollPos;
 
-            if (newRect.y + newRect.height > 0 && newRect.y < areaHeight)
+            int count = 0;
+            foreach (Drawing draw in _drawings)
             {
-                GUILayout.BeginArea(newRect, GUI.skin.textField);
-                draw.Draw();
-                GUILayout.EndArea();
+                Rect newRect = draw.Rect;
+                newRect.y -= _scrollPos;
 
-                count++;
+                if (newRect.y + newRect.height > 0 && newRect.y < areaHeight)
+                {
+                    using (new GUILayout.AreaScope(newRect, "", GUI.skin.textField))
+                        draw.Draw();
+                    count++;
+                }
             }
         }
-
-        GUILayout.EndArea();
     }
 
     void CopyText(string pText)

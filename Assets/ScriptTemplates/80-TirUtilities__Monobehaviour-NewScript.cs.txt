@@ -6,11 +6,12 @@ using UnityEngine;
 ///<!--
 /// #SCRIPTNAME#.cs
 /// 
-/// Project:  Project
+/// Project:  #PROJECT#
 ///        
-/// Author :  Author
-/// Created:  Jan. 01, 2021
-/// Updated:  Jan. 01, 2021
+/// Author :  #AUTHOR#
+/// Company:  #COMPANY#
+/// Created:  #DATETODAY#
+/// Updated:  #DATETODAY#
 /// -->
 /// <summary>
 ///

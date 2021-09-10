@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cf9561b024172d428506aaf4517f4f7, type: 3}
   m_Name: SubmenuState (1)
   m_EditorClassIdentifier: 
+  _description: 

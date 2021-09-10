@@ -1,11 +1,7 @@
 {
-    "name": "TirUtilities.Editor",
-    "rootNamespace": "TirUtilities.Editor",
-    "references": [
-        "GUID:44f2c9ceeeed52f4390dd81b0af45b0f",
-        "GUID:063477da930297d4caf7a30421ccebfa",
-        "GUID:cfac0e018a8ea7d4a8916f78f2a2b07c"
-    ],
+    "name": "TirUtilities.Editor.Prefs",
+    "rootNamespace": "TirUtilities.Editor.Prefs",
+    "references": [],
     "includePlatforms": [
         "Editor"
     ],

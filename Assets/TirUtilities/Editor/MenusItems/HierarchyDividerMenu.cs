@@ -45,7 +45,7 @@ namespace TirUtilities.Editor
         /// <summary>
         /// Create the divider empties in the hierarchy.
         /// </summary>
-        [MenuItem("TirUtilities/Hierarchy/Create Dividers")]
+        [MenuItem("TirUtilities/Hierarchy/Create Dividers", priority = 1)]
         internal static void CreateHierarchyDividers()
         {
             foreach (string divider in _Settings.Dividers)
@@ -58,7 +58,7 @@ namespace TirUtilities.Editor
         /// <summary>
         /// Destroy the divider empties in the hierarchy.
         /// </summary>
-        [MenuItem("TirUtilities/Hierarchy/Destroy Dividers")]
+        [MenuItem("TirUtilities/Hierarchy/Destroy Dividers", priority = 2)]
         internal static void DestroyHierarchyDividers()
         {
             if (_Dividers.IsNullOrEmpty()) return;
@@ -68,6 +68,11 @@ namespace TirUtilities.Editor
 
             _Dividers.Clear();
         }
+
+        /// <summary> Selects the settings asset. </summary>
+        [MenuItem("TirUtilities/Hierarchy/Select Divider Settings", priority = 10)]
+        internal static void SelectHierarchyDividerSettings() => 
+            Selection.activeObject = _Settings;
 
         #endregion
     }

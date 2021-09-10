@@ -7,7 +7,7 @@ namespace TirUtilities.Editor.Prefs
     /// 
     /// Project:  TirUtilities
     ///        
-    /// Author :  Devon
+    /// Author :  Devon Wilson
     /// Created:  Sep. 03, 2021
     /// Updated:  Sep. 03, 2021
     /// -->
@@ -50,7 +50,6 @@ namespace TirUtilities.Editor.Prefs
 
         /// <summary> Draw this IMGUI item. </summary>
         public abstract void Draw();
-
 
         public static implicit operator T(EditorPrefsItem<T> other) => other.Value;
     }

@@ -1,4 +1,5 @@
 using UnityEditor;
+using UnityEngine;
 
 namespace TirUtilities.Editor.Experimental
 {
@@ -10,7 +11,7 @@ namespace TirUtilities.Editor.Experimental
     ///        
     /// Author :  Devon Wilson
     /// Created:  July 05, 2021
-    /// Updated:  July 05, 2021
+    /// Updated:  Sep. 09, 2021
     /// -->
     /// <summary>
     ///
@@ -43,6 +44,7 @@ namespace TirUtilities.Editor.Experimental
 
             _menuStateMachine.MenuPages.Clear();
             _menuStateMachine.MenuPages.AddRange(FindObjectsOfType<MenuPage>());
+            _menuStateMachine.MenuPages.Sort((i, j) => i.transform.GetSiblingIndex().CompareTo(j.transform.GetSiblingIndex()));
         }
 
         #endregion

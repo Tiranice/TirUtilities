@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 namespace TirUtilities.Editor.SignalMenus
 {
     using TirUtilities.Signals;
-
+    using static TirLogger;
     ///<!--
     /// LevelLoaderMenu.cs
     /// 
@@ -73,8 +73,14 @@ namespace TirUtilities.Editor.SignalMenus
 
         #region Private Methods
 
-        private void FetchLevelLoadSignals() 
-            => _Signals = Resources.FindObjectsOfTypeAll<LevelLoadSignal>().ToList();
+        private void FetchLevelLoadSignals()
+        {
+            var assetPaths = new List<string>();
+            foreach (var guid in AssetDatabase.FindAssets($"t:{nameof(LevelLoadSignal)}"))
+                assetPaths.Add(AssetDatabase.GUIDToAssetPath(guid));
+            foreach (var path in assetPaths)
+                _Signals.Add(AssetDatabase.LoadAssetAtPath<LevelLoadSignal>(path));
+        }
 
         private void PopulateWindow()
         {

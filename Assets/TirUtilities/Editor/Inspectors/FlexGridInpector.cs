@@ -14,7 +14,7 @@ namespace TirUtilities.Editor
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 15, 2021
-    /// Updated:  July 09, 2021
+    /// Updated:  Sep. 03, 2021
     /// -->
     /// <summary>
     /// Draws the inspector for <see cref="FlexibleGridLayoutGroup"/>.
@@ -45,6 +45,8 @@ namespace TirUtilities.Editor
 
         private readonly List<SerializedProperty> _drawnProperites = new List<SerializedProperty>();
         private SerializedProperty _fitTypeToDisplay;
+        private SerializedProperty _rows;
+        private SerializedProperty _columns;
 
         #endregion
 
@@ -52,10 +54,17 @@ namespace TirUtilities.Editor
 
         private bool _foldExtraSettings = false;
         private readonly string[] _uiStateLabel = new string[] { "<i>(Click to collapse)</i> ", "<i>(Click to expand)</i> " };
-        
+
         #endregion
 
         #region Overrides
+
+        private void OnEnable()
+        {
+            _rows = serializedObject.FindProperty(_Rows);
+            _columns = serializedObject.FindProperty(_Columns);
+            _fitTypeToDisplay = serializedObject.FindProperty("_fitType");
+        }
 
         public override void OnInspectorGUI() => DrawInspector();
 
@@ -97,7 +106,7 @@ namespace TirUtilities.Editor
         /// <summary> Draw the fit type. </summary>
         private void FitTypeProperty()
         {
-            _fitTypeToDisplay = serializedObject.FindProperty("_fitType");
+            
             EditorGUILayout.PropertyField(_fitTypeToDisplay);
             EditorGUILayout.Space();
 
@@ -107,41 +116,38 @@ namespace TirUtilities.Editor
         /// <summary> Draws the rows and columns. </summary>
         private void RowColumnProperties()
         {
-            SerializedProperty rows = serializedObject.FindProperty(_Rows);
-            SerializedProperty columns = serializedObject.FindProperty(_Columns);
-
             var fitType = (FitType)_fitTypeToDisplay.enumValueIndex;
 
             if (fitType.DistributesEvenly())
             {
                 using (new EditorGUI.DisabledScope(true))
                 {
-                    EditorGUILayout.PropertyField(rows);
-                    EditorGUILayout.PropertyField(columns);
+                    EditorGUILayout.PropertyField(_rows);
+                    EditorGUILayout.PropertyField(_columns);
                 }
             }
             else if (fitType == FitType.FixedRows)
             {
-                EditorGUILayout.PropertyField(rows);
+                EditorGUILayout.PropertyField(_rows);
                 using (new EditorGUI.DisabledScope(true))
                 {
-                    EditorGUILayout.PropertyField(columns);
+                    EditorGUILayout.PropertyField(_columns);
                 }
             }
             if (fitType == FitType.FixedColumns)
             {
                 using (new EditorGUI.DisabledScope(true))
                 {
-                    EditorGUILayout.PropertyField(rows);
+                    EditorGUILayout.PropertyField(_rows);
                 }
-                EditorGUILayout.PropertyField(columns);
+                EditorGUILayout.PropertyField(_columns);
             }
 
-            serializedObject.FindProperty(_Rows).intValue = rows.intValue;
-            serializedObject.FindProperty(_Columns).intValue = columns.intValue;
+            serializedObject.FindProperty(_Rows).intValue = _rows.intValue;
+            serializedObject.FindProperty(_Columns).intValue = _columns.intValue;
 
-            _drawnProperites.Add(rows);
-            _drawnProperites.Add(columns);
+            _drawnProperites.Add(_rows);
+            _drawnProperites.Add(_columns);
             EditorGUILayout.Space();
         }
         

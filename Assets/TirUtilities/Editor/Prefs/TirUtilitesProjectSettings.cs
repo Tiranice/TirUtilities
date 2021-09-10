@@ -9,9 +9,9 @@ namespace TirUtilities.Editor.Prefs
     /// 
     /// Project:  TirUtilities
     ///        
-    /// Author :  Devon
+    /// Author :  Devon Wilson
     /// Created:  Sep. 03, 2021
-    /// Updated:  Sep. 03, 2021
+    /// Updated:  Sep. 09, 2021
     /// -->
     /// <summary>
     /// </summary>
@@ -25,22 +25,28 @@ namespace TirUtilities.Editor.Prefs
         private const string _HomeFolderTooltip = "Change this setting to the new location of the " +
                                                   "\"TirUtilities\" folder if you move it from its " +
                                                   "default location in the project.";
+        private const string _AuthorNameTooltip = "This is the name that will be inserted into the" +
+                                                  "#AUTHOR# placeholder in the script templates.";
 
         private const string _HomeFolderPrefKey = "TirUtilities.HomeFolder.";
+        private const string _AuthorNamePrefKey = "TirUtilities.AuthorName.";
 
         private const string _HomeFolderDefault = "Assets/TirUtilities";
+        private const string _AuthorNameDefault = "AuthorName";
 
         #endregion
 
         #region Editor Prefs Properties
 
         private static EditorPrefsString HomeFolderPref { get; }
+        private static EditorPrefsString AuthorNamePref { get; }
 
         #endregion
 
         #region Public Properties
 
-        public static string HomeFolder { get; set; }
+        public static string HomeFolder { get; private set; }
+        public static string AuthorName { get; private set; }
 
         #endregion
 
@@ -48,9 +54,17 @@ namespace TirUtilities.Editor.Prefs
 
         static TirUtilitesProjectSettings()
         {
-            var homeLable = new GUIContent("Folder Location", _HomeFolderTooltip);
-            HomeFolderPref = new EditorPrefsString($"{_HomeFolderPrefKey}{ProjectName}", homeLable, _HomeFolderDefault);
-            HomeFolder = HomeFolderPref.Value;
+            var homeLabel = new GUIContent("Folder Location", _HomeFolderTooltip);
+            var authorLabel = new GUIContent("Author Name", _AuthorNameTooltip);
+            HomeFolderPref = new EditorPrefsString($"{_HomeFolderPrefKey}{ProjectName}",
+                                                   homeLabel,
+                                                   _HomeFolderDefault);
+
+            AuthorNamePref = new EditorPrefsString($"{_AuthorNamePrefKey}{ProjectName}",
+                                                   authorLabel,
+                                                   _AuthorNameDefault);
+            HomeFolder = HomeFolderPref;
+            AuthorName = AuthorNamePref;
         }
 
         #endregion
@@ -68,6 +82,13 @@ namespace TirUtilities.Editor.Prefs
                     EditorGUILayout.Separator();
 
                     HomeFolderPref.Draw();
+
+                    EditorGUILayout.Separator();
+
+                    EditorGUILayout.LabelField("Script Template Placeholders", EditorStyles.boldLabel);
+                    EditorGUILayout.Separator();
+                    
+                    AuthorNamePref.Draw();
                 }
             };
 
