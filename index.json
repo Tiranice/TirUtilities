@@ -7,7 +7,7 @@
   "api/Global.BuiltInResourcesWindow.html": {
     "href": "api/Global.BuiltInResourcesWindow.html",
     "title": "Class BuiltInResourcesWindow | TirUtilities",
-    "keywords": "Class BuiltInResourcesWindow Inheritance Object BuiltInResourcesWindow Namespace : Global Assembly : cs.temp.dll.dll Syntax public class BuiltInResourcesWindow : EditorWindow Methods ShowWindow() Declaration public static void ShowWindow()"
+    "keywords": "Class BuiltInResourcesWindow From Show Built In Resources on the community wiki. Inheritance Object BuiltInResourcesWindow Namespace : Global Assembly : cs.temp.dll.dll Syntax public class BuiltInResourcesWindow : EditorWindow Methods ShowWindow() Declaration public static void ShowWindow()"
   },
   "api/Global.Connection.html": {
     "href": "api/Global.Connection.html",
@@ -27,7 +27,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | TirUtilities",
-    "keywords": "Namespace Global Classes BehaviourSketch BuiltInResourcesWindow Connection ConnectionPoint NodeBase NodeBasedEditor PieChartTest RebindTest Enums ConnectionPointType"
+    "keywords": "Namespace Global Classes BehaviourSketch BuiltInResourcesWindow From Show Built In Resources on the community wiki. Connection ConnectionPoint NodeBase NodeBasedEditor PieChartTest RebindTest Enums ConnectionPointType"
   },
   "api/Global.NodeBase.html": {
     "href": "api/Global.NodeBase.html",
@@ -157,32 +157,62 @@
   "api/TirUtilities.Editor.html": {
     "href": "api/TirUtilities.Editor.html",
     "title": "Namespace TirUtilities.Editor | TirUtilities",
-    "keywords": "Namespace TirUtilities.Editor Classes FlexGridInpector Draws the inspector for FlexibleGridLayoutGroup . MenuPageContextMenu Context menu to create new Menu Pages int he hierarchy. Structs ProjectEditorPaths Paths to important locations used by editor scripts."
+    "keywords": "Namespace TirUtilities.Editor Classes FlexGridInpector Draws the inspector for FlexibleGridLayoutGroup . MenuPageContextMenu Context menu to create new Menu Pages int he hierarchy. MenuPageInspector Structs ProjectEditorPaths Paths to important locations used by editor scripts."
   },
   "api/TirUtilities.Editor.MenuPageContextMenu.html": {
     "href": "api/TirUtilities.Editor.MenuPageContextMenu.html",
     "title": "Class MenuPageContextMenu | TirUtilities",
     "keywords": "Class MenuPageContextMenu Context menu to create new Menu Pages int he hierarchy. Inheritance Object MenuPageContextMenu Namespace : TirUtilities.Editor Assembly : cs.temp.dll.dll Syntax public class MenuPageContextMenu : UEditor"
   },
+  "api/TirUtilities.Editor.MenuPageInspector.html": {
+    "href": "api/TirUtilities.Editor.MenuPageInspector.html",
+    "title": "Class MenuPageInspector | TirUtilities",
+    "keywords": "Class MenuPageInspector Inheritance Object MenuPageInspector Namespace : TirUtilities.Editor Assembly : cs.temp.dll.dll Syntax public class MenuPageInspector : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/TirUtilities.Editor.Prefs.EditorPrefsBool.html": {
+    "href": "api/TirUtilities.Editor.Prefs.EditorPrefsBool.html",
+    "title": "Class EditorPrefsBool | TirUtilities",
+    "keywords": "Class EditorPrefsBool Inheritance Object EditorPrefsItem < Boolean > EditorPrefsBool Inherited Members EditorPrefsItem<Boolean>.Key EditorPrefsItem<Boolean>.Label EditorPrefsItem<Boolean>.DefaultValue Namespace : TirUtilities.Editor.Prefs Assembly : cs.temp.dll.dll Syntax public class EditorPrefsBool : EditorPrefsItem<bool> Remarks Based on the EditorPrefString class in the source of RainbowFolders. Constructors EditorPrefsBool(String, GUIContent, Boolean) Declaration public EditorPrefsBool(string key, GUIContent label, bool defaultValue) Parameters Type Name Description String key GUIContent label Boolean defaultValue Properties Value Declaration public override bool Value { get; set; } Property Value Type Description Boolean Overrides TirUtilities.Editor.Prefs.EditorPrefsItem<System.Boolean>.Value Methods Draw() Declaration public override void Draw() Overrides TirUtilities.Editor.Prefs.EditorPrefsItem<System.Boolean>.Draw()"
+  },
   "api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html": {
     "href": "api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html",
     "title": "Class EditorPrefsItem<T> | TirUtilities",
-    "keywords": "Class EditorPrefsItem<T> Inheritance Object EditorPrefsItem<T> Namespace : TirUtilities.Editor.Prefs Assembly : cs.temp.dll.dll Syntax public abstract class EditorPrefsItem<T> Type Parameters Name Description T Remarks Based on the EditorPrefItem class in the source of RainbowFolders. Constructors EditorPrefsItem(String, GUIContent, T) Declaration protected EditorPrefsItem(string key, GUIContent label, T defaultValue) Parameters Type Name Description String key GUIContent label T defaultValue Properties DefaultValue The default value stored with the key when it is created. Declaration protected T DefaultValue { get; } Property Value Type Description T Key Key used by EditorPrefs. Declaration protected string Key { get; } Property Value Type Description String Label Content to be drawn. Declaration protected GUIContent Label { get; } Property Value Type Description GUIContent Value Actual value of the item. Declaration public abstract T Value { get; set; } Property Value Type Description T Methods Draw() Draw this IMGUI item. Declaration public abstract void Draw() Operators Implicit(EditorPrefsItem<T> to T) Declaration public static implicit operator T(EditorPrefsItem<T> other) Parameters Type Name Description EditorPrefsItem <T> other Returns Type Description T"
+    "keywords": "Class EditorPrefsItem<T> Inheritance Object EditorPrefsItem<T> EditorPrefsBool EditorPrefsVector2 Namespace : TirUtilities.Editor.Prefs Assembly : cs.temp.dll.dll Syntax public abstract class EditorPrefsItem<T> Type Parameters Name Description T Remarks Based on the EditorPrefItem class in the source of RainbowFolders. Constructors EditorPrefsItem(String, GUIContent, T) Declaration protected EditorPrefsItem(string key, GUIContent label, T defaultValue) Parameters Type Name Description String key GUIContent label T defaultValue Properties DefaultValue The default value stored with the key when it is created. Declaration protected T DefaultValue { get; } Property Value Type Description T Key Key used by EditorPrefs. Declaration protected string Key { get; } Property Value Type Description String Label Content to be drawn. Declaration protected GUIContent Label { get; } Property Value Type Description GUIContent Value Actual value of the item. Declaration public abstract T Value { get; set; } Property Value Type Description T Methods Draw() Draw this IMGUI item. Declaration public abstract void Draw() Operators Implicit(EditorPrefsItem<T> to T) Declaration public static implicit operator T(EditorPrefsItem<T> other) Parameters Type Name Description EditorPrefsItem <T> other Returns Type Description T"
+  },
+  "api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html": {
+    "href": "api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html",
+    "title": "Class EditorPrefsVector2 | TirUtilities",
+    "keywords": "Class EditorPrefsVector2 Inheritance Object EditorPrefsItem < Vector2 > EditorPrefsVector2 Inherited Members EditorPrefsItem<Vector2>.Key EditorPrefsItem<Vector2>.Label EditorPrefsItem<Vector2>.DefaultValue Namespace : TirUtilities.Editor.Prefs Assembly : cs.temp.dll.dll Syntax public class EditorPrefsVector2 : EditorPrefsItem<Vector2> Remarks Based on the EditorPrefString class in the source of RainbowFolders. Constructors EditorPrefsVector2(String, GUIContent, Vector2) Declaration public EditorPrefsVector2(string key, GUIContent label, Vector2 defaultValue) Parameters Type Name Description String key GUIContent label Vector2 defaultValue Properties Value Declaration public override Vector2 Value { get; set; } Property Value Type Description Vector2 Overrides TirUtilities.Editor.Prefs.EditorPrefsItem<Vector2>.Value Methods Draw() Declaration public override void Draw() Overrides TirUtilities.Editor.Prefs.EditorPrefsItem<Vector2>.Draw()"
+  },
+  "api/TirUtilities.Editor.Prefs.Experimental.html": {
+    "href": "api/TirUtilities.Editor.Prefs.Experimental.html",
+    "title": "Namespace TirUtilities.Editor.Prefs.Experimental | TirUtilities",
+    "keywords": "Namespace TirUtilities.Editor.Prefs.Experimental Classes ScriptTemplateIntercept Structs ScriptTemplateKeys"
+  },
+  "api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.html": {
+    "href": "api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.html",
+    "title": "Class ScriptTemplateIntercept | TirUtilities",
+    "keywords": "Class ScriptTemplateIntercept Inheritance Object ScriptTemplateIntercept Namespace : TirUtilities.Editor.Prefs.Experimental Assembly : cs.temp.dll.dll Syntax public class ScriptTemplateIntercept : UnityEditor.AssetModificationProcessor Methods OnWillCreateAsset(String) Declaration public static void OnWillCreateAsset(string path) Parameters Type Name Description String path"
+  },
+  "api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html": {
+    "href": "api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html",
+    "title": "Struct ScriptTemplateKeys | TirUtilities",
+    "keywords": "Struct ScriptTemplateKeys Namespace : TirUtilities.Editor.Prefs.Experimental Assembly : cs.temp.dll.dll Syntax public ref readonly struct ScriptTemplateKeys Properties AuthorName Declaration public static readonly string AuthorName { get; } Property Value Type Description String CompanyName Declaration public static readonly string CompanyName { get; } Property Value Type Description String DateToday Declaration public static readonly string DateToday { get; } Property Value Type Description String ProjectName Declaration public static readonly string ProjectName { get; } Property Value Type Description String VersionNumber Declaration public static readonly string VersionNumber { get; } Property Value Type Description String"
   },
   "api/TirUtilities.Editor.Prefs.html": {
     "href": "api/TirUtilities.Editor.Prefs.html",
     "title": "Namespace TirUtilities.Editor.Prefs | TirUtilities",
-    "keywords": "Namespace TirUtilities.Editor.Prefs Classes EditorPrefsItem<T> TirUtilitesProjectSettings"
+    "keywords": "Namespace TirUtilities.Editor.Prefs Classes EditorPrefsBool EditorPrefsItem<T> EditorPrefsVector2 TirUtilitesProjectSettings"
   },
   "api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html": {
     "href": "api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html",
     "title": "Class TirUtilitesProjectSettings | TirUtilities",
-    "keywords": "Class TirUtilitesProjectSettings Inheritance Object TirUtilitesProjectSettings Namespace : TirUtilities.Editor.Prefs Assembly : cs.temp.dll.dll Syntax public static class TirUtilitesProjectSettings Remarks Based on the ProjectPreferences class in the source of RainbowFolders. Properties HomeFolder Declaration public static string HomeFolder { get; set; } Property Value Type Description String Methods CreateSettingsProvider() Declaration public static SettingsProvider CreateSettingsProvider() Returns Type Description SettingsProvider"
+    "keywords": "Class TirUtilitesProjectSettings Inheritance Object TirUtilitesProjectSettings Namespace : TirUtilities.Editor.Prefs Assembly : cs.temp.dll.dll Syntax public static class TirUtilitesProjectSettings Remarks Based on the ProjectPreferences class in the source of RainbowFolders. Properties AuthorName Declaration public static string AuthorName { get; } Property Value Type Description String HomeFolder Declaration public static string HomeFolder { get; } Property Value Type Description String Methods CreateSettingsProvider() Declaration public static SettingsProvider CreateSettingsProvider() Returns Type Description SettingsProvider"
   },
   "api/TirUtilities.Editor.ProjectEditorPaths.html": {
     "href": "api/TirUtilities.Editor.ProjectEditorPaths.html",
     "title": "Struct ProjectEditorPaths | TirUtilities",
-    "keywords": "Struct ProjectEditorPaths Paths to important locations used by editor scripts. Namespace : TirUtilities.Editor Assembly : cs.temp.dll.dll Syntax public ref readonly struct ProjectEditorPaths Properties PathToHierarchyDividerSettings Declaration public static readonly string PathToHierarchyDividerSettings { get; } Property Value Type Description String PathToMenuPagePrefab Declaration public static readonly string PathToMenuPagePrefab { get; } Property Value Type Description String ProjectName Declaration public static readonly string ProjectName { get; } Property Value Type Description String"
+    "keywords": "Struct ProjectEditorPaths Paths to important locations used by editor scripts. Namespace : TirUtilities.Editor Assembly : cs.temp.dll.dll Syntax public ref readonly struct ProjectEditorPaths Properties PathToHierarchyDividerSettings Declaration public static readonly string PathToHierarchyDividerSettings { get; } Property Value Type Description String PathToLevelSystemPrefab Declaration public static readonly string PathToLevelSystemPrefab { get; } Property Value Type Description String PathToMenuPagePrefab Declaration public static readonly string PathToMenuPagePrefab { get; } Property Value Type Description String PathToRootMenuPrefab Declaration public static readonly string PathToRootMenuPrefab { get; } Property Value Type Description String ProjectName Declaration public static readonly string ProjectName { get; } Property Value Type Description String"
   },
   "api/TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer.html": {
     "href": "api/TirUtilities.Editor.PropertyDrawers.DisplayOnlyDrawer.html",
@@ -407,7 +437,7 @@
   "api/TirUtilities.TirLogger.html": {
     "href": "api/TirUtilities.TirLogger.html",
     "title": "Class TirLogger | TirUtilities",
-    "keywords": "Class TirLogger Inheritance Object TirLogger Namespace : TirUtilities Assembly : cs.temp.dll.dll Syntax public static class TirLogger Methods LogCall(String, String) Declaration public static void LogCall(string className, string methodName) Parameters Type Name Description String className String methodName"
+    "keywords": "Class TirLogger Inheritance Object TirLogger Namespace : TirUtilities Assembly : cs.temp.dll.dll Syntax public static class TirLogger Methods LogCall() Logs the name of the class and the method to the console. Declaration public static void LogCall() LogCall(String, String) Declaration [Obsolete(\"This has been replaced with a stack frame inspection.Use TirLogger.LogCall() instead.\")] public static void LogCall(string className, string methodName) Parameters Type Name Description String className String methodName"
   },
   "api/TirUtilities.UI.Buttons.ButtonHotKey.html": {
     "href": "api/TirUtilities.UI.Buttons.ButtonHotKey.html",

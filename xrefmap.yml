@@ -742,12 +742,76 @@ references:
   commentId: T:TirUtilities.Editor.MenuPageContextMenu
   fullName: TirUtilities.Editor.MenuPageContextMenu
   nameWithType: MenuPageContextMenu
+- uid: TirUtilities.Editor.MenuPageInspector
+  name: MenuPageInspector
+  href: api/TirUtilities.Editor.MenuPageInspector.html
+  commentId: T:TirUtilities.Editor.MenuPageInspector
+  fullName: TirUtilities.Editor.MenuPageInspector
+  nameWithType: MenuPageInspector
+- uid: TirUtilities.Editor.MenuPageInspector.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/TirUtilities.Editor.MenuPageInspector.html#TirUtilities_Editor_MenuPageInspector_OnInspectorGUI
+  commentId: M:TirUtilities.Editor.MenuPageInspector.OnInspectorGUI
+  fullName: TirUtilities.Editor.MenuPageInspector.OnInspectorGUI()
+  nameWithType: MenuPageInspector.OnInspectorGUI()
+- uid: TirUtilities.Editor.MenuPageInspector.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/TirUtilities.Editor.MenuPageInspector.html#TirUtilities_Editor_MenuPageInspector_OnInspectorGUI_
+  commentId: Overload:TirUtilities.Editor.MenuPageInspector.OnInspectorGUI
+  isSpec: "True"
+  fullName: TirUtilities.Editor.MenuPageInspector.OnInspectorGUI
+  nameWithType: MenuPageInspector.OnInspectorGUI
 - uid: TirUtilities.Editor.Prefs
   name: TirUtilities.Editor.Prefs
   href: api/TirUtilities.Editor.Prefs.html
   commentId: N:TirUtilities.Editor.Prefs
   fullName: TirUtilities.Editor.Prefs
   nameWithType: TirUtilities.Editor.Prefs
+- uid: TirUtilities.Editor.Prefs.EditorPrefsBool
+  name: EditorPrefsBool
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsBool.html
+  commentId: T:TirUtilities.Editor.Prefs.EditorPrefsBool
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsBool
+  nameWithType: EditorPrefsBool
+- uid: TirUtilities.Editor.Prefs.EditorPrefsBool.#ctor(System.String,GUIContent,System.Boolean)
+  name: EditorPrefsBool(String, GUIContent, Boolean)
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsBool.html#TirUtilities_Editor_Prefs_EditorPrefsBool__ctor_System_String_GUIContent_System_Boolean_
+  commentId: M:TirUtilities.Editor.Prefs.EditorPrefsBool.#ctor(System.String,GUIContent,System.Boolean)
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsBool.EditorPrefsBool(System.String, GUIContent, System.Boolean)
+  nameWithType: EditorPrefsBool.EditorPrefsBool(String, GUIContent, Boolean)
+- uid: TirUtilities.Editor.Prefs.EditorPrefsBool.#ctor*
+  name: EditorPrefsBool
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsBool.html#TirUtilities_Editor_Prefs_EditorPrefsBool__ctor_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsBool.#ctor
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsBool.EditorPrefsBool
+  nameWithType: EditorPrefsBool.EditorPrefsBool
+- uid: TirUtilities.Editor.Prefs.EditorPrefsBool.Draw
+  name: Draw()
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsBool.html#TirUtilities_Editor_Prefs_EditorPrefsBool_Draw
+  commentId: M:TirUtilities.Editor.Prefs.EditorPrefsBool.Draw
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsBool.Draw()
+  nameWithType: EditorPrefsBool.Draw()
+- uid: TirUtilities.Editor.Prefs.EditorPrefsBool.Draw*
+  name: Draw
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsBool.html#TirUtilities_Editor_Prefs_EditorPrefsBool_Draw_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsBool.Draw
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsBool.Draw
+  nameWithType: EditorPrefsBool.Draw
+- uid: TirUtilities.Editor.Prefs.EditorPrefsBool.Value
+  name: Value
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsBool.html#TirUtilities_Editor_Prefs_EditorPrefsBool_Value
+  commentId: P:TirUtilities.Editor.Prefs.EditorPrefsBool.Value
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsBool.Value
+  nameWithType: EditorPrefsBool.Value
+- uid: TirUtilities.Editor.Prefs.EditorPrefsBool.Value*
+  name: Value
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsBool.html#TirUtilities_Editor_Prefs_EditorPrefsBool_Value_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsBool.Value
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsBool.Value
+  nameWithType: EditorPrefsBool.Value
 - uid: TirUtilities.Editor.Prefs.EditorPrefsItem`1
   name: EditorPrefsItem<T>
   href: api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html
@@ -878,12 +942,166 @@ references:
   fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Value
   nameWithType: EditorPrefsItem<T>.Value
   nameWithType.vb: EditorPrefsItem(Of T).Value
+- uid: TirUtilities.Editor.Prefs.EditorPrefsVector2
+  name: EditorPrefsVector2
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html
+  commentId: T:TirUtilities.Editor.Prefs.EditorPrefsVector2
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsVector2
+  nameWithType: EditorPrefsVector2
+- uid: TirUtilities.Editor.Prefs.EditorPrefsVector2.#ctor(System.String,GUIContent,Vector2)
+  name: EditorPrefsVector2(String, GUIContent, Vector2)
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html#TirUtilities_Editor_Prefs_EditorPrefsVector2__ctor_System_String_GUIContent_Vector2_
+  commentId: M:TirUtilities.Editor.Prefs.EditorPrefsVector2.#ctor(System.String,GUIContent,Vector2)
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsVector2.EditorPrefsVector2(System.String, GUIContent, Vector2)
+  nameWithType: EditorPrefsVector2.EditorPrefsVector2(String, GUIContent, Vector2)
+- uid: TirUtilities.Editor.Prefs.EditorPrefsVector2.#ctor*
+  name: EditorPrefsVector2
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html#TirUtilities_Editor_Prefs_EditorPrefsVector2__ctor_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsVector2.#ctor
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsVector2.EditorPrefsVector2
+  nameWithType: EditorPrefsVector2.EditorPrefsVector2
+- uid: TirUtilities.Editor.Prefs.EditorPrefsVector2.Draw
+  name: Draw()
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html#TirUtilities_Editor_Prefs_EditorPrefsVector2_Draw
+  commentId: M:TirUtilities.Editor.Prefs.EditorPrefsVector2.Draw
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsVector2.Draw()
+  nameWithType: EditorPrefsVector2.Draw()
+- uid: TirUtilities.Editor.Prefs.EditorPrefsVector2.Draw*
+  name: Draw
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html#TirUtilities_Editor_Prefs_EditorPrefsVector2_Draw_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsVector2.Draw
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsVector2.Draw
+  nameWithType: EditorPrefsVector2.Draw
+- uid: TirUtilities.Editor.Prefs.EditorPrefsVector2.Value
+  name: Value
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html#TirUtilities_Editor_Prefs_EditorPrefsVector2_Value
+  commentId: P:TirUtilities.Editor.Prefs.EditorPrefsVector2.Value
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsVector2.Value
+  nameWithType: EditorPrefsVector2.Value
+- uid: TirUtilities.Editor.Prefs.EditorPrefsVector2.Value*
+  name: Value
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html#TirUtilities_Editor_Prefs_EditorPrefsVector2_Value_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsVector2.Value
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsVector2.Value
+  nameWithType: EditorPrefsVector2.Value
+- uid: TirUtilities.Editor.Prefs.Experimental
+  name: TirUtilities.Editor.Prefs.Experimental
+  href: api/TirUtilities.Editor.Prefs.Experimental.html
+  commentId: N:TirUtilities.Editor.Prefs.Experimental
+  fullName: TirUtilities.Editor.Prefs.Experimental
+  nameWithType: TirUtilities.Editor.Prefs.Experimental
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept
+  name: ScriptTemplateIntercept
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.html
+  commentId: T:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept
+  nameWithType: ScriptTemplateIntercept
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.OnWillCreateAsset(System.String)
+  name: OnWillCreateAsset(String)
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateIntercept_OnWillCreateAsset_System_String_
+  commentId: M:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.OnWillCreateAsset(System.String)
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.OnWillCreateAsset(System.String)
+  nameWithType: ScriptTemplateIntercept.OnWillCreateAsset(String)
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.OnWillCreateAsset*
+  name: OnWillCreateAsset
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateIntercept_OnWillCreateAsset_
+  commentId: Overload:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.OnWillCreateAsset
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.OnWillCreateAsset
+  nameWithType: ScriptTemplateIntercept.OnWillCreateAsset
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys
+  name: ScriptTemplateKeys
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html
+  commentId: T:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys
+  nameWithType: ScriptTemplateKeys
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.AuthorName
+  name: AuthorName
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateKeys_AuthorName
+  commentId: P:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.AuthorName
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.AuthorName
+  nameWithType: ScriptTemplateKeys.AuthorName
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.AuthorName*
+  name: AuthorName
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateKeys_AuthorName_
+  commentId: Overload:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.AuthorName
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.AuthorName
+  nameWithType: ScriptTemplateKeys.AuthorName
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.CompanyName
+  name: CompanyName
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateKeys_CompanyName
+  commentId: P:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.CompanyName
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.CompanyName
+  nameWithType: ScriptTemplateKeys.CompanyName
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.CompanyName*
+  name: CompanyName
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateKeys_CompanyName_
+  commentId: Overload:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.CompanyName
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.CompanyName
+  nameWithType: ScriptTemplateKeys.CompanyName
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.DateToday
+  name: DateToday
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateKeys_DateToday
+  commentId: P:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.DateToday
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.DateToday
+  nameWithType: ScriptTemplateKeys.DateToday
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.DateToday*
+  name: DateToday
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateKeys_DateToday_
+  commentId: Overload:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.DateToday
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.DateToday
+  nameWithType: ScriptTemplateKeys.DateToday
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.ProjectName
+  name: ProjectName
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateKeys_ProjectName
+  commentId: P:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.ProjectName
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.ProjectName
+  nameWithType: ScriptTemplateKeys.ProjectName
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.ProjectName*
+  name: ProjectName
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateKeys_ProjectName_
+  commentId: Overload:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.ProjectName
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.ProjectName
+  nameWithType: ScriptTemplateKeys.ProjectName
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.VersionNumber
+  name: VersionNumber
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateKeys_VersionNumber
+  commentId: P:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.VersionNumber
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.VersionNumber
+  nameWithType: ScriptTemplateKeys.VersionNumber
+- uid: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.VersionNumber*
+  name: VersionNumber
+  href: api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html#TirUtilities_Editor_Prefs_Experimental_ScriptTemplateKeys_VersionNumber_
+  commentId: Overload:TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.VersionNumber
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.VersionNumber
+  nameWithType: ScriptTemplateKeys.VersionNumber
 - uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings
   name: TirUtilitesProjectSettings
   href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html
   commentId: T:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings
   fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings
   nameWithType: TirUtilitesProjectSettings
+- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName
+  name: AuthorName
+  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_AuthorName
+  commentId: P:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName
+  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName
+  nameWithType: TirUtilitesProjectSettings.AuthorName
+- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName*
+  name: AuthorName
+  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_AuthorName_
+  commentId: Overload:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName
+  nameWithType: TirUtilitesProjectSettings.AuthorName
 - uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider
   name: CreateSettingsProvider()
   href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_CreateSettingsProvider
@@ -929,6 +1147,19 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Editor.ProjectEditorPaths.PathToHierarchyDividerSettings
   nameWithType: ProjectEditorPaths.PathToHierarchyDividerSettings
+- uid: TirUtilities.Editor.ProjectEditorPaths.PathToLevelSystemPrefab
+  name: PathToLevelSystemPrefab
+  href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_PathToLevelSystemPrefab
+  commentId: P:TirUtilities.Editor.ProjectEditorPaths.PathToLevelSystemPrefab
+  fullName: TirUtilities.Editor.ProjectEditorPaths.PathToLevelSystemPrefab
+  nameWithType: ProjectEditorPaths.PathToLevelSystemPrefab
+- uid: TirUtilities.Editor.ProjectEditorPaths.PathToLevelSystemPrefab*
+  name: PathToLevelSystemPrefab
+  href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_PathToLevelSystemPrefab_
+  commentId: Overload:TirUtilities.Editor.ProjectEditorPaths.PathToLevelSystemPrefab
+  isSpec: "True"
+  fullName: TirUtilities.Editor.ProjectEditorPaths.PathToLevelSystemPrefab
+  nameWithType: ProjectEditorPaths.PathToLevelSystemPrefab
 - uid: TirUtilities.Editor.ProjectEditorPaths.PathToMenuPagePrefab
   name: PathToMenuPagePrefab
   href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_PathToMenuPagePrefab
@@ -942,6 +1173,19 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Editor.ProjectEditorPaths.PathToMenuPagePrefab
   nameWithType: ProjectEditorPaths.PathToMenuPagePrefab
+- uid: TirUtilities.Editor.ProjectEditorPaths.PathToRootMenuPrefab
+  name: PathToRootMenuPrefab
+  href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_PathToRootMenuPrefab
+  commentId: P:TirUtilities.Editor.ProjectEditorPaths.PathToRootMenuPrefab
+  fullName: TirUtilities.Editor.ProjectEditorPaths.PathToRootMenuPrefab
+  nameWithType: ProjectEditorPaths.PathToRootMenuPrefab
+- uid: TirUtilities.Editor.ProjectEditorPaths.PathToRootMenuPrefab*
+  name: PathToRootMenuPrefab
+  href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_PathToRootMenuPrefab_
+  commentId: Overload:TirUtilities.Editor.ProjectEditorPaths.PathToRootMenuPrefab
+  isSpec: "True"
+  fullName: TirUtilities.Editor.ProjectEditorPaths.PathToRootMenuPrefab
+  nameWithType: ProjectEditorPaths.PathToRootMenuPrefab
 - uid: TirUtilities.Editor.ProjectEditorPaths.ProjectName
   name: ProjectName
   href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_ProjectName
@@ -2418,6 +2662,12 @@ references:
   commentId: T:TirUtilities.TirLogger
   fullName: TirUtilities.TirLogger
   nameWithType: TirLogger
+- uid: TirUtilities.TirLogger.LogCall
+  name: LogCall()
+  href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_LogCall
+  commentId: M:TirUtilities.TirLogger.LogCall
+  fullName: TirUtilities.TirLogger.LogCall()
+  nameWithType: TirLogger.LogCall()
 - uid: TirUtilities.TirLogger.LogCall(System.String,System.String)
   name: LogCall(String, String)
   href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_LogCall_System_String_System_String_

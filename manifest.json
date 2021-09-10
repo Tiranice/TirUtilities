@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BuiltInResourcesWindow.html",
-          "hash": "XPZhc6rpW5kIn3BEWmqI2da+9smLbeoBd4pBqiVk1YU="
+          "hash": "Rqg3SKUU/sQr6lsAlAXdTlmzkr4LHKnfuWcG4nnd1Tk="
         }
       },
       "is_incremental": false,
@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "MFgOn6RLoLCrc+PednJXnc0iMhzXcEsAsmycyKkjOMo="
+          "hash": "FT+k3LfpgDnDUab5jffWOxuqstO9Eo3DhA8+lCigx7o="
         }
       },
       "is_incremental": false,
@@ -408,11 +408,83 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.MenuPageInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.MenuPageInspector.html",
+          "hash": "izbn5L0ssM2cgMf4q2KTr51H/yeBwfEM2AjS6wxIgmU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Prefs.EditorPrefsBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Prefs.EditorPrefsBool.html",
+          "hash": "T4NUe1Uztf34uLTLlEkYAQQpfA659GE7CENT+w21kFE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Editor.Prefs.EditorPrefsItem-1.html",
-          "hash": "uAx+UEZEG3dbKV9Zo6TeX1J05QapVfPD9kVH8tfWC5U="
+          "hash": "rD79cdwsePgrQFMlBmPgWO1wP9cWqQvcQ4CjJ92361M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Prefs.EditorPrefsVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html",
+          "hash": "GYULSQSlo12JWpFczZKkwYpwyo87i9yXM6vBWD9rPHU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateIntercept.html",
+          "hash": "rApGS47Fifj+ECtr2uuBnc0wwkn/23qtdp/zvmrK58E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.html",
+          "hash": "exO2bbKYQuRuoFzCntqT1uc7UAdjV6R9JfxJniL4Jeg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Prefs.Experimental.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Prefs.Experimental.html",
+          "hash": "XI0UAZIF8u1EEzbZfMVhtbDRNabeUrh2c0ilMe8uxlY="
         }
       },
       "is_incremental": false,
@@ -424,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html",
-          "hash": "X2SM7H2G+IVLMcfU6RWAB3gCo8BHN/9v85u8RRTuG0c="
+          "hash": "o5yvEsabkPLltcHTpObbERsQU14Zjd5YQj+McuG6hqI="
         }
       },
       "is_incremental": false,
@@ -436,7 +508,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Editor.Prefs.html",
-          "hash": "SfOA1tHquCOfxStNE/UPM4hC54BUpb0pWSsC/3StLwU="
+          "hash": "mGbscGz1Pb4nJdZqcKbfUG4CE/LwyXffs/VAcwAOL5w="
         }
       },
       "is_incremental": false,
@@ -448,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Editor.ProjectEditorPaths.html",
-          "hash": "oejksHsJMTbP5lMxHnQl3LdDI9tW+bhYpumFyc5PBIU="
+          "hash": "Stm/hBdDZ4HFedlR5PwgtxyRFyiVth6/rowOJMdLTFQ="
         }
       },
       "is_incremental": false,
@@ -520,7 +592,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Editor.html",
-          "hash": "5wOC9Vd2ZQNXiWe/W7GU85sphUfbYhtqnMhhPO3JAhQ="
+          "hash": "s8Js944BKBmFXCK7hwWXspH+1X6JZQ5HmFBBBfYJowc="
         }
       },
       "is_incremental": false,
@@ -988,7 +1060,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.TirLogger.html",
-          "hash": "4nhZbGd+OPR2DhEFeu034F2Ldtmb5u96dEhz8dyFqMM="
+          "hash": "EBSP0dACFS6JeEFcY/F/oda6WkMl2JZCnH61sD6VyDg="
         }
       },
       "is_incremental": false,
@@ -1240,7 +1312,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "pUZk3iCQFk1faMah/fN+mqX1fOnUa8dSzhKLIMssTCw="
+          "hash": "lrKTqrGeMq7SYrdSUS9+XVEX15y13qQA3ut0OtK0dtE="
         }
       },
       "is_incremental": false,
@@ -1430,7 +1502,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 101,
+          "total_file_count": 107,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
