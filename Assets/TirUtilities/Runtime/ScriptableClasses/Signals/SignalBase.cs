@@ -22,7 +22,7 @@ namespace TirUtilities.Signals
         /// The description of what this signal is intended to be used for.
         /// </summary>
         [Tooltip("The description of what this signal is intended to be used for.")]
-        [TextArea][SerializeField] protected string _description;
+        [TextArea][SerializeField] protected string _description = string.Empty;
 
         /// <summary>
         /// The description of what this signal is intended to be used for.

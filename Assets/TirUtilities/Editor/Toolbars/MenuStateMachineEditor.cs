@@ -1,15 +1,15 @@
 ﻿using UnityEditor;
 using UnityEditor.AnimatedValues;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace TirUtilities.Editor
 {
-    using System.Linq;
     using TirUtilities.Editor.Prefs;
     using TirUtilities.UI;
-    using UnityEditor.SceneManagement;
-
+    //TODO :  Refactoring  
+    //TODO :  Documentation
     ///<!--
     /// MenuStateMachineEditor.cs
     /// 
@@ -171,8 +171,6 @@ namespace TirUtilities.Editor
         {
             var currentEvent = Event.current;
 
-            
-
             if (_MenuStateMachine == null) return;
 
             if (view == SceneView.lastActiveSceneView)
@@ -223,6 +221,7 @@ namespace TirUtilities.Editor
                 using (var scroll = new GUILayout.ScrollViewScope(_ScrollbarPosition))
                 {
                     _ScrollbarPosition = scroll.scrollPosition;
+#if UNITY_2020_2_OR_NEWER
                     using var group = new EditorGUILayout.FadeGroupScope(_ToolbarVisable.faded);
                     if (group.visible)
                     {
@@ -234,6 +233,21 @@ namespace TirUtilities.Editor
                                 Button_clicked(page);
                         }
                     }
+#else
+                    using (var group = new EditorGUILayout.FadeGroupScope(_ToolbarVisable.faded))
+                    {
+                        if (group.visible)
+                        {
+                            foreach (var page in _MenuStateMachine.MenuPages)
+                            {
+                                if (page == null) continue;
+                                if (page.State == null) continue;
+                                if (GUILayout.Button(page.State.name))
+                                    Button_clicked(page);
+                            }
+                        }
+                    }
+#endif
                 }
             }
         }
