@@ -49,15 +49,20 @@
     "title": "Class RebindTest | TirUtilities",
     "keywords": "Class RebindTest Inheritance Object RebindTest Namespace : Global Assembly : cs.temp.dll.dll Syntax public class RebindTest : MonoBehaviour Methods StartInteractiveRebind() Declaration public void StartInteractiveRebind()"
   },
+  "api/TirUtilities.Automation.AutoRotate.Axis.html": {
+    "href": "api/TirUtilities.Automation.AutoRotate.Axis.html",
+    "title": "Enum AutoRotate.Axis | TirUtilities",
+    "keywords": "Enum AutoRotate.Axis Namespace : TirUtilities.Automation Assembly : cs.temp.dll.dll Syntax [Serializable] public enum Axis Fields Name Description X Y Z"
+  },
   "api/TirUtilities.Automation.AutoRotate.html": {
     "href": "api/TirUtilities.Automation.AutoRotate.html",
     "title": "Class AutoRotate | TirUtilities",
-    "keywords": "Class AutoRotate Inheritance Object AutoRotate Namespace : TirUtilities.Automation Assembly : cs.temp.dll.dll Syntax public class AutoRotate : MonoBehaviour Methods ToggleRotation() Declaration public void ToggleRotation()"
+    "keywords": "Class AutoRotate Rotates a transform about the given axis over time on fixed update. Inheritance Object AutoRotate Namespace : TirUtilities.Automation Assembly : cs.temp.dll.dll Syntax public class AutoRotate : MonoBehaviour Properties IsRotating True when transform should be rotating. Declaration public bool IsRotating { get; } Property Value Type Description Boolean RotationAxis Get/Set the axis that the transform rotates about. Declaration public AutoRotate.Axis RotationAxis { get; set; } Property Value Type Description AutoRotate.Axis Methods SetIsRotating(Boolean) Set rotation state manually. Declaration public void SetIsRotating(bool value) Parameters Type Name Description Boolean value ToggleRotation() Toggle rotation on/off. Declaration public void ToggleRotation()"
   },
   "api/TirUtilities.Automation.html": {
     "href": "api/TirUtilities.Automation.html",
     "title": "Namespace TirUtilities.Automation | TirUtilities",
-    "keywords": "Namespace TirUtilities.Automation Classes AutoRotate"
+    "keywords": "Namespace TirUtilities.Automation Classes AutoRotate Rotates a transform about the given axis over time on fixed update. Enums AutoRotate.Axis"
   },
   "api/TirUtilities.Controllers.CameraLookEvents.html": {
     "href": "api/TirUtilities.Controllers.CameraLookEvents.html",
@@ -358,6 +363,36 @@
     "href": "api/TirUtilities.LevelManagment.LevelSystem.html",
     "title": "Class LevelSystem | TirUtilities",
     "keywords": "Class LevelSystem Handles the loading of LevelData emitted from LevelLoadSignal assets. Inheritance Object LevelSystem Namespace : TirUtilities.LevelManagment Assembly : cs.temp.dll.dll Syntax public class LevelSystem : MonoBehaviour"
+  },
+  "api/TirUtilities.Runtime.Tests.AutoRotateTest.html": {
+    "href": "api/TirUtilities.Runtime.Tests.AutoRotateTest.html",
+    "title": "Class AutoRotateTest | TirUtilities",
+    "keywords": "Class AutoRotateTest Inheritance Object AutoRotateTest Namespace : TirUtilities.Runtime.Tests Assembly : cs.temp.dll.dll Syntax public class AutoRotateTest Methods _01_ShouldStartToggledOn() Declaration public IEnumerator _01_ShouldStartToggledOn() Returns Type Description IEnumerator _02_ShouldNotRotateWhenRotationIsToggledOff() Declaration public IEnumerator _02_ShouldNotRotateWhenRotationIsToggledOff() Returns Type Description IEnumerator AutoRotateTearDown() Declaration public void AutoRotateTearDown()"
+  },
+  "api/TirUtilities.Runtime.Tests.html": {
+    "href": "api/TirUtilities.Runtime.Tests.html",
+    "title": "Namespace TirUtilities.Runtime.Tests | TirUtilities",
+    "keywords": "Namespace TirUtilities.Runtime.Tests Classes AutoRotateTest SignalTestSuite SignalTestSuite.BaseSignalTests SignalTestSuite.BoolSignalTests SignalTestSuite.SignalTests"
+  },
+  "api/TirUtilities.Runtime.Tests.SignalTestSuite.BaseSignalTests.html": {
+    "href": "api/TirUtilities.Runtime.Tests.SignalTestSuite.BaseSignalTests.html",
+    "title": "Class SignalTestSuite.BaseSignalTests | TirUtilities",
+    "keywords": "Class SignalTestSuite.BaseSignalTests Inheritance Object SignalTestSuite.BaseSignalTests Namespace : TirUtilities.Runtime.Tests Assembly : cs.temp.dll.dll Syntax public class BaseSignalTests Methods _01_DescriptionIsEmptyAndAccessableByDefault() Declaration public IEnumerator _01_DescriptionIsEmptyAndAccessableByDefault() Returns Type Description IEnumerator"
+  },
+  "api/TirUtilities.Runtime.Tests.SignalTestSuite.BoolSignalTests.html": {
+    "href": "api/TirUtilities.Runtime.Tests.SignalTestSuite.BoolSignalTests.html",
+    "title": "Class SignalTestSuite.BoolSignalTests | TirUtilities",
+    "keywords": "Class SignalTestSuite.BoolSignalTests Inheritance Object SignalTestSuite.BoolSignalTests Namespace : TirUtilities.Runtime.Tests Assembly : cs.temp.dll.dll Syntax public class BoolSignalTests Methods _01_AddReceiverCorrectlyAddsAnAction() Declaration public IEnumerator _01_AddReceiverCorrectlyAddsAnAction() Returns Type Description IEnumerator _02_RemoveReceiverCorrectlyRemovesTheGivenAction() Declaration public IEnumerator _02_RemoveReceiverCorrectlyRemovesTheGivenAction() Returns Type Description IEnumerator"
+  },
+  "api/TirUtilities.Runtime.Tests.SignalTestSuite.html": {
+    "href": "api/TirUtilities.Runtime.Tests.SignalTestSuite.html",
+    "title": "Class SignalTestSuite | TirUtilities",
+    "keywords": "Class SignalTestSuite Inheritance Object SignalTestSuite Namespace : TirUtilities.Runtime.Tests Assembly : cs.temp.dll.dll Syntax public class SignalTestSuite"
+  },
+  "api/TirUtilities.Runtime.Tests.SignalTestSuite.SignalTests.html": {
+    "href": "api/TirUtilities.Runtime.Tests.SignalTestSuite.SignalTests.html",
+    "title": "Class SignalTestSuite.SignalTests | TirUtilities",
+    "keywords": "Class SignalTestSuite.SignalTests Inheritance Object SignalTestSuite.SignalTests Namespace : TirUtilities.Runtime.Tests Assembly : cs.temp.dll.dll Syntax public class SignalTests Methods _01_AddReceiverCorrectlyAddsAnAction() Declaration public IEnumerator _01_AddReceiverCorrectlyAddsAnAction() Returns Type Description IEnumerator _02_RemoveReceiverCorrectlyRemovesTheGivenAction() Declaration public IEnumerator _02_RemoveReceiverCorrectlyRemovesTheGivenAction() Returns Type Description IEnumerator"
   },
   "api/TirUtilities.ScenePathAttribute.html": {
     "href": "api/TirUtilities.ScenePathAttribute.html",

@@ -144,11 +144,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Automation.AutoRotate.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Automation.AutoRotate.Axis.html",
+          "hash": "Nq00vO1GKfKg8fNMLo9lLrPSrlDY+7njR7k8sd4VSV4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.Automation.AutoRotate.yml",
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Automation.AutoRotate.html",
-          "hash": "2MIpLjb9ibmnrkJJwGodYZPMffTNJFoyBdvGqZMG/8k="
+          "hash": "Qy1q9q04ybBm5ZgjwMdR4FOVFtiCjUL30rqgouzCZuA="
         }
       },
       "is_incremental": false,
@@ -160,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Automation.html",
-          "hash": "IM1owRZGer4roRrBZZZ+vNiixHClplHqHWEbvdH8Tqg="
+          "hash": "lkbvKl4tbU48e+jbDUopw+THWsZAFXqa6fEX2RwlenU="
         }
       },
       "is_incremental": false,
@@ -876,6 +888,78 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Runtime.Tests.AutoRotateTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Runtime.Tests.AutoRotateTest.html",
+          "hash": "qs05Kk1hj74+/I8DSfrXAp1HhSiJdndr1rMzGmC4Zfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Runtime.Tests.SignalTestSuite.BaseSignalTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Runtime.Tests.SignalTestSuite.BaseSignalTests.html",
+          "hash": "HotdRiY1rPZF1MpDagotrgJWU35nVTKn4BFhWB6MzP0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Runtime.Tests.SignalTestSuite.BoolSignalTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Runtime.Tests.SignalTestSuite.BoolSignalTests.html",
+          "hash": "30OXpg2V/8/Hgfw3vtgfqXlG0GTg2OQfxK/zQd+38yI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Runtime.Tests.SignalTestSuite.SignalTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Runtime.Tests.SignalTestSuite.SignalTests.html",
+          "hash": "okQqtNJkoobdKRUVSB44RJ4SzjxMsbuGeO+kgWPjRTY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Runtime.Tests.SignalTestSuite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Runtime.Tests.SignalTestSuite.html",
+          "hash": "j3G6Bc6nnWpnYnZeZRC5LgpznzPaVyl7nTeyXhaWpCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Runtime.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Runtime.Tests.html",
+          "hash": "b8b+0xb51snYazxRDEE8P7sJD+cX98KOOMDroX4tVf4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.ScenePathAttribute.yml",
       "output": {
         ".html": {
@@ -1312,7 +1396,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "lrKTqrGeMq7SYrdSUS9+XVEX15y13qQA3ut0OtK0dtE="
+          "hash": "1bokWD2gBDOwBXtGf/xqNqK2GkaPUv1NcdIzt4Zt/Pg="
         }
       },
       "is_incremental": false,
@@ -1502,7 +1586,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 107,
+          "total_file_count": 114,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
