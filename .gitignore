@@ -81,3 +81,7 @@ crashlytics-build.properties
 
 /[Aa]ssets/[Pp]lugins/[Gg]it[Hh]ub*
 /[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets*
+
+# Code Coverage Results
+
+/[Cc]ode[Cc]overage/
