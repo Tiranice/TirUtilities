@@ -1408,7 +1408,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "TC/ODTRBL2Y83C2E83TZ+85k3VmkTdHuTexAXQzq26k="
+          "hash": "JQL0rrWrg1KTdaaZolaVWDnwhU3HplsCYphcpUeKzP8="
         }
       },
       "is_incremental": false,
@@ -1427,12 +1427,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidYamlHeader"
+      ],
       "type": "Conceptual",
       "source_relative_path": "manual/ROADMAP.md",
       "output": {
         ".html": {
           "relative_path": "manual/ROADMAP.html",
-          "hash": "vZzl8d5VGae6e1MaOXWroUzh0ql8HIPko+5jMk9YMOM="
+          "hash": "lUMIjsu5Qt4tvwcuivdFpHZPcZPiMOQ+2OOre1xAw9o="
         }
       },
       "is_incremental": false,

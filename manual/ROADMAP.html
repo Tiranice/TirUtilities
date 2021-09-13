@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Roadmap | TirUtilities </title>
+    <title>Roadmap &lt;!-- omit in toc --&gt; | TirUtilities </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Roadmap | TirUtilities ">
+    <meta name="title" content="Roadmap &lt;!-- omit in toc --&gt; | TirUtilities ">
     <meta name="generator" content="docfx 2.58.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,19 +77,131 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="roadmap">Roadmap</h1>
+<h1 id="roadmap----omit-in-toc---">Roadmap <!-- omit in toc --></h1>
 
-<p>Last Updated:  07-08-2021</p>
-<h2 id="key">Key</h2>
+<p>Last Updated:  Sep 13, 2021</p>
+<h2 id="key----omit-in-toc---">Key <!-- omit in toc --></h2>
 <p>⚪ Planned
 🔵 Research
-🟢 Active Work</p>
-<h2 id="features">Features</h2>
+🟢 Active Work
+🟠 Complete</p>
+<ul>
+<li><a href="#1-future-releases">1. Future Releases</a><ul>
+<li><a href="#11-alpha-10-signal-refactor">1.1. Alpha 10 Signal Refactor</a></li>
+<li><a href="#12-alpha-11-full-ui-system-rewriterefactor">1.2. Alpha 11 Full UI System Rewrite/Refactor</a></li>
+<li><a href="#13-alpha-12-big-huge-manual-writeup">1.3. Alpha 12 Big Huge Manual Writeup</a></li>
+<li><a href="#14-alpha-13-level-system-manual-and-refactor">1.4. Alpha 13 Level System Manual and Refactor</a></li>
+</ul>
+</li>
+<li><a href="#2-alpha-features">2. Alpha Features</a><ul>
+<li><a href="#21-detection">2.1. Detection</a></li>
+<li><a href="#22-editor">2.2. Editor</a></li>
+<li><a href="#23-ui">2.3. UI</a></li>
+<li><a href="#24-state-management">2.4. State Management</a></li>
+<li><a href="#25-serialization">2.5. Serialization</a></li>
+<li><a href="#26-core-generics">2.6. Core Generics</a></li>
+</ul>
+</li>
+<li><a href="#3-beta-features">3. Beta Features</a><ul>
+<li><a href="#31-demos">3.1. Demos</a></li>
+<li><a href="#32-integrations">3.2. Integrations</a></li>
+</ul>
+</li>
+<li><a href="#4-release-features">4. Release Features</a></li>
+</ul>
+<hr>
+<h2 id="1-future-releases">1. Future Releases</h2>
+<h3 id="11-alpha-10-signal-refactor">1.1. Alpha 10 Signal Refactor</h3>
+<p>🟢 Full test coverage of signal system.</p>
+<blockquote><p>Every signal will have full test coverage.
+Refactor code so that signals can be made more generic.
+ISignal interface.</p>
+</blockquote>
+<p>🟢 More public API features on signals.</p>
+<p>⚪ Manual section for signals.</p>
+<blockquote><p>I plan to include examples from my projects where I&#39;ve used signals to decouple and simplify various systems.  It&#39;s nice to make a UI and not have to worry about what code is reading the text from an input field; InputFieldSignalMan awwwwaaaayyyyyy 🐱‍🏍.</p>
+</blockquote>
+<h3 id="12-alpha-11-full-ui-system-rewriterefactor">1.2. Alpha 11 Full UI System Rewrite/Refactor</h3>
+<p>⚪ Second pass on Menu State Machine and Menu Pages</p>
+<blockquote><p>This will require a second pass on and test coverage of the state machine in Core.</p>
+</blockquote>
+<p>⚪ VR compatible main menu template.</p>
+<p>⚪ Popover Message Box</p>
+<p>⚪ Worldspace Message Box</p>
+<p>⚪ Message Box Sequencer</p>
+<p>⚪ Rect Size Fitter</p>
+<h3 id="13-alpha-12-big-huge-manual-writeup">1.3. Alpha 12 Big Huge Manual Writeup</h3>
+<p>⚪ Attributes</p>
+<p>⚪ Detection</p>
+<p>⚪ Extensions</p>
+<p>⚪ Gizmos</p>
+<p>⚪ Mouse Utility</p>
+<p>⚪ Resources</p>
+<p>⚪ State Machine</p>
+<h3 id="14-alpha-13-level-system-manual-and-refactor">1.4. Alpha 13 Level System Manual and Refactor</h3>
+<p>⚪ Complete test coverage of the level system.</p>
+<p>⚪ Write a full manual for the level system.</p>
+<p>⚪ More fully featured loading screen.</p>
+<blockquote><p>Images loaded from streaming assets or set in the inspector.</p>
+</blockquote>
+<p>⚪ More public API features.</p>
+<blockquote><p>The level loader will have a static event that sends the current progress of the load.</p>
+</blockquote>
+<hr>
+<h2 id="2-alpha-features">2. Alpha Features</h2>
+<h3 id="21-detection">2.1. Detection</h3>
+<p>⚪ Trigger Volumes</p>
+<p>⚪ Camera Look Events</p>
+<p>⚪ Actor Look Events</p>
+<h3 id="22-editor">2.2. Editor</h3>
+<p>⚪ Hierarchy Dividers</p>
+<blockquote><p>Customizable dividers that describe what should be underneath themselves.</p>
+</blockquote>
+<p>⚪ For Every Collider a Gizmo</p>
+<h3 id="23-ui">2.3. UI</h3>
+<p>⚪ UI Grid Layout Group</p>
+<p>⚪ Flex UI Size Fitter</p>
+<blockquote><p>Basically dead simple flex box for normal Unity UI.</p>
+</blockquote>
+<h3 id="24-state-management">2.4. State Management</h3>
+<p>🔵 Application State Machine</p>
+<blockquote><p>This will control the game&#39;s play/pause state as well as keeping track of what should happen when the is in a menu vs. when it is in the normal game.</p>
+</blockquote>
+<p>⚪ Menu State Machine</p>
+<p>⚪ Level Management</p>
+<h3 id="25-serialization">2.5. Serialization</h3>
 <p>🔵 Save System</p>
 <blockquote><p>A system to create save files using Odin Serializer.</p>
 </blockquote>
-<p>🟢 Application State Machine</p>
-<blockquote><p>This will control the game&#39;s play/pause state as well as keeping track of what should happen when the is in a menu vs. when it is in the normal game.</p>
+<h3 id="26-core-generics">2.6. Core Generics</h3>
+<p>⚪ Commands</p>
+<p>⚪ Factories</p>
+<blockquote><p>I frequently find myself needing to create objects from code by loading resources or creating scriptable object assets.  Having a generic factory class would be an enormous help.</p>
+</blockquote>
+<p>🔵 Singleton MonoBehaviour</p>
+<blockquote><p>I&#39;m sick of writing these over and over, so I&#39;m going to make one that actually works correctly as a monobehaviour.</p>
+<p>DontDestroyOnLoad inspector toggle.</p>
+<p>Destroys all other game objects, keeping the one with the highest instanceID—the most recently created I think—in the hierarch root.</p>
+<p>And some other stuff...</p>
+</blockquote>
+<p>🟢 Signals</p>
+<blockquote><p>A scriptable object based event system.</p>
+</blockquote>
+<p>⚪ State Machine</p>
+<hr>
+<h2 id="3-beta-features">3. Beta Features</h2>
+<h3 id="31-demos">3.1. Demos</h3>
+<p>⚪ For Every Feature a Demo Scene</p>
+<h3 id="32-integrations">3.2. Integrations</h3>
+<p>⚪ <a href="https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676">DOTween (HOTween v2)</a> integration.</p>
+<p>⚪ <a href="https://odininspector.com/">Odin Inspector</a> integration.</p>
+<p>⚪ Modular Imports.</p>
+<hr>
+<h2 id="4-release-features">4. Release Features</h2>
+<p>⚪ Complete Example Game</p>
+<p>⚪ Released Free on the Asset Store</p>
+<p>⚪ Do Magic</p>
+<blockquote><p>🧙‍♀️🧙‍♂️</p>
 </blockquote>
 </article>
           </div>

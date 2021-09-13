@@ -72,10 +72,35 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="tirutilities">TirUtilities</h1>
 
+<p><a href="https://tiranice.github.io/TirUtilities/">Documentation Site</a></p>
+<p><a href="https://tiranice.github.io/TirUtilities/manual/ROADMAP.html">Roadmap</a></p>
 <h2 id="description">Description</h2>
-<p>This is a set of utilities that I use in all of my projects.</p>
+<p>TirUtilities is a set of generally useful utilities that I carry around between projects.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>A mouse utility that contains the logic I use most—such as getting getting objects with a mouse click.</li>
+<li>A generic state machine.<ul>
+<li>A menu state machine for switching between various canvases in a screen or camera space UI.</li>
+<li>An application control system that sets the play/pause/quit state of the application.</li>
+</ul>
+</li>
+<li>A layer based trigger volume.</li>
+<li>Gizmo componenets that can be used to draw almost any collider in the scene view.<ul>
+<li>Unity doesn&#39;t have a cylinder or capsole collider gizmo, so I&#39;ve had to make my own.  It&#39;s... very experimental.</li>
+</ul>
+</li>
+<li>A level managment system that makes switching between complex scene setups faster and easier.</li>
+<li>A scriptable object based event system.</li>
+<li>Several UI things that make me sad when I look at them.  They&#39;ll be getting a second pass in alpha 11.</li>
+<li>Script templates with regions and a header that documents the script name, project name, author name, componey name, creation date, update date, and inserts a namespace.</li>
+</ul>
 <h2 id="usage">Usage</h2>
-<p>Open the Unity package found under releases.  You may have to go to the assembly definition TirUtilities.Editor and exclude all platforms except the editor.  Unity tends to lose the settings for assembly definitions when exporting a package for some reason.</p>
+<ol>
+<li>Open the unity package and import.
+1.1. AutoRotate.cs is not compatable with Unity 2019 yet. Everything else should work fine.  If not, that&#39;s what issues are for.</li>
+<li>Go to Project Settings/TirUtilites and set the author name.</li>
+<li>If you want to move the project folder to another director, make sure that you change the home folder path in the settings.</li>
+</ol>
 </article>
           </div>
           
