@@ -80,7 +80,11 @@ crashlytics-build.properties
 # Plugins
 
 /[Aa]ssets/[Pp]lugins/[Gg]it[Hh]ub*
-/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets*
+/[Aa]ssets/Plugins/RainbowAssets/!Core*
+/[Aa]ssets/Plugins/RainbowAssets/RainbowFolders/Demo*
+/[Aa]ssets/Plugins/RainbowAssets/RainbowFolders/Editor/Assemblies*
+/[Aa]ssets/Plugins/RainbowAssets/RainbowFolders/Editor/Source*
+/Assets/Plugins/RainbowAssets/RainbowFolders/QuickStart.pdf*
 
 # Code Coverage Results
 
