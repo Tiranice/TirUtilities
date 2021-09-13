@@ -2,6 +2,8 @@
 
 [Documentation Site](https://tiranice.github.io/TirUtilities/)
 
+[Roadmap](https://tiranice.github.io/TirUtilities/manual/ROADMAP.html)
+
 ## Description
 
 TirUtilities is a set of generally useful utilities that I carry around between projects.
