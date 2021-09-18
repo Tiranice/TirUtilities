@@ -80,6 +80,8 @@ namespace TirUtilities.Signals
         [ContextMenu(nameof(LoadLevelData))]
         public void LoadLevelData()
         {
+            if (ActiveScene == string.Empty || ActiveScene == null) return;
+
             EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
             EditorSceneManager.OpenScene(_levelData.ActiveScene);
             foreach (var scene in _levelData.AdditiveScenes)

@@ -34,12 +34,13 @@ namespace TirUtilities.Editor.SignalMenus
 
         #region Fields
 
-        private static List<LevelLoadSignal> _Signals = new List<LevelLoadSignal>();
+        /// <summary> List of all signals in asset database folders. </summary>
+        private static readonly List<LevelLoadSignal> _Signals = new List<LevelLoadSignal>();
+
+        /// <summary> List of all buttons created by the window. </summary>
         private static readonly List<VisualElement> _Buttons = new List<VisualElement>();
 
         private static Vector2 _MaxWindowSize = new Vector2(1920, 720);
-
-        private static LevelLoaderMenu _Window;
 
         #endregion
 
@@ -48,9 +49,9 @@ namespace TirUtilities.Editor.SignalMenus
         [MenuItem("TirUtilities/Level Loader Menu")]
         public static void Open()
         {
-            _Window = GetWindow<LevelLoaderMenu>();
-            _Window.titleContent = new GUIContent("Level Loader");
-            _Window.maxSize = _MaxWindowSize;
+            var window = GetWindow<LevelLoaderMenu>();
+            window.titleContent = new GUIContent("Level Loader");
+            window.maxSize = _MaxWindowSize;
         }
 
         #endregion
@@ -63,6 +64,8 @@ namespace TirUtilities.Editor.SignalMenus
             PopulateWindow();
         }
 
+        private void OnProjectChange() => Refresh();        
+
         private void Update()
         {
             _Buttons.ForEach(e
@@ -71,27 +74,48 @@ namespace TirUtilities.Editor.SignalMenus
 
         #endregion
 
-        #region Private Methods
+        #region Setup & Teardown
 
+        /// <summary>
+        /// Load all of <see cref="LevelLoadSignal"/> assets from the asset database.
+        /// </summary>
         private void FetchLevelLoadSignals()
         {
+            _Signals.Clear();
+
             var assetPaths = new List<string>();
+
             foreach (var guid in AssetDatabase.FindAssets($"t:{nameof(LevelLoadSignal)}"))
                 assetPaths.Add(AssetDatabase.GUIDToAssetPath(guid));
+
             foreach (var path in assetPaths)
                 _Signals.Add(AssetDatabase.LoadAssetAtPath<LevelLoadSignal>(path));
         }
 
+        #endregion
+
+        #region Draw Methods
+
+        /// <summary>
+        /// Draw the list view and all child elements.
+        /// </summary>
         private void PopulateWindow()
         {
             _Buttons.Clear();
 
             if (_Signals.Count < 1) return;
 
-            System.Func<VisualElement> makeBox = MakeBox;
-            System.Action<VisualElement, int> bindBox = BindBox;
+            var refreshButton = new Button(Refresh)
+            {
+                text = "↻"
+            };
+            refreshButton.style.width = _ItemHeight;
+            refreshButton.style.fontSize = _ItemHeight - 12;
+            refreshButton.style.unityFontStyleAndWeight = FontStyle.Bold;
 
-            var boxList = new ListView(_Signals, _ItemHeight, makeBox, bindBox)
+            rootVisualElement.Add(refreshButton);
+
+            var boxList = new ListView(_Signals, _ItemHeight, MakeBox, BindBox)
             {
                 selectionType = SelectionType.Single
             };
@@ -101,13 +125,16 @@ namespace TirUtilities.Editor.SignalMenus
             rootVisualElement.Add(boxList);
         }
 
-        private static void BindBox(VisualElement box, int index)
+        private static VisualElement MakeBox()
         {
+            var box = new Box();
+
             box.style.flexDirection = FlexDirection.Row;
 
-            box.Add(BindButton(new Button(), index));
+            var loadButtion = new Button() { text = "No Active Scene" };
+            box.Add(loadButtion);
 
-            var selectButton = new Button(() => Selection.activeObject = _Signals[index])
+            var selectButton = new Button()
             {
                 text = "Select"
             };
@@ -116,30 +143,53 @@ namespace TirUtilities.Editor.SignalMenus
             selectButton.style.unityFontStyleAndWeight = FontStyle.Bold;
 
             box.Add(selectButton);
+
+            return box;
         }
 
-        private static VisualElement MakeBox() => new Box();
+        private void Refresh()
+        {
+            FetchLevelLoadSignals();
+            rootVisualElement.Clear();
+            PopulateWindow();
+        }
+
+        #endregion
+
+        #region List View Callbacks
+
+        private static void BindBox(VisualElement box, int index)
+        {
+            var children = box.Children().ToList();
+            BindButton(children[0] as Button, index);
+
+            (children[1] as Button).clicked += () => Selection.activeObject = _Signals[index];
+        }
 
         private static VisualElement BindButton(Button button, int index)
         {
+            LogCall();
             _Buttons.Add(button);
 
             button.style.flexGrow = 1.0f;
-
-            var activeScene = _Signals[index].ActiveScene;
-            var start = activeScene.LastIndexOf('/') + 1;
-            var end = activeScene.LastIndexOf(".unity");
-
-            button .text = activeScene.Substring(start, end - start);
-
             button.style.fontSize = _ItemHeight - 12;
             button.style.unityFontStyleAndWeight = FontStyle.Bold;
 
+            var activeScene = _Signals[index].ActiveScene;
+
+            if (activeScene == string.Empty || activeScene == null)
+                return button;
+
+            var start = activeScene.LastIndexOf('/') + 1;
+            var end = activeScene.LastIndexOf(".unity");
+
+            button.text = activeScene.Substring(start, end - start);
             button.tooltip = "Click to load this signal's level data.";
 
-            button .clicked += () => _Signals[index].LoadLevelData();
+            button.clicked += () => _Signals[index].LoadLevelData();
 
             return button;
+            
         }
 
         #endregion
