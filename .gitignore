@@ -89,3 +89,7 @@ crashlytics-build.properties
 # Code Coverage Results
 
 /[Cc]ode[Cc]overage/
+
+# Materplan Backups
+
+/*.plan_bak*
