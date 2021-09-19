@@ -79,49 +79,70 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="roadmap----omit-in-toc---">Roadmap <!-- omit in toc --></h1>
 
-<p>Last Updated:  Sep 13, 2021</p>
+<p>Last Updated:  Sep 18, 2021</p>
 <h2 id="key----omit-in-toc---">Key <!-- omit in toc --></h2>
 <p>⚪ Planned
 🔵 Research
 🟢 Active Work
 🟠 Complete</p>
 <ul>
-<li><a href="#1-future-releases">1. Future Releases</a><ul>
-<li><a href="#11-alpha-10-signal-refactor">1.1. Alpha 10 Signal Refactor</a></li>
-<li><a href="#12-alpha-11-full-ui-system-rewriterefactor">1.2. Alpha 11 Full UI System Rewrite/Refactor</a></li>
-<li><a href="#13-alpha-12-big-huge-manual-writeup">1.3. Alpha 12 Big Huge Manual Writeup</a></li>
-<li><a href="#14-alpha-13-level-system-manual-and-refactor">1.4. Alpha 13 Level System Manual and Refactor</a></li>
+<li><a href="#1-phases">1. Phases</a><ul>
+<li><a href="#11-alpha">1.1. Alpha</a></li>
+<li><a href="#12-beta">1.2. Beta</a></li>
+<li><a href="#13-release">1.3. Release</a></li>
 </ul>
 </li>
-<li><a href="#2-alpha-features">2. Alpha Features</a><ul>
-<li><a href="#21-detection">2.1. Detection</a></li>
-<li><a href="#22-editor">2.2. Editor</a></li>
-<li><a href="#23-ui">2.3. UI</a></li>
-<li><a href="#24-state-management">2.4. State Management</a></li>
-<li><a href="#25-serialization">2.5. Serialization</a></li>
-<li><a href="#26-core-generics">2.6. Core Generics</a></li>
+<li><a href="#2-future-releases">2. Future Releases</a><ul>
+<li><a href="#21-alpha-10-signal-refactor">2.1. Alpha 10 Signal Refactor</a></li>
+<li><a href="#22-alpha-11-full-ui-system-rewriterefactor">2.2. Alpha 11 Full UI System Rewrite/Refactor</a></li>
+<li><a href="#23-alpha-12-level-system-refactor">2.3. Alpha 12 Level System Refactor</a></li>
 </ul>
 </li>
-<li><a href="#3-beta-features">3. Beta Features</a><ul>
-<li><a href="#31-demos">3.1. Demos</a></li>
-<li><a href="#32-integrations">3.2. Integrations</a></li>
+<li><a href="#3-alpha-features">3. Alpha Features</a><ul>
+<li><a href="#31-scriptable-object-event-system">3.1. Scriptable Object Event System</a></li>
+<li><a href="#32-core-generics">3.2. Core Generics</a></li>
+<li><a href="#33-ui">3.3. UI</a></li>
+<li><a href="#34-state-management">3.4. State Management</a></li>
+<li><a href="#35-editor">3.5. Editor</a></li>
+<li><a href="#36-detection">3.6. Detection</a></li>
+<li><a href="#37-serialization">3.7. Serialization</a></li>
 </ul>
 </li>
-<li><a href="#4-release-features">4. Release Features</a></li>
+<li><a href="#4-beta-features">4. Beta Features</a><ul>
+<li><a href="#at-least-80-test-coverage">At Least 80% Test Coverage</a></li>
+<li><a href="#41-integrations">4.1. Integrations</a></li>
+</ul>
+</li>
+<li><a href="#5-release-features">5. Release Features</a><ul>
+<li><a href="#51-demos">5.1. Demos</a></li>
+</ul>
+</li>
 </ul>
 <hr>
-<h2 id="1-future-releases">1. Future Releases</h2>
-<h3 id="11-alpha-10-signal-refactor">1.1. Alpha 10 Signal Refactor</h3>
-<p>🟢 Full test coverage of signal system.</p>
-<blockquote><p>Every signal will have full test coverage.
-Refactor code so that signals can be made more generic.
+<h2 id="1-phases">1. Phases</h2>
+<h3 id="11-alpha">1.1. Alpha</h3>
+<p>v0.0.0-alpha.x.x</p>
+<p>The alpha phase will focus on getting features into the package.</p>
+<h3 id="12-beta">1.2. Beta</h3>
+<p>v0.x.x</p>
+<p>The beta phase will focus on getting full test coverage of features, fully documenting all scripts, and writing the manual.</p>
+<h3 id="13-release">1.3. Release</h3>
+<p>vx.x.x-alpha.x
+vx.x.x-beta.x
+vx.x.x</p>
+<p>The release versions will focus on creating examples including a full game—a simple platformer or the like—that shows off the package&#39;s features.</p>
+<hr>
+<h2 id="2-future-releases">2. Future Releases</h2>
+<h3 id="21-alpha-10-signal-refactor">2.1. Alpha 10 Signal Refactor</h3>
+<p>🟢 Refactor signals to use an interface and base class.</p>
+<blockquote><p>Refactor code so that signals can be made more generic. (if that&#39;s even possible with scriptable objects)
 ISignal interface.</p>
 </blockquote>
 <p>🟢 More public API features on signals.</p>
 <p>⚪ Manual section for signals.</p>
 <blockquote><p>I plan to include examples from my projects where I&#39;ve used signals to decouple and simplify various systems.  It&#39;s nice to make a UI and not have to worry about what code is reading the text from an input field; InputFieldSignalMan awwwwaaaayyyyyy 🐱‍🏍.</p>
 </blockquote>
-<h3 id="12-alpha-11-full-ui-system-rewriterefactor">1.2. Alpha 11 Full UI System Rewrite/Refactor</h3>
+<h3 id="22-alpha-11-full-ui-system-rewriterefactor">2.2. Alpha 11 Full UI System Rewrite/Refactor</h3>
 <p>⚪ Second pass on Menu State Machine and Menu Pages</p>
 <blockquote><p>This will require a second pass on and test coverage of the state machine in Core.</p>
 </blockquote>
@@ -130,76 +151,76 @@ ISignal interface.</p>
 <p>⚪ Worldspace Message Box</p>
 <p>⚪ Message Box Sequencer</p>
 <p>⚪ Rect Size Fitter</p>
-<h3 id="13-alpha-12-big-huge-manual-writeup">1.3. Alpha 12 Big Huge Manual Writeup</h3>
-<p>⚪ Attributes</p>
-<p>⚪ Detection</p>
-<p>⚪ Extensions</p>
-<p>⚪ Gizmos</p>
-<p>⚪ Mouse Utility</p>
-<p>⚪ Resources</p>
-<p>⚪ State Machine</p>
-<h3 id="14-alpha-13-level-system-manual-and-refactor">1.4. Alpha 13 Level System Manual and Refactor</h3>
-<p>⚪ Complete test coverage of the level system.</p>
-<p>⚪ Write a full manual for the level system.</p>
+<h3 id="23-alpha-12-level-system-refactor">2.3. Alpha 12 Level System Refactor</h3>
 <p>⚪ More fully featured loading screen.</p>
-<blockquote><p>Images loaded from streaming assets or set in the inspector.</p>
+<blockquote><p>Making it more than just a black screen.</p>
 </blockquote>
 <p>⚪ More public API features.</p>
 <blockquote><p>The level loader will have a static event that sends the current progress of the load.</p>
 </blockquote>
 <hr>
-<h2 id="2-alpha-features">2. Alpha Features</h2>
-<h3 id="21-detection">2.1. Detection</h3>
-<p>⚪ Trigger Volumes</p>
-<p>⚪ Camera Look Events</p>
-<p>⚪ Actor Look Events</p>
-<h3 id="22-editor">2.2. Editor</h3>
-<p>⚪ Hierarchy Dividers</p>
-<blockquote><p>Customizable dividers that describe what should be underneath themselves.</p>
+<h2 id="3-alpha-features">3. Alpha Features</h2>
+<p>In order of priority.</p>
+<h3 id="31-scriptable-object-event-system">3.1. Scriptable Object Event System</h3>
+<p>🟢 Signals</p>
+<blockquote><p>A scriptable object based event system.</p>
 </blockquote>
-<p>⚪ For Every Collider a Gizmo</p>
-<h3 id="23-ui">2.3. UI</h3>
-<p>⚪ UI Grid Layout Group</p>
-<p>⚪ Flex UI Size Fitter</p>
-<blockquote><p>Basically dead simple flex box for normal Unity UI.</p>
-</blockquote>
-<h3 id="24-state-management">2.4. State Management</h3>
-<p>🔵 Application State Machine</p>
-<blockquote><p>This will control the game&#39;s play/pause state as well as keeping track of what should happen when the is in a menu vs. when it is in the normal game.</p>
-</blockquote>
-<p>⚪ Menu State Machine</p>
-<p>⚪ Level Management</p>
-<h3 id="25-serialization">2.5. Serialization</h3>
-<p>🔵 Save System</p>
-<blockquote><p>A system to create save files using Odin Serializer.</p>
-</blockquote>
-<h3 id="26-core-generics">2.6. Core Generics</h3>
-<p>⚪ Commands</p>
+<h3 id="32-core-generics">3.2. Core Generics</h3>
 <p>⚪ Factories</p>
 <blockquote><p>I frequently find myself needing to create objects from code by loading resources or creating scriptable object assets.  Having a generic factory class would be an enormous help.</p>
 </blockquote>
+<p>⚪ Commands</p>
+<p>⚪ State Machine</p>
 <p>🔵 Singleton MonoBehaviour</p>
 <blockquote><p>I&#39;m sick of writing these over and over, so I&#39;m going to make one that actually works correctly as a monobehaviour.</p>
 <p>DontDestroyOnLoad inspector toggle.</p>
 <p>Destroys all other game objects, keeping the one with the highest instanceID—the most recently created I think—in the hierarch root.</p>
 <p>And some other stuff...</p>
 </blockquote>
-<p>🟢 Signals</p>
-<blockquote><p>A scriptable object based event system.</p>
+<h3 id="33-ui">3.3. UI</h3>
+<p>⚪ UI Grid Layout Group</p>
+<p>⚪ Flex UI Size Fitter</p>
+<blockquote><p>Basically dead simple flex box for normal Unity UI.</p>
 </blockquote>
-<p>⚪ State Machine</p>
+<h3 id="34-state-management">3.4. State Management</h3>
+<p>🔵 Application State Machine</p>
+<blockquote><p>This will control the game&#39;s play/pause state as well as keeping track of what should happen when the is in a menu vs. when it is in the normal game.</p>
+</blockquote>
+<p>⚪ Menu State Machine</p>
+<p>⚪ Level Management</p>
+<h3 id="35-editor">3.5. Editor</h3>
+<p>⚪ Hierarchy Dividers</p>
+<blockquote><p>Customizable dividers that describe what should be underneath themselves.</p>
+</blockquote>
+<p>⚪ For Every Collider a Gizmo</p>
+<h3 id="36-detection">3.6. Detection</h3>
+<p>⚪ Trigger Volumes</p>
+<p>⚪ Camera Sensors</p>
+<p>⚪ Actor Sensors</p>
+<h3 id="37-serialization">3.7. Serialization</h3>
+<p>🔵 Save System</p>
+<blockquote><p>A system to create save files using Odin Serializer.</p>
+</blockquote>
 <hr>
-<h2 id="3-beta-features">3. Beta Features</h2>
-<h3 id="31-demos">3.1. Demos</h3>
-<p>⚪ For Every Feature a Demo Scene</p>
-<h3 id="32-integrations">3.2. Integrations</h3>
+<h2 id="4-beta-features">4. Beta Features</h2>
+<h3 id="at-least-80-test-coverage">At Least 80% Test Coverage</h3>
+<p>⚪ Core</p>
+<p>⚪ Signals</p>
+<p>⚪ UI</p>
+<p>⚪ State</p>
+<p>⚪ Editor</p>
+<p>⚪ Detection</p>
+<p>⚪ Serialization</p>
+<h3 id="41-integrations">4.1. Integrations</h3>
 <p>⚪ <a href="https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676">DOTween (HOTween v2)</a> integration.</p>
 <p>⚪ <a href="https://odininspector.com/">Odin Inspector</a> integration.</p>
 <p>⚪ Modular Imports.</p>
 <hr>
-<h2 id="4-release-features">4. Release Features</h2>
+<h2 id="5-release-features">5. Release Features</h2>
+<h3 id="51-demos">5.1. Demos</h3>
+<p>⚪ For Every Feature a Demo Scene</p>
 <p>⚪ Complete Example Game</p>
-<p>⚪ Released Free on the Asset Store</p>
+<p>⚪ Released Free on the Asset Store &amp; itch.io</p>
 <p>⚪ Do Magic</p>
 <blockquote><p>🧙‍♀️🧙‍♂️</p>
 </blockquote>
