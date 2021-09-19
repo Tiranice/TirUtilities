@@ -1,12 +1,12 @@
 {
   "Version": "0.7.2",
   "LockProject": false,
-  "BoardIndex": 5,
+  "BoardIndex": 4,
   "BoardCount": 6,
   "AutoSave": false,
-  "Pan.X": -327.28076171875,
-  "Pan.Y": -46.90610885620117,
-  "ZoomLevel": 4,
+  "Pan.X": -375.7791442871094,
+  "Pan.Y": 25.075292587280273,
+  "ZoomLevel": 5,
   "TaskTransparency": 5,
   "OutlineTasks": true,
   "BracketSubtasks": true,
@@ -268,39 +268,15 @@
     }, 
     {
       "BoardIndex": 4,
-      "Position.X": 480,
-      "Position.Y": -16,
-      "Checkbox.Checked": false,
-      "Progression.Current": 0,
-      "Progression.Max": 0,
-      "Description": "LevelLoadSignal : StructSignal<LevelData>",
-      "Selected": false,
-      "TaskType.CurrentChoice": 2,
-      "CreationTime": "Sep 15 2021 19:35:50"
-    }, 
-    {
-      "BoardIndex": 4,
       "Position.X": 192,
       "Position.Y": -16,
       "Checkbox.Checked": false,
       "Progression.Current": 0,
       "Progression.Max": 0,
-      "Description": "StructSignal<T> : SignalBase where T : struct",
+      "Description": "ISignal",
       "Selected": false,
       "TaskType.CurrentChoice": 2,
-      "CreationTime": "Sep 15 2021 19:36:23"
-    }, 
-    {
-      "BoardIndex": 4,
-      "Position.X": 752,
-      "Position.Y": -16,
-      "Checkbox.Checked": false,
-      "Progression.Current": 0,
-      "Progression.Max": 0,
-      "Description": "EnumSignal<T> : IntSignal where T : System.Enum",
-      "Selected": false,
-      "TaskType.CurrentChoice": 2,
-      "CreationTime": "Sep 15 2021 20:04:53"
+      "CreationTime": "Sep 18 2021 23:37:00"
     }
   ]
 }

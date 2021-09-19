@@ -93,3 +93,7 @@ crashlytics-build.properties
 # Materplan Backups
 
 /*.plan_bak*
+
+# Plastic SCM
+/.plastic
+/ignore.conf
