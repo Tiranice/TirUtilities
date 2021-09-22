@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections.Generic;
 
 #if UNITY_EDITOR
 using UnityEditor.SceneManagement;
@@ -17,13 +18,11 @@ namespace TirUtilities.Signals
     /// 
     /// Author :  Devon Wilson
     /// Created:  May 05, 2021
-    /// Updated:  Sep. 01, 2021
+    /// Updated:  Sep 22, 2021
     /// -->
-    /// <summary>
-    /// Signal that emits a copy of a <see cref="LevelData"/> value.
-    /// </summary>
-    [CreateAssetMenu(menuName = "Signals/Level Load Signal")]
-    public class LevelLoadSignal : SignalBase
+    /// <summary> Signal that emits a copy of a <see cref="LevelData"/> value. </summary>
+    [CreateAssetMenu(menuName = "Signals/Level Load Signal", order = 21)]
+    public class LevelLoadSignal : SignalBase, ISignal<LevelData>
     {
         #region Inspector Fields
 
@@ -38,14 +37,13 @@ namespace TirUtilities.Signals
         #region Public Properties
 
         public string ActiveScene => _levelData.ActiveScene;
+        public IReadOnlyList<string> AdditiveScenes => _levelData.AdditiveScenes;
 
         #endregion
 
         #region Actions
 
-        /// <summary>
-        /// Invoked in <see cref="Emit">Emit</see>, calling receivers.
-        /// </summary>
+        /// <summary> Invoked in <see cref="Emit(LevelData)"/>, calling receivers. </summary>
         [SerializeField] protected UnityAction<LevelData> _OnEmit;
 
         #endregion
@@ -53,22 +51,32 @@ namespace TirUtilities.Signals
         #region Public Methods
 
         /// <summary>
-        /// Register a callback function to be invoked when this signal is <see cref="Emit">Emitted</see>.
+        /// Register a callback function to be invoked when <see cref="Emit(LevelData)"/> is called.
         /// </summary>
         /// <param name="receiver">The callback to be invoked.</param>
         public virtual void AddReceiver(UnityAction<LevelData> receiver) => _OnEmit += receiver;
 
-        /// <summary>
-        /// Unregister a callback function.
-        /// </summary>
+        /// <summary> Unregister a callback function. </summary>
         /// <param name="receiver">The callback function.</param>
         public virtual void RemoveReceiver(UnityAction<LevelData> receiver) => _OnEmit -= receiver;
 
         /// <summary>
-        /// Emit this signal to all receivers, calling their 
-        /// <see cref="AddReceiver(UnityAction{LevelData})">Registered Callbacks</see>.
+        /// Emit this signal to all receivers, calling methods registered with 
+        /// <see cref="AddReceiver(UnityAction{LevelData})"/>.
         /// </summary>
+        /// <remarks>
+        /// Emits <see cref="_levelData"/>.
+        /// </remarks>
         public virtual void Emit() => _OnEmit.SafeInvoke(_levelData);
+
+        /// <summary>
+        /// Emit this signal to all receivers, calling methods registered with 
+        /// <see cref="AddReceiver(UnityAction{LevelData})"/>.
+        /// </summary>
+        /// <remarks>
+        /// Emits the passed level data.  Prefer use of <see cref="Emit"/>.
+        /// </remarks>
+        public virtual void Emit(LevelData levelData) => _OnEmit.SafeInvoke(levelData);
 
         #endregion
 

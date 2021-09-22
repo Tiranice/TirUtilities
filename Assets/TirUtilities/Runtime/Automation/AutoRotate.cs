@@ -10,7 +10,7 @@ namespace TirUtilities.Automation
     ///        
     /// Author :  Devon Wilson
     /// Created:  Apr 27, 2021
-    /// Updated:  Sep 11, 2021
+    /// Updated:  Sep 22, 2021
     /// -->
     /// <summary>
     /// Rotates a transform about the given axis over time on fixed update.
@@ -64,13 +64,28 @@ namespace TirUtilities.Automation
         {
             if (!_shouldRotate) return;
 
+#if UNITY_2020_2_OR_NEWER
             var axis = _axis switch
             {
                 Axis.X => Vector3.right,
                 Axis.Z => Vector3.forward,
                 _ => Vector3.up,
             };
-
+#else
+            Vector3 axis = Vector3.zero;
+            switch (_axis)
+            {
+                case Axis.X:
+                    axis = Vector3.right;
+                    break;
+                case Axis.Z:
+                    axis = Vector3.forward;
+                    break;
+                default:
+                    axis = Vector3.up;
+                    break;
+            }
+#endif
             _transform.Rotate(axis, _degreesPerSec * Time.deltaTime);
         }
 

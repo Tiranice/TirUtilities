@@ -14,7 +14,7 @@ namespace TirUtilities.LevelManagment
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 05, 2021
-    /// Updated:  July 01, 2021
+    /// Updated:  Sep 22, 2021
     /// -->
     /// <summary>
     /// Handles the loading of <see cref="LevelData"/> emitted from <see cref="LevelLoadSignal"/>
@@ -133,6 +133,8 @@ namespace TirUtilities.LevelManagment
         {
             if (_loadingScreen.NotNull())
                 StartCoroutine(_loadingScreen.Show(LevelLoader.LoadLevelDataAsync(levelData)));
+            else
+                StartCoroutine(LevelLoader.LoadLevelDataAsync(levelData));
         }
 
         #endregion

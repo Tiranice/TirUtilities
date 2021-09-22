@@ -4,9 +4,9 @@
   "BoardIndex": 4,
   "BoardCount": 6,
   "AutoSave": false,
-  "Pan.X": -375.7791442871094,
-  "Pan.Y": 25.075292587280273,
-  "ZoomLevel": 5,
+  "Pan.X": -248,
+  "Pan.Y": 120,
+  "ZoomLevel": 3,
   "TaskTransparency": 5,
   "OutlineTasks": true,
   "BracketSubtasks": true,
@@ -277,6 +277,90 @@
       "Selected": false,
       "TaskType.CurrentChoice": 2,
       "CreationTime": "Sep 18 2021 23:37:00"
+    }, 
+    {
+      "BoardIndex": 4,
+      "Position.X": -320,
+      "Position.Y": -16,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "Bugs",
+      "Selected": false,
+      "TaskType.CurrentChoice": 2,
+      "CreationTime": "Sep 20 2021 11:53:24"
+    }, 
+    {
+      "BoardIndex": 4,
+      "Position.X": -320,
+      "Position.Y": 0,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "GameObjectEvent is not serialized.",
+      "Selected": false,
+      "TaskType.CurrentChoice": 0,
+      "CreationTime": "Sep 20 2021 11:53:32"
+    }, 
+    {
+      "BoardIndex": 4,
+      "Position.X": 304,
+      "Position.Y": -16,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "TriggerVolumeEvent",
+      "Selected": false,
+      "TaskType.CurrentChoice": 2,
+      "CreationTime": "Sep 20 2021 11:54:16"
+    }, 
+    {
+      "BoardIndex": 4,
+      "Position.X": 496,
+      "Position.Y": -16,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "TriggerVolumeSignal",
+      "Selected": false,
+      "TaskType.CurrentChoice": 2,
+      "CreationTime": "Sep 20 2021 11:54:26"
+    }, 
+    {
+      "BoardIndex": 4,
+      "Position.X": 96,
+      "Position.Y": -160,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "EventExtensions",
+      "Selected": false,
+      "TaskType.CurrentChoice": 2,
+      "CreationTime": "Sep 20 2021 12:00:21"
+    }, 
+    {
+      "BoardIndex": 4,
+      "Position.X": 96,
+      "Position.Y": -144,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "UnityEvent/Action<T0, T1> SafeInvoke<T0, T1>",
+      "Selected": false,
+      "TaskType.CurrentChoice": 0,
+      "CreationTime": "Sep 20 2021 12:00:31"
+    }, 
+    {
+      "BoardIndex": 4,
+      "Position.X": 96,
+      "Position.Y": -128,
+      "Checkbox.Checked": false,
+      "Progression.Current": 0,
+      "Progression.Max": 0,
+      "Description": "UnityEvent/Action<T0, T1> Is/NotNull<T0, T1>",
+      "Selected": false,
+      "TaskType.CurrentChoice": 0,
+      "CreationTime": "Sep 20 2021 12:00:31"
     }
   ]
 }
