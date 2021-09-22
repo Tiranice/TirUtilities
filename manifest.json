@@ -748,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Extensions.EventExtension.html",
-          "hash": "a4rTzYWWiYsYac8oNr42aSq0bAOYC2DWFpFEmVUJi+k="
+          "hash": "cotfBUe6pD/EIkjtJdrv0JrISGqCINXjnT68zkzeeb0="
         }
       },
       "is_incremental": false,
@@ -1000,7 +1000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.BoolSignal.html",
-          "hash": "+61um8ME+Zm38Rhh7vC1U4DakcfXFVcCotU/5LKchK0="
+          "hash": "Uouv0JXF4kvv9rRJivtAdD4OxoJLTA8U1Y9rmnD32GA="
         }
       },
       "is_incremental": false,
@@ -1012,7 +1012,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.ByteSignal.html",
-          "hash": "NZloGwEsmsT2uCeWvVkyWyRoUAyk/kFOY4aJ55e1XC4="
+          "hash": "VRDsHlTtP35yt/4mLuclbeeAkWDNMc8r2cRWbu8TwSI="
         }
       },
       "is_incremental": false,
@@ -1024,7 +1024,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.FloatSignal.html",
-          "hash": "Nb0ToiRLG/XRxFJ7lJO/xxf9LsCvkKQmcWRsBVtpYZc="
+          "hash": "3Tbj8jj7ZRThYLjUolJiCXgmOBuzmLOQ2mAl0vsJqgg="
         }
       },
       "is_incremental": false,
@@ -1036,7 +1036,43 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.GameObjectSignal.html",
-          "hash": "n/QfnXJ232uduI7qqWavrNTk9b8i4xkYwAi20X3LncA="
+          "hash": "X+hJCx6m7v+zVxCspldtiU6rjvF60Qr3/bTi4VJv8Lg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.ISignal-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.ISignal-1.html",
+          "hash": "xZ2/oO/puwDPqZO+yXi8FFNH808PVxlDmlwZreTe0Zw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.ISignal-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.ISignal-2.html",
+          "hash": "982D/GB6Grr2TXvs1vf51EhpFKDz04vWQOQ12gLTQ+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.ISignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.ISignal.html",
+          "hash": "vloqLx67CzgFLZllZWDaxNf2ZrRca1AVqQblRmPdCuM="
         }
       },
       "is_incremental": false,
@@ -1048,7 +1084,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.IntSignal.html",
-          "hash": "INdNOVd/5tWzyjIlob3i0XPtisjM1EgdD+TML7HyGv4="
+          "hash": "A9AKdTGSkYC0pJXhvcjuf22+b7ShT90gDi9/Zseb2ps="
         }
       },
       "is_incremental": false,
@@ -1060,7 +1096,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.LevelLoadSignal.html",
-          "hash": "8SnDkZaurkLyj8Yu3cBpyOTm7TbgdoFwy5dyY7PmKVc="
+          "hash": "ayQQCzL8gSso2JwCtCFgC5NNoda6+TXi4fLkxQ9RPEM="
         }
       },
       "is_incremental": false,
@@ -1072,7 +1108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.Signal.html",
-          "hash": "z2a25c/KL6gq79TipeQowYqlxIHlAdthft/SySvCeR4="
+          "hash": "U5mqCTrijReupVo1o0EFWSg+F7LT9TO52oNKr3nTX2o="
         }
       },
       "is_incremental": false,
@@ -1084,7 +1120,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.SignalBase.html",
-          "hash": "X+hw75eWU1R+4e8UZb55m1NJlEaIgNsclhT8I5SqEMo="
+          "hash": "a1Ii9hs35HhMJwuBLB+/coDOeoURAVumxXhNQZuSYLo="
         }
       },
       "is_incremental": false,
@@ -1108,7 +1144,19 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.StringSignal.html",
-          "hash": "zzLzhkhuIdWL9uCRC6ed4+PXkcNwvN0bpldb4croQAY="
+          "hash": "L6lUmhIQDBTJVV2zwT1NPbMIaCIb61Ym7Y/6kDCzdhE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.TransformSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.TransformSignal.html",
+          "hash": "meqQugPG2fhJnMES6itZFRrgCKATzxtTHxaE8IpLDSA="
         }
       },
       "is_incremental": false,
@@ -1120,7 +1168,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.html",
-          "hash": "25uxEf7cO+ASY859NJdrTjX4RE7/XEUgge7PNhYkLIA="
+          "hash": "wdXpWwtbgjuTkcJVQTg25uzFsNr+t2WsB+C7t+LmiKY="
         }
       },
       "is_incremental": false,
@@ -1396,7 +1444,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "1bokWD2gBDOwBXtGf/xqNqK2GkaPUv1NcdIzt4Zt/Pg="
+          "hash": "bq1lOD2RAT9UNSR5/LmFk3mSGq1wWJgx+5EHJzTv28E="
         }
       },
       "is_incremental": false,
@@ -1589,7 +1637,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 114,
+          "total_file_count": 118,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

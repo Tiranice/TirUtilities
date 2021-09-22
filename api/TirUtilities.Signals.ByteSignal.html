@@ -83,7 +83,7 @@
   
   <h1 id="TirUtilities_Signals_ByteSignal" data-uid="TirUtilities.Signals.ByteSignal" class="text-break">Class ByteSignal
   </h1>
-  <div class="markdown level0 summary"><p>Holds a UnityAction so that it can be referenced across scenes and assigned in the inspector.</p>
+  <div class="markdown level0 summary"><p>A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a byte.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -91,6 +91,10 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="TirUtilities.Signals.SignalBase.html">SignalBase</a></div>
     <div class="level2"><span class="xref">ByteSignal</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="TirUtilities.Signals.ISignal-1.html">ISignal</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,7 +109,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="TirUtilities_Signals_ByteSignal_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ByteSignal : SignalBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class ByteSignal : SignalBase, ISignal&lt;byte&gt;</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -140,7 +144,7 @@
   
   <a id="TirUtilities_Signals_ByteSignal_AddReceiver_" data-uid="TirUtilities.Signals.ByteSignal.AddReceiver*"></a>
   <h4 id="TirUtilities_Signals_ByteSignal_AddReceiver_UnityAction_System_Byte__" data-uid="TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction{System.Byte})">AddReceiver(UnityAction&lt;Byte&gt;)</h4>
-  <div class="markdown level1 summary"><p>Register a callback function to be invoked when this signal is <a class="xref" href="TirUtilities.Signals.ByteSignal.html#TirUtilities_Signals_ByteSignal_Emit_System_Byte_">Emit(Byte)</a>.</p>
+  <div class="markdown level1 summary"><p>Register a callback function to be invoked when <a class="xref" href="TirUtilities.Signals.ByteSignal.html#TirUtilities_Signals_ByteSignal_Emit_System_Byte_">Emit(Byte)</a> is called.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -169,7 +173,7 @@
   
   <a id="TirUtilities_Signals_ByteSignal_Emit_" data-uid="TirUtilities.Signals.ByteSignal.Emit*"></a>
   <h4 id="TirUtilities_Signals_ByteSignal_Emit_System_Byte_" data-uid="TirUtilities.Signals.ByteSignal.Emit(System.Byte)">Emit(Byte)</h4>
-  <div class="markdown level1 summary"><p>Emit this signal to all receivers registered with 
+  <div class="markdown level1 summary"><p>Emit this signal to all receivers, calling methods registered with 
 <a class="xref" href="TirUtilities.Signals.ByteSignal.html#TirUtilities_Signals_ByteSignal_AddReceiver_UnityAction_System_Byte__">AddReceiver(UnityAction&lt;Byte&gt;)</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -198,7 +202,7 @@
   
   <a id="TirUtilities_Signals_ByteSignal_RemoveReceiver_" data-uid="TirUtilities.Signals.ByteSignal.RemoveReceiver*"></a>
   <h4 id="TirUtilities_Signals_ByteSignal_RemoveReceiver_UnityAction_System_Byte__" data-uid="TirUtilities.Signals.ByteSignal.RemoveReceiver(UnityAction{System.Byte})">RemoveReceiver(UnityAction&lt;Byte&gt;)</h4>
-  <div class="markdown level1 summary"><p>Unregister a callback function.</p>
+  <div class="markdown level1 summary"><p>Unregister a callback function. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -223,6 +227,10 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="TirUtilities.Signals.ISignal-1.html">ISignal&lt;T0&gt;</a>
+  </div>
 </article>
           </div>
           

@@ -92,6 +92,10 @@
     <div class="level1"><a class="xref" href="TirUtilities.Signals.SignalBase.html">SignalBase</a></div>
     <div class="level2"><span class="xref">Signal</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="TirUtilities.Signals.ISignal.html">ISignal</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -105,14 +109,14 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="TirUtilities_Signals_Signal_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Signal : SignalBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class Signal : SignalBase, ISignal</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
   <h4 id="TirUtilities_Signals_Signal__OnEmit" data-uid="TirUtilities.Signals.Signal._OnEmit">_OnEmit</h4>
-  <div class="markdown level1 summary"><p>Invoked in <a class="xref" href="TirUtilities.Signals.Signal.html#TirUtilities_Signals_Signal_Emit">Emit()</a>, calling receivers.</p>
+  <div class="markdown level1 summary"><p>Invoked in <a class="xref" href="TirUtilities.Signals.Signal.html#TirUtilities_Signals_Signal_Emit">Emit()</a>, calling receivers. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -140,7 +144,7 @@
   
   <a id="TirUtilities_Signals_Signal_AddReceiver_" data-uid="TirUtilities.Signals.Signal.AddReceiver*"></a>
   <h4 id="TirUtilities_Signals_Signal_AddReceiver_UnityAction_" data-uid="TirUtilities.Signals.Signal.AddReceiver(UnityAction)">AddReceiver(UnityAction)</h4>
-  <div class="markdown level1 summary"><p>Register a callback function to be invoked when this signal is <a class="xref" href="TirUtilities.Signals.Signal.html#TirUtilities_Signals_Signal_Emit">Emit()</a>.</p>
+  <div class="markdown level1 summary"><p>Register a callback function to be invoked when <a class="xref" href="TirUtilities.Signals.Signal.html#TirUtilities_Signals_Signal_Emit">Emit()</a> is called.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -169,7 +173,7 @@
   
   <a id="TirUtilities_Signals_Signal_Emit_" data-uid="TirUtilities.Signals.Signal.Emit*"></a>
   <h4 id="TirUtilities_Signals_Signal_Emit" data-uid="TirUtilities.Signals.Signal.Emit">Emit()</h4>
-  <div class="markdown level1 summary"><p>Emit this signal to all receivers, calling their 
+  <div class="markdown level1 summary"><p>Emit this signal to all receivers, calling methods registered with 
 <a class="xref" href="TirUtilities.Signals.Signal.html#TirUtilities_Signals_Signal_AddReceiver_UnityAction_">AddReceiver(UnityAction)</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -181,7 +185,7 @@
   
   <a id="TirUtilities_Signals_Signal_RemoveReceiver_" data-uid="TirUtilities.Signals.Signal.RemoveReceiver*"></a>
   <h4 id="TirUtilities_Signals_Signal_RemoveReceiver_UnityAction_" data-uid="TirUtilities.Signals.Signal.RemoveReceiver(UnityAction)">RemoveReceiver(UnityAction)</h4>
-  <div class="markdown level1 summary"><p>Unregister a callback function.</p>
+  <div class="markdown level1 summary"><p>Unregister a callback function. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -206,6 +210,10 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="TirUtilities.Signals.ISignal.html">ISignal</a>
+  </div>
 </article>
           </div>
           
