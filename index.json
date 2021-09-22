@@ -162,7 +162,7 @@
   "api/TirUtilities.Editor.html": {
     "href": "api/TirUtilities.Editor.html",
     "title": "Namespace TirUtilities.Editor | TirUtilities",
-    "keywords": "Namespace TirUtilities.Editor Classes FlexGridInpector Draws the inspector for FlexibleGridLayoutGroup . MenuPageContextMenu Context menu to create new Menu Pages int he hierarchy. MenuPageInspector Structs ProjectEditorPaths Paths to important locations used by editor scripts."
+    "keywords": "Namespace TirUtilities.Editor Classes FlexGridInpector Draws the inspector for FlexibleGridLayoutGroup . MenuPageContextMenu Context menu to create new Menu Pages int he hierarchy. MenuPageInspector TagFieldDrawer The decorated string into a tag selection dropdown. Structs ProjectEditorPaths Paths to important locations used by editor scripts."
   },
   "api/TirUtilities.Editor.MenuPageContextMenu.html": {
     "href": "api/TirUtilities.Editor.MenuPageContextMenu.html",
@@ -243,6 +243,11 @@
     "href": "api/TirUtilities.Editor.SignalMenus.LevelLoaderMenu.html",
     "title": "Class LevelLoaderMenu | TirUtilities",
     "keywords": "Class LevelLoaderMenu Inheritance Object LevelLoaderMenu Namespace : TirUtilities.Editor.SignalMenus Assembly : cs.temp.dll.dll Syntax public sealed class LevelLoaderMenu : EditorWindow Methods Open() Declaration public static void Open()"
+  },
+  "api/TirUtilities.Editor.TagFieldDrawer.html": {
+    "href": "api/TirUtilities.Editor.TagFieldDrawer.html",
+    "title": "Class TagFieldDrawer | TirUtilities",
+    "keywords": "Class TagFieldDrawer The decorated string into a tag selection dropdown. Inheritance Object TagFieldDrawer Namespace : TirUtilities.Editor Assembly : cs.temp.dll.dll Syntax public class TagFieldDrawer : PropertyDrawer Remarks Based on [TagSelector] from Sensor Toolkit . Methods OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
   },
   "api/TirUtilities.Experimental.ApplicationState.html": {
     "href": "api/TirUtilities.Experimental.ApplicationState.html",
@@ -327,7 +332,7 @@
   "api/TirUtilities.html": {
     "href": "api/TirUtilities.html",
     "title": "Namespace TirUtilities | TirUtilities",
-    "keywords": "Namespace TirUtilities Classes DisplayOnlyAttribute The decorated field is be displayed in the inspector, but cannot be edited. ScenePathAttribute Converts a string field to a UnityEditor.SceneAsset in the inspector. StateMachine Base class for all state machines. TirLogger Vector3Extensions Interfaces IState<T> Implement this interface on object that should be states in a StateMachine ."
+    "keywords": "Namespace TirUtilities Classes DisplayOnlyAttribute The decorated field is be displayed in the inspector, but cannot be edited. ScenePathAttribute Converts a string field to a UnityEditor.SceneAsset in the inspector. StateMachine Base class for all state machines. TagFieldAttribute The decorated string into a tag selection dropdown. TirLogger Vector3Extensions Interfaces IState<T> Implement this interface on object that should be states in a StateMachine ."
   },
   "api/TirUtilities.IState-1.html": {
     "href": "api/TirUtilities.IState-1.html",
@@ -488,6 +493,11 @@
     "href": "api/TirUtilities.StateMachine.html",
     "title": "Class StateMachine | TirUtilities",
     "keywords": "Class StateMachine Base class for all state machines. Inheritance Object StateMachine ApplicationStateMachine MenuStateMachine Namespace : TirUtilities Assembly : cs.temp.dll.dll Syntax public abstract class StateMachine : MonoBehaviour"
+  },
+  "api/TirUtilities.TagFieldAttribute.html": {
+    "href": "api/TirUtilities.TagFieldAttribute.html",
+    "title": "Class TagFieldAttribute | TirUtilities",
+    "keywords": "Class TagFieldAttribute The decorated string into a tag selection dropdown. Inheritance Object TagFieldAttribute Namespace : TirUtilities Assembly : cs.temp.dll.dll Syntax [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)] public sealed class TagFieldAttribute : PropertyAttribute Remarks Defined by: TagFieldDrawer"
   },
   "api/TirUtilities.TirLogger.html": {
     "href": "api/TirUtilities.TirLogger.html",

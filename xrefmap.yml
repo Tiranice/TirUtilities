@@ -1331,6 +1331,25 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Editor.SignalMenus.LevelLoaderMenu.Open
   nameWithType: LevelLoaderMenu.Open
+- uid: TirUtilities.Editor.TagFieldDrawer
+  name: TagFieldDrawer
+  href: api/TirUtilities.Editor.TagFieldDrawer.html
+  commentId: T:TirUtilities.Editor.TagFieldDrawer
+  fullName: TirUtilities.Editor.TagFieldDrawer
+  nameWithType: TagFieldDrawer
+- uid: TirUtilities.Editor.TagFieldDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/TirUtilities.Editor.TagFieldDrawer.html#TirUtilities_Editor_TagFieldDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:TirUtilities.Editor.TagFieldDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: TirUtilities.Editor.TagFieldDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: TagFieldDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: TirUtilities.Editor.TagFieldDrawer.OnGUI*
+  name: OnGUI
+  href: api/TirUtilities.Editor.TagFieldDrawer.html#TirUtilities_Editor_TagFieldDrawer_OnGUI_
+  commentId: Overload:TirUtilities.Editor.TagFieldDrawer.OnGUI
+  isSpec: "True"
+  fullName: TirUtilities.Editor.TagFieldDrawer.OnGUI
+  nameWithType: TagFieldDrawer.OnGUI
 - uid: TirUtilities.Experimental
   name: TirUtilities.Experimental
   href: api/TirUtilities.Experimental.html
@@ -3158,6 +3177,12 @@ references:
   commentId: T:TirUtilities.StateMachine
   fullName: TirUtilities.StateMachine
   nameWithType: StateMachine
+- uid: TirUtilities.TagFieldAttribute
+  name: TagFieldAttribute
+  href: api/TirUtilities.TagFieldAttribute.html
+  commentId: T:TirUtilities.TagFieldAttribute
+  fullName: TirUtilities.TagFieldAttribute
+  nameWithType: TagFieldAttribute
 - uid: TirUtilities.TirLogger
   name: TirLogger
   href: api/TirUtilities.TirLogger.html

@@ -600,11 +600,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.TagFieldDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.TagFieldDrawer.html",
+          "hash": "CzjKs7QBsRq+4TdxrUBCtVobeChv955UAi/MwSyshrk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.Editor.yml",
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Editor.html",
-          "hash": "lg/kzKLNIgroZh4jbON0DNAo7tN9MhGUvcVvCjt7z6M="
+          "hash": "0FWVXNnWedWH/Ym/RXKdLBcVD13EtqcwQrPl3BglLL0="
         }
       },
       "is_incremental": false,
@@ -1188,6 +1200,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.TagFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.TagFieldAttribute.html",
+          "hash": "UczoBPLjCYX8OVKZEjcW9EJXJM03bNv/3GlfI6yvxj0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.TirLogger.yml",
       "output": {
         ".html": {
@@ -1432,7 +1456,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.html",
-          "hash": "WXEvZ1EGwBTrS5h9UhIHasohTmyEQihQOlifPCktECc="
+          "hash": "lRxxht1ZgGzM0F3IuNYeS1PmS8dJIP2syLkQ8lNeY+Q="
         }
       },
       "is_incremental": false,
@@ -1444,7 +1468,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "bq1lOD2RAT9UNSR5/LmFk3mSGq1wWJgx+5EHJzTv28E="
+          "hash": "Kioy+TGB3oYiLE9zo72sbqZtXqTft2s8LoVCB+PCSfY="
         }
       },
       "is_incremental": false,
@@ -1637,7 +1661,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 118,
+          "total_file_count": 120,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
