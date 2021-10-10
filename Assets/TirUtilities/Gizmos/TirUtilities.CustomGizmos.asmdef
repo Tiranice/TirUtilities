@@ -1,12 +1,10 @@
 {
-    "name": "TirUtilities.Gizmos",
-    "rootNamespace": "",
+    "name": "TirUtilities.CustomGizmos",
+    "rootNamespace": "TirUtilities.CustomGizmos",
     "references": [
         "GUID:44f2c9ceeeed52f4390dd81b0af45b0f"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

@@ -1,9 +1,9 @@
 using UnityEngine;
-#if UNITY_INPUT_SYSTEM_1_0_2_OR_GREATER
+#if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
 
-namespace TirUtilities.Controllers
+namespace TirUtilities.Controllers.Experimental
 {
     using TirUtilities.Extensions;
     ///<!--
@@ -12,8 +12,8 @@ namespace TirUtilities.Controllers
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
-    /// Created:  April 22, 2021
-    /// Updated:  April 22, 2021
+    /// Created:  Apr 22, 2021
+    /// Updated:  Oct 01, 2021
     /// -->
     /// <summary>
     ///
@@ -109,7 +109,7 @@ namespace TirUtilities.Controllers
 
         #region Public Methods
 
-#if UNITY_INPUT_SYSTEM_1_0_2_OR_GREATER
+#if ENABLE_INPUT_SYSTEM
         public void SetMoveDirection(InputAction.CallbackContext context) => _movementDirection = context.ReadValue<Vector2>();
 
         public void Jump(InputAction.CallbackContext context)
@@ -129,7 +129,7 @@ namespace TirUtilities.Controllers
 
         #endregion
 
-        #region Bool Properties
+        #region Helpers
 
         private bool ShouldStopFalling => _controller.isGrounded && _verticalVelocity.y < 0;
 

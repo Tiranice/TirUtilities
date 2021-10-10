@@ -1,0 +1,53 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+    #ROOTNAMESPACEBEGIN#
+///<!--
+/// #SCRIPTNAME#.cs
+/// 
+/// Project:  #PROJECT#
+///        
+/// Author :  #AUTHOR#
+/// Company:  #COMPANY#
+/// Created:  #DATETODAY#
+/// Updated:  #DATETODAY#
+/// -->
+/// <summary>
+///
+/// </summary>
+public static class #SCRIPTNAME#
+{
+    #region Data Structures
+    
+    #endregion
+    
+    #region Fields
+    
+    #endregion
+    
+    #region Events
+    
+    #endregion
+    
+    #region Constructor
+    
+    #endregion
+    
+    #region Private Methods
+    
+    #endregion
+    
+    #region Public Methods
+    
+    #endregion
+    
+    #region Private Properties
+    
+    #endregion
+    
+    #region Public Properties
+    
+    #endregion
+}
+#ROOTNAMESPACEEND#

@@ -1,0 +1,23 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+    #ROOTNAMESPACEBEGIN#
+///<!--
+/// #SCRIPTNAME#.cs
+/// 
+/// Project:  #PROJECT#
+///        
+/// Author :  #AUTHOR#
+/// Company:  #COMPANY#
+/// Created:  #DATETODAY#
+/// Updated:  #DATETODAY#
+/// -->
+/// <summary>
+///
+/// </summary>
+public enum #SCRIPTNAME#
+{
+
+}
+#ROOTNAMESPACEEND#
