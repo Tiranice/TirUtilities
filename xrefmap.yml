@@ -154,6 +154,108 @@ references:
   commentId: F:Global.ConnectionPointType.Out
   fullName: ConnectionPointType.Out
   nameWithType: ConnectionPointType.Out
+- uid: Global.ExportMenuItems
+  name: ExportMenuItems
+  href: api/Global.ExportMenuItems.html
+  commentId: T:Global.ExportMenuItems
+  fullName: ExportMenuItems
+  nameWithType: ExportMenuItems
+- uid: Global.ExportMenuItems.Export
+  name: Export()
+  href: api/Global.ExportMenuItems.html#Global_ExportMenuItems_Export
+  commentId: M:Global.ExportMenuItems.Export
+  fullName: ExportMenuItems.Export()
+  nameWithType: ExportMenuItems.Export()
+- uid: Global.ExportMenuItems.Export*
+  name: Export
+  href: api/Global.ExportMenuItems.html#Global_ExportMenuItems_Export_
+  commentId: Overload:Global.ExportMenuItems.Export
+  isSpec: "True"
+  fullName: ExportMenuItems.Export
+  nameWithType: ExportMenuItems.Export
+- uid: Global.ExportSettings
+  name: ExportSettings
+  href: api/Global.ExportSettings.html
+  commentId: T:Global.ExportSettings
+  fullName: ExportSettings
+  nameWithType: ExportSettings
+- uid: Global.ExportSettings.DecrementPatchNumber
+  name: DecrementPatchNumber()
+  href: api/Global.ExportSettings.html#Global_ExportSettings_DecrementPatchNumber
+  commentId: M:Global.ExportSettings.DecrementPatchNumber
+  fullName: ExportSettings.DecrementPatchNumber()
+  nameWithType: ExportSettings.DecrementPatchNumber()
+- uid: Global.ExportSettings.DecrementPatchNumber*
+  name: DecrementPatchNumber
+  href: api/Global.ExportSettings.html#Global_ExportSettings_DecrementPatchNumber_
+  commentId: Overload:Global.ExportSettings.DecrementPatchNumber
+  isSpec: "True"
+  fullName: ExportSettings.DecrementPatchNumber
+  nameWithType: ExportSettings.DecrementPatchNumber
+- uid: Global.ExportSettings.FileHeader
+  name: FileHeader
+  href: api/Global.ExportSettings.html#Global_ExportSettings_FileHeader
+  commentId: F:Global.ExportSettings.FileHeader
+  fullName: ExportSettings.FileHeader
+  nameWithType: ExportSettings.FileHeader
+- uid: Global.ExportSettings.IncrementPatchNumber
+  name: IncrementPatchNumber()
+  href: api/Global.ExportSettings.html#Global_ExportSettings_IncrementPatchNumber
+  commentId: M:Global.ExportSettings.IncrementPatchNumber
+  fullName: ExportSettings.IncrementPatchNumber()
+  nameWithType: ExportSettings.IncrementPatchNumber()
+- uid: Global.ExportSettings.IncrementPatchNumber*
+  name: IncrementPatchNumber
+  href: api/Global.ExportSettings.html#Global_ExportSettings_IncrementPatchNumber_
+  commentId: Overload:Global.ExportSettings.IncrementPatchNumber
+  isSpec: "True"
+  fullName: ExportSettings.IncrementPatchNumber
+  nameWithType: ExportSettings.IncrementPatchNumber
+- uid: Global.ExportSettings.IncrementVersionNumber
+  name: IncrementVersionNumber()
+  href: api/Global.ExportSettings.html#Global_ExportSettings_IncrementVersionNumber
+  commentId: M:Global.ExportSettings.IncrementVersionNumber
+  fullName: ExportSettings.IncrementVersionNumber()
+  nameWithType: ExportSettings.IncrementVersionNumber()
+- uid: Global.ExportSettings.IncrementVersionNumber*
+  name: IncrementVersionNumber
+  href: api/Global.ExportSettings.html#Global_ExportSettings_IncrementVersionNumber_
+  commentId: Overload:Global.ExportSettings.IncrementVersionNumber
+  isSpec: "True"
+  fullName: ExportSettings.IncrementVersionNumber
+  nameWithType: ExportSettings.IncrementVersionNumber
+- uid: Global.ExportSettings.Log
+  name: Log()
+  href: api/Global.ExportSettings.html#Global_ExportSettings_Log
+  commentId: M:Global.ExportSettings.Log
+  fullName: ExportSettings.Log()
+  nameWithType: ExportSettings.Log()
+- uid: Global.ExportSettings.Log*
+  name: Log
+  href: api/Global.ExportSettings.html#Global_ExportSettings_Log_
+  commentId: Overload:Global.ExportSettings.Log
+  isSpec: "True"
+  fullName: ExportSettings.Log
+  nameWithType: ExportSettings.Log
+- uid: Global.ExportSettings.SetLastVersion
+  name: SetLastVersion()
+  href: api/Global.ExportSettings.html#Global_ExportSettings_SetLastVersion
+  commentId: M:Global.ExportSettings.SetLastVersion
+  fullName: ExportSettings.SetLastVersion()
+  nameWithType: ExportSettings.SetLastVersion()
+- uid: Global.ExportSettings.SetLastVersion*
+  name: SetLastVersion
+  href: api/Global.ExportSettings.html#Global_ExportSettings_SetLastVersion_
+  commentId: Overload:Global.ExportSettings.SetLastVersion
+  isSpec: "True"
+  fullName: ExportSettings.SetLastVersion
+  nameWithType: ExportSettings.SetLastVersion
+- uid: Global.ExportSettings.VersionHeader
+  name: VersionHeader
+  href: api/Global.ExportSettings.html#Global_ExportSettings_VersionHeader
+  commentId: F:Global.ExportSettings.VersionHeader
+  fullName: ExportSettings.VersionHeader
+  nameWithType: ExportSettings.VersionHeader
 - uid: Global.NodeBase
   name: NodeBase
   href: api/Global.NodeBase.html
@@ -410,6 +512,248 @@ references:
   commentId: F:TirUtilities.Controllers.CameraLookEvents.OnLookTargetChanged
   fullName: TirUtilities.Controllers.CameraLookEvents.OnLookTargetChanged
   nameWithType: CameraLookEvents.OnLookTargetChanged
+- uid: TirUtilities.Controllers.Experimental
+  name: TirUtilities.Controllers.Experimental
+  href: api/TirUtilities.Controllers.Experimental.html
+  commentId: N:TirUtilities.Controllers.Experimental
+  fullName: TirUtilities.Controllers.Experimental
+  nameWithType: TirUtilities.Controllers.Experimental
+- uid: TirUtilities.Controllers.Experimental.BoxSelect
+  name: BoxSelect
+  href: api/TirUtilities.Controllers.Experimental.BoxSelect.html
+  commentId: T:TirUtilities.Controllers.Experimental.BoxSelect
+  fullName: TirUtilities.Controllers.Experimental.BoxSelect
+  nameWithType: BoxSelect
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver
+  name: InputSignalReceiver
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html
+  commentId: T:TirUtilities.Controllers.Experimental.InputSignalReceiver
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver
+  nameWithType: InputSignalReceiver
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.JumpInput(System.Boolean)
+  name: JumpInput(Boolean)
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_JumpInput_System_Boolean_
+  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.JumpInput(System.Boolean)
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.JumpInput(System.Boolean)
+  nameWithType: InputSignalReceiver.JumpInput(Boolean)
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.JumpInput*
+  name: JumpInput
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_JumpInput_
+  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.JumpInput
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.JumpInput
+  nameWithType: InputSignalReceiver.JumpInput
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.LookInput(Vector2)
+  name: LookInput(Vector2)
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_LookInput_Vector2_
+  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.LookInput(Vector2)
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.LookInput(Vector2)
+  nameWithType: InputSignalReceiver.LookInput(Vector2)
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.LookInput*
+  name: LookInput
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_LookInput_
+  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.LookInput
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.LookInput
+  nameWithType: InputSignalReceiver.LookInput
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.MoveInput(Vector2)
+  name: MoveInput(Vector2)
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_MoveInput_Vector2_
+  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.MoveInput(Vector2)
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.MoveInput(Vector2)
+  nameWithType: InputSignalReceiver.MoveInput(Vector2)
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.MoveInput*
+  name: MoveInput
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_MoveInput_
+  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.MoveInput
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.MoveInput
+  nameWithType: InputSignalReceiver.MoveInput
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump(InputValue)
+  name: OnJump(InputValue)
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnJump_InputValue_
+  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump(InputValue)
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump(InputValue)
+  nameWithType: InputSignalReceiver.OnJump(InputValue)
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump*
+  name: OnJump
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnJump_
+  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump
+  nameWithType: InputSignalReceiver.OnJump
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook(InputValue)
+  name: OnLook(InputValue)
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnLook_InputValue_
+  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook(InputValue)
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook(InputValue)
+  nameWithType: InputSignalReceiver.OnLook(InputValue)
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook*
+  name: OnLook
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnLook_
+  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook
+  nameWithType: InputSignalReceiver.OnLook
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove(InputValue)
+  name: OnMove(InputValue)
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnMove_InputValue_
+  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove(InputValue)
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove(InputValue)
+  nameWithType: InputSignalReceiver.OnMove(InputValue)
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove*
+  name: OnMove
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnMove_
+  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove
+  nameWithType: InputSignalReceiver.OnMove
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint(InputValue)
+  name: OnSprint(InputValue)
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnSprint_InputValue_
+  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint(InputValue)
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint(InputValue)
+  nameWithType: InputSignalReceiver.OnSprint(InputValue)
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint*
+  name: OnSprint
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnSprint_
+  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint
+  nameWithType: InputSignalReceiver.OnSprint
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.SprintInput(System.Boolean)
+  name: SprintInput(Boolean)
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_SprintInput_System_Boolean_
+  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.SprintInput(System.Boolean)
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.SprintInput(System.Boolean)
+  nameWithType: InputSignalReceiver.SprintInput(Boolean)
+- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.SprintInput*
+  name: SprintInput
+  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_SprintInput_
+  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.SprintInput
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.SprintInput
+  nameWithType: InputSignalReceiver.SprintInput
+- uid: TirUtilities.Controllers.Experimental.ISelectable
+  name: ISelectable
+  href: api/TirUtilities.Controllers.Experimental.ISelectable.html
+  commentId: T:TirUtilities.Controllers.Experimental.ISelectable
+  fullName: TirUtilities.Controllers.Experimental.ISelectable
+  nameWithType: ISelectable
+- uid: TirUtilities.Controllers.Experimental.ISelectable.Deselect
+  name: Deselect()
+  href: api/TirUtilities.Controllers.Experimental.ISelectable.html#TirUtilities_Controllers_Experimental_ISelectable_Deselect
+  commentId: M:TirUtilities.Controllers.Experimental.ISelectable.Deselect
+  fullName: TirUtilities.Controllers.Experimental.ISelectable.Deselect()
+  nameWithType: ISelectable.Deselect()
+- uid: TirUtilities.Controllers.Experimental.ISelectable.Deselect*
+  name: Deselect
+  href: api/TirUtilities.Controllers.Experimental.ISelectable.html#TirUtilities_Controllers_Experimental_ISelectable_Deselect_
+  commentId: Overload:TirUtilities.Controllers.Experimental.ISelectable.Deselect
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.ISelectable.Deselect
+  nameWithType: ISelectable.Deselect
+- uid: TirUtilities.Controllers.Experimental.ISelectable.OnDeselected
+  name: OnDeselected
+  href: api/TirUtilities.Controllers.Experimental.ISelectable.html#TirUtilities_Controllers_Experimental_ISelectable_OnDeselected
+  commentId: E:TirUtilities.Controllers.Experimental.ISelectable.OnDeselected
+  fullName: TirUtilities.Controllers.Experimental.ISelectable.OnDeselected
+  nameWithType: ISelectable.OnDeselected
+- uid: TirUtilities.Controllers.Experimental.ISelectable.OnSelected
+  name: OnSelected
+  href: api/TirUtilities.Controllers.Experimental.ISelectable.html#TirUtilities_Controllers_Experimental_ISelectable_OnSelected
+  commentId: E:TirUtilities.Controllers.Experimental.ISelectable.OnSelected
+  fullName: TirUtilities.Controllers.Experimental.ISelectable.OnSelected
+  nameWithType: ISelectable.OnSelected
+- uid: TirUtilities.Controllers.Experimental.ISelectable.Select
+  name: Select()
+  href: api/TirUtilities.Controllers.Experimental.ISelectable.html#TirUtilities_Controllers_Experimental_ISelectable_Select
+  commentId: M:TirUtilities.Controllers.Experimental.ISelectable.Select
+  fullName: TirUtilities.Controllers.Experimental.ISelectable.Select()
+  nameWithType: ISelectable.Select()
+- uid: TirUtilities.Controllers.Experimental.ISelectable.Select*
+  name: Select
+  href: api/TirUtilities.Controllers.Experimental.ISelectable.html#TirUtilities_Controllers_Experimental_ISelectable_Select_
+  commentId: Overload:TirUtilities.Controllers.Experimental.ISelectable.Select
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.ISelectable.Select
+  nameWithType: ISelectable.Select
+- uid: TirUtilities.Controllers.Experimental.PlayerController
+  name: PlayerController
+  href: api/TirUtilities.Controllers.Experimental.PlayerController.html
+  commentId: T:TirUtilities.Controllers.Experimental.PlayerController
+  fullName: TirUtilities.Controllers.Experimental.PlayerController
+  nameWithType: PlayerController
+- uid: TirUtilities.Controllers.Experimental.PlayerControllerRigidbody
+  name: PlayerControllerRigidbody
+  href: api/TirUtilities.Controllers.Experimental.PlayerControllerRigidbody.html
+  commentId: T:TirUtilities.Controllers.Experimental.PlayerControllerRigidbody
+  fullName: TirUtilities.Controllers.Experimental.PlayerControllerRigidbody
+  nameWithType: PlayerControllerRigidbody
+- uid: TirUtilities.Controllers.Experimental.SelectionBox
+  name: SelectionBox
+  href: api/TirUtilities.Controllers.Experimental.SelectionBox.html
+  commentId: T:TirUtilities.Controllers.Experimental.SelectionBox
+  fullName: TirUtilities.Controllers.Experimental.SelectionBox
+  nameWithType: SelectionBox
+- uid: TirUtilities.Controllers.Experimental.SelectionBox.SelectedObjects
+  name: SelectedObjects
+  href: api/TirUtilities.Controllers.Experimental.SelectionBox.html#TirUtilities_Controllers_Experimental_SelectionBox_SelectedObjects
+  commentId: P:TirUtilities.Controllers.Experimental.SelectionBox.SelectedObjects
+  fullName: TirUtilities.Controllers.Experimental.SelectionBox.SelectedObjects
+  nameWithType: SelectionBox.SelectedObjects
+- uid: TirUtilities.Controllers.Experimental.SelectionBox.SelectedObjects*
+  name: SelectedObjects
+  href: api/TirUtilities.Controllers.Experimental.SelectionBox.html#TirUtilities_Controllers_Experimental_SelectionBox_SelectedObjects_
+  commentId: Overload:TirUtilities.Controllers.Experimental.SelectionBox.SelectedObjects
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.SelectionBox.SelectedObjects
+  nameWithType: SelectionBox.SelectedObjects
+- uid: TirUtilities.Controllers.Experimental.SelectionBox.UpdateSelection(System.Boolean,GameObject)
+  name: UpdateSelection(Boolean, GameObject)
+  href: api/TirUtilities.Controllers.Experimental.SelectionBox.html#TirUtilities_Controllers_Experimental_SelectionBox_UpdateSelection_System_Boolean_GameObject_
+  commentId: M:TirUtilities.Controllers.Experimental.SelectionBox.UpdateSelection(System.Boolean,GameObject)
+  fullName: TirUtilities.Controllers.Experimental.SelectionBox.UpdateSelection(System.Boolean, GameObject)
+  nameWithType: SelectionBox.UpdateSelection(Boolean, GameObject)
+- uid: TirUtilities.Controllers.Experimental.SelectionBox.UpdateSelection*
+  name: UpdateSelection
+  href: api/TirUtilities.Controllers.Experimental.SelectionBox.html#TirUtilities_Controllers_Experimental_SelectionBox_UpdateSelection_
+  commentId: Overload:TirUtilities.Controllers.Experimental.SelectionBox.UpdateSelection
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.SelectionBox.UpdateSelection
+  nameWithType: SelectionBox.UpdateSelection
+- uid: TirUtilities.Controllers.Experimental.ThirdPersonController
+  name: ThirdPersonController
+  href: api/TirUtilities.Controllers.Experimental.ThirdPersonController.html
+  commentId: T:TirUtilities.Controllers.Experimental.ThirdPersonController
+  fullName: TirUtilities.Controllers.Experimental.ThirdPersonController
+  nameWithType: ThirdPersonController
+- uid: TirUtilities.Controllers.Experimental.ThirdPersonController.Jump
+  name: Jump()
+  href: api/TirUtilities.Controllers.Experimental.ThirdPersonController.html#TirUtilities_Controllers_Experimental_ThirdPersonController_Jump
+  commentId: M:TirUtilities.Controllers.Experimental.ThirdPersonController.Jump
+  fullName: TirUtilities.Controllers.Experimental.ThirdPersonController.Jump()
+  nameWithType: ThirdPersonController.Jump()
+- uid: TirUtilities.Controllers.Experimental.ThirdPersonController.Jump*
+  name: Jump
+  href: api/TirUtilities.Controllers.Experimental.ThirdPersonController.html#TirUtilities_Controllers_Experimental_ThirdPersonController_Jump_
+  commentId: Overload:TirUtilities.Controllers.Experimental.ThirdPersonController.Jump
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.ThirdPersonController.Jump
+  nameWithType: ThirdPersonController.Jump
+- uid: TirUtilities.Controllers.Experimental.ThirdPersonController.SetMoveDirection(Vector2)
+  name: SetMoveDirection(Vector2)
+  href: api/TirUtilities.Controllers.Experimental.ThirdPersonController.html#TirUtilities_Controllers_Experimental_ThirdPersonController_SetMoveDirection_Vector2_
+  commentId: M:TirUtilities.Controllers.Experimental.ThirdPersonController.SetMoveDirection(Vector2)
+  fullName: TirUtilities.Controllers.Experimental.ThirdPersonController.SetMoveDirection(Vector2)
+  nameWithType: ThirdPersonController.SetMoveDirection(Vector2)
+- uid: TirUtilities.Controllers.Experimental.ThirdPersonController.SetMoveDirection*
+  name: SetMoveDirection
+  href: api/TirUtilities.Controllers.Experimental.ThirdPersonController.html#TirUtilities_Controllers_Experimental_ThirdPersonController_SetMoveDirection_
+  commentId: Overload:TirUtilities.Controllers.Experimental.ThirdPersonController.SetMoveDirection
+  isSpec: "True"
+  fullName: TirUtilities.Controllers.Experimental.ThirdPersonController.SetMoveDirection
+  nameWithType: ThirdPersonController.SetMoveDirection
 - uid: TirUtilities.Controllers.MouseUtility
   name: MouseUtility
   href: api/TirUtilities.Controllers.MouseUtility.html
@@ -632,38 +976,6 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Controllers.MouseUtility.TryGetWorldSpaceMousePosition2D
   nameWithType: MouseUtility.TryGetWorldSpaceMousePosition2D
-- uid: TirUtilities.Controllers.ThirdPersonController
-  name: ThirdPersonController
-  href: api/TirUtilities.Controllers.ThirdPersonController.html
-  commentId: T:TirUtilities.Controllers.ThirdPersonController
-  fullName: TirUtilities.Controllers.ThirdPersonController
-  nameWithType: ThirdPersonController
-- uid: TirUtilities.Controllers.ThirdPersonController.Jump
-  name: Jump()
-  href: api/TirUtilities.Controllers.ThirdPersonController.html#TirUtilities_Controllers_ThirdPersonController_Jump
-  commentId: M:TirUtilities.Controllers.ThirdPersonController.Jump
-  fullName: TirUtilities.Controllers.ThirdPersonController.Jump()
-  nameWithType: ThirdPersonController.Jump()
-- uid: TirUtilities.Controllers.ThirdPersonController.Jump*
-  name: Jump
-  href: api/TirUtilities.Controllers.ThirdPersonController.html#TirUtilities_Controllers_ThirdPersonController_Jump_
-  commentId: Overload:TirUtilities.Controllers.ThirdPersonController.Jump
-  isSpec: "True"
-  fullName: TirUtilities.Controllers.ThirdPersonController.Jump
-  nameWithType: ThirdPersonController.Jump
-- uid: TirUtilities.Controllers.ThirdPersonController.SetMoveDirection(Vector2)
-  name: SetMoveDirection(Vector2)
-  href: api/TirUtilities.Controllers.ThirdPersonController.html#TirUtilities_Controllers_ThirdPersonController_SetMoveDirection_Vector2_
-  commentId: M:TirUtilities.Controllers.ThirdPersonController.SetMoveDirection(Vector2)
-  fullName: TirUtilities.Controllers.ThirdPersonController.SetMoveDirection(Vector2)
-  nameWithType: ThirdPersonController.SetMoveDirection(Vector2)
-- uid: TirUtilities.Controllers.ThirdPersonController.SetMoveDirection*
-  name: SetMoveDirection
-  href: api/TirUtilities.Controllers.ThirdPersonController.html#TirUtilities_Controllers_ThirdPersonController_SetMoveDirection_
-  commentId: Overload:TirUtilities.Controllers.ThirdPersonController.SetMoveDirection
-  isSpec: "True"
-  fullName: TirUtilities.Controllers.ThirdPersonController.SetMoveDirection
-  nameWithType: ThirdPersonController.SetMoveDirection
 - uid: TirUtilities.CustomEvents
   name: TirUtilities.CustomEvents
   href: api/TirUtilities.CustomEvents.html
@@ -712,6 +1024,18 @@ references:
   commentId: T:TirUtilities.CustomGizmos.DrawForwardGizmo
   fullName: TirUtilities.CustomGizmos.DrawForwardGizmo
   nameWithType: DrawForwardGizmo
+- uid: TirUtilities.CustomGizmos.Experimental
+  name: TirUtilities.CustomGizmos.Experimental
+  href: api/TirUtilities.CustomGizmos.Experimental.html
+  commentId: N:TirUtilities.CustomGizmos.Experimental
+  fullName: TirUtilities.CustomGizmos.Experimental
+  nameWithType: TirUtilities.CustomGizmos.Experimental
+- uid: TirUtilities.CustomGizmos.Experimental.MeshGizmos
+  name: MeshGizmos
+  href: api/TirUtilities.CustomGizmos.Experimental.MeshGizmos.html
+  commentId: T:TirUtilities.CustomGizmos.Experimental.MeshGizmos
+  fullName: TirUtilities.CustomGizmos.Experimental.MeshGizmos
+  nameWithType: MeshGizmos
 - uid: TirUtilities.CustomGizmos.TirGizmos
   name: TirGizmos
   href: api/TirUtilities.CustomGizmos.TirGizmos.html
@@ -737,6 +1061,145 @@ references:
   commentId: N:TirUtilities.Detection
   fullName: TirUtilities.Detection
   nameWithType: TirUtilities.Detection
+- uid: TirUtilities.Detection.Experimental
+  name: TirUtilities.Detection.Experimental
+  href: api/TirUtilities.Detection.Experimental.html
+  commentId: N:TirUtilities.Detection.Experimental
+  fullName: TirUtilities.Detection.Experimental
+  nameWithType: TirUtilities.Detection.Experimental
+- uid: TirUtilities.Detection.Experimental.ShapeType
+  name: ShapeType
+  href: api/TirUtilities.Detection.Experimental.ShapeType.html
+  commentId: T:TirUtilities.Detection.Experimental.ShapeType
+  fullName: TirUtilities.Detection.Experimental.ShapeType
+  nameWithType: ShapeType
+- uid: TirUtilities.Detection.Experimental.ShapeType.Box
+  name: Box
+  href: api/TirUtilities.Detection.Experimental.ShapeType.html#TirUtilities_Detection_Experimental_ShapeType_Box
+  commentId: F:TirUtilities.Detection.Experimental.ShapeType.Box
+  fullName: TirUtilities.Detection.Experimental.ShapeType.Box
+  nameWithType: ShapeType.Box
+- uid: TirUtilities.Detection.Experimental.ShapeType.Cylinder
+  name: Cylinder
+  href: api/TirUtilities.Detection.Experimental.ShapeType.html#TirUtilities_Detection_Experimental_ShapeType_Cylinder
+  commentId: F:TirUtilities.Detection.Experimental.ShapeType.Cylinder
+  fullName: TirUtilities.Detection.Experimental.ShapeType.Cylinder
+  nameWithType: ShapeType.Cylinder
+- uid: TirUtilities.Detection.Experimental.ShapeType.Sphere
+  name: Sphere
+  href: api/TirUtilities.Detection.Experimental.ShapeType.html#TirUtilities_Detection_Experimental_ShapeType_Sphere
+  commentId: F:TirUtilities.Detection.Experimental.ShapeType.Sphere
+  fullName: TirUtilities.Detection.Experimental.ShapeType.Sphere
+  nameWithType: ShapeType.Sphere
+- uid: TirUtilities.Detection.Experimental.SpawnZone
+  name: SpawnZone
+  href: api/TirUtilities.Detection.Experimental.SpawnZone.html
+  commentId: T:TirUtilities.Detection.Experimental.SpawnZone
+  fullName: TirUtilities.Detection.Experimental.SpawnZone
+  nameWithType: SpawnZone
+- uid: TirUtilities.Detection.Experimental.SpawnZone.GetRandomPosition
+  name: GetRandomPosition()
+  href: api/TirUtilities.Detection.Experimental.SpawnZone.html#TirUtilities_Detection_Experimental_SpawnZone_GetRandomPosition
+  commentId: M:TirUtilities.Detection.Experimental.SpawnZone.GetRandomPosition
+  fullName: TirUtilities.Detection.Experimental.SpawnZone.GetRandomPosition()
+  nameWithType: SpawnZone.GetRandomPosition()
+- uid: TirUtilities.Detection.Experimental.SpawnZone.GetRandomPosition*
+  name: GetRandomPosition
+  href: api/TirUtilities.Detection.Experimental.SpawnZone.html#TirUtilities_Detection_Experimental_SpawnZone_GetRandomPosition_
+  commentId: Overload:TirUtilities.Detection.Experimental.SpawnZone.GetRandomPosition
+  isSpec: "True"
+  fullName: TirUtilities.Detection.Experimental.SpawnZone.GetRandomPosition
+  nameWithType: SpawnZone.GetRandomPosition
+- uid: TirUtilities.Detection.Experimental.Zone
+  name: Zone
+  href: api/TirUtilities.Detection.Experimental.Zone.html
+  commentId: T:TirUtilities.Detection.Experimental.Zone
+  fullName: TirUtilities.Detection.Experimental.Zone
+  nameWithType: Zone
+- uid: TirUtilities.Detection.Experimental.Zone.#ctor(System.Single,System.Single)
+  name: Zone(Single, Single)
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone__ctor_System_Single_System_Single_
+  commentId: M:TirUtilities.Detection.Experimental.Zone.#ctor(System.Single,System.Single)
+  fullName: TirUtilities.Detection.Experimental.Zone.Zone(System.Single, System.Single)
+  nameWithType: Zone.Zone(Single, Single)
+- uid: TirUtilities.Detection.Experimental.Zone.#ctor*
+  name: Zone
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone__ctor_
+  commentId: Overload:TirUtilities.Detection.Experimental.Zone.#ctor
+  isSpec: "True"
+  fullName: TirUtilities.Detection.Experimental.Zone.Zone
+  nameWithType: Zone.Zone
+- uid: TirUtilities.Detection.Experimental.Zone.Diameter
+  name: Diameter
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_Diameter
+  commentId: P:TirUtilities.Detection.Experimental.Zone.Diameter
+  fullName: TirUtilities.Detection.Experimental.Zone.Diameter
+  nameWithType: Zone.Diameter
+- uid: TirUtilities.Detection.Experimental.Zone.Diameter*
+  name: Diameter
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_Diameter_
+  commentId: Overload:TirUtilities.Detection.Experimental.Zone.Diameter
+  isSpec: "True"
+  fullName: TirUtilities.Detection.Experimental.Zone.Diameter
+  nameWithType: Zone.Diameter
+- uid: TirUtilities.Detection.Experimental.Zone.HalfHeight
+  name: HalfHeight
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_HalfHeight
+  commentId: P:TirUtilities.Detection.Experimental.Zone.HalfHeight
+  fullName: TirUtilities.Detection.Experimental.Zone.HalfHeight
+  nameWithType: Zone.HalfHeight
+- uid: TirUtilities.Detection.Experimental.Zone.HalfHeight*
+  name: HalfHeight
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_HalfHeight_
+  commentId: Overload:TirUtilities.Detection.Experimental.Zone.HalfHeight
+  isSpec: "True"
+  fullName: TirUtilities.Detection.Experimental.Zone.HalfHeight
+  nameWithType: Zone.HalfHeight
+- uid: TirUtilities.Detection.Experimental.Zone.Height
+  name: Height
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_Height
+  commentId: P:TirUtilities.Detection.Experimental.Zone.Height
+  fullName: TirUtilities.Detection.Experimental.Zone.Height
+  nameWithType: Zone.Height
+- uid: TirUtilities.Detection.Experimental.Zone.Height*
+  name: Height
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_Height_
+  commentId: Overload:TirUtilities.Detection.Experimental.Zone.Height
+  isSpec: "True"
+  fullName: TirUtilities.Detection.Experimental.Zone.Height
+  nameWithType: Zone.Height
+- uid: TirUtilities.Detection.Experimental.Zone.op_Implicit(System.ValueTuple{System.Single,System.Single})~TirUtilities.Detection.Experimental.Zone
+  name: Implicit((Single, Single) to Zone)
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_op_Implicit_System_ValueTuple_System_Single_System_Single___TirUtilities_Detection_Experimental_Zone
+  commentId: M:TirUtilities.Detection.Experimental.Zone.op_Implicit(System.ValueTuple{System.Single,System.Single})~TirUtilities.Detection.Experimental.Zone
+  name.vb: Widening((Single, Single)(Of Single, Single) to Zone)
+  fullName: TirUtilities.Detection.Experimental.Zone.Implicit(System.ValueTuple<System.Single, System.Single> to TirUtilities.Detection.Experimental.Zone)
+  fullName.vb: TirUtilities.Detection.Experimental.Zone.Widening(System.ValueTuple(Of System.Single, System.Single) to TirUtilities.Detection.Experimental.Zone)
+  nameWithType: Zone.Implicit((Single, Single) to Zone)
+  nameWithType.vb: Zone.Widening((Single, Single)(Of Single, Single) to Zone)
+- uid: TirUtilities.Detection.Experimental.Zone.op_Implicit*
+  name: Implicit
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_op_Implicit_
+  commentId: Overload:TirUtilities.Detection.Experimental.Zone.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: TirUtilities.Detection.Experimental.Zone.Implicit
+  fullName.vb: TirUtilities.Detection.Experimental.Zone.Widening
+  nameWithType: Zone.Implicit
+  nameWithType.vb: Zone.Widening
+- uid: TirUtilities.Detection.Experimental.Zone.Radius
+  name: Radius
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_Radius
+  commentId: P:TirUtilities.Detection.Experimental.Zone.Radius
+  fullName: TirUtilities.Detection.Experimental.Zone.Radius
+  nameWithType: Zone.Radius
+- uid: TirUtilities.Detection.Experimental.Zone.Radius*
+  name: Radius
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_Radius_
+  commentId: Overload:TirUtilities.Detection.Experimental.Zone.Radius
+  isSpec: "True"
+  fullName: TirUtilities.Detection.Experimental.Zone.Radius
+  nameWithType: Zone.Radius
 - uid: TirUtilities.Detection.TriggerVolume
   name: TriggerVolume
   href: api/TirUtilities.Detection.TriggerVolume.html
@@ -755,6 +1218,31 @@ references:
   commentId: N:TirUtilities.Editor
   fullName: TirUtilities.Editor
   nameWithType: TirUtilities.Editor
+- uid: TirUtilities.Editor.Experimantal
+  name: TirUtilities.Editor.Experimantal
+  href: api/TirUtilities.Editor.Experimantal.html
+  commentId: N:TirUtilities.Editor.Experimantal
+  fullName: TirUtilities.Editor.Experimantal
+  nameWithType: TirUtilities.Editor.Experimantal
+- uid: TirUtilities.Editor.Experimantal.EditMenuItems
+  name: EditMenuItems
+  href: api/TirUtilities.Editor.Experimantal.EditMenuItems.html
+  commentId: T:TirUtilities.Editor.Experimantal.EditMenuItems
+  fullName: TirUtilities.Editor.Experimantal.EditMenuItems
+  nameWithType: EditMenuItems
+- uid: TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected(GameObject)
+  name: FocusSelected(GameObject)
+  href: api/TirUtilities.Editor.Experimantal.EditMenuItems.html#TirUtilities_Editor_Experimantal_EditMenuItems_FocusSelected_GameObject_
+  commentId: M:TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected(GameObject)
+  fullName: TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected(GameObject)
+  nameWithType: EditMenuItems.FocusSelected(GameObject)
+- uid: TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected*
+  name: FocusSelected
+  href: api/TirUtilities.Editor.Experimantal.EditMenuItems.html#TirUtilities_Editor_Experimantal_EditMenuItems_FocusSelected_
+  commentId: Overload:TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected
+  nameWithType: EditMenuItems.FocusSelected
 - uid: TirUtilities.Editor.Experimental
   name: TirUtilities.Editor.Experimental
   href: api/TirUtilities.Editor.Experimental.html
@@ -3171,6 +3659,63 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Signals.TransformSignal.RemoveReceiver
   nameWithType: TransformSignal.RemoveReceiver
+- uid: TirUtilities.Signals.Vector2Signal
+  name: Vector2Signal
+  href: api/TirUtilities.Signals.Vector2Signal.html
+  commentId: T:TirUtilities.Signals.Vector2Signal
+  fullName: TirUtilities.Signals.Vector2Signal
+  nameWithType: Vector2Signal
+- uid: TirUtilities.Signals.Vector2Signal._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.Vector2Signal.html#TirUtilities_Signals_Vector2Signal__OnEmit
+  commentId: F:TirUtilities.Signals.Vector2Signal._OnEmit
+  fullName: TirUtilities.Signals.Vector2Signal._OnEmit
+  nameWithType: Vector2Signal._OnEmit
+- uid: TirUtilities.Signals.Vector2Signal.AddReceiver(UnityAction{Vector2})
+  name: AddReceiver(UnityAction<Vector2>)
+  href: api/TirUtilities.Signals.Vector2Signal.html#TirUtilities_Signals_Vector2Signal_AddReceiver_UnityAction_Vector2__
+  commentId: M:TirUtilities.Signals.Vector2Signal.AddReceiver(UnityAction{Vector2})
+  name.vb: AddReceiver(UnityAction(Of Vector2))
+  fullName: TirUtilities.Signals.Vector2Signal.AddReceiver(UnityAction<Vector2>)
+  fullName.vb: TirUtilities.Signals.Vector2Signal.AddReceiver(UnityAction(Of Vector2))
+  nameWithType: Vector2Signal.AddReceiver(UnityAction<Vector2>)
+  nameWithType.vb: Vector2Signal.AddReceiver(UnityAction(Of Vector2))
+- uid: TirUtilities.Signals.Vector2Signal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.Vector2Signal.html#TirUtilities_Signals_Vector2Signal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.Vector2Signal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector2Signal.AddReceiver
+  nameWithType: Vector2Signal.AddReceiver
+- uid: TirUtilities.Signals.Vector2Signal.Emit(Vector2)
+  name: Emit(Vector2)
+  href: api/TirUtilities.Signals.Vector2Signal.html#TirUtilities_Signals_Vector2Signal_Emit_Vector2_
+  commentId: M:TirUtilities.Signals.Vector2Signal.Emit(Vector2)
+  fullName: TirUtilities.Signals.Vector2Signal.Emit(Vector2)
+  nameWithType: Vector2Signal.Emit(Vector2)
+- uid: TirUtilities.Signals.Vector2Signal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.Vector2Signal.html#TirUtilities_Signals_Vector2Signal_Emit_
+  commentId: Overload:TirUtilities.Signals.Vector2Signal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector2Signal.Emit
+  nameWithType: Vector2Signal.Emit
+- uid: TirUtilities.Signals.Vector2Signal.RemoveReceiver(UnityAction{Vector2})
+  name: RemoveReceiver(UnityAction<Vector2>)
+  href: api/TirUtilities.Signals.Vector2Signal.html#TirUtilities_Signals_Vector2Signal_RemoveReceiver_UnityAction_Vector2__
+  commentId: M:TirUtilities.Signals.Vector2Signal.RemoveReceiver(UnityAction{Vector2})
+  name.vb: RemoveReceiver(UnityAction(Of Vector2))
+  fullName: TirUtilities.Signals.Vector2Signal.RemoveReceiver(UnityAction<Vector2>)
+  fullName.vb: TirUtilities.Signals.Vector2Signal.RemoveReceiver(UnityAction(Of Vector2))
+  nameWithType: Vector2Signal.RemoveReceiver(UnityAction<Vector2>)
+  nameWithType.vb: Vector2Signal.RemoveReceiver(UnityAction(Of Vector2))
+- uid: TirUtilities.Signals.Vector2Signal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.Vector2Signal.html#TirUtilities_Signals_Vector2Signal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.Vector2Signal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector2Signal.RemoveReceiver
+  nameWithType: Vector2Signal.RemoveReceiver
 - uid: TirUtilities.StateMachine
   name: StateMachine
   href: api/TirUtilities.StateMachine.html
@@ -3818,12 +4363,44 @@ references:
   isSpec: "True"
   fullName: TirUtilities.UI.WorldSpaceMessageBox.Text
   nameWithType: WorldSpaceMessageBox.Text
+- uid: TirUtilities.Vector2Extensions
+  name: Vector2Extensions
+  href: api/TirUtilities.Vector2Extensions.html
+  commentId: T:TirUtilities.Vector2Extensions
+  fullName: TirUtilities.Vector2Extensions
+  nameWithType: Vector2Extensions
+- uid: TirUtilities.Vector2Extensions.Abs(Vector2)
+  name: Abs(Vector2)
+  href: api/TirUtilities.Vector2Extensions.html#TirUtilities_Vector2Extensions_Abs_Vector2_
+  commentId: M:TirUtilities.Vector2Extensions.Abs(Vector2)
+  fullName: TirUtilities.Vector2Extensions.Abs(Vector2)
+  nameWithType: Vector2Extensions.Abs(Vector2)
+- uid: TirUtilities.Vector2Extensions.Abs*
+  name: Abs
+  href: api/TirUtilities.Vector2Extensions.html#TirUtilities_Vector2Extensions_Abs_
+  commentId: Overload:TirUtilities.Vector2Extensions.Abs
+  isSpec: "True"
+  fullName: TirUtilities.Vector2Extensions.Abs
+  nameWithType: Vector2Extensions.Abs
 - uid: TirUtilities.Vector3Extensions
   name: Vector3Extensions
   href: api/TirUtilities.Vector3Extensions.html
   commentId: T:TirUtilities.Vector3Extensions
   fullName: TirUtilities.Vector3Extensions
   nameWithType: Vector3Extensions
+- uid: TirUtilities.Vector3Extensions.Abs(Vector3)
+  name: Abs(Vector3)
+  href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_Abs_Vector3_
+  commentId: M:TirUtilities.Vector3Extensions.Abs(Vector3)
+  fullName: TirUtilities.Vector3Extensions.Abs(Vector3)
+  nameWithType: Vector3Extensions.Abs(Vector3)
+- uid: TirUtilities.Vector3Extensions.Abs*
+  name: Abs
+  href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_Abs_
+  commentId: Overload:TirUtilities.Vector3Extensions.Abs
+  isSpec: "True"
+  fullName: TirUtilities.Vector3Extensions.Abs
+  nameWithType: Vector3Extensions.Abs
 - uid: TirUtilities.Vector3Extensions.Invariant(Vector3)
   name: Invariant(Vector3)
   href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_Invariant_Vector3_

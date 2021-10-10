@@ -84,6 +84,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.ExportMenuItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ExportMenuItems.html",
+          "hash": "AQnCceSnyKSit4Slj4g5If36AJj9ilhyt6XApytLx2E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ExportSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ExportSettings.html",
+          "hash": "tsdLev4XFHXk+OlmvohpGAOIJ1zOHe4xMKym2Svcs20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.NodeBase.yml",
       "output": {
         ".html": {
@@ -136,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "PfUwhm2IvgwKvhijiNS7oY129i8CK6EdlQict9c1VUc="
+          "hash": "7lugDhtiugQPTbNPaIDtzPJeE8I4g+adIICpH5YIIfw="
         }
       },
       "is_incremental": false,
@@ -192,6 +216,102 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.Experimental.BoxSelect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.Experimental.BoxSelect.html",
+          "hash": "91vnxUf4EQZhcpqx3pEfkM5k85/sVL3pMcClManr8o8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.Experimental.ISelectable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.Experimental.ISelectable.html",
+          "hash": "Y5qCDjlTYFGWP+65WPI7KRvs39Ub7Wcpw6XUDlFpvyk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.Experimental.InputSignalReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html",
+          "hash": "al4ITpYFgc6t7mT4iqg8juEnsEFufBCu3j2SrlrjDyc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.Experimental.PlayerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.Experimental.PlayerController.html",
+          "hash": "xFsXjbckMyQsWZxs5hbDOhgNO1qUDwcypygxMj0U2CE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.Experimental.PlayerControllerRigidbody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.Experimental.PlayerControllerRigidbody.html",
+          "hash": "SAQuL5SwfFCojT95jC5D6JgH/nuwg+Lxj539PnbnBUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.Experimental.SelectionBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.Experimental.SelectionBox.html",
+          "hash": "TQev37ojG19QV5DwBZH7Lk5XPofSEkPT2RTpg3wn0DQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.Experimental.ThirdPersonController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.Experimental.ThirdPersonController.html",
+          "hash": "VVzRJdXwtH62ZYDL0pqFXNQCkHEBVKBPYRYGt8Ibu54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Controllers.Experimental.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Controllers.Experimental.html",
+          "hash": "qJbNadEO48B2F2dYH0f1HmbFlk/2FcsOxV4Y5AlApck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.Controllers.MouseUtility.yml",
       "output": {
         ".html": {
@@ -204,23 +324,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TirUtilities.Controllers.ThirdPersonController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TirUtilities.Controllers.ThirdPersonController.html",
-          "hash": "a1GUEEfEYAYEZtXoMlWu288M2+t9msRMNqDewQ56RMo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.Controllers.yml",
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Controllers.html",
-          "hash": "WkaqqGHE3kBJeJKTy4fxeqk6edppwDI6RrpeYyKIVlQ="
+          "hash": "KzYBXyEcuMuKo1np0kMbrDVquCosCK0biYQLCVy9cKs="
         }
       },
       "is_incremental": false,
@@ -312,6 +420,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomGizmos.Experimental.MeshGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomGizmos.Experimental.MeshGizmos.html",
+          "hash": "5hCSOLphTNMalSIl9y0Qrua1S2AGfBWJE+Bki2ils3c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.CustomGizmos.Experimental.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.CustomGizmos.Experimental.html",
+          "hash": "58jrn7fN4AESirbipTP0Dsv2o408hoymdIK5EHviT3M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.CustomGizmos.TirGizmos.yml",
       "output": {
         ".html": {
@@ -329,6 +461,54 @@
         ".html": {
           "relative_path": "api/TirUtilities.CustomGizmos.html",
           "hash": "LDROoQ6CX4i/QyEn8OoSduBDth3XCNGShTCqFof2cT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Detection.Experimental.ShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Detection.Experimental.ShapeType.html",
+          "hash": "unsLpXvdUhsqGDf5gNcZ1EXJbrJUEHDA2xfxxdoXbj0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Detection.Experimental.SpawnZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Detection.Experimental.SpawnZone.html",
+          "hash": "XTOdYy4wapiJnxC3DN0b5i7ntupp/r7Gx2x9QUiWzXU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Detection.Experimental.Zone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Detection.Experimental.Zone.html",
+          "hash": "10NrLA21yFIgUDrX7Fimtu05q/Jn22ydiPozIMeikwY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Detection.Experimental.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Detection.Experimental.html",
+          "hash": "piDxaiBC3gFL2+wu/TYPNFgX0IpeR/b9r+XJ8XQ7Z8c="
         }
       },
       "is_incremental": false,
@@ -365,6 +545,30 @@
         ".html": {
           "relative_path": "api/TirUtilities.DisplayOnlyAttribute.html",
           "hash": "zIvdzpyKXSAMdBFTXP87OIt3d28SN4fHUI7ZjxnqFcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Experimantal.EditMenuItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Experimantal.EditMenuItems.html",
+          "hash": "r3/we9iDAFFMu1+oRyrzX6xpJzZb/XZO7AqUjl2YK3w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Editor.Experimantal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Editor.Experimantal.html",
+          "hash": "O2PU+q0CKEdt+2ERwQxGoJ89Bh8hnwqTk4vmo6o5hnw="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1336,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.SignalBase.html",
-          "hash": "a1Ii9hs35HhMJwuBLB+/coDOeoURAVumxXhNQZuSYLo="
+          "hash": "gTSaE0VLjw1xFJuPyArskUq4QzIigujUyNEyODuG0fs="
         }
       },
       "is_incremental": false,
@@ -1176,11 +1380,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Signals.Vector2Signal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Signals.Vector2Signal.html",
+          "hash": "xTGGLq5OhLtrK/7yWZ5lgbyBpUBcVm1+8lPNEL2scIE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.Signals.yml",
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Signals.html",
-          "hash": "wdXpWwtbgjuTkcJVQTg25uzFsNr+t2WsB+C7t+LmiKY="
+          "hash": "rFOo6N3gs3yZoLIoIyOvJCvISCjKP3XDTcOMLNau7+s="
         }
       },
       "is_incremental": false,
@@ -1440,11 +1656,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Vector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Vector2Extensions.html",
+          "hash": "vJs8M40zBgNyEs+oNZ+tPPlhchZ6/zy7+JsO6abB0A0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.Vector3Extensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Vector3Extensions.html",
-          "hash": "xa+3q+1eSjhId4qO+N9lRLvh2ePcf9d7Q2cX6qKpw64="
+          "hash": "ROx9N+CFzCzoVI0piWtbDLuwaIBQSI6IZhDDi8iGVs4="
         }
       },
       "is_incremental": false,
@@ -1456,7 +1684,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.html",
-          "hash": "lRxxht1ZgGzM0F3IuNYeS1PmS8dJIP2syLkQ8lNeY+Q="
+          "hash": "i8zQfWCSyvqJ+zurZi7Bvw0ZfQ5BSMyAu4OTkestHJ8="
         }
       },
       "is_incremental": false,
@@ -1468,7 +1696,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Kioy+TGB3oYiLE9zo72sbqZtXqTft2s8LoVCB+PCSfY="
+          "hash": "HZHv10fWyoVw2AzccrqICGiG0FnxY2QXdXdVrQ6d6Sk="
         }
       },
       "is_incremental": false,
@@ -1661,7 +1889,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 120,
+          "total_file_count": 139,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
