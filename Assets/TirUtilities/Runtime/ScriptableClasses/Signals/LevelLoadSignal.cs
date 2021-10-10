@@ -21,7 +21,7 @@ namespace TirUtilities.Signals
     /// Updated:  Sep 22, 2021
     /// -->
     /// <summary> Signal that emits a copy of a <see cref="LevelData"/> value. </summary>
-    [CreateAssetMenu(menuName = "Signals/Level Load Signal", order = 21)]
+    [CreateAssetMenu(menuName = "Signals/Level Load Signal", order = 30)]
     public class LevelLoadSignal : SignalBase, ISignal<LevelData>
     {
         #region Inspector Fields
