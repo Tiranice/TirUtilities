@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using TirUtilities.Extensions;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace TirUtilities.Signals
 {
+    using TirUtilities.Extensions;
     ///<!--
     /// SignalReceiver.cs
     /// 
@@ -13,7 +11,7 @@ namespace TirUtilities.Signals
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 02, 2021
-    /// Updated:  May 02, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
     /// Invokes <see cref="_OnSignalReceived">On Signal Received</see> when the <see cref="_signal">Signal</see>

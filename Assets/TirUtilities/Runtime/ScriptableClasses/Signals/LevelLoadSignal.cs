@@ -17,12 +17,13 @@ namespace TirUtilities.Signals
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Software
     /// Created:  May 05, 2021
-    /// Updated:  Sep 22, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary> Signal that emits a copy of a <see cref="LevelData"/> value. </summary>
-    [CreateAssetMenu(menuName = "Signals/Level Load Signal", order = 30)]
-    public class LevelLoadSignal : SignalBase, ISignal<LevelData>
+    [CreateAssetMenu(menuName = "Signals/Level Load Signal", order = 60)]
+    public class LevelLoadSignal : SignalBase<LevelData>, ISignal<LevelData>
     {
         #region Inspector Fields
 
@@ -38,13 +39,6 @@ namespace TirUtilities.Signals
 
         public string ActiveScene => _levelData.ActiveScene;
         public IReadOnlyList<string> AdditiveScenes => _levelData.AdditiveScenes;
-
-        #endregion
-
-        #region Actions
-
-        /// <summary> Invoked in <see cref="Emit(LevelData)"/>, calling receivers. </summary>
-        [SerializeField] protected UnityAction<LevelData> _OnEmit;
 
         #endregion
 
@@ -90,7 +84,8 @@ namespace TirUtilities.Signals
         {
             if (ActiveScene == string.Empty || ActiveScene == null) return;
 
-            EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
+            if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
+
             EditorSceneManager.OpenScene(_levelData.ActiveScene);
             foreach (var scene in _levelData.AdditiveScenes)
                 EditorSceneManager.OpenScene(scene, OpenSceneMode.Additive);

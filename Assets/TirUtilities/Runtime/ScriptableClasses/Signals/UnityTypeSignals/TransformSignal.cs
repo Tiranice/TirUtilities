@@ -11,23 +11,16 @@ namespace TirUtilities.Signals
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
-    /// Company:  BlackPhoenixSoftware
+    /// Company:  Black Phoenix Software
     /// Created:  Sep 22, 2021
-    /// Updated:  Sep 22, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
     /// A <see cref="Signal"/> that emits a transform.
     /// </summary>
-    [CreateAssetMenu(menuName = "Signals/Transform Signal", order = 12)]
-    public class TransformSignal : SignalBase, ISignal<Transform>
+    [CreateAssetMenu(menuName = "Signals/Transform Signal", order = 40)]
+    public class TransformSignal : SignalBase<Transform>, ISignal<Transform>
     {
-        #region Actions
-
-        /// <summary> Invoked in <see cref="Emit(Transform)"/>, calling receivers. </summary>
-        [SerializeField] protected UnityAction<Transform> _OnEmit;
-
-        #endregion
-
         #region Public Methods
 
         /// <summary>

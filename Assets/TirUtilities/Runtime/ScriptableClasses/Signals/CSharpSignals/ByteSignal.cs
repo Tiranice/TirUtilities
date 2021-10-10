@@ -10,25 +10,16 @@ namespace TirUtilities.Signals
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Software
     /// Created:  June 15, 2021
-    /// Updated:  June 15, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
     /// A <see cref="Signal"/> that emits a byte.
     /// </summary>
-    [CreateAssetMenu(menuName = "Signals/Byte Signal")]
-    public class ByteSignal : SignalBase, ISignal<byte>
+    [CreateAssetMenu(menuName = "Signals/Byte Signal", order = 20)]
+    public class ByteSignal : SignalBase<byte>, ISignal<byte>
     {
-        #region Actions
-
-        /// <summary>
-        /// Invoked in <see cref="Emit(byte)"/>, calling receivers.
-        /// </summary>
-        [SerializeField]
-        protected UnityAction<byte> _OnEmit;
-
-        #endregion
-
         #region Public Methods
 
         /// <summary>

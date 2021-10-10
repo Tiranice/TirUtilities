@@ -1,9 +1,10 @@
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace TirUtilities.CustomEvents
 {
     ///<!--
-    /// BoolEvent.cs
+    /// Vector4Event.cs
     /// 
     /// Project:  TirUtilities
     ///        
@@ -13,8 +14,8 @@ namespace TirUtilities.CustomEvents
     /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
-    /// A Unity Event that passes a bool to its listeners.
+    /// A Unity Event that passes a Vector4 to its listeners.
     /// </summary>
     [System.Serializable]
-    public class BoolEvent : UnityEvent<bool> { }
+    public class Vector4Event : UnityEvent<Vector4> { }
 }

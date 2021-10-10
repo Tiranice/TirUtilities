@@ -3,7 +3,7 @@ using UnityEngine.Events;
 namespace TirUtilities.CustomEvents
 {
     ///<!--
-    /// BoolEvent.cs
+    /// StringEvent.cs
     /// 
     /// Project:  TirUtilities
     ///        
@@ -13,8 +13,8 @@ namespace TirUtilities.CustomEvents
     /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
-    /// A Unity Event that passes a bool to its listeners.
+    /// A Unity Event that passes a string to its listeners.
     /// </summary>
     [System.Serializable]
-    public class BoolEvent : UnityEvent<bool> { }
+    public class StringEvent : UnityEvent<string> { }
 }

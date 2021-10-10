@@ -5,38 +5,38 @@ namespace TirUtilities.Signals
 {
     using TirUtilities.Extensions;
     ///<!--
-    /// Signal.cs
+    /// QuaternionSignal.cs
     /// 
     /// Project:  TirUtilities
-    /// 
+    ///        
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Software
-    /// Created:  Mar 27, 2021
+    /// Created:  Oct 10, 2021
     /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
-    /// Holds a UnityAction so that it can be referenced across scenes and assigned in the inspector.
+    /// A <see cref="Signal"/> that emits a Quaternion.
     /// </summary>
-    [CreateAssetMenu(menuName = "Signals/Signal", order = 0)]
-    public class Signal : SignalBase
+    [CreateAssetMenu(menuName = "Signals/Quaternion Signal", order = 40)]
+    public class QuaternionSignal : SignalBase<Quaternion>, ISignal<Quaternion>
     {
         #region Public Methods
 
         /// <summary>
-        /// Register a callback function to be invoked when <see cref="Emit"/> is called.
+        /// Register a callback function to be invoked when <see cref="Emit(Quaternion)"/> is called.
         /// </summary>
         /// <param name="receiver">The callback to be invoked.</param>
-        public virtual void AddReceiver(UnityAction receiver) => _OnEmit += receiver;
+        public virtual void AddReceiver(UnityAction<Quaternion> receiver) => _OnEmit += receiver;
 
         /// <summary> Unregister a callback function. </summary>
         /// <param name="receiver">The callback function.</param>
-        public virtual void RemoveReceiver(UnityAction receiver) => _OnEmit -= receiver;
+        public virtual void RemoveReceiver(UnityAction<Quaternion> receiver) => _OnEmit -= receiver;
 
         /// <summary>
         /// Emit this signal to all receivers, calling methods registered with 
-        /// <see cref="AddReceiver(UnityAction)"/>.
+        /// <see cref="AddReceiver(UnityAction{Quaternion})"/>.
         /// </summary>
-        public virtual void Emit() => _OnEmit.SafeInvoke();
+        public virtual void Emit(Quaternion target) => _OnEmit.SafeInvoke(target);
 
         #endregion
     }

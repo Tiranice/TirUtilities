@@ -33,7 +33,7 @@ namespace TirUtilities.Detection
         /// <summary>
         /// Subscribed methods will be passed a true and the game object that entered the volume.
         /// </summary>
-        [SerializeField] private BoolEvent OnEnterVolume;
+        [SerializeField] private TriggerVolumeEvent OnEnterVolume;
 
         #endregion
 

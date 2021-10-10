@@ -16,7 +16,7 @@ namespace TirUtilities.Signals
     /// <summary>
     /// A <see cref="Signal"/> that emits a string.
     /// </summary>
-    [CreateAssetMenu(menuName = "Signals/String Signal")]
+    [CreateAssetMenu(menuName = "Signals/String Signal", order = 20)]
     public class StringSignal : SignalBase, ISignal<string>
     {
         #region Actions

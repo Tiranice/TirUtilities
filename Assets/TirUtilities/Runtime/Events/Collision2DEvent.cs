@@ -1,9 +1,10 @@
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace TirUtilities.CustomEvents
 {
     ///<!--
-    /// BoolEvent.cs
+    /// Collision2DEvent.cs
     /// 
     /// Project:  TirUtilities
     ///        
@@ -13,8 +14,8 @@ namespace TirUtilities.CustomEvents
     /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
-    /// A Unity Event that passes a bool to its listeners.
+    /// A Unity Event that passes a Collision2D to its listeners.
     /// </summary>
     [System.Serializable]
-    public class BoolEvent : UnityEvent<bool> { }
+    public class Collision2DEvent : UnityEvent<Collision2D> { }
 }

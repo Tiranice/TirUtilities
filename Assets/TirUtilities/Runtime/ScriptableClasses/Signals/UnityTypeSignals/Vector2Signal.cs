@@ -1,9 +1,9 @@
-using TirUtilities.Extensions;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace TirUtilities.Signals
 {
+    using TirUtilities.Extensions;
     ///<!--
     /// Vector2Signal.cs
     /// 
@@ -12,21 +12,14 @@ namespace TirUtilities.Signals
     /// Author :  Devon Wilson
     /// Company:  BlackPhoenixSoftware
     /// Created:  Oct 01, 2021
-    /// Updated:  Oct 01, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
-    ///
+    /// A <see cref="Signal"/> that emits a Vector2.
     /// </summary>
-    [CreateAssetMenu(menuName = "Signals/Vector2 Signal", order = 12)]
-    public class Vector2Signal : SignalBase, ISignal<Vector2>
+    [CreateAssetMenu(menuName = "Signals/Vector2 Signal", order = 40)]
+    public class Vector2Signal : SignalBase<Vector2>, ISignal<Vector2>
     {
-        #region Actions
-
-        /// <summary> Invoked in <see cref="Emit(Vector2)"/>, calling receivers. </summary>
-        [SerializeField] protected UnityAction<Vector2> _OnEmit;
-
-        #endregion
-
         #region Public Methods
 
         /// <summary>
