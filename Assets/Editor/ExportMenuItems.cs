@@ -8,9 +8,9 @@ using UnityEngine;
 /// Project:  TirUtilities
 ///        
 /// Author :  Devon Wilson
-/// Company:  BlackPhoenixSoftware
+/// Company:  Black Phoenix Software
 /// Created:  Sep 30, 2021
-/// Updated:  Oct 01, 2021
+/// Updated:  Oct 10, 2021
 /// -->
 /// <summary>
 ///
@@ -97,6 +97,7 @@ public class ExportSettings : ScriptableSingleton<ExportSettings>
     {
         _previousVersionNumbers.Push(VersionNumber);
         _majorVersion += 1;
+        _patchVersion = 0;
         SaveBundleVersion();
     }
 
@@ -154,7 +155,14 @@ internal static class ExportSettingsMenuItems
         Debug.Log(ExportSettings.instance.VersionNumber);
     }
 
-    [MenuItem(_MenuName + "Set Last Version", priority = 12)]
+    [MenuItem(_MenuName + "Increment Version", priority = 12)]
+    internal static void IncrementVersion()
+    {
+        ExportSettings.instance.IncrementVersionNumber();
+        Debug.Log(ExportSettings.instance.VersionNumber);
+    }
+
+    [MenuItem(_MenuName + "Set Last Version", priority = 19)]
     internal static void SetLastVersion()
     {
         ExportSettings.instance.SetLastVersion();
