@@ -10,22 +10,16 @@ namespace TirUtilities.Signals
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Software
     /// Created:  June 15, 2021
-    /// Updated:  Sep 22, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
     /// A <see cref="Signal"/> that emits an int.
     /// </summary>
-    [CreateAssetMenu(menuName = "Signals/Int Signal")]
-    public class IntSignal : SignalBase, ISignal<int>
+    [CreateAssetMenu(menuName = "Signals/Int Signal", order = 20)]
+    public class IntSignal : SignalBase<int>, ISignal<int>
     {
-        #region Actions
-
-        /// <summary> Invoked in <see cref="Emit(int)"/>, calling receivers. </summary>
-        [SerializeField] protected UnityAction<int> _OnEmit;
-
-        #endregion
-
         #region Public Methods
 
         /// <summary>

@@ -43,7 +43,7 @@ namespace TirUtilities.CustomGizmos
             Vector3 size = transform.localScale * _shapeSize;
             float radius = Mathf.Max(transform.localScale.x, transform.localScale.y, transform.localScale.z) * _shapeSize;
 
-            Gizmos.matrix = transform.localToWorldMatrix;
+            //Gizmos.matrix = transform.localToWorldMatrix;
 
             Gizmos.color = _shapeColor;
             if (_drawShape)

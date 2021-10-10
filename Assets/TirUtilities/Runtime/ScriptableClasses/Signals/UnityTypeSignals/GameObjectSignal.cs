@@ -10,25 +10,16 @@ namespace TirUtilities.Signals
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Software
     /// Created:  Mar. 27, 2021
-    /// Updated:  Sep 22, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
     /// A <see cref="Signal"/> that emits a game object.
     /// </summary>
-    [CreateAssetMenu(menuName = "Signals/Game Object Signal", order = 11)]
-    public class GameObjectSignal : SignalBase
+    [CreateAssetMenu(menuName = "Signals/Game Object Signal", order = 40)]
+    public class GameObjectSignal : SignalBase<GameObject>, ISignal<GameObject>
     {
-        #region Actions
-
-        /// <summary>
-        /// Invoked in <see cref="Emit(GameObject)"/>, calling receivers.
-        /// </summary>
-        [SerializeField]
-        protected UnityAction<GameObject> _OnEmit;
-
-        #endregion
-
         #region Public Methods
 
         /// <summary>

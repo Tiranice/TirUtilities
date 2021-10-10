@@ -10,25 +10,16 @@ namespace TirUtilities.Signals
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Software
     /// Created:  Jun 15, 2021
-    /// Updated:  Sep 22, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
     /// A <see cref="Signal"/> that emits a float.
     /// </summary>
-    [CreateAssetMenu(menuName = "Signals/Float Signal")]
-    public class FloatSignal : SignalBase, ISignal<float>
+    [CreateAssetMenu(menuName = "Signals/Float Signal", order = 20)]
+    public class FloatSignal : SignalBase<float>, ISignal<float>
     {
-        #region Actions
-
-        /// <summary>
-        /// Invoked in <see cref="Emit(float)"/>, calling receivers.
-        /// </summary>
-        [SerializeField]
-        protected UnityAction<float> _OnEmit;
-
-        #endregion
-
         #region Public Methods
 
         /// <summary>

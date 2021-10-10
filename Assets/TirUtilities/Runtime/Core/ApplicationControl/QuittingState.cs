@@ -22,8 +22,10 @@ namespace TirUtilities.Experimental
 
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
-#endif
+#elif PLATFORM_WEBGL
+#else
             Application.Quit();
+#endif
         }
     }
 }

@@ -168,7 +168,6 @@ namespace TirUtilities.Editor.SignalMenus
 
         private static VisualElement BindButton(Button button, int index)
         {
-            LogCall();
             _Buttons.Add(button);
 
             button.style.flexGrow = 1.0f;

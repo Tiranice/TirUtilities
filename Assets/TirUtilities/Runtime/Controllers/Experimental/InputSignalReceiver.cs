@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 namespace TirUtilities.Controllers.Experimental
 {
+    using TirUtilities.Extensions;
     using TirUtilities.Signals;
     ///<!--
     /// InputSignals.cs
@@ -14,7 +15,7 @@ namespace TirUtilities.Controllers.Experimental
     /// Author :  Devon Wilson
     /// Company:  BlackPheonixSoftware
     /// Created:  Sep 26, 2021
-    /// Updated:  Oct 01, 2021
+    /// Updated:  Oct 04, 2021
     /// -->
     /// <summary>
     ///
@@ -93,12 +94,14 @@ namespace TirUtilities.Controllers.Experimental
         #endregion
 
         #region Cursor Lock
-
+#if !UNITY_IOS || !UNITY_ANDROID
         private void OnApplicationFocus(bool hasFocus) => SetCursorLockState(hasFocus);
 
-        private void SetCursorLockState(bool hasFocus) =>
+        private void SetCursorLockState(bool hasFocus)
+        {
             Cursor.lockState = hasFocus ? CursorLockMode.Locked : CursorLockMode.None;
-
+        }
+#endif
         #endregion
     }
 }

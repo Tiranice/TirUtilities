@@ -10,23 +10,16 @@ namespace TirUtilities.Signals
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson
-    /// Company:  BlackPhoenixSoftware
+    /// Company:  Black Phoenix Software
     /// Created:  Mar 27, 2021
-    /// Updated:  Sep 22, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
     /// A <see cref="Signal"/> that emits a bool.
     /// </summary>
-    [CreateAssetMenu(menuName = "Signals/Bool Signal")]
-    public class BoolSignal : SignalBase, ISignal<bool>
+    [CreateAssetMenu(menuName = "Signals/Bool Signal", order = 20)]
+    public class BoolSignal : SignalBase<bool>, ISignal<bool>
     {
-        #region Actions
-
-        /// <summary> Invoked in <see cref="Emit(bool)"/>, calling receivers. </summary>
-        [SerializeField] protected UnityAction<bool> _OnEmit;
-
-        #endregion
-
         #region Public Methods
 
         /// <summary>

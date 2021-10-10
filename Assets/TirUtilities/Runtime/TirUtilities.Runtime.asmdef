@@ -5,7 +5,8 @@
         "GUID:6055be8ebefd69e48b49212b09b47b2f",
         "GUID:75469ad4d38634e559750d17036d5f7c",
         "GUID:44f2c9ceeeed52f4390dd81b0af45b0f",
-        "GUID:063477da930297d4caf7a30421ccebfa"
+        "GUID:063477da930297d4caf7a30421ccebfa",
+        "GUID:4307f53044263cf4b835bd812fc161a4"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -16,9 +17,9 @@
     "defineConstraints": [],
     "versionDefines": [
         {
-            "name": "com.unity.inputsystem",
-            "expression": "1.0.2",
-            "define": "UNITY_INPUT_SYSTEM_1_0_2_OR_GREATER"
+            "name": "com.unity.cinemachine",
+            "expression": "2.8",
+            "define": "ENABLE_CINEMACHINE"
         }
     ],
     "noEngineReferences": false

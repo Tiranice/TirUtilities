@@ -43,6 +43,8 @@ namespace TirUtilities.CustomGizmos
         [Space]
         [SerializeField] private Color _gizmoColor = new Color(1, 0, 1, 0.5f);
         [SerializeField] private float _sizeScaler = 1.0f;
+        [Space]
+        [SerializeField] private float _lineThickness = 2.0f;
 
         #endregion
 
@@ -96,7 +98,12 @@ namespace TirUtilities.CustomGizmos
             else if (_collider is CapsuleCollider capsuleCollider)
             {
                 // TODO:  Implement a way to draw a solid gizmo.
-                TirGizmos.DrawWireCapsule(capsuleCollider, _sizeScaler);
+                TirGizmos.DrawWireCapsule(capsuleCollider, _sizeScaler, _lineThickness);
+            }
+            else if (_collider is CharacterController characterController)
+            {
+                // TODO:  Implement a way to draw a solid gizmo.
+                TirGizmos.DrawWireCapsule(characterController, _sizeScaler, _lineThickness);
             }
         }
 

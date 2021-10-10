@@ -1,19 +1,28 @@
+#if ODIN_INSPECTOR
+using Sirenix.OdinInspector;
+#endif
 using UnityEngine;
-#if UNITY_INPUT_SYSTEM_1_0_2_OR_GREATER
+#if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace TirUtilities.Experimental
 {
+    using TirUtilities.Extensions;
+    using TirUtilities.Signals;
+    using TirUtilities.UI;
+
     ///<!--
     /// ApplicationStateMachine.cs
     /// 
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
-    /// Created:  June 15, 2021
-    /// Updated:  Aug. 22, 2021
+    /// Created:  Jun 15, 2021
+    /// Updated:  Oct 07, 2021
     /// -->
     /// <summary>
     /// Controls the current state of the application.
@@ -26,8 +35,26 @@ namespace TirUtilities.Experimental
         [SerializeField, ScenePath]
         private string _mainMenuScene;
 
-#if UNITY_INPUT_SYSTEM_1_0_2_OR_GREATER
-        [SerializeField] private PlayerInput _playerInput;
+#if ENABLE_INPUT_SYSTEM
+        
+        [Header("Input System")]
+        [SerializeField] private InputActionAsset _inputActions;
+
+#if ODIN_INSPECTOR
+        [ValueDropdown(nameof(GetNames)), DisableIf("@_inputActions == null"), SerializeField] 
+        private string _playerActionMap = string.Empty;
+
+        [ValueDropdown(nameof(GetNames)), DisableIf("@_inputActions == null"), SerializeField] 
+        private string _uiActionMap = string.Empty;
+
+        private IEnumerable<string> GetNames() =>
+            _inputActions.NotNull() ? _inputActions.actionMaps.Select(m => m.name)
+                                    : new string[] { string.Empty };
+#else
+        [SerializeField] private string _playerActionMap = string.Empty;
+
+        [SerializeField] private string _uiActionMap = string.Empty;
+#endif
 #endif
 
         #endregion
@@ -40,11 +67,74 @@ namespace TirUtilities.Experimental
 
         #endregion
 
+        #region Events & Signals
+
+        [Header("Signals")]
+        [SerializeField] private Signal _playSignal;
+        [SerializeField] private Signal _pauseSignal;
+#if ENABLE_INPUT_SYSTEM
+        [Space]
+        [SerializeField] private Signal _playerPauseSignal;
+        [SerializeField] private bool _enterUIModeOnPause = true;
+#endif
+
+        #endregion
+
         #region Unity Messages
 
-        private void Start() => CurrentState = _playingState;
+        private void Awake() => Wakeup();
+
+        private void Start() => Startup();
 
         private void Update() => InGame = !SceneManager.GetActiveScene().path.Equals(_mainMenuScene);
+
+        private void OnDestroy() => Teardown();
+
+        #endregion
+
+        #region Setup & Teardown
+
+        private void Wakeup() 
+        {
+            AssignReceivers();
+            AssignListeners();
+        }
+        
+        private void Startup() => CurrentState = _playingState;
+
+        private void AssignReceivers()
+        {
+#if ENABLE_INPUT_SYSTEM
+            if (_playerPauseSignal.NotNull())
+                _playerPauseSignal.AddReceiver(TogglePaused);
+#endif
+        }
+
+        private void RemoveReceivers()
+        {
+#if ENABLE_INPUT_SYSTEM
+            if (_playerPauseSignal.NotNull())
+                _playerPauseSignal.RemoveReceiver(TogglePaused);
+#endif
+        }
+        
+        private void AssignListeners() 
+        {
+            _playingState.OnEnterState += _playSignal.Emit;
+            _pausedState.OnEnterState += _pauseSignal.Emit;
+        }
+
+        private void RemoveListeners()
+        {
+            _playingState.OnEnterState += _playSignal.Emit;
+            _pausedState.OnEnterState += _pauseSignal.Emit;
+        }
+
+        private void Teardown()
+        {
+            RemoveReceivers();
+            RemoveListeners();
+        }
 
         #endregion
 
@@ -65,16 +155,15 @@ namespace TirUtilities.Experimental
         #endregion
 
         #region Input System Methods
-#if UNITY_INPUT_SYSTEM_1_0_2_OR_GREATER
-        public void TooglePaused(InputAction.CallbackContext context)
+#if ENABLE_INPUT_SYSTEM
+        public void TogglePaused(InputAction.CallbackContext context)
         {
-            if (context.performed && InGame)
-            {
-                if (CurrentState is PlayingState)
-                    _pausedState.EnterState(this);
-                else if (CurrentState is PausedState)
-                    _playingState.EnterState(this);
-            }
+            if (!context.performed || !InGame) return;
+
+            if (CurrentState is PlayingState)
+                _pausedState.EnterState(this);
+            else if (CurrentState is PausedState)
+                _playingState.EnterState(this);
         }
 
         public void QuitGame(InputAction.CallbackContext context)
@@ -85,10 +174,24 @@ namespace TirUtilities.Experimental
 #endif
         #endregion
 
+        #region Pause Control
+
+        public void BlockPause() => BlockPauseState = true;
+        public void AllowPause() => BlockPauseState = false;
+
+        #endregion
+
         #region Public Properties
 
         public ApplicationState CurrentState { get; set; }
         public bool InGame { get; set; } = false;
+        public bool EnterUIModeOnPause => _enterUIModeOnPause;
+        public bool BlockPauseState { get; private set; } = false;
+
+#if ENABLE_INPUT_SYSTEM
+        public string PlayerActionMap => _playerActionMap;
+        public string UIActionMap => _uiActionMap;
+#endif
 
         #endregion
     }

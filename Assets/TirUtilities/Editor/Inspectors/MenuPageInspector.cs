@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 
@@ -15,8 +16,8 @@ namespace TirUtilities.Editor
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
-    /// Created:  Sep. 09, 2021
-    /// Updated:  Sep. 09, 2021
+    /// Created:  Sep 09, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
     ///
@@ -26,8 +27,8 @@ namespace TirUtilities.Editor
     {
         #region String Constants
 
-        private const string _ParentFolderPath = "Assets/Resources/ScriptableObjects";
-        private const string _FolderPath = "Assets/Resources/ScriptableObjects/MenuState";
+        private const string _ParentFolderPath = "Assets/Resources";
+        private const string _FolderName = "MenuStates";
 
         #endregion
 
@@ -103,10 +104,12 @@ namespace TirUtilities.Editor
         {
             var menuState = ScriptableObject.CreateInstance<MenuState>();
 
-            if (!AssetDatabase.IsValidFolder($"{_FolderPath}"))
+            string folderPath = Path.Combine(_ParentFolderPath, _FolderName);
+
+            if (!AssetDatabase.IsValidFolder($"{folderPath}"))
                 AssetDatabase.CreateFolder(_ParentFolderPath, "MenuStates");
 
-            AssetDatabase.CreateAsset(menuState, $"{_FolderPath}/{_newStateName}.asset");
+            AssetDatabase.CreateAsset(menuState, $"{folderPath}{_newStateName}.asset");
             AssetDatabase.SaveAssets();
 
             serializedObject.FindProperty("_state").objectReferenceValue = menuState;
