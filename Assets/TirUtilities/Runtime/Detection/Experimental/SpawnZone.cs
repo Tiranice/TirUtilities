@@ -49,7 +49,8 @@ namespace TirUtilities.Detection.Experimental
 
         [Header("Zone Settings")]
         [SerializeField] private ZoneDimensions _dimensions = (10.0f, 20.0f);
-
+        [SerializeField] private bool _spawnAtSelf = false;
+        [Space]
         [SerializeField] private Color _gizmoColor = Color.green;
 
         #endregion
@@ -58,6 +59,8 @@ namespace TirUtilities.Detection.Experimental
 
         public Vector3 GetRandomPosition()
         {
+            if (_spawnAtSelf) return transform.position;
+
             var worldPosition = transform.position;
 
             var areaY = worldPosition.y + _dimensions.HalfHeight;

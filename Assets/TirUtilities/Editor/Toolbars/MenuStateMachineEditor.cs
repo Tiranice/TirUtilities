@@ -189,7 +189,9 @@ namespace TirUtilities.Editor
                     if (gameObject.TryGetComponent<MenuStateMachine>(out var menuStateMachine))
                     {
                         _MenuStateMachine = menuStateMachine;
+                        var previous = Selection.activeObject;
                         Selection.activeObject = _MenuStateMachine;
+                        Selection.activeObject = previous;
                         //_MenuStateMachine.FetchMenuPages();
                         break;
                     }
