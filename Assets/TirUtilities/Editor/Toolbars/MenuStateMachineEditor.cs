@@ -185,6 +185,7 @@ namespace TirUtilities.Editor
         {
             for (int i = 0; i < EditorSceneManager.sceneCount; i++)
             {
+                if (!EditorSceneManager.GetSceneAt(i).isLoaded) break;
                 foreach (var gameObject in EditorSceneManager.GetSceneAt(i).GetRootGameObjects())
                     if (gameObject.TryGetComponent<MenuStateMachine>(out var menuStateMachine))
                     {

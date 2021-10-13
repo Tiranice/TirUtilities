@@ -22,7 +22,7 @@ namespace TirUtilities.Editor
     /// <summary>
     ///
     /// </summary>
-    [CustomEditor(typeof(MenuPage))]
+    [CustomEditor(typeof(MenuPage), true)]
     public class MenuPageInspector : UnityEditor.Editor
     {
         #region String Constants

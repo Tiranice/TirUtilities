@@ -17,15 +17,8 @@ namespace TirUtilities.Signals
     /// A <see cref="Signal"/> that emits a string.
     /// </summary>
     [CreateAssetMenu(menuName = "Signals/String Signal", order = 20)]
-    public class StringSignal : SignalBase, ISignal<string>
+    public class StringSignal : SignalBase<string>, ISignal<string>
     {
-        #region Actions
-
-        /// <summary> Invoked in <see cref="Emit(string)"/>, calling receivers. </summary>
-        [SerializeField] protected UnityAction<string> _OnEmit;
-
-        #endregion
-
         #region Public Methods
 
         /// <summary>
