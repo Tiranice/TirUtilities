@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 namespace TirUtilities.Controllers.Experimental
 {
-    using TirUtilities.Extensions;
     using TirUtilities.Signals;
     ///<!--
     /// InputSignals.cs
@@ -15,7 +14,7 @@ namespace TirUtilities.Controllers.Experimental
     /// Author :  Devon Wilson
     /// Company:  BlackPheonixSoftware
     /// Created:  Sep 26, 2021
-    /// Updated:  Oct 04, 2021
+    /// Updated:  Oct 13, 2021
     /// -->
     /// <summary>
     ///
@@ -50,10 +49,12 @@ namespace TirUtilities.Controllers.Experimental
 
         #region Input Messages
 
+#if ENABLE_INPUT_SYSTEM
         public void OnMove(InputValue value) => MoveInput(value.Get<Vector2>());
         public void OnLook(InputValue value) => LookInput(value.Get<Vector2>());
         public void OnJump(InputValue value) => JumpInput(value.isPressed);
-        public void OnSprint(InputValue value) => SprintInput(value.isPressed);
+        public void OnSprint(InputValue value) => SprintInput(value.isPressed); 
+#endif
 
         #endregion
 

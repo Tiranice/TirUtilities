@@ -10,7 +10,7 @@ namespace TirUtilities.CustomGizmos
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 29, 2021
-    /// Updated:  May 29, 2021
+    /// Updated:  Oct 13, 2021
     /// -->
     /// <summary>
     /// Draws a gizmo for the given collider.
@@ -102,8 +102,12 @@ namespace TirUtilities.CustomGizmos
             }
             else if (_collider is CharacterController characterController)
             {
+#if UNITY_2020_2_OR_NEWER
                 // TODO:  Implement a way to draw a solid gizmo.
-                TirGizmos.DrawWireCapsule(characterController, _sizeScaler, _lineThickness);
+                TirGizmos.DrawWireCapsule(characterController, _sizeScaler, _lineThickness); 
+#else
+                TirGizmos.DrawWireCapsule(characterController, _sizeScaler);
+#endif
             }
         }
 

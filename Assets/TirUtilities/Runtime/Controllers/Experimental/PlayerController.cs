@@ -18,7 +18,7 @@ namespace TirUtilities.Controllers.Experimental
     /// Author :  Devon Wilson
     /// Company:  BlackPheonixSoftware
     /// Created:  Sep 26, 2021
-    /// Updated:  Oct 01, 2021
+    /// Updated:  Oct 13, 2021
     /// -->
     /// <summary>
     ///
@@ -63,8 +63,10 @@ namespace TirUtilities.Controllers.Experimental
 
         [Header("Camera")]
         [SerializeField] private Camera _mainCamera;
+#if ENABLE_CINEMACHINE
         [SerializeField] private CinemachineVirtualCamera _mainVCam;
-        [SerializeField] private CinemachineVirtualCamera _sprintVCam;
+        [SerializeField] private CinemachineVirtualCamera _sprintVCam; 
+#endif
         [Space]
         [Tooltip("How far in degrees can you move the camera up")]
         [SerializeField] private float _topClamp = 70.0f;
@@ -219,7 +221,9 @@ namespace TirUtilities.Controllers.Experimental
             else
                 SetMoveDirection1stPerson();
 
-            SetCameraPriority();
+#if ENABLE_CINEMACHINE
+            SetCameraPriority(); 
+#endif
 
             SetAnimationSpeed();
         }
@@ -300,10 +304,12 @@ namespace TirUtilities.Controllers.Experimental
             _controller.Move(movementVector);
         }
 
+#if ENABLE_CINEMACHINE
         private void SetCameraPriority()
         {
             _mainVCam.Priority = _isSprinting ? 0 : 10;
-        }
+        } 
+#endif
 
         private void SetAnimationSpeed()
         {

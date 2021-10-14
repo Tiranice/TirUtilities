@@ -6,14 +6,11 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 #endif
 using UnityEngine.SceneManagement;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace TirUtilities.Experimental
 {
     using TirUtilities.Extensions;
     using TirUtilities.Signals;
-    using TirUtilities.UI;
 
     ///<!--
     /// ApplicationStateMachine.cs
@@ -22,7 +19,7 @@ namespace TirUtilities.Experimental
     ///        
     /// Author :  Devon Wilson
     /// Created:  Jun 15, 2021
-    /// Updated:  Oct 07, 2021
+    /// Updated:  Oct 13, 2021
     /// -->
     /// <summary>
     /// Controls the current state of the application.
@@ -185,7 +182,9 @@ namespace TirUtilities.Experimental
 
         public ApplicationState CurrentState { get; set; }
         public bool InGame { get; set; } = false;
-        public bool EnterUIModeOnPause => _enterUIModeOnPause;
+#if ENABLE_INPUT_SYSTEM
+        public bool EnterUIModeOnPause => _enterUIModeOnPause; 
+#endif
         public bool BlockPauseState { get; private set; } = false;
 
 #if ENABLE_INPUT_SYSTEM

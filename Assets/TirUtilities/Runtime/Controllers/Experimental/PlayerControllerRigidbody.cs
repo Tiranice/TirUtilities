@@ -15,7 +15,7 @@ namespace TirUtilities.Controllers.Experimental
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Software
     /// Created:  Sep 28, 2021
-    /// Updated:  Sep 28, 2021
+    /// Updated:  Oct 13, 2021
     /// -->
     /// <summary>
     ///
@@ -27,8 +27,8 @@ namespace TirUtilities.Controllers.Experimental
         [SerializeField] private Rigidbody _rigidbody;
         [SerializeField, Range(1.0f, 25.0f)] private float _speed;
 
-        [SerializeField, DisplayOnly] Vector2 _movementVector = Vector2.zero;
-        [SerializeField, DisplayOnly] bool _movePressed = false;
+        [SerializeField, DisplayOnly] private Vector2 _movementVector = Vector2.zero;
+        [SerializeField, DisplayOnly] private bool _movePressed = false;
 
         #endregion
 

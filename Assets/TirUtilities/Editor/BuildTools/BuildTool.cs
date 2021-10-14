@@ -134,6 +134,7 @@ namespace TirUtilities.Editor.BuildTools
                     targetPlatform = "No Valid Target!";
                     break;
             }
+            return targetPlatform;
 #endif
         }
 
