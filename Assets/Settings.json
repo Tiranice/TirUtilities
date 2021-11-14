@@ -1,0 +1,11 @@
+{
+  "$type": "SettingsContext, Assembly-CSharp",
+  "Settings": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[SettingsData, Assembly-CSharp]], mscorlib",
+    "TextureQuality": {
+      "$type": "SettingsEnum`1[[TextureQuality, Assembly-CSharp]], Assembly-CSharp",
+      "Value": 0,
+      "ID": "TextureQuality"
+    }
+  }
+}
