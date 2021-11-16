@@ -6,6 +6,7 @@ items:
   parent: TirUtilities.Signals
   children:
   - TirUtilities.Signals.SignalBase._description
+  - TirUtilities.Signals.SignalBase._OnEmit
   - TirUtilities.Signals.SignalBase.Description
   langs:
   - csharp
@@ -17,33 +18,28 @@ items:
   source:
     id: SignalBase
     path: ''
-    startLine: 44702
+    startLine: 9673
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
   summary: "\nBase type for all signals.\n"
   example: []
   syntax:
-    content: 'public class SignalBase : ScriptableObject'
+    content: 'public abstract class SignalBase : ScriptableObject'
     content.vb: >-
-      Public Class SignalBase
+      Public MustInherit Class SignalBase
           Inherits ScriptableObject
   inheritance:
   - System.Object
   derivedClasses:
-  - TirUtilities.Signals.BoolSignal
-  - TirUtilities.Signals.ByteSignal
-  - TirUtilities.Signals.FloatSignal
-  - TirUtilities.Signals.GameObjectSignal
-  - TirUtilities.Signals.IntSignal
-  - TirUtilities.Signals.LevelLoadSignal
   - TirUtilities.Signals.Signal
-  - TirUtilities.Signals.StringSignal
   modifiers.csharp:
   - public
+  - abstract
   - class
   modifiers.vb:
   - Public
+  - MustInherit
   - Class
 - uid: TirUtilities.Signals.SignalBase._description
   commentId: F:TirUtilities.Signals.SignalBase._description
@@ -59,7 +55,7 @@ items:
   source:
     id: _description
     path: ''
-    startLine: 44710
+    startLine: 9681
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -88,7 +84,7 @@ items:
   source:
     id: Description
     path: ''
-    startLine: 44715
+    startLine: 9686
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -107,6 +103,35 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: TirUtilities.Signals.SignalBase._OnEmit
+  commentId: F:TirUtilities.Signals.SignalBase._OnEmit
+  id: _OnEmit
+  parent: TirUtilities.Signals.SignalBase
+  langs:
+  - csharp
+  - vb
+  name: _OnEmit
+  nameWithType: SignalBase._OnEmit
+  fullName: TirUtilities.Signals.SignalBase._OnEmit
+  type: Field
+  source:
+    id: _OnEmit
+    path: ''
+    startLine: 9693
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Signals
+  summary: 'Invoked in <see cref="!:Emit"></see>, calling receivers. '
+  example: []
+  syntax:
+    content: protected UnityAction _OnEmit
+    return:
+      type: Global.UnityAction
+    content.vb: Protected _OnEmit As UnityAction
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 references:
 - uid: TirUtilities.Signals
   commentId: N:TirUtilities.Signals
@@ -138,3 +163,8 @@ references:
   name: Description
   nameWithType: SignalBase.Description
   fullName: TirUtilities.Signals.SignalBase.Description
+- uid: Global.UnityAction
+  isExternal: true
+  name: UnityAction
+  nameWithType: UnityAction
+  fullName: UnityAction

@@ -13,11 +13,11 @@ items:
   - TirUtilities.Controllers.MouseUtility.MouseRaycast(RaycastHit@,LayerMask,System.Single,QueryTriggerInteraction)
   - TirUtilities.Controllers.MouseUtility.MouseRaycast(RaycastHit@,System.Single)
   - TirUtilities.Controllers.MouseUtility.MouseRaycast2D
-  - TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@)
+  - TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@,LayerMask,System.Single)
   - TirUtilities.Controllers.MouseUtility.RightMouseButtonDown
-  - TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@)
-  - TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@)
-  - TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@)
+  - TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@,LayerMask)
+  - TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@,LayerMask)
+  - TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@,LayerMask)
   - TirUtilities.Controllers.MouseUtility.TryGetObjectAtMousePosition(GameObject@,LayerMask)
   - TirUtilities.Controllers.MouseUtility.TryGetWorldSpaceMousePosition(Vector3@)
   - TirUtilities.Controllers.MouseUtility.TryGetWorldSpaceMousePosition(Vector3@,LayerMask)
@@ -32,7 +32,7 @@ items:
   source:
     id: MouseUtility
     path: ''
-    startLine: 42916
+    startLine: 6755
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -65,10 +65,12 @@ items:
   source:
     id: LeftMouseButtonDown
     path: ''
-    startLine: 42920
+    startLine: 6760
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
+  summary: 'Short hand for Input.GetMouseButtonDown(0) '
+  example: []
   syntax:
     content: public static bool LeftMouseButtonDown { get; }
     parameters: []
@@ -98,10 +100,12 @@ items:
   source:
     id: RightMouseButtonDown
     path: ''
-    startLine: 42921
+    startLine: 6763
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
+  summary: 'Short hand for Input.GetMouseButtonDown(1) '
+  example: []
   syntax:
     content: public static bool RightMouseButtonDown { get; }
     parameters: []
@@ -131,10 +135,12 @@ items:
   source:
     id: MiddleMouseButtonDown
     path: ''
-    startLine: 42922
+    startLine: 6766
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
+  summary: 'Short hand for Input.GetMouseButtonDown(2) '
+  example: []
   syntax:
     content: public static bool MiddleMouseButtonDown { get; }
     parameters: []
@@ -164,7 +170,7 @@ items:
   source:
     id: MouseRaycast2D
     path: ''
-    startLine: 42932
+    startLine: 6776
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -183,46 +189,50 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@)
-  commentId: M:TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@)
-  id: MouseRaycast2D(RaycastHit2D@)
+- uid: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@,LayerMask,System.Single)
+  commentId: M:TirUtilities.Controllers.MouseUtility.MouseRaycast2D(RaycastHit2D@,LayerMask,System.Single)
+  id: MouseRaycast2D(RaycastHit2D@,LayerMask,System.Single)
   parent: TirUtilities.Controllers.MouseUtility
   langs:
   - csharp
   - vb
-  name: MouseRaycast2D(out RaycastHit2D)
-  nameWithType: MouseUtility.MouseRaycast2D(out RaycastHit2D)
-  fullName: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(out RaycastHit2D)
+  name: MouseRaycast2D(out RaycastHit2D, LayerMask, Single)
+  nameWithType: MouseUtility.MouseRaycast2D(out RaycastHit2D, LayerMask, Single)
+  fullName: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(out RaycastHit2D, LayerMask, System.Single)
   type: Method
   source:
     id: MouseRaycast2D
     path: ''
-    startLine: 42944
+    startLine: 6788
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
   summary: "\nCasts a ray from the camera returning true if it hits anything and assigns that hit to\nthe out parameter.\n"
   example: []
   syntax:
-    content: public static bool MouseRaycast2D(out RaycastHit2D raycastHit2D)
+    content: public static bool MouseRaycast2D(out RaycastHit2D raycastHit2D, LayerMask targetLayers, float distance = default(float))
     parameters:
     - id: raycastHit2D
       type: Global.RaycastHit2D
       description: ''
+    - id: targetLayers
+      type: Global.LayerMask
+    - id: distance
+      type: System.Single
     return:
       type: System.Boolean
       description: 'True if the ray hits a Collider2D. '
-    content.vb: Public Shared Function MouseRaycast2D(ByRef raycastHit2D As RaycastHit2D) As Boolean
+    content.vb: Public Shared Function MouseRaycast2D(ByRef raycastHit2D As RaycastHit2D, targetLayers As LayerMask, distance As Single = Nothing) As Boolean
   overload: TirUtilities.Controllers.MouseUtility.MouseRaycast2D*
-  nameWithType.vb: MouseUtility.MouseRaycast2D(ByRef RaycastHit2D)
+  nameWithType.vb: MouseUtility.MouseRaycast2D(ByRef RaycastHit2D, LayerMask, Single)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(ByRef RaycastHit2D)
-  name.vb: MouseRaycast2D(ByRef RaycastHit2D)
+  fullName.vb: TirUtilities.Controllers.MouseUtility.MouseRaycast2D(ByRef RaycastHit2D, LayerMask, System.Single)
+  name.vb: MouseRaycast2D(ByRef RaycastHit2D, LayerMask, Single)
 - uid: TirUtilities.Controllers.MouseUtility.TryGetWorldSpaceMousePosition2D(Vector3@)
   commentId: M:TirUtilities.Controllers.MouseUtility.TryGetWorldSpaceMousePosition2D(Vector3@)
   id: TryGetWorldSpaceMousePosition2D(Vector3@)
@@ -237,7 +247,7 @@ items:
   source:
     id: TryGetWorldSpaceMousePosition2D
     path: ''
-    startLine: 42961
+    startLine: 6805
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -277,7 +287,7 @@ items:
   source:
     id: MouseRaycast
     path: ''
-    startLine: 42981
+    startLine: 6826
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -310,7 +320,7 @@ items:
   source:
     id: MouseRaycast
     path: ''
-    startLine: 42993
+    startLine: 6838
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -352,7 +362,7 @@ items:
   source:
     id: MouseRaycast
     path: ''
-    startLine: 43008
+    startLine: 6853
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -401,7 +411,7 @@ items:
   source:
     id: TryGetWorldSpaceMousePosition
     path: ''
-    startLine: 43025
+    startLine: 6870
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -441,7 +451,7 @@ items:
   source:
     id: TryGetWorldSpaceMousePosition
     path: ''
-    startLine: 43044
+    startLine: 6889
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -470,114 +480,120 @@ items:
   - Shared
   fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetWorldSpaceMousePosition(ByRef Vector3, LayerMask)
   name.vb: TryGetWorldSpaceMousePosition(ByRef Vector3, LayerMask)
-- uid: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@)
-  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@)
-  id: TryGetHoveredCollider2D(Collider2D@)
+- uid: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@,LayerMask)
+  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(Collider2D@,LayerMask)
+  id: TryGetHoveredCollider2D(Collider2D@,LayerMask)
   parent: TirUtilities.Controllers.MouseUtility
   langs:
   - csharp
   - vb
-  name: TryGetHoveredCollider2D(out Collider2D)
-  nameWithType: MouseUtility.TryGetHoveredCollider2D(out Collider2D)
-  fullName: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(out Collider2D)
+  name: TryGetHoveredCollider2D(out Collider2D, LayerMask)
+  nameWithType: MouseUtility.TryGetHoveredCollider2D(out Collider2D, LayerMask)
+  fullName: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(out Collider2D, LayerMask)
   type: Method
   source:
     id: TryGetHoveredCollider2D
     path: ''
-    startLine: 43117
+    startLine: 6962
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
   syntax:
-    content: public static bool TryGetHoveredCollider2D(out Collider2D collider)
+    content: public static bool TryGetHoveredCollider2D(out Collider2D collider, LayerMask targetLayers)
     parameters:
     - id: collider
       type: Global.Collider2D
+    - id: targetLayers
+      type: Global.LayerMask
     return:
       type: System.Boolean
-    content.vb: Public Shared Function TryGetHoveredCollider2D(ByRef collider As Collider2D) As Boolean
+    content.vb: Public Shared Function TryGetHoveredCollider2D(ByRef collider As Collider2D, targetLayers As LayerMask) As Boolean
   overload: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D*
-  nameWithType.vb: MouseUtility.TryGetHoveredCollider2D(ByRef Collider2D)
+  nameWithType.vb: MouseUtility.TryGetHoveredCollider2D(ByRef Collider2D, LayerMask)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(ByRef Collider2D)
-  name.vb: TryGetHoveredCollider2D(ByRef Collider2D)
-- uid: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@)
-  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@)
-  id: TryGetHoveredGameObject2D(GameObject@)
+  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D(ByRef Collider2D, LayerMask)
+  name.vb: TryGetHoveredCollider2D(ByRef Collider2D, LayerMask)
+- uid: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@,LayerMask)
+  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(GameObject@,LayerMask)
+  id: TryGetHoveredGameObject2D(GameObject@,LayerMask)
   parent: TirUtilities.Controllers.MouseUtility
   langs:
   - csharp
   - vb
-  name: TryGetHoveredGameObject2D(out GameObject)
-  nameWithType: MouseUtility.TryGetHoveredGameObject2D(out GameObject)
-  fullName: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(out GameObject)
+  name: TryGetHoveredGameObject2D(out GameObject, LayerMask)
+  nameWithType: MouseUtility.TryGetHoveredGameObject2D(out GameObject, LayerMask)
+  fullName: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(out GameObject, LayerMask)
   type: Method
   source:
     id: TryGetHoveredGameObject2D
     path: ''
-    startLine: 43128
+    startLine: 6973
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
   syntax:
-    content: public static bool TryGetHoveredGameObject2D(out GameObject gameObject)
+    content: public static bool TryGetHoveredGameObject2D(out GameObject gameObject, LayerMask targetLayers)
     parameters:
     - id: gameObject
       type: Global.GameObject
+    - id: targetLayers
+      type: Global.LayerMask
     return:
       type: System.Boolean
-    content.vb: Public Shared Function TryGetHoveredGameObject2D(ByRef gameObject As GameObject) As Boolean
+    content.vb: Public Shared Function TryGetHoveredGameObject2D(ByRef gameObject As GameObject, targetLayers As LayerMask) As Boolean
   overload: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D*
-  nameWithType.vb: MouseUtility.TryGetHoveredGameObject2D(ByRef GameObject)
+  nameWithType.vb: MouseUtility.TryGetHoveredGameObject2D(ByRef GameObject, LayerMask)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(ByRef GameObject)
-  name.vb: TryGetHoveredGameObject2D(ByRef GameObject)
-- uid: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@)
-  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@)
-  id: TryGetGameObjectOnClick2D(GameObject@)
+  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetHoveredGameObject2D(ByRef GameObject, LayerMask)
+  name.vb: TryGetHoveredGameObject2D(ByRef GameObject, LayerMask)
+- uid: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@,LayerMask)
+  commentId: M:TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(GameObject@,LayerMask)
+  id: TryGetGameObjectOnClick2D(GameObject@,LayerMask)
   parent: TirUtilities.Controllers.MouseUtility
   langs:
   - csharp
   - vb
-  name: TryGetGameObjectOnClick2D(out GameObject)
-  nameWithType: MouseUtility.TryGetGameObjectOnClick2D(out GameObject)
-  fullName: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(out GameObject)
+  name: TryGetGameObjectOnClick2D(out GameObject, LayerMask)
+  nameWithType: MouseUtility.TryGetGameObjectOnClick2D(out GameObject, LayerMask)
+  fullName: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(out GameObject, LayerMask)
   type: Method
   source:
     id: TryGetGameObjectOnClick2D
     path: ''
-    startLine: 43139
+    startLine: 6984
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
   syntax:
-    content: public static bool TryGetGameObjectOnClick2D(out GameObject gameObject)
+    content: public static bool TryGetGameObjectOnClick2D(out GameObject gameObject, LayerMask targetLayers)
     parameters:
     - id: gameObject
       type: Global.GameObject
+    - id: targetLayers
+      type: Global.LayerMask
     return:
       type: System.Boolean
-    content.vb: Public Shared Function TryGetGameObjectOnClick2D(ByRef gameObject As GameObject) As Boolean
+    content.vb: Public Shared Function TryGetGameObjectOnClick2D(ByRef gameObject As GameObject, targetLayers As LayerMask) As Boolean
   overload: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D*
-  nameWithType.vb: MouseUtility.TryGetGameObjectOnClick2D(ByRef GameObject)
+  nameWithType.vb: MouseUtility.TryGetGameObjectOnClick2D(ByRef GameObject, LayerMask)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(ByRef GameObject)
-  name.vb: TryGetGameObjectOnClick2D(ByRef GameObject)
+  fullName.vb: TirUtilities.Controllers.MouseUtility.TryGetGameObjectOnClick2D(ByRef GameObject, LayerMask)
+  name.vb: TryGetGameObjectOnClick2D(ByRef GameObject, LayerMask)
 - uid: TirUtilities.Controllers.MouseUtility.GetGameObjectAtMousePosition
   commentId: M:TirUtilities.Controllers.MouseUtility.GetGameObjectAtMousePosition
   id: GetGameObjectAtMousePosition
@@ -592,7 +608,7 @@ items:
   source:
     id: GetGameObjectAtMousePosition
     path: ''
-    startLine: 43158
+    startLine: 7003
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -625,7 +641,7 @@ items:
   source:
     id: GetGameObjectAtMousePosition
     path: ''
-    startLine: 43165
+    startLine: 7010
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -661,7 +677,7 @@ items:
   source:
     id: TryGetObjectAtMousePosition
     path: ''
-    startLine: 43177
+    startLine: 7022
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -742,6 +758,18 @@ references:
   name: RaycastHit2D
   nameWithType: RaycastHit2D
   fullName: RaycastHit2D
+- uid: Global.LayerMask
+  isExternal: true
+  name: LayerMask
+  nameWithType: LayerMask
+  fullName: LayerMask
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
 - uid: TirUtilities.Controllers.MouseUtility.TryGetWorldSpaceMousePosition2D*
   commentId: Overload:TirUtilities.Controllers.MouseUtility.TryGetWorldSpaceMousePosition2D
   name: TryGetWorldSpaceMousePosition2D
@@ -762,18 +790,6 @@ references:
   name: RaycastHit
   nameWithType: RaycastHit
   fullName: RaycastHit
-- uid: System.Single
-  commentId: T:System.Single
-  parent: System
-  isExternal: true
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
-- uid: Global.LayerMask
-  isExternal: true
-  name: LayerMask
-  nameWithType: LayerMask
-  fullName: LayerMask
 - uid: Global.QueryTriggerInteraction
   commentId: '!:Global.QueryTriggerInteraction'
   isExternal: true
@@ -791,7 +807,6 @@ references:
   nameWithType: MouseUtility.TryGetHoveredCollider2D
   fullName: TirUtilities.Controllers.MouseUtility.TryGetHoveredCollider2D
 - uid: Global.Collider2D
-  commentId: '!:Global.Collider2D'
   isExternal: true
   name: Collider2D
   nameWithType: Collider2D

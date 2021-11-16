@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace TirUtilities.Signals
+   | TirUtilities </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace TirUtilities.Signals
+   | TirUtilities ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TirUtilities.Signals">
+  
+  <h1 id="TirUtilities_Signals" data-uid="TirUtilities.Signals" class="text-break">Namespace TirUtilities.Signals
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="TirUtilities.Signals.BoolSignal.html">BoolSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.BoolSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a bool.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.ByteSignal.html">ByteSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.ByteSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a byte.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.Collider2DSignal.html">Collider2DSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.Collider2DSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Collider 2D.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.ColliderSignal.html">ColliderSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.ColliderSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Collider.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.Collision2DSignal.html">Collision2DSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.Collision2DSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Collision 2D.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.CollisionSignal.html">CollisionSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.CollisionSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Collision.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.FloatSignal.html">FloatSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.FloatSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a float.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.GameObjectSignal.html">GameObjectSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.GameObjectSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a game object.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.IntSignal.html">IntSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.IntSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits an int.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.LevelLoadSignal.html">LevelLoadSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.LevelLoadSignal.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Signal that emits a copy of a <a class="xref" href="TirUtilities.LevelManagment.LevelData.html">LevelData</a> value. </p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.QuaternionSignal.html">QuaternionSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.QuaternionSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Quaternion.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.Rigidbody2DSignal.html">Rigidbody2DSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.Rigidbody2DSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Rigidbody2D.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.RigidbodySignal.html">RigidbodySignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.RigidbodySignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Rigidbody.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.Signal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Holds a UnityAction so that it can be referenced across scenes and assigned in the inspector.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.SignalBase.html">SignalBase</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.SignalBase.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Base type for all signals.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.SignalBase-1.html">SignalBase&lt;T0&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.SignalBase-1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Base type for all signals.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.SignalBase-2.html">SignalBase&lt;T0, T1&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.SignalBase-2.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Base type for all signals.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.SignalBase-3.html">SignalBase&lt;T0, T1, T2&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.SignalBase-3.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Base type for all signals.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.SignalReceiver.html">SignalReceiver</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.SignalReceiver.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Invokes <span class="xref">TirUtilities.Signals.SignalReceiver._OnSignalReceived</span> when the <span class="xref">TirUtilities.Signals.SignalReceiver._signal</span>
+is <a class="xref" href="TirUtilities.Signals.Signal.html#TirUtilities_Signals_Signal_Emit">Emit()</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.SpriteSignal.html">SpriteSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.SpriteSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Sprite.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.StringSignal.html">StringSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.StringSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a string.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.TransformSignal.html">TransformSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.TransformSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a transform.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.TriggerVolumeSignal.html">TriggerVolumeSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.TriggerVolumeSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Signal that emits the entered state and target game object sent from a 
+<a class="xref" href="TirUtilities.Detection.TriggerVolume.html">TriggerVolume</a>.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.Vector2IntSignal.html">Vector2IntSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.Vector2IntSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Vector2Int.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.Vector2Signal.html">Vector2Signal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.Vector2Signal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Vector2.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.Vector3IntSignal.html">Vector3IntSignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.Vector3IntSignal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Vector3.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.Vector3Signal.html">Vector3Signal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.Vector3Signal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Vector3.</p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.Vector4Signal.html">Vector4Signal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.Vector4Signal.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a> that emits a Vector4.</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="TirUtilities.Signals.ISignal.html">ISignal</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.ISignal.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Public interface common to all signals. </p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.ISignal-1.html">ISignal&lt;T0&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.ISignal-1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Public interface common to all signals. </p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.ISignal-2.html">ISignal&lt;T0, T1&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.ISignal-2.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Public interface common to all signals. </p>
+</section>
+      <h4><a class="xref" href="TirUtilities.Signals.ISignal-3.html">ISignal&lt;T0, T1, T2&gt;</a></h4>
+      <section><p sourcefile="api/TirUtilities.Signals.ISignal-3.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Public interface common to all signals. </p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            TirUtilities
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

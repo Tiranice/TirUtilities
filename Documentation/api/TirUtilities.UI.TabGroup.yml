@@ -10,7 +10,6 @@ items:
   - TirUtilities.UI.TabGroup.OnTabSelected(TirUtilities.UI.TabButton)
   - TirUtilities.UI.TabGroup.ResetTabs
   - TirUtilities.UI.TabGroup.Subscribe(TirUtilities.UI.TabButton)
-  - TirUtilities.UI.TabGroup.tabButtons
   langs:
   - csharp
   - vb
@@ -21,7 +20,7 @@ items:
   source:
     id: TabGroup
     path: ''
-    startLine: 45927
+    startLine: 12067
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -40,33 +39,6 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: TirUtilities.UI.TabGroup.tabButtons
-  commentId: F:TirUtilities.UI.TabGroup.tabButtons
-  id: tabButtons
-  parent: TirUtilities.UI.TabGroup
-  langs:
-  - csharp
-  - vb
-  name: tabButtons
-  nameWithType: TabGroup.tabButtons
-  fullName: TirUtilities.UI.TabGroup.tabButtons
-  type: Field
-  source:
-    id: tabButtons
-    path: ''
-    startLine: 45932
-  assemblies:
-  - cs.temp.dll
-  namespace: TirUtilities.UI
-  syntax:
-    content: public List<TabButton> tabButtons
-    return:
-      type: Global.List{TirUtilities.UI.TabButton}
-    content.vb: Public tabButtons As List(Of TabButton)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: TirUtilities.UI.TabGroup.Subscribe(TirUtilities.UI.TabButton)
   commentId: M:TirUtilities.UI.TabGroup.Subscribe(TirUtilities.UI.TabButton)
   id: Subscribe(TirUtilities.UI.TabButton)
@@ -81,11 +53,11 @@ items:
   source:
     id: Subscribe
     path: ''
-    startLine: 46001
+    startLine: 12155
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
-  summary: "\nAdds a button the the list of buttons managed by the tab group.\n"
+  summary: "\nAdds a button the list of buttons managed by the tab group.\n"
   example: []
   syntax:
     content: public void Subscribe(TabButton button)
@@ -113,7 +85,7 @@ items:
   source:
     id: OnTabEnter
     path: ''
-    startLine: 46012
+    startLine: 12166
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -145,7 +117,7 @@ items:
   source:
     id: OnTabExit
     path: ''
-    startLine: 46021
+    startLine: 12175
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -173,7 +145,7 @@ items:
   source:
     id: OnTabSelected
     path: ''
-    startLine: 46027
+    startLine: 12181
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -205,7 +177,7 @@ items:
   source:
     id: ResetTabs
     path: ''
-    startLine: 46041
+    startLine: 12195
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -238,85 +210,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Global.List{TirUtilities.UI.TabButton}
-  commentId: '!:Global.List{TirUtilities.UI.TabButton}'
-  definition: Global.List`1
-  name: List<TabButton>
-  nameWithType: List<TabButton>
-  fullName: List<TirUtilities.UI.TabButton>
-  nameWithType.vb: List(Of TabButton)
-  fullName.vb: List(Of TirUtilities.UI.TabButton)
-  name.vb: List(Of TabButton)
-  spec.csharp:
-  - uid: Global.List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: TirUtilities.UI.TabButton
-    name: TabButton
-    nameWithType: TabButton
-    fullName: TirUtilities.UI.TabButton
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Global.List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: TirUtilities.UI.TabButton
-    name: TabButton
-    nameWithType: TabButton
-    fullName: TirUtilities.UI.TabButton
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Global.List`1
-  isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: List(Of )
-  name.vb: List(Of )
-  spec.csharp:
-  - uid: Global.List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Global.List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: TirUtilities.UI.TabGroup.Subscribe*
   commentId: Overload:TirUtilities.UI.TabGroup.Subscribe
   name: Subscribe

@@ -4,7 +4,6 @@ items:
   commentId: N:TirUtilities.UI
   id: TirUtilities.UI
   children:
-  - TirUtilities.UI.LoadingScreen
   - TirUtilities.UI.MenuPage
   - TirUtilities.UI.MenuState
   - TirUtilities.UI.MenuStateMachine
@@ -24,11 +23,6 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: TirUtilities.UI.LoadingScreen
-  commentId: T:TirUtilities.UI.LoadingScreen
-  name: LoadingScreen
-  nameWithType: LoadingScreen
-  fullName: TirUtilities.UI.LoadingScreen
 - uid: TirUtilities.UI.MenuState
   commentId: T:TirUtilities.UI.MenuState
   parent: TirUtilities.UI

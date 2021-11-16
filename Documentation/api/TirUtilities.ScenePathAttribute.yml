@@ -15,7 +15,7 @@ items:
   source:
     id: ScenePathAttribute
     path: ''
-    startLine: 41427
+    startLine: 2178
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities

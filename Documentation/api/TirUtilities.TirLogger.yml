@@ -5,6 +5,7 @@ items:
   id: TirLogger
   parent: TirUtilities
   children:
+  - TirUtilities.TirLogger.LogCall
   - TirUtilities.TirLogger.LogCall(System.String,System.String)
   langs:
   - csharp
@@ -16,7 +17,7 @@ items:
   source:
     id: TirLogger
     path: ''
-    startLine: 43344
+    startLine: 7350
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -48,18 +49,60 @@ items:
   source:
     id: LogCall
     path: ''
-    startLine: 43346
+    startLine: 7352
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
   syntax:
-    content: public static void LogCall(string className, string methodName)
+    content: >-
+      [Obsolete("This has been replaced with a stack frame inspection.Use TirLogger.LogCall() instead.")]
+
+      public static void LogCall(string className, string methodName)
     parameters:
     - id: className
       type: System.String
     - id: methodName
       type: System.String
-    content.vb: Public Shared Sub LogCall(className As String, methodName As String)
+    content.vb: >-
+      <Obsolete("This has been replaced with a stack frame inspection.Use TirLogger.LogCall() instead.")>
+
+      Public Shared Sub LogCall(className As String, methodName As String)
+  overload: TirUtilities.TirLogger.LogCall*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This has been replaced with a stack frame inspection.Use TirLogger.LogCall() instead.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.TirLogger.LogCall
+  commentId: M:TirUtilities.TirLogger.LogCall
+  id: LogCall
+  parent: TirUtilities.TirLogger
+  langs:
+  - csharp
+  - vb
+  name: LogCall()
+  nameWithType: TirLogger.LogCall()
+  fullName: TirUtilities.TirLogger.LogCall()
+  type: Method
+  source:
+    id: LogCall
+    path: ''
+    startLine: 7359
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  summary: 'Logs the name of the class and the method to the console. '
+  example: []
+  syntax:
+    content: public static void LogCall()
+    content.vb: Public Shared Sub LogCall
   overload: TirUtilities.TirLogger.LogCall*
   modifiers.csharp:
   - public

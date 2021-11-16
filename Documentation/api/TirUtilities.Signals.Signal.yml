@@ -18,7 +18,7 @@ items:
   source:
     id: Signal
     path: ''
-    startLine: 44648
+    startLine: 9630
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -35,6 +35,7 @@ items:
   inheritedMembers:
   - TirUtilities.Signals.SignalBase._description
   - TirUtilities.Signals.SignalBase.Description
+  - TirUtilities.Signals.SignalBase._OnEmit
   modifiers.csharp:
   - public
   - class
@@ -55,11 +56,11 @@ items:
   source:
     id: AddReceiver
     path: ''
-    startLine: 44667
+    startLine: 9639
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
-  summary: "\nRegister a callback function to be invoked when this signal is <xref href=\"TirUtilities.Signals.Signal.Emit\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nRegister a callback function to be invoked when <xref href=\"TirUtilities.Signals.Signal.Emit\" data-throw-if-not-resolved=\"false\"></xref> is called.\n"
   example: []
   syntax:
     content: public virtual void AddReceiver(UnityAction receiver)
@@ -89,11 +90,11 @@ items:
   source:
     id: RemoveReceiver
     path: ''
-    startLine: 44673
+    startLine: 9643
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
-  summary: "\nUnregister a callback function.\n"
+  summary: 'Unregister a callback function. '
   example: []
   syntax:
     content: public virtual void RemoveReceiver(UnityAction receiver)
@@ -123,11 +124,11 @@ items:
   source:
     id: Emit
     path: ''
-    startLine: 44679
+    startLine: 9649
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
-  summary: "\nEmit this signal to all receivers, calling their \n<xref href=\"TirUtilities.Signals.Signal.AddReceiver(UnityAction)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nEmit this signal to all receivers, calling methods registered with \n<xref href=\"TirUtilities.Signals.Signal.AddReceiver(UnityAction)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
   syntax:
     content: public virtual void Emit()
@@ -170,6 +171,12 @@ references:
   name: Description
   nameWithType: SignalBase.Description
   fullName: TirUtilities.Signals.SignalBase.Description
+- uid: TirUtilities.Signals.SignalBase._OnEmit
+  commentId: F:TirUtilities.Signals.SignalBase._OnEmit
+  parent: TirUtilities.Signals.SignalBase
+  name: _OnEmit
+  nameWithType: SignalBase._OnEmit
+  fullName: TirUtilities.Signals.SignalBase._OnEmit
 - uid: System
   commentId: N:System
   isExternal: true

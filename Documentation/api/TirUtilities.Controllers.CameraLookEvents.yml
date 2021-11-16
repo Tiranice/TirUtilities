@@ -16,7 +16,7 @@ items:
   source:
     id: CameraLookEvents
     path: ''
-    startLine: 42783
+    startLine: 5930
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -49,7 +49,7 @@ items:
   source:
     id: OnLookTargetChanged
     path: ''
-    startLine: 42811
+    startLine: 5959
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers

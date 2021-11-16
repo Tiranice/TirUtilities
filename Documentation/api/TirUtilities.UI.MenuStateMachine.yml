@@ -7,7 +7,9 @@ items:
   children:
   - TirUtilities.UI.MenuStateMachine.ActivePage
   - TirUtilities.UI.MenuStateMachine.Back
+  - TirUtilities.UI.MenuStateMachine.ExitMenu
   - TirUtilities.UI.MenuStateMachine.MenuPages
+  - TirUtilities.UI.MenuStateMachine.OpenMenu
   - TirUtilities.UI.MenuStateMachine.PreviousPage
   - TirUtilities.UI.MenuStateMachine.TransitionTo(TirUtilities.UI.MenuState)
   langs:
@@ -20,7 +22,7 @@ items:
   source:
     id: MenuStateMachine
     path: ''
-    startLine: 45436
+    startLine: 11559
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -54,7 +56,7 @@ items:
   source:
     id: ActivePage
     path: ''
-    startLine: 45474
+    startLine: 11601
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -87,7 +89,7 @@ items:
   source:
     id: PreviousPage
     path: ''
-    startLine: 45477
+    startLine: 11604
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -120,7 +122,7 @@ items:
   source:
     id: TransitionTo
     path: ''
-    startLine: 45513
+    startLine: 11643
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -152,7 +154,7 @@ items:
   source:
     id: Back
     path: ''
-    startLine: 45533
+    startLine: 11663
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -162,6 +164,58 @@ items:
     content: public void Back()
     content.vb: Public Sub Back
   overload: TirUtilities.UI.MenuStateMachine.Back*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TirUtilities.UI.MenuStateMachine.OpenMenu
+  commentId: M:TirUtilities.UI.MenuStateMachine.OpenMenu
+  id: OpenMenu
+  parent: TirUtilities.UI.MenuStateMachine
+  langs:
+  - csharp
+  - vb
+  name: OpenMenu()
+  nameWithType: MenuStateMachine.OpenMenu()
+  fullName: TirUtilities.UI.MenuStateMachine.OpenMenu()
+  type: Method
+  source:
+    id: OpenMenu
+    path: ''
+    startLine: 11674
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  syntax:
+    content: public void OpenMenu()
+    content.vb: Public Sub OpenMenu
+  overload: TirUtilities.UI.MenuStateMachine.OpenMenu*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TirUtilities.UI.MenuStateMachine.ExitMenu
+  commentId: M:TirUtilities.UI.MenuStateMachine.ExitMenu
+  id: ExitMenu
+  parent: TirUtilities.UI.MenuStateMachine
+  langs:
+  - csharp
+  - vb
+  name: ExitMenu()
+  nameWithType: MenuStateMachine.ExitMenu()
+  fullName: TirUtilities.UI.MenuStateMachine.ExitMenu()
+  type: Method
+  source:
+    id: ExitMenu
+    path: ''
+    startLine: 11676
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.UI
+  syntax:
+    content: public void ExitMenu()
+    content.vb: Public Sub ExitMenu
+  overload: TirUtilities.UI.MenuStateMachine.ExitMenu*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -180,7 +234,7 @@ items:
   source:
     id: MenuPages
     path: ''
-    startLine: 45548
+    startLine: 11687
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -188,7 +242,7 @@ items:
     content: public List<MenuPage> MenuPages { get; }
     parameters: []
     return:
-      type: Global.List{TirUtilities.UI.MenuPage}
+      type: System.Collections.Generic.List{TirUtilities.UI.MenuPage}
     content.vb: Public ReadOnly Property MenuPages As List(Of MenuPage)
   overload: TirUtilities.UI.MenuStateMachine.MenuPages*
   modifiers.csharp:
@@ -259,25 +313,36 @@ references:
   name: Back
   nameWithType: MenuStateMachine.Back
   fullName: TirUtilities.UI.MenuStateMachine.Back
+- uid: TirUtilities.UI.MenuStateMachine.OpenMenu*
+  commentId: Overload:TirUtilities.UI.MenuStateMachine.OpenMenu
+  name: OpenMenu
+  nameWithType: MenuStateMachine.OpenMenu
+  fullName: TirUtilities.UI.MenuStateMachine.OpenMenu
+- uid: TirUtilities.UI.MenuStateMachine.ExitMenu*
+  commentId: Overload:TirUtilities.UI.MenuStateMachine.ExitMenu
+  name: ExitMenu
+  nameWithType: MenuStateMachine.ExitMenu
+  fullName: TirUtilities.UI.MenuStateMachine.ExitMenu
 - uid: TirUtilities.UI.MenuStateMachine.MenuPages*
   commentId: Overload:TirUtilities.UI.MenuStateMachine.MenuPages
   name: MenuPages
   nameWithType: MenuStateMachine.MenuPages
   fullName: TirUtilities.UI.MenuStateMachine.MenuPages
-- uid: Global.List{TirUtilities.UI.MenuPage}
-  commentId: '!:Global.List{TirUtilities.UI.MenuPage}'
-  definition: Global.List`1
+- uid: System.Collections.Generic.List{TirUtilities.UI.MenuPage}
+  commentId: T:System.Collections.Generic.List{TirUtilities.UI.MenuPage}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
   name: List<MenuPage>
   nameWithType: List<MenuPage>
-  fullName: List<TirUtilities.UI.MenuPage>
+  fullName: System.Collections.Generic.List<TirUtilities.UI.MenuPage>
   nameWithType.vb: List(Of MenuPage)
-  fullName.vb: List(Of TirUtilities.UI.MenuPage)
+  fullName.vb: System.Collections.Generic.List(Of TirUtilities.UI.MenuPage)
   name.vb: List(Of MenuPage)
   spec.csharp:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: <
     nameWithType: <
@@ -290,10 +355,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -305,41 +370,48 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Global.List`1
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: List(Of )
-  name.vb: List(Of )
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
   spec.csharp:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

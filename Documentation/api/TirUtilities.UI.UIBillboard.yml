@@ -16,7 +16,7 @@ items:
   source:
     id: UIBillboard
     path: ''
-    startLine: 45036
+    startLine: 10964
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -49,7 +49,7 @@ items:
   source:
     id: Text
     path: ''
-    startLine: 45066
+    startLine: 10994
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
