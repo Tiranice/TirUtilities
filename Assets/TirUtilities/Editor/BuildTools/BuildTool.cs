@@ -12,15 +12,15 @@ namespace TirUtilities.Editor.BuildTools
     {
         #region Prefs Keys
 
-        private const string _BuildPathKey = "TirUtilities.BuildPath.";
-        private const string _GitTargethKey = "TirUtilities.GitTarget.";
+        private const string _BuildPathKey = "TirUtilities.BuildPath";
+        private const string _GitTargethKey = "TirUtilities.GitTarget";
 
         #endregion
 
         #region Editor Prefs Items
 
-        private static readonly Prefs.EditorPrefsString _BuildPathPref = new Prefs.EditorPrefsString(_BuildPathKey, new GUIContent("Build Path"), string.Empty);
-        private static readonly Prefs.EditorPrefsString _GitTargetPref = new Prefs.EditorPrefsString(_GitTargethKey, new GUIContent("Git Target"), BuildTool.GitTarget.CurrentBranch.ToString());
+        private static Prefs.EditorPrefsString _BuildPathPref;
+        private static Prefs.EditorPrefsString _GitTargetPref;
 
         #endregion
 
@@ -46,6 +46,18 @@ namespace TirUtilities.Editor.BuildTools
 
         #region Unity Messages
 
+        private void OnEnable()
+        {
+            var assetsPath = Application.dataPath;
+            var path = Path.Combine(assetsPath.Substring(0, assetsPath.LastIndexOf('/')).Replace('/', Path.DirectorySeparatorChar), "Builds");
+            _BuildPathPref = new Prefs.EditorPrefsString($"{PlayerSettings.productName}.{_BuildPathKey}", 
+                                                         new GUIContent("Build Path"),
+                                                         path);
+
+            _GitTargetPref = new Prefs.EditorPrefsString($"{PlayerSettings.productName}.{_GitTargethKey}", 
+                                                         new GUIContent("Git Target"), 
+                                                         BuildTool.GitTarget.CurrentBranch.ToString());
+    }
         private void CreateGUI()
         {
             var buildLocation = new Button(SetBuildLoction) { text = "Select Build Location" };
@@ -89,7 +101,6 @@ namespace TirUtilities.Editor.BuildTools
             _gitTarget = (BuildTool.GitTarget)value.newValue;
             _GitTargetPref.Value = _gitTarget.ToString();
         }
-
 
         private static void SetBuildLoction()
         {
