@@ -19,7 +19,7 @@ namespace TirUtilities.Experimental
     ///        
     /// Author :  Devon Wilson
     /// Created:  Jun 15, 2021
-    /// Updated:  Oct 13, 2021
+    /// Updated:  Nov 16, 2021
     /// -->
     /// <summary>
     /// Controls the current state of the application.

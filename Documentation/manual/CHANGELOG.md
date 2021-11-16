@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Script templates for PropertyAttributes and PropertyDrawers.
 - ShowIf Attribute
   - Decorate a field with <code>[ShowIf(string targetName, object targetValue)]</code>.  This field will only be drawn in the inspector if the given target equals the target value.
+- <code>ApplicationStateMachine</code> has additional documentation.
 
 ### Fixed
 
