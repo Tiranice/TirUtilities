@@ -15,11 +15,11 @@ items:
   source:
     id: DisplayOnlyAttribute
     path: ''
-    startLine: 41404
+    startLine: 2155
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
-  summary: "\nThe tagged field is be displayed in the inspector, but cannot be edited.\n"
+  summary: "\nThe decorated field is be displayed in the inspector, but cannot be edited.\n"
   remarks: "\nProperty drawer:  TirUtilities/Editor/PropertyDrawers/DisplayOnlyDrawer.cs\n"
   example: []
   syntax:

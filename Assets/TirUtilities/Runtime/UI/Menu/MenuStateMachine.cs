@@ -4,8 +4,9 @@ using UnityEngine.UI;
 
 namespace TirUtilities.UI
 {
+    using System.Linq;
     using TirUtilities.Extensions;
-
+    using static TirLogger;
     ///<!--
     /// MenuStateMachine.cs
     /// 
@@ -35,6 +36,7 @@ namespace TirUtilities.UI
         [Header("States and Pages")]
         [Tooltip("The menu state for the root menu page.")]
         [SerializeField] private MenuState _rootState;
+        [SerializeField] private bool _enterRootStateOnStart = true;
         [Space]
         [Tooltip("All of the pages that this state machine manages.")]
         [SerializeField] private List<MenuPage> _menuPages;
@@ -68,11 +70,14 @@ namespace TirUtilities.UI
 
         #region Unity Messages
 
+        private void Awake() => FetchMenuPages();
         private void Start() => InitTransitionTable();
 
         #endregion
 
         #region Setup & Teardown
+
+        private void FetchMenuPages() => _menuPages = FindObjectsOfType<MenuPage>().ToList();
 
         /// <summary> Setup all table of menu pages and states. </summary>
         private void InitTransitionTable()
@@ -80,7 +85,6 @@ namespace TirUtilities.UI
             foreach (MenuPage page in _menuPages)
             {
                 if (page.IsNull()) continue;
-
                 if (_transitions.ContainsKey(page.State)) continue;
 
                 _transitions[page.State] = page;
@@ -89,7 +93,8 @@ namespace TirUtilities.UI
             foreach (MenuState state in _transitions.Keys)
                 _transitions[state].HidePanel();
 
-            TransitionTo(_rootState);
+            if (_enterRootStateOnStart)
+                TransitionTo(_rootState);
         }
 
         #endregion
@@ -129,9 +134,18 @@ namespace TirUtilities.UI
             }
         }
 
+        public void OpenMenu() => TransitionTo(_rootState);
+
+        public void ExitMenu()
+        {
+            TransitionTo(_rootState);
+            if (_activePage.NotNull())
+                _activePage.HidePanel();
+        }
+
         #endregion
 
-        #region Public Methods
+        #region Public Properties
 
         public List<MenuPage> MenuPages => _menuPages;
 

@@ -32,6 +32,7 @@ namespace TirUtilities.Controllers
         [SerializeField] private float _maxDistance = 50.0f;
         [SerializeField] private LayerMask _targetLayers;
         [SerializeField] private QueryTriggerInteraction _queryTriggerInteraction = QueryTriggerInteraction.UseGlobal;
+        [SerializeField] private float _castRadius = 2.0f;
 
 
         [Header("Target")]
@@ -100,7 +101,7 @@ namespace TirUtilities.Controllers
                 Debug.DrawRay(cameraRay.origin, cameraRay.direction * _maxDistance, _rayColor);
             #endregion
 
-            if (Physics.Raycast(cameraRay, out RaycastHit hitInfo, _maxDistance, _targetLayers, _queryTriggerInteraction))
+            if (Physics.SphereCast(cameraRay, _castRadius, out RaycastHit hitInfo, _maxDistance, _targetLayers, _queryTriggerInteraction))
             {
                 var hitObject = hitInfo.collider.gameObject;
 

@@ -1,3 +1,6 @@
+#if ENABLE_CINEMACHINE
+using Cinemachine;
+#endif
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
@@ -15,7 +18,7 @@ namespace TirUtilities.Controllers.Experimental
     /// Author :  Devon Wilson
     /// Company:  BlackPheonixSoftware
     /// Created:  Sep 26, 2021
-    /// Updated:  Oct 01, 2021
+    /// Updated:  Oct 13, 2021
     /// -->
     /// <summary>
     ///
@@ -32,9 +35,18 @@ namespace TirUtilities.Controllers.Experimental
 
         #endregion
 
+        #region Data Structures
+
+        [System.Serializable]
+        private enum ControllerType { FirstPerson, ThirdPerson, }
+
+        #endregion
+
         #region Inspector Fields
 
         [Header("Controls")]
+        [SerializeField] private ControllerType _controllerType = ControllerType.FirstPerson;
+        [Space]
         [SerializeField] private CharacterController _controller;
         [SerializeField] private bool _isStrafing;
 
@@ -46,10 +58,16 @@ namespace TirUtilities.Controllers.Experimental
         [SerializeField] private float _acceleration = 10.0f;
         [Tooltip("How fast the character turns to face movement direction"), Range(0.0f, 0.3f)]
         [SerializeField] private float _angularAcceleration = 0.12f;
+        [Space]
+        [SerializeField] private float _lookSpeed = 1.0f;
 
         [Header("Camera")]
         [SerializeField] private Camera _mainCamera;
-
+#if ENABLE_CINEMACHINE
+        [SerializeField] private CinemachineVirtualCamera _mainVCam;
+        [SerializeField] private CinemachineVirtualCamera _sprintVCam; 
+#endif
+        [Space]
         [Tooltip("How far in degrees can you move the camera up")]
         [SerializeField] private float _topClamp = 70.0f;
         [Tooltip("How far in degrees can you move the camera down")]
@@ -126,7 +144,13 @@ namespace TirUtilities.Controllers.Experimental
 
         private void Update() => Move();
 
-        private void LateUpdate() => CameraRotation();
+        private void LateUpdate()
+        {
+            if (_controllerType == ControllerType.FirstPerson)
+                CameraPOVRotation();
+            else
+                CameraRotation();
+        }
 
         private void OnDestroy() => RemoveReceivers();
 
@@ -142,18 +166,32 @@ namespace TirUtilities.Controllers.Experimental
 
         private void AssignReceivers()
         {
-            _moveSignal.AddReceiver(MoveReceiver);
+            if (_moveSignal.NotNull())
+                _moveSignal.AddReceiver(MoveReceiver);
+
+            if (_lookSignal.NotNull())
             _lookSignal.AddReceiver(LookReceiver);
+
+            if (_jumpSignal.NotNull())
             _jumpSignal.AddReceiver(JumpReceiver);
+
+            if (_sprintSignal.NotNull())
             _sprintSignal.AddReceiver(SprintReceiver);
         }
 
         private void RemoveReceivers()
         {
-            _moveSignal.RemoveReceiver(MoveReceiver);
-            _lookSignal.RemoveReceiver(LookReceiver);
-            _jumpSignal.RemoveReceiver(JumpReceiver);
-            _sprintSignal.RemoveReceiver(SprintReceiver);
+            if (_moveSignal.NotNull())
+                _moveSignal.RemoveReceiver(MoveReceiver);
+
+            if (_lookSignal.NotNull())
+                _lookSignal.RemoveReceiver(LookReceiver);
+
+            if (_jumpSignal.NotNull())
+                _jumpSignal.RemoveReceiver(JumpReceiver);
+
+            if (_sprintSignal.NotNull())
+                _sprintSignal.RemoveReceiver(SprintReceiver);
         }
 
         private void AssignAnimationIDs()
@@ -178,7 +216,15 @@ namespace TirUtilities.Controllers.Experimental
         private void Move()
         {
             SetSpeed();
-            SetMoveDirection();
+            if (_controllerType == ControllerType.ThirdPerson)
+                SetMoveDirection3rdPerson();
+            else
+                SetMoveDirection1stPerson();
+
+#if ENABLE_CINEMACHINE
+            SetCameraPriority(); 
+#endif
+
             SetAnimationSpeed();
         }
 
@@ -186,8 +232,11 @@ namespace TirUtilities.Controllers.Experimental
         private void SetSpeed()
         {
             float targetSpeed = _isSprinting ? _sprintSpeed : _walkSpeed;
+
+            // Lock backwards speed to 75% of walk speed.
             if (_move.y < 0) targetSpeed = _walkSpeed * 0.75f;
 
+            // No input
             if (_move == Vector2.zero) targetSpeed = 0.0f;
 
             float currentHorizontalSpeed = new Vector3(
@@ -207,7 +256,7 @@ namespace TirUtilities.Controllers.Experimental
             _animationBlend = Mathf.Lerp(_animationBlend, targetSpeed, Time.deltaTime * _acceleration);
         }
 
-        private void SetMoveDirection()
+        private void SetMoveDirection3rdPerson()
         {
             var inputDirection = new Vector3(_move.x, 0.0f, _move.y).normalized;
 
@@ -239,6 +288,29 @@ namespace TirUtilities.Controllers.Experimental
             _controller.Move(movementVector);
         }
 
+        private void SetMoveDirection1stPerson()
+        {
+            var inputDirection = new Vector3(_move.x, 0.0f, _move.y).normalized;
+
+            if (_move != Vector2.zero)
+                inputDirection = transform.right * _move.x + transform.forward * _move.y;
+
+            _verticalSpeed = _controller.isGrounded ? 0.0f : -9.81f;
+
+            var movementVector = inputDirection.normalized
+                                 * (_speed * Time.deltaTime)
+                                 + (new Vector3(0.0f, _verticalSpeed, 0.0f) * Time.deltaTime);
+
+            _controller.Move(movementVector);
+        }
+
+#if ENABLE_CINEMACHINE
+        private void SetCameraPriority()
+        {
+            _mainVCam.Priority = _isSprinting ? 0 : 10;
+        } 
+#endif
+
         private void SetAnimationSpeed()
         {
             if (_hasAnimator)
@@ -256,17 +328,30 @@ namespace TirUtilities.Controllers.Experimental
         {
             if (_look.sqrMagnitude >= _LookThreshold)
             {
-                _cinemachineTargetYaw += _look.x * Time.deltaTime;
-                _cinemachineTargetPitch += _look.y * Time.deltaTime;
+                _cinemachineTargetYaw += _look.x * _lookSpeed * Time.deltaTime;
+                _cinemachineTargetPitch += _look.y * _lookSpeed * Time.deltaTime;
             }
 
             _cinemachineTargetYaw = ClampAngle(_cinemachineTargetYaw, float.MinValue, float.MaxValue);
             _cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, _bottomClamp, _topClamp);
 
-            _cinemachineCameraTarget.transform.rotation =
-                Quaternion.Euler(_cinemachineTargetPitch + _cameraAngleOverride,
-                                 _cinemachineTargetYaw,
-                                 0.0f);
+            var lookRotation = Quaternion.Euler(_cinemachineTargetPitch + _cameraAngleOverride, _cinemachineTargetYaw, 0.0f);
+
+            _cinemachineCameraTarget.transform.rotation = lookRotation;
+        }
+
+        private void CameraPOVRotation()
+        {
+            if (_look.sqrMagnitude < _LookThreshold) return;
+
+            _cinemachineTargetYaw = _look.x * _lookSpeed * Time.deltaTime;
+            _cinemachineTargetPitch += _look.y * _lookSpeed * Time.deltaTime;
+
+            _cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, _bottomClamp, _topClamp);
+
+            _cinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, 0.0f, 0.0f);
+
+            transform.Rotate(Vector3.up * _cinemachineTargetYaw);
         }
 
         #endregion

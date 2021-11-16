@@ -18,11 +18,11 @@ items:
   source:
     id: IState
     path: ''
-    startLine: 43364
+    startLine: 8237
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
-  summary: "\n\n"
+  summary: "\nImplement this interface on object that should be states in a <xref href=\"TirUtilities.StateMachine\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
   syntax:
     content: >-
@@ -54,7 +54,7 @@ items:
   source:
     id: EnterState
     path: ''
-    startLine: 43366
+    startLine: 8244
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -81,7 +81,7 @@ items:
   source:
     id: ExitState
     path: ''
-    startLine: 43367
+    startLine: 8245
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -108,7 +108,7 @@ items:
   source:
     id: UpdateState
     path: ''
-    startLine: 43368
+    startLine: 8246
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -122,6 +122,12 @@ items:
   nameWithType.vb: IState(Of T).UpdateState(T)
   fullName.vb: TirUtilities.IState(Of T).UpdateState(T)
 references:
+- uid: TirUtilities.StateMachine
+  commentId: T:TirUtilities.StateMachine
+  parent: TirUtilities
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: TirUtilities.StateMachine
 - uid: TirUtilities
   commentId: N:TirUtilities
   name: TirUtilities

@@ -7,7 +7,7 @@ items:
   children:
   - TirUtilities.Serialization.TirJsonUtility.GetFilesInDirectory(System.String,System.String)
   - TirUtilities.Serialization.TirJsonUtility.ParseJsonToList``1(System.String)
-  - TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(List{``0}@,System.String)
+  - TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(System.Collections.Generic.List{``0}@,System.String)
   langs:
   - csharp
   - vb
@@ -18,7 +18,7 @@ items:
   source:
     id: TirJsonUtility
     path: ''
-    startLine: 44918
+    startLine: 10837
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Serialization
@@ -49,7 +49,7 @@ items:
   source:
     id: GetFilesInDirectory
     path: ''
-    startLine: 44927
+    startLine: 10846
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Serialization
@@ -65,7 +65,7 @@ items:
       type: System.String
       description: A regex of file extensions, *.txt by default.
     return:
-      type: Global.IEnumerable{System.String}
+      type: System.Collections.Generic.IEnumerable{System.String}
       description: An IEnumerable over the file paths.
     content.vb: Public Shared Function GetFilesInDirectory(path As String, fileExtensions As String = "*.txt") As IEnumerable(Of String)
   overload: TirUtilities.Serialization.TirJsonUtility.GetFilesInDirectory*
@@ -89,7 +89,7 @@ items:
   source:
     id: ParseJsonToList
     path: ''
-    startLine: 44938
+    startLine: 10857
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Serialization
@@ -105,7 +105,7 @@ items:
     typeParameters:
     - id: T
     return:
-      type: Global.List{{T}}
+      type: System.Collections.Generic.List{{T}}
       description: 'List of objects. '
     content.vb: Public Shared Function ParseJsonToList(Of T)(path As String) As List(Of T)
   overload: TirUtilities.Serialization.TirJsonUtility.ParseJsonToList*
@@ -118,21 +118,21 @@ items:
   - Shared
   fullName.vb: TirUtilities.Serialization.TirJsonUtility.ParseJsonToList(Of T)(System.String)
   name.vb: ParseJsonToList(Of T)(String)
-- uid: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(List{``0}@,System.String)
-  commentId: M:TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(List{``0}@,System.String)
-  id: TryParseJsonToList``1(List{``0}@,System.String)
+- uid: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(System.Collections.Generic.List{``0}@,System.String)
+  commentId: M:TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList``1(System.Collections.Generic.List{``0}@,System.String)
+  id: TryParseJsonToList``1(System.Collections.Generic.List{``0}@,System.String)
   parent: TirUtilities.Serialization.TirJsonUtility
   langs:
   - csharp
   - vb
   name: TryParseJsonToList<T>(out List<T>, String)
   nameWithType: TirJsonUtility.TryParseJsonToList<T>(out List<T>, String)
-  fullName: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList<T>(out List<T>, System.String)
+  fullName: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList<T>(out System.Collections.Generic.List<T>, System.String)
   type: Method
   source:
     id: TryParseJsonToList
     path: ''
-    startLine: 44977
+    startLine: 10900
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Serialization
@@ -142,7 +142,7 @@ items:
     content: public static bool TryParseJsonToList<T>(out List<T> data, string path)
     parameters:
     - id: data
-      type: Global.List{{T}}
+      type: System.Collections.Generic.List{{T}}
       description: The list that will hold the deserialized objects.
     - id: path
       type: System.String
@@ -162,7 +162,7 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList(Of T)(ByRef List(Of T), System.String)
+  fullName.vb: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList(Of T)(ByRef System.Collections.Generic.List(Of T), System.String)
   name.vb: TryParseJsonToList(Of T)(ByRef List(Of T), String)
 references:
 - uid: TirUtilities.Serialization
@@ -195,20 +195,21 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Global.IEnumerable{System.String}
-  commentId: '!:Global.IEnumerable{System.String}'
-  definition: Global.IEnumerable`1
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
   name: IEnumerable<String>
   nameWithType: IEnumerable<String>
-  fullName: IEnumerable<System.String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
   nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: IEnumerable(Of System.String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
   name.vb: IEnumerable(Of String)
   spec.csharp:
-  - uid: Global.IEnumerable`1
+  - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
-    fullName: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
@@ -222,10 +223,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Global.IEnumerable`1
+  - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
-    fullName: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -238,64 +239,71 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Global.IEnumerable`1
-  commentId: '!:Global.IEnumerable`1'
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  name: IEnumerable<>
-  nameWithType: IEnumerable<>
-  fullName: IEnumerable<>
-  nameWithType.vb: IEnumerable(Of )
-  fullName.vb: IEnumerable(Of )
-  name.vb: IEnumerable(Of )
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
   spec.csharp:
-  - uid: Global.IEnumerable`1
+  - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
-    fullName: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Global.IEnumerable`1
+  - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
     nameWithType: IEnumerable
-    fullName: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
 - uid: TirUtilities.Serialization.TirJsonUtility.ParseJsonToList*
   commentId: Overload:TirUtilities.Serialization.TirJsonUtility.ParseJsonToList
   name: ParseJsonToList
   nameWithType: TirJsonUtility.ParseJsonToList
   fullName: TirUtilities.Serialization.TirJsonUtility.ParseJsonToList
-- uid: Global.List{{T}}
-  commentId: '!:Global.List{``0}'
-  definition: Global.List`1
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
   name: List<T>
   nameWithType: List<T>
-  fullName: List<T>
+  fullName: System.Collections.Generic.List<T>
   nameWithType.vb: List(Of T)
-  fullName.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
   name.vb: List(Of T)
   spec.csharp:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: <
     nameWithType: <
@@ -307,10 +315,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -321,41 +329,42 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Global.List`1
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: List(Of )
-  name.vb: List(Of )
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
   spec.csharp:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )

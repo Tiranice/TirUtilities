@@ -18,23 +18,27 @@ items:
   source:
     id: StringSignal
     path: ''
-    startLine: 44738
+    startLine: 10018
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
   summary: "\nA <xref href=\"TirUtilities.Signals.Signal\" data-throw-if-not-resolved=\"false\"></xref> that emits a string.\n"
   example: []
   syntax:
-    content: 'public class StringSignal : SignalBase'
+    content: 'public class StringSignal : SignalBase<string>, ISignal<string>'
     content.vb: >-
       Public Class StringSignal
-          Inherits SignalBase
+          Inherits SignalBase(Of String)
+          Implements ISignal(Of String)
   inheritance:
   - System.Object
-  - TirUtilities.Signals.SignalBase
+  - TirUtilities.Signals.SignalBase{System.String}
+  implements:
+  - TirUtilities.Signals.ISignal{System.String}
   inheritedMembers:
-  - TirUtilities.Signals.SignalBase._description
-  - TirUtilities.Signals.SignalBase.Description
+  - TirUtilities.Signals.SignalBase{System.String}._description
+  - TirUtilities.Signals.SignalBase{System.String}.Description
+  - TirUtilities.Signals.SignalBase{System.String}._OnEmit
   modifiers.csharp:
   - public
   - class
@@ -55,11 +59,11 @@ items:
   source:
     id: AddReceiver
     path: ''
-    startLine: 44757
+    startLine: 10027
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
-  summary: "\nRegister a callback function to be invoked when this signal is <xref href=\"TirUtilities.Signals.StringSignal.Emit(System.String)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nRegister a callback function to be invoked when <xref href=\"TirUtilities.Signals.StringSignal.Emit(System.String)\" data-throw-if-not-resolved=\"false\"></xref> is called.\n"
   example: []
   syntax:
     content: public virtual void AddReceiver(UnityAction<string> receiver)
@@ -69,6 +73,8 @@ items:
       description: The callback to be invoked.
     content.vb: Public Overridable Sub AddReceiver(receiver As UnityAction(Of String))
   overload: TirUtilities.Signals.StringSignal.AddReceiver*
+  implements:
+  - TirUtilities.Signals.ISignal{System.String}.AddReceiver(UnityAction{System.String})
   nameWithType.vb: StringSignal.AddReceiver(UnityAction(Of String))
   modifiers.csharp:
   - public
@@ -92,11 +98,11 @@ items:
   source:
     id: RemoveReceiver
     path: ''
-    startLine: 44763
+    startLine: 10031
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
-  summary: "\nUnregister a callback function.\n"
+  summary: 'Unregister a callback function. '
   example: []
   syntax:
     content: public virtual void RemoveReceiver(UnityAction<string> receiver)
@@ -106,6 +112,8 @@ items:
       description: The callback function.
     content.vb: Public Overridable Sub RemoveReceiver(receiver As UnityAction(Of String))
   overload: TirUtilities.Signals.StringSignal.RemoveReceiver*
+  implements:
+  - TirUtilities.Signals.ISignal{System.String}.RemoveReceiver(UnityAction{System.String})
   nameWithType.vb: StringSignal.RemoveReceiver(UnityAction(Of String))
   modifiers.csharp:
   - public
@@ -129,11 +137,11 @@ items:
   source:
     id: Emit
     path: ''
-    startLine: 44769
+    startLine: 10037
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
-  summary: "\nEmit this signal to all receivers registered with \n<xref href=\"TirUtilities.Signals.StringSignal.AddReceiver(UnityAction%7bSystem.String%7d)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  summary: "\nEmit this signal to all receivers, calling methods registered with \n<xref href=\"TirUtilities.Signals.StringSignal.AddReceiver(UnityAction%7bSystem.String%7d)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
   syntax:
     content: public virtual void Emit(string value)
@@ -142,6 +150,8 @@ items:
       type: System.String
     content.vb: Public Overridable Sub Emit(value As String)
   overload: TirUtilities.Signals.StringSignal.Emit*
+  implements:
+  - TirUtilities.Signals.ISignal{System.String}.Emit(System.String)
   modifiers.csharp:
   - public
   - virtual
@@ -166,30 +176,216 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: TirUtilities.Signals.SignalBase
-  commentId: T:TirUtilities.Signals.SignalBase
+- uid: TirUtilities.Signals.SignalBase{System.String}
+  commentId: T:TirUtilities.Signals.SignalBase{System.String}
   parent: TirUtilities.Signals
-  name: SignalBase
-  nameWithType: SignalBase
-  fullName: TirUtilities.Signals.SignalBase
-- uid: TirUtilities.Signals.SignalBase._description
-  commentId: F:TirUtilities.Signals.SignalBase._description
-  parent: TirUtilities.Signals.SignalBase
+  definition: TirUtilities.Signals.SignalBase`1
+  name: SignalBase<String>
+  nameWithType: SignalBase<String>
+  fullName: TirUtilities.Signals.SignalBase<System.String>
+  nameWithType.vb: SignalBase(Of String)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of System.String)
+  name.vb: SignalBase(Of String)
+  spec.csharp:
+  - uid: TirUtilities.Signals.SignalBase`1
+    name: SignalBase
+    nameWithType: SignalBase
+    fullName: TirUtilities.Signals.SignalBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TirUtilities.Signals.SignalBase`1
+    name: SignalBase
+    nameWithType: SignalBase
+    fullName: TirUtilities.Signals.SignalBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Signals.ISignal{System.String}
+  commentId: T:TirUtilities.Signals.ISignal{System.String}
+  parent: TirUtilities.Signals
+  definition: TirUtilities.Signals.ISignal`1
+  name: ISignal<String>
+  nameWithType: ISignal<String>
+  fullName: TirUtilities.Signals.ISignal<System.String>
+  nameWithType.vb: ISignal(Of String)
+  fullName.vb: TirUtilities.Signals.ISignal(Of System.String)
+  name.vb: ISignal(Of String)
+  spec.csharp:
+  - uid: TirUtilities.Signals.ISignal`1
+    name: ISignal
+    nameWithType: ISignal
+    fullName: TirUtilities.Signals.ISignal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TirUtilities.Signals.ISignal`1
+    name: ISignal
+    nameWithType: ISignal
+    fullName: TirUtilities.Signals.ISignal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Signals.SignalBase{System.String}._description
+  commentId: F:TirUtilities.Signals.SignalBase{System.String}._description
+  parent: TirUtilities.Signals.SignalBase{System.String}
+  definition: TirUtilities.Signals.SignalBase`1._description
   name: _description
-  nameWithType: SignalBase._description
-  fullName: TirUtilities.Signals.SignalBase._description
-- uid: TirUtilities.Signals.SignalBase.Description
-  commentId: P:TirUtilities.Signals.SignalBase.Description
-  parent: TirUtilities.Signals.SignalBase
+  nameWithType: SignalBase<String>._description
+  fullName: TirUtilities.Signals.SignalBase<System.String>._description
+  nameWithType.vb: SignalBase(Of String)._description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of System.String)._description
+- uid: TirUtilities.Signals.SignalBase{System.String}.Description
+  commentId: P:TirUtilities.Signals.SignalBase{System.String}.Description
+  parent: TirUtilities.Signals.SignalBase{System.String}
+  definition: TirUtilities.Signals.SignalBase`1.Description
   name: Description
-  nameWithType: SignalBase.Description
-  fullName: TirUtilities.Signals.SignalBase.Description
+  nameWithType: SignalBase<String>.Description
+  fullName: TirUtilities.Signals.SignalBase<System.String>.Description
+  nameWithType.vb: SignalBase(Of String).Description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of System.String).Description
+- uid: TirUtilities.Signals.SignalBase{System.String}._OnEmit
+  commentId: F:TirUtilities.Signals.SignalBase{System.String}._OnEmit
+  parent: TirUtilities.Signals.SignalBase{System.String}
+  definition: TirUtilities.Signals.SignalBase`1._OnEmit
+  name: _OnEmit
+  nameWithType: SignalBase<String>._OnEmit
+  fullName: TirUtilities.Signals.SignalBase<System.String>._OnEmit
+  nameWithType.vb: SignalBase(Of String)._OnEmit
+  fullName.vb: TirUtilities.Signals.SignalBase(Of System.String)._OnEmit
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
+- uid: TirUtilities.Signals.SignalBase`1
+  commentId: T:TirUtilities.Signals.SignalBase`1
+  name: SignalBase<T0>
+  nameWithType: SignalBase<T0>
+  fullName: TirUtilities.Signals.SignalBase<T0>
+  nameWithType.vb: SignalBase(Of T0)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0)
+  name.vb: SignalBase(Of T0)
+  spec.csharp:
+  - uid: TirUtilities.Signals.SignalBase`1
+    name: SignalBase
+    nameWithType: SignalBase
+    fullName: TirUtilities.Signals.SignalBase
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TirUtilities.Signals.SignalBase`1
+    name: SignalBase
+    nameWithType: SignalBase
+    fullName: TirUtilities.Signals.SignalBase
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Signals.ISignal`1
+  commentId: T:TirUtilities.Signals.ISignal`1
+  name: ISignal<T0>
+  nameWithType: ISignal<T0>
+  fullName: TirUtilities.Signals.ISignal<T0>
+  nameWithType.vb: ISignal(Of T0)
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0)
+  name.vb: ISignal(Of T0)
+  spec.csharp:
+  - uid: TirUtilities.Signals.ISignal`1
+    name: ISignal
+    nameWithType: ISignal
+    fullName: TirUtilities.Signals.ISignal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TirUtilities.Signals.ISignal`1
+    name: ISignal
+    nameWithType: ISignal
+    fullName: TirUtilities.Signals.ISignal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Signals.SignalBase`1._description
+  commentId: F:TirUtilities.Signals.SignalBase`1._description
+  name: _description
+  nameWithType: SignalBase<T0>._description
+  fullName: TirUtilities.Signals.SignalBase<T0>._description
+  nameWithType.vb: SignalBase(Of T0)._description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0)._description
+- uid: TirUtilities.Signals.SignalBase`1.Description
+  commentId: P:TirUtilities.Signals.SignalBase`1.Description
+  name: Description
+  nameWithType: SignalBase<T0>.Description
+  fullName: TirUtilities.Signals.SignalBase<T0>.Description
+  nameWithType.vb: SignalBase(Of T0).Description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0).Description
+- uid: TirUtilities.Signals.SignalBase`1._OnEmit
+  commentId: F:TirUtilities.Signals.SignalBase`1._OnEmit
+  name: _OnEmit
+  nameWithType: SignalBase<T0>._OnEmit
+  fullName: TirUtilities.Signals.SignalBase<T0>._OnEmit
+  nameWithType.vb: SignalBase(Of T0)._OnEmit
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0)._OnEmit
 - uid: TirUtilities.Signals.StringSignal.Emit(System.String)
   commentId: M:TirUtilities.Signals.StringSignal.Emit(System.String)
   isExternal: true
@@ -198,6 +394,70 @@ references:
   name: AddReceiver
   nameWithType: StringSignal.AddReceiver
   fullName: TirUtilities.Signals.StringSignal.AddReceiver
+- uid: TirUtilities.Signals.ISignal{System.String}.AddReceiver(UnityAction{System.String})
+  commentId: M:TirUtilities.Signals.ISignal{System.String}.AddReceiver(UnityAction{System.String})
+  parent: TirUtilities.Signals.ISignal{System.String}
+  definition: TirUtilities.Signals.ISignal`1.AddReceiver(UnityAction{`0})
+  name: AddReceiver(UnityAction<String>)
+  nameWithType: ISignal<String>.AddReceiver(UnityAction<String>)
+  fullName: TirUtilities.Signals.ISignal<System.String>.AddReceiver(UnityAction<System.String>)
+  nameWithType.vb: ISignal(Of String).AddReceiver(UnityAction(Of String))
+  fullName.vb: TirUtilities.Signals.ISignal(Of System.String).AddReceiver(UnityAction(Of System.String))
+  name.vb: AddReceiver(UnityAction(Of String))
+  spec.csharp:
+  - uid: TirUtilities.Signals.ISignal`1.AddReceiver(UnityAction{`0})
+    name: AddReceiver
+    nameWithType: ISignal<String>.AddReceiver
+    fullName: TirUtilities.Signals.ISignal<System.String>.AddReceiver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TirUtilities.Signals.ISignal`1.AddReceiver(UnityAction{`0})
+    name: AddReceiver
+    nameWithType: ISignal(Of String).AddReceiver
+    fullName: TirUtilities.Signals.ISignal(Of System.String).AddReceiver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Global.UnityAction{System.String}
   commentId: '!:Global.UnityAction{System.String}'
   definition: Global.UnityAction`1
@@ -238,6 +498,65 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Signals.ISignal`1.AddReceiver(UnityAction{`0})
+  commentId: M:TirUtilities.Signals.ISignal`1.AddReceiver(UnityAction{`0})
+  isExternal: true
+  name: AddReceiver(UnityAction<T0>)
+  nameWithType: ISignal<T0>.AddReceiver(UnityAction<T0>)
+  fullName: TirUtilities.Signals.ISignal<T0>.AddReceiver(UnityAction<T0>)
+  nameWithType.vb: ISignal(Of T0).AddReceiver(UnityAction(Of T0))
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0).AddReceiver(UnityAction(Of T0))
+  name.vb: AddReceiver(UnityAction(Of T0))
+  spec.csharp:
+  - uid: TirUtilities.Signals.ISignal`1.AddReceiver(UnityAction{`0})
+    name: AddReceiver
+    nameWithType: ISignal<T0>.AddReceiver
+    fullName: TirUtilities.Signals.ISignal<T0>.AddReceiver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TirUtilities.Signals.ISignal`1.AddReceiver(UnityAction{`0})
+    name: AddReceiver
+    nameWithType: ISignal(Of T0).AddReceiver
+    fullName: TirUtilities.Signals.ISignal(Of T0).AddReceiver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )
@@ -284,6 +603,129 @@ references:
   name: RemoveReceiver
   nameWithType: StringSignal.RemoveReceiver
   fullName: TirUtilities.Signals.StringSignal.RemoveReceiver
+- uid: TirUtilities.Signals.ISignal{System.String}.RemoveReceiver(UnityAction{System.String})
+  commentId: M:TirUtilities.Signals.ISignal{System.String}.RemoveReceiver(UnityAction{System.String})
+  parent: TirUtilities.Signals.ISignal{System.String}
+  definition: TirUtilities.Signals.ISignal`1.RemoveReceiver(UnityAction{`0})
+  name: RemoveReceiver(UnityAction<String>)
+  nameWithType: ISignal<String>.RemoveReceiver(UnityAction<String>)
+  fullName: TirUtilities.Signals.ISignal<System.String>.RemoveReceiver(UnityAction<System.String>)
+  nameWithType.vb: ISignal(Of String).RemoveReceiver(UnityAction(Of String))
+  fullName.vb: TirUtilities.Signals.ISignal(Of System.String).RemoveReceiver(UnityAction(Of System.String))
+  name.vb: RemoveReceiver(UnityAction(Of String))
+  spec.csharp:
+  - uid: TirUtilities.Signals.ISignal`1.RemoveReceiver(UnityAction{`0})
+    name: RemoveReceiver
+    nameWithType: ISignal<String>.RemoveReceiver
+    fullName: TirUtilities.Signals.ISignal<System.String>.RemoveReceiver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TirUtilities.Signals.ISignal`1.RemoveReceiver(UnityAction{`0})
+    name: RemoveReceiver
+    nameWithType: ISignal(Of String).RemoveReceiver
+    fullName: TirUtilities.Signals.ISignal(Of System.String).RemoveReceiver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Signals.ISignal`1.RemoveReceiver(UnityAction{`0})
+  commentId: M:TirUtilities.Signals.ISignal`1.RemoveReceiver(UnityAction{`0})
+  isExternal: true
+  name: RemoveReceiver(UnityAction<T0>)
+  nameWithType: ISignal<T0>.RemoveReceiver(UnityAction<T0>)
+  fullName: TirUtilities.Signals.ISignal<T0>.RemoveReceiver(UnityAction<T0>)
+  nameWithType.vb: ISignal(Of T0).RemoveReceiver(UnityAction(Of T0))
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0).RemoveReceiver(UnityAction(Of T0))
+  name.vb: RemoveReceiver(UnityAction(Of T0))
+  spec.csharp:
+  - uid: TirUtilities.Signals.ISignal`1.RemoveReceiver(UnityAction{`0})
+    name: RemoveReceiver
+    nameWithType: ISignal<T0>.RemoveReceiver
+    fullName: TirUtilities.Signals.ISignal<T0>.RemoveReceiver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TirUtilities.Signals.ISignal`1.RemoveReceiver(UnityAction{`0})
+    name: RemoveReceiver
+    nameWithType: ISignal(Of T0).RemoveReceiver
+    fullName: TirUtilities.Signals.ISignal(Of T0).RemoveReceiver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: TirUtilities.Signals.StringSignal.AddReceiver(UnityAction{System.String})
   commentId: M:TirUtilities.Signals.StringSignal.AddReceiver(UnityAction{System.String})
   isExternal: true
@@ -292,6 +734,47 @@ references:
   name: Emit
   nameWithType: StringSignal.Emit
   fullName: TirUtilities.Signals.StringSignal.Emit
+- uid: TirUtilities.Signals.ISignal{System.String}.Emit(System.String)
+  commentId: M:TirUtilities.Signals.ISignal{System.String}.Emit(System.String)
+  parent: TirUtilities.Signals.ISignal{System.String}
+  definition: TirUtilities.Signals.ISignal`1.Emit(`0)
+  name: Emit(String)
+  nameWithType: ISignal<String>.Emit(String)
+  fullName: TirUtilities.Signals.ISignal<System.String>.Emit(System.String)
+  nameWithType.vb: ISignal(Of String).Emit(String)
+  fullName.vb: TirUtilities.Signals.ISignal(Of System.String).Emit(System.String)
+  spec.csharp:
+  - uid: TirUtilities.Signals.ISignal`1.Emit(`0)
+    name: Emit
+    nameWithType: ISignal<String>.Emit
+    fullName: TirUtilities.Signals.ISignal<System.String>.Emit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TirUtilities.Signals.ISignal`1.Emit(`0)
+    name: Emit
+    nameWithType: ISignal(Of String).Emit
+    fullName: TirUtilities.Signals.ISignal(Of System.String).Emit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -299,3 +782,38 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: TirUtilities.Signals.ISignal`1.Emit(`0)
+  commentId: M:TirUtilities.Signals.ISignal`1.Emit(`0)
+  name: Emit(T0)
+  nameWithType: ISignal<T0>.Emit(T0)
+  fullName: TirUtilities.Signals.ISignal<T0>.Emit(T0)
+  nameWithType.vb: ISignal(Of T0).Emit(T0)
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0).Emit(T0)
+  spec.csharp:
+  - uid: TirUtilities.Signals.ISignal`1.Emit(`0)
+    name: Emit
+    nameWithType: ISignal<T0>.Emit
+    fullName: TirUtilities.Signals.ISignal<T0>.Emit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TirUtilities.Signals.ISignal`1.Emit(`0)
+    name: Emit
+    nameWithType: ISignal(Of T0).Emit
+    fullName: TirUtilities.Signals.ISignal(Of T0).Emit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: )
+    nameWithType: )
+    fullName: )

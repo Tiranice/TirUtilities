@@ -14,7 +14,7 @@ namespace TirUtilities.Controllers.Experimental
     /// Author :  Devon Wilson
     /// Company:  BlackPheonixSoftware
     /// Created:  Sep 26, 2021
-    /// Updated:  Oct 01, 2021
+    /// Updated:  Oct 13, 2021
     /// -->
     /// <summary>
     ///
@@ -49,10 +49,12 @@ namespace TirUtilities.Controllers.Experimental
 
         #region Input Messages
 
+#if ENABLE_INPUT_SYSTEM
         public void OnMove(InputValue value) => MoveInput(value.Get<Vector2>());
         public void OnLook(InputValue value) => LookInput(value.Get<Vector2>());
         public void OnJump(InputValue value) => JumpInput(value.isPressed);
-        public void OnSprint(InputValue value) => SprintInput(value.isPressed);
+        public void OnSprint(InputValue value) => SprintInput(value.isPressed); 
+#endif
 
         #endregion
 
@@ -93,12 +95,14 @@ namespace TirUtilities.Controllers.Experimental
         #endregion
 
         #region Cursor Lock
-
+#if !UNITY_IOS || !UNITY_ANDROID
         private void OnApplicationFocus(bool hasFocus) => SetCursorLockState(hasFocus);
 
-        private void SetCursorLockState(bool hasFocus) =>
+        private void SetCursorLockState(bool hasFocus)
+        {
             Cursor.lockState = hasFocus ? CursorLockMode.Locked : CursorLockMode.None;
-
+        }
+#endif
         #endregion
     }
 }

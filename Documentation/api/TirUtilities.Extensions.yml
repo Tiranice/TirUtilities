@@ -4,7 +4,6 @@ items:
   commentId: N:TirUtilities.Extensions
   id: TirUtilities.Extensions
   children:
-  - TirUtilities.Extensions.ColorExtensions
   - TirUtilities.Extensions.EventExtension
   - TirUtilities.Extensions.ListExtensions
   - TirUtilities.Extensions.ObjectExstentions
@@ -19,11 +18,6 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: TirUtilities.Extensions.ColorExtensions
-  commentId: T:TirUtilities.Extensions.ColorExtensions
-  name: ColorExtensions
-  nameWithType: ColorExtensions
-  fullName: TirUtilities.Extensions.ColorExtensions
 - uid: TirUtilities.Extensions.EventExtension
   commentId: T:TirUtilities.Extensions.EventExtension
   name: EventExtension

@@ -185,11 +185,14 @@ namespace TirUtilities.Editor
         {
             for (int i = 0; i < EditorSceneManager.sceneCount; i++)
             {
+                if (!EditorSceneManager.GetSceneAt(i).isLoaded) break;
                 foreach (var gameObject in EditorSceneManager.GetSceneAt(i).GetRootGameObjects())
                     if (gameObject.TryGetComponent<MenuStateMachine>(out var menuStateMachine))
                     {
                         _MenuStateMachine = menuStateMachine;
+                        var previous = Selection.activeObject;
                         Selection.activeObject = _MenuStateMachine;
+                        Selection.activeObject = previous;
                         //_MenuStateMachine.FetchMenuPages();
                         break;
                     }

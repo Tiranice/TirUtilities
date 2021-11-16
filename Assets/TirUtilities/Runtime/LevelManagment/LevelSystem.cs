@@ -139,6 +139,14 @@ namespace TirUtilities.LevelManagment
 
         #endregion
 
+        #region Public Properties
+
+        public static LevelSystem Instance => _Instance;
+
+        public IReadOnlyList<LevelLoadSignal> LevelLoadSignals => _levelLoadSignals;
+
+        #endregion
+
         #region Editor
 #if UNITY_EDITOR
         // Fetch all of the level load signals in the resources folder.

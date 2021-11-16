@@ -16,14 +16,16 @@ items:
   source:
     id: PausedState
     path: ''
-    startLine: 43257
+    startLine: 7709
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
+  summary: "\nSets the time scale to <xref href=\"TirUtilities.Experimental.ApplicationState.PausedTimeScale\" data-throw-if-not-resolved=\"false\"></xref> when entered.\n"
+  example: []
   syntax:
-    content: 'public class PausedState : ApplicationState, IState<ApplicationStateMachine>'
+    content: 'public sealed class PausedState : ApplicationState, IState<ApplicationStateMachine>'
     content.vb: >-
-      Public Class PausedState
+      Public NotInheritable Class PausedState
           Inherits ApplicationState
           Implements IState(Of ApplicationStateMachine)
   inheritance:
@@ -36,13 +38,17 @@ items:
   - TirUtilities.Experimental.ApplicationState.Description
   - TirUtilities.Experimental.ApplicationState.PausedTimeScale
   - TirUtilities.Experimental.ApplicationState.PlayingTimeScale
+  - TirUtilities.Experimental.ApplicationState.OnEnterState
+  - TirUtilities.Experimental.ApplicationState.OnExitState
   - TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
   - TirUtilities.Experimental.ApplicationState.UpdateState(TirUtilities.Experimental.ApplicationStateMachine)
   modifiers.csharp:
   - public
+  - sealed
   - class
   modifiers.vb:
   - Public
+  - NotInheritable
   - Class
 - uid: TirUtilities.Experimental.PausedState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
   commentId: M:TirUtilities.Experimental.PausedState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
@@ -58,7 +64,7 @@ items:
   source:
     id: EnterState
     path: ''
-    startLine: 43259
+    startLine: 7711
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -77,6 +83,12 @@ items:
   - Public
   - Overrides
 references:
+- uid: TirUtilities.Experimental.ApplicationState.PausedTimeScale
+  commentId: P:TirUtilities.Experimental.ApplicationState.PausedTimeScale
+  parent: TirUtilities.Experimental.ApplicationState
+  name: PausedTimeScale
+  nameWithType: ApplicationState.PausedTimeScale
+  fullName: TirUtilities.Experimental.ApplicationState.PausedTimeScale
 - uid: TirUtilities.Experimental
   commentId: N:TirUtilities.Experimental
   name: TirUtilities.Experimental
@@ -147,18 +159,24 @@ references:
   name: Description
   nameWithType: ApplicationState.Description
   fullName: TirUtilities.Experimental.ApplicationState.Description
-- uid: TirUtilities.Experimental.ApplicationState.PausedTimeScale
-  commentId: P:TirUtilities.Experimental.ApplicationState.PausedTimeScale
-  parent: TirUtilities.Experimental.ApplicationState
-  name: PausedTimeScale
-  nameWithType: ApplicationState.PausedTimeScale
-  fullName: TirUtilities.Experimental.ApplicationState.PausedTimeScale
 - uid: TirUtilities.Experimental.ApplicationState.PlayingTimeScale
   commentId: P:TirUtilities.Experimental.ApplicationState.PlayingTimeScale
   parent: TirUtilities.Experimental.ApplicationState
   name: PlayingTimeScale
   nameWithType: ApplicationState.PlayingTimeScale
   fullName: TirUtilities.Experimental.ApplicationState.PlayingTimeScale
+- uid: TirUtilities.Experimental.ApplicationState.OnEnterState
+  commentId: E:TirUtilities.Experimental.ApplicationState.OnEnterState
+  parent: TirUtilities.Experimental.ApplicationState
+  name: OnEnterState
+  nameWithType: ApplicationState.OnEnterState
+  fullName: TirUtilities.Experimental.ApplicationState.OnEnterState
+- uid: TirUtilities.Experimental.ApplicationState.OnExitState
+  commentId: E:TirUtilities.Experimental.ApplicationState.OnExitState
+  parent: TirUtilities.Experimental.ApplicationState
+  name: OnExitState
+  nameWithType: ApplicationState.OnExitState
+  fullName: TirUtilities.Experimental.ApplicationState.OnExitState
 - uid: TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
   commentId: M:TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
   parent: TirUtilities.Experimental.ApplicationState

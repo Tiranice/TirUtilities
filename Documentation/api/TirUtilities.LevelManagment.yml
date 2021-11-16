@@ -30,6 +30,7 @@ references:
   fullName: TirUtilities.LevelManagment.LevelLoader
 - uid: TirUtilities.LevelManagment.LevelSystem
   commentId: T:TirUtilities.LevelManagment.LevelSystem
+  parent: TirUtilities.LevelManagment
   name: LevelSystem
   nameWithType: LevelSystem
   fullName: TirUtilities.LevelManagment.LevelSystem

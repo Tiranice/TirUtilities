@@ -9,14 +9,20 @@ items:
   - TirUtilities.Extensions.EventExtension.IsNull(UnityEvent)
   - TirUtilities.Extensions.EventExtension.IsNull``1(UnityAction{``0})
   - TirUtilities.Extensions.EventExtension.IsNull``1(UnityEvent{``0})
+  - TirUtilities.Extensions.EventExtension.IsNull``2(UnityAction{``0,``1})
+  - TirUtilities.Extensions.EventExtension.IsNull``2(UnityEvent{``0,``1})
   - TirUtilities.Extensions.EventExtension.NotNull(UnityAction)
   - TirUtilities.Extensions.EventExtension.NotNull(UnityEvent)
   - TirUtilities.Extensions.EventExtension.NotNull``1(UnityAction{``0})
   - TirUtilities.Extensions.EventExtension.NotNull``1(UnityEvent{``0})
+  - TirUtilities.Extensions.EventExtension.NotNull``2(UnityAction{``0,``1})
+  - TirUtilities.Extensions.EventExtension.NotNull``2(UnityEvent{``0,``1})
   - TirUtilities.Extensions.EventExtension.SafeInvoke(UnityAction)
   - TirUtilities.Extensions.EventExtension.SafeInvoke(UnityEvent)
   - TirUtilities.Extensions.EventExtension.SafeInvoke``1(UnityAction{``0},``0)
   - TirUtilities.Extensions.EventExtension.SafeInvoke``1(UnityEvent{``0},``0)
+  - TirUtilities.Extensions.EventExtension.SafeInvoke``2(UnityAction{``0,``1},``0,``1)
+  - TirUtilities.Extensions.EventExtension.SafeInvoke``2(UnityEvent{``0,``1},``0,``1)
   langs:
   - csharp
   - vb
@@ -27,7 +33,7 @@ items:
   source:
     id: EventExtension
     path: ''
-    startLine: 42283
+    startLine: 4760
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -60,7 +66,7 @@ items:
   source:
     id: SafeInvoke
     path: ''
-    startLine: 42292
+    startLine: 4769
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -101,7 +107,7 @@ items:
   source:
     id: IsNull
     path: ''
-    startLine: 42305
+    startLine: 4782
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -142,7 +148,7 @@ items:
   source:
     id: NotNull
     path: ''
-    startLine: 42312
+    startLine: 4789
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -183,7 +189,7 @@ items:
   source:
     id: SafeInvoke
     path: ''
-    startLine: 42324
+    startLine: 4801
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -232,7 +238,7 @@ items:
   source:
     id: IsNull
     path: ''
-    startLine: 42337
+    startLine: 4814
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -278,7 +284,7 @@ items:
   source:
     id: NotNull
     path: ''
-    startLine: 42344
+    startLine: 4821
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -309,6 +315,153 @@ items:
   - Shared
   fullName.vb: TirUtilities.Extensions.EventExtension.NotNull(Of T0)(UnityEvent(Of T0))
   name.vb: NotNull(Of T0)(UnityEvent(Of T0))
+- uid: TirUtilities.Extensions.EventExtension.SafeInvoke``2(UnityEvent{``0,``1},``0,``1)
+  commentId: M:TirUtilities.Extensions.EventExtension.SafeInvoke``2(UnityEvent{``0,``1},``0,``1)
+  id: SafeInvoke``2(UnityEvent{``0,``1},``0,``1)
+  isExtensionMethod: true
+  parent: TirUtilities.Extensions.EventExtension
+  langs:
+  - csharp
+  - vb
+  name: SafeInvoke<T0, T1>(UnityEvent<T0, T1>, T0, T1)
+  nameWithType: EventExtension.SafeInvoke<T0, T1>(UnityEvent<T0, T1>, T0, T1)
+  fullName: TirUtilities.Extensions.EventExtension.SafeInvoke<T0, T1>(UnityEvent<T0, T1>, T0, T1)
+  type: Method
+  source:
+    id: SafeInvoke
+    path: ''
+    startLine: 4834
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Extensions
+  summary: "\nInvokes the event if it has listeners.\n"
+  example: []
+  syntax:
+    content: public static bool SafeInvoke<T0, T1>(this UnityEvent<T0, T1> unityEvent, T0 target0, T1 target1)
+    parameters:
+    - id: unityEvent
+      type: Global.UnityEvent{{T0},{T1}}
+      description: This event.
+    - id: target0
+      type: '{T0}'
+      description: The first target to be passed to listeners.
+    - id: target1
+      type: '{T1}'
+      description: The second target to be passed to listeners.
+    typeParameters:
+    - id: T0
+    - id: T1
+    return:
+      type: System.Boolean
+      description: True if the invocation was successful, otherwise false.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SafeInvoke(Of T0, T1)(unityEvent As UnityEvent(Of T0, T1), target0 As T0, target1 As T1) As Boolean
+  overload: TirUtilities.Extensions.EventExtension.SafeInvoke*
+  nameWithType.vb: EventExtension.SafeInvoke(Of T0, T1)(UnityEvent(Of T0, T1), T0, T1)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TirUtilities.Extensions.EventExtension.SafeInvoke(Of T0, T1)(UnityEvent(Of T0, T1), T0, T1)
+  name.vb: SafeInvoke(Of T0, T1)(UnityEvent(Of T0, T1), T0, T1)
+- uid: TirUtilities.Extensions.EventExtension.IsNull``2(UnityEvent{``0,``1})
+  commentId: M:TirUtilities.Extensions.EventExtension.IsNull``2(UnityEvent{``0,``1})
+  id: IsNull``2(UnityEvent{``0,``1})
+  isExtensionMethod: true
+  parent: TirUtilities.Extensions.EventExtension
+  langs:
+  - csharp
+  - vb
+  name: IsNull<T0, T1>(UnityEvent<T0, T1>)
+  nameWithType: EventExtension.IsNull<T0, T1>(UnityEvent<T0, T1>)
+  fullName: TirUtilities.Extensions.EventExtension.IsNull<T0, T1>(UnityEvent<T0, T1>)
+  type: Method
+  source:
+    id: IsNull
+    path: ''
+    startLine: 4847
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Extensions
+  summary: "\nShorthand for a <code>unityEvent == null</code>.\n"
+  example: []
+  syntax:
+    content: public static bool IsNull<T0, T1>(this UnityEvent<T0, T1> unityEvent)
+    parameters:
+    - id: unityEvent
+      type: Global.UnityEvent{{T0},{T1}}
+      description: This event.
+    typeParameters:
+    - id: T0
+    - id: T1
+    return:
+      type: System.Boolean
+      description: The result of <code>unityEvent == null</code>
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNull(Of T0, T1)(unityEvent As UnityEvent(Of T0, T1)) As Boolean
+  overload: TirUtilities.Extensions.EventExtension.IsNull*
+  nameWithType.vb: EventExtension.IsNull(Of T0, T1)(UnityEvent(Of T0, T1))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TirUtilities.Extensions.EventExtension.IsNull(Of T0, T1)(UnityEvent(Of T0, T1))
+  name.vb: IsNull(Of T0, T1)(UnityEvent(Of T0, T1))
+- uid: TirUtilities.Extensions.EventExtension.NotNull``2(UnityEvent{``0,``1})
+  commentId: M:TirUtilities.Extensions.EventExtension.NotNull``2(UnityEvent{``0,``1})
+  id: NotNull``2(UnityEvent{``0,``1})
+  isExtensionMethod: true
+  parent: TirUtilities.Extensions.EventExtension
+  langs:
+  - csharp
+  - vb
+  name: NotNull<T0, T1>(UnityEvent<T0, T1>)
+  nameWithType: EventExtension.NotNull<T0, T1>(UnityEvent<T0, T1>)
+  fullName: TirUtilities.Extensions.EventExtension.NotNull<T0, T1>(UnityEvent<T0, T1>)
+  type: Method
+  source:
+    id: NotNull
+    path: ''
+    startLine: 4854
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Extensions
+  summary: "\nShorthand for a <code>unityEvent != null</code>.\n"
+  example: []
+  syntax:
+    content: public static bool NotNull<T0, T1>(this UnityEvent<T0, T1> unityEvent)
+    parameters:
+    - id: unityEvent
+      type: Global.UnityEvent{{T0},{T1}}
+      description: This event.
+    typeParameters:
+    - id: T0
+    - id: T1
+    return:
+      type: System.Boolean
+      description: The result of <code>unityEvent != null</code>
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function NotNull(Of T0, T1)(unityEvent As UnityEvent(Of T0, T1)) As Boolean
+  overload: TirUtilities.Extensions.EventExtension.NotNull*
+  nameWithType.vb: EventExtension.NotNull(Of T0, T1)(UnityEvent(Of T0, T1))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TirUtilities.Extensions.EventExtension.NotNull(Of T0, T1)(UnityEvent(Of T0, T1))
+  name.vb: NotNull(Of T0, T1)(UnityEvent(Of T0, T1))
 - uid: TirUtilities.Extensions.EventExtension.SafeInvoke(UnityAction)
   commentId: M:TirUtilities.Extensions.EventExtension.SafeInvoke(UnityAction)
   id: SafeInvoke(UnityAction)
@@ -324,7 +477,7 @@ items:
   source:
     id: SafeInvoke
     path: ''
-    startLine: 42355
+    startLine: 4865
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -365,7 +518,7 @@ items:
   source:
     id: IsNull
     path: ''
-    startLine: 42368
+    startLine: 4878
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -405,7 +558,7 @@ items:
   source:
     id: NotNull
     path: ''
-    startLine: 42375
+    startLine: 4885
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -445,7 +598,7 @@ items:
   source:
     id: SafeInvoke
     path: ''
-    startLine: 42388
+    startLine: 4898
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -495,7 +648,7 @@ items:
   source:
     id: IsNull
     path: ''
-    startLine: 42401
+    startLine: 4911
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -540,7 +693,7 @@ items:
   source:
     id: NotNull
     path: ''
-    startLine: 42408
+    startLine: 4918
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -570,6 +723,153 @@ items:
   - Shared
   fullName.vb: TirUtilities.Extensions.EventExtension.NotNull(Of T0)(UnityAction(Of T0))
   name.vb: NotNull(Of T0)(UnityAction(Of T0))
+- uid: TirUtilities.Extensions.EventExtension.SafeInvoke``2(UnityAction{``0,``1},``0,``1)
+  commentId: M:TirUtilities.Extensions.EventExtension.SafeInvoke``2(UnityAction{``0,``1},``0,``1)
+  id: SafeInvoke``2(UnityAction{``0,``1},``0,``1)
+  isExtensionMethod: true
+  parent: TirUtilities.Extensions.EventExtension
+  langs:
+  - csharp
+  - vb
+  name: SafeInvoke<T0, T1>(UnityAction<T0, T1>, T0, T1)
+  nameWithType: EventExtension.SafeInvoke<T0, T1>(UnityAction<T0, T1>, T0, T1)
+  fullName: TirUtilities.Extensions.EventExtension.SafeInvoke<T0, T1>(UnityAction<T0, T1>, T0, T1)
+  type: Method
+  source:
+    id: SafeInvoke
+    path: ''
+    startLine: 4933
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Extensions
+  summary: "\nInvokes the action if it has listeners.\n"
+  example: []
+  syntax:
+    content: public static bool SafeInvoke<T0, T1>(this UnityAction<T0, T1> action, T0 target0, T1 target1)
+    parameters:
+    - id: action
+      type: Global.UnityAction{{T0},{T1}}
+      description: This action
+    - id: target0
+      type: '{T0}'
+      description: Parameter 0
+    - id: target1
+      type: '{T1}'
+      description: Parameter 1
+    typeParameters:
+    - id: T0
+      description: The type of the action&apos;s first parameter.
+    - id: T1
+      description: The type of the action&apos;s second parameter.
+    return:
+      type: System.Boolean
+      description: True if the invocation was successful, otherwise false.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SafeInvoke(Of T0, T1)(action As UnityAction(Of T0, T1), target0 As T0, target1 As T1) As Boolean
+  overload: TirUtilities.Extensions.EventExtension.SafeInvoke*
+  nameWithType.vb: EventExtension.SafeInvoke(Of T0, T1)(UnityAction(Of T0, T1), T0, T1)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TirUtilities.Extensions.EventExtension.SafeInvoke(Of T0, T1)(UnityAction(Of T0, T1), T0, T1)
+  name.vb: SafeInvoke(Of T0, T1)(UnityAction(Of T0, T1), T0, T1)
+- uid: TirUtilities.Extensions.EventExtension.IsNull``2(UnityAction{``0,``1})
+  commentId: M:TirUtilities.Extensions.EventExtension.IsNull``2(UnityAction{``0,``1})
+  id: IsNull``2(UnityAction{``0,``1})
+  isExtensionMethod: true
+  parent: TirUtilities.Extensions.EventExtension
+  langs:
+  - csharp
+  - vb
+  name: IsNull<T0, T1>(UnityAction<T0, T1>)
+  nameWithType: EventExtension.IsNull<T0, T1>(UnityAction<T0, T1>)
+  fullName: TirUtilities.Extensions.EventExtension.IsNull<T0, T1>(UnityAction<T0, T1>)
+  type: Method
+  source:
+    id: IsNull
+    path: ''
+    startLine: 4946
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Extensions
+  summary: "\nShorthand for a <code>action == null</code>.\n"
+  example: []
+  syntax:
+    content: public static bool IsNull<T0, T1>(this UnityAction<T0, T1> action)
+    parameters:
+    - id: action
+      type: Global.UnityAction{{T0},{T1}}
+    typeParameters:
+    - id: T0
+    - id: T1
+    return:
+      type: System.Boolean
+      description: The result of <code>action == null</code>
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNull(Of T0, T1)(action As UnityAction(Of T0, T1)) As Boolean
+  overload: TirUtilities.Extensions.EventExtension.IsNull*
+  nameWithType.vb: EventExtension.IsNull(Of T0, T1)(UnityAction(Of T0, T1))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TirUtilities.Extensions.EventExtension.IsNull(Of T0, T1)(UnityAction(Of T0, T1))
+  name.vb: IsNull(Of T0, T1)(UnityAction(Of T0, T1))
+- uid: TirUtilities.Extensions.EventExtension.NotNull``2(UnityAction{``0,``1})
+  commentId: M:TirUtilities.Extensions.EventExtension.NotNull``2(UnityAction{``0,``1})
+  id: NotNull``2(UnityAction{``0,``1})
+  isExtensionMethod: true
+  parent: TirUtilities.Extensions.EventExtension
+  langs:
+  - csharp
+  - vb
+  name: NotNull<T0, T1>(UnityAction<T0, T1>)
+  nameWithType: EventExtension.NotNull<T0, T1>(UnityAction<T0, T1>)
+  fullName: TirUtilities.Extensions.EventExtension.NotNull<T0, T1>(UnityAction<T0, T1>)
+  type: Method
+  source:
+    id: NotNull
+    path: ''
+    startLine: 4953
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Extensions
+  summary: "\nShorthand for a <code>action != null</code>.\n"
+  example: []
+  syntax:
+    content: public static bool NotNull<T0, T1>(this UnityAction<T0, T1> action)
+    parameters:
+    - id: action
+      type: Global.UnityAction{{T0},{T1}}
+    typeParameters:
+    - id: T0
+    - id: T1
+    return:
+      type: System.Boolean
+      description: The result of <code>action != null</code>
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function NotNull(Of T0, T1)(action As UnityAction(Of T0, T1)) As Boolean
+  overload: TirUtilities.Extensions.EventExtension.NotNull*
+  nameWithType.vb: EventExtension.NotNull(Of T0, T1)(UnityAction(Of T0, T1))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TirUtilities.Extensions.EventExtension.NotNull(Of T0, T1)(UnityAction(Of T0, T1))
+  name.vb: NotNull(Of T0, T1)(UnityAction(Of T0, T1))
 references:
 - uid: TirUtilities.Extensions
   commentId: N:TirUtilities.Extensions
@@ -703,6 +1003,117 @@ references:
   name: T0
   nameWithType: T0
   fullName: T0
+- uid: Global.UnityEvent{{T0},{T1}}
+  commentId: '!:Global.UnityEvent{``0,``1}'
+  definition: Global.UnityEvent`2
+  name: UnityEvent<T0, T1>
+  nameWithType: UnityEvent<T0, T1>
+  fullName: UnityEvent<T0, T1>
+  nameWithType.vb: UnityEvent(Of T0, T1)
+  fullName.vb: UnityEvent(Of T0, T1)
+  name.vb: UnityEvent(Of T0, T1)
+  spec.csharp:
+  - uid: Global.UnityEvent`2
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityEvent`2
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{T1}'
+  commentId: '!:T1'
+  definition: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: Global.UnityEvent`2
+  isExternal: true
+  name: UnityEvent<, >
+  nameWithType: UnityEvent<, >
+  fullName: UnityEvent<, >
+  nameWithType.vb: UnityEvent(Of , )
+  fullName.vb: UnityEvent(Of , )
+  name.vb: UnityEvent(Of , )
+  spec.csharp:
+  - uid: Global.UnityEvent`2
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityEvent`2
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
 - uid: Global.UnityAction
   isExternal: true
   name: UnityAction
@@ -779,6 +1190,107 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityAction{{T0},{T1}}
+  commentId: '!:Global.UnityAction{``0,``1}'
+  definition: Global.UnityAction`2
+  name: UnityAction<T0, T1>
+  nameWithType: UnityAction<T0, T1>
+  fullName: UnityAction<T0, T1>
+  nameWithType.vb: UnityAction(Of T0, T1)
+  fullName.vb: UnityAction(Of T0, T1)
+  name.vb: UnityAction(Of T0, T1)
+  spec.csharp:
+  - uid: Global.UnityAction`2
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityAction`2
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityAction`2
+  isExternal: true
+  name: UnityAction<, >
+  nameWithType: UnityAction<, >
+  fullName: UnityAction<, >
+  nameWithType.vb: UnityAction(Of , )
+  fullName.vb: UnityAction(Of , )
+  name.vb: UnityAction(Of , )
+  spec.csharp:
+  - uid: Global.UnityAction`2
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityAction`2
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: ''
     nameWithType: ''
     fullName: ''

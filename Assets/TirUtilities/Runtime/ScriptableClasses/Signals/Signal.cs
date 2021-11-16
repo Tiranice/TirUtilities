@@ -1,31 +1,25 @@
-using TirUtilities.Extensions;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace TirUtilities.Signals
 {
+    using TirUtilities.Extensions;
     ///<!--
     /// Signal.cs
     /// 
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Software
     /// Created:  Mar 27, 2021
-    /// Updated:  Sep 22, 2021
+    /// Updated:  Oct 10, 2021
     /// -->
     /// <summary>
     /// Holds a UnityAction so that it can be referenced across scenes and assigned in the inspector.
     /// </summary>
-    [CreateAssetMenu(menuName = "Signals/Signal")]
-    public class Signal : SignalBase, ISignal
+    [CreateAssetMenu(menuName = "Signals/Signal", order = 0)]
+    public class Signal : SignalBase
     {
-        #region Actions
-
-        /// <summary> Invoked in <see cref="Emit"/>, calling receivers. </summary>
-        [SerializeField] protected UnityAction _OnEmit;
-
-        #endregion
-
         #region Public Methods
 
         /// <summary>

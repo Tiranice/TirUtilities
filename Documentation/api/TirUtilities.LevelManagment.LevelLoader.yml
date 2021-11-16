@@ -17,11 +17,11 @@ items:
   source:
     id: LevelLoader
     path: ''
-    startLine: 44004
+    startLine: 9079
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
-  summary: "\n\n"
+  summary: "\nLoads scenes asynchronously when passed <xref href=\"TirUtilities.LevelManagment.LevelData\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
   syntax:
     content: public static class LevelLoader
@@ -49,10 +49,12 @@ items:
   source:
     id: OnLoadComplete
     path: ''
-    startLine: 44008
+    startLine: 9091
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
+  summary: 'Invoked once all load operations have completed. '
+  example: []
   syntax:
     content: public static event Action OnLoadComplete
     return:
@@ -78,17 +80,21 @@ items:
   source:
     id: LoadLevelDataAsync
     path: ''
-    startLine: 44014
+    startLine: 9100
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
+  summary: 'Loads the scene in the given level data. '
+  example: []
   syntax:
     content: public static IEnumerator LoadLevelDataAsync(LevelData level)
     parameters:
     - id: level
       type: TirUtilities.LevelManagment.LevelData
+      description: The data of the level being loaded.
     return:
-      type: Global.IEnumerator
+      type: System.Collections.IEnumerator
+      description: 'AsyncOperation that loads the active scene. '
     content.vb: Public Shared Function LoadLevelDataAsync(level As LevelData) As IEnumerator
   overload: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync*
   modifiers.csharp:
@@ -98,6 +104,12 @@ items:
   - Public
   - Shared
 references:
+- uid: TirUtilities.LevelManagment.LevelData
+  commentId: T:TirUtilities.LevelManagment.LevelData
+  parent: TirUtilities.LevelManagment
+  name: LevelData
+  nameWithType: LevelData
+  fullName: TirUtilities.LevelManagment.LevelData
 - uid: TirUtilities.LevelManagment
   commentId: N:TirUtilities.LevelManagment
   name: TirUtilities.LevelManagment
@@ -128,15 +140,16 @@ references:
   name: LoadLevelDataAsync
   nameWithType: LevelLoader.LoadLevelDataAsync
   fullName: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync
-- uid: TirUtilities.LevelManagment.LevelData
-  commentId: T:TirUtilities.LevelManagment.LevelData
-  parent: TirUtilities.LevelManagment
-  name: LevelData
-  nameWithType: LevelData
-  fullName: TirUtilities.LevelManagment.LevelData
-- uid: Global.IEnumerator
-  commentId: '!:Global.IEnumerator'
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
   isExternal: true
   name: IEnumerator
   nameWithType: IEnumerator
-  fullName: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections

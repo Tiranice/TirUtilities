@@ -5,12 +5,12 @@ items:
   id: ListExtensions
   parent: TirUtilities.Extensions
   children:
-  - TirUtilities.Extensions.ListExtensions.IndexInRange``1(List{``0},System.Int32)
-  - TirUtilities.Extensions.ListExtensions.IsEmpty``1(List{``0})
-  - TirUtilities.Extensions.ListExtensions.IsNull``1(List{``0})
-  - TirUtilities.Extensions.ListExtensions.IsNullOrEmpty``1(List{``0})
-  - TirUtilities.Extensions.ListExtensions.NotEmpty``1(List{``0})
-  - TirUtilities.Extensions.ListExtensions.NotNull``1(List{``0})
+  - TirUtilities.Extensions.ListExtensions.IndexInRange``1(System.Collections.Generic.List{``0},System.Int32)
+  - TirUtilities.Extensions.ListExtensions.IsEmpty``1(System.Collections.Generic.List{``0})
+  - TirUtilities.Extensions.ListExtensions.IsNull``1(System.Collections.Generic.List{``0})
+  - TirUtilities.Extensions.ListExtensions.IsNullOrEmpty``1(System.Collections.Generic.List{``0})
+  - TirUtilities.Extensions.ListExtensions.NotEmpty``1(System.Collections.Generic.List{``0})
+  - TirUtilities.Extensions.ListExtensions.NotNull``1(System.Collections.Generic.List{``0})
   langs:
   - csharp
   - vb
@@ -21,7 +21,7 @@ items:
   source:
     id: ListExtensions
     path: ''
-    startLine: 42431
+    startLine: 4975
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -39,9 +39,9 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: TirUtilities.Extensions.ListExtensions.IsEmpty``1(List{``0})
-  commentId: M:TirUtilities.Extensions.ListExtensions.IsEmpty``1(List{``0})
-  id: IsEmpty``1(List{``0})
+- uid: TirUtilities.Extensions.ListExtensions.IsEmpty``1(System.Collections.Generic.List{``0})
+  commentId: M:TirUtilities.Extensions.ListExtensions.IsEmpty``1(System.Collections.Generic.List{``0})
+  id: IsEmpty``1(System.Collections.Generic.List{``0})
   isExtensionMethod: true
   parent: TirUtilities.Extensions.ListExtensions
   langs:
@@ -49,12 +49,12 @@ items:
   - vb
   name: IsEmpty<T>(List<T>)
   nameWithType: ListExtensions.IsEmpty<T>(List<T>)
-  fullName: TirUtilities.Extensions.ListExtensions.IsEmpty<T>(List<T>)
+  fullName: TirUtilities.Extensions.ListExtensions.IsEmpty<T>(System.Collections.Generic.List<T>)
   type: Method
   source:
     id: IsEmpty
     path: ''
-    startLine: 42437
+    startLine: 4981
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -64,7 +64,7 @@ items:
     content: public static bool IsEmpty<T>(this List<T> list)
     parameters:
     - id: list
-      type: Global.List{{T}}
+      type: System.Collections.Generic.List{{T}}
       description: ''
     typeParameters:
     - id: T
@@ -84,11 +84,11 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Extensions.ListExtensions.IsEmpty(Of T)(List(Of T))
+  fullName.vb: TirUtilities.Extensions.ListExtensions.IsEmpty(Of T)(System.Collections.Generic.List(Of T))
   name.vb: IsEmpty(Of T)(List(Of T))
-- uid: TirUtilities.Extensions.ListExtensions.NotEmpty``1(List{``0})
-  commentId: M:TirUtilities.Extensions.ListExtensions.NotEmpty``1(List{``0})
-  id: NotEmpty``1(List{``0})
+- uid: TirUtilities.Extensions.ListExtensions.NotEmpty``1(System.Collections.Generic.List{``0})
+  commentId: M:TirUtilities.Extensions.ListExtensions.NotEmpty``1(System.Collections.Generic.List{``0})
+  id: NotEmpty``1(System.Collections.Generic.List{``0})
   isExtensionMethod: true
   parent: TirUtilities.Extensions.ListExtensions
   langs:
@@ -96,12 +96,12 @@ items:
   - vb
   name: NotEmpty<T>(List<T>)
   nameWithType: ListExtensions.NotEmpty<T>(List<T>)
-  fullName: TirUtilities.Extensions.ListExtensions.NotEmpty<T>(List<T>)
+  fullName: TirUtilities.Extensions.ListExtensions.NotEmpty<T>(System.Collections.Generic.List<T>)
   type: Method
   source:
     id: NotEmpty
     path: ''
-    startLine: 42443
+    startLine: 4987
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -111,7 +111,7 @@ items:
     content: public static bool NotEmpty<T>(this List<T> list)
     parameters:
     - id: list
-      type: Global.List{{T}}
+      type: System.Collections.Generic.List{{T}}
       description: ''
     typeParameters:
     - id: T
@@ -131,11 +131,11 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Extensions.ListExtensions.NotEmpty(Of T)(List(Of T))
+  fullName.vb: TirUtilities.Extensions.ListExtensions.NotEmpty(Of T)(System.Collections.Generic.List(Of T))
   name.vb: NotEmpty(Of T)(List(Of T))
-- uid: TirUtilities.Extensions.ListExtensions.IsNull``1(List{``0})
-  commentId: M:TirUtilities.Extensions.ListExtensions.IsNull``1(List{``0})
-  id: IsNull``1(List{``0})
+- uid: TirUtilities.Extensions.ListExtensions.IsNull``1(System.Collections.Generic.List{``0})
+  commentId: M:TirUtilities.Extensions.ListExtensions.IsNull``1(System.Collections.Generic.List{``0})
+  id: IsNull``1(System.Collections.Generic.List{``0})
   isExtensionMethod: true
   parent: TirUtilities.Extensions.ListExtensions
   langs:
@@ -143,12 +143,12 @@ items:
   - vb
   name: IsNull<T>(List<T>)
   nameWithType: ListExtensions.IsNull<T>(List<T>)
-  fullName: TirUtilities.Extensions.ListExtensions.IsNull<T>(List<T>)
+  fullName: TirUtilities.Extensions.ListExtensions.IsNull<T>(System.Collections.Generic.List<T>)
   type: Method
   source:
     id: IsNull
     path: ''
-    startLine: 42449
+    startLine: 4993
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -158,7 +158,7 @@ items:
     content: public static bool IsNull<T>(this List<T> list)
     parameters:
     - id: list
-      type: Global.List{{T}}
+      type: System.Collections.Generic.List{{T}}
       description: ''
     typeParameters:
     - id: T
@@ -178,11 +178,11 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Extensions.ListExtensions.IsNull(Of T)(List(Of T))
+  fullName.vb: TirUtilities.Extensions.ListExtensions.IsNull(Of T)(System.Collections.Generic.List(Of T))
   name.vb: IsNull(Of T)(List(Of T))
-- uid: TirUtilities.Extensions.ListExtensions.NotNull``1(List{``0})
-  commentId: M:TirUtilities.Extensions.ListExtensions.NotNull``1(List{``0})
-  id: NotNull``1(List{``0})
+- uid: TirUtilities.Extensions.ListExtensions.NotNull``1(System.Collections.Generic.List{``0})
+  commentId: M:TirUtilities.Extensions.ListExtensions.NotNull``1(System.Collections.Generic.List{``0})
+  id: NotNull``1(System.Collections.Generic.List{``0})
   isExtensionMethod: true
   parent: TirUtilities.Extensions.ListExtensions
   langs:
@@ -190,12 +190,12 @@ items:
   - vb
   name: NotNull<T>(List<T>)
   nameWithType: ListExtensions.NotNull<T>(List<T>)
-  fullName: TirUtilities.Extensions.ListExtensions.NotNull<T>(List<T>)
+  fullName: TirUtilities.Extensions.ListExtensions.NotNull<T>(System.Collections.Generic.List<T>)
   type: Method
   source:
     id: NotNull
     path: ''
-    startLine: 42455
+    startLine: 4999
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -205,7 +205,7 @@ items:
     content: public static bool NotNull<T>(this List<T> list)
     parameters:
     - id: list
-      type: Global.List{{T}}
+      type: System.Collections.Generic.List{{T}}
       description: ''
     typeParameters:
     - id: T
@@ -225,11 +225,11 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Extensions.ListExtensions.NotNull(Of T)(List(Of T))
+  fullName.vb: TirUtilities.Extensions.ListExtensions.NotNull(Of T)(System.Collections.Generic.List(Of T))
   name.vb: NotNull(Of T)(List(Of T))
-- uid: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty``1(List{``0})
-  commentId: M:TirUtilities.Extensions.ListExtensions.IsNullOrEmpty``1(List{``0})
-  id: IsNullOrEmpty``1(List{``0})
+- uid: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty``1(System.Collections.Generic.List{``0})
+  commentId: M:TirUtilities.Extensions.ListExtensions.IsNullOrEmpty``1(System.Collections.Generic.List{``0})
+  id: IsNullOrEmpty``1(System.Collections.Generic.List{``0})
   isExtensionMethod: true
   parent: TirUtilities.Extensions.ListExtensions
   langs:
@@ -237,12 +237,12 @@ items:
   - vb
   name: IsNullOrEmpty<T>(List<T>)
   nameWithType: ListExtensions.IsNullOrEmpty<T>(List<T>)
-  fullName: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty<T>(List<T>)
+  fullName: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty<T>(System.Collections.Generic.List<T>)
   type: Method
   source:
     id: IsNullOrEmpty
     path: ''
-    startLine: 42461
+    startLine: 5005
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -252,7 +252,7 @@ items:
     content: public static bool IsNullOrEmpty<T>(this List<T> list)
     parameters:
     - id: list
-      type: Global.List{{T}}
+      type: System.Collections.Generic.List{{T}}
       description: ''
     typeParameters:
     - id: T
@@ -272,11 +272,11 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty(Of T)(List(Of T))
+  fullName.vb: TirUtilities.Extensions.ListExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.List(Of T))
   name.vb: IsNullOrEmpty(Of T)(List(Of T))
-- uid: TirUtilities.Extensions.ListExtensions.IndexInRange``1(List{``0},System.Int32)
-  commentId: M:TirUtilities.Extensions.ListExtensions.IndexInRange``1(List{``0},System.Int32)
-  id: IndexInRange``1(List{``0},System.Int32)
+- uid: TirUtilities.Extensions.ListExtensions.IndexInRange``1(System.Collections.Generic.List{``0},System.Int32)
+  commentId: M:TirUtilities.Extensions.ListExtensions.IndexInRange``1(System.Collections.Generic.List{``0},System.Int32)
+  id: IndexInRange``1(System.Collections.Generic.List{``0},System.Int32)
   isExtensionMethod: true
   parent: TirUtilities.Extensions.ListExtensions
   langs:
@@ -284,12 +284,12 @@ items:
   - vb
   name: IndexInRange<T>(List<T>, Int32)
   nameWithType: ListExtensions.IndexInRange<T>(List<T>, Int32)
-  fullName: TirUtilities.Extensions.ListExtensions.IndexInRange<T>(List<T>, System.Int32)
+  fullName: TirUtilities.Extensions.ListExtensions.IndexInRange<T>(System.Collections.Generic.List<T>, System.Int32)
   type: Method
   source:
     id: IndexInRange
     path: ''
-    startLine: 42468
+    startLine: 5012
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -299,7 +299,7 @@ items:
     content: public static bool IndexInRange<T>(this List<T> list, int i)
     parameters:
     - id: list
-      type: Global.List{{T}}
+      type: System.Collections.Generic.List{{T}}
       description: ''
     - id: i
       type: System.Int32
@@ -322,7 +322,7 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: TirUtilities.Extensions.ListExtensions.IndexInRange(Of T)(List(Of T), System.Int32)
+  fullName.vb: TirUtilities.Extensions.ListExtensions.IndexInRange(Of T)(System.Collections.Generic.List(Of T), System.Int32)
   name.vb: IndexInRange(Of T)(List(Of T), Int32)
 references:
 - uid: TirUtilities.Extensions
@@ -348,20 +348,21 @@ references:
   name: IsEmpty
   nameWithType: ListExtensions.IsEmpty
   fullName: TirUtilities.Extensions.ListExtensions.IsEmpty
-- uid: Global.List{{T}}
-  commentId: '!:Global.List{``0}'
-  definition: Global.List`1
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
   name: List<T>
   nameWithType: List<T>
-  fullName: List<T>
+  fullName: System.Collections.Generic.List<T>
   nameWithType.vb: List(Of T)
-  fullName.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
   name.vb: List(Of T)
   spec.csharp:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: <
     nameWithType: <
@@ -373,10 +374,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -394,44 +395,51 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: Global.List`1
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: List(Of )
-  name.vb: List(Of )
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
   spec.csharp:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
 - uid: TirUtilities.Extensions.ListExtensions.NotEmpty*
   commentId: Overload:TirUtilities.Extensions.ListExtensions.NotEmpty
   name: NotEmpty

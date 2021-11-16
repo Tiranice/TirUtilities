@@ -5,7 +5,8 @@ items:
   id: TirGizmos
   parent: TirUtilities.CustomGizmos
   children:
-  - TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single)
+  - TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single,System.Single)
+  - TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController,System.Single)
   langs:
   - csharp
   - vb
@@ -16,7 +17,7 @@ items:
   source:
     id: TirGizmos
     path: ''
-    startLine: 43830
+    startLine: 5509
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.CustomGizmos
@@ -34,21 +35,21 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single)
-  commentId: M:TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single)
-  id: DrawWireCapsule(CapsuleCollider,System.Single)
+- uid: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single,System.Single)
+  commentId: M:TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single,System.Single)
+  id: DrawWireCapsule(CapsuleCollider,System.Single,System.Single)
   parent: TirUtilities.CustomGizmos.TirGizmos
   langs:
   - csharp
   - vb
-  name: DrawWireCapsule(CapsuleCollider, Single)
-  nameWithType: TirGizmos.DrawWireCapsule(CapsuleCollider, Single)
-  fullName: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider, System.Single)
+  name: DrawWireCapsule(CapsuleCollider, Single, Single)
+  nameWithType: TirGizmos.DrawWireCapsule(CapsuleCollider, Single, Single)
+  fullName: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider, System.Single, System.Single)
   type: Method
   source:
     id: DrawWireCapsule
     path: ''
-    startLine: 43840
+    startLine: 5519
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.CustomGizmos
@@ -56,7 +57,7 @@ items:
   remarks: "\n<a href=\"https://www.wolframalpha.com/input/?i=capsule+Semialgebraic+description\">Semialgebraic Description</a>\n"
   example: []
   syntax:
-    content: public static void DrawWireCapsule(CapsuleCollider capsuleCollider, float sizeScaler = 1F)
+    content: public static void DrawWireCapsule(CapsuleCollider capsuleCollider, float sizeScaler = 1F, float lineThickness = 2F)
     parameters:
     - id: capsuleCollider
       type: Global.CapsuleCollider
@@ -64,7 +65,47 @@ items:
     - id: sizeScaler
       type: System.Single
       description: ''
-    content.vb: Public Shared Sub DrawWireCapsule(capsuleCollider As CapsuleCollider, sizeScaler As Single = 1F)
+    - id: lineThickness
+      type: System.Single
+    content.vb: Public Shared Sub DrawWireCapsule(capsuleCollider As CapsuleCollider, sizeScaler As Single = 1F, lineThickness As Single = 2F)
+  overload: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController,System.Single)
+  commentId: M:TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController,System.Single)
+  id: DrawWireCapsule(CharacterController,System.Single)
+  parent: TirUtilities.CustomGizmos.TirGizmos
+  langs:
+  - csharp
+  - vb
+  name: DrawWireCapsule(CharacterController, Single)
+  nameWithType: TirGizmos.DrawWireCapsule(CharacterController, Single)
+  fullName: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController, System.Single)
+  type: Method
+  source:
+    id: DrawWireCapsule
+    path: ''
+    startLine: 5714
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.CustomGizmos
+  summary: "\nDraws a wire gizmo in the shape of the provided capsule collider.\n"
+  remarks: "\n<a href=\"https://www.wolframalpha.com/input/?i=capsule+Semialgebraic+description\">Semialgebraic Description</a>\n"
+  example: []
+  syntax:
+    content: public static void DrawWireCapsule(CharacterController capsuleCollider, float sizeScaler = 1F)
+    parameters:
+    - id: capsuleCollider
+      type: Global.CharacterController
+      description: ''
+    - id: sizeScaler
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Sub DrawWireCapsule(capsuleCollider As CharacterController, sizeScaler As Single = 1F)
   overload: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule*
   modifiers.csharp:
   - public
@@ -109,3 +150,9 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: Global.CharacterController
+  commentId: '!:Global.CharacterController'
+  isExternal: true
+  name: CharacterController
+  nameWithType: CharacterController
+  fullName: CharacterController

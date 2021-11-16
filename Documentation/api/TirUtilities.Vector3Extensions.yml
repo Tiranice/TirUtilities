@@ -5,6 +5,7 @@ items:
   id: Vector3Extensions
   parent: TirUtilities
   children:
+  - TirUtilities.Vector3Extensions.Abs(Vector3)
   - TirUtilities.Vector3Extensions.Invariant(Vector3)
   - TirUtilities.Vector3Extensions.IsZero(Vector3)
   - TirUtilities.Vector3Extensions.NotZero(Vector3)
@@ -18,7 +19,7 @@ items:
   source:
     id: Vector3Extensions
     path: ''
-    startLine: 42538
+    startLine: 5110
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -51,7 +52,7 @@ items:
   source:
     id: IsZero
     path: ''
-    startLine: 42540
+    startLine: 5112
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -88,7 +89,7 @@ items:
   source:
     id: NotZero
     path: ''
-    startLine: 42541
+    startLine: 5113
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -125,7 +126,7 @@ items:
   source:
     id: Invariant
     path: ''
-    startLine: 42542
+    startLine: 5114
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -141,6 +142,43 @@ items:
 
       Public Shared Function Invariant(vector3 As Vector3) As Boolean
   overload: TirUtilities.Vector3Extensions.Invariant*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.Vector3Extensions.Abs(Vector3)
+  commentId: M:TirUtilities.Vector3Extensions.Abs(Vector3)
+  id: Abs(Vector3)
+  isExtensionMethod: true
+  parent: TirUtilities.Vector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: Abs(Vector3)
+  nameWithType: Vector3Extensions.Abs(Vector3)
+  fullName: TirUtilities.Vector3Extensions.Abs(Vector3)
+  type: Method
+  source:
+    id: Abs
+    path: ''
+    startLine: 5116
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  syntax:
+    content: public static Vector3 Abs(this Vector3 vec)
+    parameters:
+    - id: vec
+      type: Global.Vector3
+    return:
+      type: Global.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Abs(vec As Vector3) As Vector3
+  overload: TirUtilities.Vector3Extensions.Abs*
   modifiers.csharp:
   - public
   - static
@@ -193,3 +231,8 @@ references:
   name: Invariant
   nameWithType: Vector3Extensions.Invariant
   fullName: TirUtilities.Vector3Extensions.Invariant
+- uid: TirUtilities.Vector3Extensions.Abs*
+  commentId: Overload:TirUtilities.Vector3Extensions.Abs
+  name: Abs
+  nameWithType: Vector3Extensions.Abs
+  fullName: TirUtilities.Vector3Extensions.Abs

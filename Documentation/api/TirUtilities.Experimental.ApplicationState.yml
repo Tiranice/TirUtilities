@@ -9,6 +9,8 @@ items:
   - TirUtilities.Experimental.ApplicationState.Description
   - TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
   - TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
+  - TirUtilities.Experimental.ApplicationState.OnEnterState
+  - TirUtilities.Experimental.ApplicationState.OnExitState
   - TirUtilities.Experimental.ApplicationState.PausedTimeScale
   - TirUtilities.Experimental.ApplicationState.PlayingTimeScale
   - TirUtilities.Experimental.ApplicationState.UpdateState(TirUtilities.Experimental.ApplicationStateMachine)
@@ -22,19 +24,21 @@ items:
   source:
     id: ApplicationState
     path: ''
-    startLine: 43220
+    startLine: 7387
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
+  summary: "\nBase class for states that belong to the <xref href=\"TirUtilities.Experimental.ApplicationStateMachine\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
   syntax:
-    content: 'public class ApplicationState : ScriptableObject, IState<ApplicationStateMachine>'
+    content: 'public class ApplicationState : IState<ApplicationStateMachine>'
     content.vb: >-
       Public Class ApplicationState
-          Inherits ScriptableObject
           Implements IState(Of ApplicationStateMachine)
   inheritance:
   - System.Object
   derivedClasses:
+  - TirUtilities.Experimental.MenuState
   - TirUtilities.Experimental.PausedState
   - TirUtilities.Experimental.PlayingState
   - TirUtilities.Experimental.QuittingState
@@ -60,7 +64,7 @@ items:
   source:
     id: _description
     path: ''
-    startLine: 43228
+    startLine: 7395
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -89,7 +93,7 @@ items:
   source:
     id: Description
     path: ''
-    startLine: 43233
+    startLine: 7400
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -122,10 +126,12 @@ items:
   source:
     id: PausedTimeScale
     path: ''
-    startLine: 43239
+    startLine: 7407
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
+  summary: 'Small number 1.0e-13f. '
+  example: []
   syntax:
     content: protected static float PausedTimeScale { get; }
     parameters: []
@@ -155,10 +161,12 @@ items:
   source:
     id: PlayingTimeScale
     path: ''
-    startLine: 43240
+    startLine: 7410
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
+  summary: 'One 1.0f '
+  example: []
   syntax:
     content: protected static float PlayingTimeScale { get; }
     parameters: []
@@ -174,6 +182,60 @@ items:
   - Protected
   - Shared
   - ReadOnly
+- uid: TirUtilities.Experimental.ApplicationState.OnEnterState
+  commentId: E:TirUtilities.Experimental.ApplicationState.OnEnterState
+  id: OnEnterState
+  parent: TirUtilities.Experimental.ApplicationState
+  langs:
+  - csharp
+  - vb
+  name: OnEnterState
+  nameWithType: ApplicationState.OnEnterState
+  fullName: TirUtilities.Experimental.ApplicationState.OnEnterState
+  type: Event
+  source:
+    id: OnEnterState
+    path: ''
+    startLine: 7416
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Experimental
+  syntax:
+    content: public event Action OnEnterState
+    return:
+      type: System.Action
+    content.vb: Public Event OnEnterState As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TirUtilities.Experimental.ApplicationState.OnExitState
+  commentId: E:TirUtilities.Experimental.ApplicationState.OnExitState
+  id: OnExitState
+  parent: TirUtilities.Experimental.ApplicationState
+  langs:
+  - csharp
+  - vb
+  name: OnExitState
+  nameWithType: ApplicationState.OnExitState
+  fullName: TirUtilities.Experimental.ApplicationState.OnExitState
+  type: Event
+  source:
+    id: OnExitState
+    path: ''
+    startLine: 7417
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Experimental
+  syntax:
+    content: public event Action OnExitState
+    return:
+      type: System.Action
+    content.vb: Public Event OnExitState As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
   commentId: M:TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
   id: EnterState(TirUtilities.Experimental.ApplicationStateMachine)
@@ -188,15 +250,18 @@ items:
   source:
     id: EnterState
     path: ''
-    startLine: 43246
+    startLine: 7427
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
+  summary: "\nLogic that should run when the state is entered.\n"
+  example: []
   syntax:
     content: public virtual void EnterState(ApplicationStateMachine stateMachine)
     parameters:
     - id: stateMachine
       type: TirUtilities.Experimental.ApplicationStateMachine
+      description: ''
     content.vb: Public Overridable Sub EnterState(stateMachine As ApplicationStateMachine)
   overload: TirUtilities.Experimental.ApplicationState.EnterState*
   implements:
@@ -221,15 +286,18 @@ items:
   source:
     id: ExitState
     path: ''
-    startLine: 43247
+    startLine: 7433
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
+  summary: "\nLogic that should run when the state is exited.\n"
+  example: []
   syntax:
     content: public virtual void ExitState(ApplicationStateMachine stateMachine)
     parameters:
     - id: stateMachine
       type: TirUtilities.Experimental.ApplicationStateMachine
+      description: ''
     content.vb: Public Overridable Sub ExitState(stateMachine As ApplicationStateMachine)
   overload: TirUtilities.Experimental.ApplicationState.ExitState*
   implements:
@@ -254,15 +322,18 @@ items:
   source:
     id: UpdateState
     path: ''
-    startLine: 43248
+    startLine: 7440
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
+  summary: "\nLogic that should run when the state machine needs to update data maintained by the\ncurrent state.\n"
+  example: []
   syntax:
     content: public virtual void UpdateState(ApplicationStateMachine stateMachine)
     parameters:
     - id: stateMachine
       type: TirUtilities.Experimental.ApplicationStateMachine
+      description: ''
     content.vb: Public Overridable Sub UpdateState(stateMachine As ApplicationStateMachine)
   overload: TirUtilities.Experimental.ApplicationState.UpdateState*
   implements:
@@ -274,6 +345,12 @@ items:
   - Public
   - Overridable
 references:
+- uid: TirUtilities.Experimental.ApplicationStateMachine
+  commentId: T:TirUtilities.Experimental.ApplicationStateMachine
+  parent: TirUtilities.Experimental
+  name: ApplicationStateMachine
+  nameWithType: ApplicationStateMachine
+  fullName: TirUtilities.Experimental.ApplicationStateMachine
 - uid: TirUtilities.Experimental
   commentId: N:TirUtilities.Experimental
   name: TirUtilities.Experimental
@@ -402,6 +479,13 @@ references:
   name: PlayingTimeScale
   nameWithType: ApplicationState.PlayingTimeScale
   fullName: TirUtilities.Experimental.ApplicationState.PlayingTimeScale
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
 - uid: TirUtilities.Experimental.ApplicationState.EnterState*
   commentId: Overload:TirUtilities.Experimental.ApplicationState.EnterState
   name: EnterState
@@ -446,12 +530,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: TirUtilities.Experimental.ApplicationStateMachine
-  commentId: T:TirUtilities.Experimental.ApplicationStateMachine
-  parent: TirUtilities.Experimental
-  name: ApplicationStateMachine
-  nameWithType: ApplicationStateMachine
-  fullName: TirUtilities.Experimental.ApplicationStateMachine
 - uid: TirUtilities.IState`1.EnterState(`0)
   commentId: M:TirUtilities.IState`1.EnterState(`0)
   name: EnterState(T)

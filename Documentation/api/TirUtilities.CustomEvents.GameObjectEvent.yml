@@ -15,7 +15,7 @@ items:
   source:
     id: GameObjectEvent
     path: ''
-    startLine: 43524
+    startLine: 8728
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.CustomEvents

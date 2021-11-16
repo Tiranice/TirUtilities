@@ -5,8 +5,8 @@ items:
   id: ObjectExstentions
   parent: TirUtilities.Extensions
   children:
-  - TirUtilities.Extensions.ObjectExstentions.IsNull(Object)
-  - TirUtilities.Extensions.ObjectExstentions.NotNull(Object)
+  - TirUtilities.Extensions.ObjectExstentions.IsNull(System.Object)
+  - TirUtilities.Extensions.ObjectExstentions.NotNull(System.Object)
   langs:
   - csharp
   - vb
@@ -17,7 +17,7 @@ items:
   source:
     id: ObjectExstentions
     path: ''
-    startLine: 42488
+    startLine: 5032
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
@@ -35,9 +35,9 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: TirUtilities.Extensions.ObjectExstentions.IsNull(Object)
-  commentId: M:TirUtilities.Extensions.ObjectExstentions.IsNull(Object)
-  id: IsNull(Object)
+- uid: TirUtilities.Extensions.ObjectExstentions.IsNull(System.Object)
+  commentId: M:TirUtilities.Extensions.ObjectExstentions.IsNull(System.Object)
+  id: IsNull(System.Object)
   isExtensionMethod: true
   parent: TirUtilities.Extensions.ObjectExstentions
   langs:
@@ -45,20 +45,20 @@ items:
   - vb
   name: IsNull(Object)
   nameWithType: ObjectExstentions.IsNull(Object)
-  fullName: TirUtilities.Extensions.ObjectExstentions.IsNull(Object)
+  fullName: TirUtilities.Extensions.ObjectExstentions.IsNull(System.Object)
   type: Method
   source:
     id: IsNull
     path: ''
-    startLine: 42490
+    startLine: 5034
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
   syntax:
-    content: public static bool IsNull(this Object self)
+    content: public static bool IsNull(this object self)
     parameters:
     - id: self
-      type: Global.Object
+      type: System.Object
     return:
       type: System.Boolean
     content.vb: >-
@@ -72,9 +72,9 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: TirUtilities.Extensions.ObjectExstentions.NotNull(Object)
-  commentId: M:TirUtilities.Extensions.ObjectExstentions.NotNull(Object)
-  id: NotNull(Object)
+- uid: TirUtilities.Extensions.ObjectExstentions.NotNull(System.Object)
+  commentId: M:TirUtilities.Extensions.ObjectExstentions.NotNull(System.Object)
+  id: NotNull(System.Object)
   isExtensionMethod: true
   parent: TirUtilities.Extensions.ObjectExstentions
   langs:
@@ -82,20 +82,20 @@ items:
   - vb
   name: NotNull(Object)
   nameWithType: ObjectExstentions.NotNull(Object)
-  fullName: TirUtilities.Extensions.ObjectExstentions.NotNull(Object)
+  fullName: TirUtilities.Extensions.ObjectExstentions.NotNull(System.Object)
   type: Method
   source:
     id: NotNull
     path: ''
-    startLine: 42491
+    startLine: 5035
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Extensions
   syntax:
-    content: public static bool NotNull(this Object self)
+    content: public static bool NotNull(this object self)
     parameters:
     - id: self
-      type: Global.Object
+      type: System.Object
     return:
       type: System.Boolean
     content.vb: >-
@@ -133,11 +133,6 @@ references:
   name: IsNull
   nameWithType: ObjectExstentions.IsNull
   fullName: TirUtilities.Extensions.ObjectExstentions.IsNull
-- uid: Global.Object
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: Object
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System

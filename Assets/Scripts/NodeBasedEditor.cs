@@ -1,6 +1,7 @@
+#if UNITY_EDITOR
 using System.Collections.Generic;
 using TirUtilities.Extensions;
-using UnityEditor;
+using UnityEditor; 
 using UnityEngine;
 
 using static TirUtilities.TirLogger;
@@ -205,3 +206,5 @@ public class NodeBasedEditor : EditorWindow
 
     #endregion
 }
+
+#endif

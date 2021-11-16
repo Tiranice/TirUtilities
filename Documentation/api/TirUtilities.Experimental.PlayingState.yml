@@ -4,7 +4,8 @@ items:
   commentId: T:TirUtilities.Experimental.PlayingState
   id: PlayingState
   parent: TirUtilities.Experimental
-  children: []
+  children:
+  - TirUtilities.Experimental.PlayingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
   langs:
   - csharp
   - vb
@@ -15,14 +16,16 @@ items:
   source:
     id: PlayingState
     path: ''
-    startLine: 43253
+    startLine: 7765
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
+  summary: "\nSets the time scale to <xref href=\"TirUtilities.Experimental.ApplicationState.PausedTimeScale\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
   syntax:
-    content: 'public class PlayingState : ApplicationState, IState<ApplicationStateMachine>'
+    content: 'public sealed class PlayingState : ApplicationState, IState<ApplicationStateMachine>'
     content.vb: >-
-      Public Class PlayingState
+      Public NotInheritable Class PlayingState
           Inherits ApplicationState
           Implements IState(Of ApplicationStateMachine)
   inheritance:
@@ -35,16 +38,57 @@ items:
   - TirUtilities.Experimental.ApplicationState.Description
   - TirUtilities.Experimental.ApplicationState.PausedTimeScale
   - TirUtilities.Experimental.ApplicationState.PlayingTimeScale
-  - TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  - TirUtilities.Experimental.ApplicationState.OnEnterState
+  - TirUtilities.Experimental.ApplicationState.OnExitState
   - TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
   - TirUtilities.Experimental.ApplicationState.UpdateState(TirUtilities.Experimental.ApplicationStateMachine)
   modifiers.csharp:
   - public
+  - sealed
   - class
   modifiers.vb:
   - Public
+  - NotInheritable
   - Class
+- uid: TirUtilities.Experimental.PlayingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  commentId: M:TirUtilities.Experimental.PlayingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  id: EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  parent: TirUtilities.Experimental.PlayingState
+  langs:
+  - csharp
+  - vb
+  name: EnterState(ApplicationStateMachine)
+  nameWithType: PlayingState.EnterState(ApplicationStateMachine)
+  fullName: TirUtilities.Experimental.PlayingState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  type: Method
+  source:
+    id: EnterState
+    path: ''
+    startLine: 7767
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.Experimental
+  syntax:
+    content: public override void EnterState(ApplicationStateMachine stateMachine)
+    parameters:
+    - id: stateMachine
+      type: TirUtilities.Experimental.ApplicationStateMachine
+    content.vb: Public Overrides Sub EnterState(stateMachine As ApplicationStateMachine)
+  overridden: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  overload: TirUtilities.Experimental.PlayingState.EnterState*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 references:
+- uid: TirUtilities.Experimental.ApplicationState.PausedTimeScale
+  commentId: P:TirUtilities.Experimental.ApplicationState.PausedTimeScale
+  parent: TirUtilities.Experimental.ApplicationState
+  name: PausedTimeScale
+  nameWithType: ApplicationState.PausedTimeScale
+  fullName: TirUtilities.Experimental.ApplicationState.PausedTimeScale
 - uid: TirUtilities.Experimental
   commentId: N:TirUtilities.Experimental
   name: TirUtilities.Experimental
@@ -115,54 +159,24 @@ references:
   name: Description
   nameWithType: ApplicationState.Description
   fullName: TirUtilities.Experimental.ApplicationState.Description
-- uid: TirUtilities.Experimental.ApplicationState.PausedTimeScale
-  commentId: P:TirUtilities.Experimental.ApplicationState.PausedTimeScale
-  parent: TirUtilities.Experimental.ApplicationState
-  name: PausedTimeScale
-  nameWithType: ApplicationState.PausedTimeScale
-  fullName: TirUtilities.Experimental.ApplicationState.PausedTimeScale
 - uid: TirUtilities.Experimental.ApplicationState.PlayingTimeScale
   commentId: P:TirUtilities.Experimental.ApplicationState.PlayingTimeScale
   parent: TirUtilities.Experimental.ApplicationState
   name: PlayingTimeScale
   nameWithType: ApplicationState.PlayingTimeScale
   fullName: TirUtilities.Experimental.ApplicationState.PlayingTimeScale
-- uid: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
-  commentId: M:TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+- uid: TirUtilities.Experimental.ApplicationState.OnEnterState
+  commentId: E:TirUtilities.Experimental.ApplicationState.OnEnterState
   parent: TirUtilities.Experimental.ApplicationState
-  name: EnterState(ApplicationStateMachine)
-  nameWithType: ApplicationState.EnterState(ApplicationStateMachine)
-  fullName: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
-  spec.csharp:
-  - uid: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
-    name: EnterState
-    nameWithType: ApplicationState.EnterState
-    fullName: TirUtilities.Experimental.ApplicationState.EnterState
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: TirUtilities.Experimental.ApplicationStateMachine
-    name: ApplicationStateMachine
-    nameWithType: ApplicationStateMachine
-    fullName: TirUtilities.Experimental.ApplicationStateMachine
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
-    name: EnterState
-    nameWithType: ApplicationState.EnterState
-    fullName: TirUtilities.Experimental.ApplicationState.EnterState
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: TirUtilities.Experimental.ApplicationStateMachine
-    name: ApplicationStateMachine
-    nameWithType: ApplicationStateMachine
-    fullName: TirUtilities.Experimental.ApplicationStateMachine
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: OnEnterState
+  nameWithType: ApplicationState.OnEnterState
+  fullName: TirUtilities.Experimental.ApplicationState.OnEnterState
+- uid: TirUtilities.Experimental.ApplicationState.OnExitState
+  commentId: E:TirUtilities.Experimental.ApplicationState.OnExitState
+  parent: TirUtilities.Experimental.ApplicationState
+  name: OnExitState
+  nameWithType: ApplicationState.OnExitState
+  fullName: TirUtilities.Experimental.ApplicationState.OnExitState
 - uid: TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
   commentId: M:TirUtilities.Experimental.ApplicationState.ExitState(TirUtilities.Experimental.ApplicationStateMachine)
   parent: TirUtilities.Experimental.ApplicationState
@@ -282,3 +296,50 @@ references:
   name: TirUtilities
   nameWithType: TirUtilities
   fullName: TirUtilities
+- uid: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  commentId: M:TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  parent: TirUtilities.Experimental.ApplicationState
+  name: EnterState(ApplicationStateMachine)
+  nameWithType: ApplicationState.EnterState(ApplicationStateMachine)
+  fullName: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+  spec.csharp:
+  - uid: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+    name: EnterState
+    nameWithType: ApplicationState.EnterState
+    fullName: TirUtilities.Experimental.ApplicationState.EnterState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TirUtilities.Experimental.ApplicationStateMachine
+    name: ApplicationStateMachine
+    nameWithType: ApplicationStateMachine
+    fullName: TirUtilities.Experimental.ApplicationStateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TirUtilities.Experimental.ApplicationState.EnterState(TirUtilities.Experimental.ApplicationStateMachine)
+    name: EnterState
+    nameWithType: ApplicationState.EnterState
+    fullName: TirUtilities.Experimental.ApplicationState.EnterState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TirUtilities.Experimental.ApplicationStateMachine
+    name: ApplicationStateMachine
+    nameWithType: ApplicationStateMachine
+    fullName: TirUtilities.Experimental.ApplicationStateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TirUtilities.Experimental.PlayingState.EnterState*
+  commentId: Overload:TirUtilities.Experimental.PlayingState.EnterState
+  name: EnterState
+  nameWithType: PlayingState.EnterState
+  fullName: TirUtilities.Experimental.PlayingState.EnterState
+- uid: TirUtilities.Experimental.ApplicationStateMachine
+  commentId: T:TirUtilities.Experimental.ApplicationStateMachine
+  parent: TirUtilities.Experimental
+  name: ApplicationStateMachine
+  nameWithType: ApplicationStateMachine
+  fullName: TirUtilities.Experimental.ApplicationStateMachine

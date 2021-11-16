@@ -9,6 +9,7 @@ namespace TirUtilities.CustomEvents
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Software
     /// Created:  Mar. 31, 2021
     /// Updated:  Mar. 31, 2021
     /// -->

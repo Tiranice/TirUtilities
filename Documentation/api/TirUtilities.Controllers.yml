@@ -6,7 +6,6 @@ items:
   children:
   - TirUtilities.Controllers.CameraLookEvents
   - TirUtilities.Controllers.MouseUtility
-  - TirUtilities.Controllers.ThirdPersonController
   langs:
   - csharp
   - vb
@@ -17,11 +16,6 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: TirUtilities.Controllers.ThirdPersonController
-  commentId: T:TirUtilities.Controllers.ThirdPersonController
-  name: ThirdPersonController
-  nameWithType: ThirdPersonController
-  fullName: TirUtilities.Controllers.ThirdPersonController
 - uid: TirUtilities.Controllers.CameraLookEvents
   commentId: T:TirUtilities.Controllers.CameraLookEvents
   name: CameraLookEvents

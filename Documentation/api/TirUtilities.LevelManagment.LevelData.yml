@@ -5,9 +5,9 @@ items:
   id: LevelData
   parent: TirUtilities.LevelManagment
   children:
-  - TirUtilities.LevelManagment.LevelData.#ctor(System.String,List{System.String})
+  - TirUtilities.LevelManagment.LevelData.#ctor(System.String,System.Collections.Generic.List{System.String})
   - TirUtilities.LevelManagment.LevelData.ActiveScene
-  - TirUtilities.LevelManagment.LevelData.AddativeScenes
+  - TirUtilities.LevelManagment.LevelData.AdditiveScenes
   langs:
   - csharp
   - vb
@@ -18,7 +18,7 @@ items:
   source:
     id: LevelData
     path: ''
-    startLine: 43957
+    startLine: 9032
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
@@ -43,21 +43,21 @@ items:
   modifiers.vb:
   - Public
   - Structure
-- uid: TirUtilities.LevelManagment.LevelData.#ctor(System.String,List{System.String})
-  commentId: M:TirUtilities.LevelManagment.LevelData.#ctor(System.String,List{System.String})
-  id: '#ctor(System.String,List{System.String})'
+- uid: TirUtilities.LevelManagment.LevelData.#ctor(System.String,System.Collections.Generic.List{System.String})
+  commentId: M:TirUtilities.LevelManagment.LevelData.#ctor(System.String,System.Collections.Generic.List{System.String})
+  id: '#ctor(System.String,System.Collections.Generic.List{System.String})'
   parent: TirUtilities.LevelManagment.LevelData
   langs:
   - csharp
   - vb
   name: LevelData(String, List<String>)
   nameWithType: LevelData.LevelData(String, List<String>)
-  fullName: TirUtilities.LevelManagment.LevelData.LevelData(System.String, List<System.String>)
+  fullName: TirUtilities.LevelManagment.LevelData.LevelData(System.String, System.Collections.Generic.List<System.String>)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 43969
+    startLine: 9044
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
@@ -67,7 +67,7 @@ items:
     - id: activeScene
       type: System.String
     - id: addativeScenes
-      type: Global.List{System.String}
+      type: System.Collections.Generic.List{System.String}
     content.vb: Public Sub New(activeScene As String, addativeScenes As List(Of String) = Nothing)
   overload: TirUtilities.LevelManagment.LevelData.#ctor*
   nameWithType.vb: LevelData.LevelData(String, List(Of String))
@@ -75,7 +75,7 @@ items:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: TirUtilities.LevelManagment.LevelData.LevelData(System.String, List(Of System.String))
+  fullName.vb: TirUtilities.LevelManagment.LevelData.LevelData(System.String, System.Collections.Generic.List(Of System.String))
   name.vb: LevelData(String, List(Of String))
 - uid: TirUtilities.LevelManagment.LevelData.ActiveScene
   commentId: P:TirUtilities.LevelManagment.LevelData.ActiveScene
@@ -91,12 +91,12 @@ items:
   source:
     id: ActiveScene
     path: ''
-    startLine: 43979
+    startLine: 9054
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
   syntax:
-    content: public string ActiveScene { get; }
+    content: public readonly string ActiveScene { get; }
     parameters: []
     return:
       type: System.String
@@ -104,37 +104,39 @@ items:
   overload: TirUtilities.LevelManagment.LevelData.ActiveScene*
   modifiers.csharp:
   - public
+  - readonly
   - get
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: TirUtilities.LevelManagment.LevelData.AddativeScenes
-  commentId: P:TirUtilities.LevelManagment.LevelData.AddativeScenes
-  id: AddativeScenes
+- uid: TirUtilities.LevelManagment.LevelData.AdditiveScenes
+  commentId: P:TirUtilities.LevelManagment.LevelData.AdditiveScenes
+  id: AdditiveScenes
   parent: TirUtilities.LevelManagment.LevelData
   langs:
   - csharp
   - vb
-  name: AddativeScenes
-  nameWithType: LevelData.AddativeScenes
-  fullName: TirUtilities.LevelManagment.LevelData.AddativeScenes
+  name: AdditiveScenes
+  nameWithType: LevelData.AdditiveScenes
+  fullName: TirUtilities.LevelManagment.LevelData.AdditiveScenes
   type: Property
   source:
-    id: AddativeScenes
+    id: AdditiveScenes
     path: ''
-    startLine: 43980
+    startLine: 9055
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
   syntax:
-    content: public List<string> AddativeScenes { get; }
+    content: public readonly List<string> AdditiveScenes { get; }
     parameters: []
     return:
-      type: Global.List{System.String}
-    content.vb: Public ReadOnly Property AddativeScenes As List(Of String)
-  overload: TirUtilities.LevelManagment.LevelData.AddativeScenes*
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public ReadOnly Property AdditiveScenes As List(Of String)
+  overload: TirUtilities.LevelManagment.LevelData.AdditiveScenes*
   modifiers.csharp:
   - public
+  - readonly
   - get
   modifiers.vb:
   - Public
@@ -157,20 +159,21 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Global.List{System.String}
-  commentId: '!:Global.List{System.String}'
-  definition: Global.List`1
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
   name: List<String>
   nameWithType: List<String>
-  fullName: List<System.String>
+  fullName: System.Collections.Generic.List<System.String>
   nameWithType.vb: List(Of String)
-  fullName.vb: List(Of System.String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
   name.vb: List(Of String)
   spec.csharp:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: <
     nameWithType: <
@@ -184,10 +187,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -206,51 +209,58 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Global.List`1
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: List(Of )
-  name.vb: List(Of )
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
   spec.csharp:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Global.List`1
+  - uid: System.Collections.Generic.List`1
     name: List
     nameWithType: List
-    fullName: List
+    fullName: System.Collections.Generic.List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
 - uid: TirUtilities.LevelManagment.LevelData.ActiveScene*
   commentId: Overload:TirUtilities.LevelManagment.LevelData.ActiveScene
   name: ActiveScene
   nameWithType: LevelData.ActiveScene
   fullName: TirUtilities.LevelManagment.LevelData.ActiveScene
-- uid: TirUtilities.LevelManagment.LevelData.AddativeScenes*
-  commentId: Overload:TirUtilities.LevelManagment.LevelData.AddativeScenes
-  name: AddativeScenes
-  nameWithType: LevelData.AddativeScenes
-  fullName: TirUtilities.LevelManagment.LevelData.AddativeScenes
+- uid: TirUtilities.LevelManagment.LevelData.AdditiveScenes*
+  commentId: Overload:TirUtilities.LevelManagment.LevelData.AdditiveScenes
+  name: AdditiveScenes
+  nameWithType: LevelData.AdditiveScenes
+  fullName: TirUtilities.LevelManagment.LevelData.AdditiveScenes

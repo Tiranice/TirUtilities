@@ -1,4 +1,5 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
@@ -11,14 +12,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed:  Any bug fixes.
 - Security:  Invite users to upgrade in case of vulnerabilities.
 
-## [Unreleased]
+## [Trunk]
 
 ### Added
 
-- Mouse Utility now has layer mask option for some 2D methods.
+- Script templates for PropertyAttributes and PropertyDrawers.
+- ShowIf Attribute
+  - Decorate a field with <code>[ShowIf(string targetName, object targetValue)]</code>.  This field will only be drawn in the inspector if the given target equals the target value.
+- <code>ApplicationStateMachine</code> has additional documentation.
+- <code>RouterButton</code> MonoBehaviour
+  - Provides a quick way to route to various common actions.
+    - Load a level by calling <code>LevelLoadSignal.Emit</code>
+    - Quit or toggle the game's paused state with an <code>ApplicationStateMachine</code>
+      - <code>ApplicationStateMachine.QuitGame</code>
+      - <code>ApplicationStateMachine.TogglePaused</code>
+    - Change the active menu page with <code>MenuStateMachine.TransitionTo(MenuState)</code>
 
-### Changed
+### Fixed
 
-- Level System now fades the loading screen before the load operation starts.
-
-## [0.0.0-alpha.5] — Next release
+- Experimental build tool now correctly saves its editor prefs.

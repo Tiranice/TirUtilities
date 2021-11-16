@@ -17,7 +17,7 @@ namespace TirUtilities.Editor.Prefs
     /// <remarks>
     /// Based on the EditorPrefString class in the source of RainbowFolders.
     /// </remarks>
-    internal class EditorPrefsString : EditorPrefsItem<string>
+    public class EditorPrefsString : EditorPrefsItem<string>
     {
         public EditorPrefsString(string key, GUIContent label, string defaultValue)
             : base(key, label, defaultValue) { }

@@ -1,11 +1,20 @@
-using UnityEngine;
 using UnityEngine.Events;
 
 namespace TirUtilities.CustomEvents
 {
+    ///<!--
+    /// BoolEvent.cs
+    /// 
+    /// Project:  TirUtilities
+    ///        
+    /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Software
+    /// Created:  Oct 10, 2021
+    /// Updated:  Oct 10, 2021
+    /// -->
     /// <summary>
-    /// Passes a bool and a GameObject to its listeners.
+    /// A Unity Event that passes a bool to its listeners.
     /// </summary>
     [System.Serializable]
-    public class BoolEvent : UnityEvent<bool, GameObject> { }
+    public class BoolEvent : UnityEvent<bool> { }
 }

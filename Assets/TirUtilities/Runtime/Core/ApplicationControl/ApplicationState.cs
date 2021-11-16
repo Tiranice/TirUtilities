@@ -8,8 +8,8 @@ namespace TirUtilities.Experimental
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
-    /// Created:  June 15, 2021
-    /// Updated:  July 09, 2021
+    /// Created:  Jun 15, 2021
+    /// Updated:  Oct 05, 2021
     /// -->
     /// <summary>
     /// Base class for states that belong to the <see cref="ApplicationStateMachine"/>.
@@ -41,19 +41,26 @@ namespace TirUtilities.Experimental
 
         #endregion
 
+        #region Events & Signals
+
+        public event System.Action OnEnterState;
+        public event System.Action OnExitState;
+
+        #endregion
+
         #region State Methods
 
         /// <summary>
         /// Logic that should run when the state is entered.
         /// </summary>
         /// <param name="stateMachine"></param>
-        public virtual void EnterState(ApplicationStateMachine stateMachine) { }
+        public virtual void EnterState(ApplicationStateMachine stateMachine) { OnEnterState?.Invoke(); }
 
         /// <summary>
         /// Logic that should run when the state is exited.
         /// </summary>
         /// <param name="stateMachine"></param>
-        public virtual void ExitState(ApplicationStateMachine stateMachine) { }
+        public virtual void ExitState(ApplicationStateMachine stateMachine) { OnExitState?.Invoke(); }
 
         /// <summary>
         /// Logic that should run when the state machine needs to update data maintained by the

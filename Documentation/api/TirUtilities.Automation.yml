@@ -5,6 +5,7 @@ items:
   id: TirUtilities.Automation
   children:
   - TirUtilities.Automation.AutoRotate
+  - TirUtilities.Automation.AutoRotate.Axis
   langs:
   - csharp
   - vb
@@ -20,3 +21,14 @@ references:
   name: AutoRotate
   nameWithType: AutoRotate
   fullName: TirUtilities.Automation.AutoRotate
+- uid: TirUtilities.Automation.AutoRotate.Axis
+  commentId: T:TirUtilities.Automation.AutoRotate.Axis
+  parent: TirUtilities.Automation
+  name: AutoRotate.Axis
+  nameWithType: AutoRotate.Axis
+  fullName: TirUtilities.Automation.AutoRotate.Axis
+- uid: TirUtilities.Automation
+  commentId: N:TirUtilities.Automation
+  name: TirUtilities.Automation
+  nameWithType: TirUtilities.Automation
+  fullName: TirUtilities.Automation

@@ -24,6 +24,7 @@ namespace TirUtilities
         public static void LogCall(string className, string methodName) =>
             Debug.Log($"Call to {className}.{methodName}");
 
+#if !PLATFORM_WEBGL
         /// <summary> Logs the name of the class and the method to the console. </summary>
         public static void LogCall()
         {
@@ -34,5 +35,6 @@ namespace TirUtilities
 
             Debug.Log($"Call to {className}.{methodName}");
         }
+#endif
     }
 }
