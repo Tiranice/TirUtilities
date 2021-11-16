@@ -75,7 +75,7 @@ crashlytics-build.properties
 /_site/
 /[Dd]ocumentation/api/
 /[Dd]ocumentation/index.*
-/[Aa]ssets/**/obj*
+[Aa]ssets/**/obj*
 
 # Plugins
 
@@ -97,3 +97,5 @@ crashlytics-build.properties
 # Plastic SCM
 /.plastic
 /ignore.conf
+
+# Documentation
