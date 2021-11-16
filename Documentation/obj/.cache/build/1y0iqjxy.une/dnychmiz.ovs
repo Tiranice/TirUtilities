@@ -1,1 +1,0 @@
-{"api/TirUtilities.Signals.Signal.yml":[{"File":"api/TirUtilities.Signals.Signal.yml","LogLevel":"warning","Message":"1 invalid cross reference(s) \"[fuck docfx](xref:Signal.Emit)\".","Phase":"BuildCommand.BuildCore.Build Document.LinkPhaseHandlerWithIncremental.Apply Templates","Code":"UidNotFound"}]}
