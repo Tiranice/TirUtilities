@@ -20,6 +20,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ShowIf Attribute
   - Decorate a field with <code>[ShowIf(string targetName, object targetValue)]</code>.  This field will only be drawn in the inspector if the given target equals the target value.
 - <code>ApplicationStateMachine</code> has additional documentation.
+- <code>RouterButton</code> MonoBehaviour
+  - Provides a quick way to route to various common actions.
+    - Load a level by calling <code>LevelLoadSignal.Emit</code>
+    - Quit or toggle the game's paused state with an <code>ApplicationStateMachine</code>
+      - <code>ApplicationStateMachine.QuitGame</code>
+      - <code>ApplicationStateMachine.TogglePaused</code>
+    - Change the active menu page with <code>MenuStateMachine.TransitionTo(MenuState)</code>
 
 ### Fixed
 
