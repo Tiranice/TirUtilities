@@ -29,15 +29,16 @@ namespace TirUtilities.Experimental
     {
         #region Inspector Fields
 
-        [SerializeField, ScenePath]
+        /// <summary> Used to determine where or not InGame should be true. </summary>
+        [SerializeField, ScenePath, Tooltip("Used to determine where or not InGame should be true.")]
         private string _mainMenuScene;
 
 #if ENABLE_INPUT_SYSTEM
         
         [Header("Input System")]
+#if ODIN_INSPECTOR
         [SerializeField] private InputActionAsset _inputActions;
 
-#if ODIN_INSPECTOR
         [ValueDropdown(nameof(GetNames)), DisableIf("@_inputActions == null"), SerializeField] 
         private string _playerActionMap = string.Empty;
 
@@ -48,9 +49,14 @@ namespace TirUtilities.Experimental
             _inputActions.NotNull() ? _inputActions.actionMaps.Select(m => m.name)
                                     : new string[] { string.Empty };
 #else
-        [SerializeField] private string _playerActionMap = string.Empty;
+        
+        ///<summary> The action map used for player input. </summary>
+        [SerializeField, Tooltip("The action map used for player input.")] 
+        private string _playerActionMap = string.Empty;
 
-        [SerializeField] private string _uiActionMap = string.Empty;
+        /// <summary> The action map used for UI input. </summary>
+        [SerializeField, Tooltip("The action map used for UI input.")] 
+        private string _uiActionMap = string.Empty;
 #endif
 #endif
 
@@ -83,6 +89,7 @@ namespace TirUtilities.Experimental
 
         private void Start() => Startup();
 
+        //TODO : Change how InGame is set.
         private void Update() => InGame = !SceneManager.GetActiveScene().path.Equals(_mainMenuScene);
 
         private void OnDestroy() => Teardown();
@@ -123,8 +130,8 @@ namespace TirUtilities.Experimental
 
         private void RemoveListeners()
         {
-            _playingState.OnEnterState += _playSignal.Emit;
-            _pausedState.OnEnterState += _pauseSignal.Emit;
+            _playingState.OnEnterState -= _playSignal.Emit;
+            _pausedState.OnEnterState -= _pauseSignal.Emit;
         }
 
         private void Teardown()
@@ -137,6 +144,9 @@ namespace TirUtilities.Experimental
 
         #region Input Manager Methods
 
+        /// <summary>
+        /// Switches between the <see cref="PlayingState"/> and <see cref="PausedState"/>.
+        /// </summary>
         public void TogglePaused()
         {
             if (!InGame) return;
@@ -147,12 +157,17 @@ namespace TirUtilities.Experimental
                 _playingState.EnterState(this);
         }
 
+        /// <summary> Enters the <see cref="QuittingState"/>. </summary>
         public void QuitGame() => _quittingState.EnterState(this);
 
         #endregion
 
         #region Input System Methods
 #if ENABLE_INPUT_SYSTEM
+        /// <summary>
+        /// Switches between the <see cref="PlayingState"/> and <see cref="PausedState"/>.
+        /// </summary>
+        /// <remarks> Intended to be called from <see cref="PlayerInput"/> events. </remarks>
         public void TogglePaused(InputAction.CallbackContext context)
         {
             if (!context.performed || !InGame) return;
@@ -163,6 +178,8 @@ namespace TirUtilities.Experimental
                 _playingState.EnterState(this);
         }
 
+        /// <summary> Enters the <see cref="QuittingState"/>. </summary>
+        /// <remarks> Intended to be called from <see cref="PlayerInput"/> events. </remarks>
         public void QuitGame(InputAction.CallbackContext context)
         {
             if (context.performed)
@@ -181,17 +198,18 @@ namespace TirUtilities.Experimental
         #region Public Properties
 
         public ApplicationState CurrentState { get; set; }
+        //TODO : This report whether or not the active scene is one a set of menu scenes.
         public bool InGame { get; set; } = false;
+        public bool BlockPauseState { get; private set; } = false;
 #if ENABLE_INPUT_SYSTEM
         public bool EnterUIModeOnPause => _enterUIModeOnPause; 
-#endif
-        public bool BlockPauseState { get; private set; } = false;
 
-#if ENABLE_INPUT_SYSTEM
+        ///<summary> The action map used for player input. </summary>
         public string PlayerActionMap => _playerActionMap;
+
+        /// <summary> The action map used for UI input. </summary>
         public string UIActionMap => _uiActionMap;
 #endif
-
         #endregion
     }
 }
