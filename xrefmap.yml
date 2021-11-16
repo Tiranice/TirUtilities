@@ -34,41 +34,6 @@ references:
   isSpec: "True"
   fullName: BuiltInResourcesWindow.ShowWindow
   nameWithType: BuiltInResourcesWindow.ShowWindow
-- uid: Global.Connection
-  name: Connection
-  href: api/Global.Connection.html
-  commentId: T:Global.Connection
-  fullName: Connection
-  nameWithType: Connection
-- uid: Global.Connection.#ctor(ConnectionPoint,ConnectionPoint,System.Action{Connection})
-  name: Connection(ConnectionPoint, ConnectionPoint, Action<Connection>)
-  href: api/Global.Connection.html#Global_Connection__ctor_ConnectionPoint_ConnectionPoint_System_Action_Connection__
-  commentId: M:Global.Connection.#ctor(ConnectionPoint,ConnectionPoint,System.Action{Connection})
-  name.vb: Connection(ConnectionPoint, ConnectionPoint, Action(Of Connection))
-  fullName: Connection.Connection(ConnectionPoint, ConnectionPoint, System.Action<Connection>)
-  fullName.vb: Connection.Connection(ConnectionPoint, ConnectionPoint, System.Action(Of Connection))
-  nameWithType: Connection.Connection(ConnectionPoint, ConnectionPoint, Action<Connection>)
-  nameWithType.vb: Connection.Connection(ConnectionPoint, ConnectionPoint, Action(Of Connection))
-- uid: Global.Connection.#ctor*
-  name: Connection
-  href: api/Global.Connection.html#Global_Connection__ctor_
-  commentId: Overload:Global.Connection.#ctor
-  isSpec: "True"
-  fullName: Connection.Connection
-  nameWithType: Connection.Connection
-- uid: Global.Connection.Draw
-  name: Draw()
-  href: api/Global.Connection.html#Global_Connection_Draw
-  commentId: M:Global.Connection.Draw
-  fullName: Connection.Draw()
-  nameWithType: Connection.Draw()
-- uid: Global.Connection.Draw*
-  name: Draw
-  href: api/Global.Connection.html#Global_Connection_Draw_
-  commentId: Overload:Global.Connection.Draw
-  isSpec: "True"
-  fullName: Connection.Draw
-  nameWithType: Connection.Draw
 - uid: Global.ConnectionPoint
   name: ConnectionPoint
   href: api/Global.ConnectionPoint.html
@@ -356,25 +321,6 @@ references:
   isSpec: "True"
   fullName: NodeBase.ProcessEvents
   nameWithType: NodeBase.ProcessEvents
-- uid: Global.NodeBasedEditor
-  name: NodeBasedEditor
-  href: api/Global.NodeBasedEditor.html
-  commentId: T:Global.NodeBasedEditor
-  fullName: NodeBasedEditor
-  nameWithType: NodeBasedEditor
-- uid: Global.NodeBasedEditor.Open
-  name: Open()
-  href: api/Global.NodeBasedEditor.html#Global_NodeBasedEditor_Open
-  commentId: M:Global.NodeBasedEditor.Open
-  fullName: NodeBasedEditor.Open()
-  nameWithType: NodeBasedEditor.Open()
-- uid: Global.NodeBasedEditor.Open*
-  name: Open
-  href: api/Global.NodeBasedEditor.html#Global_NodeBasedEditor_Open_
-  commentId: Overload:Global.NodeBasedEditor.Open
-  isSpec: "True"
-  fullName: NodeBasedEditor.Open
-  nameWithType: NodeBasedEditor.Open
 - uid: Global.PieChartTest
   name: PieChartTest
   href: api/Global.PieChartTest.html
@@ -569,58 +515,6 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.MoveInput
   nameWithType: InputSignalReceiver.MoveInput
-- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump(InputValue)
-  name: OnJump(InputValue)
-  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnJump_InputValue_
-  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump(InputValue)
-  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump(InputValue)
-  nameWithType: InputSignalReceiver.OnJump(InputValue)
-- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump*
-  name: OnJump
-  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnJump_
-  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump
-  isSpec: "True"
-  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnJump
-  nameWithType: InputSignalReceiver.OnJump
-- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook(InputValue)
-  name: OnLook(InputValue)
-  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnLook_InputValue_
-  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook(InputValue)
-  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook(InputValue)
-  nameWithType: InputSignalReceiver.OnLook(InputValue)
-- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook*
-  name: OnLook
-  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnLook_
-  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook
-  isSpec: "True"
-  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnLook
-  nameWithType: InputSignalReceiver.OnLook
-- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove(InputValue)
-  name: OnMove(InputValue)
-  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnMove_InputValue_
-  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove(InputValue)
-  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove(InputValue)
-  nameWithType: InputSignalReceiver.OnMove(InputValue)
-- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove*
-  name: OnMove
-  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnMove_
-  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove
-  isSpec: "True"
-  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnMove
-  nameWithType: InputSignalReceiver.OnMove
-- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint(InputValue)
-  name: OnSprint(InputValue)
-  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnSprint_InputValue_
-  commentId: M:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint(InputValue)
-  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint(InputValue)
-  nameWithType: InputSignalReceiver.OnSprint(InputValue)
-- uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint*
-  name: OnSprint
-  href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_OnSprint_
-  commentId: Overload:TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint
-  isSpec: "True"
-  fullName: TirUtilities.Controllers.Experimental.InputSignalReceiver.OnSprint
-  nameWithType: InputSignalReceiver.OnSprint
 - uid: TirUtilities.Controllers.Experimental.InputSignalReceiver.SprintInput(System.Boolean)
   name: SprintInput(Boolean)
   href: api/TirUtilities.Controllers.Experimental.InputSignalReceiver.html#TirUtilities_Controllers_Experimental_InputSignalReceiver_SprintInput_System_Boolean_
@@ -982,18 +876,138 @@ references:
   commentId: N:TirUtilities.CustomEvents
   fullName: TirUtilities.CustomEvents
   nameWithType: TirUtilities.CustomEvents
+- uid: TirUtilities.CustomEvents.AudioClipEvent
+  name: AudioClipEvent
+  href: api/TirUtilities.CustomEvents.AudioClipEvent.html
+  commentId: T:TirUtilities.CustomEvents.AudioClipEvent
+  fullName: TirUtilities.CustomEvents.AudioClipEvent
+  nameWithType: AudioClipEvent
 - uid: TirUtilities.CustomEvents.BoolEvent
   name: BoolEvent
   href: api/TirUtilities.CustomEvents.BoolEvent.html
   commentId: T:TirUtilities.CustomEvents.BoolEvent
   fullName: TirUtilities.CustomEvents.BoolEvent
   nameWithType: BoolEvent
+- uid: TirUtilities.CustomEvents.ByteEvent
+  name: ByteEvent
+  href: api/TirUtilities.CustomEvents.ByteEvent.html
+  commentId: T:TirUtilities.CustomEvents.ByteEvent
+  fullName: TirUtilities.CustomEvents.ByteEvent
+  nameWithType: ByteEvent
+- uid: TirUtilities.CustomEvents.Collider2DEvent
+  name: Collider2DEvent
+  href: api/TirUtilities.CustomEvents.Collider2DEvent.html
+  commentId: T:TirUtilities.CustomEvents.Collider2DEvent
+  fullName: TirUtilities.CustomEvents.Collider2DEvent
+  nameWithType: Collider2DEvent
+- uid: TirUtilities.CustomEvents.ColliderEvent
+  name: ColliderEvent
+  href: api/TirUtilities.CustomEvents.ColliderEvent.html
+  commentId: T:TirUtilities.CustomEvents.ColliderEvent
+  fullName: TirUtilities.CustomEvents.ColliderEvent
+  nameWithType: ColliderEvent
+- uid: TirUtilities.CustomEvents.Collision2DEvent
+  name: Collision2DEvent
+  href: api/TirUtilities.CustomEvents.Collision2DEvent.html
+  commentId: T:TirUtilities.CustomEvents.Collision2DEvent
+  fullName: TirUtilities.CustomEvents.Collision2DEvent
+  nameWithType: Collision2DEvent
+- uid: TirUtilities.CustomEvents.CollisionEvent
+  name: CollisionEvent
+  href: api/TirUtilities.CustomEvents.CollisionEvent.html
+  commentId: T:TirUtilities.CustomEvents.CollisionEvent
+  fullName: TirUtilities.CustomEvents.CollisionEvent
+  nameWithType: CollisionEvent
+- uid: TirUtilities.CustomEvents.FloatEvent
+  name: FloatEvent
+  href: api/TirUtilities.CustomEvents.FloatEvent.html
+  commentId: T:TirUtilities.CustomEvents.FloatEvent
+  fullName: TirUtilities.CustomEvents.FloatEvent
+  nameWithType: FloatEvent
 - uid: TirUtilities.CustomEvents.GameObjectEvent
   name: GameObjectEvent
   href: api/TirUtilities.CustomEvents.GameObjectEvent.html
   commentId: T:TirUtilities.CustomEvents.GameObjectEvent
   fullName: TirUtilities.CustomEvents.GameObjectEvent
   nameWithType: GameObjectEvent
+- uid: TirUtilities.CustomEvents.IntEvent
+  name: IntEvent
+  href: api/TirUtilities.CustomEvents.IntEvent.html
+  commentId: T:TirUtilities.CustomEvents.IntEvent
+  fullName: TirUtilities.CustomEvents.IntEvent
+  nameWithType: IntEvent
+- uid: TirUtilities.CustomEvents.QuaternionEvent
+  name: QuaternionEvent
+  href: api/TirUtilities.CustomEvents.QuaternionEvent.html
+  commentId: T:TirUtilities.CustomEvents.QuaternionEvent
+  fullName: TirUtilities.CustomEvents.QuaternionEvent
+  nameWithType: QuaternionEvent
+- uid: TirUtilities.CustomEvents.Rigidbody2DEvent
+  name: Rigidbody2DEvent
+  href: api/TirUtilities.CustomEvents.Rigidbody2DEvent.html
+  commentId: T:TirUtilities.CustomEvents.Rigidbody2DEvent
+  fullName: TirUtilities.CustomEvents.Rigidbody2DEvent
+  nameWithType: Rigidbody2DEvent
+- uid: TirUtilities.CustomEvents.RigidbodyEvent
+  name: RigidbodyEvent
+  href: api/TirUtilities.CustomEvents.RigidbodyEvent.html
+  commentId: T:TirUtilities.CustomEvents.RigidbodyEvent
+  fullName: TirUtilities.CustomEvents.RigidbodyEvent
+  nameWithType: RigidbodyEvent
+- uid: TirUtilities.CustomEvents.SpriteEvent
+  name: SpriteEvent
+  href: api/TirUtilities.CustomEvents.SpriteEvent.html
+  commentId: T:TirUtilities.CustomEvents.SpriteEvent
+  fullName: TirUtilities.CustomEvents.SpriteEvent
+  nameWithType: SpriteEvent
+- uid: TirUtilities.CustomEvents.StringEvent
+  name: StringEvent
+  href: api/TirUtilities.CustomEvents.StringEvent.html
+  commentId: T:TirUtilities.CustomEvents.StringEvent
+  fullName: TirUtilities.CustomEvents.StringEvent
+  nameWithType: StringEvent
+- uid: TirUtilities.CustomEvents.TransformEvent
+  name: TransformEvent
+  href: api/TirUtilities.CustomEvents.TransformEvent.html
+  commentId: T:TirUtilities.CustomEvents.TransformEvent
+  fullName: TirUtilities.CustomEvents.TransformEvent
+  nameWithType: TransformEvent
+- uid: TirUtilities.CustomEvents.TriggerVolumeEvent
+  name: TriggerVolumeEvent
+  href: api/TirUtilities.CustomEvents.TriggerVolumeEvent.html
+  commentId: T:TirUtilities.CustomEvents.TriggerVolumeEvent
+  fullName: TirUtilities.CustomEvents.TriggerVolumeEvent
+  nameWithType: TriggerVolumeEvent
+- uid: TirUtilities.CustomEvents.Vector2Event
+  name: Vector2Event
+  href: api/TirUtilities.CustomEvents.Vector2Event.html
+  commentId: T:TirUtilities.CustomEvents.Vector2Event
+  fullName: TirUtilities.CustomEvents.Vector2Event
+  nameWithType: Vector2Event
+- uid: TirUtilities.CustomEvents.Vector2IntEvent
+  name: Vector2IntEvent
+  href: api/TirUtilities.CustomEvents.Vector2IntEvent.html
+  commentId: T:TirUtilities.CustomEvents.Vector2IntEvent
+  fullName: TirUtilities.CustomEvents.Vector2IntEvent
+  nameWithType: Vector2IntEvent
+- uid: TirUtilities.CustomEvents.Vector3Event
+  name: Vector3Event
+  href: api/TirUtilities.CustomEvents.Vector3Event.html
+  commentId: T:TirUtilities.CustomEvents.Vector3Event
+  fullName: TirUtilities.CustomEvents.Vector3Event
+  nameWithType: Vector3Event
+- uid: TirUtilities.CustomEvents.Vector3IntEvent
+  name: Vector3IntEvent
+  href: api/TirUtilities.CustomEvents.Vector3IntEvent.html
+  commentId: T:TirUtilities.CustomEvents.Vector3IntEvent
+  fullName: TirUtilities.CustomEvents.Vector3IntEvent
+  nameWithType: Vector3IntEvent
+- uid: TirUtilities.CustomEvents.Vector4Event
+  name: Vector4Event
+  href: api/TirUtilities.CustomEvents.Vector4Event.html
+  commentId: T:TirUtilities.CustomEvents.Vector4Event
+  fullName: TirUtilities.CustomEvents.Vector4Event
+  nameWithType: Vector4Event
 - uid: TirUtilities.CustomGizmos
   name: TirUtilities.CustomGizmos
   href: api/TirUtilities.CustomGizmos.html
@@ -1042,12 +1056,18 @@ references:
   commentId: T:TirUtilities.CustomGizmos.TirGizmos
   fullName: TirUtilities.CustomGizmos.TirGizmos
   nameWithType: TirGizmos
-- uid: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single)
-  name: DrawWireCapsule(CapsuleCollider, Single)
-  href: api/TirUtilities.CustomGizmos.TirGizmos.html#TirUtilities_CustomGizmos_TirGizmos_DrawWireCapsule_CapsuleCollider_System_Single_
-  commentId: M:TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single)
-  fullName: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider, System.Single)
-  nameWithType: TirGizmos.DrawWireCapsule(CapsuleCollider, Single)
+- uid: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single,System.Single)
+  name: DrawWireCapsule(CapsuleCollider, Single, Single)
+  href: api/TirUtilities.CustomGizmos.TirGizmos.html#TirUtilities_CustomGizmos_TirGizmos_DrawWireCapsule_CapsuleCollider_System_Single_System_Single_
+  commentId: M:TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single,System.Single)
+  fullName: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider, System.Single, System.Single)
+  nameWithType: TirGizmos.DrawWireCapsule(CapsuleCollider, Single, Single)
+- uid: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController,System.Single)
+  name: DrawWireCapsule(CharacterController, Single)
+  href: api/TirUtilities.CustomGizmos.TirGizmos.html#TirUtilities_CustomGizmos_TirGizmos_DrawWireCapsule_CharacterController_System_Single_
+  commentId: M:TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController,System.Single)
+  fullName: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController, System.Single)
+  nameWithType: TirGizmos.DrawWireCapsule(CharacterController, Single)
 - uid: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule*
   name: DrawWireCapsule
   href: api/TirUtilities.CustomGizmos.TirGizmos.html#TirUtilities_CustomGizmos_TirGizmos_DrawWireCapsule_
@@ -1116,12 +1136,12 @@ references:
   commentId: T:TirUtilities.Detection.Experimental.Zone
   fullName: TirUtilities.Detection.Experimental.Zone
   nameWithType: Zone
-- uid: TirUtilities.Detection.Experimental.Zone.#ctor(System.Single,System.Single)
-  name: Zone(Single, Single)
-  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone__ctor_System_Single_System_Single_
-  commentId: M:TirUtilities.Detection.Experimental.Zone.#ctor(System.Single,System.Single)
-  fullName: TirUtilities.Detection.Experimental.Zone.Zone(System.Single, System.Single)
-  nameWithType: Zone.Zone(Single, Single)
+- uid: TirUtilities.Detection.Experimental.Zone.#ctor(System.Single,System.Single,Mesh)
+  name: Zone(Single, Single, Mesh)
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone__ctor_System_Single_System_Single_Mesh_
+  commentId: M:TirUtilities.Detection.Experimental.Zone.#ctor(System.Single,System.Single,Mesh)
+  fullName: TirUtilities.Detection.Experimental.Zone.Zone(System.Single, System.Single, Mesh)
+  nameWithType: Zone.Zone(Single, Single, Mesh)
 - uid: TirUtilities.Detection.Experimental.Zone.#ctor*
   name: Zone
   href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone__ctor_
@@ -1142,6 +1162,32 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Detection.Experimental.Zone.Diameter
   nameWithType: Zone.Diameter
+- uid: TirUtilities.Detection.Experimental.Zone.DrawGizmo
+  name: DrawGizmo
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_DrawGizmo
+  commentId: P:TirUtilities.Detection.Experimental.Zone.DrawGizmo
+  fullName: TirUtilities.Detection.Experimental.Zone.DrawGizmo
+  nameWithType: Zone.DrawGizmo
+- uid: TirUtilities.Detection.Experimental.Zone.DrawGizmo*
+  name: DrawGizmo
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_DrawGizmo_
+  commentId: Overload:TirUtilities.Detection.Experimental.Zone.DrawGizmo
+  isSpec: "True"
+  fullName: TirUtilities.Detection.Experimental.Zone.DrawGizmo
+  nameWithType: Zone.DrawGizmo
+- uid: TirUtilities.Detection.Experimental.Zone.GizmoMesh
+  name: GizmoMesh
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_GizmoMesh
+  commentId: P:TirUtilities.Detection.Experimental.Zone.GizmoMesh
+  fullName: TirUtilities.Detection.Experimental.Zone.GizmoMesh
+  nameWithType: Zone.GizmoMesh
+- uid: TirUtilities.Detection.Experimental.Zone.GizmoMesh*
+  name: GizmoMesh
+  href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_GizmoMesh_
+  commentId: Overload:TirUtilities.Detection.Experimental.Zone.GizmoMesh
+  isSpec: "True"
+  fullName: TirUtilities.Detection.Experimental.Zone.GizmoMesh
+  nameWithType: Zone.GizmoMesh
 - uid: TirUtilities.Detection.Experimental.Zone.HalfHeight
   name: HalfHeight
   href: api/TirUtilities.Detection.Experimental.Zone.html#TirUtilities_Detection_Experimental_Zone_HalfHeight
@@ -1218,6 +1264,55 @@ references:
   commentId: N:TirUtilities.Editor
   fullName: TirUtilities.Editor
   nameWithType: TirUtilities.Editor
+- uid: TirUtilities.Editor.BuildTools
+  name: TirUtilities.Editor.BuildTools
+  href: api/TirUtilities.Editor.BuildTools.html
+  commentId: N:TirUtilities.Editor.BuildTools
+  fullName: TirUtilities.Editor.BuildTools
+  nameWithType: TirUtilities.Editor.BuildTools
+- uid: TirUtilities.Editor.BuildTools.BuildTool
+  name: BuildTool
+  href: api/TirUtilities.Editor.BuildTools.BuildTool.html
+  commentId: T:TirUtilities.Editor.BuildTools.BuildTool
+  fullName: TirUtilities.Editor.BuildTools.BuildTool
+  nameWithType: BuildTool
+- uid: TirUtilities.Editor.BuildTools.BuildTool.BuildWithVersion
+  name: BuildWithVersion()
+  href: api/TirUtilities.Editor.BuildTools.BuildTool.html#TirUtilities_Editor_BuildTools_BuildTool_BuildWithVersion
+  commentId: M:TirUtilities.Editor.BuildTools.BuildTool.BuildWithVersion
+  fullName: TirUtilities.Editor.BuildTools.BuildTool.BuildWithVersion()
+  nameWithType: BuildTool.BuildWithVersion()
+- uid: TirUtilities.Editor.BuildTools.BuildTool.BuildWithVersion(System.String,TirUtilities.Editor.BuildTools.BuildTool.GitTarget,BuildTarget,BuildOptions)
+  name: BuildWithVersion(String, BuildTool.GitTarget, BuildTarget, BuildOptions)
+  href: api/TirUtilities.Editor.BuildTools.BuildTool.html#TirUtilities_Editor_BuildTools_BuildTool_BuildWithVersion_System_String_TirUtilities_Editor_BuildTools_BuildTool_GitTarget_BuildTarget_BuildOptions_
+  commentId: M:TirUtilities.Editor.BuildTools.BuildTool.BuildWithVersion(System.String,TirUtilities.Editor.BuildTools.BuildTool.GitTarget,BuildTarget,BuildOptions)
+  fullName: TirUtilities.Editor.BuildTools.BuildTool.BuildWithVersion(System.String, TirUtilities.Editor.BuildTools.BuildTool.GitTarget, BuildTarget, BuildOptions)
+  nameWithType: BuildTool.BuildWithVersion(String, BuildTool.GitTarget, BuildTarget, BuildOptions)
+- uid: TirUtilities.Editor.BuildTools.BuildTool.BuildWithVersion*
+  name: BuildWithVersion
+  href: api/TirUtilities.Editor.BuildTools.BuildTool.html#TirUtilities_Editor_BuildTools_BuildTool_BuildWithVersion_
+  commentId: Overload:TirUtilities.Editor.BuildTools.BuildTool.BuildWithVersion
+  isSpec: "True"
+  fullName: TirUtilities.Editor.BuildTools.BuildTool.BuildWithVersion
+  nameWithType: BuildTool.BuildWithVersion
+- uid: TirUtilities.Editor.BuildTools.BuildTool.GitTarget
+  name: BuildTool.GitTarget
+  href: api/TirUtilities.Editor.BuildTools.BuildTool.GitTarget.html
+  commentId: T:TirUtilities.Editor.BuildTools.BuildTool.GitTarget
+  fullName: TirUtilities.Editor.BuildTools.BuildTool.GitTarget
+  nameWithType: BuildTool.GitTarget
+- uid: TirUtilities.Editor.BuildTools.BuildTool.GitTarget.CurrentBranch
+  name: CurrentBranch
+  href: api/TirUtilities.Editor.BuildTools.BuildTool.GitTarget.html#TirUtilities_Editor_BuildTools_BuildTool_GitTarget_CurrentBranch
+  commentId: F:TirUtilities.Editor.BuildTools.BuildTool.GitTarget.CurrentBranch
+  fullName: TirUtilities.Editor.BuildTools.BuildTool.GitTarget.CurrentBranch
+  nameWithType: BuildTool.GitTarget.CurrentBranch
+- uid: TirUtilities.Editor.BuildTools.BuildTool.GitTarget.Main
+  name: Main
+  href: api/TirUtilities.Editor.BuildTools.BuildTool.GitTarget.html#TirUtilities_Editor_BuildTools_BuildTool_GitTarget_Main
+  commentId: F:TirUtilities.Editor.BuildTools.BuildTool.GitTarget.Main
+  fullName: TirUtilities.Editor.BuildTools.BuildTool.GitTarget.Main
+  nameWithType: BuildTool.GitTarget.Main
 - uid: TirUtilities.Editor.Experimantal
   name: TirUtilities.Editor.Experimantal
   href: api/TirUtilities.Editor.Experimantal.html
@@ -1287,6 +1382,137 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Editor.FlexGridInpector.OnInspectorGUI
   nameWithType: FlexGridInpector.OnInspectorGUI
+- uid: TirUtilities.Editor.GitUtilities
+  name: TirUtilities.Editor.GitUtilities
+  href: api/TirUtilities.Editor.GitUtilities.html
+  commentId: N:TirUtilities.Editor.GitUtilities
+  fullName: TirUtilities.Editor.GitUtilities
+  nameWithType: TirUtilities.Editor.GitUtilities
+- uid: TirUtilities.Editor.GitUtilities.Git
+  name: Git
+  href: api/TirUtilities.Editor.GitUtilities.Git.html
+  commentId: T:TirUtilities.Editor.GitUtilities.Git
+  fullName: TirUtilities.Editor.GitUtilities.Git
+  nameWithType: Git
+- uid: TirUtilities.Editor.GitUtilities.Git.Branch
+  name: Branch
+  href: api/TirUtilities.Editor.GitUtilities.Git.html#TirUtilities_Editor_GitUtilities_Git_Branch
+  commentId: P:TirUtilities.Editor.GitUtilities.Git.Branch
+  fullName: TirUtilities.Editor.GitUtilities.Git.Branch
+  nameWithType: Git.Branch
+- uid: TirUtilities.Editor.GitUtilities.Git.Branch*
+  name: Branch
+  href: api/TirUtilities.Editor.GitUtilities.Git.html#TirUtilities_Editor_GitUtilities_Git_Branch_
+  commentId: Overload:TirUtilities.Editor.GitUtilities.Git.Branch
+  isSpec: "True"
+  fullName: TirUtilities.Editor.GitUtilities.Git.Branch
+  nameWithType: Git.Branch
+- uid: TirUtilities.Editor.GitUtilities.Git.BuildVersion
+  name: BuildVersion
+  href: api/TirUtilities.Editor.GitUtilities.Git.html#TirUtilities_Editor_GitUtilities_Git_BuildVersion
+  commentId: P:TirUtilities.Editor.GitUtilities.Git.BuildVersion
+  fullName: TirUtilities.Editor.GitUtilities.Git.BuildVersion
+  nameWithType: Git.BuildVersion
+- uid: TirUtilities.Editor.GitUtilities.Git.BuildVersion*
+  name: BuildVersion
+  href: api/TirUtilities.Editor.GitUtilities.Git.html#TirUtilities_Editor_GitUtilities_Git_BuildVersion_
+  commentId: Overload:TirUtilities.Editor.GitUtilities.Git.BuildVersion
+  isSpec: "True"
+  fullName: TirUtilities.Editor.GitUtilities.Git.BuildVersion
+  nameWithType: Git.BuildVersion
+- uid: TirUtilities.Editor.GitUtilities.Git.BuildVersionMain
+  name: BuildVersionMain
+  href: api/TirUtilities.Editor.GitUtilities.Git.html#TirUtilities_Editor_GitUtilities_Git_BuildVersionMain
+  commentId: P:TirUtilities.Editor.GitUtilities.Git.BuildVersionMain
+  fullName: TirUtilities.Editor.GitUtilities.Git.BuildVersionMain
+  nameWithType: Git.BuildVersionMain
+- uid: TirUtilities.Editor.GitUtilities.Git.BuildVersionMain*
+  name: BuildVersionMain
+  href: api/TirUtilities.Editor.GitUtilities.Git.html#TirUtilities_Editor_GitUtilities_Git_BuildVersionMain_
+  commentId: Overload:TirUtilities.Editor.GitUtilities.Git.BuildVersionMain
+  isSpec: "True"
+  fullName: TirUtilities.Editor.GitUtilities.Git.BuildVersionMain
+  nameWithType: Git.BuildVersionMain
+- uid: TirUtilities.Editor.GitUtilities.Git.Run(System.String)
+  name: Run(String)
+  href: api/TirUtilities.Editor.GitUtilities.Git.html#TirUtilities_Editor_GitUtilities_Git_Run_System_String_
+  commentId: M:TirUtilities.Editor.GitUtilities.Git.Run(System.String)
+  fullName: TirUtilities.Editor.GitUtilities.Git.Run(System.String)
+  nameWithType: Git.Run(String)
+- uid: TirUtilities.Editor.GitUtilities.Git.Run*
+  name: Run
+  href: api/TirUtilities.Editor.GitUtilities.Git.html#TirUtilities_Editor_GitUtilities_Git_Run_
+  commentId: Overload:TirUtilities.Editor.GitUtilities.Git.Run
+  isSpec: "True"
+  fullName: TirUtilities.Editor.GitUtilities.Git.Run
+  nameWithType: Git.Run
+- uid: TirUtilities.Editor.GitUtilities.Git.Status
+  name: Status
+  href: api/TirUtilities.Editor.GitUtilities.Git.html#TirUtilities_Editor_GitUtilities_Git_Status
+  commentId: P:TirUtilities.Editor.GitUtilities.Git.Status
+  fullName: TirUtilities.Editor.GitUtilities.Git.Status
+  nameWithType: Git.Status
+- uid: TirUtilities.Editor.GitUtilities.Git.Status*
+  name: Status
+  href: api/TirUtilities.Editor.GitUtilities.Git.html#TirUtilities_Editor_GitUtilities_Git_Status_
+  commentId: Overload:TirUtilities.Editor.GitUtilities.Git.Status
+  isSpec: "True"
+  fullName: TirUtilities.Editor.GitUtilities.Git.Status
+  nameWithType: Git.Status
+- uid: TirUtilities.Editor.GitUtilities.GitException
+  name: GitException
+  href: api/TirUtilities.Editor.GitUtilities.GitException.html
+  commentId: T:TirUtilities.Editor.GitUtilities.GitException
+  fullName: TirUtilities.Editor.GitUtilities.GitException
+  nameWithType: GitException
+- uid: TirUtilities.Editor.GitUtilities.GitException.#ctor(System.Int32,System.String)
+  name: GitException(Int32, String)
+  href: api/TirUtilities.Editor.GitUtilities.GitException.html#TirUtilities_Editor_GitUtilities_GitException__ctor_System_Int32_System_String_
+  commentId: M:TirUtilities.Editor.GitUtilities.GitException.#ctor(System.Int32,System.String)
+  fullName: TirUtilities.Editor.GitUtilities.GitException.GitException(System.Int32, System.String)
+  nameWithType: GitException.GitException(Int32, String)
+- uid: TirUtilities.Editor.GitUtilities.GitException.#ctor*
+  name: GitException
+  href: api/TirUtilities.Editor.GitUtilities.GitException.html#TirUtilities_Editor_GitUtilities_GitException__ctor_
+  commentId: Overload:TirUtilities.Editor.GitUtilities.GitException.#ctor
+  isSpec: "True"
+  fullName: TirUtilities.Editor.GitUtilities.GitException.GitException
+  nameWithType: GitException.GitException
+- uid: TirUtilities.Editor.GitUtilities.GitException.ExitCode
+  name: ExitCode
+  href: api/TirUtilities.Editor.GitUtilities.GitException.html#TirUtilities_Editor_GitUtilities_GitException_ExitCode
+  commentId: P:TirUtilities.Editor.GitUtilities.GitException.ExitCode
+  fullName: TirUtilities.Editor.GitUtilities.GitException.ExitCode
+  nameWithType: GitException.ExitCode
+- uid: TirUtilities.Editor.GitUtilities.GitException.ExitCode*
+  name: ExitCode
+  href: api/TirUtilities.Editor.GitUtilities.GitException.html#TirUtilities_Editor_GitUtilities_GitException_ExitCode_
+  commentId: Overload:TirUtilities.Editor.GitUtilities.GitException.ExitCode
+  isSpec: "True"
+  fullName: TirUtilities.Editor.GitUtilities.GitException.ExitCode
+  nameWithType: GitException.ExitCode
+- uid: TirUtilities.Editor.GitUtilities.ProcessExtentsions
+  name: ProcessExtentsions
+  href: api/TirUtilities.Editor.GitUtilities.ProcessExtentsions.html
+  commentId: T:TirUtilities.Editor.GitUtilities.ProcessExtentsions
+  fullName: TirUtilities.Editor.GitUtilities.ProcessExtentsions
+  nameWithType: ProcessExtentsions
+- uid: TirUtilities.Editor.GitUtilities.ProcessExtentsions.Run(Process,System.String,System.String,System.String,System.String@,System.String@)
+  name: Run(Process, String, String, String, out String, out String)
+  href: api/TirUtilities.Editor.GitUtilities.ProcessExtentsions.html#TirUtilities_Editor_GitUtilities_ProcessExtentsions_Run_Process_System_String_System_String_System_String_System_String__System_String__
+  commentId: M:TirUtilities.Editor.GitUtilities.ProcessExtentsions.Run(Process,System.String,System.String,System.String,System.String@,System.String@)
+  name.vb: Run(Process, String, String, String, ByRef String, ByRef String)
+  fullName: TirUtilities.Editor.GitUtilities.ProcessExtentsions.Run(Process, System.String, System.String, System.String, out System.String, out System.String)
+  fullName.vb: TirUtilities.Editor.GitUtilities.ProcessExtentsions.Run(Process, System.String, System.String, System.String, ByRef System.String, ByRef System.String)
+  nameWithType: ProcessExtentsions.Run(Process, String, String, String, out String, out String)
+  nameWithType.vb: ProcessExtentsions.Run(Process, String, String, String, ByRef String, ByRef String)
+- uid: TirUtilities.Editor.GitUtilities.ProcessExtentsions.Run*
+  name: Run
+  href: api/TirUtilities.Editor.GitUtilities.ProcessExtentsions.html#TirUtilities_Editor_GitUtilities_ProcessExtentsions_Run_
+  commentId: Overload:TirUtilities.Editor.GitUtilities.ProcessExtentsions.Run
+  isSpec: "True"
+  fullName: TirUtilities.Editor.GitUtilities.ProcessExtentsions.Run
+  nameWithType: ProcessExtentsions.Run
 - uid: TirUtilities.Editor.MenuPageContextMenu
   name: MenuPageContextMenu
   href: api/TirUtilities.Editor.MenuPageContextMenu.html
@@ -1493,6 +1719,51 @@ references:
   fullName.vb: TirUtilities.Editor.Prefs.EditorPrefsItem(Of T).Value
   nameWithType: EditorPrefsItem<T>.Value
   nameWithType.vb: EditorPrefsItem(Of T).Value
+- uid: TirUtilities.Editor.Prefs.EditorPrefsString
+  name: EditorPrefsString
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsString.html
+  commentId: T:TirUtilities.Editor.Prefs.EditorPrefsString
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsString
+  nameWithType: EditorPrefsString
+- uid: TirUtilities.Editor.Prefs.EditorPrefsString.#ctor(System.String,GUIContent,System.String)
+  name: EditorPrefsString(String, GUIContent, String)
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsString.html#TirUtilities_Editor_Prefs_EditorPrefsString__ctor_System_String_GUIContent_System_String_
+  commentId: M:TirUtilities.Editor.Prefs.EditorPrefsString.#ctor(System.String,GUIContent,System.String)
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsString.EditorPrefsString(System.String, GUIContent, System.String)
+  nameWithType: EditorPrefsString.EditorPrefsString(String, GUIContent, String)
+- uid: TirUtilities.Editor.Prefs.EditorPrefsString.#ctor*
+  name: EditorPrefsString
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsString.html#TirUtilities_Editor_Prefs_EditorPrefsString__ctor_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsString.#ctor
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsString.EditorPrefsString
+  nameWithType: EditorPrefsString.EditorPrefsString
+- uid: TirUtilities.Editor.Prefs.EditorPrefsString.Draw
+  name: Draw()
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsString.html#TirUtilities_Editor_Prefs_EditorPrefsString_Draw
+  commentId: M:TirUtilities.Editor.Prefs.EditorPrefsString.Draw
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsString.Draw()
+  nameWithType: EditorPrefsString.Draw()
+- uid: TirUtilities.Editor.Prefs.EditorPrefsString.Draw*
+  name: Draw
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsString.html#TirUtilities_Editor_Prefs_EditorPrefsString_Draw_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsString.Draw
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsString.Draw
+  nameWithType: EditorPrefsString.Draw
+- uid: TirUtilities.Editor.Prefs.EditorPrefsString.Value
+  name: Value
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsString.html#TirUtilities_Editor_Prefs_EditorPrefsString_Value
+  commentId: P:TirUtilities.Editor.Prefs.EditorPrefsString.Value
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsString.Value
+  nameWithType: EditorPrefsString.Value
+- uid: TirUtilities.Editor.Prefs.EditorPrefsString.Value*
+  name: Value
+  href: api/TirUtilities.Editor.Prefs.EditorPrefsString.html#TirUtilities_Editor_Prefs_EditorPrefsString_Value_
+  commentId: Overload:TirUtilities.Editor.Prefs.EditorPrefsString.Value
+  isSpec: "True"
+  fullName: TirUtilities.Editor.Prefs.EditorPrefsString.Value
+  nameWithType: EditorPrefsString.Value
 - uid: TirUtilities.Editor.Prefs.EditorPrefsVector2
   name: EditorPrefsVector2
   href: api/TirUtilities.Editor.Prefs.EditorPrefsVector2.html
@@ -1794,6 +2065,38 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Editor.PropertyDrawers.ScenePathDrawer.OnGUI
   nameWithType: ScenePathDrawer.OnGUI
+- uid: TirUtilities.Editor.ShowIfDrawer
+  name: ShowIfDrawer
+  href: api/TirUtilities.Editor.ShowIfDrawer.html
+  commentId: T:TirUtilities.Editor.ShowIfDrawer
+  fullName: TirUtilities.Editor.ShowIfDrawer
+  nameWithType: ShowIfDrawer
+- uid: TirUtilities.Editor.ShowIfDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/TirUtilities.Editor.ShowIfDrawer.html#TirUtilities_Editor_ShowIfDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:TirUtilities.Editor.ShowIfDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: TirUtilities.Editor.ShowIfDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: ShowIfDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: TirUtilities.Editor.ShowIfDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/TirUtilities.Editor.ShowIfDrawer.html#TirUtilities_Editor_ShowIfDrawer_GetPropertyHeight_
+  commentId: Overload:TirUtilities.Editor.ShowIfDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: TirUtilities.Editor.ShowIfDrawer.GetPropertyHeight
+  nameWithType: ShowIfDrawer.GetPropertyHeight
+- uid: TirUtilities.Editor.ShowIfDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/TirUtilities.Editor.ShowIfDrawer.html#TirUtilities_Editor_ShowIfDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:TirUtilities.Editor.ShowIfDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: TirUtilities.Editor.ShowIfDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: ShowIfDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: TirUtilities.Editor.ShowIfDrawer.OnGUI*
+  name: OnGUI
+  href: api/TirUtilities.Editor.ShowIfDrawer.html#TirUtilities_Editor_ShowIfDrawer_OnGUI_
+  commentId: Overload:TirUtilities.Editor.ShowIfDrawer.OnGUI
+  isSpec: "True"
+  fullName: TirUtilities.Editor.ShowIfDrawer.OnGUI
+  nameWithType: ShowIfDrawer.OnGUI
 - uid: TirUtilities.Editor.SignalMenus
   name: TirUtilities.Editor.SignalMenus
   href: api/TirUtilities.Editor.SignalMenus.html
@@ -1895,6 +2198,18 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Experimental.ApplicationState.ExitState
   nameWithType: ApplicationState.ExitState
+- uid: TirUtilities.Experimental.ApplicationState.OnEnterState
+  name: OnEnterState
+  href: api/TirUtilities.Experimental.ApplicationState.html#TirUtilities_Experimental_ApplicationState_OnEnterState
+  commentId: E:TirUtilities.Experimental.ApplicationState.OnEnterState
+  fullName: TirUtilities.Experimental.ApplicationState.OnEnterState
+  nameWithType: ApplicationState.OnEnterState
+- uid: TirUtilities.Experimental.ApplicationState.OnExitState
+  name: OnExitState
+  href: api/TirUtilities.Experimental.ApplicationState.html#TirUtilities_Experimental_ApplicationState_OnExitState
+  commentId: E:TirUtilities.Experimental.ApplicationState.OnExitState
+  fullName: TirUtilities.Experimental.ApplicationState.OnExitState
+  nameWithType: ApplicationState.OnExitState
 - uid: TirUtilities.Experimental.ApplicationState.PausedTimeScale
   name: PausedTimeScale
   href: api/TirUtilities.Experimental.ApplicationState.html#TirUtilities_Experimental_ApplicationState_PausedTimeScale
@@ -1940,6 +2255,45 @@ references:
   commentId: T:TirUtilities.Experimental.ApplicationStateMachine
   fullName: TirUtilities.Experimental.ApplicationStateMachine
   nameWithType: ApplicationStateMachine
+- uid: TirUtilities.Experimental.ApplicationStateMachine.AllowPause
+  name: AllowPause()
+  href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_AllowPause
+  commentId: M:TirUtilities.Experimental.ApplicationStateMachine.AllowPause
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.AllowPause()
+  nameWithType: ApplicationStateMachine.AllowPause()
+- uid: TirUtilities.Experimental.ApplicationStateMachine.AllowPause*
+  name: AllowPause
+  href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_AllowPause_
+  commentId: Overload:TirUtilities.Experimental.ApplicationStateMachine.AllowPause
+  isSpec: "True"
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.AllowPause
+  nameWithType: ApplicationStateMachine.AllowPause
+- uid: TirUtilities.Experimental.ApplicationStateMachine.BlockPause
+  name: BlockPause()
+  href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_BlockPause
+  commentId: M:TirUtilities.Experimental.ApplicationStateMachine.BlockPause
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.BlockPause()
+  nameWithType: ApplicationStateMachine.BlockPause()
+- uid: TirUtilities.Experimental.ApplicationStateMachine.BlockPause*
+  name: BlockPause
+  href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_BlockPause_
+  commentId: Overload:TirUtilities.Experimental.ApplicationStateMachine.BlockPause
+  isSpec: "True"
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.BlockPause
+  nameWithType: ApplicationStateMachine.BlockPause
+- uid: TirUtilities.Experimental.ApplicationStateMachine.BlockPauseState
+  name: BlockPauseState
+  href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_BlockPauseState
+  commentId: P:TirUtilities.Experimental.ApplicationStateMachine.BlockPauseState
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.BlockPauseState
+  nameWithType: ApplicationStateMachine.BlockPauseState
+- uid: TirUtilities.Experimental.ApplicationStateMachine.BlockPauseState*
+  name: BlockPauseState
+  href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_BlockPauseState_
+  commentId: Overload:TirUtilities.Experimental.ApplicationStateMachine.BlockPauseState
+  isSpec: "True"
+  fullName: TirUtilities.Experimental.ApplicationStateMachine.BlockPauseState
+  nameWithType: ApplicationStateMachine.BlockPauseState
 - uid: TirUtilities.Experimental.ApplicationStateMachine.CurrentState
   name: CurrentState
   href: api/TirUtilities.Experimental.ApplicationStateMachine.html#TirUtilities_Experimental_ApplicationStateMachine_CurrentState
@@ -2711,6 +3065,32 @@ references:
   commentId: T:TirUtilities.LevelManagment.LevelSystem
   fullName: TirUtilities.LevelManagment.LevelSystem
   nameWithType: LevelSystem
+- uid: TirUtilities.LevelManagment.LevelSystem.Instance
+  name: Instance
+  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_Instance
+  commentId: P:TirUtilities.LevelManagment.LevelSystem.Instance
+  fullName: TirUtilities.LevelManagment.LevelSystem.Instance
+  nameWithType: LevelSystem.Instance
+- uid: TirUtilities.LevelManagment.LevelSystem.Instance*
+  name: Instance
+  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_Instance_
+  commentId: Overload:TirUtilities.LevelManagment.LevelSystem.Instance
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagment.LevelSystem.Instance
+  nameWithType: LevelSystem.Instance
+- uid: TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
+  name: LevelLoadSignals
+  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_LevelLoadSignals
+  commentId: P:TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
+  fullName: TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
+  nameWithType: LevelSystem.LevelLoadSignals
+- uid: TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals*
+  name: LevelLoadSignals
+  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_LevelLoadSignals_
+  commentId: Overload:TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
+  nameWithType: LevelSystem.LevelLoadSignals
 - uid: TirUtilities.Runtime.Tests
   name: TirUtilities.Runtime.Tests
   href: api/TirUtilities.Runtime.Tests.html
@@ -2914,6 +3294,57 @@ references:
   fullName.vb: TirUtilities.Serialization.TirJsonUtility.TryParseJsonToList(Of T)(ByRef System.Collections.Generic.List(Of T), System.String)
   nameWithType: TirJsonUtility.TryParseJsonToList<T>(out List<T>, String)
   nameWithType.vb: TirJsonUtility.TryParseJsonToList(Of T)(ByRef List(Of T), String)
+- uid: TirUtilities.ShowIfAttribute
+  name: ShowIfAttribute
+  href: api/TirUtilities.ShowIfAttribute.html
+  commentId: T:TirUtilities.ShowIfAttribute
+  fullName: TirUtilities.ShowIfAttribute
+  nameWithType: ShowIfAttribute
+- uid: TirUtilities.ShowIfAttribute.#ctor(System.String,System.Boolean)
+  name: ShowIfAttribute(String, Boolean)
+  href: api/TirUtilities.ShowIfAttribute.html#TirUtilities_ShowIfAttribute__ctor_System_String_System_Boolean_
+  commentId: M:TirUtilities.ShowIfAttribute.#ctor(System.String,System.Boolean)
+  fullName: TirUtilities.ShowIfAttribute.ShowIfAttribute(System.String, System.Boolean)
+  nameWithType: ShowIfAttribute.ShowIfAttribute(String, Boolean)
+- uid: TirUtilities.ShowIfAttribute.#ctor(System.String,System.Object)
+  name: ShowIfAttribute(String, Object)
+  href: api/TirUtilities.ShowIfAttribute.html#TirUtilities_ShowIfAttribute__ctor_System_String_System_Object_
+  commentId: M:TirUtilities.ShowIfAttribute.#ctor(System.String,System.Object)
+  fullName: TirUtilities.ShowIfAttribute.ShowIfAttribute(System.String, System.Object)
+  nameWithType: ShowIfAttribute.ShowIfAttribute(String, Object)
+- uid: TirUtilities.ShowIfAttribute.#ctor*
+  name: ShowIfAttribute
+  href: api/TirUtilities.ShowIfAttribute.html#TirUtilities_ShowIfAttribute__ctor_
+  commentId: Overload:TirUtilities.ShowIfAttribute.#ctor
+  isSpec: "True"
+  fullName: TirUtilities.ShowIfAttribute.ShowIfAttribute
+  nameWithType: ShowIfAttribute.ShowIfAttribute
+- uid: TirUtilities.ShowIfAttribute.TargetName
+  name: TargetName
+  href: api/TirUtilities.ShowIfAttribute.html#TirUtilities_ShowIfAttribute_TargetName
+  commentId: P:TirUtilities.ShowIfAttribute.TargetName
+  fullName: TirUtilities.ShowIfAttribute.TargetName
+  nameWithType: ShowIfAttribute.TargetName
+- uid: TirUtilities.ShowIfAttribute.TargetName*
+  name: TargetName
+  href: api/TirUtilities.ShowIfAttribute.html#TirUtilities_ShowIfAttribute_TargetName_
+  commentId: Overload:TirUtilities.ShowIfAttribute.TargetName
+  isSpec: "True"
+  fullName: TirUtilities.ShowIfAttribute.TargetName
+  nameWithType: ShowIfAttribute.TargetName
+- uid: TirUtilities.ShowIfAttribute.TargetValue
+  name: TargetValue
+  href: api/TirUtilities.ShowIfAttribute.html#TirUtilities_ShowIfAttribute_TargetValue
+  commentId: P:TirUtilities.ShowIfAttribute.TargetValue
+  fullName: TirUtilities.ShowIfAttribute.TargetValue
+  nameWithType: ShowIfAttribute.TargetValue
+- uid: TirUtilities.ShowIfAttribute.TargetValue*
+  name: TargetValue
+  href: api/TirUtilities.ShowIfAttribute.html#TirUtilities_ShowIfAttribute_TargetValue_
+  commentId: Overload:TirUtilities.ShowIfAttribute.TargetValue
+  isSpec: "True"
+  fullName: TirUtilities.ShowIfAttribute.TargetValue
+  nameWithType: ShowIfAttribute.TargetValue
 - uid: TirUtilities.Signals
   name: TirUtilities.Signals
   href: api/TirUtilities.Signals.html
@@ -2926,12 +3357,6 @@ references:
   commentId: T:TirUtilities.Signals.BoolSignal
   fullName: TirUtilities.Signals.BoolSignal
   nameWithType: BoolSignal
-- uid: TirUtilities.Signals.BoolSignal._OnEmit
-  name: _OnEmit
-  href: api/TirUtilities.Signals.BoolSignal.html#TirUtilities_Signals_BoolSignal__OnEmit
-  commentId: F:TirUtilities.Signals.BoolSignal._OnEmit
-  fullName: TirUtilities.Signals.BoolSignal._OnEmit
-  nameWithType: BoolSignal._OnEmit
 - uid: TirUtilities.Signals.BoolSignal.AddReceiver(UnityAction{System.Boolean})
   name: AddReceiver(UnityAction<Boolean>)
   href: api/TirUtilities.Signals.BoolSignal.html#TirUtilities_Signals_BoolSignal_AddReceiver_UnityAction_System_Boolean__
@@ -2983,12 +3408,6 @@ references:
   commentId: T:TirUtilities.Signals.ByteSignal
   fullName: TirUtilities.Signals.ByteSignal
   nameWithType: ByteSignal
-- uid: TirUtilities.Signals.ByteSignal._OnEmit
-  name: _OnEmit
-  href: api/TirUtilities.Signals.ByteSignal.html#TirUtilities_Signals_ByteSignal__OnEmit
-  commentId: F:TirUtilities.Signals.ByteSignal._OnEmit
-  fullName: TirUtilities.Signals.ByteSignal._OnEmit
-  nameWithType: ByteSignal._OnEmit
 - uid: TirUtilities.Signals.ByteSignal.AddReceiver(UnityAction{System.Byte})
   name: AddReceiver(UnityAction<Byte>)
   href: api/TirUtilities.Signals.ByteSignal.html#TirUtilities_Signals_ByteSignal_AddReceiver_UnityAction_System_Byte__
@@ -3034,18 +3453,216 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Signals.ByteSignal.RemoveReceiver
   nameWithType: ByteSignal.RemoveReceiver
+- uid: TirUtilities.Signals.Collider2DSignal
+  name: Collider2DSignal
+  href: api/TirUtilities.Signals.Collider2DSignal.html
+  commentId: T:TirUtilities.Signals.Collider2DSignal
+  fullName: TirUtilities.Signals.Collider2DSignal
+  nameWithType: Collider2DSignal
+- uid: TirUtilities.Signals.Collider2DSignal.AddReceiver(UnityAction{Collider2D})
+  name: AddReceiver(UnityAction<Collider2D>)
+  href: api/TirUtilities.Signals.Collider2DSignal.html#TirUtilities_Signals_Collider2DSignal_AddReceiver_UnityAction_Collider2D__
+  commentId: M:TirUtilities.Signals.Collider2DSignal.AddReceiver(UnityAction{Collider2D})
+  name.vb: AddReceiver(UnityAction(Of Collider2D))
+  fullName: TirUtilities.Signals.Collider2DSignal.AddReceiver(UnityAction<Collider2D>)
+  fullName.vb: TirUtilities.Signals.Collider2DSignal.AddReceiver(UnityAction(Of Collider2D))
+  nameWithType: Collider2DSignal.AddReceiver(UnityAction<Collider2D>)
+  nameWithType.vb: Collider2DSignal.AddReceiver(UnityAction(Of Collider2D))
+- uid: TirUtilities.Signals.Collider2DSignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.Collider2DSignal.html#TirUtilities_Signals_Collider2DSignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.Collider2DSignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Collider2DSignal.AddReceiver
+  nameWithType: Collider2DSignal.AddReceiver
+- uid: TirUtilities.Signals.Collider2DSignal.Emit(Collider2D)
+  name: Emit(Collider2D)
+  href: api/TirUtilities.Signals.Collider2DSignal.html#TirUtilities_Signals_Collider2DSignal_Emit_Collider2D_
+  commentId: M:TirUtilities.Signals.Collider2DSignal.Emit(Collider2D)
+  fullName: TirUtilities.Signals.Collider2DSignal.Emit(Collider2D)
+  nameWithType: Collider2DSignal.Emit(Collider2D)
+- uid: TirUtilities.Signals.Collider2DSignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.Collider2DSignal.html#TirUtilities_Signals_Collider2DSignal_Emit_
+  commentId: Overload:TirUtilities.Signals.Collider2DSignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Collider2DSignal.Emit
+  nameWithType: Collider2DSignal.Emit
+- uid: TirUtilities.Signals.Collider2DSignal.RemoveReceiver(UnityAction{Collider2D})
+  name: RemoveReceiver(UnityAction<Collider2D>)
+  href: api/TirUtilities.Signals.Collider2DSignal.html#TirUtilities_Signals_Collider2DSignal_RemoveReceiver_UnityAction_Collider2D__
+  commentId: M:TirUtilities.Signals.Collider2DSignal.RemoveReceiver(UnityAction{Collider2D})
+  name.vb: RemoveReceiver(UnityAction(Of Collider2D))
+  fullName: TirUtilities.Signals.Collider2DSignal.RemoveReceiver(UnityAction<Collider2D>)
+  fullName.vb: TirUtilities.Signals.Collider2DSignal.RemoveReceiver(UnityAction(Of Collider2D))
+  nameWithType: Collider2DSignal.RemoveReceiver(UnityAction<Collider2D>)
+  nameWithType.vb: Collider2DSignal.RemoveReceiver(UnityAction(Of Collider2D))
+- uid: TirUtilities.Signals.Collider2DSignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.Collider2DSignal.html#TirUtilities_Signals_Collider2DSignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.Collider2DSignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Collider2DSignal.RemoveReceiver
+  nameWithType: Collider2DSignal.RemoveReceiver
+- uid: TirUtilities.Signals.ColliderSignal
+  name: ColliderSignal
+  href: api/TirUtilities.Signals.ColliderSignal.html
+  commentId: T:TirUtilities.Signals.ColliderSignal
+  fullName: TirUtilities.Signals.ColliderSignal
+  nameWithType: ColliderSignal
+- uid: TirUtilities.Signals.ColliderSignal.AddReceiver(UnityAction{Collider})
+  name: AddReceiver(UnityAction<Collider>)
+  href: api/TirUtilities.Signals.ColliderSignal.html#TirUtilities_Signals_ColliderSignal_AddReceiver_UnityAction_Collider__
+  commentId: M:TirUtilities.Signals.ColliderSignal.AddReceiver(UnityAction{Collider})
+  name.vb: AddReceiver(UnityAction(Of Collider))
+  fullName: TirUtilities.Signals.ColliderSignal.AddReceiver(UnityAction<Collider>)
+  fullName.vb: TirUtilities.Signals.ColliderSignal.AddReceiver(UnityAction(Of Collider))
+  nameWithType: ColliderSignal.AddReceiver(UnityAction<Collider>)
+  nameWithType.vb: ColliderSignal.AddReceiver(UnityAction(Of Collider))
+- uid: TirUtilities.Signals.ColliderSignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.ColliderSignal.html#TirUtilities_Signals_ColliderSignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.ColliderSignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.ColliderSignal.AddReceiver
+  nameWithType: ColliderSignal.AddReceiver
+- uid: TirUtilities.Signals.ColliderSignal.Emit(Collider)
+  name: Emit(Collider)
+  href: api/TirUtilities.Signals.ColliderSignal.html#TirUtilities_Signals_ColliderSignal_Emit_Collider_
+  commentId: M:TirUtilities.Signals.ColliderSignal.Emit(Collider)
+  fullName: TirUtilities.Signals.ColliderSignal.Emit(Collider)
+  nameWithType: ColliderSignal.Emit(Collider)
+- uid: TirUtilities.Signals.ColliderSignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.ColliderSignal.html#TirUtilities_Signals_ColliderSignal_Emit_
+  commentId: Overload:TirUtilities.Signals.ColliderSignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.ColliderSignal.Emit
+  nameWithType: ColliderSignal.Emit
+- uid: TirUtilities.Signals.ColliderSignal.RemoveReceiver(UnityAction{Collider})
+  name: RemoveReceiver(UnityAction<Collider>)
+  href: api/TirUtilities.Signals.ColliderSignal.html#TirUtilities_Signals_ColliderSignal_RemoveReceiver_UnityAction_Collider__
+  commentId: M:TirUtilities.Signals.ColliderSignal.RemoveReceiver(UnityAction{Collider})
+  name.vb: RemoveReceiver(UnityAction(Of Collider))
+  fullName: TirUtilities.Signals.ColliderSignal.RemoveReceiver(UnityAction<Collider>)
+  fullName.vb: TirUtilities.Signals.ColliderSignal.RemoveReceiver(UnityAction(Of Collider))
+  nameWithType: ColliderSignal.RemoveReceiver(UnityAction<Collider>)
+  nameWithType.vb: ColliderSignal.RemoveReceiver(UnityAction(Of Collider))
+- uid: TirUtilities.Signals.ColliderSignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.ColliderSignal.html#TirUtilities_Signals_ColliderSignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.ColliderSignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.ColliderSignal.RemoveReceiver
+  nameWithType: ColliderSignal.RemoveReceiver
+- uid: TirUtilities.Signals.Collision2DSignal
+  name: Collision2DSignal
+  href: api/TirUtilities.Signals.Collision2DSignal.html
+  commentId: T:TirUtilities.Signals.Collision2DSignal
+  fullName: TirUtilities.Signals.Collision2DSignal
+  nameWithType: Collision2DSignal
+- uid: TirUtilities.Signals.Collision2DSignal.AddReceiver(UnityAction{Collision2D})
+  name: AddReceiver(UnityAction<Collision2D>)
+  href: api/TirUtilities.Signals.Collision2DSignal.html#TirUtilities_Signals_Collision2DSignal_AddReceiver_UnityAction_Collision2D__
+  commentId: M:TirUtilities.Signals.Collision2DSignal.AddReceiver(UnityAction{Collision2D})
+  name.vb: AddReceiver(UnityAction(Of Collision2D))
+  fullName: TirUtilities.Signals.Collision2DSignal.AddReceiver(UnityAction<Collision2D>)
+  fullName.vb: TirUtilities.Signals.Collision2DSignal.AddReceiver(UnityAction(Of Collision2D))
+  nameWithType: Collision2DSignal.AddReceiver(UnityAction<Collision2D>)
+  nameWithType.vb: Collision2DSignal.AddReceiver(UnityAction(Of Collision2D))
+- uid: TirUtilities.Signals.Collision2DSignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.Collision2DSignal.html#TirUtilities_Signals_Collision2DSignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.Collision2DSignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Collision2DSignal.AddReceiver
+  nameWithType: Collision2DSignal.AddReceiver
+- uid: TirUtilities.Signals.Collision2DSignal.Emit(Collision2D)
+  name: Emit(Collision2D)
+  href: api/TirUtilities.Signals.Collision2DSignal.html#TirUtilities_Signals_Collision2DSignal_Emit_Collision2D_
+  commentId: M:TirUtilities.Signals.Collision2DSignal.Emit(Collision2D)
+  fullName: TirUtilities.Signals.Collision2DSignal.Emit(Collision2D)
+  nameWithType: Collision2DSignal.Emit(Collision2D)
+- uid: TirUtilities.Signals.Collision2DSignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.Collision2DSignal.html#TirUtilities_Signals_Collision2DSignal_Emit_
+  commentId: Overload:TirUtilities.Signals.Collision2DSignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Collision2DSignal.Emit
+  nameWithType: Collision2DSignal.Emit
+- uid: TirUtilities.Signals.Collision2DSignal.RemoveReceiver(UnityAction{Collision2D})
+  name: RemoveReceiver(UnityAction<Collision2D>)
+  href: api/TirUtilities.Signals.Collision2DSignal.html#TirUtilities_Signals_Collision2DSignal_RemoveReceiver_UnityAction_Collision2D__
+  commentId: M:TirUtilities.Signals.Collision2DSignal.RemoveReceiver(UnityAction{Collision2D})
+  name.vb: RemoveReceiver(UnityAction(Of Collision2D))
+  fullName: TirUtilities.Signals.Collision2DSignal.RemoveReceiver(UnityAction<Collision2D>)
+  fullName.vb: TirUtilities.Signals.Collision2DSignal.RemoveReceiver(UnityAction(Of Collision2D))
+  nameWithType: Collision2DSignal.RemoveReceiver(UnityAction<Collision2D>)
+  nameWithType.vb: Collision2DSignal.RemoveReceiver(UnityAction(Of Collision2D))
+- uid: TirUtilities.Signals.Collision2DSignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.Collision2DSignal.html#TirUtilities_Signals_Collision2DSignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.Collision2DSignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Collision2DSignal.RemoveReceiver
+  nameWithType: Collision2DSignal.RemoveReceiver
+- uid: TirUtilities.Signals.CollisionSignal
+  name: CollisionSignal
+  href: api/TirUtilities.Signals.CollisionSignal.html
+  commentId: T:TirUtilities.Signals.CollisionSignal
+  fullName: TirUtilities.Signals.CollisionSignal
+  nameWithType: CollisionSignal
+- uid: TirUtilities.Signals.CollisionSignal.AddReceiver(UnityAction{Collision})
+  name: AddReceiver(UnityAction<Collision>)
+  href: api/TirUtilities.Signals.CollisionSignal.html#TirUtilities_Signals_CollisionSignal_AddReceiver_UnityAction_Collision__
+  commentId: M:TirUtilities.Signals.CollisionSignal.AddReceiver(UnityAction{Collision})
+  name.vb: AddReceiver(UnityAction(Of Collision))
+  fullName: TirUtilities.Signals.CollisionSignal.AddReceiver(UnityAction<Collision>)
+  fullName.vb: TirUtilities.Signals.CollisionSignal.AddReceiver(UnityAction(Of Collision))
+  nameWithType: CollisionSignal.AddReceiver(UnityAction<Collision>)
+  nameWithType.vb: CollisionSignal.AddReceiver(UnityAction(Of Collision))
+- uid: TirUtilities.Signals.CollisionSignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.CollisionSignal.html#TirUtilities_Signals_CollisionSignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.CollisionSignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.CollisionSignal.AddReceiver
+  nameWithType: CollisionSignal.AddReceiver
+- uid: TirUtilities.Signals.CollisionSignal.Emit(Collision)
+  name: Emit(Collision)
+  href: api/TirUtilities.Signals.CollisionSignal.html#TirUtilities_Signals_CollisionSignal_Emit_Collision_
+  commentId: M:TirUtilities.Signals.CollisionSignal.Emit(Collision)
+  fullName: TirUtilities.Signals.CollisionSignal.Emit(Collision)
+  nameWithType: CollisionSignal.Emit(Collision)
+- uid: TirUtilities.Signals.CollisionSignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.CollisionSignal.html#TirUtilities_Signals_CollisionSignal_Emit_
+  commentId: Overload:TirUtilities.Signals.CollisionSignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.CollisionSignal.Emit
+  nameWithType: CollisionSignal.Emit
+- uid: TirUtilities.Signals.CollisionSignal.RemoveReceiver(UnityAction{Collision})
+  name: RemoveReceiver(UnityAction<Collision>)
+  href: api/TirUtilities.Signals.CollisionSignal.html#TirUtilities_Signals_CollisionSignal_RemoveReceiver_UnityAction_Collision__
+  commentId: M:TirUtilities.Signals.CollisionSignal.RemoveReceiver(UnityAction{Collision})
+  name.vb: RemoveReceiver(UnityAction(Of Collision))
+  fullName: TirUtilities.Signals.CollisionSignal.RemoveReceiver(UnityAction<Collision>)
+  fullName.vb: TirUtilities.Signals.CollisionSignal.RemoveReceiver(UnityAction(Of Collision))
+  nameWithType: CollisionSignal.RemoveReceiver(UnityAction<Collision>)
+  nameWithType.vb: CollisionSignal.RemoveReceiver(UnityAction(Of Collision))
+- uid: TirUtilities.Signals.CollisionSignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.CollisionSignal.html#TirUtilities_Signals_CollisionSignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.CollisionSignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.CollisionSignal.RemoveReceiver
+  nameWithType: CollisionSignal.RemoveReceiver
 - uid: TirUtilities.Signals.FloatSignal
   name: FloatSignal
   href: api/TirUtilities.Signals.FloatSignal.html
   commentId: T:TirUtilities.Signals.FloatSignal
   fullName: TirUtilities.Signals.FloatSignal
   nameWithType: FloatSignal
-- uid: TirUtilities.Signals.FloatSignal._OnEmit
-  name: _OnEmit
-  href: api/TirUtilities.Signals.FloatSignal.html#TirUtilities_Signals_FloatSignal__OnEmit
-  commentId: F:TirUtilities.Signals.FloatSignal._OnEmit
-  fullName: TirUtilities.Signals.FloatSignal._OnEmit
-  nameWithType: FloatSignal._OnEmit
 - uid: TirUtilities.Signals.FloatSignal.AddReceiver(UnityAction{System.Single})
   name: AddReceiver(UnityAction<Single>)
   href: api/TirUtilities.Signals.FloatSignal.html#TirUtilities_Signals_FloatSignal_AddReceiver_UnityAction_System_Single__
@@ -3097,12 +3714,6 @@ references:
   commentId: T:TirUtilities.Signals.GameObjectSignal
   fullName: TirUtilities.Signals.GameObjectSignal
   nameWithType: GameObjectSignal
-- uid: TirUtilities.Signals.GameObjectSignal._OnEmit
-  name: _OnEmit
-  href: api/TirUtilities.Signals.GameObjectSignal.html#TirUtilities_Signals_GameObjectSignal__OnEmit
-  commentId: F:TirUtilities.Signals.GameObjectSignal._OnEmit
-  fullName: TirUtilities.Signals.GameObjectSignal._OnEmit
-  nameWithType: GameObjectSignal._OnEmit
 - uid: TirUtilities.Signals.GameObjectSignal.AddReceiver(UnityAction{GameObject})
   name: AddReceiver(UnityAction<GameObject>)
   href: api/TirUtilities.Signals.GameObjectSignal.html#TirUtilities_Signals_GameObjectSignal_AddReceiver_UnityAction_GameObject__
@@ -3154,12 +3765,6 @@ references:
   commentId: T:TirUtilities.Signals.IntSignal
   fullName: TirUtilities.Signals.IntSignal
   nameWithType: IntSignal
-- uid: TirUtilities.Signals.IntSignal._OnEmit
-  name: _OnEmit
-  href: api/TirUtilities.Signals.IntSignal.html#TirUtilities_Signals_IntSignal__OnEmit
-  commentId: F:TirUtilities.Signals.IntSignal._OnEmit
-  fullName: TirUtilities.Signals.IntSignal._OnEmit
-  nameWithType: IntSignal._OnEmit
 - uid: TirUtilities.Signals.IntSignal.AddReceiver(UnityAction{System.Int32})
   name: AddReceiver(UnityAction<Int32>)
   href: api/TirUtilities.Signals.IntSignal.html#TirUtilities_Signals_IntSignal_AddReceiver_UnityAction_System_Int32__
@@ -3374,18 +3979,74 @@ references:
   fullName.vb: TirUtilities.Signals.ISignal(Of T0, T1).RemoveReceiver
   nameWithType: ISignal<T0, T1>.RemoveReceiver
   nameWithType.vb: ISignal(Of T0, T1).RemoveReceiver
+- uid: TirUtilities.Signals.ISignal`3
+  name: ISignal<T0, T1, T2>
+  href: api/TirUtilities.Signals.ISignal-3.html
+  commentId: T:TirUtilities.Signals.ISignal`3
+  name.vb: ISignal(Of T0, T1, T2)
+  fullName: TirUtilities.Signals.ISignal<T0, T1, T2>
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0, T1, T2)
+  nameWithType: ISignal<T0, T1, T2>
+  nameWithType.vb: ISignal(Of T0, T1, T2)
+- uid: TirUtilities.Signals.ISignal`3.AddReceiver(UnityAction{`0,`1,`2})
+  name: AddReceiver(UnityAction<T0, T1, T2>)
+  href: api/TirUtilities.Signals.ISignal-3.html#TirUtilities_Signals_ISignal_3_AddReceiver_UnityAction__0__1__2__
+  commentId: M:TirUtilities.Signals.ISignal`3.AddReceiver(UnityAction{`0,`1,`2})
+  name.vb: AddReceiver(UnityAction(Of T0, T1, T2))
+  fullName: TirUtilities.Signals.ISignal<T0, T1, T2>.AddReceiver(UnityAction<T0, T1, T2>)
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0, T1, T2).AddReceiver(UnityAction(Of T0, T1, T2))
+  nameWithType: ISignal<T0, T1, T2>.AddReceiver(UnityAction<T0, T1, T2>)
+  nameWithType.vb: ISignal(Of T0, T1, T2).AddReceiver(UnityAction(Of T0, T1, T2))
+- uid: TirUtilities.Signals.ISignal`3.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.ISignal-3.html#TirUtilities_Signals_ISignal_3_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.ISignal`3.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.ISignal<T0, T1, T2>.AddReceiver
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0, T1, T2).AddReceiver
+  nameWithType: ISignal<T0, T1, T2>.AddReceiver
+  nameWithType.vb: ISignal(Of T0, T1, T2).AddReceiver
+- uid: TirUtilities.Signals.ISignal`3.Emit(`0,`1,`2)
+  name: Emit(T0, T1, T2)
+  href: api/TirUtilities.Signals.ISignal-3.html#TirUtilities_Signals_ISignal_3_Emit__0__1__2_
+  commentId: M:TirUtilities.Signals.ISignal`3.Emit(`0,`1,`2)
+  fullName: TirUtilities.Signals.ISignal<T0, T1, T2>.Emit(T0, T1, T2)
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0, T1, T2).Emit(T0, T1, T2)
+  nameWithType: ISignal<T0, T1, T2>.Emit(T0, T1, T2)
+  nameWithType.vb: ISignal(Of T0, T1, T2).Emit(T0, T1, T2)
+- uid: TirUtilities.Signals.ISignal`3.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.ISignal-3.html#TirUtilities_Signals_ISignal_3_Emit_
+  commentId: Overload:TirUtilities.Signals.ISignal`3.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.ISignal<T0, T1, T2>.Emit
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0, T1, T2).Emit
+  nameWithType: ISignal<T0, T1, T2>.Emit
+  nameWithType.vb: ISignal(Of T0, T1, T2).Emit
+- uid: TirUtilities.Signals.ISignal`3.RemoveReceiver(UnityAction{`0,`1,`2})
+  name: RemoveReceiver(UnityAction<T0, T1, T2>)
+  href: api/TirUtilities.Signals.ISignal-3.html#TirUtilities_Signals_ISignal_3_RemoveReceiver_UnityAction__0__1__2__
+  commentId: M:TirUtilities.Signals.ISignal`3.RemoveReceiver(UnityAction{`0,`1,`2})
+  name.vb: RemoveReceiver(UnityAction(Of T0, T1, T2))
+  fullName: TirUtilities.Signals.ISignal<T0, T1, T2>.RemoveReceiver(UnityAction<T0, T1, T2>)
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0, T1, T2).RemoveReceiver(UnityAction(Of T0, T1, T2))
+  nameWithType: ISignal<T0, T1, T2>.RemoveReceiver(UnityAction<T0, T1, T2>)
+  nameWithType.vb: ISignal(Of T0, T1, T2).RemoveReceiver(UnityAction(Of T0, T1, T2))
+- uid: TirUtilities.Signals.ISignal`3.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.ISignal-3.html#TirUtilities_Signals_ISignal_3_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.ISignal`3.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.ISignal<T0, T1, T2>.RemoveReceiver
+  fullName.vb: TirUtilities.Signals.ISignal(Of T0, T1, T2).RemoveReceiver
+  nameWithType: ISignal<T0, T1, T2>.RemoveReceiver
+  nameWithType.vb: ISignal(Of T0, T1, T2).RemoveReceiver
 - uid: TirUtilities.Signals.LevelLoadSignal
   name: LevelLoadSignal
   href: api/TirUtilities.Signals.LevelLoadSignal.html
   commentId: T:TirUtilities.Signals.LevelLoadSignal
   fullName: TirUtilities.Signals.LevelLoadSignal
   nameWithType: LevelLoadSignal
-- uid: TirUtilities.Signals.LevelLoadSignal._OnEmit
-  name: _OnEmit
-  href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal__OnEmit
-  commentId: F:TirUtilities.Signals.LevelLoadSignal._OnEmit
-  fullName: TirUtilities.Signals.LevelLoadSignal._OnEmit
-  nameWithType: LevelLoadSignal._OnEmit
 - uid: TirUtilities.Signals.LevelLoadSignal.ActiveScene
   name: ActiveScene
   href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_ActiveScene
@@ -3463,18 +4124,165 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver
   nameWithType: LevelLoadSignal.RemoveReceiver
+- uid: TirUtilities.Signals.QuaternionSignal
+  name: QuaternionSignal
+  href: api/TirUtilities.Signals.QuaternionSignal.html
+  commentId: T:TirUtilities.Signals.QuaternionSignal
+  fullName: TirUtilities.Signals.QuaternionSignal
+  nameWithType: QuaternionSignal
+- uid: TirUtilities.Signals.QuaternionSignal.AddReceiver(UnityAction{Quaternion})
+  name: AddReceiver(UnityAction<Quaternion>)
+  href: api/TirUtilities.Signals.QuaternionSignal.html#TirUtilities_Signals_QuaternionSignal_AddReceiver_UnityAction_Quaternion__
+  commentId: M:TirUtilities.Signals.QuaternionSignal.AddReceiver(UnityAction{Quaternion})
+  name.vb: AddReceiver(UnityAction(Of Quaternion))
+  fullName: TirUtilities.Signals.QuaternionSignal.AddReceiver(UnityAction<Quaternion>)
+  fullName.vb: TirUtilities.Signals.QuaternionSignal.AddReceiver(UnityAction(Of Quaternion))
+  nameWithType: QuaternionSignal.AddReceiver(UnityAction<Quaternion>)
+  nameWithType.vb: QuaternionSignal.AddReceiver(UnityAction(Of Quaternion))
+- uid: TirUtilities.Signals.QuaternionSignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.QuaternionSignal.html#TirUtilities_Signals_QuaternionSignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.QuaternionSignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.QuaternionSignal.AddReceiver
+  nameWithType: QuaternionSignal.AddReceiver
+- uid: TirUtilities.Signals.QuaternionSignal.Emit(Quaternion)
+  name: Emit(Quaternion)
+  href: api/TirUtilities.Signals.QuaternionSignal.html#TirUtilities_Signals_QuaternionSignal_Emit_Quaternion_
+  commentId: M:TirUtilities.Signals.QuaternionSignal.Emit(Quaternion)
+  fullName: TirUtilities.Signals.QuaternionSignal.Emit(Quaternion)
+  nameWithType: QuaternionSignal.Emit(Quaternion)
+- uid: TirUtilities.Signals.QuaternionSignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.QuaternionSignal.html#TirUtilities_Signals_QuaternionSignal_Emit_
+  commentId: Overload:TirUtilities.Signals.QuaternionSignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.QuaternionSignal.Emit
+  nameWithType: QuaternionSignal.Emit
+- uid: TirUtilities.Signals.QuaternionSignal.RemoveReceiver(UnityAction{Quaternion})
+  name: RemoveReceiver(UnityAction<Quaternion>)
+  href: api/TirUtilities.Signals.QuaternionSignal.html#TirUtilities_Signals_QuaternionSignal_RemoveReceiver_UnityAction_Quaternion__
+  commentId: M:TirUtilities.Signals.QuaternionSignal.RemoveReceiver(UnityAction{Quaternion})
+  name.vb: RemoveReceiver(UnityAction(Of Quaternion))
+  fullName: TirUtilities.Signals.QuaternionSignal.RemoveReceiver(UnityAction<Quaternion>)
+  fullName.vb: TirUtilities.Signals.QuaternionSignal.RemoveReceiver(UnityAction(Of Quaternion))
+  nameWithType: QuaternionSignal.RemoveReceiver(UnityAction<Quaternion>)
+  nameWithType.vb: QuaternionSignal.RemoveReceiver(UnityAction(Of Quaternion))
+- uid: TirUtilities.Signals.QuaternionSignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.QuaternionSignal.html#TirUtilities_Signals_QuaternionSignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.QuaternionSignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.QuaternionSignal.RemoveReceiver
+  nameWithType: QuaternionSignal.RemoveReceiver
+- uid: TirUtilities.Signals.Rigidbody2DSignal
+  name: Rigidbody2DSignal
+  href: api/TirUtilities.Signals.Rigidbody2DSignal.html
+  commentId: T:TirUtilities.Signals.Rigidbody2DSignal
+  fullName: TirUtilities.Signals.Rigidbody2DSignal
+  nameWithType: Rigidbody2DSignal
+- uid: TirUtilities.Signals.Rigidbody2DSignal.AddReceiver(UnityAction{Rigidbody2D})
+  name: AddReceiver(UnityAction<Rigidbody2D>)
+  href: api/TirUtilities.Signals.Rigidbody2DSignal.html#TirUtilities_Signals_Rigidbody2DSignal_AddReceiver_UnityAction_Rigidbody2D__
+  commentId: M:TirUtilities.Signals.Rigidbody2DSignal.AddReceiver(UnityAction{Rigidbody2D})
+  name.vb: AddReceiver(UnityAction(Of Rigidbody2D))
+  fullName: TirUtilities.Signals.Rigidbody2DSignal.AddReceiver(UnityAction<Rigidbody2D>)
+  fullName.vb: TirUtilities.Signals.Rigidbody2DSignal.AddReceiver(UnityAction(Of Rigidbody2D))
+  nameWithType: Rigidbody2DSignal.AddReceiver(UnityAction<Rigidbody2D>)
+  nameWithType.vb: Rigidbody2DSignal.AddReceiver(UnityAction(Of Rigidbody2D))
+- uid: TirUtilities.Signals.Rigidbody2DSignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.Rigidbody2DSignal.html#TirUtilities_Signals_Rigidbody2DSignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.Rigidbody2DSignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Rigidbody2DSignal.AddReceiver
+  nameWithType: Rigidbody2DSignal.AddReceiver
+- uid: TirUtilities.Signals.Rigidbody2DSignal.Emit(Rigidbody2D)
+  name: Emit(Rigidbody2D)
+  href: api/TirUtilities.Signals.Rigidbody2DSignal.html#TirUtilities_Signals_Rigidbody2DSignal_Emit_Rigidbody2D_
+  commentId: M:TirUtilities.Signals.Rigidbody2DSignal.Emit(Rigidbody2D)
+  fullName: TirUtilities.Signals.Rigidbody2DSignal.Emit(Rigidbody2D)
+  nameWithType: Rigidbody2DSignal.Emit(Rigidbody2D)
+- uid: TirUtilities.Signals.Rigidbody2DSignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.Rigidbody2DSignal.html#TirUtilities_Signals_Rigidbody2DSignal_Emit_
+  commentId: Overload:TirUtilities.Signals.Rigidbody2DSignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Rigidbody2DSignal.Emit
+  nameWithType: Rigidbody2DSignal.Emit
+- uid: TirUtilities.Signals.Rigidbody2DSignal.RemoveReceiver(UnityAction{Rigidbody2D})
+  name: RemoveReceiver(UnityAction<Rigidbody2D>)
+  href: api/TirUtilities.Signals.Rigidbody2DSignal.html#TirUtilities_Signals_Rigidbody2DSignal_RemoveReceiver_UnityAction_Rigidbody2D__
+  commentId: M:TirUtilities.Signals.Rigidbody2DSignal.RemoveReceiver(UnityAction{Rigidbody2D})
+  name.vb: RemoveReceiver(UnityAction(Of Rigidbody2D))
+  fullName: TirUtilities.Signals.Rigidbody2DSignal.RemoveReceiver(UnityAction<Rigidbody2D>)
+  fullName.vb: TirUtilities.Signals.Rigidbody2DSignal.RemoveReceiver(UnityAction(Of Rigidbody2D))
+  nameWithType: Rigidbody2DSignal.RemoveReceiver(UnityAction<Rigidbody2D>)
+  nameWithType.vb: Rigidbody2DSignal.RemoveReceiver(UnityAction(Of Rigidbody2D))
+- uid: TirUtilities.Signals.Rigidbody2DSignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.Rigidbody2DSignal.html#TirUtilities_Signals_Rigidbody2DSignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.Rigidbody2DSignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Rigidbody2DSignal.RemoveReceiver
+  nameWithType: Rigidbody2DSignal.RemoveReceiver
+- uid: TirUtilities.Signals.RigidbodySignal
+  name: RigidbodySignal
+  href: api/TirUtilities.Signals.RigidbodySignal.html
+  commentId: T:TirUtilities.Signals.RigidbodySignal
+  fullName: TirUtilities.Signals.RigidbodySignal
+  nameWithType: RigidbodySignal
+- uid: TirUtilities.Signals.RigidbodySignal.AddReceiver(UnityAction{Rigidbody})
+  name: AddReceiver(UnityAction<Rigidbody>)
+  href: api/TirUtilities.Signals.RigidbodySignal.html#TirUtilities_Signals_RigidbodySignal_AddReceiver_UnityAction_Rigidbody__
+  commentId: M:TirUtilities.Signals.RigidbodySignal.AddReceiver(UnityAction{Rigidbody})
+  name.vb: AddReceiver(UnityAction(Of Rigidbody))
+  fullName: TirUtilities.Signals.RigidbodySignal.AddReceiver(UnityAction<Rigidbody>)
+  fullName.vb: TirUtilities.Signals.RigidbodySignal.AddReceiver(UnityAction(Of Rigidbody))
+  nameWithType: RigidbodySignal.AddReceiver(UnityAction<Rigidbody>)
+  nameWithType.vb: RigidbodySignal.AddReceiver(UnityAction(Of Rigidbody))
+- uid: TirUtilities.Signals.RigidbodySignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.RigidbodySignal.html#TirUtilities_Signals_RigidbodySignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.RigidbodySignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.RigidbodySignal.AddReceiver
+  nameWithType: RigidbodySignal.AddReceiver
+- uid: TirUtilities.Signals.RigidbodySignal.Emit(Rigidbody)
+  name: Emit(Rigidbody)
+  href: api/TirUtilities.Signals.RigidbodySignal.html#TirUtilities_Signals_RigidbodySignal_Emit_Rigidbody_
+  commentId: M:TirUtilities.Signals.RigidbodySignal.Emit(Rigidbody)
+  fullName: TirUtilities.Signals.RigidbodySignal.Emit(Rigidbody)
+  nameWithType: RigidbodySignal.Emit(Rigidbody)
+- uid: TirUtilities.Signals.RigidbodySignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.RigidbodySignal.html#TirUtilities_Signals_RigidbodySignal_Emit_
+  commentId: Overload:TirUtilities.Signals.RigidbodySignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.RigidbodySignal.Emit
+  nameWithType: RigidbodySignal.Emit
+- uid: TirUtilities.Signals.RigidbodySignal.RemoveReceiver(UnityAction{Rigidbody})
+  name: RemoveReceiver(UnityAction<Rigidbody>)
+  href: api/TirUtilities.Signals.RigidbodySignal.html#TirUtilities_Signals_RigidbodySignal_RemoveReceiver_UnityAction_Rigidbody__
+  commentId: M:TirUtilities.Signals.RigidbodySignal.RemoveReceiver(UnityAction{Rigidbody})
+  name.vb: RemoveReceiver(UnityAction(Of Rigidbody))
+  fullName: TirUtilities.Signals.RigidbodySignal.RemoveReceiver(UnityAction<Rigidbody>)
+  fullName.vb: TirUtilities.Signals.RigidbodySignal.RemoveReceiver(UnityAction(Of Rigidbody))
+  nameWithType: RigidbodySignal.RemoveReceiver(UnityAction<Rigidbody>)
+  nameWithType.vb: RigidbodySignal.RemoveReceiver(UnityAction(Of Rigidbody))
+- uid: TirUtilities.Signals.RigidbodySignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.RigidbodySignal.html#TirUtilities_Signals_RigidbodySignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.RigidbodySignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.RigidbodySignal.RemoveReceiver
+  nameWithType: RigidbodySignal.RemoveReceiver
 - uid: TirUtilities.Signals.Signal
   name: Signal
   href: api/TirUtilities.Signals.Signal.html
   commentId: T:TirUtilities.Signals.Signal
   fullName: TirUtilities.Signals.Signal
   nameWithType: Signal
-- uid: TirUtilities.Signals.Signal._OnEmit
-  name: _OnEmit
-  href: api/TirUtilities.Signals.Signal.html#TirUtilities_Signals_Signal__OnEmit
-  commentId: F:TirUtilities.Signals.Signal._OnEmit
-  fullName: TirUtilities.Signals.Signal._OnEmit
-  nameWithType: Signal._OnEmit
 - uid: TirUtilities.Signals.Signal.AddReceiver(UnityAction)
   name: AddReceiver(UnityAction)
   href: api/TirUtilities.Signals.Signal.html#TirUtilities_Signals_Signal_AddReceiver_UnityAction_
@@ -3526,6 +4334,12 @@ references:
   commentId: F:TirUtilities.Signals.SignalBase._description
   fullName: TirUtilities.Signals.SignalBase._description
   nameWithType: SignalBase._description
+- uid: TirUtilities.Signals.SignalBase._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.SignalBase.html#TirUtilities_Signals_SignalBase__OnEmit
+  commentId: F:TirUtilities.Signals.SignalBase._OnEmit
+  fullName: TirUtilities.Signals.SignalBase._OnEmit
+  nameWithType: SignalBase._OnEmit
 - uid: TirUtilities.Signals.SignalBase.Description
   name: Description
   href: api/TirUtilities.Signals.SignalBase.html#TirUtilities_Signals_SignalBase_Description
@@ -3539,24 +4353,195 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Signals.SignalBase.Description
   nameWithType: SignalBase.Description
+- uid: TirUtilities.Signals.SignalBase`1
+  name: SignalBase<T0>
+  href: api/TirUtilities.Signals.SignalBase-1.html
+  commentId: T:TirUtilities.Signals.SignalBase`1
+  name.vb: SignalBase(Of T0)
+  fullName: TirUtilities.Signals.SignalBase<T0>
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0)
+  nameWithType: SignalBase<T0>
+  nameWithType.vb: SignalBase(Of T0)
+- uid: TirUtilities.Signals.SignalBase`1._description
+  name: _description
+  href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1__description
+  commentId: F:TirUtilities.Signals.SignalBase`1._description
+  fullName: TirUtilities.Signals.SignalBase<T0>._description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0)._description
+  nameWithType: SignalBase<T0>._description
+  nameWithType.vb: SignalBase(Of T0)._description
+- uid: TirUtilities.Signals.SignalBase`1._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1__OnEmit
+  commentId: F:TirUtilities.Signals.SignalBase`1._OnEmit
+  fullName: TirUtilities.Signals.SignalBase<T0>._OnEmit
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0)._OnEmit
+  nameWithType: SignalBase<T0>._OnEmit
+  nameWithType.vb: SignalBase(Of T0)._OnEmit
+- uid: TirUtilities.Signals.SignalBase`1.Description
+  name: Description
+  href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1_Description
+  commentId: P:TirUtilities.Signals.SignalBase`1.Description
+  fullName: TirUtilities.Signals.SignalBase<T0>.Description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0).Description
+  nameWithType: SignalBase<T0>.Description
+  nameWithType.vb: SignalBase(Of T0).Description
+- uid: TirUtilities.Signals.SignalBase`1.Description*
+  name: Description
+  href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1_Description_
+  commentId: Overload:TirUtilities.Signals.SignalBase`1.Description
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0>.Description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0).Description
+  nameWithType: SignalBase<T0>.Description
+  nameWithType.vb: SignalBase(Of T0).Description
+- uid: TirUtilities.Signals.SignalBase`2
+  name: SignalBase<T0, T1>
+  href: api/TirUtilities.Signals.SignalBase-2.html
+  commentId: T:TirUtilities.Signals.SignalBase`2
+  name.vb: SignalBase(Of T0, T1)
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1)
+  nameWithType: SignalBase<T0, T1>
+  nameWithType.vb: SignalBase(Of T0, T1)
+- uid: TirUtilities.Signals.SignalBase`2._description
+  name: _description
+  href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2__description
+  commentId: F:TirUtilities.Signals.SignalBase`2._description
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>._description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1)._description
+  nameWithType: SignalBase<T0, T1>._description
+  nameWithType.vb: SignalBase(Of T0, T1)._description
+- uid: TirUtilities.Signals.SignalBase`2._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2__OnEmit
+  commentId: F:TirUtilities.Signals.SignalBase`2._OnEmit
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>._OnEmit
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1)._OnEmit
+  nameWithType: SignalBase<T0, T1>._OnEmit
+  nameWithType.vb: SignalBase(Of T0, T1)._OnEmit
+- uid: TirUtilities.Signals.SignalBase`2.Description
+  name: Description
+  href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2_Description
+  commentId: P:TirUtilities.Signals.SignalBase`2.Description
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>.Description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1).Description
+  nameWithType: SignalBase<T0, T1>.Description
+  nameWithType.vb: SignalBase(Of T0, T1).Description
+- uid: TirUtilities.Signals.SignalBase`2.Description*
+  name: Description
+  href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2_Description_
+  commentId: Overload:TirUtilities.Signals.SignalBase`2.Description
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>.Description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1).Description
+  nameWithType: SignalBase<T0, T1>.Description
+  nameWithType.vb: SignalBase(Of T0, T1).Description
+- uid: TirUtilities.Signals.SignalBase`3
+  name: SignalBase<T0, T1, T2>
+  href: api/TirUtilities.Signals.SignalBase-3.html
+  commentId: T:TirUtilities.Signals.SignalBase`3
+  name.vb: SignalBase(Of T0, T1, T2)
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2)
+  nameWithType: SignalBase<T0, T1, T2>
+  nameWithType.vb: SignalBase(Of T0, T1, T2)
+- uid: TirUtilities.Signals.SignalBase`3._description
+  name: _description
+  href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3__description
+  commentId: F:TirUtilities.Signals.SignalBase`3._description
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>._description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2)._description
+  nameWithType: SignalBase<T0, T1, T2>._description
+  nameWithType.vb: SignalBase(Of T0, T1, T2)._description
+- uid: TirUtilities.Signals.SignalBase`3._OnEmit
+  name: _OnEmit
+  href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3__OnEmit
+  commentId: F:TirUtilities.Signals.SignalBase`3._OnEmit
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>._OnEmit
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2)._OnEmit
+  nameWithType: SignalBase<T0, T1, T2>._OnEmit
+  nameWithType.vb: SignalBase(Of T0, T1, T2)._OnEmit
+- uid: TirUtilities.Signals.SignalBase`3.Description
+  name: Description
+  href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3_Description
+  commentId: P:TirUtilities.Signals.SignalBase`3.Description
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>.Description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2).Description
+  nameWithType: SignalBase<T0, T1, T2>.Description
+  nameWithType.vb: SignalBase(Of T0, T1, T2).Description
+- uid: TirUtilities.Signals.SignalBase`3.Description*
+  name: Description
+  href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3_Description_
+  commentId: Overload:TirUtilities.Signals.SignalBase`3.Description
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>.Description
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2).Description
+  nameWithType: SignalBase<T0, T1, T2>.Description
+  nameWithType.vb: SignalBase(Of T0, T1, T2).Description
 - uid: TirUtilities.Signals.SignalReceiver
   name: SignalReceiver
   href: api/TirUtilities.Signals.SignalReceiver.html
   commentId: T:TirUtilities.Signals.SignalReceiver
   fullName: TirUtilities.Signals.SignalReceiver
   nameWithType: SignalReceiver
+- uid: TirUtilities.Signals.SpriteSignal
+  name: SpriteSignal
+  href: api/TirUtilities.Signals.SpriteSignal.html
+  commentId: T:TirUtilities.Signals.SpriteSignal
+  fullName: TirUtilities.Signals.SpriteSignal
+  nameWithType: SpriteSignal
+- uid: TirUtilities.Signals.SpriteSignal.AddReceiver(UnityAction{Sprite})
+  name: AddReceiver(UnityAction<Sprite>)
+  href: api/TirUtilities.Signals.SpriteSignal.html#TirUtilities_Signals_SpriteSignal_AddReceiver_UnityAction_Sprite__
+  commentId: M:TirUtilities.Signals.SpriteSignal.AddReceiver(UnityAction{Sprite})
+  name.vb: AddReceiver(UnityAction(Of Sprite))
+  fullName: TirUtilities.Signals.SpriteSignal.AddReceiver(UnityAction<Sprite>)
+  fullName.vb: TirUtilities.Signals.SpriteSignal.AddReceiver(UnityAction(Of Sprite))
+  nameWithType: SpriteSignal.AddReceiver(UnityAction<Sprite>)
+  nameWithType.vb: SpriteSignal.AddReceiver(UnityAction(Of Sprite))
+- uid: TirUtilities.Signals.SpriteSignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.SpriteSignal.html#TirUtilities_Signals_SpriteSignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.SpriteSignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SpriteSignal.AddReceiver
+  nameWithType: SpriteSignal.AddReceiver
+- uid: TirUtilities.Signals.SpriteSignal.Emit(Sprite)
+  name: Emit(Sprite)
+  href: api/TirUtilities.Signals.SpriteSignal.html#TirUtilities_Signals_SpriteSignal_Emit_Sprite_
+  commentId: M:TirUtilities.Signals.SpriteSignal.Emit(Sprite)
+  fullName: TirUtilities.Signals.SpriteSignal.Emit(Sprite)
+  nameWithType: SpriteSignal.Emit(Sprite)
+- uid: TirUtilities.Signals.SpriteSignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.SpriteSignal.html#TirUtilities_Signals_SpriteSignal_Emit_
+  commentId: Overload:TirUtilities.Signals.SpriteSignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SpriteSignal.Emit
+  nameWithType: SpriteSignal.Emit
+- uid: TirUtilities.Signals.SpriteSignal.RemoveReceiver(UnityAction{Sprite})
+  name: RemoveReceiver(UnityAction<Sprite>)
+  href: api/TirUtilities.Signals.SpriteSignal.html#TirUtilities_Signals_SpriteSignal_RemoveReceiver_UnityAction_Sprite__
+  commentId: M:TirUtilities.Signals.SpriteSignal.RemoveReceiver(UnityAction{Sprite})
+  name.vb: RemoveReceiver(UnityAction(Of Sprite))
+  fullName: TirUtilities.Signals.SpriteSignal.RemoveReceiver(UnityAction<Sprite>)
+  fullName.vb: TirUtilities.Signals.SpriteSignal.RemoveReceiver(UnityAction(Of Sprite))
+  nameWithType: SpriteSignal.RemoveReceiver(UnityAction<Sprite>)
+  nameWithType.vb: SpriteSignal.RemoveReceiver(UnityAction(Of Sprite))
+- uid: TirUtilities.Signals.SpriteSignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.SpriteSignal.html#TirUtilities_Signals_SpriteSignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.SpriteSignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SpriteSignal.RemoveReceiver
+  nameWithType: SpriteSignal.RemoveReceiver
 - uid: TirUtilities.Signals.StringSignal
   name: StringSignal
   href: api/TirUtilities.Signals.StringSignal.html
   commentId: T:TirUtilities.Signals.StringSignal
   fullName: TirUtilities.Signals.StringSignal
   nameWithType: StringSignal
-- uid: TirUtilities.Signals.StringSignal._OnEmit
-  name: _OnEmit
-  href: api/TirUtilities.Signals.StringSignal.html#TirUtilities_Signals_StringSignal__OnEmit
-  commentId: F:TirUtilities.Signals.StringSignal._OnEmit
-  fullName: TirUtilities.Signals.StringSignal._OnEmit
-  nameWithType: StringSignal._OnEmit
 - uid: TirUtilities.Signals.StringSignal.AddReceiver(UnityAction{System.String})
   name: AddReceiver(UnityAction<String>)
   href: api/TirUtilities.Signals.StringSignal.html#TirUtilities_Signals_StringSignal_AddReceiver_UnityAction_System_String__
@@ -3608,12 +4593,6 @@ references:
   commentId: T:TirUtilities.Signals.TransformSignal
   fullName: TirUtilities.Signals.TransformSignal
   nameWithType: TransformSignal
-- uid: TirUtilities.Signals.TransformSignal._OnEmit
-  name: _OnEmit
-  href: api/TirUtilities.Signals.TransformSignal.html#TirUtilities_Signals_TransformSignal__OnEmit
-  commentId: F:TirUtilities.Signals.TransformSignal._OnEmit
-  fullName: TirUtilities.Signals.TransformSignal._OnEmit
-  nameWithType: TransformSignal._OnEmit
 - uid: TirUtilities.Signals.TransformSignal.AddReceiver(UnityAction{Transform})
   name: AddReceiver(UnityAction<Transform>)
   href: api/TirUtilities.Signals.TransformSignal.html#TirUtilities_Signals_TransformSignal_AddReceiver_UnityAction_Transform__
@@ -3659,18 +4638,114 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Signals.TransformSignal.RemoveReceiver
   nameWithType: TransformSignal.RemoveReceiver
+- uid: TirUtilities.Signals.TriggerVolumeSignal
+  name: TriggerVolumeSignal
+  href: api/TirUtilities.Signals.TriggerVolumeSignal.html
+  commentId: T:TirUtilities.Signals.TriggerVolumeSignal
+  fullName: TirUtilities.Signals.TriggerVolumeSignal
+  nameWithType: TriggerVolumeSignal
+- uid: TirUtilities.Signals.TriggerVolumeSignal.AddReceiver(UnityAction{System.Boolean,GameObject})
+  name: AddReceiver(UnityAction<Boolean, GameObject>)
+  href: api/TirUtilities.Signals.TriggerVolumeSignal.html#TirUtilities_Signals_TriggerVolumeSignal_AddReceiver_UnityAction_System_Boolean_GameObject__
+  commentId: M:TirUtilities.Signals.TriggerVolumeSignal.AddReceiver(UnityAction{System.Boolean,GameObject})
+  name.vb: AddReceiver(UnityAction(Of Boolean, GameObject))
+  fullName: TirUtilities.Signals.TriggerVolumeSignal.AddReceiver(UnityAction<System.Boolean, GameObject>)
+  fullName.vb: TirUtilities.Signals.TriggerVolumeSignal.AddReceiver(UnityAction(Of System.Boolean, GameObject))
+  nameWithType: TriggerVolumeSignal.AddReceiver(UnityAction<Boolean, GameObject>)
+  nameWithType.vb: TriggerVolumeSignal.AddReceiver(UnityAction(Of Boolean, GameObject))
+- uid: TirUtilities.Signals.TriggerVolumeSignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.TriggerVolumeSignal.html#TirUtilities_Signals_TriggerVolumeSignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.TriggerVolumeSignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.TriggerVolumeSignal.AddReceiver
+  nameWithType: TriggerVolumeSignal.AddReceiver
+- uid: TirUtilities.Signals.TriggerVolumeSignal.Emit(System.Boolean,GameObject)
+  name: Emit(Boolean, GameObject)
+  href: api/TirUtilities.Signals.TriggerVolumeSignal.html#TirUtilities_Signals_TriggerVolumeSignal_Emit_System_Boolean_GameObject_
+  commentId: M:TirUtilities.Signals.TriggerVolumeSignal.Emit(System.Boolean,GameObject)
+  fullName: TirUtilities.Signals.TriggerVolumeSignal.Emit(System.Boolean, GameObject)
+  nameWithType: TriggerVolumeSignal.Emit(Boolean, GameObject)
+- uid: TirUtilities.Signals.TriggerVolumeSignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.TriggerVolumeSignal.html#TirUtilities_Signals_TriggerVolumeSignal_Emit_
+  commentId: Overload:TirUtilities.Signals.TriggerVolumeSignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.TriggerVolumeSignal.Emit
+  nameWithType: TriggerVolumeSignal.Emit
+- uid: TirUtilities.Signals.TriggerVolumeSignal.RemoveReceiver(UnityAction{System.Boolean,GameObject})
+  name: RemoveReceiver(UnityAction<Boolean, GameObject>)
+  href: api/TirUtilities.Signals.TriggerVolumeSignal.html#TirUtilities_Signals_TriggerVolumeSignal_RemoveReceiver_UnityAction_System_Boolean_GameObject__
+  commentId: M:TirUtilities.Signals.TriggerVolumeSignal.RemoveReceiver(UnityAction{System.Boolean,GameObject})
+  name.vb: RemoveReceiver(UnityAction(Of Boolean, GameObject))
+  fullName: TirUtilities.Signals.TriggerVolumeSignal.RemoveReceiver(UnityAction<System.Boolean, GameObject>)
+  fullName.vb: TirUtilities.Signals.TriggerVolumeSignal.RemoveReceiver(UnityAction(Of System.Boolean, GameObject))
+  nameWithType: TriggerVolumeSignal.RemoveReceiver(UnityAction<Boolean, GameObject>)
+  nameWithType.vb: TriggerVolumeSignal.RemoveReceiver(UnityAction(Of Boolean, GameObject))
+- uid: TirUtilities.Signals.TriggerVolumeSignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.TriggerVolumeSignal.html#TirUtilities_Signals_TriggerVolumeSignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.TriggerVolumeSignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.TriggerVolumeSignal.RemoveReceiver
+  nameWithType: TriggerVolumeSignal.RemoveReceiver
+- uid: TirUtilities.Signals.Vector2IntSignal
+  name: Vector2IntSignal
+  href: api/TirUtilities.Signals.Vector2IntSignal.html
+  commentId: T:TirUtilities.Signals.Vector2IntSignal
+  fullName: TirUtilities.Signals.Vector2IntSignal
+  nameWithType: Vector2IntSignal
+- uid: TirUtilities.Signals.Vector2IntSignal.AddReceiver(UnityAction{Vector2Int})
+  name: AddReceiver(UnityAction<Vector2Int>)
+  href: api/TirUtilities.Signals.Vector2IntSignal.html#TirUtilities_Signals_Vector2IntSignal_AddReceiver_UnityAction_Vector2Int__
+  commentId: M:TirUtilities.Signals.Vector2IntSignal.AddReceiver(UnityAction{Vector2Int})
+  name.vb: AddReceiver(UnityAction(Of Vector2Int))
+  fullName: TirUtilities.Signals.Vector2IntSignal.AddReceiver(UnityAction<Vector2Int>)
+  fullName.vb: TirUtilities.Signals.Vector2IntSignal.AddReceiver(UnityAction(Of Vector2Int))
+  nameWithType: Vector2IntSignal.AddReceiver(UnityAction<Vector2Int>)
+  nameWithType.vb: Vector2IntSignal.AddReceiver(UnityAction(Of Vector2Int))
+- uid: TirUtilities.Signals.Vector2IntSignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.Vector2IntSignal.html#TirUtilities_Signals_Vector2IntSignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.Vector2IntSignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector2IntSignal.AddReceiver
+  nameWithType: Vector2IntSignal.AddReceiver
+- uid: TirUtilities.Signals.Vector2IntSignal.Emit(Vector2Int)
+  name: Emit(Vector2Int)
+  href: api/TirUtilities.Signals.Vector2IntSignal.html#TirUtilities_Signals_Vector2IntSignal_Emit_Vector2Int_
+  commentId: M:TirUtilities.Signals.Vector2IntSignal.Emit(Vector2Int)
+  fullName: TirUtilities.Signals.Vector2IntSignal.Emit(Vector2Int)
+  nameWithType: Vector2IntSignal.Emit(Vector2Int)
+- uid: TirUtilities.Signals.Vector2IntSignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.Vector2IntSignal.html#TirUtilities_Signals_Vector2IntSignal_Emit_
+  commentId: Overload:TirUtilities.Signals.Vector2IntSignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector2IntSignal.Emit
+  nameWithType: Vector2IntSignal.Emit
+- uid: TirUtilities.Signals.Vector2IntSignal.RemoveReceiver(UnityAction{Vector2Int})
+  name: RemoveReceiver(UnityAction<Vector2Int>)
+  href: api/TirUtilities.Signals.Vector2IntSignal.html#TirUtilities_Signals_Vector2IntSignal_RemoveReceiver_UnityAction_Vector2Int__
+  commentId: M:TirUtilities.Signals.Vector2IntSignal.RemoveReceiver(UnityAction{Vector2Int})
+  name.vb: RemoveReceiver(UnityAction(Of Vector2Int))
+  fullName: TirUtilities.Signals.Vector2IntSignal.RemoveReceiver(UnityAction<Vector2Int>)
+  fullName.vb: TirUtilities.Signals.Vector2IntSignal.RemoveReceiver(UnityAction(Of Vector2Int))
+  nameWithType: Vector2IntSignal.RemoveReceiver(UnityAction<Vector2Int>)
+  nameWithType.vb: Vector2IntSignal.RemoveReceiver(UnityAction(Of Vector2Int))
+- uid: TirUtilities.Signals.Vector2IntSignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.Vector2IntSignal.html#TirUtilities_Signals_Vector2IntSignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.Vector2IntSignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector2IntSignal.RemoveReceiver
+  nameWithType: Vector2IntSignal.RemoveReceiver
 - uid: TirUtilities.Signals.Vector2Signal
   name: Vector2Signal
   href: api/TirUtilities.Signals.Vector2Signal.html
   commentId: T:TirUtilities.Signals.Vector2Signal
   fullName: TirUtilities.Signals.Vector2Signal
   nameWithType: Vector2Signal
-- uid: TirUtilities.Signals.Vector2Signal._OnEmit
-  name: _OnEmit
-  href: api/TirUtilities.Signals.Vector2Signal.html#TirUtilities_Signals_Vector2Signal__OnEmit
-  commentId: F:TirUtilities.Signals.Vector2Signal._OnEmit
-  fullName: TirUtilities.Signals.Vector2Signal._OnEmit
-  nameWithType: Vector2Signal._OnEmit
 - uid: TirUtilities.Signals.Vector2Signal.AddReceiver(UnityAction{Vector2})
   name: AddReceiver(UnityAction<Vector2>)
   href: api/TirUtilities.Signals.Vector2Signal.html#TirUtilities_Signals_Vector2Signal_AddReceiver_UnityAction_Vector2__
@@ -3716,6 +4791,159 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Signals.Vector2Signal.RemoveReceiver
   nameWithType: Vector2Signal.RemoveReceiver
+- uid: TirUtilities.Signals.Vector3IntSignal
+  name: Vector3IntSignal
+  href: api/TirUtilities.Signals.Vector3IntSignal.html
+  commentId: T:TirUtilities.Signals.Vector3IntSignal
+  fullName: TirUtilities.Signals.Vector3IntSignal
+  nameWithType: Vector3IntSignal
+- uid: TirUtilities.Signals.Vector3IntSignal.AddReceiver(UnityAction{Vector3Int})
+  name: AddReceiver(UnityAction<Vector3Int>)
+  href: api/TirUtilities.Signals.Vector3IntSignal.html#TirUtilities_Signals_Vector3IntSignal_AddReceiver_UnityAction_Vector3Int__
+  commentId: M:TirUtilities.Signals.Vector3IntSignal.AddReceiver(UnityAction{Vector3Int})
+  name.vb: AddReceiver(UnityAction(Of Vector3Int))
+  fullName: TirUtilities.Signals.Vector3IntSignal.AddReceiver(UnityAction<Vector3Int>)
+  fullName.vb: TirUtilities.Signals.Vector3IntSignal.AddReceiver(UnityAction(Of Vector3Int))
+  nameWithType: Vector3IntSignal.AddReceiver(UnityAction<Vector3Int>)
+  nameWithType.vb: Vector3IntSignal.AddReceiver(UnityAction(Of Vector3Int))
+- uid: TirUtilities.Signals.Vector3IntSignal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.Vector3IntSignal.html#TirUtilities_Signals_Vector3IntSignal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.Vector3IntSignal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector3IntSignal.AddReceiver
+  nameWithType: Vector3IntSignal.AddReceiver
+- uid: TirUtilities.Signals.Vector3IntSignal.Emit(Vector3Int)
+  name: Emit(Vector3Int)
+  href: api/TirUtilities.Signals.Vector3IntSignal.html#TirUtilities_Signals_Vector3IntSignal_Emit_Vector3Int_
+  commentId: M:TirUtilities.Signals.Vector3IntSignal.Emit(Vector3Int)
+  fullName: TirUtilities.Signals.Vector3IntSignal.Emit(Vector3Int)
+  nameWithType: Vector3IntSignal.Emit(Vector3Int)
+- uid: TirUtilities.Signals.Vector3IntSignal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.Vector3IntSignal.html#TirUtilities_Signals_Vector3IntSignal_Emit_
+  commentId: Overload:TirUtilities.Signals.Vector3IntSignal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector3IntSignal.Emit
+  nameWithType: Vector3IntSignal.Emit
+- uid: TirUtilities.Signals.Vector3IntSignal.RemoveReceiver(UnityAction{Vector3Int})
+  name: RemoveReceiver(UnityAction<Vector3Int>)
+  href: api/TirUtilities.Signals.Vector3IntSignal.html#TirUtilities_Signals_Vector3IntSignal_RemoveReceiver_UnityAction_Vector3Int__
+  commentId: M:TirUtilities.Signals.Vector3IntSignal.RemoveReceiver(UnityAction{Vector3Int})
+  name.vb: RemoveReceiver(UnityAction(Of Vector3Int))
+  fullName: TirUtilities.Signals.Vector3IntSignal.RemoveReceiver(UnityAction<Vector3Int>)
+  fullName.vb: TirUtilities.Signals.Vector3IntSignal.RemoveReceiver(UnityAction(Of Vector3Int))
+  nameWithType: Vector3IntSignal.RemoveReceiver(UnityAction<Vector3Int>)
+  nameWithType.vb: Vector3IntSignal.RemoveReceiver(UnityAction(Of Vector3Int))
+- uid: TirUtilities.Signals.Vector3IntSignal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.Vector3IntSignal.html#TirUtilities_Signals_Vector3IntSignal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.Vector3IntSignal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector3IntSignal.RemoveReceiver
+  nameWithType: Vector3IntSignal.RemoveReceiver
+- uid: TirUtilities.Signals.Vector3Signal
+  name: Vector3Signal
+  href: api/TirUtilities.Signals.Vector3Signal.html
+  commentId: T:TirUtilities.Signals.Vector3Signal
+  fullName: TirUtilities.Signals.Vector3Signal
+  nameWithType: Vector3Signal
+- uid: TirUtilities.Signals.Vector3Signal.AddReceiver(UnityAction{Vector3})
+  name: AddReceiver(UnityAction<Vector3>)
+  href: api/TirUtilities.Signals.Vector3Signal.html#TirUtilities_Signals_Vector3Signal_AddReceiver_UnityAction_Vector3__
+  commentId: M:TirUtilities.Signals.Vector3Signal.AddReceiver(UnityAction{Vector3})
+  name.vb: AddReceiver(UnityAction(Of Vector3))
+  fullName: TirUtilities.Signals.Vector3Signal.AddReceiver(UnityAction<Vector3>)
+  fullName.vb: TirUtilities.Signals.Vector3Signal.AddReceiver(UnityAction(Of Vector3))
+  nameWithType: Vector3Signal.AddReceiver(UnityAction<Vector3>)
+  nameWithType.vb: Vector3Signal.AddReceiver(UnityAction(Of Vector3))
+- uid: TirUtilities.Signals.Vector3Signal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.Vector3Signal.html#TirUtilities_Signals_Vector3Signal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.Vector3Signal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector3Signal.AddReceiver
+  nameWithType: Vector3Signal.AddReceiver
+- uid: TirUtilities.Signals.Vector3Signal.Emit(Vector3)
+  name: Emit(Vector3)
+  href: api/TirUtilities.Signals.Vector3Signal.html#TirUtilities_Signals_Vector3Signal_Emit_Vector3_
+  commentId: M:TirUtilities.Signals.Vector3Signal.Emit(Vector3)
+  fullName: TirUtilities.Signals.Vector3Signal.Emit(Vector3)
+  nameWithType: Vector3Signal.Emit(Vector3)
+- uid: TirUtilities.Signals.Vector3Signal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.Vector3Signal.html#TirUtilities_Signals_Vector3Signal_Emit_
+  commentId: Overload:TirUtilities.Signals.Vector3Signal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector3Signal.Emit
+  nameWithType: Vector3Signal.Emit
+- uid: TirUtilities.Signals.Vector3Signal.RemoveReceiver(UnityAction{Vector3})
+  name: RemoveReceiver(UnityAction<Vector3>)
+  href: api/TirUtilities.Signals.Vector3Signal.html#TirUtilities_Signals_Vector3Signal_RemoveReceiver_UnityAction_Vector3__
+  commentId: M:TirUtilities.Signals.Vector3Signal.RemoveReceiver(UnityAction{Vector3})
+  name.vb: RemoveReceiver(UnityAction(Of Vector3))
+  fullName: TirUtilities.Signals.Vector3Signal.RemoveReceiver(UnityAction<Vector3>)
+  fullName.vb: TirUtilities.Signals.Vector3Signal.RemoveReceiver(UnityAction(Of Vector3))
+  nameWithType: Vector3Signal.RemoveReceiver(UnityAction<Vector3>)
+  nameWithType.vb: Vector3Signal.RemoveReceiver(UnityAction(Of Vector3))
+- uid: TirUtilities.Signals.Vector3Signal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.Vector3Signal.html#TirUtilities_Signals_Vector3Signal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.Vector3Signal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector3Signal.RemoveReceiver
+  nameWithType: Vector3Signal.RemoveReceiver
+- uid: TirUtilities.Signals.Vector4Signal
+  name: Vector4Signal
+  href: api/TirUtilities.Signals.Vector4Signal.html
+  commentId: T:TirUtilities.Signals.Vector4Signal
+  fullName: TirUtilities.Signals.Vector4Signal
+  nameWithType: Vector4Signal
+- uid: TirUtilities.Signals.Vector4Signal.AddReceiver(UnityAction{Vector4})
+  name: AddReceiver(UnityAction<Vector4>)
+  href: api/TirUtilities.Signals.Vector4Signal.html#TirUtilities_Signals_Vector4Signal_AddReceiver_UnityAction_Vector4__
+  commentId: M:TirUtilities.Signals.Vector4Signal.AddReceiver(UnityAction{Vector4})
+  name.vb: AddReceiver(UnityAction(Of Vector4))
+  fullName: TirUtilities.Signals.Vector4Signal.AddReceiver(UnityAction<Vector4>)
+  fullName.vb: TirUtilities.Signals.Vector4Signal.AddReceiver(UnityAction(Of Vector4))
+  nameWithType: Vector4Signal.AddReceiver(UnityAction<Vector4>)
+  nameWithType.vb: Vector4Signal.AddReceiver(UnityAction(Of Vector4))
+- uid: TirUtilities.Signals.Vector4Signal.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.Vector4Signal.html#TirUtilities_Signals_Vector4Signal_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.Vector4Signal.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector4Signal.AddReceiver
+  nameWithType: Vector4Signal.AddReceiver
+- uid: TirUtilities.Signals.Vector4Signal.Emit(Vector4)
+  name: Emit(Vector4)
+  href: api/TirUtilities.Signals.Vector4Signal.html#TirUtilities_Signals_Vector4Signal_Emit_Vector4_
+  commentId: M:TirUtilities.Signals.Vector4Signal.Emit(Vector4)
+  fullName: TirUtilities.Signals.Vector4Signal.Emit(Vector4)
+  nameWithType: Vector4Signal.Emit(Vector4)
+- uid: TirUtilities.Signals.Vector4Signal.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.Vector4Signal.html#TirUtilities_Signals_Vector4Signal_Emit_
+  commentId: Overload:TirUtilities.Signals.Vector4Signal.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector4Signal.Emit
+  nameWithType: Vector4Signal.Emit
+- uid: TirUtilities.Signals.Vector4Signal.RemoveReceiver(UnityAction{Vector4})
+  name: RemoveReceiver(UnityAction<Vector4>)
+  href: api/TirUtilities.Signals.Vector4Signal.html#TirUtilities_Signals_Vector4Signal_RemoveReceiver_UnityAction_Vector4__
+  commentId: M:TirUtilities.Signals.Vector4Signal.RemoveReceiver(UnityAction{Vector4})
+  name.vb: RemoveReceiver(UnityAction(Of Vector4))
+  fullName: TirUtilities.Signals.Vector4Signal.RemoveReceiver(UnityAction<Vector4>)
+  fullName.vb: TirUtilities.Signals.Vector4Signal.RemoveReceiver(UnityAction(Of Vector4))
+  nameWithType: Vector4Signal.RemoveReceiver(UnityAction<Vector4>)
+  nameWithType.vb: Vector4Signal.RemoveReceiver(UnityAction(Of Vector4))
+- uid: TirUtilities.Signals.Vector4Signal.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.Vector4Signal.html#TirUtilities_Signals_Vector4Signal_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.Vector4Signal.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.Vector4Signal.RemoveReceiver
+  nameWithType: Vector4Signal.RemoveReceiver
 - uid: TirUtilities.StateMachine
   name: StateMachine
   href: api/TirUtilities.StateMachine.html
@@ -3771,6 +4999,86 @@ references:
   commentId: T:TirUtilities.UI.Buttons.ButtonHotKey
   fullName: TirUtilities.UI.Buttons.ButtonHotKey
   nameWithType: ButtonHotKey
+- uid: TirUtilities.UI.Buttons.Experimental
+  name: TirUtilities.UI.Buttons.Experimental
+  href: api/TirUtilities.UI.Buttons.Experimental.html
+  commentId: N:TirUtilities.UI.Buttons.Experimental
+  fullName: TirUtilities.UI.Buttons.Experimental
+  nameWithType: TirUtilities.UI.Buttons.Experimental
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton
+  name: RouterButton
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.html
+  commentId: T:TirUtilities.UI.Buttons.Experimental.RouterButton
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton
+  nameWithType: RouterButton
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType
+  name: RouterButton.ButtonType
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType.html
+  commentId: T:TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType
+  nameWithType: RouterButton.ButtonType
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType.PlayPause
+  name: PlayPause
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType.html#TirUtilities_UI_Buttons_Experimental_RouterButton_ButtonType_PlayPause
+  commentId: F:TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType.PlayPause
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType.PlayPause
+  nameWithType: RouterButton.ButtonType.PlayPause
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType.QuitGame
+  name: QuitGame
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType.html#TirUtilities_UI_Buttons_Experimental_RouterButton_ButtonType_QuitGame
+  commentId: F:TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType.QuitGame
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.ButtonType.QuitGame
+  nameWithType: RouterButton.ButtonType.QuitGame
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.GetButtonType
+  name: GetButtonType
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.html#TirUtilities_UI_Buttons_Experimental_RouterButton_GetButtonType
+  commentId: P:TirUtilities.UI.Buttons.Experimental.RouterButton.GetButtonType
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.GetButtonType
+  nameWithType: RouterButton.GetButtonType
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.GetButtonType*
+  name: GetButtonType
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.html#TirUtilities_UI_Buttons_Experimental_RouterButton_GetButtonType_
+  commentId: Overload:TirUtilities.UI.Buttons.Experimental.RouterButton.GetButtonType
+  isSpec: "True"
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.GetButtonType
+  nameWithType: RouterButton.GetButtonType
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.GetRouteType
+  name: GetRouteType
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.html#TirUtilities_UI_Buttons_Experimental_RouterButton_GetRouteType
+  commentId: P:TirUtilities.UI.Buttons.Experimental.RouterButton.GetRouteType
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.GetRouteType
+  nameWithType: RouterButton.GetRouteType
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.GetRouteType*
+  name: GetRouteType
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.html#TirUtilities_UI_Buttons_Experimental_RouterButton_GetRouteType_
+  commentId: Overload:TirUtilities.UI.Buttons.Experimental.RouterButton.GetRouteType
+  isSpec: "True"
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.GetRouteType
+  nameWithType: RouterButton.GetRouteType
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType
+  name: RouterButton.RouteType
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.html
+  commentId: T:TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType
+  nameWithType: RouterButton.RouteType
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.Application
+  name: Application
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.html#TirUtilities_UI_Buttons_Experimental_RouterButton_RouteType_Application
+  commentId: F:TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.Application
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.Application
+  nameWithType: RouterButton.RouteType.Application
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.LevelSignal
+  name: LevelSignal
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.html#TirUtilities_UI_Buttons_Experimental_RouterButton_RouteType_LevelSignal
+  commentId: F:TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.LevelSignal
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.LevelSignal
+  nameWithType: RouterButton.RouteType.LevelSignal
+- uid: TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.MenuState
+  name: MenuState
+  href: api/TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.html#TirUtilities_UI_Buttons_Experimental_RouterButton_RouteType_MenuState
+  commentId: F:TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.MenuState
+  fullName: TirUtilities.UI.Buttons.Experimental.RouterButton.RouteType.MenuState
+  nameWithType: RouterButton.RouteType.MenuState
 - uid: TirUtilities.UI.Experimental
   name: TirUtilities.UI.Experimental
   href: api/TirUtilities.UI.Experimental.html
@@ -4050,6 +5358,19 @@ references:
   isSpec: "True"
   fullName: TirUtilities.UI.MenuStateMachine.Back
   nameWithType: MenuStateMachine.Back
+- uid: TirUtilities.UI.MenuStateMachine.ExitMenu
+  name: ExitMenu()
+  href: api/TirUtilities.UI.MenuStateMachine.html#TirUtilities_UI_MenuStateMachine_ExitMenu
+  commentId: M:TirUtilities.UI.MenuStateMachine.ExitMenu
+  fullName: TirUtilities.UI.MenuStateMachine.ExitMenu()
+  nameWithType: MenuStateMachine.ExitMenu()
+- uid: TirUtilities.UI.MenuStateMachine.ExitMenu*
+  name: ExitMenu
+  href: api/TirUtilities.UI.MenuStateMachine.html#TirUtilities_UI_MenuStateMachine_ExitMenu_
+  commentId: Overload:TirUtilities.UI.MenuStateMachine.ExitMenu
+  isSpec: "True"
+  fullName: TirUtilities.UI.MenuStateMachine.ExitMenu
+  nameWithType: MenuStateMachine.ExitMenu
 - uid: TirUtilities.UI.MenuStateMachine.MenuPages
   name: MenuPages
   href: api/TirUtilities.UI.MenuStateMachine.html#TirUtilities_UI_MenuStateMachine_MenuPages
@@ -4063,6 +5384,19 @@ references:
   isSpec: "True"
   fullName: TirUtilities.UI.MenuStateMachine.MenuPages
   nameWithType: MenuStateMachine.MenuPages
+- uid: TirUtilities.UI.MenuStateMachine.OpenMenu
+  name: OpenMenu()
+  href: api/TirUtilities.UI.MenuStateMachine.html#TirUtilities_UI_MenuStateMachine_OpenMenu
+  commentId: M:TirUtilities.UI.MenuStateMachine.OpenMenu
+  fullName: TirUtilities.UI.MenuStateMachine.OpenMenu()
+  nameWithType: MenuStateMachine.OpenMenu()
+- uid: TirUtilities.UI.MenuStateMachine.OpenMenu*
+  name: OpenMenu
+  href: api/TirUtilities.UI.MenuStateMachine.html#TirUtilities_UI_MenuStateMachine_OpenMenu_
+  commentId: Overload:TirUtilities.UI.MenuStateMachine.OpenMenu
+  isSpec: "True"
+  fullName: TirUtilities.UI.MenuStateMachine.OpenMenu
+  nameWithType: MenuStateMachine.OpenMenu
 - uid: TirUtilities.UI.MenuStateMachine.PreviousPage
   name: PreviousPage
   href: api/TirUtilities.UI.MenuStateMachine.html#TirUtilities_UI_MenuStateMachine_PreviousPage

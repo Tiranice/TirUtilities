@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct Zone
    | TirUtilities ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -97,12 +97,12 @@ public struct Zone</code></pre>
   
   
   <a id="TirUtilities_Detection_Experimental_Zone__ctor_" data-uid="TirUtilities.Detection.Experimental.Zone.#ctor*"></a>
-  <h4 id="TirUtilities_Detection_Experimental_Zone__ctor_System_Single_System_Single_" data-uid="TirUtilities.Detection.Experimental.Zone.#ctor(System.Single,System.Single)">Zone(Single, Single)</h4>
+  <h4 id="TirUtilities_Detection_Experimental_Zone__ctor_System_Single_System_Single_Mesh_" data-uid="TirUtilities.Detection.Experimental.Zone.#ctor(System.Single,System.Single,Mesh)">Zone(Single, Single, Mesh)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Zone(float radius, float height)</code></pre>
+    <pre><code class="lang-csharp hljs">public Zone(float radius, float height, Mesh gizmoMesh = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,6 +122,11 @@ public struct Zone</code></pre>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Mesh</span></td>
+        <td><span class="parametername">gizmoMesh</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -149,6 +154,56 @@ public struct Zone</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_Detection_Experimental_Zone_DrawGizmo_" data-uid="TirUtilities.Detection.Experimental.Zone.DrawGizmo*"></a>
+  <h4 id="TirUtilities_Detection_Experimental_Zone_DrawGizmo" data-uid="TirUtilities.Detection.Experimental.Zone.DrawGizmo">DrawGizmo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool DrawGizmo { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_Detection_Experimental_Zone_GizmoMesh_" data-uid="TirUtilities.Detection.Experimental.Zone.GizmoMesh*"></a>
+  <h4 id="TirUtilities_Detection_Experimental_Zone_GizmoMesh" data-uid="TirUtilities.Detection.Experimental.Zone.GizmoMesh">GizmoMesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Mesh GizmoMesh { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mesh</span></td>
         <td></td>
       </tr>
     </tbody>

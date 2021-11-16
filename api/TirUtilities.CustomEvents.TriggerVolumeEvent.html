@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Connection
+    <title>Class TriggerVolumeEvent
    | TirUtilities </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Connection
+    <meta name="title" content="Class TriggerVolumeEvent
    | TirUtilities ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,74 +78,26 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.Connection">
+            <article class="content wrap" id="_content" data-uid="TirUtilities.CustomEvents.TriggerVolumeEvent">
   
   
-  <h1 id="Global_Connection" data-uid="Global.Connection" class="text-break">Class Connection
+  <h1 id="TirUtilities_CustomEvents_TriggerVolumeEvent" data-uid="TirUtilities.CustomEvents.TriggerVolumeEvent" class="text-break">Class TriggerVolumeEvent
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A Unity Event that passes the entered state and target from a 
+<a class="xref" href="TirUtilities.Detection.TriggerVolume.html">TriggerVolume</a> to its listeners.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Connection</span></div>
+    <div class="level1"><span class="xref">TriggerVolumeEvent</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.CustomEvents.html">TirUtilities.CustomEvents</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_Connection_syntax">Syntax</h5>
+  <h5 id="TirUtilities_CustomEvents_TriggerVolumeEvent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Connection</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="Global_Connection__ctor_" data-uid="Global.Connection.#ctor*"></a>
-  <h4 id="Global_Connection__ctor_ConnectionPoint_ConnectionPoint_System_Action_Connection__" data-uid="Global.Connection.#ctor(ConnectionPoint,ConnectionPoint,System.Action{Connection})">Connection(ConnectionPoint, ConnectionPoint, Action&lt;Connection&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Connection(ConnectionPoint input, ConnectionPoint output, Action&lt;Connection&gt; OnClickRemoveCallback)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.ConnectionPoint.html">ConnectionPoint</a></td>
-        <td><span class="parametername">input</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.ConnectionPoint.html">ConnectionPoint</a></td>
-        <td><span class="parametername">output</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Global.Connection.html">Connection</a>&gt;</td>
-        <td><span class="parametername">OnClickRemoveCallback</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Global_Connection_Draw_" data-uid="Global.Connection.Draw*"></a>
-  <h4 id="Global_Connection_Draw" data-uid="Global.Connection.Draw">Draw()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Draw()</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class TriggerVolumeEvent : UnityEvent&lt;bool, GameObject&gt;</code></pre>
   </div>
 </article>
           </div>
