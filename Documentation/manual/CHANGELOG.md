@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed:  Any bug fixes.
 - Security:  Invite users to upgrade in case of vulnerabilities.
 
-## [Trunk]
+## [v0.0.0-alpha.10.4]
 
 ### Added
 
