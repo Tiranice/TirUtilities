@@ -3,7 +3,8 @@
     "rootNamespace": "TirUtilities.Editor.Tests",
     "references": [
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "UnityEditor.TestRunner",
+        "TirUtilities.Runtime"
     ],
     "includePlatforms": [
         "Editor"
