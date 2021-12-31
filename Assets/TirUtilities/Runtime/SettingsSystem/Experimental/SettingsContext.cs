@@ -1,12 +1,13 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
 namespace TirUtilities.SettingsSystem.Experimental
 {
+    using static TirLogger;
+
     ///<!--
     /// SettingsContext.cs
     /// 
@@ -15,7 +16,7 @@ namespace TirUtilities.SettingsSystem.Experimental
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Software
     /// Created:  Nov 16, 2021
-    /// Updated:  Nov 16, 2021
+    /// Updated:  Dec 30, 2021
     /// -->
     /// <summary>
     ///
@@ -23,18 +24,20 @@ namespace TirUtilities.SettingsSystem.Experimental
     [JsonObject(MemberSerialization = MemberSerialization.OptIn)]
     public class SettingsContext
     {
-        private string _path = string.Empty;
-        private JsonSerializer _jsonSerializer = new JsonSerializer() { TypeNameHandling = TypeNameHandling.All };
+        private readonly string _path = string.Empty;
+        private readonly JsonSerializer _jsonSerializer = new JsonSerializer() { TypeNameHandling = TypeNameHandling.All };
 
-        //[JsonProperty]
-        //public Dictionary<string, SettingsData> Settings { get; set; }
+        [JsonProperty]
+        public Dictionary<string, SettingsData> Settings { get; set; }
 
+        #region Constructor
+        
         public SettingsContext(string path)
         {
             _path = path;
             if (!File.Exists(path))
             {
-                //Settings = new Dictionary<string, SettingsData>();
+                Settings = new Dictionary<string, SettingsData>();
                 return;
             }
 
@@ -51,6 +54,10 @@ namespace TirUtilities.SettingsSystem.Experimental
             }
         }
 
+        #endregion
+
+        #region Save & Load
+        
         public void SaveChanges()
         {
             var jobject = (JObject)JToken.FromObject(this, _jsonSerializer);
@@ -66,8 +73,9 @@ namespace TirUtilities.SettingsSystem.Experimental
         {
             var jobject = JObject.Parse(File.ReadAllText(_path));
 
-            //Settings = jobject.ToObject<SettingsContext>(_jsonSerializer).Settings;
-            //Debug.Log((Settings[nameof(TextureQuality)] as SettingsEnum<TextureQuality>).Value);
-        }
+            Settings = jobject.ToObject<SettingsContext>(_jsonSerializer).Settings;
+        } 
+
+        #endregion
     }
 }
