@@ -8,8 +8,8 @@ namespace TirUtilities.CustomGizmos
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson  
-    /// Created:  2/22/2021
-    /// Updated:  2/22/2021
+    /// Created:  Jan 22, 2021
+    /// Updated:  Jan 03, 2022
     /// -->
     /// <summary>
     /// Draws a box around a box collider.
@@ -32,12 +32,11 @@ namespace TirUtilities.CustomGizmos
         // Draws a box inside the collider.
         private void OnDrawGizmos()
         {
-            if (_colliderToBox != null)
-            {
-                Gizmos.color = _gizmoColor;
-                Gizmos.matrix = transform.localToWorldMatrix;
-                Gizmos.DrawCube(Vector3.zero, Vector3.one * _sizeScaler);
-            }
+            if (_colliderToBox == null) return;
+
+            Gizmos.color = _gizmoColor;
+            Gizmos.matrix = transform.localToWorldMatrix;
+            Gizmos.DrawCube(_colliderToBox.center, _colliderToBox.size * _sizeScaler);
         }
 
         #endregion

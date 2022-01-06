@@ -12,6 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed:  Any bug fixes.
 - Security:  Invite users to upgrade in case of vulnerabilities.
 
+## [Unreleased]
+
+### Changed
+
+- <code>DrawBoxGizmo</code> now uses the center and size its collider instead of <code>Vector3.zero</code> and <code>Vector3.one</code> respectively.
+
 ## [v0.0.0-alpha.10.4]
 
 ### Added
