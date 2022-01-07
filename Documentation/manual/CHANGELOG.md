@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Setting the patch version in the export tool creates a version file.
+
 ### Changed
 
 - <code>DrawBoxGizmo</code> now uses the center and size its collider instead of <code>Vector3.zero</code> and <code>Vector3.one</code> respectively.

@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.IO;
+using TirUtilities.Editor.Prefs;
 using UnityEditor;
 using UnityEngine;
 
@@ -37,8 +39,8 @@ public class ExportSettings : ScriptableSingleton<ExportSettings>
     #region Constants
 
     public const string VersionHeader = "0.0.0-alpha.";
-    public const string FileHeader = "TirUtilities-v0.0.0-alpha."; 
-    
+    public const string FileHeader = "TirUtilities-v0.0.0-alpha.";
+
     #endregion
 
     #region Fields
@@ -109,6 +111,15 @@ public class ExportSettings : ScriptableSingleton<ExportSettings>
         SaveBundleVersion();
     } 
 
+    private void CreateVersionFile()
+    {
+        var filePath = Path.Combine(TirUtilitesProjectSettings.HomeFolder, @"_version.md");
+        using (var writer = File.CreateText(filePath))
+        {
+            writer.Write($"{FileHeader}{VersionNumber}");
+        }
+    }
+
     #endregion
 
     public void Log()
@@ -123,7 +134,9 @@ public class ExportSettings : ScriptableSingleton<ExportSettings>
 
         Save(true);
         Debug.Log($"{PlayerSettings.productName} {VersionHeader}{VersionNumber}");
+        CreateVersionFile();
     }
+
 }
 
 internal static class ExportSettingsMenuItems
