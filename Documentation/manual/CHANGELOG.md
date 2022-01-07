@@ -12,6 +12,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed:  Any bug fixes.
 - Security:  Invite users to upgrade in case of vulnerabilities.
 
+## [Unreleased]
+
+### Changed
+
+- <code>DrawBoxGizmo</code> now uses the center and size its collider instead of <code>Vector3.zero</code> and <code>Vector3.one</code> respectively.
+- <code>DrawForwardGizmo</code> line range now goes from 1.0f to 50.0f.
+- <code>TirGizmos</code> capsule gizmo logic has been massively refactored.
+
+### Fixed
+
+- Typos in <code>DrawColliderGizmo</code>.
+- <code>DrawColliderGizmo</code> no longer throws a null ref when not given a collider.
+
 ## [v0.0.0-alpha.10.4]
 
 ### Added
