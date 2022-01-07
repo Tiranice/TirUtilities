@@ -109,7 +109,7 @@ namespace TirUtilities.Editor
             if (!AssetDatabase.IsValidFolder($"{folderPath}"))
                 AssetDatabase.CreateFolder(_ParentFolderPath, "MenuStates");
 
-            AssetDatabase.CreateAsset(menuState, $"{folderPath}{_newStateName}.asset");
+            AssetDatabase.CreateAsset(menuState, Path.Combine(folderPath, $"{_newStateName}.asset"));
             AssetDatabase.SaveAssets();
 
             serializedObject.FindProperty("_state").objectReferenceValue = menuState;
