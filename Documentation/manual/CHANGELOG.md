@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Typos in <code>DrawColliderGizmo</code>.
 - <code>DrawColliderGizmo</code> no longer throws a null ref when not given a collider.
+- <code>MenuPageInspector</code> no longer fuses the path name and file name when creating a <code>MenuState</code> with the inspector button.
 
 ## [v0.0.0-alpha.10.4]
 
