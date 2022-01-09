@@ -13,7 +13,7 @@ namespace TirUtilities.CustomGizmos
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 28, 2021
-    /// Updated:  Jan 03, 2022
+    /// Updated:  Jan 09, 2022
     /// -->
     /// <summary>
     /// A collection of gizmos that function like those from UnityEngine.Gizmos.
@@ -148,7 +148,8 @@ namespace TirUtilities.CustomGizmos
 
             #endregion
 
-            using (new UnityEditor.Handles.DrawingScope(Gizmos.color, Gizmos.matrix))
+#if UNITY_EDITOR
+            using (new Handles.DrawingScope(Gizmos.color, Gizmos.matrix))
             {
                 var p1Rotation = Quaternion.LookRotation(p1 - p2);
                 var p2Rotation = Quaternion.LookRotation(p2 - p1);
@@ -160,13 +161,13 @@ namespace TirUtilities.CustomGizmos
                     p2Rotation = Quaternion.Euler(p2Rotation.eulerAngles.x, p2Rotation.eulerAngles.y + 180f, p2Rotation.eulerAngles.z);
                 }
 
-                var p1ArcLeftNormal     = p1Rotation * Vector3.left;
-                var p1LeftFrom      = p1Rotation * Vector3.down;
-                var p1ArcUpNormal   = p1Rotation * Vector3.up;
+                var p1ArcLeftNormal = p1Rotation * Vector3.left;
+                var p1LeftFrom = p1Rotation * Vector3.down;
+                var p1ArcUpNormal = p1Rotation * Vector3.up;
 
-                var p2LeftRotation  = p2Rotation * Vector3.left;
-                var p2LeftFrom      = p2Rotation * Vector3.down;
-                var p2UpRotation    = p2Rotation * Vector3.up;
+                var p2LeftRotation = p2Rotation * Vector3.left;
+                var p2LeftFrom = p2Rotation * Vector3.down;
+                var p2UpRotation = p2Rotation * Vector3.up;
 
 #if UNITY_2020_2_OR_NEWER
                 // First side
@@ -197,6 +198,7 @@ namespace TirUtilities.CustomGizmos
                 Handles.DrawLine(p1 + p1Rotation * Vector3.up * radius, p2 + p2Rotation * Vector3.up * radius);
                 Handles.DrawLine(p1 + p1Rotation * Vector3.right * radius, p2 + p2Rotation * Vector3.left * radius);
 #endif
+#endif            
             }
         } 
 
