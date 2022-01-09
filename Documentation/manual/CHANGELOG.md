@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Setting the patch version in the export tool creates a version file.
+- <code>LevelSystem</code> now has a method, <code>TryLoadMainMenu</code>, that emits a signal assigned in the inspector.
 
 ### Changed
 
