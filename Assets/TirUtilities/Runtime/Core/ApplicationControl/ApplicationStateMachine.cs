@@ -124,14 +124,18 @@ namespace TirUtilities.Experimental
         
         private void AssignListeners() 
         {
-            _playingState.OnEnterState += _playSignal.Emit;
-            _pausedState.OnEnterState += _pauseSignal.Emit;
+            if (_playSignal.NotNull())
+                _playingState.OnEnterState += _playSignal.Emit;
+            if (_pauseSignal.NotNull())
+                _pausedState.OnEnterState += _pauseSignal.Emit;
         }
 
         private void RemoveListeners()
         {
-            _playingState.OnEnterState -= _playSignal.Emit;
-            _pausedState.OnEnterState -= _pauseSignal.Emit;
+            if (_playSignal.NotNull())
+                _playingState.OnEnterState -= _playSignal.Emit;
+            if (_pauseSignal.NotNull())
+                _pausedState.OnEnterState -= _pauseSignal.Emit;
         }
 
         private void Teardown()
