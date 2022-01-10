@@ -18,6 +18,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Setting the patch version in the export tool creates a version file.
 - <code>LevelSystem</code> now has a method, <code>TryLoadMainMenu</code>, that emits a signal assigned in the inspector.
+- <code>TirLogger</code>
+  - Now accepts a context <code>Object</code>.
+  - Color properties for the class, method, and context logs.
+- <code>UnityRichTextColors</code> contains static properties for each color supported by Unity's rich text interpreter.
+  - This are represented by a <code>RichTextColor</code> readonly struct.
 
 ### Changed
 
