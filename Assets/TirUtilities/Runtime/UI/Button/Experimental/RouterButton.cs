@@ -17,7 +17,7 @@ namespace TirUtilities.UI.Buttons.Experimental
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Software
     /// Created:  Nov 02, 2021
-    /// Updated:  Nov 16, 2021
+    /// Updated:  Jan 09, 2022
     /// -->
     /// <summary>
     /// Provides a quick way to route to various common actions.
@@ -80,7 +80,7 @@ namespace TirUtilities.UI.Buttons.Experimental
         {
             if ((_routeType != RouteType.LevelSignal) || _targetLevel.IsNull()) return;
 
-            _button.onClick.AddListener(_targetLevel.Emit);
+            _button.onClick.RemoveListener(_targetLevel.Emit);
         }
 
         #endregion
@@ -152,10 +152,7 @@ namespace TirUtilities.UI.Buttons.Experimental
         #region Unity Messages
 
 #if UNITY_EDITOR
-        private void OnValidate()
-        {
-            if (_button.IsNull()) TryGetComponent(out _button);
-        }
+        private void OnValidate() => TryGetComponent(out _button);
 #endif
         private void Awake()
         {
@@ -170,6 +167,7 @@ namespace TirUtilities.UI.Buttons.Experimental
             AssignLevelListeners();
             AssignMenuListeners();
         }
+
         private void OnDisable()
         {
             if (_button.IsNull()) return;
