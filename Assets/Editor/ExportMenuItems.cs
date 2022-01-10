@@ -45,7 +45,7 @@ public class ExportSettings : ScriptableSingleton<ExportSettings>
 
     #region Fields
 
-    [SerializeField] private string _folderPath = string.Empty;
+    [SerializeField] private string _folderPath;
     [SerializeField] private readonly Stack<string> _previousVersionNumbers = new Stack<string>();
     [SerializeField] private int _majorVersion;
     [SerializeField] private int _patchVersion;
