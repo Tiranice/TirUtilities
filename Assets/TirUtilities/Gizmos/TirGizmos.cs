@@ -198,8 +198,8 @@ namespace TirUtilities.CustomGizmos
                 Handles.DrawLine(p1 + p1Rotation * Vector3.up * radius, p2 + p2Rotation * Vector3.up * radius);
                 Handles.DrawLine(p1 + p1Rotation * Vector3.right * radius, p2 + p2Rotation * Vector3.left * radius);
 #endif
-#endif            
             }
+#endif            
         } 
 
         #endregion
