@@ -9,5 +9,8 @@ apiRules:
     uidRegex: ^TirUtilities\.External
     type: Namespace
 - exclude:
+    uidRegex: ^NoDoc
+    type: Namespace
+- exclude:
     uidRegex: .*
     type: Namespace

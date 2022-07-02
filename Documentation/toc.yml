@@ -2,3 +2,7 @@
   href: manual/
 - name: Scripting API
   href: api/
+- name: Roadmap
+  href: articles/ROADMAP.md
+- name: Changelog
+  href: articles/CHANGELOG.md

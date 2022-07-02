@@ -10,6 +10,8 @@
     name: ConnectionPoint
   - uid: Global.ConnectionPointType
     name: ConnectionPointType
+  - uid: Global.ExampleSingleton
+    name: ExampleSingleton
   - uid: Global.ExportMenuItems
     name: ExportMenuItems
   - uid: Global.ExportSettings
@@ -26,6 +28,10 @@
     name: PieChartTest
   - uid: Global.RebindTest
     name: RebindTest
+  - uid: Global.SingletonThingy
+    name: SingletonThingy
+  - uid: Global.StuffDoer
+    name: StuffDoer
   name.vb: ''
 - uid: TirUtilities
   name: TirUtilities
@@ -35,6 +41,8 @@
   - uid: TirUtilities.IState`1
     name: IState<T>
     name.vb: IState(Of T)
+  - uid: TirUtilities.RichTextColor
+    name: RichTextColor
   - uid: TirUtilities.ScenePathAttribute
     name: ScenePathAttribute
   - uid: TirUtilities.ShowIfAttribute
@@ -45,6 +53,8 @@
     name: TagFieldAttribute
   - uid: TirUtilities.TirLogger
     name: TirLogger
+  - uid: TirUtilities.UnityRichTextColors
+    name: UnityRichTextColors
   - uid: TirUtilities.Vector2Extensions
     name: Vector2Extensions
   - uid: TirUtilities.Vector3Extensions
@@ -281,6 +291,14 @@
     name: ObjectExstentions
   - uid: TirUtilities.Extensions.RigidbodyExtensions
     name: RigidbodyExtensions
+- uid: TirUtilities.Generics
+  name: TirUtilities.Generics
+  items:
+  - uid: TirUtilities.Generics.MonoSingleton`1
+    name: MonoSingleton<T>
+    name.vb: MonoSingleton(Of T)
+  - uid: TirUtilities.Generics.ResourceSingletonAttribute
+    name: ResourceSingletonAttribute
 - uid: TirUtilities.LevelManagment
   name: TirUtilities.LevelManagment
   items:

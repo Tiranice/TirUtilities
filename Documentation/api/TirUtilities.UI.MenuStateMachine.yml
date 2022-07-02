@@ -22,7 +22,7 @@ items:
   source:
     id: MenuStateMachine
     path: ''
-    startLine: 11559
+    startLine: 11921
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -56,7 +56,7 @@ items:
   source:
     id: ActivePage
     path: ''
-    startLine: 11601
+    startLine: 11963
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -89,7 +89,7 @@ items:
   source:
     id: PreviousPage
     path: ''
-    startLine: 11604
+    startLine: 11966
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -122,7 +122,7 @@ items:
   source:
     id: TransitionTo
     path: ''
-    startLine: 11643
+    startLine: 12005
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -154,7 +154,7 @@ items:
   source:
     id: Back
     path: ''
-    startLine: 11663
+    startLine: 12025
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -182,7 +182,7 @@ items:
   source:
     id: OpenMenu
     path: ''
-    startLine: 11674
+    startLine: 12036
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -208,7 +208,7 @@ items:
   source:
     id: ExitMenu
     path: ''
-    startLine: 11676
+    startLine: 12038
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -234,7 +234,7 @@ items:
   source:
     id: MenuPages
     path: ''
-    startLine: 11687
+    startLine: 12049
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI

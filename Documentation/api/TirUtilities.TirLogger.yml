@@ -5,8 +5,13 @@ items:
   id: TirLogger
   parent: TirUtilities
   children:
+  - TirUtilities.TirLogger.ClassColor
+  - TirUtilities.TirLogger.ContextColor
   - TirUtilities.TirLogger.LogCall
   - TirUtilities.TirLogger.LogCall(System.String,System.String)
+  - TirUtilities.TirLogger.LogCall(UnityEngine.Object)
+  - TirUtilities.TirLogger.MethodColor
+  - TirUtilities.TirLogger.ResetColors
   langs:
   - csharp
   - vb
@@ -17,11 +22,11 @@ items:
   source:
     id: TirLogger
     path: ''
-    startLine: 7350
+    startLine: 7597
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
-  summary: "\n\n"
+  summary: "\nContains a handful of specialized logging methods.\n"
   example: []
   syntax:
     content: public static class TirLogger
@@ -35,6 +40,139 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: TirUtilities.TirLogger.ClassColor
+  commentId: P:TirUtilities.TirLogger.ClassColor
+  id: ClassColor
+  parent: TirUtilities.TirLogger
+  langs:
+  - csharp
+  - vb
+  name: ClassColor
+  nameWithType: TirLogger.ClassColor
+  fullName: TirUtilities.TirLogger.ClassColor
+  type: Property
+  source:
+    id: ClassColor
+    path: ''
+    startLine: 7602
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  summary: 'Defaults to <xref href="TirUtilities.UnityRichTextColors.Blule" data-throw-if-not-resolved="false"></xref> '
+  example: []
+  syntax:
+    content: public static RichTextColor ClassColor { get; set; }
+    parameters: []
+    return:
+      type: TirUtilities.RichTextColor
+    content.vb: Public Shared Property ClassColor As RichTextColor
+  overload: TirUtilities.TirLogger.ClassColor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.TirLogger.MethodColor
+  commentId: P:TirUtilities.TirLogger.MethodColor
+  id: MethodColor
+  parent: TirUtilities.TirLogger
+  langs:
+  - csharp
+  - vb
+  name: MethodColor
+  nameWithType: TirLogger.MethodColor
+  fullName: TirUtilities.TirLogger.MethodColor
+  type: Property
+  source:
+    id: MethodColor
+    path: ''
+    startLine: 7605
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  summary: 'Defaults to <xref href="TirUtilities.UnityRichTextColors.LightBlue" data-throw-if-not-resolved="false"></xref> '
+  example: []
+  syntax:
+    content: public static RichTextColor MethodColor { get; set; }
+    parameters: []
+    return:
+      type: TirUtilities.RichTextColor
+    content.vb: Public Shared Property MethodColor As RichTextColor
+  overload: TirUtilities.TirLogger.MethodColor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.TirLogger.ContextColor
+  commentId: P:TirUtilities.TirLogger.ContextColor
+  id: ContextColor
+  parent: TirUtilities.TirLogger
+  langs:
+  - csharp
+  - vb
+  name: ContextColor
+  nameWithType: TirLogger.ContextColor
+  fullName: TirUtilities.TirLogger.ContextColor
+  type: Property
+  source:
+    id: ContextColor
+    path: ''
+    startLine: 7608
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  summary: 'Defaults to <xref href="TirUtilities.UnityRichTextColors.Green" data-throw-if-not-resolved="false"></xref> '
+  example: []
+  syntax:
+    content: public static RichTextColor ContextColor { get; set; }
+    parameters: []
+    return:
+      type: TirUtilities.RichTextColor
+    content.vb: Public Shared Property ContextColor As RichTextColor
+  overload: TirUtilities.TirLogger.ContextColor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.TirLogger.ResetColors
+  commentId: M:TirUtilities.TirLogger.ResetColors
+  id: ResetColors
+  parent: TirUtilities.TirLogger
+  langs:
+  - csharp
+  - vb
+  name: ResetColors()
+  nameWithType: TirLogger.ResetColors()
+  fullName: TirUtilities.TirLogger.ResetColors()
+  type: Method
+  source:
+    id: ResetColors
+    path: ''
+    startLine: 7610
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  syntax:
+    content: public static void ResetColors()
+    content.vb: Public Shared Sub ResetColors
+  overload: TirUtilities.TirLogger.ResetColors*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: TirUtilities.TirLogger.LogCall(System.String,System.String)
   commentId: M:TirUtilities.TirLogger.LogCall(System.String,System.String)
   id: LogCall(System.String,System.String)
@@ -49,7 +187,7 @@ items:
   source:
     id: LogCall
     path: ''
-    startLine: 7352
+    startLine: 7621
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -94,15 +232,51 @@ items:
   source:
     id: LogCall
     path: ''
-    startLine: 7359
+    startLine: 7633
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
-  summary: 'Logs the name of the class and the method to the console. '
+  summary: "\nLogs the name of the calling method and its class to the console.\n"
+  remarks: "\nNot available in WebGL due to the inability to read stack fames.\n"
   example: []
   syntax:
     content: public static void LogCall()
     content.vb: Public Shared Sub LogCall
+  overload: TirUtilities.TirLogger.LogCall*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TirUtilities.TirLogger.LogCall(UnityEngine.Object)
+  commentId: M:TirUtilities.TirLogger.LogCall(UnityEngine.Object)
+  id: LogCall(UnityEngine.Object)
+  parent: TirUtilities.TirLogger
+  langs:
+  - csharp
+  - vb
+  name: LogCall(Object)
+  nameWithType: TirLogger.LogCall(Object)
+  fullName: TirUtilities.TirLogger.LogCall(UnityEngine.Object)
+  type: Method
+  source:
+    id: LogCall
+    path: ''
+    startLine: 7651
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities
+  summary: "\nLogs the name of the calling method, its class, and the supplied context object to the \nconsole.\n"
+  remarks: "\nNot available in WebGL due to the inability to read stack fames.\n"
+  example: []
+  syntax:
+    content: public static void LogCall(Object context)
+    parameters:
+    - id: context
+      type: UnityEngine.Object
+      description: Supplied to <code>Debug.Log(sting, Object)</code>
+    content.vb: Public Shared Sub LogCall(context As Object)
   overload: TirUtilities.TirLogger.LogCall*
   modifiers.csharp:
   - public
@@ -129,6 +303,41 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: TirUtilities.UnityRichTextColors.Blule
+  commentId: P:TirUtilities.UnityRichTextColors.Blule
+  isExternal: true
+- uid: TirUtilities.TirLogger.ClassColor*
+  commentId: Overload:TirUtilities.TirLogger.ClassColor
+  name: ClassColor
+  nameWithType: TirLogger.ClassColor
+  fullName: TirUtilities.TirLogger.ClassColor
+- uid: TirUtilities.RichTextColor
+  commentId: T:TirUtilities.RichTextColor
+  parent: TirUtilities
+  name: RichTextColor
+  nameWithType: RichTextColor
+  fullName: TirUtilities.RichTextColor
+- uid: TirUtilities.UnityRichTextColors.LightBlue
+  commentId: P:TirUtilities.UnityRichTextColors.LightBlue
+  isExternal: true
+- uid: TirUtilities.TirLogger.MethodColor*
+  commentId: Overload:TirUtilities.TirLogger.MethodColor
+  name: MethodColor
+  nameWithType: TirLogger.MethodColor
+  fullName: TirUtilities.TirLogger.MethodColor
+- uid: TirUtilities.UnityRichTextColors.Green
+  commentId: P:TirUtilities.UnityRichTextColors.Green
+  isExternal: true
+- uid: TirUtilities.TirLogger.ContextColor*
+  commentId: Overload:TirUtilities.TirLogger.ContextColor
+  name: ContextColor
+  nameWithType: TirLogger.ContextColor
+  fullName: TirUtilities.TirLogger.ContextColor
+- uid: TirUtilities.TirLogger.ResetColors*
+  commentId: Overload:TirUtilities.TirLogger.ResetColors
+  name: ResetColors
+  nameWithType: TirLogger.ResetColors
+  fullName: TirUtilities.TirLogger.ResetColors
 - uid: TirUtilities.TirLogger.LogCall*
   commentId: Overload:TirUtilities.TirLogger.LogCall
   name: LogCall
@@ -141,3 +350,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: UnityEngine.Object
+  commentId: '!:UnityEngine.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object

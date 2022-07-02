@@ -71,6 +71,7 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
+*.app
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -102,13 +103,11 @@ crashlytics-build.properties
 /Assets/Plugins/RainbowAssets/RainbowFolders/QuickStart.pdf*
 
 # Code Coverage Results
-
 /[Cc]ode[Cc]overage/
 
 # Materplan Backups
-
 /*.plan_bak*
 
 # Plastic SCM
-/.plastic
-/ignore.conf
+.[Pp]lastic
+ignore.conf

@@ -18,7 +18,7 @@ items:
   source:
     id: FloatSignal
     path: ''
-    startLine: 9931
+    startLine: 10295
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -59,7 +59,7 @@ items:
   source:
     id: AddReceiver
     path: ''
-    startLine: 9940
+    startLine: 10304
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -98,7 +98,7 @@ items:
   source:
     id: RemoveReceiver
     path: ''
-    startLine: 9944
+    startLine: 10308
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -137,7 +137,7 @@ items:
   source:
     id: Emit
     path: ''
-    startLine: 9950
+    startLine: 10314
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals

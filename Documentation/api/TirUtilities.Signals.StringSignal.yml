@@ -18,7 +18,7 @@ items:
   source:
     id: StringSignal
     path: ''
-    startLine: 10018
+    startLine: 10382
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -59,7 +59,7 @@ items:
   source:
     id: AddReceiver
     path: ''
-    startLine: 10027
+    startLine: 10391
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -98,7 +98,7 @@ items:
   source:
     id: RemoveReceiver
     path: ''
-    startLine: 10031
+    startLine: 10395
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -137,7 +137,7 @@ items:
   source:
     id: Emit
     path: ''
-    startLine: 10037
+    startLine: 10401
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals

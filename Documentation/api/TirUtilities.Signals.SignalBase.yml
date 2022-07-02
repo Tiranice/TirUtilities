@@ -18,7 +18,7 @@ items:
   source:
     id: SignalBase
     path: ''
-    startLine: 9673
+    startLine: 10037
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -55,7 +55,7 @@ items:
   source:
     id: _description
     path: ''
-    startLine: 9681
+    startLine: 10045
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -84,7 +84,7 @@ items:
   source:
     id: Description
     path: ''
-    startLine: 9686
+    startLine: 10050
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -117,11 +117,11 @@ items:
   source:
     id: _OnEmit
     path: ''
-    startLine: 9693
+    startLine: 10057
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
-  summary: 'Invoked in <see cref="!:Emit"></see>, calling receivers. '
+  summary: 'Invoked in <code>Emit</code>, calling receivers. '
   example: []
   syntax:
     content: protected UnityAction _OnEmit

@@ -6,11 +6,13 @@ items:
   children:
   - TirUtilities.DisplayOnlyAttribute
   - TirUtilities.IState`1
+  - TirUtilities.RichTextColor
   - TirUtilities.ScenePathAttribute
   - TirUtilities.ShowIfAttribute
   - TirUtilities.StateMachine
   - TirUtilities.TagFieldAttribute
   - TirUtilities.TirLogger
+  - TirUtilities.UnityRichTextColors
   - TirUtilities.Vector2Extensions
   - TirUtilities.Vector3Extensions
   langs:
@@ -53,11 +55,22 @@ references:
   name: Vector3Extensions
   nameWithType: Vector3Extensions
   fullName: TirUtilities.Vector3Extensions
+- uid: TirUtilities.RichTextColor
+  commentId: T:TirUtilities.RichTextColor
+  parent: TirUtilities
+  name: RichTextColor
+  nameWithType: RichTextColor
+  fullName: TirUtilities.RichTextColor
 - uid: TirUtilities.TirLogger
   commentId: T:TirUtilities.TirLogger
   name: TirLogger
   nameWithType: TirLogger
   fullName: TirUtilities.TirLogger
+- uid: TirUtilities.UnityRichTextColors
+  commentId: T:TirUtilities.UnityRichTextColors
+  name: UnityRichTextColors
+  nameWithType: UnityRichTextColors
+  fullName: TirUtilities.UnityRichTextColors
 - uid: TirUtilities.IState`1
   commentId: T:TirUtilities.IState`1
   name: IState<T>
