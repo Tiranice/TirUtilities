@@ -13,32 +13,28 @@ namespace TirUtilities.Signals
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Software
     /// Created:  Sep 22, 2021
-    /// Updated:  Oct 10, 2021
+    /// Updated:  Jul 03, 2022
     /// -->
     /// <summary>
     /// A <see cref="Signal"/> that emits a transform.
     /// </summary>
     [CreateAssetMenu(menuName = "Signals/Transform Signal", order = 40)]
-    public class TransformSignal : SignalBase<Transform>, ISignal<Transform>
+    public class TransformSignal : SignalBase<Transform>
     {
-        #region Public Methods
-
         /// <summary>
         /// Register a callback function to be invoked when <see cref="Emit(Transform)"/> is called.
         /// </summary>
         /// <param name="receiver">The callback to be invoked.</param>
-        public virtual void AddReceiver(UnityAction<Transform> receiver) => _OnEmit += receiver;
+        public override void AddReceiver(UnityAction<Transform> receiver) => _OnEmit += receiver;
 
         /// <summary> Unregister a callback function. </summary>
         /// <param name="receiver">The callback function.</param>
-        public virtual void RemoveReceiver(UnityAction<Transform> receiver) => _OnEmit -= receiver;
+        public override void RemoveReceiver(UnityAction<Transform> receiver) => _OnEmit -= receiver;
 
         /// <summary>
         /// Emit this signal to all receivers, calling methods registered with 
         /// <see cref="AddReceiver(UnityAction{Transform})"/>.
         /// </summary>
-        public virtual void Emit(Transform target) => _OnEmit.SafeInvoke(target);
-
-        #endregion
+        public override void Emit(Transform target) => _OnEmit.SafeInvoke(target);
     }
 }

@@ -10,7 +10,7 @@ namespace TirUtilities.Signals
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Software
     /// Created:  Sep 22, 2021
-    /// Updated:  Oct 13, 2021
+    /// Updated:  Jul 03, 2022
     /// -->
     /// <summary> Public interface common to all signals. </summary>
     public interface ISignal
