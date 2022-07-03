@@ -7,14 +7,17 @@ namespace TirUtilities.Editor
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
-    /// Created:  June 18, 2021
-    /// Updated:  Sep. 09, 2021
+    /// Company:  Black Phoenix Software
+    /// Created:  Jun 18, 2021
+    /// Updated:  May 03, 2022
     /// -->
     /// <summary>
     /// Paths to important locations used by editor scripts.
     /// </summary>
     public readonly ref struct ProjectEditorPaths
     {
+        private const string _Prefabs = @"/Resources/Prefabs";
+
         public static string ProjectName
         {
             get
@@ -24,16 +27,19 @@ namespace TirUtilities.Editor
             }
         }
 
-        public static string PathToHierarchyDividerSettings => 
+        public static string PathToHierarchyDividerSettings =>
             $@"{HomeFolder}/Resources/SettingsAssets/HierarchyDividerSettings.asset";
 
         public static string PathToMenuPagePrefab =>
-            $@"{HomeFolder}/Resources/Prefabs/MenuPageCanvas.prefab";
+            $@"{HomeFolder}{_Prefabs}/MenuPageCanvas.prefab";
 
         public static string PathToLevelSystemPrefab =>
-            $@"{HomeFolder}/Resources/Prefabs/LevelSystem.prefab";
+            $@"{HomeFolder}{_Prefabs}/LevelSystem.prefab";
 
         public static string PathToRootMenuPrefab =>
-            $@"{HomeFolder}/Resources/Prefabs/RootCanvas.prefab";
+            $@"{HomeFolder}{_Prefabs}/RootCanvas.prefab";
+
+        public static string PathToTriggerVolume =>
+            $@"{HomeFolder}{_Prefabs}/Trigger Volume.prefab";
     }
 }
