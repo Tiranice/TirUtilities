@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SignalBase
    | TirUtilities ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -92,11 +92,15 @@
     <div class="level1"><span class="xref">SignalBase</span></div>
       <div class="level2"><a class="xref" href="TirUtilities.Signals.Signal.html">Signal</a></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="TirUtilities.Signals.ISignal.html">ISignal</a></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.Signals.html">TirUtilities.Signals</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="TirUtilities_Signals_SignalBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class SignalBase : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class SignalBase : ScriptableObject, ISignal</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -128,7 +132,7 @@
   
   
   <h4 id="TirUtilities_Signals_SignalBase__OnEmit" data-uid="TirUtilities.Signals.SignalBase._OnEmit">_OnEmit</h4>
-  <div class="markdown level1 summary"><p>Invoked in <see cref="!:Emit"></see>, calling receivers. </p>
+  <div class="markdown level1 summary"><p>Invoked in <code>Emit</code>, calling receivers. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -178,6 +182,76 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TirUtilities_Signals_SignalBase_AddReceiver_" data-uid="TirUtilities.Signals.SignalBase.AddReceiver*"></a>
+  <h4 id="TirUtilities_Signals_SignalBase_AddReceiver_UnityAction_" data-uid="TirUtilities.Signals.SignalBase.AddReceiver(UnityAction)">AddReceiver(UnityAction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void AddReceiver(UnityAction receiver)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span></td>
+        <td><span class="parametername">receiver</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_Signals_SignalBase_Emit_" data-uid="TirUtilities.Signals.SignalBase.Emit*"></a>
+  <h4 id="TirUtilities_Signals_SignalBase_Emit" data-uid="TirUtilities.Signals.SignalBase.Emit">Emit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit()</code></pre>
+  </div>
+  
+  
+  <a id="TirUtilities_Signals_SignalBase_RemoveReceiver_" data-uid="TirUtilities.Signals.SignalBase.RemoveReceiver*"></a>
+  <h4 id="TirUtilities_Signals_SignalBase_RemoveReceiver_UnityAction_" data-uid="TirUtilities.Signals.SignalBase.RemoveReceiver(UnityAction)">RemoveReceiver(UnityAction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void RemoveReceiver(UnityAction receiver)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span></td>
+        <td><span class="parametername">receiver</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="TirUtilities.Signals.ISignal.html">ISignal</a>
+  </div>
 </article>
           </div>
           

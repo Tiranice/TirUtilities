@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SignalBase&lt;T0, T1&gt;
    | TirUtilities ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -92,11 +92,15 @@
     <div class="level1"><span class="xref">SignalBase&lt;T0, T1&gt;</span></div>
       <div class="level2"><a class="xref" href="TirUtilities.Signals.TriggerVolumeSignal.html">TriggerVolumeSignal</a></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="TirUtilities.Signals.ISignal-2.html">ISignal</a>&lt;T0, T1&gt;</div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.Signals.html">TirUtilities.Signals</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="TirUtilities_Signals_SignalBase_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class SignalBase&lt;T0, T1&gt; : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class SignalBase&lt;T0, T1&gt; : ScriptableObject, ISignal&lt;T0, T1&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,7 +151,7 @@
   
   
   <h4 id="TirUtilities_Signals_SignalBase_2__OnEmit" data-uid="TirUtilities.Signals.SignalBase`2._OnEmit">_OnEmit</h4>
-  <div class="markdown level1 summary"><p>Invoked in <see cref="!:Emit"></see>, calling receivers. </p>
+  <div class="markdown level1 summary"><p>Invoked in <code>Emit(T0, T1)</code>, calling receivers. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -197,6 +201,98 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TirUtilities_Signals_SignalBase_2_AddReceiver_" data-uid="TirUtilities.Signals.SignalBase`2.AddReceiver*"></a>
+  <h4 id="TirUtilities_Signals_SignalBase_2_AddReceiver_UnityAction__0__1__" data-uid="TirUtilities.Signals.SignalBase`2.AddReceiver(UnityAction{`0,`1})">AddReceiver(UnityAction&lt;T0, T1&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void AddReceiver(UnityAction&lt;T0, T1&gt; receiver)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;T0, T1&gt;</td>
+        <td><span class="parametername">receiver</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_Signals_SignalBase_2_Emit_" data-uid="TirUtilities.Signals.SignalBase`2.Emit*"></a>
+  <h4 id="TirUtilities_Signals_SignalBase_2_Emit__0__1_" data-uid="TirUtilities.Signals.SignalBase`2.Emit(`0,`1)">Emit(T0, T1)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Emit(T0 target0, T1 target1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T0</span></td>
+        <td><span class="parametername">target0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">target1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TirUtilities_Signals_SignalBase_2_RemoveReceiver_" data-uid="TirUtilities.Signals.SignalBase`2.RemoveReceiver*"></a>
+  <h4 id="TirUtilities_Signals_SignalBase_2_RemoveReceiver_UnityAction__0__1__" data-uid="TirUtilities.Signals.SignalBase`2.RemoveReceiver(UnityAction{`0,`1})">RemoveReceiver(UnityAction&lt;T0, T1&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void RemoveReceiver(UnityAction&lt;T0, T1&gt; receiver)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;T0, T1&gt;</td>
+        <td><span class="parametername">receiver</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="TirUtilities.Signals.ISignal-2.html">ISignal&lt;T0, T1&gt;</a>
+  </div>
 </article>
           </div>
           

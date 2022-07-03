@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EditMenuItems
+    <title>Class SpawningPool
    | TirUtilities </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EditMenuItems
+    <meta name="title" content="Class SpawningPool
    | TirUtilities ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,55 +78,106 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="TirUtilities.Editor.Experimantal.EditMenuItems">
+            <article class="content wrap" id="_content" data-uid="TirUtilities.Core.Experimental.SpawningPool">
   
   
-  <h1 id="TirUtilities_Editor_Experimantal_EditMenuItems" data-uid="TirUtilities.Editor.Experimantal.EditMenuItems" class="text-break">Class EditMenuItems
+  <h1 id="TirUtilities_Core_Experimental_SpawningPool" data-uid="TirUtilities.Core.Experimental.SpawningPool" class="text-break">Class SpawningPool
   </h1>
-  <div class="markdown level0 summary"><p>Contains menu items found in Unity&apos;s edit menu.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EditMenuItems</span></div>
+    <div class="level1"><span class="xref">SpawningPool</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.Editor.Experimantal.html">TirUtilities.Editor.Experimantal</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.Core.Experimental.html">TirUtilities.Core.Experimental</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="TirUtilities_Editor_Experimantal_EditMenuItems_syntax">Syntax</h5>
+  <h5 id="TirUtilities_Core_Experimental_SpawningPool_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class EditMenuItems</code></pre>
+    <pre><code class="lang-csharp hljs">public class SpawningPool : MonoBehaviour</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="TirUtilities_Editor_Experimantal_EditMenuItems_FocusSelected_" data-uid="TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected*"></a>
-  <h4 id="TirUtilities_Editor_Experimantal_EditMenuItems_FocusSelected_GameObject_" data-uid="TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected(GameObject)">FocusSelected(GameObject)</h4>
-  <div class="markdown level1 summary"><p>Selects and focuses the passed game object.</p>
-</div>
+  <h4 id="TirUtilities_Core_Experimental_SpawningPool_OnSpawingStarted" data-uid="TirUtilities.Core.Experimental.SpawningPool.OnSpawingStarted">OnSpawingStarted</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void FocusSelected(GameObject gameObject)</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnSpawingStarted</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">gameObject</span></td>
+        <td><span class="xref">UnityEvent</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <h4 id="TirUtilities_Core_Experimental_SpawningPool_OnSpawningStopped" data-uid="TirUtilities.Core.Experimental.SpawningPool.OnSpawningStopped">OnSpawningStopped</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnSpawningStopped</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TirUtilities_Core_Experimental_SpawningPool_SpawnOneShot_" data-uid="TirUtilities.Core.Experimental.SpawningPool.SpawnOneShot*"></a>
+  <h4 id="TirUtilities_Core_Experimental_SpawningPool_SpawnOneShot" data-uid="TirUtilities.Core.Experimental.SpawningPool.SpawnOneShot">SpawnOneShot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SpawnOneShot()</code></pre>
+  </div>
+  
+  
+  <a id="TirUtilities_Core_Experimental_SpawningPool_StartSpawing_" data-uid="TirUtilities.Core.Experimental.SpawningPool.StartSpawing*"></a>
+  <h4 id="TirUtilities_Core_Experimental_SpawningPool_StartSpawing" data-uid="TirUtilities.Core.Experimental.SpawningPool.StartSpawing">StartSpawing()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartSpawing()</code></pre>
+  </div>
+  
+  
+  <a id="TirUtilities_Core_Experimental_SpawningPool_StopSpawning_" data-uid="TirUtilities.Core.Experimental.SpawningPool.StopSpawning*"></a>
+  <h4 id="TirUtilities_Core_Experimental_SpawningPool_StopSpawning" data-uid="TirUtilities.Core.Experimental.SpawningPool.StopSpawning">StopSpawning()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopSpawning()</code></pre>
+  </div>
 </article>
           </div>
           

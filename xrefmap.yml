@@ -119,6 +119,25 @@ references:
   commentId: F:Global.ConnectionPointType.Out
   fullName: ConnectionPointType.Out
   nameWithType: ConnectionPointType.Out
+- uid: Global.ExampleSingleton
+  name: ExampleSingleton
+  href: api/Global.ExampleSingleton.html
+  commentId: T:Global.ExampleSingleton
+  fullName: ExampleSingleton
+  nameWithType: ExampleSingleton
+- uid: Global.ExampleSingleton.DoStuff
+  name: DoStuff()
+  href: api/Global.ExampleSingleton.html#Global_ExampleSingleton_DoStuff
+  commentId: M:Global.ExampleSingleton.DoStuff
+  fullName: ExampleSingleton.DoStuff()
+  nameWithType: ExampleSingleton.DoStuff()
+- uid: Global.ExampleSingleton.DoStuff*
+  name: DoStuff
+  href: api/Global.ExampleSingleton.html#Global_ExampleSingleton_DoStuff_
+  commentId: Overload:Global.ExampleSingleton.DoStuff
+  isSpec: "True"
+  fullName: ExampleSingleton.DoStuff
+  nameWithType: ExampleSingleton.DoStuff
 - uid: Global.ExportMenuItems
   name: ExportMenuItems
   href: api/Global.ExportMenuItems.html
@@ -221,6 +240,84 @@ references:
   commentId: F:Global.ExportSettings.VersionHeader
   fullName: ExportSettings.VersionHeader
   nameWithType: ExportSettings.VersionHeader
+- uid: Global.IObjectPool`1
+  name: IObjectPool<TClass>
+  href: api/Global.IObjectPool-1.html
+  commentId: T:Global.IObjectPool`1
+  name.vb: IObjectPool(Of TClass)
+  fullName: IObjectPool<TClass>
+  fullName.vb: IObjectPool(Of TClass)
+  nameWithType: IObjectPool<TClass>
+  nameWithType.vb: IObjectPool(Of TClass)
+- uid: Global.IObjectPool`1.ActiveCount
+  name: ActiveCount
+  href: api/Global.IObjectPool-1.html#Global_IObjectPool_1_ActiveCount
+  commentId: P:Global.IObjectPool`1.ActiveCount
+  fullName: IObjectPool<TClass>.ActiveCount
+  fullName.vb: IObjectPool(Of TClass).ActiveCount
+  nameWithType: IObjectPool<TClass>.ActiveCount
+  nameWithType.vb: IObjectPool(Of TClass).ActiveCount
+- uid: Global.IObjectPool`1.ActiveCount*
+  name: ActiveCount
+  href: api/Global.IObjectPool-1.html#Global_IObjectPool_1_ActiveCount_
+  commentId: Overload:Global.IObjectPool`1.ActiveCount
+  isSpec: "True"
+  fullName: IObjectPool<TClass>.ActiveCount
+  fullName.vb: IObjectPool(Of TClass).ActiveCount
+  nameWithType: IObjectPool<TClass>.ActiveCount
+  nameWithType.vb: IObjectPool(Of TClass).ActiveCount
+- uid: Global.IObjectPool`1.InactiveCount
+  name: InactiveCount
+  href: api/Global.IObjectPool-1.html#Global_IObjectPool_1_InactiveCount
+  commentId: P:Global.IObjectPool`1.InactiveCount
+  fullName: IObjectPool<TClass>.InactiveCount
+  fullName.vb: IObjectPool(Of TClass).InactiveCount
+  nameWithType: IObjectPool<TClass>.InactiveCount
+  nameWithType.vb: IObjectPool(Of TClass).InactiveCount
+- uid: Global.IObjectPool`1.InactiveCount*
+  name: InactiveCount
+  href: api/Global.IObjectPool-1.html#Global_IObjectPool_1_InactiveCount_
+  commentId: Overload:Global.IObjectPool`1.InactiveCount
+  isSpec: "True"
+  fullName: IObjectPool<TClass>.InactiveCount
+  fullName.vb: IObjectPool(Of TClass).InactiveCount
+  nameWithType: IObjectPool<TClass>.InactiveCount
+  nameWithType.vb: IObjectPool(Of TClass).InactiveCount
+- uid: Global.IObjectPool`1.Return(`0)
+  name: Return(TClass)
+  href: api/Global.IObjectPool-1.html#Global_IObjectPool_1_Return__0_
+  commentId: M:Global.IObjectPool`1.Return(`0)
+  fullName: IObjectPool<TClass>.Return(TClass)
+  fullName.vb: IObjectPool(Of TClass).Return(TClass)
+  nameWithType: IObjectPool<TClass>.Return(TClass)
+  nameWithType.vb: IObjectPool(Of TClass).Return(TClass)
+- uid: Global.IObjectPool`1.Return*
+  name: Return
+  href: api/Global.IObjectPool-1.html#Global_IObjectPool_1_Return_
+  commentId: Overload:Global.IObjectPool`1.Return
+  isSpec: "True"
+  fullName: IObjectPool<TClass>.Return
+  fullName.vb: IObjectPool(Of TClass).Return
+  nameWithType: IObjectPool<TClass>.Return
+  nameWithType.vb: IObjectPool(Of TClass).Return
+- uid: Global.IObjectPool`1.TryRequest(`0@)
+  name: TryRequest(out TClass)
+  href: api/Global.IObjectPool-1.html#Global_IObjectPool_1_TryRequest__0__
+  commentId: M:Global.IObjectPool`1.TryRequest(`0@)
+  name.vb: TryRequest(ByRef TClass)
+  fullName: IObjectPool<TClass>.TryRequest(out TClass)
+  fullName.vb: IObjectPool(Of TClass).TryRequest(ByRef TClass)
+  nameWithType: IObjectPool<TClass>.TryRequest(out TClass)
+  nameWithType.vb: IObjectPool(Of TClass).TryRequest(ByRef TClass)
+- uid: Global.IObjectPool`1.TryRequest*
+  name: TryRequest
+  href: api/Global.IObjectPool-1.html#Global_IObjectPool_1_TryRequest_
+  commentId: Overload:Global.IObjectPool`1.TryRequest
+  isSpec: "True"
+  fullName: IObjectPool<TClass>.TryRequest
+  fullName.vb: IObjectPool(Of TClass).TryRequest
+  nameWithType: IObjectPool<TClass>.TryRequest
+  nameWithType.vb: IObjectPool(Of TClass).TryRequest
 - uid: Global.NodeBase
   name: NodeBase
   href: api/Global.NodeBase.html
@@ -321,6 +418,145 @@ references:
   isSpec: "True"
   fullName: NodeBase.ProcessEvents
   nameWithType: NodeBase.ProcessEvents
+- uid: Global.ObjectPool`1
+  name: ObjectPool<T>
+  href: api/Global.ObjectPool-1.html
+  commentId: T:Global.ObjectPool`1
+  name.vb: ObjectPool(Of T)
+  fullName: ObjectPool<T>
+  fullName.vb: ObjectPool(Of T)
+  nameWithType: ObjectPool<T>
+  nameWithType.vb: ObjectPool(Of T)
+- uid: Global.ObjectPool`1.#ctor(System.Func{`0},System.Action{`0},System.Action{`0},System.Action{`0},System.Collections.Generic.IEnumerable{`0},System.Int32)
+  name: ObjectPool(Func<T>, Action<T>, Action<T>, Action<T>, IEnumerable<T>, Int32)
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1__ctor_System_Func__0__System_Action__0__System_Action__0__System_Action__0__System_Collections_Generic_IEnumerable__0__System_Int32_
+  commentId: M:Global.ObjectPool`1.#ctor(System.Func{`0},System.Action{`0},System.Action{`0},System.Action{`0},System.Collections.Generic.IEnumerable{`0},System.Int32)
+  name.vb: ObjectPool(Func(Of T), Action(Of T), Action(Of T), Action(Of T), IEnumerable(Of T), Int32)
+  fullName: ObjectPool<T>.ObjectPool(System.Func<T>, System.Action<T>, System.Action<T>, System.Action<T>, System.Collections.Generic.IEnumerable<T>, System.Int32)
+  fullName.vb: ObjectPool(Of T).ObjectPool(System.Func(Of T), System.Action(Of T), System.Action(Of T), System.Action(Of T), System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  nameWithType: ObjectPool<T>.ObjectPool(Func<T>, Action<T>, Action<T>, Action<T>, IEnumerable<T>, Int32)
+  nameWithType.vb: ObjectPool(Of T).ObjectPool(Func(Of T), Action(Of T), Action(Of T), Action(Of T), IEnumerable(Of T), Int32)
+- uid: Global.ObjectPool`1.#ctor(System.Func{`0},System.Action{`0},System.Action{`0},System.Action{`0},System.Int32)
+  name: ObjectPool(Func<T>, Action<T>, Action<T>, Action<T>, Int32)
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1__ctor_System_Func__0__System_Action__0__System_Action__0__System_Action__0__System_Int32_
+  commentId: M:Global.ObjectPool`1.#ctor(System.Func{`0},System.Action{`0},System.Action{`0},System.Action{`0},System.Int32)
+  name.vb: ObjectPool(Func(Of T), Action(Of T), Action(Of T), Action(Of T), Int32)
+  fullName: ObjectPool<T>.ObjectPool(System.Func<T>, System.Action<T>, System.Action<T>, System.Action<T>, System.Int32)
+  fullName.vb: ObjectPool(Of T).ObjectPool(System.Func(Of T), System.Action(Of T), System.Action(Of T), System.Action(Of T), System.Int32)
+  nameWithType: ObjectPool<T>.ObjectPool(Func<T>, Action<T>, Action<T>, Action<T>, Int32)
+  nameWithType.vb: ObjectPool(Of T).ObjectPool(Func(Of T), Action(Of T), Action(Of T), Action(Of T), Int32)
+- uid: Global.ObjectPool`1.#ctor*
+  name: ObjectPool
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1__ctor_
+  commentId: Overload:Global.ObjectPool`1.#ctor
+  isSpec: "True"
+  fullName: ObjectPool<T>.ObjectPool
+  fullName.vb: ObjectPool(Of T).ObjectPool
+  nameWithType: ObjectPool<T>.ObjectPool
+  nameWithType.vb: ObjectPool(Of T).ObjectPool
+- uid: Global.ObjectPool`1.ActiveCount
+  name: ActiveCount
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_ActiveCount
+  commentId: P:Global.ObjectPool`1.ActiveCount
+  fullName: ObjectPool<T>.ActiveCount
+  fullName.vb: ObjectPool(Of T).ActiveCount
+  nameWithType: ObjectPool<T>.ActiveCount
+  nameWithType.vb: ObjectPool(Of T).ActiveCount
+- uid: Global.ObjectPool`1.ActiveCount*
+  name: ActiveCount
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_ActiveCount_
+  commentId: Overload:Global.ObjectPool`1.ActiveCount
+  isSpec: "True"
+  fullName: ObjectPool<T>.ActiveCount
+  fullName.vb: ObjectPool(Of T).ActiveCount
+  nameWithType: ObjectPool<T>.ActiveCount
+  nameWithType.vb: ObjectPool(Of T).ActiveCount
+- uid: Global.ObjectPool`1.Count
+  name: Count
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_Count
+  commentId: P:Global.ObjectPool`1.Count
+  fullName: ObjectPool<T>.Count
+  fullName.vb: ObjectPool(Of T).Count
+  nameWithType: ObjectPool<T>.Count
+  nameWithType.vb: ObjectPool(Of T).Count
+- uid: Global.ObjectPool`1.Count*
+  name: Count
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_Count_
+  commentId: Overload:Global.ObjectPool`1.Count
+  isSpec: "True"
+  fullName: ObjectPool<T>.Count
+  fullName.vb: ObjectPool(Of T).Count
+  nameWithType: ObjectPool<T>.Count
+  nameWithType.vb: ObjectPool(Of T).Count
+- uid: Global.ObjectPool`1.Dispose
+  name: Dispose()
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_Dispose
+  commentId: M:Global.ObjectPool`1.Dispose
+  fullName: ObjectPool<T>.Dispose()
+  fullName.vb: ObjectPool(Of T).Dispose()
+  nameWithType: ObjectPool<T>.Dispose()
+  nameWithType.vb: ObjectPool(Of T).Dispose()
+- uid: Global.ObjectPool`1.Dispose*
+  name: Dispose
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_Dispose_
+  commentId: Overload:Global.ObjectPool`1.Dispose
+  isSpec: "True"
+  fullName: ObjectPool<T>.Dispose
+  fullName.vb: ObjectPool(Of T).Dispose
+  nameWithType: ObjectPool<T>.Dispose
+  nameWithType.vb: ObjectPool(Of T).Dispose
+- uid: Global.ObjectPool`1.InactiveCount
+  name: InactiveCount
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_InactiveCount
+  commentId: P:Global.ObjectPool`1.InactiveCount
+  fullName: ObjectPool<T>.InactiveCount
+  fullName.vb: ObjectPool(Of T).InactiveCount
+  nameWithType: ObjectPool<T>.InactiveCount
+  nameWithType.vb: ObjectPool(Of T).InactiveCount
+- uid: Global.ObjectPool`1.InactiveCount*
+  name: InactiveCount
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_InactiveCount_
+  commentId: Overload:Global.ObjectPool`1.InactiveCount
+  isSpec: "True"
+  fullName: ObjectPool<T>.InactiveCount
+  fullName.vb: ObjectPool(Of T).InactiveCount
+  nameWithType: ObjectPool<T>.InactiveCount
+  nameWithType.vb: ObjectPool(Of T).InactiveCount
+- uid: Global.ObjectPool`1.Return(`0)
+  name: Return(T)
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_Return__0_
+  commentId: M:Global.ObjectPool`1.Return(`0)
+  fullName: ObjectPool<T>.Return(T)
+  fullName.vb: ObjectPool(Of T).Return(T)
+  nameWithType: ObjectPool<T>.Return(T)
+  nameWithType.vb: ObjectPool(Of T).Return(T)
+- uid: Global.ObjectPool`1.Return*
+  name: Return
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_Return_
+  commentId: Overload:Global.ObjectPool`1.Return
+  isSpec: "True"
+  fullName: ObjectPool<T>.Return
+  fullName.vb: ObjectPool(Of T).Return
+  nameWithType: ObjectPool<T>.Return
+  nameWithType.vb: ObjectPool(Of T).Return
+- uid: Global.ObjectPool`1.TryRequest(`0@)
+  name: TryRequest(out T)
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_TryRequest__0__
+  commentId: M:Global.ObjectPool`1.TryRequest(`0@)
+  name.vb: TryRequest(ByRef T)
+  fullName: ObjectPool<T>.TryRequest(out T)
+  fullName.vb: ObjectPool(Of T).TryRequest(ByRef T)
+  nameWithType: ObjectPool<T>.TryRequest(out T)
+  nameWithType.vb: ObjectPool(Of T).TryRequest(ByRef T)
+- uid: Global.ObjectPool`1.TryRequest*
+  name: TryRequest
+  href: api/Global.ObjectPool-1.html#Global_ObjectPool_1_TryRequest_
+  commentId: Overload:Global.ObjectPool`1.TryRequest
+  isSpec: "True"
+  fullName: ObjectPool<T>.TryRequest
+  fullName.vb: ObjectPool(Of T).TryRequest
+  nameWithType: ObjectPool<T>.TryRequest
+  nameWithType.vb: ObjectPool(Of T).TryRequest
 - uid: Global.PieChartTest
   name: PieChartTest
   href: api/Global.PieChartTest.html
@@ -346,6 +582,12 @@ references:
   isSpec: "True"
   fullName: RebindTest.StartInteractiveRebind
   nameWithType: RebindTest.StartInteractiveRebind
+- uid: Global.StuffDoer
+  name: StuffDoer
+  href: api/Global.StuffDoer.html
+  commentId: T:Global.StuffDoer
+  fullName: StuffDoer
+  nameWithType: StuffDoer
 - uid: TirUtilities
   name: TirUtilities
   href: api/TirUtilities.html
@@ -870,6 +1112,365 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Controllers.MouseUtility.TryGetWorldSpaceMousePosition2D
   nameWithType: MouseUtility.TryGetWorldSpaceMousePosition2D
+- uid: TirUtilities.Core
+  name: TirUtilities.Core
+  href: api/TirUtilities.Core.html
+  commentId: N:TirUtilities.Core
+  fullName: TirUtilities.Core
+  nameWithType: TirUtilities.Core
+- uid: TirUtilities.Core.Deactivator
+  name: Deactivator
+  href: api/TirUtilities.Core.Deactivator.html
+  commentId: T:TirUtilities.Core.Deactivator
+  fullName: TirUtilities.Core.Deactivator
+  nameWithType: Deactivator
+- uid: TirUtilities.Core.Deactivator.Deactivate
+  name: Deactivate()
+  href: api/TirUtilities.Core.Deactivator.html#TirUtilities_Core_Deactivator_Deactivate
+  commentId: M:TirUtilities.Core.Deactivator.Deactivate
+  fullName: TirUtilities.Core.Deactivator.Deactivate()
+  nameWithType: Deactivator.Deactivate()
+- uid: TirUtilities.Core.Deactivator.Deactivate*
+  name: Deactivate
+  href: api/TirUtilities.Core.Deactivator.html#TirUtilities_Core_Deactivator_Deactivate_
+  commentId: Overload:TirUtilities.Core.Deactivator.Deactivate
+  isSpec: "True"
+  fullName: TirUtilities.Core.Deactivator.Deactivate
+  nameWithType: Deactivator.Deactivate
+- uid: TirUtilities.Core.Deactivator.DeactivateTarget(System.Boolean,GameObject)
+  name: DeactivateTarget(Boolean, GameObject)
+  href: api/TirUtilities.Core.Deactivator.html#TirUtilities_Core_Deactivator_DeactivateTarget_System_Boolean_GameObject_
+  commentId: M:TirUtilities.Core.Deactivator.DeactivateTarget(System.Boolean,GameObject)
+  fullName: TirUtilities.Core.Deactivator.DeactivateTarget(System.Boolean, GameObject)
+  nameWithType: Deactivator.DeactivateTarget(Boolean, GameObject)
+- uid: TirUtilities.Core.Deactivator.DeactivateTarget*
+  name: DeactivateTarget
+  href: api/TirUtilities.Core.Deactivator.html#TirUtilities_Core_Deactivator_DeactivateTarget_
+  commentId: Overload:TirUtilities.Core.Deactivator.DeactivateTarget
+  isSpec: "True"
+  fullName: TirUtilities.Core.Deactivator.DeactivateTarget
+  nameWithType: Deactivator.DeactivateTarget
+- uid: TirUtilities.Core.Experimental
+  name: TirUtilities.Core.Experimental
+  href: api/TirUtilities.Core.Experimental.html
+  commentId: N:TirUtilities.Core.Experimental
+  fullName: TirUtilities.Core.Experimental
+  nameWithType: TirUtilities.Core.Experimental
+- uid: TirUtilities.Core.Experimental.GameObjectPool
+  name: GameObjectPool
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html
+  commentId: T:TirUtilities.Core.Experimental.GameObjectPool
+  fullName: TirUtilities.Core.Experimental.GameObjectPool
+  nameWithType: GameObjectPool
+- uid: TirUtilities.Core.Experimental.GameObjectPool.Dispose
+  name: Dispose()
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html#TirUtilities_Core_Experimental_GameObjectPool_Dispose
+  commentId: M:TirUtilities.Core.Experimental.GameObjectPool.Dispose
+  fullName: TirUtilities.Core.Experimental.GameObjectPool.Dispose()
+  nameWithType: GameObjectPool.Dispose()
+- uid: TirUtilities.Core.Experimental.GameObjectPool.Dispose*
+  name: Dispose
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html#TirUtilities_Core_Experimental_GameObjectPool_Dispose_
+  commentId: Overload:TirUtilities.Core.Experimental.GameObjectPool.Dispose
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.GameObjectPool.Dispose
+  nameWithType: GameObjectPool.Dispose
+- uid: TirUtilities.Core.Experimental.GameObjectPool.FillPool
+  name: FillPool()
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html#TirUtilities_Core_Experimental_GameObjectPool_FillPool
+  commentId: M:TirUtilities.Core.Experimental.GameObjectPool.FillPool
+  fullName: TirUtilities.Core.Experimental.GameObjectPool.FillPool()
+  nameWithType: GameObjectPool.FillPool()
+- uid: TirUtilities.Core.Experimental.GameObjectPool.FillPool*
+  name: FillPool
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html#TirUtilities_Core_Experimental_GameObjectPool_FillPool_
+  commentId: Overload:TirUtilities.Core.Experimental.GameObjectPool.FillPool
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.GameObjectPool.FillPool
+  nameWithType: GameObjectPool.FillPool
+- uid: TirUtilities.Core.Experimental.GameObjectPool.Pool
+  name: Pool
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html#TirUtilities_Core_Experimental_GameObjectPool_Pool
+  commentId: P:TirUtilities.Core.Experimental.GameObjectPool.Pool
+  fullName: TirUtilities.Core.Experimental.GameObjectPool.Pool
+  nameWithType: GameObjectPool.Pool
+- uid: TirUtilities.Core.Experimental.GameObjectPool.Pool*
+  name: Pool
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html#TirUtilities_Core_Experimental_GameObjectPool_Pool_
+  commentId: Overload:TirUtilities.Core.Experimental.GameObjectPool.Pool
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.GameObjectPool.Pool
+  nameWithType: GameObjectPool.Pool
+- uid: TirUtilities.Core.Experimental.GameObjectPool.PoolPrefabs
+  name: PoolPrefabs
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html#TirUtilities_Core_Experimental_GameObjectPool_PoolPrefabs
+  commentId: P:TirUtilities.Core.Experimental.GameObjectPool.PoolPrefabs
+  fullName: TirUtilities.Core.Experimental.GameObjectPool.PoolPrefabs
+  nameWithType: GameObjectPool.PoolPrefabs
+- uid: TirUtilities.Core.Experimental.GameObjectPool.PoolPrefabs*
+  name: PoolPrefabs
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html#TirUtilities_Core_Experimental_GameObjectPool_PoolPrefabs_
+  commentId: Overload:TirUtilities.Core.Experimental.GameObjectPool.PoolPrefabs
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.GameObjectPool.PoolPrefabs
+  nameWithType: GameObjectPool.PoolPrefabs
+- uid: TirUtilities.Core.Experimental.GameObjectPool.PrepooledObjects
+  name: PrepooledObjects
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html#TirUtilities_Core_Experimental_GameObjectPool_PrepooledObjects
+  commentId: P:TirUtilities.Core.Experimental.GameObjectPool.PrepooledObjects
+  fullName: TirUtilities.Core.Experimental.GameObjectPool.PrepooledObjects
+  nameWithType: GameObjectPool.PrepooledObjects
+- uid: TirUtilities.Core.Experimental.GameObjectPool.PrepooledObjects*
+  name: PrepooledObjects
+  href: api/TirUtilities.Core.Experimental.GameObjectPool.html#TirUtilities_Core_Experimental_GameObjectPool_PrepooledObjects_
+  commentId: Overload:TirUtilities.Core.Experimental.GameObjectPool.PrepooledObjects
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.GameObjectPool.PrepooledObjects
+  nameWithType: GameObjectPool.PrepooledObjects
+- uid: TirUtilities.Core.Experimental.IPoolable
+  name: IPoolable
+  href: api/TirUtilities.Core.Experimental.IPoolable.html
+  commentId: T:TirUtilities.Core.Experimental.IPoolable
+  fullName: TirUtilities.Core.Experimental.IPoolable
+  nameWithType: IPoolable
+- uid: TirUtilities.Core.Experimental.IPoolable.Return
+  name: Return()
+  href: api/TirUtilities.Core.Experimental.IPoolable.html#TirUtilities_Core_Experimental_IPoolable_Return
+  commentId: M:TirUtilities.Core.Experimental.IPoolable.Return
+  fullName: TirUtilities.Core.Experimental.IPoolable.Return()
+  nameWithType: IPoolable.Return()
+- uid: TirUtilities.Core.Experimental.IPoolable.Return*
+  name: Return
+  href: api/TirUtilities.Core.Experimental.IPoolable.html#TirUtilities_Core_Experimental_IPoolable_Return_
+  commentId: Overload:TirUtilities.Core.Experimental.IPoolable.Return
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.IPoolable.Return
+  nameWithType: IPoolable.Return
+- uid: TirUtilities.Core.Experimental.IPoolable.ReturnAction
+  name: ReturnAction
+  href: api/TirUtilities.Core.Experimental.IPoolable.html#TirUtilities_Core_Experimental_IPoolable_ReturnAction
+  commentId: E:TirUtilities.Core.Experimental.IPoolable.ReturnAction
+  fullName: TirUtilities.Core.Experimental.IPoolable.ReturnAction
+  nameWithType: IPoolable.ReturnAction
+- uid: TirUtilities.Core.Experimental.ObjectPool`1
+  name: ObjectPool<T>
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html
+  commentId: T:TirUtilities.Core.Experimental.ObjectPool`1
+  name.vb: ObjectPool(Of T)
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T)
+  nameWithType: ObjectPool<T>
+  nameWithType.vb: ObjectPool(Of T)
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Func{`0},System.Action{`0},System.Int32)
+  name: ObjectPool(IEnumerable<T>, Func<T>, Action<T>, Int32)
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1__ctor_System_Collections_Generic_IEnumerable__0__System_Func__0__System_Action__0__System_Int32_
+  commentId: M:TirUtilities.Core.Experimental.ObjectPool`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Func{`0},System.Action{`0},System.Int32)
+  name.vb: ObjectPool(IEnumerable(Of T), Func(Of T), Action(Of T), Int32)
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.ObjectPool(System.Collections.Generic.IEnumerable<T>, System.Func<T>, System.Action<T>, System.Int32)
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).ObjectPool(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T), System.Action(Of T), System.Int32)
+  nameWithType: ObjectPool<T>.ObjectPool(IEnumerable<T>, Func<T>, Action<T>, Int32)
+  nameWithType.vb: ObjectPool(Of T).ObjectPool(IEnumerable(Of T), Func(Of T), Action(Of T), Int32)
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.#ctor*
+  name: ObjectPool
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1__ctor_
+  commentId: Overload:TirUtilities.Core.Experimental.ObjectPool`1.#ctor
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.ObjectPool
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).ObjectPool
+  nameWithType: ObjectPool<T>.ObjectPool
+  nameWithType.vb: ObjectPool(Of T).ObjectPool
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.BagOfHolding
+  name: BagOfHolding
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_BagOfHolding
+  commentId: P:TirUtilities.Core.Experimental.ObjectPool`1.BagOfHolding
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.BagOfHolding
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).BagOfHolding
+  nameWithType: ObjectPool<T>.BagOfHolding
+  nameWithType.vb: ObjectPool(Of T).BagOfHolding
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.BagOfHolding*
+  name: BagOfHolding
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_BagOfHolding_
+  commentId: Overload:TirUtilities.Core.Experimental.ObjectPool`1.BagOfHolding
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.BagOfHolding
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).BagOfHolding
+  nameWithType: ObjectPool<T>.BagOfHolding
+  nameWithType.vb: ObjectPool(Of T).BagOfHolding
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.Dispose
+  name: Dispose()
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_Dispose
+  commentId: M:TirUtilities.Core.Experimental.ObjectPool`1.Dispose
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.Dispose()
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).Dispose()
+  nameWithType: ObjectPool<T>.Dispose()
+  nameWithType.vb: ObjectPool(Of T).Dispose()
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.Dispose*
+  name: Dispose
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_Dispose_
+  commentId: Overload:TirUtilities.Core.Experimental.ObjectPool`1.Dispose
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.Dispose
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).Dispose
+  nameWithType: ObjectPool<T>.Dispose
+  nameWithType.vb: ObjectPool(Of T).Dispose
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.ManagedSet
+  name: ManagedSet
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_ManagedSet
+  commentId: P:TirUtilities.Core.Experimental.ObjectPool`1.ManagedSet
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.ManagedSet
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).ManagedSet
+  nameWithType: ObjectPool<T>.ManagedSet
+  nameWithType.vb: ObjectPool(Of T).ManagedSet
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.ManagedSet*
+  name: ManagedSet
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_ManagedSet_
+  commentId: Overload:TirUtilities.Core.Experimental.ObjectPool`1.ManagedSet
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.ManagedSet
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).ManagedSet
+  nameWithType: ObjectPool<T>.ManagedSet
+  nameWithType.vb: ObjectPool(Of T).ManagedSet
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.MaxSize
+  name: MaxSize
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_MaxSize
+  commentId: P:TirUtilities.Core.Experimental.ObjectPool`1.MaxSize
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.MaxSize
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).MaxSize
+  nameWithType: ObjectPool<T>.MaxSize
+  nameWithType.vb: ObjectPool(Of T).MaxSize
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.MaxSize*
+  name: MaxSize
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_MaxSize_
+  commentId: Overload:TirUtilities.Core.Experimental.ObjectPool`1.MaxSize
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.MaxSize
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).MaxSize
+  nameWithType: ObjectPool<T>.MaxSize
+  nameWithType.vb: ObjectPool(Of T).MaxSize
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.Return(`0)
+  name: Return(T)
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_Return__0_
+  commentId: M:TirUtilities.Core.Experimental.ObjectPool`1.Return(`0)
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.Return(T)
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).Return(T)
+  nameWithType: ObjectPool<T>.Return(T)
+  nameWithType.vb: ObjectPool(Of T).Return(T)
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.Return*
+  name: Return
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_Return_
+  commentId: Overload:TirUtilities.Core.Experimental.ObjectPool`1.Return
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.Return
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).Return
+  nameWithType: ObjectPool<T>.Return
+  nameWithType.vb: ObjectPool(Of T).Return
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.TryRequest(`0@)
+  name: TryRequest(out T)
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_TryRequest__0__
+  commentId: M:TirUtilities.Core.Experimental.ObjectPool`1.TryRequest(`0@)
+  name.vb: TryRequest(ByRef T)
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.TryRequest(out T)
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).TryRequest(ByRef T)
+  nameWithType: ObjectPool<T>.TryRequest(out T)
+  nameWithType.vb: ObjectPool(Of T).TryRequest(ByRef T)
+- uid: TirUtilities.Core.Experimental.ObjectPool`1.TryRequest*
+  name: TryRequest
+  href: api/TirUtilities.Core.Experimental.ObjectPool-1.html#TirUtilities_Core_Experimental_ObjectPool_1_TryRequest_
+  commentId: Overload:TirUtilities.Core.Experimental.ObjectPool`1.TryRequest
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.ObjectPool<T>.TryRequest
+  fullName.vb: TirUtilities.Core.Experimental.ObjectPool(Of T).TryRequest
+  nameWithType: ObjectPool<T>.TryRequest
+  nameWithType.vb: ObjectPool(Of T).TryRequest
+- uid: TirUtilities.Core.Experimental.PoolReturner
+  name: PoolReturner
+  href: api/TirUtilities.Core.Experimental.PoolReturner.html
+  commentId: T:TirUtilities.Core.Experimental.PoolReturner
+  fullName: TirUtilities.Core.Experimental.PoolReturner
+  nameWithType: PoolReturner
+- uid: TirUtilities.Core.Experimental.PoolReturner.Return(GameObject)
+  name: Return(GameObject)
+  href: api/TirUtilities.Core.Experimental.PoolReturner.html#TirUtilities_Core_Experimental_PoolReturner_Return_GameObject_
+  commentId: M:TirUtilities.Core.Experimental.PoolReturner.Return(GameObject)
+  fullName: TirUtilities.Core.Experimental.PoolReturner.Return(GameObject)
+  nameWithType: PoolReturner.Return(GameObject)
+- uid: TirUtilities.Core.Experimental.PoolReturner.Return*
+  name: Return
+  href: api/TirUtilities.Core.Experimental.PoolReturner.html#TirUtilities_Core_Experimental_PoolReturner_Return_
+  commentId: Overload:TirUtilities.Core.Experimental.PoolReturner.Return
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.PoolReturner.Return
+  nameWithType: PoolReturner.Return
+- uid: TirUtilities.Core.Experimental.PoolReturner.ReturnFromTriggerVolume(System.Boolean,GameObject)
+  name: ReturnFromTriggerVolume(Boolean, GameObject)
+  href: api/TirUtilities.Core.Experimental.PoolReturner.html#TirUtilities_Core_Experimental_PoolReturner_ReturnFromTriggerVolume_System_Boolean_GameObject_
+  commentId: M:TirUtilities.Core.Experimental.PoolReturner.ReturnFromTriggerVolume(System.Boolean,GameObject)
+  fullName: TirUtilities.Core.Experimental.PoolReturner.ReturnFromTriggerVolume(System.Boolean, GameObject)
+  nameWithType: PoolReturner.ReturnFromTriggerVolume(Boolean, GameObject)
+- uid: TirUtilities.Core.Experimental.PoolReturner.ReturnFromTriggerVolume*
+  name: ReturnFromTriggerVolume
+  href: api/TirUtilities.Core.Experimental.PoolReturner.html#TirUtilities_Core_Experimental_PoolReturner_ReturnFromTriggerVolume_
+  commentId: Overload:TirUtilities.Core.Experimental.PoolReturner.ReturnFromTriggerVolume
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.PoolReturner.ReturnFromTriggerVolume
+  nameWithType: PoolReturner.ReturnFromTriggerVolume
+- uid: TirUtilities.Core.Experimental.SpawningPool
+  name: SpawningPool
+  href: api/TirUtilities.Core.Experimental.SpawningPool.html
+  commentId: T:TirUtilities.Core.Experimental.SpawningPool
+  fullName: TirUtilities.Core.Experimental.SpawningPool
+  nameWithType: SpawningPool
+- uid: TirUtilities.Core.Experimental.SpawningPool.OnSpawingStarted
+  name: OnSpawingStarted
+  href: api/TirUtilities.Core.Experimental.SpawningPool.html#TirUtilities_Core_Experimental_SpawningPool_OnSpawingStarted
+  commentId: F:TirUtilities.Core.Experimental.SpawningPool.OnSpawingStarted
+  fullName: TirUtilities.Core.Experimental.SpawningPool.OnSpawingStarted
+  nameWithType: SpawningPool.OnSpawingStarted
+- uid: TirUtilities.Core.Experimental.SpawningPool.OnSpawningStopped
+  name: OnSpawningStopped
+  href: api/TirUtilities.Core.Experimental.SpawningPool.html#TirUtilities_Core_Experimental_SpawningPool_OnSpawningStopped
+  commentId: F:TirUtilities.Core.Experimental.SpawningPool.OnSpawningStopped
+  fullName: TirUtilities.Core.Experimental.SpawningPool.OnSpawningStopped
+  nameWithType: SpawningPool.OnSpawningStopped
+- uid: TirUtilities.Core.Experimental.SpawningPool.SpawnOneShot
+  name: SpawnOneShot()
+  href: api/TirUtilities.Core.Experimental.SpawningPool.html#TirUtilities_Core_Experimental_SpawningPool_SpawnOneShot
+  commentId: M:TirUtilities.Core.Experimental.SpawningPool.SpawnOneShot
+  fullName: TirUtilities.Core.Experimental.SpawningPool.SpawnOneShot()
+  nameWithType: SpawningPool.SpawnOneShot()
+- uid: TirUtilities.Core.Experimental.SpawningPool.SpawnOneShot*
+  name: SpawnOneShot
+  href: api/TirUtilities.Core.Experimental.SpawningPool.html#TirUtilities_Core_Experimental_SpawningPool_SpawnOneShot_
+  commentId: Overload:TirUtilities.Core.Experimental.SpawningPool.SpawnOneShot
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.SpawningPool.SpawnOneShot
+  nameWithType: SpawningPool.SpawnOneShot
+- uid: TirUtilities.Core.Experimental.SpawningPool.StartSpawing
+  name: StartSpawing()
+  href: api/TirUtilities.Core.Experimental.SpawningPool.html#TirUtilities_Core_Experimental_SpawningPool_StartSpawing
+  commentId: M:TirUtilities.Core.Experimental.SpawningPool.StartSpawing
+  fullName: TirUtilities.Core.Experimental.SpawningPool.StartSpawing()
+  nameWithType: SpawningPool.StartSpawing()
+- uid: TirUtilities.Core.Experimental.SpawningPool.StartSpawing*
+  name: StartSpawing
+  href: api/TirUtilities.Core.Experimental.SpawningPool.html#TirUtilities_Core_Experimental_SpawningPool_StartSpawing_
+  commentId: Overload:TirUtilities.Core.Experimental.SpawningPool.StartSpawing
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.SpawningPool.StartSpawing
+  nameWithType: SpawningPool.StartSpawing
+- uid: TirUtilities.Core.Experimental.SpawningPool.StopSpawning
+  name: StopSpawning()
+  href: api/TirUtilities.Core.Experimental.SpawningPool.html#TirUtilities_Core_Experimental_SpawningPool_StopSpawning
+  commentId: M:TirUtilities.Core.Experimental.SpawningPool.StopSpawning
+  fullName: TirUtilities.Core.Experimental.SpawningPool.StopSpawning()
+  nameWithType: SpawningPool.StopSpawning()
+- uid: TirUtilities.Core.Experimental.SpawningPool.StopSpawning*
+  name: StopSpawning
+  href: api/TirUtilities.Core.Experimental.SpawningPool.html#TirUtilities_Core_Experimental_SpawningPool_StopSpawning_
+  commentId: Overload:TirUtilities.Core.Experimental.SpawningPool.StopSpawning
+  isSpec: "True"
+  fullName: TirUtilities.Core.Experimental.SpawningPool.StopSpawning
+  nameWithType: SpawningPool.StopSpawning
 - uid: TirUtilities.CustomEvents
   name: TirUtilities.CustomEvents
   href: api/TirUtilities.CustomEvents.html
@@ -1062,12 +1663,12 @@ references:
   commentId: M:TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider,System.Single,System.Single)
   fullName: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CapsuleCollider, System.Single, System.Single)
   nameWithType: TirGizmos.DrawWireCapsule(CapsuleCollider, Single, Single)
-- uid: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController,System.Single)
-  name: DrawWireCapsule(CharacterController, Single)
-  href: api/TirUtilities.CustomGizmos.TirGizmos.html#TirUtilities_CustomGizmos_TirGizmos_DrawWireCapsule_CharacterController_System_Single_
-  commentId: M:TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController,System.Single)
-  fullName: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController, System.Single)
-  nameWithType: TirGizmos.DrawWireCapsule(CharacterController, Single)
+- uid: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController,System.Single,System.Single)
+  name: DrawWireCapsule(CharacterController, Single, Single)
+  href: api/TirUtilities.CustomGizmos.TirGizmos.html#TirUtilities_CustomGizmos_TirGizmos_DrawWireCapsule_CharacterController_System_Single_System_Single_
+  commentId: M:TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController,System.Single,System.Single)
+  fullName: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule(CharacterController, System.Single, System.Single)
+  nameWithType: TirGizmos.DrawWireCapsule(CharacterController, Single, Single)
 - uid: TirUtilities.CustomGizmos.TirGizmos.DrawWireCapsule*
   name: DrawWireCapsule
   href: api/TirUtilities.CustomGizmos.TirGizmos.html#TirUtilities_CustomGizmos_TirGizmos_DrawWireCapsule_
@@ -1252,6 +1853,25 @@ references:
   commentId: T:TirUtilities.Detection.TriggerVolume
   fullName: TirUtilities.Detection.TriggerVolume
   nameWithType: TriggerVolume
+- uid: TirUtilities.Detection.TriggerVolume.OnVolumeTriggered
+  name: OnVolumeTriggered
+  href: api/TirUtilities.Detection.TriggerVolume.html#TirUtilities_Detection_TriggerVolume_OnVolumeTriggered
+  commentId: F:TirUtilities.Detection.TriggerVolume.OnVolumeTriggered
+  fullName: TirUtilities.Detection.TriggerVolume.OnVolumeTriggered
+  nameWithType: TriggerVolume.OnVolumeTriggered
+- uid: TirUtilities.Detection.TriggerVolume.TargetLayers
+  name: TargetLayers
+  href: api/TirUtilities.Detection.TriggerVolume.html#TirUtilities_Detection_TriggerVolume_TargetLayers
+  commentId: P:TirUtilities.Detection.TriggerVolume.TargetLayers
+  fullName: TirUtilities.Detection.TriggerVolume.TargetLayers
+  nameWithType: TriggerVolume.TargetLayers
+- uid: TirUtilities.Detection.TriggerVolume.TargetLayers*
+  name: TargetLayers
+  href: api/TirUtilities.Detection.TriggerVolume.html#TirUtilities_Detection_TriggerVolume_TargetLayers_
+  commentId: Overload:TirUtilities.Detection.TriggerVolume.TargetLayers
+  isSpec: "True"
+  fullName: TirUtilities.Detection.TriggerVolume.TargetLayers
+  nameWithType: TriggerVolume.TargetLayers
 - uid: TirUtilities.DisplayOnlyAttribute
   name: DisplayOnlyAttribute
   href: api/TirUtilities.DisplayOnlyAttribute.html
@@ -1313,30 +1933,24 @@ references:
   commentId: F:TirUtilities.Editor.BuildTools.BuildTool.GitTarget.Main
   fullName: TirUtilities.Editor.BuildTools.BuildTool.GitTarget.Main
   nameWithType: BuildTool.GitTarget.Main
-- uid: TirUtilities.Editor.Experimantal
-  name: TirUtilities.Editor.Experimantal
-  href: api/TirUtilities.Editor.Experimantal.html
-  commentId: N:TirUtilities.Editor.Experimantal
-  fullName: TirUtilities.Editor.Experimantal
-  nameWithType: TirUtilities.Editor.Experimantal
-- uid: TirUtilities.Editor.Experimantal.EditMenuItems
+- uid: TirUtilities.Editor.EditMenuItems
   name: EditMenuItems
-  href: api/TirUtilities.Editor.Experimantal.EditMenuItems.html
-  commentId: T:TirUtilities.Editor.Experimantal.EditMenuItems
-  fullName: TirUtilities.Editor.Experimantal.EditMenuItems
+  href: api/TirUtilities.Editor.EditMenuItems.html
+  commentId: T:TirUtilities.Editor.EditMenuItems
+  fullName: TirUtilities.Editor.EditMenuItems
   nameWithType: EditMenuItems
-- uid: TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected(GameObject)
+- uid: TirUtilities.Editor.EditMenuItems.FocusSelected(GameObject)
   name: FocusSelected(GameObject)
-  href: api/TirUtilities.Editor.Experimantal.EditMenuItems.html#TirUtilities_Editor_Experimantal_EditMenuItems_FocusSelected_GameObject_
-  commentId: M:TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected(GameObject)
-  fullName: TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected(GameObject)
+  href: api/TirUtilities.Editor.EditMenuItems.html#TirUtilities_Editor_EditMenuItems_FocusSelected_GameObject_
+  commentId: M:TirUtilities.Editor.EditMenuItems.FocusSelected(GameObject)
+  fullName: TirUtilities.Editor.EditMenuItems.FocusSelected(GameObject)
   nameWithType: EditMenuItems.FocusSelected(GameObject)
-- uid: TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected*
+- uid: TirUtilities.Editor.EditMenuItems.FocusSelected*
   name: FocusSelected
-  href: api/TirUtilities.Editor.Experimantal.EditMenuItems.html#TirUtilities_Editor_Experimantal_EditMenuItems_FocusSelected_
-  commentId: Overload:TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected
+  href: api/TirUtilities.Editor.EditMenuItems.html#TirUtilities_Editor_EditMenuItems_FocusSelected_
+  commentId: Overload:TirUtilities.Editor.EditMenuItems.FocusSelected
   isSpec: "True"
-  fullName: TirUtilities.Editor.Experimantal.EditMenuItems.FocusSelected
+  fullName: TirUtilities.Editor.EditMenuItems.FocusSelected
   nameWithType: EditMenuItems.FocusSelected
 - uid: TirUtilities.Editor.Experimental
   name: TirUtilities.Editor.Experimental
@@ -1382,6 +1996,12 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Editor.FlexGridInpector.OnInspectorGUI
   nameWithType: FlexGridInpector.OnInspectorGUI
+- uid: TirUtilities.Editor.GameObjectContextMenuItems
+  name: GameObjectContextMenuItems
+  href: api/TirUtilities.Editor.GameObjectContextMenuItems.html
+  commentId: T:TirUtilities.Editor.GameObjectContextMenuItems
+  fullName: TirUtilities.Editor.GameObjectContextMenuItems
+  nameWithType: GameObjectContextMenuItems
 - uid: TirUtilities.Editor.GitUtilities
   name: TirUtilities.Editor.GitUtilities
   href: api/TirUtilities.Editor.GitUtilities.html
@@ -2008,6 +2628,19 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Editor.ProjectEditorPaths.PathToRootMenuPrefab
   nameWithType: ProjectEditorPaths.PathToRootMenuPrefab
+- uid: TirUtilities.Editor.ProjectEditorPaths.PathToTriggerVolume
+  name: PathToTriggerVolume
+  href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_PathToTriggerVolume
+  commentId: P:TirUtilities.Editor.ProjectEditorPaths.PathToTriggerVolume
+  fullName: TirUtilities.Editor.ProjectEditorPaths.PathToTriggerVolume
+  nameWithType: ProjectEditorPaths.PathToTriggerVolume
+- uid: TirUtilities.Editor.ProjectEditorPaths.PathToTriggerVolume*
+  name: PathToTriggerVolume
+  href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_PathToTriggerVolume_
+  commentId: Overload:TirUtilities.Editor.ProjectEditorPaths.PathToTriggerVolume
+  isSpec: "True"
+  fullName: TirUtilities.Editor.ProjectEditorPaths.PathToTriggerVolume
+  nameWithType: ProjectEditorPaths.PathToTriggerVolume
 - uid: TirUtilities.Editor.ProjectEditorPaths.ProjectName
   name: ProjectName
   href: api/TirUtilities.Editor.ProjectEditorPaths.html#TirUtilities_Editor_ProjectEditorPaths_ProjectName
@@ -2723,6 +3356,127 @@ references:
   fullName.vb: TirUtilities.Extensions.EventExtension.SafeInvoke(Of T0, T1)(UnityEvent(Of T0, T1), T0, T1)
   nameWithType: EventExtension.SafeInvoke<T0, T1>(UnityEvent<T0, T1>, T0, T1)
   nameWithType.vb: EventExtension.SafeInvoke(Of T0, T1)(UnityEvent(Of T0, T1), T0, T1)
+- uid: TirUtilities.Extensions.IReadonlyListExtesions
+  name: IReadonlyListExtesions
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html
+  commentId: T:TirUtilities.Extensions.IReadonlyListExtesions
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions
+  nameWithType: IReadonlyListExtesions
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.IndexInRange*
+  name: IndexInRange
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_IndexInRange_
+  commentId: Overload:TirUtilities.Extensions.IReadonlyListExtesions.IndexInRange
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.IndexInRange
+  nameWithType: IReadonlyListExtesions.IndexInRange
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.IndexInRange``1(System.Collections.Generic.IReadOnlyList{``0},System.Int32)
+  name: IndexInRange<T>(IReadOnlyList<T>, Int32)
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_IndexInRange__1_System_Collections_Generic_IReadOnlyList___0__System_Int32_
+  commentId: M:TirUtilities.Extensions.IReadonlyListExtesions.IndexInRange``1(System.Collections.Generic.IReadOnlyList{``0},System.Int32)
+  name.vb: IndexInRange(Of T)(IReadOnlyList(Of T), Int32)
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.IndexInRange<T>(System.Collections.Generic.IReadOnlyList<T>, System.Int32)
+  fullName.vb: TirUtilities.Extensions.IReadonlyListExtesions.IndexInRange(Of T)(System.Collections.Generic.IReadOnlyList(Of T), System.Int32)
+  nameWithType: IReadonlyListExtesions.IndexInRange<T>(IReadOnlyList<T>, Int32)
+  nameWithType.vb: IReadonlyListExtesions.IndexInRange(Of T)(IReadOnlyList(Of T), Int32)
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.IsEmpty*
+  name: IsEmpty
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_IsEmpty_
+  commentId: Overload:TirUtilities.Extensions.IReadonlyListExtesions.IsEmpty
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.IsEmpty
+  nameWithType: IReadonlyListExtesions.IsEmpty
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.IsEmpty``1(System.Collections.Generic.IReadOnlyList{``0})
+  name: IsEmpty<T>(IReadOnlyList<T>)
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_IsEmpty__1_System_Collections_Generic_IReadOnlyList___0__
+  commentId: M:TirUtilities.Extensions.IReadonlyListExtesions.IsEmpty``1(System.Collections.Generic.IReadOnlyList{``0})
+  name.vb: IsEmpty(Of T)(IReadOnlyList(Of T))
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.IsEmpty<T>(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: TirUtilities.Extensions.IReadonlyListExtesions.IsEmpty(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: IReadonlyListExtesions.IsEmpty<T>(IReadOnlyList<T>)
+  nameWithType.vb: IReadonlyListExtesions.IsEmpty(Of T)(IReadOnlyList(Of T))
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.IsNull*
+  name: IsNull
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_IsNull_
+  commentId: Overload:TirUtilities.Extensions.IReadonlyListExtesions.IsNull
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.IsNull
+  nameWithType: IReadonlyListExtesions.IsNull
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.IsNull``1(System.Collections.Generic.IReadOnlyList{``0})
+  name: IsNull<T>(IReadOnlyList<T>)
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_IsNull__1_System_Collections_Generic_IReadOnlyList___0__
+  commentId: M:TirUtilities.Extensions.IReadonlyListExtesions.IsNull``1(System.Collections.Generic.IReadOnlyList{``0})
+  name.vb: IsNull(Of T)(IReadOnlyList(Of T))
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.IsNull<T>(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: TirUtilities.Extensions.IReadonlyListExtesions.IsNull(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: IReadonlyListExtesions.IsNull<T>(IReadOnlyList<T>)
+  nameWithType.vb: IReadonlyListExtesions.IsNull(Of T)(IReadOnlyList(Of T))
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.IsNullOrEmpty*
+  name: IsNullOrEmpty
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_IsNullOrEmpty_
+  commentId: Overload:TirUtilities.Extensions.IReadonlyListExtesions.IsNullOrEmpty
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.IsNullOrEmpty
+  nameWithType: IReadonlyListExtesions.IsNullOrEmpty
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.IsNullOrEmpty``1(System.Collections.Generic.IReadOnlyList{``0})
+  name: IsNullOrEmpty<T>(IReadOnlyList<T>)
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_IsNullOrEmpty__1_System_Collections_Generic_IReadOnlyList___0__
+  commentId: M:TirUtilities.Extensions.IReadonlyListExtesions.IsNullOrEmpty``1(System.Collections.Generic.IReadOnlyList{``0})
+  name.vb: IsNullOrEmpty(Of T)(IReadOnlyList(Of T))
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.IsNullOrEmpty<T>(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: TirUtilities.Extensions.IReadonlyListExtesions.IsNullOrEmpty(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: IReadonlyListExtesions.IsNullOrEmpty<T>(IReadOnlyList<T>)
+  nameWithType.vb: IReadonlyListExtesions.IsNullOrEmpty(Of T)(IReadOnlyList(Of T))
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.NotEmpty*
+  name: NotEmpty
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_NotEmpty_
+  commentId: Overload:TirUtilities.Extensions.IReadonlyListExtesions.NotEmpty
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.NotEmpty
+  nameWithType: IReadonlyListExtesions.NotEmpty
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.NotEmpty``1(System.Collections.Generic.IReadOnlyList{``0})
+  name: NotEmpty<T>(IReadOnlyList<T>)
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_NotEmpty__1_System_Collections_Generic_IReadOnlyList___0__
+  commentId: M:TirUtilities.Extensions.IReadonlyListExtesions.NotEmpty``1(System.Collections.Generic.IReadOnlyList{``0})
+  name.vb: NotEmpty(Of T)(IReadOnlyList(Of T))
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.NotEmpty<T>(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: TirUtilities.Extensions.IReadonlyListExtesions.NotEmpty(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: IReadonlyListExtesions.NotEmpty<T>(IReadOnlyList<T>)
+  nameWithType.vb: IReadonlyListExtesions.NotEmpty(Of T)(IReadOnlyList(Of T))
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.NotNull*
+  name: NotNull
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_NotNull_
+  commentId: Overload:TirUtilities.Extensions.IReadonlyListExtesions.NotNull
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.NotNull
+  nameWithType: IReadonlyListExtesions.NotNull
+- uid: TirUtilities.Extensions.IReadonlyListExtesions.NotNull``1(System.Collections.Generic.IReadOnlyList{``0})
+  name: NotNull<T>(IReadOnlyList<T>)
+  href: api/TirUtilities.Extensions.IReadonlyListExtesions.html#TirUtilities_Extensions_IReadonlyListExtesions_NotNull__1_System_Collections_Generic_IReadOnlyList___0__
+  commentId: M:TirUtilities.Extensions.IReadonlyListExtesions.NotNull``1(System.Collections.Generic.IReadOnlyList{``0})
+  name.vb: NotNull(Of T)(IReadOnlyList(Of T))
+  fullName: TirUtilities.Extensions.IReadonlyListExtesions.NotNull<T>(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: TirUtilities.Extensions.IReadonlyListExtesions.NotNull(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: IReadonlyListExtesions.NotNull<T>(IReadOnlyList<T>)
+  nameWithType.vb: IReadonlyListExtesions.NotNull(Of T)(IReadOnlyList(Of T))
+- uid: TirUtilities.Extensions.LayerMaskExtensions
+  name: LayerMaskExtensions
+  href: api/TirUtilities.Extensions.LayerMaskExtensions.html
+  commentId: T:TirUtilities.Extensions.LayerMaskExtensions
+  fullName: TirUtilities.Extensions.LayerMaskExtensions
+  nameWithType: LayerMaskExtensions
+- uid: TirUtilities.Extensions.LayerMaskExtensions.LayerInMask(LayerMask,System.Int32)
+  name: LayerInMask(LayerMask, Int32)
+  href: api/TirUtilities.Extensions.LayerMaskExtensions.html#TirUtilities_Extensions_LayerMaskExtensions_LayerInMask_LayerMask_System_Int32_
+  commentId: M:TirUtilities.Extensions.LayerMaskExtensions.LayerInMask(LayerMask,System.Int32)
+  fullName: TirUtilities.Extensions.LayerMaskExtensions.LayerInMask(LayerMask, System.Int32)
+  nameWithType: LayerMaskExtensions.LayerInMask(LayerMask, Int32)
+- uid: TirUtilities.Extensions.LayerMaskExtensions.LayerInMask*
+  name: LayerInMask
+  href: api/TirUtilities.Extensions.LayerMaskExtensions.html#TirUtilities_Extensions_LayerMaskExtensions_LayerInMask_
+  commentId: Overload:TirUtilities.Extensions.LayerMaskExtensions.LayerInMask
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.LayerMaskExtensions.LayerInMask
+  nameWithType: LayerMaskExtensions.LayerInMask
 - uid: TirUtilities.Extensions.ListExtensions
   name: ListExtensions
   href: api/TirUtilities.Extensions.ListExtensions.html
@@ -2876,6 +3630,80 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Extensions.RigidbodyExtensions.CancelAllVelocity
   nameWithType: RigidbodyExtensions.CancelAllVelocity
+- uid: TirUtilities.Generics
+  name: TirUtilities.Generics
+  href: api/TirUtilities.Generics.html
+  commentId: N:TirUtilities.Generics
+  fullName: TirUtilities.Generics
+  nameWithType: TirUtilities.Generics
+- uid: TirUtilities.Generics.MonoSingleton`1
+  name: MonoSingleton<T>
+  href: api/TirUtilities.Generics.MonoSingleton-1.html
+  commentId: T:TirUtilities.Generics.MonoSingleton`1
+  name.vb: MonoSingleton(Of T)
+  fullName: TirUtilities.Generics.MonoSingleton<T>
+  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T)
+  nameWithType: MonoSingleton<T>
+  nameWithType.vb: MonoSingleton(Of T)
+- uid: TirUtilities.Generics.MonoSingleton`1.Instance
+  name: Instance
+  href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_Instance
+  commentId: P:TirUtilities.Generics.MonoSingleton`1.Instance
+  fullName: TirUtilities.Generics.MonoSingleton<T>.Instance
+  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).Instance
+  nameWithType: MonoSingleton<T>.Instance
+  nameWithType.vb: MonoSingleton(Of T).Instance
+- uid: TirUtilities.Generics.MonoSingleton`1.Instance*
+  name: Instance
+  href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_Instance_
+  commentId: Overload:TirUtilities.Generics.MonoSingleton`1.Instance
+  isSpec: "True"
+  fullName: TirUtilities.Generics.MonoSingleton<T>.Instance
+  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).Instance
+  nameWithType: MonoSingleton<T>.Instance
+  nameWithType.vb: MonoSingleton(Of T).Instance
+- uid: TirUtilities.Generics.MonoSingleton`1.OnDestroy
+  name: OnDestroy()
+  href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_OnDestroy
+  commentId: M:TirUtilities.Generics.MonoSingleton`1.OnDestroy
+  fullName: TirUtilities.Generics.MonoSingleton<T>.OnDestroy()
+  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).OnDestroy()
+  nameWithType: MonoSingleton<T>.OnDestroy()
+  nameWithType.vb: MonoSingleton(Of T).OnDestroy()
+- uid: TirUtilities.Generics.MonoSingleton`1.OnDestroy*
+  name: OnDestroy
+  href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_OnDestroy_
+  commentId: Overload:TirUtilities.Generics.MonoSingleton`1.OnDestroy
+  isSpec: "True"
+  fullName: TirUtilities.Generics.MonoSingleton<T>.OnDestroy
+  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).OnDestroy
+  nameWithType: MonoSingleton<T>.OnDestroy
+  nameWithType.vb: MonoSingleton(Of T).OnDestroy
+- uid: TirUtilities.Generics.ResourceSingletonAttribute
+  name: ResourceSingletonAttribute
+  href: api/TirUtilities.Generics.ResourceSingletonAttribute.html
+  commentId: T:TirUtilities.Generics.ResourceSingletonAttribute
+  fullName: TirUtilities.Generics.ResourceSingletonAttribute
+  nameWithType: ResourceSingletonAttribute
+- uid: TirUtilities.Generics.ResourceSingletonAttribute.#ctor(System.String)
+  name: ResourceSingletonAttribute(String)
+  href: api/TirUtilities.Generics.ResourceSingletonAttribute.html#TirUtilities_Generics_ResourceSingletonAttribute__ctor_System_String_
+  commentId: M:TirUtilities.Generics.ResourceSingletonAttribute.#ctor(System.String)
+  fullName: TirUtilities.Generics.ResourceSingletonAttribute.ResourceSingletonAttribute(System.String)
+  nameWithType: ResourceSingletonAttribute.ResourceSingletonAttribute(String)
+- uid: TirUtilities.Generics.ResourceSingletonAttribute.#ctor*
+  name: ResourceSingletonAttribute
+  href: api/TirUtilities.Generics.ResourceSingletonAttribute.html#TirUtilities_Generics_ResourceSingletonAttribute__ctor_
+  commentId: Overload:TirUtilities.Generics.ResourceSingletonAttribute.#ctor
+  isSpec: "True"
+  fullName: TirUtilities.Generics.ResourceSingletonAttribute.ResourceSingletonAttribute
+  nameWithType: ResourceSingletonAttribute.ResourceSingletonAttribute
+- uid: TirUtilities.Generics.ResourceSingletonAttribute.resourceFilePath
+  name: resourceFilePath
+  href: api/TirUtilities.Generics.ResourceSingletonAttribute.html#TirUtilities_Generics_ResourceSingletonAttribute_resourceFilePath
+  commentId: F:TirUtilities.Generics.ResourceSingletonAttribute.resourceFilePath
+  fullName: TirUtilities.Generics.ResourceSingletonAttribute.resourceFilePath
+  nameWithType: ResourceSingletonAttribute.resourceFilePath
 - uid: TirUtilities.IState`1
   name: IState<T>
   href: api/TirUtilities.IState-1.html
@@ -3091,6 +3919,124 @@ references:
   isSpec: "True"
   fullName: TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
   nameWithType: LevelSystem.LevelLoadSignals
+- uid: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+  name: TryLoadMainMenu()
+  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_TryLoadMainMenu
+  commentId: M:TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+  fullName: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu()
+  nameWithType: LevelSystem.TryLoadMainMenu()
+- uid: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu*
+  name: TryLoadMainMenu
+  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_TryLoadMainMenu_
+  commentId: Overload:TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+  nameWithType: LevelSystem.TryLoadMainMenu
+- uid: TirUtilities.RichTextColor
+  name: RichTextColor
+  href: api/TirUtilities.RichTextColor.html
+  commentId: T:TirUtilities.RichTextColor
+  fullName: TirUtilities.RichTextColor
+  nameWithType: RichTextColor
+- uid: TirUtilities.RichTextColor.#ctor(System.String,Color)
+  name: RichTextColor(String, Color)
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor__ctor_System_String_Color_
+  commentId: M:TirUtilities.RichTextColor.#ctor(System.String,Color)
+  fullName: TirUtilities.RichTextColor.RichTextColor(System.String, Color)
+  nameWithType: RichTextColor.RichTextColor(String, Color)
+- uid: TirUtilities.RichTextColor.#ctor(System.String,System.String)
+  name: RichTextColor(String, String)
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor__ctor_System_String_System_String_
+  commentId: M:TirUtilities.RichTextColor.#ctor(System.String,System.String)
+  fullName: TirUtilities.RichTextColor.RichTextColor(System.String, System.String)
+  nameWithType: RichTextColor.RichTextColor(String, String)
+- uid: TirUtilities.RichTextColor.#ctor*
+  name: RichTextColor
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor__ctor_
+  commentId: Overload:TirUtilities.RichTextColor.#ctor
+  isSpec: "True"
+  fullName: TirUtilities.RichTextColor.RichTextColor
+  nameWithType: RichTextColor.RichTextColor
+- uid: TirUtilities.RichTextColor.Hex
+  name: Hex
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_Hex
+  commentId: P:TirUtilities.RichTextColor.Hex
+  fullName: TirUtilities.RichTextColor.Hex
+  nameWithType: RichTextColor.Hex
+- uid: TirUtilities.RichTextColor.Hex*
+  name: Hex
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_Hex_
+  commentId: Overload:TirUtilities.RichTextColor.Hex
+  isSpec: "True"
+  fullName: TirUtilities.RichTextColor.Hex
+  nameWithType: RichTextColor.Hex
+- uid: TirUtilities.RichTextColor.Name
+  name: Name
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_Name
+  commentId: P:TirUtilities.RichTextColor.Name
+  fullName: TirUtilities.RichTextColor.Name
+  nameWithType: RichTextColor.Name
+- uid: TirUtilities.RichTextColor.Name*
+  name: Name
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_Name_
+  commentId: Overload:TirUtilities.RichTextColor.Name
+  isSpec: "True"
+  fullName: TirUtilities.RichTextColor.Name
+  nameWithType: RichTextColor.Name
+- uid: TirUtilities.RichTextColor.op_Implicit(Color)~TirUtilities.RichTextColor
+  name: Implicit(Color to RichTextColor)
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_op_Implicit_Color__TirUtilities_RichTextColor
+  commentId: M:TirUtilities.RichTextColor.op_Implicit(Color)~TirUtilities.RichTextColor
+  name.vb: Widening(Color to RichTextColor)
+  fullName: TirUtilities.RichTextColor.Implicit(Color to TirUtilities.RichTextColor)
+  fullName.vb: TirUtilities.RichTextColor.Widening(Color to TirUtilities.RichTextColor)
+  nameWithType: RichTextColor.Implicit(Color to RichTextColor)
+  nameWithType.vb: RichTextColor.Widening(Color to RichTextColor)
+- uid: TirUtilities.RichTextColor.op_Implicit(TirUtilities.RichTextColor)~Color
+  name: Implicit(RichTextColor to Color)
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_op_Implicit_TirUtilities_RichTextColor__Color
+  commentId: M:TirUtilities.RichTextColor.op_Implicit(TirUtilities.RichTextColor)~Color
+  name.vb: Widening(RichTextColor to Color)
+  fullName: TirUtilities.RichTextColor.Implicit(TirUtilities.RichTextColor to Color)
+  fullName.vb: TirUtilities.RichTextColor.Widening(TirUtilities.RichTextColor to Color)
+  nameWithType: RichTextColor.Implicit(RichTextColor to Color)
+  nameWithType.vb: RichTextColor.Widening(RichTextColor to Color)
+- uid: TirUtilities.RichTextColor.op_Implicit*
+  name: Implicit
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_op_Implicit_
+  commentId: Overload:TirUtilities.RichTextColor.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: TirUtilities.RichTextColor.Implicit
+  fullName.vb: TirUtilities.RichTextColor.Widening
+  nameWithType: RichTextColor.Implicit
+  nameWithType.vb: RichTextColor.Widening
+- uid: TirUtilities.RichTextColor.ToString
+  name: ToString()
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_ToString
+  commentId: M:TirUtilities.RichTextColor.ToString
+  fullName: TirUtilities.RichTextColor.ToString()
+  nameWithType: RichTextColor.ToString()
+- uid: TirUtilities.RichTextColor.ToString*
+  name: ToString
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_ToString_
+  commentId: Overload:TirUtilities.RichTextColor.ToString
+  isSpec: "True"
+  fullName: TirUtilities.RichTextColor.ToString
+  nameWithType: RichTextColor.ToString
+- uid: TirUtilities.RichTextColor.UnityColor
+  name: UnityColor
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_UnityColor
+  commentId: P:TirUtilities.RichTextColor.UnityColor
+  fullName: TirUtilities.RichTextColor.UnityColor
+  nameWithType: RichTextColor.UnityColor
+- uid: TirUtilities.RichTextColor.UnityColor*
+  name: UnityColor
+  href: api/TirUtilities.RichTextColor.html#TirUtilities_RichTextColor_UnityColor_
+  commentId: Overload:TirUtilities.RichTextColor.UnityColor
+  isSpec: "True"
+  fullName: TirUtilities.RichTextColor.UnityColor
+  nameWithType: RichTextColor.UnityColor
 - uid: TirUtilities.Runtime.Tests
   name: TirUtilities.Runtime.Tests
   href: api/TirUtilities.Runtime.Tests.html
@@ -3300,6 +4246,12 @@ references:
   commentId: T:TirUtilities.ShowIfAttribute
   fullName: TirUtilities.ShowIfAttribute
   nameWithType: ShowIfAttribute
+- uid: TirUtilities.ShowIfAttribute.#ctor(System.String)
+  name: ShowIfAttribute(String)
+  href: api/TirUtilities.ShowIfAttribute.html#TirUtilities_ShowIfAttribute__ctor_System_String_
+  commentId: M:TirUtilities.ShowIfAttribute.#ctor(System.String)
+  fullName: TirUtilities.ShowIfAttribute.ShowIfAttribute(System.String)
+  nameWithType: ShowIfAttribute.ShowIfAttribute(String)
 - uid: TirUtilities.ShowIfAttribute.#ctor(System.String,System.Boolean)
   name: ShowIfAttribute(String, Boolean)
   href: api/TirUtilities.ShowIfAttribute.html#TirUtilities_ShowIfAttribute__ctor_System_String_System_Boolean_
@@ -4340,6 +5292,19 @@ references:
   commentId: F:TirUtilities.Signals.SignalBase._OnEmit
   fullName: TirUtilities.Signals.SignalBase._OnEmit
   nameWithType: SignalBase._OnEmit
+- uid: TirUtilities.Signals.SignalBase.AddReceiver(UnityAction)
+  name: AddReceiver(UnityAction)
+  href: api/TirUtilities.Signals.SignalBase.html#TirUtilities_Signals_SignalBase_AddReceiver_UnityAction_
+  commentId: M:TirUtilities.Signals.SignalBase.AddReceiver(UnityAction)
+  fullName: TirUtilities.Signals.SignalBase.AddReceiver(UnityAction)
+  nameWithType: SignalBase.AddReceiver(UnityAction)
+- uid: TirUtilities.Signals.SignalBase.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.SignalBase.html#TirUtilities_Signals_SignalBase_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.SignalBase.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase.AddReceiver
+  nameWithType: SignalBase.AddReceiver
 - uid: TirUtilities.Signals.SignalBase.Description
   name: Description
   href: api/TirUtilities.Signals.SignalBase.html#TirUtilities_Signals_SignalBase_Description
@@ -4353,6 +5318,32 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Signals.SignalBase.Description
   nameWithType: SignalBase.Description
+- uid: TirUtilities.Signals.SignalBase.Emit
+  name: Emit()
+  href: api/TirUtilities.Signals.SignalBase.html#TirUtilities_Signals_SignalBase_Emit
+  commentId: M:TirUtilities.Signals.SignalBase.Emit
+  fullName: TirUtilities.Signals.SignalBase.Emit()
+  nameWithType: SignalBase.Emit()
+- uid: TirUtilities.Signals.SignalBase.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.SignalBase.html#TirUtilities_Signals_SignalBase_Emit_
+  commentId: Overload:TirUtilities.Signals.SignalBase.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase.Emit
+  nameWithType: SignalBase.Emit
+- uid: TirUtilities.Signals.SignalBase.RemoveReceiver(UnityAction)
+  name: RemoveReceiver(UnityAction)
+  href: api/TirUtilities.Signals.SignalBase.html#TirUtilities_Signals_SignalBase_RemoveReceiver_UnityAction_
+  commentId: M:TirUtilities.Signals.SignalBase.RemoveReceiver(UnityAction)
+  fullName: TirUtilities.Signals.SignalBase.RemoveReceiver(UnityAction)
+  nameWithType: SignalBase.RemoveReceiver(UnityAction)
+- uid: TirUtilities.Signals.SignalBase.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.SignalBase.html#TirUtilities_Signals_SignalBase_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.SignalBase.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase.RemoveReceiver
+  nameWithType: SignalBase.RemoveReceiver
 - uid: TirUtilities.Signals.SignalBase`1
   name: SignalBase<T0>
   href: api/TirUtilities.Signals.SignalBase-1.html
@@ -4378,6 +5369,24 @@ references:
   fullName.vb: TirUtilities.Signals.SignalBase(Of T0)._OnEmit
   nameWithType: SignalBase<T0>._OnEmit
   nameWithType.vb: SignalBase(Of T0)._OnEmit
+- uid: TirUtilities.Signals.SignalBase`1.AddReceiver(UnityAction{`0})
+  name: AddReceiver(UnityAction<T0>)
+  href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1_AddReceiver_UnityAction__0__
+  commentId: M:TirUtilities.Signals.SignalBase`1.AddReceiver(UnityAction{`0})
+  name.vb: AddReceiver(UnityAction(Of T0))
+  fullName: TirUtilities.Signals.SignalBase<T0>.AddReceiver(UnityAction<T0>)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0).AddReceiver(UnityAction(Of T0))
+  nameWithType: SignalBase<T0>.AddReceiver(UnityAction<T0>)
+  nameWithType.vb: SignalBase(Of T0).AddReceiver(UnityAction(Of T0))
+- uid: TirUtilities.Signals.SignalBase`1.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.SignalBase`1.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0>.AddReceiver
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0).AddReceiver
+  nameWithType: SignalBase<T0>.AddReceiver
+  nameWithType.vb: SignalBase(Of T0).AddReceiver
 - uid: TirUtilities.Signals.SignalBase`1.Description
   name: Description
   href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1_Description
@@ -4395,6 +5404,41 @@ references:
   fullName.vb: TirUtilities.Signals.SignalBase(Of T0).Description
   nameWithType: SignalBase<T0>.Description
   nameWithType.vb: SignalBase(Of T0).Description
+- uid: TirUtilities.Signals.SignalBase`1.Emit(`0)
+  name: Emit(T0)
+  href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1_Emit__0_
+  commentId: M:TirUtilities.Signals.SignalBase`1.Emit(`0)
+  fullName: TirUtilities.Signals.SignalBase<T0>.Emit(T0)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0).Emit(T0)
+  nameWithType: SignalBase<T0>.Emit(T0)
+  nameWithType.vb: SignalBase(Of T0).Emit(T0)
+- uid: TirUtilities.Signals.SignalBase`1.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1_Emit_
+  commentId: Overload:TirUtilities.Signals.SignalBase`1.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0>.Emit
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0).Emit
+  nameWithType: SignalBase<T0>.Emit
+  nameWithType.vb: SignalBase(Of T0).Emit
+- uid: TirUtilities.Signals.SignalBase`1.RemoveReceiver(UnityAction{`0})
+  name: RemoveReceiver(UnityAction<T0>)
+  href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1_RemoveReceiver_UnityAction__0__
+  commentId: M:TirUtilities.Signals.SignalBase`1.RemoveReceiver(UnityAction{`0})
+  name.vb: RemoveReceiver(UnityAction(Of T0))
+  fullName: TirUtilities.Signals.SignalBase<T0>.RemoveReceiver(UnityAction<T0>)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0).RemoveReceiver(UnityAction(Of T0))
+  nameWithType: SignalBase<T0>.RemoveReceiver(UnityAction<T0>)
+  nameWithType.vb: SignalBase(Of T0).RemoveReceiver(UnityAction(Of T0))
+- uid: TirUtilities.Signals.SignalBase`1.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.SignalBase-1.html#TirUtilities_Signals_SignalBase_1_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.SignalBase`1.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0>.RemoveReceiver
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0).RemoveReceiver
+  nameWithType: SignalBase<T0>.RemoveReceiver
+  nameWithType.vb: SignalBase(Of T0).RemoveReceiver
 - uid: TirUtilities.Signals.SignalBase`2
   name: SignalBase<T0, T1>
   href: api/TirUtilities.Signals.SignalBase-2.html
@@ -4420,6 +5464,24 @@ references:
   fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1)._OnEmit
   nameWithType: SignalBase<T0, T1>._OnEmit
   nameWithType.vb: SignalBase(Of T0, T1)._OnEmit
+- uid: TirUtilities.Signals.SignalBase`2.AddReceiver(UnityAction{`0,`1})
+  name: AddReceiver(UnityAction<T0, T1>)
+  href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2_AddReceiver_UnityAction__0__1__
+  commentId: M:TirUtilities.Signals.SignalBase`2.AddReceiver(UnityAction{`0,`1})
+  name.vb: AddReceiver(UnityAction(Of T0, T1))
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>.AddReceiver(UnityAction<T0, T1>)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1).AddReceiver(UnityAction(Of T0, T1))
+  nameWithType: SignalBase<T0, T1>.AddReceiver(UnityAction<T0, T1>)
+  nameWithType.vb: SignalBase(Of T0, T1).AddReceiver(UnityAction(Of T0, T1))
+- uid: TirUtilities.Signals.SignalBase`2.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.SignalBase`2.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>.AddReceiver
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1).AddReceiver
+  nameWithType: SignalBase<T0, T1>.AddReceiver
+  nameWithType.vb: SignalBase(Of T0, T1).AddReceiver
 - uid: TirUtilities.Signals.SignalBase`2.Description
   name: Description
   href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2_Description
@@ -4437,6 +5499,41 @@ references:
   fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1).Description
   nameWithType: SignalBase<T0, T1>.Description
   nameWithType.vb: SignalBase(Of T0, T1).Description
+- uid: TirUtilities.Signals.SignalBase`2.Emit(`0,`1)
+  name: Emit(T0, T1)
+  href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2_Emit__0__1_
+  commentId: M:TirUtilities.Signals.SignalBase`2.Emit(`0,`1)
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>.Emit(T0, T1)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1).Emit(T0, T1)
+  nameWithType: SignalBase<T0, T1>.Emit(T0, T1)
+  nameWithType.vb: SignalBase(Of T0, T1).Emit(T0, T1)
+- uid: TirUtilities.Signals.SignalBase`2.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2_Emit_
+  commentId: Overload:TirUtilities.Signals.SignalBase`2.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>.Emit
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1).Emit
+  nameWithType: SignalBase<T0, T1>.Emit
+  nameWithType.vb: SignalBase(Of T0, T1).Emit
+- uid: TirUtilities.Signals.SignalBase`2.RemoveReceiver(UnityAction{`0,`1})
+  name: RemoveReceiver(UnityAction<T0, T1>)
+  href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2_RemoveReceiver_UnityAction__0__1__
+  commentId: M:TirUtilities.Signals.SignalBase`2.RemoveReceiver(UnityAction{`0,`1})
+  name.vb: RemoveReceiver(UnityAction(Of T0, T1))
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>.RemoveReceiver(UnityAction<T0, T1>)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1).RemoveReceiver(UnityAction(Of T0, T1))
+  nameWithType: SignalBase<T0, T1>.RemoveReceiver(UnityAction<T0, T1>)
+  nameWithType.vb: SignalBase(Of T0, T1).RemoveReceiver(UnityAction(Of T0, T1))
+- uid: TirUtilities.Signals.SignalBase`2.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.SignalBase-2.html#TirUtilities_Signals_SignalBase_2_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.SignalBase`2.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0, T1>.RemoveReceiver
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1).RemoveReceiver
+  nameWithType: SignalBase<T0, T1>.RemoveReceiver
+  nameWithType.vb: SignalBase(Of T0, T1).RemoveReceiver
 - uid: TirUtilities.Signals.SignalBase`3
   name: SignalBase<T0, T1, T2>
   href: api/TirUtilities.Signals.SignalBase-3.html
@@ -4462,6 +5559,24 @@ references:
   fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2)._OnEmit
   nameWithType: SignalBase<T0, T1, T2>._OnEmit
   nameWithType.vb: SignalBase(Of T0, T1, T2)._OnEmit
+- uid: TirUtilities.Signals.SignalBase`3.AddReceiver(UnityAction{`0,`1,`2})
+  name: AddReceiver(UnityAction<T0, T1, T2>)
+  href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3_AddReceiver_UnityAction__0__1__2__
+  commentId: M:TirUtilities.Signals.SignalBase`3.AddReceiver(UnityAction{`0,`1,`2})
+  name.vb: AddReceiver(UnityAction(Of T0, T1, T2))
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>.AddReceiver(UnityAction<T0, T1, T2>)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2).AddReceiver(UnityAction(Of T0, T1, T2))
+  nameWithType: SignalBase<T0, T1, T2>.AddReceiver(UnityAction<T0, T1, T2>)
+  nameWithType.vb: SignalBase(Of T0, T1, T2).AddReceiver(UnityAction(Of T0, T1, T2))
+- uid: TirUtilities.Signals.SignalBase`3.AddReceiver*
+  name: AddReceiver
+  href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3_AddReceiver_
+  commentId: Overload:TirUtilities.Signals.SignalBase`3.AddReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>.AddReceiver
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2).AddReceiver
+  nameWithType: SignalBase<T0, T1, T2>.AddReceiver
+  nameWithType.vb: SignalBase(Of T0, T1, T2).AddReceiver
 - uid: TirUtilities.Signals.SignalBase`3.Description
   name: Description
   href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3_Description
@@ -4479,6 +5594,41 @@ references:
   fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2).Description
   nameWithType: SignalBase<T0, T1, T2>.Description
   nameWithType.vb: SignalBase(Of T0, T1, T2).Description
+- uid: TirUtilities.Signals.SignalBase`3.Emit(`0,`1,`2)
+  name: Emit(T0, T1, T2)
+  href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3_Emit__0__1__2_
+  commentId: M:TirUtilities.Signals.SignalBase`3.Emit(`0,`1,`2)
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>.Emit(T0, T1, T2)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2).Emit(T0, T1, T2)
+  nameWithType: SignalBase<T0, T1, T2>.Emit(T0, T1, T2)
+  nameWithType.vb: SignalBase(Of T0, T1, T2).Emit(T0, T1, T2)
+- uid: TirUtilities.Signals.SignalBase`3.Emit*
+  name: Emit
+  href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3_Emit_
+  commentId: Overload:TirUtilities.Signals.SignalBase`3.Emit
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>.Emit
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2).Emit
+  nameWithType: SignalBase<T0, T1, T2>.Emit
+  nameWithType.vb: SignalBase(Of T0, T1, T2).Emit
+- uid: TirUtilities.Signals.SignalBase`3.RemoveReceiver(UnityAction{`0,`1,`2})
+  name: RemoveReceiver(UnityAction<T0, T1, T2>)
+  href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3_RemoveReceiver_UnityAction__0__1__2__
+  commentId: M:TirUtilities.Signals.SignalBase`3.RemoveReceiver(UnityAction{`0,`1,`2})
+  name.vb: RemoveReceiver(UnityAction(Of T0, T1, T2))
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>.RemoveReceiver(UnityAction<T0, T1, T2>)
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2).RemoveReceiver(UnityAction(Of T0, T1, T2))
+  nameWithType: SignalBase<T0, T1, T2>.RemoveReceiver(UnityAction<T0, T1, T2>)
+  nameWithType.vb: SignalBase(Of T0, T1, T2).RemoveReceiver(UnityAction(Of T0, T1, T2))
+- uid: TirUtilities.Signals.SignalBase`3.RemoveReceiver*
+  name: RemoveReceiver
+  href: api/TirUtilities.Signals.SignalBase-3.html#TirUtilities_Signals_SignalBase_3_RemoveReceiver_
+  commentId: Overload:TirUtilities.Signals.SignalBase`3.RemoveReceiver
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalBase<T0, T1, T2>.RemoveReceiver
+  fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2).RemoveReceiver
+  nameWithType: SignalBase<T0, T1, T2>.RemoveReceiver
+  nameWithType.vb: SignalBase(Of T0, T1, T2).RemoveReceiver
 - uid: TirUtilities.Signals.SignalReceiver
   name: SignalReceiver
   href: api/TirUtilities.Signals.SignalReceiver.html
@@ -4962,6 +6112,32 @@ references:
   commentId: T:TirUtilities.TirLogger
   fullName: TirUtilities.TirLogger
   nameWithType: TirLogger
+- uid: TirUtilities.TirLogger.ClassColor
+  name: ClassColor
+  href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_ClassColor
+  commentId: P:TirUtilities.TirLogger.ClassColor
+  fullName: TirUtilities.TirLogger.ClassColor
+  nameWithType: TirLogger.ClassColor
+- uid: TirUtilities.TirLogger.ClassColor*
+  name: ClassColor
+  href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_ClassColor_
+  commentId: Overload:TirUtilities.TirLogger.ClassColor
+  isSpec: "True"
+  fullName: TirUtilities.TirLogger.ClassColor
+  nameWithType: TirLogger.ClassColor
+- uid: TirUtilities.TirLogger.ContextColor
+  name: ContextColor
+  href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_ContextColor
+  commentId: P:TirUtilities.TirLogger.ContextColor
+  fullName: TirUtilities.TirLogger.ContextColor
+  nameWithType: TirLogger.ContextColor
+- uid: TirUtilities.TirLogger.ContextColor*
+  name: ContextColor
+  href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_ContextColor_
+  commentId: Overload:TirUtilities.TirLogger.ContextColor
+  isSpec: "True"
+  fullName: TirUtilities.TirLogger.ContextColor
+  nameWithType: TirLogger.ContextColor
 - uid: TirUtilities.TirLogger.LogCall
   name: LogCall()
   href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_LogCall
@@ -4974,6 +6150,12 @@ references:
   commentId: M:TirUtilities.TirLogger.LogCall(System.String,System.String)
   fullName: TirUtilities.TirLogger.LogCall(System.String, System.String)
   nameWithType: TirLogger.LogCall(String, String)
+- uid: TirUtilities.TirLogger.LogCall(UnityEngine.Object)
+  name: LogCall(Object)
+  href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_LogCall_UnityEngine_Object_
+  commentId: M:TirUtilities.TirLogger.LogCall(UnityEngine.Object)
+  fullName: TirUtilities.TirLogger.LogCall(UnityEngine.Object)
+  nameWithType: TirLogger.LogCall(Object)
 - uid: TirUtilities.TirLogger.LogCall*
   name: LogCall
   href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_LogCall_
@@ -4981,6 +6163,32 @@ references:
   isSpec: "True"
   fullName: TirUtilities.TirLogger.LogCall
   nameWithType: TirLogger.LogCall
+- uid: TirUtilities.TirLogger.MethodColor
+  name: MethodColor
+  href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_MethodColor
+  commentId: P:TirUtilities.TirLogger.MethodColor
+  fullName: TirUtilities.TirLogger.MethodColor
+  nameWithType: TirLogger.MethodColor
+- uid: TirUtilities.TirLogger.MethodColor*
+  name: MethodColor
+  href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_MethodColor_
+  commentId: Overload:TirUtilities.TirLogger.MethodColor
+  isSpec: "True"
+  fullName: TirUtilities.TirLogger.MethodColor
+  nameWithType: TirLogger.MethodColor
+- uid: TirUtilities.TirLogger.ResetColors
+  name: ResetColors()
+  href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_ResetColors
+  commentId: M:TirUtilities.TirLogger.ResetColors
+  fullName: TirUtilities.TirLogger.ResetColors()
+  nameWithType: TirLogger.ResetColors()
+- uid: TirUtilities.TirLogger.ResetColors*
+  name: ResetColors
+  href: api/TirUtilities.TirLogger.html#TirUtilities_TirLogger_ResetColors_
+  commentId: Overload:TirUtilities.TirLogger.ResetColors
+  isSpec: "True"
+  fullName: TirUtilities.TirLogger.ResetColors
+  nameWithType: TirLogger.ResetColors
 - uid: TirUtilities.UI
   name: TirUtilities.UI
   href: api/TirUtilities.UI.html
@@ -5697,6 +6905,298 @@ references:
   isSpec: "True"
   fullName: TirUtilities.UI.WorldSpaceMessageBox.Text
   nameWithType: WorldSpaceMessageBox.Text
+- uid: TirUtilities.UnityRichTextColors
+  name: UnityRichTextColors
+  href: api/TirUtilities.UnityRichTextColors.html
+  commentId: T:TirUtilities.UnityRichTextColors
+  fullName: TirUtilities.UnityRichTextColors
+  nameWithType: UnityRichTextColors
+- uid: TirUtilities.UnityRichTextColors.Aqua
+  name: Aqua
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Aqua
+  commentId: P:TirUtilities.UnityRichTextColors.Aqua
+  fullName: TirUtilities.UnityRichTextColors.Aqua
+  nameWithType: UnityRichTextColors.Aqua
+- uid: TirUtilities.UnityRichTextColors.Aqua*
+  name: Aqua
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Aqua_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Aqua
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Aqua
+  nameWithType: UnityRichTextColors.Aqua
+- uid: TirUtilities.UnityRichTextColors.Black
+  name: Black
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Black
+  commentId: P:TirUtilities.UnityRichTextColors.Black
+  fullName: TirUtilities.UnityRichTextColors.Black
+  nameWithType: UnityRichTextColors.Black
+- uid: TirUtilities.UnityRichTextColors.Black*
+  name: Black
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Black_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Black
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Black
+  nameWithType: UnityRichTextColors.Black
+- uid: TirUtilities.UnityRichTextColors.Blue
+  name: Blue
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Blue
+  commentId: P:TirUtilities.UnityRichTextColors.Blue
+  fullName: TirUtilities.UnityRichTextColors.Blue
+  nameWithType: UnityRichTextColors.Blue
+- uid: TirUtilities.UnityRichTextColors.Blue*
+  name: Blue
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Blue_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Blue
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Blue
+  nameWithType: UnityRichTextColors.Blue
+- uid: TirUtilities.UnityRichTextColors.Brown
+  name: Brown
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Brown
+  commentId: P:TirUtilities.UnityRichTextColors.Brown
+  fullName: TirUtilities.UnityRichTextColors.Brown
+  nameWithType: UnityRichTextColors.Brown
+- uid: TirUtilities.UnityRichTextColors.Brown*
+  name: Brown
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Brown_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Brown
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Brown
+  nameWithType: UnityRichTextColors.Brown
+- uid: TirUtilities.UnityRichTextColors.Cyan
+  name: Cyan
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Cyan
+  commentId: P:TirUtilities.UnityRichTextColors.Cyan
+  fullName: TirUtilities.UnityRichTextColors.Cyan
+  nameWithType: UnityRichTextColors.Cyan
+- uid: TirUtilities.UnityRichTextColors.Cyan*
+  name: Cyan
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Cyan_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Cyan
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Cyan
+  nameWithType: UnityRichTextColors.Cyan
+- uid: TirUtilities.UnityRichTextColors.DarkBlue
+  name: DarkBlue
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_DarkBlue
+  commentId: P:TirUtilities.UnityRichTextColors.DarkBlue
+  fullName: TirUtilities.UnityRichTextColors.DarkBlue
+  nameWithType: UnityRichTextColors.DarkBlue
+- uid: TirUtilities.UnityRichTextColors.DarkBlue*
+  name: DarkBlue
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_DarkBlue_
+  commentId: Overload:TirUtilities.UnityRichTextColors.DarkBlue
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.DarkBlue
+  nameWithType: UnityRichTextColors.DarkBlue
+- uid: TirUtilities.UnityRichTextColors.Fuchsia
+  name: Fuchsia
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Fuchsia
+  commentId: P:TirUtilities.UnityRichTextColors.Fuchsia
+  fullName: TirUtilities.UnityRichTextColors.Fuchsia
+  nameWithType: UnityRichTextColors.Fuchsia
+- uid: TirUtilities.UnityRichTextColors.Fuchsia*
+  name: Fuchsia
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Fuchsia_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Fuchsia
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Fuchsia
+  nameWithType: UnityRichTextColors.Fuchsia
+- uid: TirUtilities.UnityRichTextColors.Green
+  name: Green
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Green
+  commentId: P:TirUtilities.UnityRichTextColors.Green
+  fullName: TirUtilities.UnityRichTextColors.Green
+  nameWithType: UnityRichTextColors.Green
+- uid: TirUtilities.UnityRichTextColors.Green*
+  name: Green
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Green_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Green
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Green
+  nameWithType: UnityRichTextColors.Green
+- uid: TirUtilities.UnityRichTextColors.Grey
+  name: Grey
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Grey
+  commentId: P:TirUtilities.UnityRichTextColors.Grey
+  fullName: TirUtilities.UnityRichTextColors.Grey
+  nameWithType: UnityRichTextColors.Grey
+- uid: TirUtilities.UnityRichTextColors.Grey*
+  name: Grey
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Grey_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Grey
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Grey
+  nameWithType: UnityRichTextColors.Grey
+- uid: TirUtilities.UnityRichTextColors.LightBlue
+  name: LightBlue
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_LightBlue
+  commentId: P:TirUtilities.UnityRichTextColors.LightBlue
+  fullName: TirUtilities.UnityRichTextColors.LightBlue
+  nameWithType: UnityRichTextColors.LightBlue
+- uid: TirUtilities.UnityRichTextColors.LightBlue*
+  name: LightBlue
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_LightBlue_
+  commentId: Overload:TirUtilities.UnityRichTextColors.LightBlue
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.LightBlue
+  nameWithType: UnityRichTextColors.LightBlue
+- uid: TirUtilities.UnityRichTextColors.Lime
+  name: Lime
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Lime
+  commentId: P:TirUtilities.UnityRichTextColors.Lime
+  fullName: TirUtilities.UnityRichTextColors.Lime
+  nameWithType: UnityRichTextColors.Lime
+- uid: TirUtilities.UnityRichTextColors.Lime*
+  name: Lime
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Lime_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Lime
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Lime
+  nameWithType: UnityRichTextColors.Lime
+- uid: TirUtilities.UnityRichTextColors.Magenta
+  name: Magenta
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Magenta
+  commentId: P:TirUtilities.UnityRichTextColors.Magenta
+  fullName: TirUtilities.UnityRichTextColors.Magenta
+  nameWithType: UnityRichTextColors.Magenta
+- uid: TirUtilities.UnityRichTextColors.Magenta*
+  name: Magenta
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Magenta_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Magenta
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Magenta
+  nameWithType: UnityRichTextColors.Magenta
+- uid: TirUtilities.UnityRichTextColors.Maroon
+  name: Maroon
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Maroon
+  commentId: P:TirUtilities.UnityRichTextColors.Maroon
+  fullName: TirUtilities.UnityRichTextColors.Maroon
+  nameWithType: UnityRichTextColors.Maroon
+- uid: TirUtilities.UnityRichTextColors.Maroon*
+  name: Maroon
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Maroon_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Maroon
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Maroon
+  nameWithType: UnityRichTextColors.Maroon
+- uid: TirUtilities.UnityRichTextColors.Navy
+  name: Navy
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Navy
+  commentId: P:TirUtilities.UnityRichTextColors.Navy
+  fullName: TirUtilities.UnityRichTextColors.Navy
+  nameWithType: UnityRichTextColors.Navy
+- uid: TirUtilities.UnityRichTextColors.Navy*
+  name: Navy
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Navy_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Navy
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Navy
+  nameWithType: UnityRichTextColors.Navy
+- uid: TirUtilities.UnityRichTextColors.Olive
+  name: Olive
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Olive
+  commentId: P:TirUtilities.UnityRichTextColors.Olive
+  fullName: TirUtilities.UnityRichTextColors.Olive
+  nameWithType: UnityRichTextColors.Olive
+- uid: TirUtilities.UnityRichTextColors.Olive*
+  name: Olive
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Olive_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Olive
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Olive
+  nameWithType: UnityRichTextColors.Olive
+- uid: TirUtilities.UnityRichTextColors.Orange
+  name: Orange
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Orange
+  commentId: P:TirUtilities.UnityRichTextColors.Orange
+  fullName: TirUtilities.UnityRichTextColors.Orange
+  nameWithType: UnityRichTextColors.Orange
+- uid: TirUtilities.UnityRichTextColors.Orange*
+  name: Orange
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Orange_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Orange
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Orange
+  nameWithType: UnityRichTextColors.Orange
+- uid: TirUtilities.UnityRichTextColors.Purple
+  name: Purple
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Purple
+  commentId: P:TirUtilities.UnityRichTextColors.Purple
+  fullName: TirUtilities.UnityRichTextColors.Purple
+  nameWithType: UnityRichTextColors.Purple
+- uid: TirUtilities.UnityRichTextColors.Purple*
+  name: Purple
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Purple_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Purple
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Purple
+  nameWithType: UnityRichTextColors.Purple
+- uid: TirUtilities.UnityRichTextColors.Red
+  name: Red
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Red
+  commentId: P:TirUtilities.UnityRichTextColors.Red
+  fullName: TirUtilities.UnityRichTextColors.Red
+  nameWithType: UnityRichTextColors.Red
+- uid: TirUtilities.UnityRichTextColors.Red*
+  name: Red
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Red_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Red
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Red
+  nameWithType: UnityRichTextColors.Red
+- uid: TirUtilities.UnityRichTextColors.Silver
+  name: Silver
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Silver
+  commentId: P:TirUtilities.UnityRichTextColors.Silver
+  fullName: TirUtilities.UnityRichTextColors.Silver
+  nameWithType: UnityRichTextColors.Silver
+- uid: TirUtilities.UnityRichTextColors.Silver*
+  name: Silver
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Silver_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Silver
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Silver
+  nameWithType: UnityRichTextColors.Silver
+- uid: TirUtilities.UnityRichTextColors.Teal
+  name: Teal
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Teal
+  commentId: P:TirUtilities.UnityRichTextColors.Teal
+  fullName: TirUtilities.UnityRichTextColors.Teal
+  nameWithType: UnityRichTextColors.Teal
+- uid: TirUtilities.UnityRichTextColors.Teal*
+  name: Teal
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Teal_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Teal
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Teal
+  nameWithType: UnityRichTextColors.Teal
+- uid: TirUtilities.UnityRichTextColors.White
+  name: White
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_White
+  commentId: P:TirUtilities.UnityRichTextColors.White
+  fullName: TirUtilities.UnityRichTextColors.White
+  nameWithType: UnityRichTextColors.White
+- uid: TirUtilities.UnityRichTextColors.White*
+  name: White
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_White_
+  commentId: Overload:TirUtilities.UnityRichTextColors.White
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.White
+  nameWithType: UnityRichTextColors.White
+- uid: TirUtilities.UnityRichTextColors.Yellow
+  name: Yellow
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Yellow
+  commentId: P:TirUtilities.UnityRichTextColors.Yellow
+  fullName: TirUtilities.UnityRichTextColors.Yellow
+  nameWithType: UnityRichTextColors.Yellow
+- uid: TirUtilities.UnityRichTextColors.Yellow*
+  name: Yellow
+  href: api/TirUtilities.UnityRichTextColors.html#TirUtilities_UnityRichTextColors_Yellow_
+  commentId: Overload:TirUtilities.UnityRichTextColors.Yellow
+  isSpec: "True"
+  fullName: TirUtilities.UnityRichTextColors.Yellow
+  nameWithType: UnityRichTextColors.Yellow
 - uid: TirUtilities.Vector2Extensions
   name: Vector2Extensions
   href: api/TirUtilities.Vector2Extensions.html

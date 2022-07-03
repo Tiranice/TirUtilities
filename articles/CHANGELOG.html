@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Changelog | TirUtilities </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Changelog | TirUtilities ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="changelog">Changelog</h1>
+
+<p>All notable changes to this project will be documented in this file.</p>
+<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
+and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
+<ul>
+<li>Added:  New features.</li>
+<li>Changed:  Changes in existing functionality.</li>
+<li>Deprecated:  Once-stable features removed in upcoming releases.</li>
+<li>Removed:  Deprecated features removed in this release.</li>
+<li>Fixed:  Any bug fixes.</li>
+<li>Security:  Invite users to upgrade in case of vulnerabilities.</li>
+</ul>
+<h2 id="unreleased">[Unreleased]</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>Setting the patch version in the export tool creates a version file.</li>
+<li><code>LevelSystem</code> now has a method, <code>TryLoadMainMenu</code>, that emits a signal assigned in the inspector.</li>
+<li><code>TirLogger</code><ul>
+<li>Now accepts a context <code>Object</code>.</li>
+<li>Color properties for the class, method, and context logs.</li>
+</ul>
+</li>
+<li><code>UnityRichTextColors</code> contains static properties for each color supported by Unity&#39;s rich text interpreter.<ul>
+<li>This are represented by a <code>RichTextColor</code> readonly struct.</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li><code>DrawBoxGizmo</code> now uses the center and size its collider instead of <code>Vector3.zero</code> and <code>Vector3.one</code> respectively.</li>
+<li><code>DrawForwardGizmo</code> line range now goes from 1.0f to 50.0f.</li>
+<li><code>TirGizmos</code> capsule gizmo logic has been massively refactored.</li>
+</ul>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>Typos in <code>DrawColliderGizmo</code>.</li>
+<li><code>DrawColliderGizmo</code> no longer throws a null ref when not given a collider.</li>
+<li><code>MenuPageInspector</code> no longer fuses the path name and file name when creating a <code>MenuState</code> with the inspector button.</li>
+<li>Possible null refs in <code>ApplicationStateMachine</code> when not supplied with play or pause signals.</li>
+<li><code>RouterButton</code> now correctly removes level load listeners instead of adding more... <sub>god damn typos</sub>.</li>
+<li><code>RouterButton</code> now caches its button in <code>OnValidate</code> even if it is not null.<ul>
+<li>This change fixes a bad reference that occurs when copy/pasting the component.</li>
+</ul>
+</li>
+</ul>
+<h2 id="v000-alpha104">[v0.0.0-alpha.10.4]</h2>
+<h3 id="added-1">Added</h3>
+<ul>
+<li>Script templates for PropertyAttributes and PropertyDrawers.</li>
+<li>ShowIf Attribute<ul>
+<li>Decorate a field with <code>[ShowIf(string targetName, object targetValue)]</code>.  This field will only be drawn in the inspector if the given target equals the target value.</li>
+</ul>
+</li>
+<li><code>ApplicationStateMachine</code> has additional documentation.</li>
+<li><code>RouterButton</code> MonoBehaviour<ul>
+<li>Provides a quick way to route to various common actions.<ul>
+<li>Load a level by calling <code>LevelLoadSignal.Emit</code></li>
+<li>Quit or toggle the game&#39;s paused state with an <code>ApplicationStateMachine</code><ul>
+<li><code>ApplicationStateMachine.QuitGame</code></li>
+<li><code>ApplicationStateMachine.TogglePaused</code></li>
+</ul>
+</li>
+<li>Change the active menu page with <code>MenuStateMachine.TransitionTo(MenuState)</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="fixed-1">Fixed</h3>
+<ul>
+<li>Experimental build tool now correctly saves its editor prefs.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Tiranice/TirUtilities/blob/main/Documentation/articles/CHANGELOG.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            TirUtilities
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
