@@ -8,8 +8,8 @@ namespace TirUtilities.CustomGizmos
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
-    /// Created:  Jan. 05, 2021
-    /// Updated:  May 01, 2021
+    /// Created:  Jan 05, 2021
+    /// Updated:  Jan 03, 2022
     /// -->
     /// <summary>
     ///
@@ -34,7 +34,7 @@ namespace TirUtilities.CustomGizmos
         [Space]
         [SerializeField] private bool _drawLine = true;
         [SerializeField] private Color _lineColor = Color.red;
-        [Range(1.0f, 10.0f)]
+        [Range(1.0f, 50.0f)]
         [SerializeField] private float _lineLength = 2.0f;
 
         private void OnDrawGizmos()
@@ -42,8 +42,6 @@ namespace TirUtilities.CustomGizmos
             Vector3 position = transform.position;
             Vector3 size = transform.localScale * _shapeSize;
             float radius = Mathf.Max(transform.localScale.x, transform.localScale.y, transform.localScale.z) * _shapeSize;
-
-            //Gizmos.matrix = transform.localToWorldMatrix;
 
             Gizmos.color = _shapeColor;
             if (_drawShape)

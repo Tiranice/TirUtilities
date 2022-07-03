@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 namespace TirUtilities
@@ -13,7 +10,7 @@ namespace TirUtilities
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Software
     /// Created:  Nov 02, 2021
-    /// Updated:  Nov 15, 2021
+    /// Updated:  Mar 03, 2022
     /// -->
     /// <summary>
     /// Shows the decorated field if the named member enum or bool is equal to the given target.
@@ -36,7 +33,7 @@ namespace TirUtilities
         public string TargetName { get; }
         public object TargetValue { get; }
 
-        private ShowIfAttribute(string targetName) => TargetName = targetName;
+        public ShowIfAttribute(string targetName) => TargetName = targetName;
 
         public ShowIfAttribute(string targetName, object targetValue) : this(targetName) =>
             TargetValue = targetValue;

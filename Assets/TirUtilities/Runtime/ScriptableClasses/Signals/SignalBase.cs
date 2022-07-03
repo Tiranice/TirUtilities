@@ -10,13 +10,13 @@ namespace TirUtilities.Signals
     /// 
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Software
-    /// Created:  June 15, 2021
-    /// Updated:  Oct 10, 2021
+    /// Created:  Jun 15, 2021
+    /// Updated:  Jul 03, 2022
     /// -->
     /// <summary>
     /// Base type for all signals.
     /// </summary>
-    public abstract class SignalBase : ScriptableObject
+    public abstract class SignalBase : ScriptableObject, ISignal
     {
         #region Inspector Fields
 
@@ -33,18 +33,22 @@ namespace TirUtilities.Signals
 
         #endregion
 
-        #region Actions
+        #region Emission
 
-        /// <summary> Invoked in <see cref="Emit"/>, calling receivers. </summary>
+        /// <summary> Invoked in <c>Emit</c>, calling receivers. </summary>
         [SerializeField] protected UnityAction _OnEmit;
 
+        public abstract void AddReceiver(UnityAction receiver);
+        public abstract void RemoveReceiver(UnityAction receiver);
+        public abstract void Emit();
+
         #endregion
     }
 
     /// <summary>
     /// Base type for all signals.
     /// </summary>
-    public abstract class SignalBase<T0> : ScriptableObject
+    public abstract class SignalBase<T0> : ScriptableObject, ISignal<T0>
     {
         #region Inspector Fields
 
@@ -61,18 +65,22 @@ namespace TirUtilities.Signals
 
         #endregion
 
-        #region Actions
+        #region Emission
 
-        /// <summary> Invoked in <see cref="Emit"/>, calling receivers. </summary>
+        /// <summary> Invoked in <c>Emit(T0)</c>, calling receivers. </summary>
         [SerializeField] protected UnityAction<T0> _OnEmit;
 
+        public abstract void AddReceiver(UnityAction<T0> receiver);
+        public abstract void RemoveReceiver(UnityAction<T0> receiver);
+        public abstract void Emit(T0 target0);
+
         #endregion
     }
 
     /// <summary>
     /// Base type for all signals.
     /// </summary>
-    public abstract class SignalBase<T0, T1> : ScriptableObject
+    public abstract class SignalBase<T0, T1> : ScriptableObject, ISignal<T0, T1>
     {
         #region Inspector Fields
 
@@ -89,18 +97,22 @@ namespace TirUtilities.Signals
 
         #endregion
 
-        #region Actions
+        #region Emission
 
-        /// <summary> Invoked in <see cref="Emit"/>, calling receivers. </summary>
+        /// <summary> Invoked in <c>Emit(T0, T1)</c>, calling receivers. </summary>
         [SerializeField] protected UnityAction<T0, T1> _OnEmit;
 
+        public abstract void AddReceiver(UnityAction<T0, T1> receiver);
+        public abstract void RemoveReceiver(UnityAction<T0, T1> receiver);
+        public abstract void Emit(T0 target0, T1 target1);
+
         #endregion
     }
 
     /// <summary>
     /// Base type for all signals.
     /// </summary>
-    public abstract class SignalBase<T0, T1, T2> : ScriptableObject
+    public abstract class SignalBase<T0, T1, T2> : ScriptableObject, ISignal<T0, T1, T2>
     {
         #region Inspector Fields
 
@@ -117,10 +129,14 @@ namespace TirUtilities.Signals
 
         #endregion
 
-        #region Actions
+        #region Emission
 
-        /// <summary> Invoked in <see cref="Emit"/>, calling receivers. </summary>
+        /// <summary> Invoked in <c>Emit(T0, T1, T2)</c>, calling receivers. </summary>
         [SerializeField] protected UnityAction<T0, T1, T2> _OnEmit;
+
+        public abstract void AddReceiver(UnityAction<T0, T1, T2> receiver);
+        public abstract void RemoveReceiver(UnityAction<T0, T1, T2> receiver);
+        public abstract void Emit(T0 target0, T1 target1, T2 target2);
 
         #endregion
     }

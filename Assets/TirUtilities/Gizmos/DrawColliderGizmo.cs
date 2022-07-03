@@ -10,7 +10,7 @@ namespace TirUtilities.CustomGizmos
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 29, 2021
-    /// Updated:  Oct 13, 2021
+    /// Updated:  Jan 03, 2022
     /// -->
     /// <summary>
     /// Draws a gizmo for the given collider.
@@ -29,7 +29,7 @@ namespace TirUtilities.CustomGizmos
     // TODO:  Add gizmo that marks the pivot and center of the object.  Should be a separate comp.
     // TODO:  Investigate Cinemachine-like local component system.  I.E. TirGizmo that has comps. 
     //        specific to it that can only be added in the inceptor for TirGizmo.
-    [RequireComponent(typeof(Collider))]
+    [AddComponentMenu("TirUtilities/Gizmos/Draw Collider Gizmo"), RequireComponent(typeof(Collider))]
     public class DrawColliderGizmo : MonoBehaviour
     {
         #region Inspector Fields
@@ -39,7 +39,7 @@ namespace TirUtilities.CustomGizmos
 
         [Header("Gizmo Settings")]
         [SerializeField] private bool _drawWhenNotSelected = true;
-        [SerializeField] private bool _drawSoldShap = true;
+        [SerializeField] private bool _drawSolidShape = true;
         [Space]
         [SerializeField] private Color _gizmoColor = new Color(1, 0, 1, 0.5f);
         [SerializeField] private float _sizeScaler = 1.0f;
@@ -72,25 +72,27 @@ namespace TirUtilities.CustomGizmos
 
         private void DrawGizmo()
         {
+            if (_collider.IsNull()) return;
+
             Gizmos.color = _gizmoColor;
             Gizmos.matrix = transform.localToWorldMatrix;
             if (_collider is BoxCollider)
             {
-                if (_drawSoldShap)
+                if (_drawSolidShape)
                     Gizmos.DrawCube(Vector3.zero, Vector3.one * _sizeScaler);
                 else
                     Gizmos.DrawWireCube(Vector3.zero, Vector3.one * _sizeScaler);
             }
             else if (_collider is SphereCollider)
             {
-                if (_drawSoldShap)
+                if (_drawSolidShape)
                     Gizmos.DrawSphere(Vector3.zero, 0.5f * _sizeScaler);
                 else
                     Gizmos.DrawWireSphere(Vector3.zero, 0.5f * _sizeScaler);
             }
             else if (_collider is MeshCollider meshCollider)
             {
-                if (_drawSoldShap)
+                if (_drawSolidShape)
                     Gizmos.DrawMesh(meshCollider.sharedMesh, Vector3.zero, Quaternion.identity, Vector3.one * _sizeScaler);
                 else
                     Gizmos.DrawWireMesh(meshCollider.sharedMesh, Vector3.zero, Quaternion.identity, Vector3.one * _sizeScaler);
@@ -102,12 +104,8 @@ namespace TirUtilities.CustomGizmos
             }
             else if (_collider is CharacterController characterController)
             {
-#if UNITY_2020_2_OR_NEWER
                 // TODO:  Implement a way to draw a solid gizmo.
                 TirGizmos.DrawWireCapsule(characterController, _sizeScaler, _lineThickness); 
-#else
-                TirGizmos.DrawWireCapsule(characterController, _sizeScaler);
-#endif
             }
         }
 

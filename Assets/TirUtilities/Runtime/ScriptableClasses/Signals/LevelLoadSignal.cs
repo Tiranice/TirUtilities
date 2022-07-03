@@ -19,11 +19,11 @@ namespace TirUtilities.Signals
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Software
     /// Created:  May 05, 2021
-    /// Updated:  Oct 10, 2021
+    /// Updated:  Jul 03, 2022
     /// -->
     /// <summary> Signal that emits a copy of a <see cref="LevelData"/> value. </summary>
     [CreateAssetMenu(menuName = "Signals/Level Load Signal", order = 60)]
-    public class LevelLoadSignal : SignalBase<LevelData>, ISignal<LevelData>
+    public class LevelLoadSignal : SignalBase<LevelData>
     {
         #region Inspector Fields
 
@@ -48,11 +48,11 @@ namespace TirUtilities.Signals
         /// Register a callback function to be invoked when <see cref="Emit(LevelData)"/> is called.
         /// </summary>
         /// <param name="receiver">The callback to be invoked.</param>
-        public virtual void AddReceiver(UnityAction<LevelData> receiver) => _OnEmit += receiver;
+        public override void AddReceiver(UnityAction<LevelData> receiver) => _OnEmit += receiver;
 
         /// <summary> Unregister a callback function. </summary>
         /// <param name="receiver">The callback function.</param>
-        public virtual void RemoveReceiver(UnityAction<LevelData> receiver) => _OnEmit -= receiver;
+        public override void RemoveReceiver(UnityAction<LevelData> receiver) => _OnEmit -= receiver;
 
         /// <summary>
         /// Emit this signal to all receivers, calling methods registered with 
@@ -70,7 +70,7 @@ namespace TirUtilities.Signals
         /// <remarks>
         /// Emits the passed level data.  Prefer use of <see cref="Emit"/>.
         /// </remarks>
-        public virtual void Emit(LevelData levelData) => _OnEmit.SafeInvoke(levelData);
+        public override void Emit(LevelData levelData) => _OnEmit.SafeInvoke(levelData);
 
         #endregion
 

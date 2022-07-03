@@ -14,7 +14,7 @@ namespace TirUtilities.LevelManagment
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 05, 2021
-    /// Updated:  Sep 22, 2021
+    /// Updated:  Jan 09, 2022
     /// -->
     /// <summary>
     /// Handles the loading of <see cref="LevelData"/> emitted from <see cref="LevelLoadSignal"/>
@@ -50,6 +50,8 @@ namespace TirUtilities.LevelManagment
         private List<LevelLoadSignal> _levelLoadSignals;
         [Tooltip("Emitted when the level loader finishes."), SerializeField]
         private Signal _loadCompleteSignal;
+        [SerializeField]
+        private LevelLoadSignal _mainMenuLoadSignal;
 
         #endregion
 
@@ -135,6 +137,20 @@ namespace TirUtilities.LevelManagment
                 StartCoroutine(_loadingScreen.Show(LevelLoader.LoadLevelDataAsync(levelData)));
             else
                 StartCoroutine(LevelLoader.LoadLevelDataAsync(levelData));
+        }
+
+        #endregion
+
+        #region Load Methods
+
+        /// <summary> Emits the main menu load signal if one is assigned. </summary>
+        /// <returns><c>false</c> if the main menu load signal is null.  Otherwise <c>true</c>.</returns>
+        public bool TryLoadMainMenu()
+        {
+            if (_mainMenuLoadSignal.IsNull()) return false;
+
+            _mainMenuLoadSignal.Emit();
+            return true;
         }
 
         #endregion

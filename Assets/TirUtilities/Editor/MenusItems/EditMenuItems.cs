@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace TirUtilities.Editor.Experimantal
+namespace TirUtilities.Editor
 {
     ///<!--
     /// EditMenuItems.cs
