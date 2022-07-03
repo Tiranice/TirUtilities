@@ -20,7 +20,7 @@ namespace TirUtilities
     {
         public static RichTextColor Aqua => new RichTextColor("aqua", "#00ffffff");
         public static RichTextColor Black => new RichTextColor("black", "#000000ff");
-        public static RichTextColor Blule => new RichTextColor("blue", "#0000ffff");
+        public static RichTextColor Blue => new RichTextColor("blue", "#0000ffff");
         public static RichTextColor Brown => new RichTextColor("brown", "#a52a2aff");
         public static RichTextColor Cyan => Aqua;
         public static RichTextColor DarkBlue => new RichTextColor("darkblue", "#0000a0ff");

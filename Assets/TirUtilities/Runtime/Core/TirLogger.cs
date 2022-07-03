@@ -11,7 +11,7 @@ namespace TirUtilities
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 15, 2021
-    /// Updated:  Jan 10, 2022
+    /// Updated:  May 09, 2022
     /// -->
     /// <summary>
     /// Contains a handful of specialized logging methods.
@@ -20,8 +20,8 @@ namespace TirUtilities
     {
         #region Color Properties
 
-        /// <summary> Defaults to <see cref="Blule"/> </summary>
-        public static RichTextColor ClassColor { get; set; } = Blule;
+        /// <summary> Defaults to <see cref="Blue"/> </summary>
+        public static RichTextColor ClassColor { get; set; } = Blue;
 
         /// <summary> Defaults to <see cref="LightBlue"/> </summary>
         public static RichTextColor MethodColor { get; set; } = LightBlue;
@@ -31,7 +31,7 @@ namespace TirUtilities
 
         public static void ResetColors()
         {
-            ClassColor = Blule;
+            ClassColor = Blue;
             MethodColor = LightBlue;
             ContextColor = Green;
         }
@@ -43,7 +43,7 @@ namespace TirUtilities
         [System.Obsolete("This has been replaced with a stack frame inspection." +
                  "Use TirLogger.LogCall() instead.")]
         public static void LogCall(string className, string methodName) =>
-    Debug.Log($"Call to {className}.{methodName}");
+            Debug.Log($"Call to {className}.{methodName}");
 
 #if !PLATFORM_WEBGL
         /// <summary>
@@ -83,7 +83,7 @@ namespace TirUtilities
             var methodText = $"<color={MethodColor}>{frame.GetMethod().Name}</color>";
             var contextName = $"from <color={ContextColor}>context: {context.name}</color>";
 
-            Debug.Log($"Call to {classText}.{methodText}{contextName}", context);
+            Debug.Log($"Call to {classText}.{methodText} {contextName}", context);
         }
 #endif 
 

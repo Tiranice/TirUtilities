@@ -1,23 +1,24 @@
-using TirUtilities.CustomEvents;
 using UnityEngine;
 
 namespace TirUtilities.Detection
 {
+    using TirUtilities.CustomEvents;
+    using TirUtilities.Extensions;
     ///<!--
     /// TriggerVolume.cs
     /// 
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson
-    /// Created:  Jan. 20, 2021
-    /// Updated:  May 05, 2021
+    /// Created:  Jan 20, 2021
+    /// Updated:  May 04, 2022
     /// -->
     /// <summary>
     /// Checks if the object that enter's its collider is on a layer in the layer mask.  If it was,
-    /// <see cref="OnEnterVolume">On Enter Volume</see> is invoked.
+    /// <see cref="OnEnterVolume"/> is invoked.
     /// </summary>
     [AddComponentMenu("TirUtilities/Detection/Trigger Volume")]
-    [RequireComponent(typeof(Collider))]
+    [RequireComponent(typeof(Collider)), SelectionBase]
     public class TriggerVolume : MonoBehaviour
     {
         #region Inspector Fields
@@ -35,6 +36,8 @@ namespace TirUtilities.Detection
         /// </summary>
         [SerializeField] private TriggerVolumeEvent OnEnterVolume;
 
+        public System.Action<bool, GameObject> OnVolumeTriggered;
+
         #endregion
 
         #region Unity Messages
@@ -50,7 +53,7 @@ namespace TirUtilities.Detection
         #region Private Methods
 
         /// <summary>
-        /// Sets mesh colliders to convex & all colliders isTrigger to true.
+        /// Sets mesh colliders to convex and all colliders isTrigger to true.
         /// </summary>
         private void ColliderSetup()
         {
@@ -80,25 +83,18 @@ namespace TirUtilities.Detection
         /// If it is, then <see cref="OnEnterVolume"/> is invoked passing the other collider
         /// and true if the object is entering or false if the object is exiting.
         /// </remarks>
-        /// <param name="other">The collider of the other game object</param>
+        /// <param name="other">The collider of the other game object.</param>
         /// <param name="entered">Whether or not the collider is entering or exiting the volume.</param>
         private void CheckGameObjectLayers(Collider other, bool entered)
         {
-            if (LayerInMask(other.gameObject.layer))
-                OnEnterVolume.Invoke(entered, other.gameObject);
+            if (!_targetLayers.LayerInMask(other.gameObject.layer)) return;
+
+            OnEnterVolume.SafeInvoke(entered, other.gameObject);
+            OnVolumeTriggered?.Invoke(entered, other.gameObject);
         }
 
-#endregion
+        #endregion
 
-#region Bit Magic Properties
-
-        /// <summary>
-        /// Do some fuckin' bit MAGIC!!!
-        /// </summary>
-        /// <param name="layer"></param>
-        /// <returns></returns>
-        private bool LayerInMask(int layer) => (1 << layer & _targetLayers) != 0;
-
-#endregion
+        public LayerMask TargetLayers { get => _targetLayers; set => _targetLayers = value; }
     }
 }
