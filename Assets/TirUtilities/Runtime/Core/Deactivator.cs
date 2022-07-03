@@ -58,11 +58,7 @@ namespace TirUtilities.Core
             _targets?.ForEach(t => t.SetActive(false));
         }
 
-        /// <summary>
-        /// For use with <c>TriggerVolume</c>.
-        /// </summary>
-        /// <param name="_"></param>
-        /// <param name="target"></param>
+        /// <summary> For use with <c>TriggerVolume</c>. </summary>
         public void DeactivateTarget(bool _, GameObject target) => target.SetActive(false);
     }
 }
