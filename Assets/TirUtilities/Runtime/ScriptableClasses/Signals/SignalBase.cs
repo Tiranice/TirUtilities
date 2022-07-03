@@ -35,7 +35,7 @@ namespace TirUtilities.Signals
 
         #region Actions
 
-        /// <summary> Invoked in <see cref="Emit"/>, calling receivers. </summary>
+        /// <summary> Invoked in <c>Emit</c>, calling receivers. </summary>
         [SerializeField] protected UnityAction _OnEmit;
 
         #endregion
@@ -63,7 +63,7 @@ namespace TirUtilities.Signals
 
         #region Actions
 
-        /// <summary> Invoked in <see cref="Emit"/>, calling receivers. </summary>
+        /// <summary> Invoked in <c>Emit(T0)</c>, calling receivers. </summary>
         [SerializeField] protected UnityAction<T0> _OnEmit;
 
         #endregion
@@ -91,7 +91,7 @@ namespace TirUtilities.Signals
 
         #region Actions
 
-        /// <summary> Invoked in <see cref="Emit"/>, calling receivers. </summary>
+        /// <summary> Invoked in <c>Emit(T0, T1)</c>, calling receivers. </summary>
         [SerializeField] protected UnityAction<T0, T1> _OnEmit;
 
         #endregion
@@ -119,7 +119,7 @@ namespace TirUtilities.Signals
 
         #region Actions
 
-        /// <summary> Invoked in <see cref="Emit"/>, calling receivers. </summary>
+        /// <summary> Invoked in <c>Emit(T0, T1, T2)</c>, calling receivers. </summary>
         [SerializeField] protected UnityAction<T0, T1, T2> _OnEmit;
 
         #endregion

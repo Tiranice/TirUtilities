@@ -16,7 +16,7 @@ items:
   source:
     id: PausedState
     path: ''
-    startLine: 7709
+    startLine: 8057
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -64,7 +64,7 @@ items:
   source:
     id: EnterState
     path: ''
-    startLine: 7711
+    startLine: 8059
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental

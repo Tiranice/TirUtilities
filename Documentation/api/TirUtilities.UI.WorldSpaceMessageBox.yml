@@ -19,7 +19,7 @@ items:
   source:
     id: WorldSpaceMessageBox
     path: ''
-    startLine: 11844
+    startLine: 12206
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -52,7 +52,7 @@ items:
   source:
     id: OnMessageBoxDismissed
     path: ''
-    startLine: 11877
+    startLine: 12239
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -79,7 +79,7 @@ items:
   source:
     id: IsFirstMessage
     path: ''
-    startLine: 11887
+    startLine: 12249
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -112,7 +112,7 @@ items:
   source:
     id: Text
     path: ''
-    startLine: 11890
+    startLine: 12252
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI
@@ -145,7 +145,7 @@ items:
   source:
     id: CreateMessageBox
     path: ''
-    startLine: 11961
+    startLine: 12323
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.UI

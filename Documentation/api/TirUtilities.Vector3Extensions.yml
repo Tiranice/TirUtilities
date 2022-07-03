@@ -19,7 +19,7 @@ items:
   source:
     id: Vector3Extensions
     path: ''
-    startLine: 5110
+    startLine: 5240
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -52,7 +52,7 @@ items:
   source:
     id: IsZero
     path: ''
-    startLine: 5112
+    startLine: 5242
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -89,7 +89,7 @@ items:
   source:
     id: NotZero
     path: ''
-    startLine: 5113
+    startLine: 5243
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -126,7 +126,7 @@ items:
   source:
     id: Invariant
     path: ''
-    startLine: 5114
+    startLine: 5244
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities
@@ -163,7 +163,7 @@ items:
   source:
     id: Abs
     path: ''
-    startLine: 5116
+    startLine: 5246
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities

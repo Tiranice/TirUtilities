@@ -16,7 +16,7 @@ items:
   source:
     id: ScenePathDrawer
     path: ''
-    startLine: 3953
+    startLine: 4083
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Editor.PropertyDrawers
@@ -50,7 +50,7 @@ items:
   source:
     id: OnGUI
     path: ''
-    startLine: 3958
+    startLine: 4088
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Editor.PropertyDrawers

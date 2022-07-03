@@ -22,7 +22,7 @@ items:
   source:
     id: ApplicationStateMachine
     path: ''
-    startLine: 7472
+    startLine: 7816
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -56,7 +56,7 @@ items:
   source:
     id: TogglePaused
     path: ''
-    startLine: 7594
+    startLine: 7942
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -84,7 +84,7 @@ items:
   source:
     id: QuitGame
     path: ''
-    startLine: 7605
+    startLine: 7953
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -112,7 +112,7 @@ items:
   source:
     id: BlockPause
     path: ''
-    startLine: 7637
+    startLine: 7985
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -138,7 +138,7 @@ items:
   source:
     id: AllowPause
     path: ''
-    startLine: 7638
+    startLine: 7986
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -164,7 +164,7 @@ items:
   source:
     id: CurrentState
     path: ''
-    startLine: 7644
+    startLine: 7992
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -195,7 +195,7 @@ items:
   source:
     id: InGame
     path: ''
-    startLine: 7646
+    startLine: 7994
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -226,7 +226,7 @@ items:
   source:
     id: BlockPauseState
     path: ''
-    startLine: 7647
+    startLine: 7995
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental

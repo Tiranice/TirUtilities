@@ -16,7 +16,7 @@ items:
   source:
     id: DisplayOnlyDrawer
     path: ''
-    startLine: 3917
+    startLine: 4047
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Editor.PropertyDrawers
@@ -49,7 +49,7 @@ items:
   source:
     id: OnGUI
     path: ''
-    startLine: 3920
+    startLine: 4050
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Editor.PropertyDrawers

@@ -18,7 +18,7 @@ items:
   source:
     id: BoolSignal
     path: ''
-    startLine: 9843
+    startLine: 10207
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -59,7 +59,7 @@ items:
   source:
     id: AddReceiver
     path: ''
-    startLine: 9852
+    startLine: 10216
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -98,7 +98,7 @@ items:
   source:
     id: RemoveReceiver
     path: ''
-    startLine: 9856
+    startLine: 10220
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -137,7 +137,7 @@ items:
   source:
     id: Emit
     path: ''
-    startLine: 9862
+    startLine: 10226
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals

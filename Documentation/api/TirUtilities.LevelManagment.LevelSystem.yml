@@ -7,6 +7,7 @@ items:
   children:
   - TirUtilities.LevelManagment.LevelSystem.Instance
   - TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
+  - TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
   langs:
   - csharp
   - vb
@@ -17,7 +18,7 @@ items:
   source:
     id: LevelSystem
     path: ''
-    startLine: 9171
+    startLine: 9519
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
@@ -36,6 +37,37 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+  commentId: M:TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+  id: TryLoadMainMenu
+  parent: TirUtilities.LevelManagment.LevelSystem
+  langs:
+  - csharp
+  - vb
+  name: TryLoadMainMenu()
+  nameWithType: LevelSystem.TryLoadMainMenu()
+  fullName: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu()
+  type: Method
+  source:
+    id: TryLoadMainMenu
+    path: ''
+    startLine: 9644
+  assemblies:
+  - cs.temp.dll
+  namespace: TirUtilities.LevelManagment
+  summary: 'Emits the main menu load signal if one is assigned. '
+  example: []
+  syntax:
+    content: public bool TryLoadMainMenu()
+    return:
+      type: System.Boolean
+      description: <code>false</code> if the main menu load signal is null.  Otherwise <code>true</code>.
+    content.vb: Public Function TryLoadMainMenu As Boolean
+  overload: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: TirUtilities.LevelManagment.LevelSystem.Instance
   commentId: P:TirUtilities.LevelManagment.LevelSystem.Instance
   id: Instance
@@ -50,7 +82,7 @@ items:
   source:
     id: Instance
     path: ''
-    startLine: 9292
+    startLine: 9656
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
@@ -83,7 +115,7 @@ items:
   source:
     id: LevelLoadSignals
     path: ''
-    startLine: 9294
+    startLine: 9658
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.LevelManagment
@@ -130,6 +162,18 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu*
+  commentId: Overload:TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+  name: TryLoadMainMenu
+  nameWithType: LevelSystem.TryLoadMainMenu
+  fullName: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: TirUtilities.LevelManagment.LevelSystem.Instance*
   commentId: Overload:TirUtilities.LevelManagment.LevelSystem.Instance
   name: Instance

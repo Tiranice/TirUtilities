@@ -24,7 +24,7 @@ items:
   source:
     id: ApplicationState
     path: ''
-    startLine: 7387
+    startLine: 7731
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -64,7 +64,7 @@ items:
   source:
     id: _description
     path: ''
-    startLine: 7395
+    startLine: 7739
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -93,7 +93,7 @@ items:
   source:
     id: Description
     path: ''
-    startLine: 7400
+    startLine: 7744
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -126,7 +126,7 @@ items:
   source:
     id: PausedTimeScale
     path: ''
-    startLine: 7407
+    startLine: 7751
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -161,7 +161,7 @@ items:
   source:
     id: PlayingTimeScale
     path: ''
-    startLine: 7410
+    startLine: 7754
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -196,7 +196,7 @@ items:
   source:
     id: OnEnterState
     path: ''
-    startLine: 7416
+    startLine: 7760
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -223,7 +223,7 @@ items:
   source:
     id: OnExitState
     path: ''
-    startLine: 7417
+    startLine: 7761
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -250,7 +250,7 @@ items:
   source:
     id: EnterState
     path: ''
-    startLine: 7427
+    startLine: 7771
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -286,7 +286,7 @@ items:
   source:
     id: ExitState
     path: ''
-    startLine: 7433
+    startLine: 7777
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental
@@ -322,7 +322,7 @@ items:
   source:
     id: UpdateState
     path: ''
-    startLine: 7440
+    startLine: 7784
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Experimental

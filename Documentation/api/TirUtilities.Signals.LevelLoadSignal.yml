@@ -21,7 +21,7 @@ items:
   source:
     id: LevelLoadSignal
     path: ''
-    startLine: 9538
+    startLine: 9902
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -62,7 +62,7 @@ items:
   source:
     id: ActiveScene
     path: ''
-    startLine: 9553
+    startLine: 9917
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -93,7 +93,7 @@ items:
   source:
     id: AdditiveScenes
     path: ''
-    startLine: 9554
+    startLine: 9918
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -124,7 +124,7 @@ items:
   source:
     id: AddReceiver
     path: ''
-    startLine: 9564
+    startLine: 9928
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -163,7 +163,7 @@ items:
   source:
     id: RemoveReceiver
     path: ''
-    startLine: 9568
+    startLine: 9932
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -202,7 +202,7 @@ items:
   source:
     id: Emit
     path: ''
-    startLine: 9577
+    startLine: 9941
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals
@@ -233,7 +233,7 @@ items:
   source:
     id: Emit
     path: ''
-    startLine: 9586
+    startLine: 9950
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Signals

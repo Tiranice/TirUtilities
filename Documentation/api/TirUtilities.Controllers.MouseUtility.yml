@@ -32,7 +32,7 @@ items:
   source:
     id: MouseUtility
     path: ''
-    startLine: 6755
+    startLine: 6785
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -65,7 +65,7 @@ items:
   source:
     id: LeftMouseButtonDown
     path: ''
-    startLine: 6760
+    startLine: 6790
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -100,7 +100,7 @@ items:
   source:
     id: RightMouseButtonDown
     path: ''
-    startLine: 6763
+    startLine: 6793
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -135,7 +135,7 @@ items:
   source:
     id: MiddleMouseButtonDown
     path: ''
-    startLine: 6766
+    startLine: 6796
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -170,7 +170,7 @@ items:
   source:
     id: MouseRaycast2D
     path: ''
-    startLine: 6776
+    startLine: 6806
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -203,7 +203,7 @@ items:
   source:
     id: MouseRaycast2D
     path: ''
-    startLine: 6788
+    startLine: 6818
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -247,7 +247,7 @@ items:
   source:
     id: TryGetWorldSpaceMousePosition2D
     path: ''
-    startLine: 6805
+    startLine: 6835
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -287,7 +287,7 @@ items:
   source:
     id: MouseRaycast
     path: ''
-    startLine: 6826
+    startLine: 6856
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -320,7 +320,7 @@ items:
   source:
     id: MouseRaycast
     path: ''
-    startLine: 6838
+    startLine: 6868
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -362,7 +362,7 @@ items:
   source:
     id: MouseRaycast
     path: ''
-    startLine: 6853
+    startLine: 6883
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -411,7 +411,7 @@ items:
   source:
     id: TryGetWorldSpaceMousePosition
     path: ''
-    startLine: 6870
+    startLine: 6900
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -451,7 +451,7 @@ items:
   source:
     id: TryGetWorldSpaceMousePosition
     path: ''
-    startLine: 6889
+    startLine: 6919
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -494,7 +494,7 @@ items:
   source:
     id: TryGetHoveredCollider2D
     path: ''
-    startLine: 6962
+    startLine: 6992
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -532,7 +532,7 @@ items:
   source:
     id: TryGetHoveredGameObject2D
     path: ''
-    startLine: 6973
+    startLine: 7003
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -570,7 +570,7 @@ items:
   source:
     id: TryGetGameObjectOnClick2D
     path: ''
-    startLine: 6984
+    startLine: 7014
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -608,7 +608,7 @@ items:
   source:
     id: GetGameObjectAtMousePosition
     path: ''
-    startLine: 7003
+    startLine: 7033
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -641,7 +641,7 @@ items:
   source:
     id: GetGameObjectAtMousePosition
     path: ''
-    startLine: 7010
+    startLine: 7040
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers
@@ -677,7 +677,7 @@ items:
   source:
     id: TryGetObjectAtMousePosition
     path: ''
-    startLine: 7022
+    startLine: 7052
   assemblies:
   - cs.temp.dll
   namespace: TirUtilities.Controllers

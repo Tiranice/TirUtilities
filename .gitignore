@@ -14,6 +14,9 @@
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
+# Recordings can get excessive in size
+/[Rr]ecordings/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -25,6 +28,15 @@
 
 # Visual Studio cache directory
 .vs/
+
+# OS and IDEs
+*.sublime-*
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.vscode
 
 # Gradle cache directory
 .gradle/
@@ -59,6 +71,7 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
+*.app
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -70,30 +83,31 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Documentation
+# Streaming Assets folder
+/[Aa]ssets/[Ss]treaming[Aa]ssets/
 
+# Documentation
 /_site/
 /[Dd]ocumentation/api/
 /[Dd]ocumentation/index.*
-/[Aa]ssets/**/obj*
+/[Dd]ocumentation/obj/
+/[Aa]ssets/**/obj/
+/[Aa]ssets/**/obj.meta
 
-# Plugins
-
-/[Aa]ssets/[Pp]lugins/[Gg]it[Hh]ub*
-/[Aa]ssets/Plugins/RainbowAssets/!Core*
+# Rainbow Folders Plugin
+/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.dll
+/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.dll.meta
+/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.unitypackage
+/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.unitypackage.meta
 /[Aa]ssets/Plugins/RainbowAssets/RainbowFolders/Demo*
-/[Aa]ssets/Plugins/RainbowAssets/RainbowFolders/Editor/Assemblies*
-/[Aa]ssets/Plugins/RainbowAssets/RainbowFolders/Editor/Source*
 /Assets/Plugins/RainbowAssets/RainbowFolders/QuickStart.pdf*
 
 # Code Coverage Results
-
 /[Cc]ode[Cc]overage/
 
 # Materplan Backups
-
 /*.plan_bak*
 
 # Plastic SCM
-/.plastic
-/ignore.conf
+.[Pp]lastic
+ignore.conf
