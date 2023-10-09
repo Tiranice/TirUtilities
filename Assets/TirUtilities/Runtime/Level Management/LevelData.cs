@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TirUtilities.LevelManagment
+namespace TirUtilities.LevelManagement
 {
     ///<!--
     /// LevelData.cs

@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace TirUtilities.LevelManagment
+namespace TirUtilities.LevelManagement
 {
-    using TirUtilities.LevelManagment.Experimental;
+    using TirUtilities.LevelManagement.Experimental;
     using TirUtilities.Extensions;
     using TirUtilities.Signals;
     ///<!--

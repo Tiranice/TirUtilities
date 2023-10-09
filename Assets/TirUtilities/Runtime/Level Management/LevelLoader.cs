@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace TirUtilities.LevelManagment
+namespace TirUtilities.LevelManagement
 {
     ///<!--
     /// LevelLoader.cs

@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace TirUtilities.LevelManagment.Experimental
+namespace TirUtilities.LevelManagement.Experimental
 {
     using TirUtilities.Extensions;
     using TirUtilities.Signals;

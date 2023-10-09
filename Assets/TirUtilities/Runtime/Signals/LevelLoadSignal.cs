@@ -9,7 +9,7 @@ using UnityEditor.SceneManagement;
 namespace TirUtilities.Signals
 {
     using TirUtilities.Extensions;
-    using TirUtilities.LevelManagment;
+    using TirUtilities.LevelManagement;
 
     ///<!--
     /// LevelLoadSignal.cs
