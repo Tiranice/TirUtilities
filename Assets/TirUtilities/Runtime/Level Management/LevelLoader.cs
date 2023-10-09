@@ -1,4 +1,5 @@
 using System.Collections;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,18 +12,27 @@ namespace TirUtilities.LevelManagement
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 05, 2021
-    /// Updated:  Aug. 22, 2021
+    /// Updated:  Oct 09, 2023
     /// -->
     /// <summary>
     /// Loads scenes asynchronously when passed <see cref="LevelData"/>.
     /// </summary>
-    // TODO:  Add a way to report loading progress to anyone who cares to have it.  Action maybe?
     public static class LevelLoader
     {
-        #region Private Fields
+        #region Static Fields
 
         /// <summary> Counts the number of additive loads that have completed. </summary>
         private static int _CompleteAsyncOperations = 0;
+
+        /// <summary> Progress through the loading process. </summary>
+        private static float _ProgressAsyncOperations = 0;
+
+        #endregion
+
+        #region Public Properties
+
+        /// <summary> Progress through the loading process. </summary>
+        public static float ProgressAsyncOperations => _ProgressAsyncOperations;
 
         #endregion
 
@@ -30,6 +40,12 @@ namespace TirUtilities.LevelManagement
 
         /// <summary> Invoked once all load operations have completed. </summary>
         public static event System.Action OnLoadComplete;
+
+        /// <summary> 
+        /// Invoked whenever the progress of an async operation is completed while loading
+        /// additive scenes.
+        /// </summary>
+        public static event System.Action OnProgressUpdated;
 
         #endregion
 
@@ -43,6 +59,10 @@ namespace TirUtilities.LevelManagement
             AsyncOperation loadOperation = SceneManager.LoadSceneAsync(level.ActiveScene);
             loadOperation.completed += operation => LevelLoader__completed(operation, level);
 
+            while (!loadOperation.isDone)
+            {
+                yield return null;
+            }
             yield return loadOperation;
         }
 
@@ -63,6 +83,7 @@ namespace TirUtilities.LevelManagement
 
             if (level.AdditiveScenes.Count == 0)
             {
+                _ProgressAsyncOperations = 1;
                 OnLoadComplete?.Invoke();
                 return;
             }
@@ -77,9 +98,11 @@ namespace TirUtilities.LevelManagement
 
             void AsyncOperation__completed(AsyncOperation op)
             {
-                _ = op;
-
                 _CompleteAsyncOperations++;
+
+                _ProgressAsyncOperations = (_CompleteAsyncOperations + op.progress) / level.SceneCount;
+                OnProgressUpdated?.Invoke();
+
                 if (_CompleteAsyncOperations == level.AdditiveScenes.Count)
                     OnLoadComplete?.Invoke();
             }

@@ -13,7 +13,7 @@ namespace TirUtilities.LevelManagement
     /// Updated:  Oct 09, 2023
     /// -->
     /// <summary>
-    ///
+    /// Data container for the <see cref="LevelSystem"/>.
     /// </summary>
     [System.Serializable]
     public struct LevelData
@@ -39,6 +39,8 @@ namespace TirUtilities.LevelManagement
 
         public readonly string ActiveScene => _activeScene;
         public readonly IReadOnlyList<string> AdditiveScenes => _additiveScenes;
+
+        public readonly int SceneCount => 1 + _additiveScenes.Count;
 
         #endregion
     }
