@@ -10,7 +10,7 @@ namespace TirUtilities.LevelManagement
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 05, 2021
-    /// Updated:  May 05, 2021
+    /// Updated:  Oct 09, 2023
     /// -->
     /// <summary>
     ///
@@ -21,24 +21,24 @@ namespace TirUtilities.LevelManagement
         #region Fields
 
         [ScenePath][SerializeField] private string _activeScene;
-        [ScenePath][SerializeField] private List<string> _addativeScenes;
+        [ScenePath][SerializeField] private List<string> _additiveScenes;
 
         #endregion
 
         #region Constructor
 
-        public LevelData(string activeScene, List<string> addativeScenes = null)
+        public LevelData(string activeScene, List<string> additiveScenes = null)
         {
             _activeScene = activeScene;
-            _addativeScenes = addativeScenes;
+            _additiveScenes = additiveScenes;
         }
 
         #endregion
 
         #region Public Propitiates
 
-        public string ActiveScene { get => _activeScene; }
-        public List<string> AdditiveScenes { get => _addativeScenes; }
+        public readonly string ActiveScene => _activeScene;
+        public readonly IReadOnlyList<string> AdditiveScenes => _additiveScenes;
 
         #endregion
     }
