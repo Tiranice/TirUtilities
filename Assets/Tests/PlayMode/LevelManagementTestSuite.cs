@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using NUnit.Framework;
+using System.Linq;
 
-using TirUtilities.LevelManagement;
-using TirUtilities.LevelManagement.Experimental;
-using TirUtilities.Signals;
+using NUnit.Framework;
 
 using UnityEditor;
 using UnityEditor.SceneManagement;
@@ -19,6 +17,8 @@ using UnityEngineInternal;
 
 namespace TirUtilities.Runtime.Tests
 {
+    using TirUtilities.LevelManagement;
+    using TirUtilities.Signals;
     public class LevelManagementTestSuite
     {
         protected static LevelLoadSignal _levelLoadSignal;
@@ -141,7 +141,18 @@ namespace TirUtilities.Runtime.Tests
     
         protected class LevelSystemTests
         {
+            [Test]
+            public void _00_SuccessfullyGetsLevelLoadSignals()
+            {
+                var signals = Resources.FindObjectsOfTypeAll<LevelLoadSignal>().ToList();
 
+                Assert.That(LevelSystem.Instance.LevelLoadSignals.Count, Is.EqualTo(signals.Count));
+
+                for (int i = 0; i < signals.Count; i++)
+                {
+                    Assert.That(LevelSystem.Instance.LevelLoadSignals[i], Is.EqualTo(signals[i]));
+                }
+            }
         }
     }
 }

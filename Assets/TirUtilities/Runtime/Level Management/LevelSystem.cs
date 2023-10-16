@@ -1,12 +1,15 @@
 using System.Collections.Generic;
 using System.Linq;
+
 using UnityEngine;
 
 namespace TirUtilities.LevelManagement
 {
-    using TirUtilities.LevelManagement.Experimental;
     using TirUtilities.Extensions;
+    using TirUtilities.Generics;
+    using TirUtilities.LevelManagement.Experimental;
     using TirUtilities.Signals;
+
     ///<!--
     /// LevelSystem.cs
     /// 
@@ -14,21 +17,14 @@ namespace TirUtilities.LevelManagement
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 05, 2021
-    /// Updated:  Jan 09, 2022
+    /// Updated:  Oct 16, 2023
     /// -->
     /// <summary>
     /// Handles the loading of <see cref="LevelData"/> emitted from <see cref="LevelLoadSignal"/>
     /// assets.
     /// </summary>
-    public class LevelSystem : MonoBehaviour
+    public class LevelSystem : MonoSingleton<LevelSystem>
     {
-        #region Singleton Instance
-
-        private static LevelSystem _Instance;
-        private static readonly object _Lock = new object();
-
-        #endregion
-
         #region Inspector Fields
 
         [Header("Initialization")]
@@ -48,18 +44,17 @@ namespace TirUtilities.LevelManagement
         [Header("Signals")]
         [Tooltip("Emit one to load its level data.\nLoaded from the resources folder."), SerializeField]
         private List<LevelLoadSignal> _levelLoadSignals;
+
         [Tooltip("Emitted when the level loader finishes."), SerializeField]
         private Signal _loadCompleteSignal;
-        [SerializeField]
-        private LevelLoadSignal _mainMenuLoadSignal;
+        
+        [SerializeField] private LevelLoadSignal _mainMenuLoadSignal;
 
         #endregion
 
         #region Unity Messages
 
         private void Awake() => Wakeup();
-
-        private void OnDestroy() => Teardown();
 
         #endregion
 
@@ -75,38 +70,22 @@ namespace TirUtilities.LevelManagement
         /// </summary>
         private void Wakeup()
         {
-            lock (_Lock)
-            {
-                if (_Instance == null)
-                {
-                    SetupInstance();
-                    return;
-                }
-                Destroy(gameObject);
-            }
+            _levelLoadSignals = Resources.FindObjectsOfTypeAll<LevelLoadSignal>().ToList();
 
-            void SetupInstance()
-            {
-                _Instance = this;
-                DontDestroyOnLoad(gameObject);
+            foreach (var signal in _levelLoadSignals)
+                signal.AddReceiver(LevelLoadSignalReceiver);
 
-                _levelLoadSignals = Resources.FindObjectsOfTypeAll<LevelLoadSignal>().ToList();
+            if (_shouldLoadRootOnAwake)
+                StartCoroutine(LevelLoader.LoadLevelDataAsync(_rootLevelData));
 
-                foreach (var signal in _levelLoadSignals)
-                    signal.AddReceiver(LevelLoadSignalReceicer);
-
-                if (_shouldLoadRootOnAwake)
-                    StartCoroutine(LevelLoader.LoadLevelDataAsync(_rootLevelData));
-
-                LevelLoader.OnLoadComplete += OnLoadComplete__EmitSignal;
-            }
+            LevelLoader.OnLoadComplete += OnLoadComplete__EmitSignal;
         }
 
         /// <summary> Removes event listeners and signal receivers. </summary>
-        private void Teardown()
+        protected override void Teardown()
         {
             foreach (var signal in _levelLoadSignals)
-                signal.RemoveReceiver(LevelLoadSignalReceicer);
+                signal.RemoveReceiver(LevelLoadSignalReceiver);
 
             LevelLoader.OnLoadComplete -= OnLoadComplete__EmitSignal;
         }
@@ -131,7 +110,7 @@ namespace TirUtilities.LevelManagement
         /// Shows the loading screen and loads the passed level data.
         /// </summary>
         /// <param name="levelData"> The scenes to be loaded. </param>
-        private void LevelLoadSignalReceicer(LevelData levelData)
+        private void LevelLoadSignalReceiver(LevelData levelData)
         {
             if (_loadingScreen.NotNull())
                 StartCoroutine(_loadingScreen.Show(LevelLoader.LoadLevelDataAsync(levelData)));
@@ -156,8 +135,6 @@ namespace TirUtilities.LevelManagement
         #endregion
 
         #region Public Properties
-
-        public static LevelSystem Instance => _Instance;
 
         public IReadOnlyList<LevelLoadSignal> LevelLoadSignals => _levelLoadSignals;
 
