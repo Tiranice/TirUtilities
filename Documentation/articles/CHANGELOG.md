@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - <code>DrawBoxGizmo</code> now uses the center and size its collider instead of <code>Vector3.zero</code> and <code>Vector3.one</code> respectively.
 - <code>DrawForwardGizmo</code> line range now goes from 1.0f to 50.0f.
 - <code>TirGizmos</code> capsule gizmo logic has been massively refactored.
+- <code>LevelSystem</code> is now a <code>MonoSingleton</code>.
 
 ### Fixed
 
@@ -39,6 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - <code>RouterButton</code> now correctly removes level load listeners instead of adding more... <sub>god damn typos</sub>.
 - <code>RouterButton</code> now caches its button in <code>OnValidate</code> even if it is not null.
   - This change fixes a bad reference that occurs when copy/pasting the component.
+- Adds missing <code>null</code> checks to <code>LevelData</code> and <code>LevelLoader</code>.
 
 ## [v0.0.0-alpha.10.4]
 
