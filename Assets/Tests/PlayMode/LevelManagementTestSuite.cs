@@ -138,5 +138,10 @@ namespace TirUtilities.Runtime.Tests
                 Assert.That(SceneManager.GetSceneAt(1).path, Is.EqualTo(_AdditiveScene));
             }
         }
+    
+        protected class LevelSystemTests
+        {
+
+        }
     }
 }
