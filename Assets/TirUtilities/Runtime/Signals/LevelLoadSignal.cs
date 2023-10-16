@@ -79,7 +79,7 @@ namespace TirUtilities.Signals
         /// <summary>
         /// EDITOR ONLY!!!  Prompts the user to save changes, then loads the level data.
         /// </summary>
-        [ContextMenu(nameof(LoadLevelData))]
+        [ContextMenu(nameof(LoadLevelData)), UnityEngine.TestTools.ExcludeFromCoverage]
         public void LoadLevelData()
         {
             if (ActiveScene == string.Empty || ActiveScene == null) return;
