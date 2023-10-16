@@ -10,7 +10,7 @@ namespace TirUtilities.LevelManagement
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 05, 2021
-    /// Updated:  Oct 09, 2023
+    /// Updated:  Oct 16, 2023
     /// -->
     /// <summary>
     /// Data container for the <see cref="LevelSystem"/>.
@@ -40,7 +40,7 @@ namespace TirUtilities.LevelManagement
         public readonly string ActiveScene => _activeScene;
         public readonly IReadOnlyList<string> AdditiveScenes => _additiveScenes;
 
-        public readonly int SceneCount => 1 + _additiveScenes.Count;
+        public readonly int SceneCount => _additiveScenes is null ? 1 : 1 + _additiveScenes.Count;
 
         #endregion
     }
