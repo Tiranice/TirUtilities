@@ -12,7 +12,7 @@ namespace TirUtilities.LevelManagement
     ///        
     /// Author :  Devon Wilson
     /// Created:  May 05, 2021
-    /// Updated:  Oct 09, 2023
+    /// Updated:  Oct 16, 2023
     /// -->
     /// <summary>
     /// Loads scenes asynchronously when passed <see cref="LevelData"/>.
@@ -81,7 +81,7 @@ namespace TirUtilities.LevelManagement
             // Kept for future use.
             _ = operation;
 
-            if (level.AdditiveScenes.Count == 0)
+            if (level.AdditiveScenes is null || (level.AdditiveScenes.Count == 0))
             {
                 _ProgressAsyncOperations = 1;
                 OnLoadComplete?.Invoke();
