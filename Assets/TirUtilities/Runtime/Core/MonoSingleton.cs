@@ -11,7 +11,7 @@ namespace TirUtilities.Generics
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Software
     /// Created:  Jan 21, 2022
-    /// Updated:  Apr 19, 2022
+    /// Updated:  Oct 16, 2023
     /// -->
     /// <summary>
     /// Extend to create singletons from <c>MonoBehaviour</c>s that can be lazy loaded from 
@@ -45,8 +45,8 @@ namespace TirUtilities.Generics
 
         private const string _Singleton = "<color=green>[Singleton]</color>";
         private const string _TooManyInstances =
-            _Singleton + " Something went really wrong  - there should never be more than 1 singleton! " +
-            "Reopening the scene might fix it.";
+            _Singleton + " Something went really wrong  - there should never be more than one " +
+            "singleton! Reopening the scene might fix it.";
 
         #endregion
 
@@ -64,7 +64,8 @@ namespace TirUtilities.Generics
             {
                 if (_isShuttingDown)
                 {
-                    Debug.LogWarning($"{_Singleton} Instance '{typeof(T)}' already destroyed on application quit. Won't create again - returning null.");
+                    Debug.LogWarning($"{_Singleton} Instance '{typeof(T)}' already destroyed" +
+                                     $" on application quit. Won't create again - returning null.");
                     return default;
                 }
                 lock (_lock)
@@ -101,7 +102,8 @@ namespace TirUtilities.Generics
                 GameObject original = Resources.Load<GameObject>(singletonAttribute.resourceFilePath);
                 if (original.IsNull())
                 {
-                    Debug.LogError($"The Resource Singleton {typeof(T)} was not found in any resources folder!");
+                    Debug.LogError($"The Resource Singleton {typeof(T)} was not found in any" +
+                                   $" resources folder!");
                     Debug.Break();
                     return default;
                 }
@@ -111,7 +113,8 @@ namespace TirUtilities.Generics
             {
                 _instance = new GameObject($"(Global Singleton) {typeof(T)}").AddComponent<T>();
                 DontDestroyOnLoad(_instance.gameObject);
-                Debug.Log($"{_Singleton} An instance of {typeof(T)} is needed in the scene, so '{_instance.gameObject}' was created with DontDestroyOnLoad.");
+                Debug.Log($"{_Singleton} An instance of {typeof(T)} is needed in the scene, " +
+                          $"so '{_instance.gameObject}' was created with DontDestroyOnLoad.");
             }
             return _instance;
         }
@@ -144,10 +147,17 @@ namespace TirUtilities.Generics
             else
             {
                 DontDestroyOnLoad(target);
-                Debug.Log($"{_Singleton} An instance of {typeof(T)} is needed in the scene, so '{target}' was loaded as a prefab with DontDestroyOnLoad.");
+                Debug.Log($"{_Singleton} An instance of {typeof(T)} is needed in the scene, " +
+                          $"so '{target}' was loaded as a prefab with DontDestroyOnLoad.");
             }
         }
 
-        public void OnDestroy() => _isShuttingDown = true;
+        protected void OnDestroy()
+        {
+            _isShuttingDown = true;
+            Teardown();
+        }
+
+        protected virtual void Teardown() { }
     }
 }

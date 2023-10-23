@@ -23,5 +23,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ExampleScene3D.unity
     guid: 782beaac2852f444fb0c592c8650200c
+  - enabled: 1
+    path: Assets/Scenes/Platformer2D-Example.unity
+    guid: 59f6e35da399e7440b8277c97208c794
+  - enabled: 1
+    path: Assets/Tests/Test Resources/Scenes/Level Management Test.unity
+    guid: 2214c5f71374d5943a565bc98943cdc2
+  - enabled: 1
+    path: Assets/Tests/Test Resources/Scenes/Level Management Test 1.unity
+    guid: e4ed02bd91b83f2489a95c3aa34f7d19
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b764461b13f11e5478dfae04fa3bc5d6, type: 2}
