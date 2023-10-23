@@ -8,7 +8,7 @@
     <title>Changelog | TirUtilities </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Changelog | TirUtilities ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -103,6 +103,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li><code>DrawBoxGizmo</code> now uses the center and size its collider instead of <code>Vector3.zero</code> and <code>Vector3.one</code> respectively.</li>
 <li><code>DrawForwardGizmo</code> line range now goes from 1.0f to 50.0f.</li>
 <li><code>TirGizmos</code> capsule gizmo logic has been massively refactored.</li>
+<li><code>LevelSystem</code> is now a <code>MonoSingleton</code>.</li>
 </ul>
 <h3 id="fixed">Fixed</h3>
 <ul>
@@ -115,6 +116,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li>This change fixes a bad reference that occurs when copy/pasting the component.</li>
 </ul>
 </li>
+<li>Adds missing <code>null</code> checks to <code>LevelData</code> and <code>LevelLoader</code>.</li>
 </ul>
 <h2 id="v000-alpha104">[v0.0.0-alpha.10.4]</h2>
 <h3 id="added-1">Added</h3>

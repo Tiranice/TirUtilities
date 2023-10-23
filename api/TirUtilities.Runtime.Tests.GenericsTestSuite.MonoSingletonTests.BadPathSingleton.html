@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LevelLoader
+    <title>Class GenericsTestSuite.MonoSingletonTests.BadPathSingleton
    | TirUtilities </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LevelLoader
+    <meta name="title" content="Class GenericsTestSuite.MonoSingletonTests.BadPathSingleton
    | TirUtilities ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,99 +78,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="TirUtilities.LevelManagment.LevelLoader">
+            <article class="content wrap" id="_content" data-uid="TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.BadPathSingleton">
   
   
-  <h1 id="TirUtilities_LevelManagment_LevelLoader" data-uid="TirUtilities.LevelManagment.LevelLoader" class="text-break">Class LevelLoader
+  <h1 id="TirUtilities_Runtime_Tests_GenericsTestSuite_MonoSingletonTests_BadPathSingleton" data-uid="TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.BadPathSingleton" class="text-break">Class GenericsTestSuite.MonoSingletonTests.BadPathSingleton
   </h1>
-  <div class="markdown level0 summary"><p>Loads scenes asynchronously when passed <a class="xref" href="TirUtilities.LevelManagment.LevelData.html">LevelData</a>.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">LevelLoader</span></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="TirUtilities.Generics.MonoSingleton-1.html">MonoSingleton</a>&lt;<a class="xref" href="TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.BadPathSingleton.html">GenericsTestSuite.MonoSingletonTests.BadPathSingleton</a>&gt;</div>
+    <div class="level2"><span class="xref">GenericsTestSuite.MonoSingletonTests.BadPathSingleton</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.LevelManagment.html">TirUtilities.LevelManagment</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_Instance">MonoSingleton&lt;GenericsTestSuite.MonoSingletonTests.BadPathSingleton&gt;.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_OnDestroy">MonoSingleton&lt;GenericsTestSuite.MonoSingletonTests.BadPathSingleton&gt;.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_Teardown">MonoSingleton&lt;GenericsTestSuite.MonoSingletonTests.BadPathSingleton&gt;.Teardown()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.Runtime.Tests.html">TirUtilities.Runtime.Tests</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="TirUtilities_LevelManagment_LevelLoader_syntax">Syntax</h5>
+  <h5 id="TirUtilities_Runtime_Tests_GenericsTestSuite_MonoSingletonTests_BadPathSingleton_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class LevelLoader</code></pre>
+    <pre><code class="lang-csharp hljs">[ResourceSingleton(&quot;Bad Path&quot;)]
+public class BadPathSingleton : MonoSingleton&lt;GenericsTestSuite.MonoSingletonTests.BadPathSingleton&gt;</code></pre>
   </div>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="TirUtilities_LevelManagment_LevelLoader_LoadLevelDataAsync_" data-uid="TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync*"></a>
-  <h4 id="TirUtilities_LevelManagment_LevelLoader_LoadLevelDataAsync_TirUtilities_LevelManagment_LevelData_" data-uid="TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagment.LevelData)">LoadLevelDataAsync(LevelData)</h4>
-  <div class="markdown level1 summary"><p>Loads the scene in the given level data. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator LoadLevelDataAsync(LevelData level)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="TirUtilities.LevelManagment.LevelData.html">LevelData</a></td>
-        <td><span class="parametername">level</span></td>
-        <td><p>The data of the level being loaded.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
-        <td><p>AsyncOperation that loads the active scene. </p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="events">Events
-  </h3>
-  
-  
-  <h4 id="TirUtilities_LevelManagment_LevelLoader_OnLoadComplete" data-uid="TirUtilities.LevelManagment.LevelLoader.OnLoadComplete">OnLoadComplete</h4>
-  <div class="markdown level1 summary"><p>Invoked once all load operations have completed. </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Action OnLoadComplete</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

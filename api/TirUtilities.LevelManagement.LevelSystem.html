@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LoadingScreen
+    <title>Class LevelSystem
    | TirUtilities </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LoadingScreen
+    <meta name="title" content="Class LevelSystem
    | TirUtilities ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,35 +78,88 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="TirUtilities.LevelManagment.Experimental.LoadingScreen">
+            <article class="content wrap" id="_content" data-uid="TirUtilities.LevelManagement.LevelSystem">
   
   
-  <h1 id="TirUtilities_LevelManagment_Experimental_LoadingScreen" data-uid="TirUtilities.LevelManagment.Experimental.LoadingScreen" class="text-break">Class LoadingScreen
+  <h1 id="TirUtilities_LevelManagement_LevelSystem" data-uid="TirUtilities.LevelManagement.LevelSystem" class="text-break">Class LevelSystem
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Handles the loading of <a class="xref" href="TirUtilities.LevelManagement.LevelData.html">LevelData</a> emitted from <a class="xref" href="TirUtilities.Signals.LevelLoadSignal.html">LevelLoadSignal</a>
+assets.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">LoadingScreen</span></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="TirUtilities.Generics.MonoSingleton-1.html">MonoSingleton</a>&lt;<a class="xref" href="TirUtilities.LevelManagement.LevelSystem.html">LevelSystem</a>&gt;</div>
+    <div class="level2"><span class="xref">LevelSystem</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.LevelManagment.Experimental.html">TirUtilities.LevelManagment.Experimental</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_Instance">MonoSingleton&lt;LevelSystem&gt;.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_OnDestroy">MonoSingleton&lt;LevelSystem&gt;.OnDestroy()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TirUtilities.LevelManagement.html">TirUtilities.LevelManagement</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="TirUtilities_LevelManagment_Experimental_LoadingScreen_syntax">Syntax</h5>
+  <h5 id="TirUtilities_LevelManagement_LevelSystem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LoadingScreen : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class LevelSystem : MonoSingleton&lt;LevelSystem&gt;</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TirUtilities_LevelManagement_LevelSystem_LevelLoadSignals_" data-uid="TirUtilities.LevelManagement.LevelSystem.LevelLoadSignals*"></a>
+  <h4 id="TirUtilities_LevelManagement_LevelSystem_LevelLoadSignals" data-uid="TirUtilities.LevelManagement.LevelSystem.LevelLoadSignals">LevelLoadSignals</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;LevelLoadSignal&gt; LevelLoadSignals { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="TirUtilities.Signals.LevelLoadSignal.html">LevelLoadSignal</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide_" data-uid="TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide*"></a>
-  <h4 id="TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide" data-uid="TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide">Hide()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="TirUtilities_LevelManagement_LevelSystem_Teardown_" data-uid="TirUtilities.LevelManagement.LevelSystem.Teardown*"></a>
+  <h4 id="TirUtilities_LevelManagement_LevelSystem_Teardown" data-uid="TirUtilities.LevelManagement.LevelSystem.Teardown">Teardown()</h4>
+  <div class="markdown level1 summary"><p>Removes event listeners and signal receivers. </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator Hide()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Teardown()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">TirUtilities.Generics.MonoSingleton&lt;TirUtilities.LevelManagement.LevelSystem&gt;.Teardown()</span></div>
+  
+  
+  <a id="TirUtilities_LevelManagement_LevelSystem_TryLoadMainMenu_" data-uid="TirUtilities.LevelManagement.LevelSystem.TryLoadMainMenu*"></a>
+  <h4 id="TirUtilities_LevelManagement_LevelSystem_TryLoadMainMenu" data-uid="TirUtilities.LevelManagement.LevelSystem.TryLoadMainMenu">TryLoadMainMenu()</h4>
+  <div class="markdown level1 summary"><p>Emits the main menu load signal if one is assigned. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryLoadMainMenu()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,92 +171,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide_" data-uid="TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide*"></a>
-  <h4 id="TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide_System_Collections_IEnumerator_" data-uid="TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(System.Collections.IEnumerator)">Hide(IEnumerator)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator Hide(IEnumerator callbackCoroutine)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
-        <td><span class="parametername">callbackCoroutine</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="TirUtilities_LevelManagment_Experimental_LoadingScreen_Show_" data-uid="TirUtilities.LevelManagment.Experimental.LoadingScreen.Show*"></a>
-  <h4 id="TirUtilities_LevelManagment_Experimental_LoadingScreen_Show_System_Collections_IEnumerator_" data-uid="TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(System.Collections.IEnumerator)">Show(IEnumerator)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator Show(IEnumerator callbackCoroutine)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
-        <td><span class="parametername">callbackCoroutine</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
-        <td></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>false</code> if the main menu load signal is null.  Otherwise <code>true</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -3679,6 +3679,23 @@ references:
   fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).OnDestroy
   nameWithType: MonoSingleton<T>.OnDestroy
   nameWithType.vb: MonoSingleton(Of T).OnDestroy
+- uid: TirUtilities.Generics.MonoSingleton`1.Teardown
+  name: Teardown()
+  href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_Teardown
+  commentId: M:TirUtilities.Generics.MonoSingleton`1.Teardown
+  fullName: TirUtilities.Generics.MonoSingleton<T>.Teardown()
+  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).Teardown()
+  nameWithType: MonoSingleton<T>.Teardown()
+  nameWithType.vb: MonoSingleton(Of T).Teardown()
+- uid: TirUtilities.Generics.MonoSingleton`1.Teardown*
+  name: Teardown
+  href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_Teardown_
+  commentId: Overload:TirUtilities.Generics.MonoSingleton`1.Teardown
+  isSpec: "True"
+  fullName: TirUtilities.Generics.MonoSingleton<T>.Teardown
+  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).Teardown
+  nameWithType: MonoSingleton<T>.Teardown
+  nameWithType.vb: MonoSingleton(Of T).Teardown
 - uid: TirUtilities.Generics.ResourceSingletonAttribute
   name: ResourceSingletonAttribute
   href: api/TirUtilities.Generics.ResourceSingletonAttribute.html
@@ -3764,173 +3781,263 @@ references:
   fullName.vb: TirUtilities.IState(Of T).UpdateState
   nameWithType: IState<T>.UpdateState
   nameWithType.vb: IState(Of T).UpdateState
-- uid: TirUtilities.LevelManagment
-  name: TirUtilities.LevelManagment
-  href: api/TirUtilities.LevelManagment.html
-  commentId: N:TirUtilities.LevelManagment
-  fullName: TirUtilities.LevelManagment
-  nameWithType: TirUtilities.LevelManagment
-- uid: TirUtilities.LevelManagment.Experimental
-  name: TirUtilities.LevelManagment.Experimental
-  href: api/TirUtilities.LevelManagment.Experimental.html
-  commentId: N:TirUtilities.LevelManagment.Experimental
-  fullName: TirUtilities.LevelManagment.Experimental
-  nameWithType: TirUtilities.LevelManagment.Experimental
-- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen
+- uid: TirUtilities.LevelManagement
+  name: TirUtilities.LevelManagement
+  href: api/TirUtilities.LevelManagement.html
+  commentId: N:TirUtilities.LevelManagement
+  fullName: TirUtilities.LevelManagement
+  nameWithType: TirUtilities.LevelManagement
+- uid: TirUtilities.LevelManagement.Experimental
+  name: TirUtilities.LevelManagement.Experimental
+  href: api/TirUtilities.LevelManagement.Experimental.html
+  commentId: N:TirUtilities.LevelManagement.Experimental
+  fullName: TirUtilities.LevelManagement.Experimental
+  nameWithType: TirUtilities.LevelManagement.Experimental
+- uid: TirUtilities.LevelManagement.Experimental.LoadingScreen
   name: LoadingScreen
-  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html
-  commentId: T:TirUtilities.LevelManagment.Experimental.LoadingScreen
-  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen
+  href: api/TirUtilities.LevelManagement.Experimental.LoadingScreen.html
+  commentId: T:TirUtilities.LevelManagement.Experimental.LoadingScreen
+  fullName: TirUtilities.LevelManagement.Experimental.LoadingScreen
   nameWithType: LoadingScreen
-- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
+- uid: TirUtilities.LevelManagement.Experimental.LoadingScreen.Hide
   name: Hide()
-  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide
-  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
-  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide()
+  href: api/TirUtilities.LevelManagement.Experimental.LoadingScreen.html#TirUtilities_LevelManagement_Experimental_LoadingScreen_Hide
+  commentId: M:TirUtilities.LevelManagement.Experimental.LoadingScreen.Hide
+  fullName: TirUtilities.LevelManagement.Experimental.LoadingScreen.Hide()
   nameWithType: LoadingScreen.Hide()
-- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(System.Collections.IEnumerator)
+- uid: TirUtilities.LevelManagement.Experimental.LoadingScreen.Hide(System.Collections.IEnumerator)
   name: Hide(IEnumerator)
-  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide_System_Collections_IEnumerator_
-  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(System.Collections.IEnumerator)
-  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide(System.Collections.IEnumerator)
+  href: api/TirUtilities.LevelManagement.Experimental.LoadingScreen.html#TirUtilities_LevelManagement_Experimental_LoadingScreen_Hide_System_Collections_IEnumerator_
+  commentId: M:TirUtilities.LevelManagement.Experimental.LoadingScreen.Hide(System.Collections.IEnumerator)
+  fullName: TirUtilities.LevelManagement.Experimental.LoadingScreen.Hide(System.Collections.IEnumerator)
   nameWithType: LoadingScreen.Hide(IEnumerator)
-- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide*
+- uid: TirUtilities.LevelManagement.Experimental.LoadingScreen.Hide*
   name: Hide
-  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Hide_
-  commentId: Overload:TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
+  href: api/TirUtilities.LevelManagement.Experimental.LoadingScreen.html#TirUtilities_LevelManagement_Experimental_LoadingScreen_Hide_
+  commentId: Overload:TirUtilities.LevelManagement.Experimental.LoadingScreen.Hide
   isSpec: "True"
-  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Hide
+  fullName: TirUtilities.LevelManagement.Experimental.LoadingScreen.Hide
   nameWithType: LoadingScreen.Hide
-- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(System.Collections.IEnumerator)
+- uid: TirUtilities.LevelManagement.Experimental.LoadingScreen.Show(System.Collections.IEnumerator)
   name: Show(IEnumerator)
-  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Show_System_Collections_IEnumerator_
-  commentId: M:TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(System.Collections.IEnumerator)
-  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show(System.Collections.IEnumerator)
+  href: api/TirUtilities.LevelManagement.Experimental.LoadingScreen.html#TirUtilities_LevelManagement_Experimental_LoadingScreen_Show_System_Collections_IEnumerator_
+  commentId: M:TirUtilities.LevelManagement.Experimental.LoadingScreen.Show(System.Collections.IEnumerator)
+  fullName: TirUtilities.LevelManagement.Experimental.LoadingScreen.Show(System.Collections.IEnumerator)
   nameWithType: LoadingScreen.Show(IEnumerator)
-- uid: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show*
+- uid: TirUtilities.LevelManagement.Experimental.LoadingScreen.Show*
   name: Show
-  href: api/TirUtilities.LevelManagment.Experimental.LoadingScreen.html#TirUtilities_LevelManagment_Experimental_LoadingScreen_Show_
-  commentId: Overload:TirUtilities.LevelManagment.Experimental.LoadingScreen.Show
+  href: api/TirUtilities.LevelManagement.Experimental.LoadingScreen.html#TirUtilities_LevelManagement_Experimental_LoadingScreen_Show_
+  commentId: Overload:TirUtilities.LevelManagement.Experimental.LoadingScreen.Show
   isSpec: "True"
-  fullName: TirUtilities.LevelManagment.Experimental.LoadingScreen.Show
+  fullName: TirUtilities.LevelManagement.Experimental.LoadingScreen.Show
   nameWithType: LoadingScreen.Show
-- uid: TirUtilities.LevelManagment.LevelData
+- uid: TirUtilities.LevelManagement.LevelData
   name: LevelData
-  href: api/TirUtilities.LevelManagment.LevelData.html
-  commentId: T:TirUtilities.LevelManagment.LevelData
-  fullName: TirUtilities.LevelManagment.LevelData
+  href: api/TirUtilities.LevelManagement.LevelData.html
+  commentId: T:TirUtilities.LevelManagement.LevelData
+  fullName: TirUtilities.LevelManagement.LevelData
   nameWithType: LevelData
-- uid: TirUtilities.LevelManagment.LevelData.#ctor(System.String,System.Collections.Generic.List{System.String})
+- uid: TirUtilities.LevelManagement.LevelData.#ctor(System.String,System.Collections.Generic.List{System.String})
   name: LevelData(String, List<String>)
-  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData__ctor_System_String_System_Collections_Generic_List_System_String__
-  commentId: M:TirUtilities.LevelManagment.LevelData.#ctor(System.String,System.Collections.Generic.List{System.String})
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData__ctor_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:TirUtilities.LevelManagement.LevelData.#ctor(System.String,System.Collections.Generic.List{System.String})
   name.vb: LevelData(String, List(Of String))
-  fullName: TirUtilities.LevelManagment.LevelData.LevelData(System.String, System.Collections.Generic.List<System.String>)
-  fullName.vb: TirUtilities.LevelManagment.LevelData.LevelData(System.String, System.Collections.Generic.List(Of System.String))
+  fullName: TirUtilities.LevelManagement.LevelData.LevelData(System.String, System.Collections.Generic.List<System.String>)
+  fullName.vb: TirUtilities.LevelManagement.LevelData.LevelData(System.String, System.Collections.Generic.List(Of System.String))
   nameWithType: LevelData.LevelData(String, List<String>)
   nameWithType.vb: LevelData.LevelData(String, List(Of String))
-- uid: TirUtilities.LevelManagment.LevelData.#ctor*
+- uid: TirUtilities.LevelManagement.LevelData.#ctor*
   name: LevelData
-  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData__ctor_
-  commentId: Overload:TirUtilities.LevelManagment.LevelData.#ctor
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData__ctor_
+  commentId: Overload:TirUtilities.LevelManagement.LevelData.#ctor
   isSpec: "True"
-  fullName: TirUtilities.LevelManagment.LevelData.LevelData
+  fullName: TirUtilities.LevelManagement.LevelData.LevelData
   nameWithType: LevelData.LevelData
-- uid: TirUtilities.LevelManagment.LevelData.ActiveScene
+- uid: TirUtilities.LevelManagement.LevelData.ActiveScene
   name: ActiveScene
-  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData_ActiveScene
-  commentId: P:TirUtilities.LevelManagment.LevelData.ActiveScene
-  fullName: TirUtilities.LevelManagment.LevelData.ActiveScene
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_ActiveScene
+  commentId: P:TirUtilities.LevelManagement.LevelData.ActiveScene
+  fullName: TirUtilities.LevelManagement.LevelData.ActiveScene
   nameWithType: LevelData.ActiveScene
-- uid: TirUtilities.LevelManagment.LevelData.ActiveScene*
+- uid: TirUtilities.LevelManagement.LevelData.ActiveScene*
   name: ActiveScene
-  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData_ActiveScene_
-  commentId: Overload:TirUtilities.LevelManagment.LevelData.ActiveScene
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_ActiveScene_
+  commentId: Overload:TirUtilities.LevelManagement.LevelData.ActiveScene
   isSpec: "True"
-  fullName: TirUtilities.LevelManagment.LevelData.ActiveScene
+  fullName: TirUtilities.LevelManagement.LevelData.ActiveScene
   nameWithType: LevelData.ActiveScene
-- uid: TirUtilities.LevelManagment.LevelData.AdditiveScenes
+- uid: TirUtilities.LevelManagement.LevelData.AdditiveScenes
   name: AdditiveScenes
-  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData_AdditiveScenes
-  commentId: P:TirUtilities.LevelManagment.LevelData.AdditiveScenes
-  fullName: TirUtilities.LevelManagment.LevelData.AdditiveScenes
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_AdditiveScenes
+  commentId: P:TirUtilities.LevelManagement.LevelData.AdditiveScenes
+  fullName: TirUtilities.LevelManagement.LevelData.AdditiveScenes
   nameWithType: LevelData.AdditiveScenes
-- uid: TirUtilities.LevelManagment.LevelData.AdditiveScenes*
+- uid: TirUtilities.LevelManagement.LevelData.AdditiveScenes*
   name: AdditiveScenes
-  href: api/TirUtilities.LevelManagment.LevelData.html#TirUtilities_LevelManagment_LevelData_AdditiveScenes_
-  commentId: Overload:TirUtilities.LevelManagment.LevelData.AdditiveScenes
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_AdditiveScenes_
+  commentId: Overload:TirUtilities.LevelManagement.LevelData.AdditiveScenes
   isSpec: "True"
-  fullName: TirUtilities.LevelManagment.LevelData.AdditiveScenes
+  fullName: TirUtilities.LevelManagement.LevelData.AdditiveScenes
   nameWithType: LevelData.AdditiveScenes
-- uid: TirUtilities.LevelManagment.LevelLoader
+- uid: TirUtilities.LevelManagement.LevelData.Equals(System.Object)
+  name: Equals(Object)
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_Equals_System_Object_
+  commentId: M:TirUtilities.LevelManagement.LevelData.Equals(System.Object)
+  fullName: TirUtilities.LevelManagement.LevelData.Equals(System.Object)
+  nameWithType: LevelData.Equals(Object)
+- uid: TirUtilities.LevelManagement.LevelData.Equals(TirUtilities.LevelManagement.LevelData)
+  name: Equals(LevelData)
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_Equals_TirUtilities_LevelManagement_LevelData_
+  commentId: M:TirUtilities.LevelManagement.LevelData.Equals(TirUtilities.LevelManagement.LevelData)
+  fullName: TirUtilities.LevelManagement.LevelData.Equals(TirUtilities.LevelManagement.LevelData)
+  nameWithType: LevelData.Equals(LevelData)
+- uid: TirUtilities.LevelManagement.LevelData.Equals*
+  name: Equals
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_Equals_
+  commentId: Overload:TirUtilities.LevelManagement.LevelData.Equals
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagement.LevelData.Equals
+  nameWithType: LevelData.Equals
+- uid: TirUtilities.LevelManagement.LevelData.GetHashCode
+  name: GetHashCode()
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_GetHashCode
+  commentId: M:TirUtilities.LevelManagement.LevelData.GetHashCode
+  fullName: TirUtilities.LevelManagement.LevelData.GetHashCode()
+  nameWithType: LevelData.GetHashCode()
+- uid: TirUtilities.LevelManagement.LevelData.GetHashCode*
+  name: GetHashCode
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_GetHashCode_
+  commentId: Overload:TirUtilities.LevelManagement.LevelData.GetHashCode
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagement.LevelData.GetHashCode
+  nameWithType: LevelData.GetHashCode
+- uid: TirUtilities.LevelManagement.LevelData.op_Equality(TirUtilities.LevelManagement.LevelData,TirUtilities.LevelManagement.LevelData)
+  name: Equality(LevelData, LevelData)
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_op_Equality_TirUtilities_LevelManagement_LevelData_TirUtilities_LevelManagement_LevelData_
+  commentId: M:TirUtilities.LevelManagement.LevelData.op_Equality(TirUtilities.LevelManagement.LevelData,TirUtilities.LevelManagement.LevelData)
+  fullName: TirUtilities.LevelManagement.LevelData.Equality(TirUtilities.LevelManagement.LevelData, TirUtilities.LevelManagement.LevelData)
+  nameWithType: LevelData.Equality(LevelData, LevelData)
+- uid: TirUtilities.LevelManagement.LevelData.op_Equality*
+  name: Equality
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_op_Equality_
+  commentId: Overload:TirUtilities.LevelManagement.LevelData.op_Equality
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagement.LevelData.Equality
+  nameWithType: LevelData.Equality
+- uid: TirUtilities.LevelManagement.LevelData.op_Inequality(TirUtilities.LevelManagement.LevelData,TirUtilities.LevelManagement.LevelData)
+  name: Inequality(LevelData, LevelData)
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_op_Inequality_TirUtilities_LevelManagement_LevelData_TirUtilities_LevelManagement_LevelData_
+  commentId: M:TirUtilities.LevelManagement.LevelData.op_Inequality(TirUtilities.LevelManagement.LevelData,TirUtilities.LevelManagement.LevelData)
+  fullName: TirUtilities.LevelManagement.LevelData.Inequality(TirUtilities.LevelManagement.LevelData, TirUtilities.LevelManagement.LevelData)
+  nameWithType: LevelData.Inequality(LevelData, LevelData)
+- uid: TirUtilities.LevelManagement.LevelData.op_Inequality*
+  name: Inequality
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_op_Inequality_
+  commentId: Overload:TirUtilities.LevelManagement.LevelData.op_Inequality
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagement.LevelData.Inequality
+  nameWithType: LevelData.Inequality
+- uid: TirUtilities.LevelManagement.LevelData.SceneCount
+  name: SceneCount
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_SceneCount
+  commentId: P:TirUtilities.LevelManagement.LevelData.SceneCount
+  fullName: TirUtilities.LevelManagement.LevelData.SceneCount
+  nameWithType: LevelData.SceneCount
+- uid: TirUtilities.LevelManagement.LevelData.SceneCount*
+  name: SceneCount
+  href: api/TirUtilities.LevelManagement.LevelData.html#TirUtilities_LevelManagement_LevelData_SceneCount_
+  commentId: Overload:TirUtilities.LevelManagement.LevelData.SceneCount
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagement.LevelData.SceneCount
+  nameWithType: LevelData.SceneCount
+- uid: TirUtilities.LevelManagement.LevelLoader
   name: LevelLoader
-  href: api/TirUtilities.LevelManagment.LevelLoader.html
-  commentId: T:TirUtilities.LevelManagment.LevelLoader
-  fullName: TirUtilities.LevelManagment.LevelLoader
+  href: api/TirUtilities.LevelManagement.LevelLoader.html
+  commentId: T:TirUtilities.LevelManagement.LevelLoader
+  fullName: TirUtilities.LevelManagement.LevelLoader
   nameWithType: LevelLoader
-- uid: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagment.LevelData)
+- uid: TirUtilities.LevelManagement.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagement.LevelData)
   name: LoadLevelDataAsync(LevelData)
-  href: api/TirUtilities.LevelManagment.LevelLoader.html#TirUtilities_LevelManagment_LevelLoader_LoadLevelDataAsync_TirUtilities_LevelManagment_LevelData_
-  commentId: M:TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagment.LevelData)
-  fullName: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagment.LevelData)
+  href: api/TirUtilities.LevelManagement.LevelLoader.html#TirUtilities_LevelManagement_LevelLoader_LoadLevelDataAsync_TirUtilities_LevelManagement_LevelData_
+  commentId: M:TirUtilities.LevelManagement.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagement.LevelData)
+  fullName: TirUtilities.LevelManagement.LevelLoader.LoadLevelDataAsync(TirUtilities.LevelManagement.LevelData)
   nameWithType: LevelLoader.LoadLevelDataAsync(LevelData)
-- uid: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync*
+- uid: TirUtilities.LevelManagement.LevelLoader.LoadLevelDataAsync*
   name: LoadLevelDataAsync
-  href: api/TirUtilities.LevelManagment.LevelLoader.html#TirUtilities_LevelManagment_LevelLoader_LoadLevelDataAsync_
-  commentId: Overload:TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync
+  href: api/TirUtilities.LevelManagement.LevelLoader.html#TirUtilities_LevelManagement_LevelLoader_LoadLevelDataAsync_
+  commentId: Overload:TirUtilities.LevelManagement.LevelLoader.LoadLevelDataAsync
   isSpec: "True"
-  fullName: TirUtilities.LevelManagment.LevelLoader.LoadLevelDataAsync
+  fullName: TirUtilities.LevelManagement.LevelLoader.LoadLevelDataAsync
   nameWithType: LevelLoader.LoadLevelDataAsync
-- uid: TirUtilities.LevelManagment.LevelLoader.OnLoadComplete
+- uid: TirUtilities.LevelManagement.LevelLoader.OnLoadComplete
   name: OnLoadComplete
-  href: api/TirUtilities.LevelManagment.LevelLoader.html#TirUtilities_LevelManagment_LevelLoader_OnLoadComplete
-  commentId: E:TirUtilities.LevelManagment.LevelLoader.OnLoadComplete
-  fullName: TirUtilities.LevelManagment.LevelLoader.OnLoadComplete
+  href: api/TirUtilities.LevelManagement.LevelLoader.html#TirUtilities_LevelManagement_LevelLoader_OnLoadComplete
+  commentId: E:TirUtilities.LevelManagement.LevelLoader.OnLoadComplete
+  fullName: TirUtilities.LevelManagement.LevelLoader.OnLoadComplete
   nameWithType: LevelLoader.OnLoadComplete
-- uid: TirUtilities.LevelManagment.LevelSystem
+- uid: TirUtilities.LevelManagement.LevelLoader.OnProgressUpdated
+  name: OnProgressUpdated
+  href: api/TirUtilities.LevelManagement.LevelLoader.html#TirUtilities_LevelManagement_LevelLoader_OnProgressUpdated
+  commentId: E:TirUtilities.LevelManagement.LevelLoader.OnProgressUpdated
+  fullName: TirUtilities.LevelManagement.LevelLoader.OnProgressUpdated
+  nameWithType: LevelLoader.OnProgressUpdated
+- uid: TirUtilities.LevelManagement.LevelLoader.ProgressAsyncOperations
+  name: ProgressAsyncOperations
+  href: api/TirUtilities.LevelManagement.LevelLoader.html#TirUtilities_LevelManagement_LevelLoader_ProgressAsyncOperations
+  commentId: P:TirUtilities.LevelManagement.LevelLoader.ProgressAsyncOperations
+  fullName: TirUtilities.LevelManagement.LevelLoader.ProgressAsyncOperations
+  nameWithType: LevelLoader.ProgressAsyncOperations
+- uid: TirUtilities.LevelManagement.LevelLoader.ProgressAsyncOperations*
+  name: ProgressAsyncOperations
+  href: api/TirUtilities.LevelManagement.LevelLoader.html#TirUtilities_LevelManagement_LevelLoader_ProgressAsyncOperations_
+  commentId: Overload:TirUtilities.LevelManagement.LevelLoader.ProgressAsyncOperations
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagement.LevelLoader.ProgressAsyncOperations
+  nameWithType: LevelLoader.ProgressAsyncOperations
+- uid: TirUtilities.LevelManagement.LevelSystem
   name: LevelSystem
-  href: api/TirUtilities.LevelManagment.LevelSystem.html
-  commentId: T:TirUtilities.LevelManagment.LevelSystem
-  fullName: TirUtilities.LevelManagment.LevelSystem
+  href: api/TirUtilities.LevelManagement.LevelSystem.html
+  commentId: T:TirUtilities.LevelManagement.LevelSystem
+  fullName: TirUtilities.LevelManagement.LevelSystem
   nameWithType: LevelSystem
-- uid: TirUtilities.LevelManagment.LevelSystem.Instance
-  name: Instance
-  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_Instance
-  commentId: P:TirUtilities.LevelManagment.LevelSystem.Instance
-  fullName: TirUtilities.LevelManagment.LevelSystem.Instance
-  nameWithType: LevelSystem.Instance
-- uid: TirUtilities.LevelManagment.LevelSystem.Instance*
-  name: Instance
-  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_Instance_
-  commentId: Overload:TirUtilities.LevelManagment.LevelSystem.Instance
-  isSpec: "True"
-  fullName: TirUtilities.LevelManagment.LevelSystem.Instance
-  nameWithType: LevelSystem.Instance
-- uid: TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
+- uid: TirUtilities.LevelManagement.LevelSystem.LevelLoadSignals
   name: LevelLoadSignals
-  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_LevelLoadSignals
-  commentId: P:TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
-  fullName: TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
+  href: api/TirUtilities.LevelManagement.LevelSystem.html#TirUtilities_LevelManagement_LevelSystem_LevelLoadSignals
+  commentId: P:TirUtilities.LevelManagement.LevelSystem.LevelLoadSignals
+  fullName: TirUtilities.LevelManagement.LevelSystem.LevelLoadSignals
   nameWithType: LevelSystem.LevelLoadSignals
-- uid: TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals*
+- uid: TirUtilities.LevelManagement.LevelSystem.LevelLoadSignals*
   name: LevelLoadSignals
-  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_LevelLoadSignals_
-  commentId: Overload:TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
+  href: api/TirUtilities.LevelManagement.LevelSystem.html#TirUtilities_LevelManagement_LevelSystem_LevelLoadSignals_
+  commentId: Overload:TirUtilities.LevelManagement.LevelSystem.LevelLoadSignals
   isSpec: "True"
-  fullName: TirUtilities.LevelManagment.LevelSystem.LevelLoadSignals
+  fullName: TirUtilities.LevelManagement.LevelSystem.LevelLoadSignals
   nameWithType: LevelSystem.LevelLoadSignals
-- uid: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+- uid: TirUtilities.LevelManagement.LevelSystem.Teardown
+  name: Teardown()
+  href: api/TirUtilities.LevelManagement.LevelSystem.html#TirUtilities_LevelManagement_LevelSystem_Teardown
+  commentId: M:TirUtilities.LevelManagement.LevelSystem.Teardown
+  fullName: TirUtilities.LevelManagement.LevelSystem.Teardown()
+  nameWithType: LevelSystem.Teardown()
+- uid: TirUtilities.LevelManagement.LevelSystem.Teardown*
+  name: Teardown
+  href: api/TirUtilities.LevelManagement.LevelSystem.html#TirUtilities_LevelManagement_LevelSystem_Teardown_
+  commentId: Overload:TirUtilities.LevelManagement.LevelSystem.Teardown
+  isSpec: "True"
+  fullName: TirUtilities.LevelManagement.LevelSystem.Teardown
+  nameWithType: LevelSystem.Teardown
+- uid: TirUtilities.LevelManagement.LevelSystem.TryLoadMainMenu
   name: TryLoadMainMenu()
-  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_TryLoadMainMenu
-  commentId: M:TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
-  fullName: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu()
+  href: api/TirUtilities.LevelManagement.LevelSystem.html#TirUtilities_LevelManagement_LevelSystem_TryLoadMainMenu
+  commentId: M:TirUtilities.LevelManagement.LevelSystem.TryLoadMainMenu
+  fullName: TirUtilities.LevelManagement.LevelSystem.TryLoadMainMenu()
   nameWithType: LevelSystem.TryLoadMainMenu()
-- uid: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu*
+- uid: TirUtilities.LevelManagement.LevelSystem.TryLoadMainMenu*
   name: TryLoadMainMenu
-  href: api/TirUtilities.LevelManagment.LevelSystem.html#TirUtilities_LevelManagment_LevelSystem_TryLoadMainMenu_
-  commentId: Overload:TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+  href: api/TirUtilities.LevelManagement.LevelSystem.html#TirUtilities_LevelManagement_LevelSystem_TryLoadMainMenu_
+  commentId: Overload:TirUtilities.LevelManagement.LevelSystem.TryLoadMainMenu
   isSpec: "True"
-  fullName: TirUtilities.LevelManagment.LevelSystem.TryLoadMainMenu
+  fullName: TirUtilities.LevelManagement.LevelSystem.TryLoadMainMenu
   nameWithType: LevelSystem.TryLoadMainMenu
 - uid: TirUtilities.RichTextColor
   name: RichTextColor
@@ -4088,6 +4195,278 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Runtime.Tests.AutoRotateTest.AutoRotateTearDown
   nameWithType: AutoRotateTest.AutoRotateTearDown
+- uid: TirUtilities.Runtime.Tests.GenericsTestSuite
+  name: GenericsTestSuite
+  href: api/TirUtilities.Runtime.Tests.GenericsTestSuite.html
+  commentId: T:TirUtilities.Runtime.Tests.GenericsTestSuite
+  fullName: TirUtilities.Runtime.Tests.GenericsTestSuite
+  nameWithType: GenericsTestSuite
+- uid: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests
+  name: GenericsTestSuite.MonoSingletonTests
+  href: api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.html
+  commentId: T:TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests
+  fullName: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests
+  nameWithType: GenericsTestSuite.MonoSingletonTests
+- uid: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._00_CreatesNewGameObjectWhenNoneExists
+  name: _00_CreatesNewGameObjectWhenNoneExists()
+  href: api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.html#TirUtilities_Runtime_Tests_GenericsTestSuite_MonoSingletonTests__00_CreatesNewGameObjectWhenNoneExists
+  commentId: M:TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._00_CreatesNewGameObjectWhenNoneExists
+  fullName: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._00_CreatesNewGameObjectWhenNoneExists()
+  nameWithType: GenericsTestSuite.MonoSingletonTests._00_CreatesNewGameObjectWhenNoneExists()
+- uid: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._00_CreatesNewGameObjectWhenNoneExists*
+  name: _00_CreatesNewGameObjectWhenNoneExists
+  href: api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.html#TirUtilities_Runtime_Tests_GenericsTestSuite_MonoSingletonTests__00_CreatesNewGameObjectWhenNoneExists_
+  commentId: Overload:TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._00_CreatesNewGameObjectWhenNoneExists
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._00_CreatesNewGameObjectWhenNoneExists
+  nameWithType: GenericsTestSuite.MonoSingletonTests._00_CreatesNewGameObjectWhenNoneExists
+- uid: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._01_ResourceSingletonWithBadPathPausesExecution
+  name: _01_ResourceSingletonWithBadPathPausesExecution()
+  href: api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.html#TirUtilities_Runtime_Tests_GenericsTestSuite_MonoSingletonTests__01_ResourceSingletonWithBadPathPausesExecution
+  commentId: M:TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._01_ResourceSingletonWithBadPathPausesExecution
+  fullName: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._01_ResourceSingletonWithBadPathPausesExecution()
+  nameWithType: GenericsTestSuite.MonoSingletonTests._01_ResourceSingletonWithBadPathPausesExecution()
+- uid: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._01_ResourceSingletonWithBadPathPausesExecution*
+  name: _01_ResourceSingletonWithBadPathPausesExecution
+  href: api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.html#TirUtilities_Runtime_Tests_GenericsTestSuite_MonoSingletonTests__01_ResourceSingletonWithBadPathPausesExecution_
+  commentId: Overload:TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._01_ResourceSingletonWithBadPathPausesExecution
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._01_ResourceSingletonWithBadPathPausesExecution
+  nameWithType: GenericsTestSuite.MonoSingletonTests._01_ResourceSingletonWithBadPathPausesExecution
+- uid: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._02_ResourceSingletonLoadsCorrectly
+  name: _02_ResourceSingletonLoadsCorrectly()
+  href: api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.html#TirUtilities_Runtime_Tests_GenericsTestSuite_MonoSingletonTests__02_ResourceSingletonLoadsCorrectly
+  commentId: M:TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._02_ResourceSingletonLoadsCorrectly
+  fullName: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._02_ResourceSingletonLoadsCorrectly()
+  nameWithType: GenericsTestSuite.MonoSingletonTests._02_ResourceSingletonLoadsCorrectly()
+- uid: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._02_ResourceSingletonLoadsCorrectly*
+  name: _02_ResourceSingletonLoadsCorrectly
+  href: api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.html#TirUtilities_Runtime_Tests_GenericsTestSuite_MonoSingletonTests__02_ResourceSingletonLoadsCorrectly_
+  commentId: Overload:TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._02_ResourceSingletonLoadsCorrectly
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests._02_ResourceSingletonLoadsCorrectly
+  nameWithType: GenericsTestSuite.MonoSingletonTests._02_ResourceSingletonLoadsCorrectly
+- uid: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.BadPathSingleton
+  name: GenericsTestSuite.MonoSingletonTests.BadPathSingleton
+  href: api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.BadPathSingleton.html
+  commentId: T:TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.BadPathSingleton
+  fullName: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.BadPathSingleton
+  nameWithType: GenericsTestSuite.MonoSingletonTests.BadPathSingleton
+- uid: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.TestSingleton
+  name: GenericsTestSuite.MonoSingletonTests.TestSingleton
+  href: api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.TestSingleton.html
+  commentId: T:TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.TestSingleton
+  fullName: TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.TestSingleton
+  nameWithType: GenericsTestSuite.MonoSingletonTests.TestSingleton
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite
+  name: LevelManagementTestSuite
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.html
+  commentId: T:TirUtilities.Runtime.Tests.LevelManagementTestSuite
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite
+  nameWithType: LevelManagementTestSuite
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite._ActiveScene
+  name: _ActiveScene
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite__ActiveScene
+  commentId: F:TirUtilities.Runtime.Tests.LevelManagementTestSuite._ActiveScene
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite._ActiveScene
+  nameWithType: LevelManagementTestSuite._ActiveScene
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite._AdditiveScene
+  name: _AdditiveScene
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite__AdditiveScene
+  commentId: F:TirUtilities.Runtime.Tests.LevelManagementTestSuite._AdditiveScene
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite._AdditiveScene
+  nameWithType: LevelManagementTestSuite._AdditiveScene
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite._DummyAdditiveLevelData
+  name: _DummyAdditiveLevelData
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite__DummyAdditiveLevelData
+  commentId: F:TirUtilities.Runtime.Tests.LevelManagementTestSuite._DummyAdditiveLevelData
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite._DummyAdditiveLevelData
+  nameWithType: LevelManagementTestSuite._DummyAdditiveLevelData
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite._DummyLevelData
+  name: _DummyLevelData
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite__DummyLevelData
+  commentId: F:TirUtilities.Runtime.Tests.LevelManagementTestSuite._DummyLevelData
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite._DummyLevelData
+  nameWithType: LevelManagementTestSuite._DummyLevelData
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite._levelLoadSignal
+  name: _levelLoadSignal
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite__levelLoadSignal
+  commentId: F:TirUtilities.Runtime.Tests.LevelManagementTestSuite._levelLoadSignal
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite._levelLoadSignal
+  nameWithType: LevelManagementTestSuite._levelLoadSignal
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite._SignalName
+  name: _SignalName
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite__SignalName
+  commentId: F:TirUtilities.Runtime.Tests.LevelManagementTestSuite._SignalName
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite._SignalName
+  nameWithType: LevelManagementTestSuite._SignalName
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests
+  name: LevelManagementTestSuite.LevelDataTests
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests.html
+  commentId: T:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests
+  nameWithType: LevelManagementTestSuite.LevelDataTests
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests._00_AdditiveSceneEqualityIsCorrect
+  name: _00_AdditiveSceneEqualityIsCorrect()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelDataTests__00_AdditiveSceneEqualityIsCorrect
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests._00_AdditiveSceneEqualityIsCorrect
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests._00_AdditiveSceneEqualityIsCorrect()
+  nameWithType: LevelManagementTestSuite.LevelDataTests._00_AdditiveSceneEqualityIsCorrect()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests._00_AdditiveSceneEqualityIsCorrect*
+  name: _00_AdditiveSceneEqualityIsCorrect
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelDataTests__00_AdditiveSceneEqualityIsCorrect_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests._00_AdditiveSceneEqualityIsCorrect
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelDataTests._00_AdditiveSceneEqualityIsCorrect
+  nameWithType: LevelManagementTestSuite.LevelDataTests._00_AdditiveSceneEqualityIsCorrect
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests
+  name: LevelManagementTestSuite.LevelLoaderTests
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests.html
+  commentId: T:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests
+  nameWithType: LevelManagementTestSuite.LevelLoaderTests
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._00_CanLoadSceneFromLevelData
+  name: _00_CanLoadSceneFromLevelData()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoaderTests__00_CanLoadSceneFromLevelData
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._00_CanLoadSceneFromLevelData
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._00_CanLoadSceneFromLevelData()
+  nameWithType: LevelManagementTestSuite.LevelLoaderTests._00_CanLoadSceneFromLevelData()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._00_CanLoadSceneFromLevelData*
+  name: _00_CanLoadSceneFromLevelData
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoaderTests__00_CanLoadSceneFromLevelData_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._00_CanLoadSceneFromLevelData
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._00_CanLoadSceneFromLevelData
+  nameWithType: LevelManagementTestSuite.LevelLoaderTests._00_CanLoadSceneFromLevelData
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._01_CanLoadMultipleScenesFromLevelData
+  name: _01_CanLoadMultipleScenesFromLevelData()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoaderTests__01_CanLoadMultipleScenesFromLevelData
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._01_CanLoadMultipleScenesFromLevelData
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._01_CanLoadMultipleScenesFromLevelData()
+  nameWithType: LevelManagementTestSuite.LevelLoaderTests._01_CanLoadMultipleScenesFromLevelData()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._01_CanLoadMultipleScenesFromLevelData*
+  name: _01_CanLoadMultipleScenesFromLevelData
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoaderTests__01_CanLoadMultipleScenesFromLevelData_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._01_CanLoadMultipleScenesFromLevelData
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._01_CanLoadMultipleScenesFromLevelData
+  nameWithType: LevelManagementTestSuite.LevelLoaderTests._01_CanLoadMultipleScenesFromLevelData
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._02_OnLoadCompleteIsCalledWhenScenesAreLoaded
+  name: _02_OnLoadCompleteIsCalledWhenScenesAreLoaded()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoaderTests__02_OnLoadCompleteIsCalledWhenScenesAreLoaded
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._02_OnLoadCompleteIsCalledWhenScenesAreLoaded
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._02_OnLoadCompleteIsCalledWhenScenesAreLoaded()
+  nameWithType: LevelManagementTestSuite.LevelLoaderTests._02_OnLoadCompleteIsCalledWhenScenesAreLoaded()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._02_OnLoadCompleteIsCalledWhenScenesAreLoaded*
+  name: _02_OnLoadCompleteIsCalledWhenScenesAreLoaded
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoaderTests__02_OnLoadCompleteIsCalledWhenScenesAreLoaded_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._02_OnLoadCompleteIsCalledWhenScenesAreLoaded
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoaderTests._02_OnLoadCompleteIsCalledWhenScenesAreLoaded
+  nameWithType: LevelManagementTestSuite.LevelLoaderTests._02_OnLoadCompleteIsCalledWhenScenesAreLoaded
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests
+  name: LevelManagementTestSuite.LevelLoadSignalTests
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html
+  commentId: T:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._00_SignalExists
+  name: _00_SignalExists()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__00_SignalExists
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._00_SignalExists
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._00_SignalExists()
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._00_SignalExists()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._00_SignalExists*
+  name: _00_SignalExists
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__00_SignalExists_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._00_SignalExists
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._00_SignalExists
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._00_SignalExists
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._01_ActiveSceneIsCorrect
+  name: _01_ActiveSceneIsCorrect()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__01_ActiveSceneIsCorrect
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._01_ActiveSceneIsCorrect
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._01_ActiveSceneIsCorrect()
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._01_ActiveSceneIsCorrect()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._01_ActiveSceneIsCorrect*
+  name: _01_ActiveSceneIsCorrect
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__01_ActiveSceneIsCorrect_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._01_ActiveSceneIsCorrect
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._01_ActiveSceneIsCorrect
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._01_ActiveSceneIsCorrect
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._02_AdditiveSceneIsCorrect
+  name: _02_AdditiveSceneIsCorrect()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__02_AdditiveSceneIsCorrect
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._02_AdditiveSceneIsCorrect
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._02_AdditiveSceneIsCorrect()
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._02_AdditiveSceneIsCorrect()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._02_AdditiveSceneIsCorrect*
+  name: _02_AdditiveSceneIsCorrect
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__02_AdditiveSceneIsCorrect_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._02_AdditiveSceneIsCorrect
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._02_AdditiveSceneIsCorrect
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._02_AdditiveSceneIsCorrect
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._03_CanRegisterReceivers
+  name: _03_CanRegisterReceivers()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__03_CanRegisterReceivers
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._03_CanRegisterReceivers
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._03_CanRegisterReceivers()
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._03_CanRegisterReceivers()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._03_CanRegisterReceivers*
+  name: _03_CanRegisterReceivers
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__03_CanRegisterReceivers_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._03_CanRegisterReceivers
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._03_CanRegisterReceivers
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._03_CanRegisterReceivers
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._04_CanUnregisterReceivers
+  name: _04_CanUnregisterReceivers()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__04_CanUnregisterReceivers
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._04_CanUnregisterReceivers
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._04_CanUnregisterReceivers()
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._04_CanUnregisterReceivers()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._04_CanUnregisterReceivers*
+  name: _04_CanUnregisterReceivers
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__04_CanUnregisterReceivers_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._04_CanUnregisterReceivers
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._04_CanUnregisterReceivers
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._04_CanUnregisterReceivers
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._05_CanEmitCustomDataReceivers
+  name: _05_CanEmitCustomDataReceivers()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__05_CanEmitCustomDataReceivers
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._05_CanEmitCustomDataReceivers
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._05_CanEmitCustomDataReceivers()
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._05_CanEmitCustomDataReceivers()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._05_CanEmitCustomDataReceivers*
+  name: _05_CanEmitCustomDataReceivers
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelLoadSignalTests__05_CanEmitCustomDataReceivers_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._05_CanEmitCustomDataReceivers
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelLoadSignalTests._05_CanEmitCustomDataReceivers
+  nameWithType: LevelManagementTestSuite.LevelLoadSignalTests._05_CanEmitCustomDataReceivers
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests
+  name: LevelManagementTestSuite.LevelSystemTests
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests.html
+  commentId: T:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests
+  nameWithType: LevelManagementTestSuite.LevelSystemTests
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests._00_SuccessfullyGetsLevelLoadSignals
+  name: _00_SuccessfullyGetsLevelLoadSignals()
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelSystemTests__00_SuccessfullyGetsLevelLoadSignals
+  commentId: M:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests._00_SuccessfullyGetsLevelLoadSignals
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests._00_SuccessfullyGetsLevelLoadSignals()
+  nameWithType: LevelManagementTestSuite.LevelSystemTests._00_SuccessfullyGetsLevelLoadSignals()
+- uid: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests._00_SuccessfullyGetsLevelLoadSignals*
+  name: _00_SuccessfullyGetsLevelLoadSignals
+  href: api/TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests.html#TirUtilities_Runtime_Tests_LevelManagementTestSuite_LevelSystemTests__00_SuccessfullyGetsLevelLoadSignals_
+  commentId: Overload:TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests._00_SuccessfullyGetsLevelLoadSignals
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.LevelManagementTestSuite.LevelSystemTests._00_SuccessfullyGetsLevelLoadSignals
+  nameWithType: LevelManagementTestSuite.LevelSystemTests._00_SuccessfullyGetsLevelLoadSignals
 - uid: TirUtilities.Runtime.Tests.SignalTestSuite
   name: SignalTestSuite
   href: api/TirUtilities.Runtime.Tests.SignalTestSuite.html
@@ -4177,6 +4556,34 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Runtime.Tests.SignalTestSuite.SignalTests._02_RemoveReceiverCorrectlyRemovesTheGivenAction
   nameWithType: SignalTestSuite.SignalTests._02_RemoveReceiverCorrectlyRemovesTheGivenAction
+- uid: TirUtilities.Runtime.Tests.TestResourceSingleton
+  name: TestResourceSingleton
+  href: api/TirUtilities.Runtime.Tests.TestResourceSingleton.html
+  commentId: T:TirUtilities.Runtime.Tests.TestResourceSingleton
+  fullName: TirUtilities.Runtime.Tests.TestResourceSingleton
+  nameWithType: TestResourceSingleton
+- uid: TirUtilities.Runtime.Tests.TestUtilities
+  name: TestUtilities
+  href: api/TirUtilities.Runtime.Tests.TestUtilities.html
+  commentId: T:TirUtilities.Runtime.Tests.TestUtilities
+  fullName: TirUtilities.Runtime.Tests.TestUtilities
+  nameWithType: TestUtilities
+- uid: TirUtilities.Runtime.Tests.TestUtilities.LoadScriptableObject*
+  name: LoadScriptableObject
+  href: api/TirUtilities.Runtime.Tests.TestUtilities.html#TirUtilities_Runtime_Tests_TestUtilities_LoadScriptableObject_
+  commentId: Overload:TirUtilities.Runtime.Tests.TestUtilities.LoadScriptableObject
+  isSpec: "True"
+  fullName: TirUtilities.Runtime.Tests.TestUtilities.LoadScriptableObject
+  nameWithType: TestUtilities.LoadScriptableObject
+- uid: TirUtilities.Runtime.Tests.TestUtilities.LoadScriptableObject``1(System.String)
+  name: LoadScriptableObject<T>(String)
+  href: api/TirUtilities.Runtime.Tests.TestUtilities.html#TirUtilities_Runtime_Tests_TestUtilities_LoadScriptableObject__1_System_String_
+  commentId: M:TirUtilities.Runtime.Tests.TestUtilities.LoadScriptableObject``1(System.String)
+  name.vb: LoadScriptableObject(Of T)(String)
+  fullName: TirUtilities.Runtime.Tests.TestUtilities.LoadScriptableObject<T>(System.String)
+  fullName.vb: TirUtilities.Runtime.Tests.TestUtilities.LoadScriptableObject(Of T)(System.String)
+  nameWithType: TestUtilities.LoadScriptableObject<T>(String)
+  nameWithType.vb: TestUtilities.LoadScriptableObject(Of T)(String)
 - uid: TirUtilities.ScenePathAttribute
   name: ScenePathAttribute
   href: api/TirUtilities.ScenePathAttribute.html
@@ -5025,13 +5432,13 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Signals.LevelLoadSignal.AdditiveScenes
   nameWithType: LevelLoadSignal.AdditiveScenes
-- uid: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+- uid: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction{TirUtilities.LevelManagement.LevelData})
   name: AddReceiver(UnityAction<LevelData>)
-  href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_AddReceiver_UnityAction_TirUtilities_LevelManagment_LevelData__
-  commentId: M:TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_AddReceiver_UnityAction_TirUtilities_LevelManagement_LevelData__
+  commentId: M:TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction{TirUtilities.LevelManagement.LevelData})
   name.vb: AddReceiver(UnityAction(Of LevelData))
-  fullName: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction<TirUtilities.LevelManagment.LevelData>)
-  fullName.vb: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction(Of TirUtilities.LevelManagment.LevelData))
+  fullName: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction<TirUtilities.LevelManagement.LevelData>)
+  fullName.vb: TirUtilities.Signals.LevelLoadSignal.AddReceiver(UnityAction(Of TirUtilities.LevelManagement.LevelData))
   nameWithType: LevelLoadSignal.AddReceiver(UnityAction<LevelData>)
   nameWithType.vb: LevelLoadSignal.AddReceiver(UnityAction(Of LevelData))
 - uid: TirUtilities.Signals.LevelLoadSignal.AddReceiver*
@@ -5047,11 +5454,11 @@ references:
   commentId: M:TirUtilities.Signals.LevelLoadSignal.Emit
   fullName: TirUtilities.Signals.LevelLoadSignal.Emit()
   nameWithType: LevelLoadSignal.Emit()
-- uid: TirUtilities.Signals.LevelLoadSignal.Emit(TirUtilities.LevelManagment.LevelData)
+- uid: TirUtilities.Signals.LevelLoadSignal.Emit(TirUtilities.LevelManagement.LevelData)
   name: Emit(LevelData)
-  href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_Emit_TirUtilities_LevelManagment_LevelData_
-  commentId: M:TirUtilities.Signals.LevelLoadSignal.Emit(TirUtilities.LevelManagment.LevelData)
-  fullName: TirUtilities.Signals.LevelLoadSignal.Emit(TirUtilities.LevelManagment.LevelData)
+  href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_Emit_TirUtilities_LevelManagement_LevelData_
+  commentId: M:TirUtilities.Signals.LevelLoadSignal.Emit(TirUtilities.LevelManagement.LevelData)
+  fullName: TirUtilities.Signals.LevelLoadSignal.Emit(TirUtilities.LevelManagement.LevelData)
   nameWithType: LevelLoadSignal.Emit(LevelData)
 - uid: TirUtilities.Signals.LevelLoadSignal.Emit*
   name: Emit
@@ -5060,13 +5467,13 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Signals.LevelLoadSignal.Emit
   nameWithType: LevelLoadSignal.Emit
-- uid: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+- uid: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction{TirUtilities.LevelManagement.LevelData})
   name: RemoveReceiver(UnityAction<LevelData>)
-  href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_RemoveReceiver_UnityAction_TirUtilities_LevelManagment_LevelData__
-  commentId: M:TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction{TirUtilities.LevelManagment.LevelData})
+  href: api/TirUtilities.Signals.LevelLoadSignal.html#TirUtilities_Signals_LevelLoadSignal_RemoveReceiver_UnityAction_TirUtilities_LevelManagement_LevelData__
+  commentId: M:TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction{TirUtilities.LevelManagement.LevelData})
   name.vb: RemoveReceiver(UnityAction(Of LevelData))
-  fullName: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction<TirUtilities.LevelManagment.LevelData>)
-  fullName.vb: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction(Of TirUtilities.LevelManagment.LevelData))
+  fullName: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction<TirUtilities.LevelManagement.LevelData>)
+  fullName.vb: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver(UnityAction(Of TirUtilities.LevelManagement.LevelData))
   nameWithType: LevelLoadSignal.RemoveReceiver(UnityAction<LevelData>)
   nameWithType.vb: LevelLoadSignal.RemoveReceiver(UnityAction(Of LevelData))
 - uid: TirUtilities.Signals.LevelLoadSignal.RemoveReceiver*
@@ -5629,6 +6036,351 @@ references:
   fullName.vb: TirUtilities.Signals.SignalBase(Of T0, T1, T2).RemoveReceiver
   nameWithType: SignalBase<T0, T1, T2>.RemoveReceiver
   nameWithType.vb: SignalBase(Of T0, T1, T2).RemoveReceiver
+- uid: TirUtilities.Signals.SignalEmitter
+  name: SignalEmitter
+  href: api/TirUtilities.Signals.SignalEmitter.html
+  commentId: T:TirUtilities.Signals.SignalEmitter
+  fullName: TirUtilities.Signals.SignalEmitter
+  nameWithType: SignalEmitter
+- uid: TirUtilities.Signals.SignalEmitterBase`1
+  name: SignalEmitterBase<TSignal>
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html
+  commentId: T:TirUtilities.Signals.SignalEmitterBase`1
+  name.vb: SignalEmitterBase(Of TSignal)
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal)
+  nameWithType: SignalEmitterBase<TSignal>
+  nameWithType.vb: SignalEmitterBase(Of TSignal)
+- uid: TirUtilities.Signals.SignalEmitterBase`1._emitOnMessage
+  name: _emitOnMessage
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1__emitOnMessage
+  commentId: F:TirUtilities.Signals.SignalEmitterBase`1._emitOnMessage
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>._emitOnMessage
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal)._emitOnMessage
+  nameWithType: SignalEmitterBase<TSignal>._emitOnMessage
+  nameWithType.vb: SignalEmitterBase(Of TSignal)._emitOnMessage
+- uid: TirUtilities.Signals.SignalEmitterBase`1._signal
+  name: _signal
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1__signal
+  commentId: F:TirUtilities.Signals.SignalEmitterBase`1._signal
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>._signal
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal)._signal
+  nameWithType: SignalEmitterBase<TSignal>._signal
+  nameWithType.vb: SignalEmitterBase(Of TSignal)._signal
+- uid: TirUtilities.Signals.SignalEmitterBase`1.Awake
+  name: Awake()
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_Awake
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`1.Awake
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.Awake()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).Awake()
+  nameWithType: SignalEmitterBase<TSignal>.Awake()
+  nameWithType.vb: SignalEmitterBase(Of TSignal).Awake()
+- uid: TirUtilities.Signals.SignalEmitterBase`1.Awake*
+  name: Awake
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_Awake_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`1.Awake
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.Awake
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).Awake
+  nameWithType: SignalEmitterBase<TSignal>.Awake
+  nameWithType.vb: SignalEmitterBase(Of TSignal).Awake
+- uid: TirUtilities.Signals.SignalEmitterBase`1.FixedUpdate
+  name: FixedUpdate()
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_FixedUpdate
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`1.FixedUpdate
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.FixedUpdate()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).FixedUpdate()
+  nameWithType: SignalEmitterBase<TSignal>.FixedUpdate()
+  nameWithType.vb: SignalEmitterBase(Of TSignal).FixedUpdate()
+- uid: TirUtilities.Signals.SignalEmitterBase`1.FixedUpdate*
+  name: FixedUpdate
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_FixedUpdate_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`1.FixedUpdate
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.FixedUpdate
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).FixedUpdate
+  nameWithType: SignalEmitterBase<TSignal>.FixedUpdate
+  nameWithType.vb: SignalEmitterBase(Of TSignal).FixedUpdate
+- uid: TirUtilities.Signals.SignalEmitterBase`1.LateUpdate
+  name: LateUpdate()
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_LateUpdate
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`1.LateUpdate
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.LateUpdate()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).LateUpdate()
+  nameWithType: SignalEmitterBase<TSignal>.LateUpdate()
+  nameWithType.vb: SignalEmitterBase(Of TSignal).LateUpdate()
+- uid: TirUtilities.Signals.SignalEmitterBase`1.LateUpdate*
+  name: LateUpdate
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_LateUpdate_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`1.LateUpdate
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.LateUpdate
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).LateUpdate
+  nameWithType: SignalEmitterBase<TSignal>.LateUpdate
+  nameWithType.vb: SignalEmitterBase(Of TSignal).LateUpdate
+- uid: TirUtilities.Signals.SignalEmitterBase`1.OnDestroy
+  name: OnDestroy()
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_OnDestroy
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`1.OnDestroy
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.OnDestroy()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).OnDestroy()
+  nameWithType: SignalEmitterBase<TSignal>.OnDestroy()
+  nameWithType.vb: SignalEmitterBase(Of TSignal).OnDestroy()
+- uid: TirUtilities.Signals.SignalEmitterBase`1.OnDestroy*
+  name: OnDestroy
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_OnDestroy_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`1.OnDestroy
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.OnDestroy
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).OnDestroy
+  nameWithType: SignalEmitterBase<TSignal>.OnDestroy
+  nameWithType.vb: SignalEmitterBase(Of TSignal).OnDestroy
+- uid: TirUtilities.Signals.SignalEmitterBase`1.OnDisable
+  name: OnDisable()
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_OnDisable
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`1.OnDisable
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.OnDisable()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).OnDisable()
+  nameWithType: SignalEmitterBase<TSignal>.OnDisable()
+  nameWithType.vb: SignalEmitterBase(Of TSignal).OnDisable()
+- uid: TirUtilities.Signals.SignalEmitterBase`1.OnDisable*
+  name: OnDisable
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_OnDisable_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`1.OnDisable
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.OnDisable
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).OnDisable
+  nameWithType: SignalEmitterBase<TSignal>.OnDisable
+  nameWithType.vb: SignalEmitterBase(Of TSignal).OnDisable
+- uid: TirUtilities.Signals.SignalEmitterBase`1.OnEnable
+  name: OnEnable()
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_OnEnable
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`1.OnEnable
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.OnEnable()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).OnEnable()
+  nameWithType: SignalEmitterBase<TSignal>.OnEnable()
+  nameWithType.vb: SignalEmitterBase(Of TSignal).OnEnable()
+- uid: TirUtilities.Signals.SignalEmitterBase`1.OnEnable*
+  name: OnEnable
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_OnEnable_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`1.OnEnable
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.OnEnable
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).OnEnable
+  nameWithType: SignalEmitterBase<TSignal>.OnEnable
+  nameWithType.vb: SignalEmitterBase(Of TSignal).OnEnable
+- uid: TirUtilities.Signals.SignalEmitterBase`1.Start
+  name: Start()
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_Start
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`1.Start
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.Start()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).Start()
+  nameWithType: SignalEmitterBase<TSignal>.Start()
+  nameWithType.vb: SignalEmitterBase(Of TSignal).Start()
+- uid: TirUtilities.Signals.SignalEmitterBase`1.Start*
+  name: Start
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_Start_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`1.Start
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.Start
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).Start
+  nameWithType: SignalEmitterBase<TSignal>.Start
+  nameWithType.vb: SignalEmitterBase(Of TSignal).Start
+- uid: TirUtilities.Signals.SignalEmitterBase`1.Update
+  name: Update()
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_Update
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`1.Update
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.Update()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).Update()
+  nameWithType: SignalEmitterBase<TSignal>.Update()
+  nameWithType.vb: SignalEmitterBase(Of TSignal).Update()
+- uid: TirUtilities.Signals.SignalEmitterBase`1.Update*
+  name: Update
+  href: api/TirUtilities.Signals.SignalEmitterBase-1.html#TirUtilities_Signals_SignalEmitterBase_1_Update_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`1.Update
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal>.Update
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal).Update
+  nameWithType: SignalEmitterBase<TSignal>.Update
+  nameWithType.vb: SignalEmitterBase(Of TSignal).Update
+- uid: TirUtilities.Signals.SignalEmitterBase`2
+  name: SignalEmitterBase<TSignal, TData>
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html
+  commentId: T:TirUtilities.Signals.SignalEmitterBase`2
+  name.vb: SignalEmitterBase(Of TSignal, TData)
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData)
+  nameWithType: SignalEmitterBase<TSignal, TData>
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData)
+- uid: TirUtilities.Signals.SignalEmitterBase`2._emitOnMessage
+  name: _emitOnMessage
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2__emitOnMessage
+  commentId: F:TirUtilities.Signals.SignalEmitterBase`2._emitOnMessage
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>._emitOnMessage
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData)._emitOnMessage
+  nameWithType: SignalEmitterBase<TSignal, TData>._emitOnMessage
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData)._emitOnMessage
+- uid: TirUtilities.Signals.SignalEmitterBase`2._signal
+  name: _signal
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2__signal
+  commentId: F:TirUtilities.Signals.SignalEmitterBase`2._signal
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>._signal
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData)._signal
+  nameWithType: SignalEmitterBase<TSignal, TData>._signal
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData)._signal
+- uid: TirUtilities.Signals.SignalEmitterBase`2.Awake
+  name: Awake()
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_Awake
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`2.Awake
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.Awake()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).Awake()
+  nameWithType: SignalEmitterBase<TSignal, TData>.Awake()
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).Awake()
+- uid: TirUtilities.Signals.SignalEmitterBase`2.Awake*
+  name: Awake
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_Awake_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`2.Awake
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.Awake
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).Awake
+  nameWithType: SignalEmitterBase<TSignal, TData>.Awake
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).Awake
+- uid: TirUtilities.Signals.SignalEmitterBase`2.Data
+  name: Data
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_Data
+  commentId: P:TirUtilities.Signals.SignalEmitterBase`2.Data
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.Data
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).Data
+  nameWithType: SignalEmitterBase<TSignal, TData>.Data
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).Data
+- uid: TirUtilities.Signals.SignalEmitterBase`2.Data*
+  name: Data
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_Data_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`2.Data
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.Data
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).Data
+  nameWithType: SignalEmitterBase<TSignal, TData>.Data
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).Data
+- uid: TirUtilities.Signals.SignalEmitterBase`2.FixedUpdate
+  name: FixedUpdate()
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_FixedUpdate
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`2.FixedUpdate
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.FixedUpdate()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).FixedUpdate()
+  nameWithType: SignalEmitterBase<TSignal, TData>.FixedUpdate()
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).FixedUpdate()
+- uid: TirUtilities.Signals.SignalEmitterBase`2.FixedUpdate*
+  name: FixedUpdate
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_FixedUpdate_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`2.FixedUpdate
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.FixedUpdate
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).FixedUpdate
+  nameWithType: SignalEmitterBase<TSignal, TData>.FixedUpdate
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).FixedUpdate
+- uid: TirUtilities.Signals.SignalEmitterBase`2.LateUpdate
+  name: LateUpdate()
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_LateUpdate
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`2.LateUpdate
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.LateUpdate()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).LateUpdate()
+  nameWithType: SignalEmitterBase<TSignal, TData>.LateUpdate()
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).LateUpdate()
+- uid: TirUtilities.Signals.SignalEmitterBase`2.LateUpdate*
+  name: LateUpdate
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_LateUpdate_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`2.LateUpdate
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.LateUpdate
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).LateUpdate
+  nameWithType: SignalEmitterBase<TSignal, TData>.LateUpdate
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).LateUpdate
+- uid: TirUtilities.Signals.SignalEmitterBase`2.OnDestroy
+  name: OnDestroy()
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_OnDestroy
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`2.OnDestroy
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.OnDestroy()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).OnDestroy()
+  nameWithType: SignalEmitterBase<TSignal, TData>.OnDestroy()
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).OnDestroy()
+- uid: TirUtilities.Signals.SignalEmitterBase`2.OnDestroy*
+  name: OnDestroy
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_OnDestroy_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`2.OnDestroy
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.OnDestroy
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).OnDestroy
+  nameWithType: SignalEmitterBase<TSignal, TData>.OnDestroy
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).OnDestroy
+- uid: TirUtilities.Signals.SignalEmitterBase`2.OnDisable
+  name: OnDisable()
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_OnDisable
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`2.OnDisable
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.OnDisable()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).OnDisable()
+  nameWithType: SignalEmitterBase<TSignal, TData>.OnDisable()
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).OnDisable()
+- uid: TirUtilities.Signals.SignalEmitterBase`2.OnDisable*
+  name: OnDisable
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_OnDisable_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`2.OnDisable
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.OnDisable
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).OnDisable
+  nameWithType: SignalEmitterBase<TSignal, TData>.OnDisable
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).OnDisable
+- uid: TirUtilities.Signals.SignalEmitterBase`2.OnEnable
+  name: OnEnable()
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_OnEnable
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`2.OnEnable
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.OnEnable()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).OnEnable()
+  nameWithType: SignalEmitterBase<TSignal, TData>.OnEnable()
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).OnEnable()
+- uid: TirUtilities.Signals.SignalEmitterBase`2.OnEnable*
+  name: OnEnable
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_OnEnable_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`2.OnEnable
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.OnEnable
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).OnEnable
+  nameWithType: SignalEmitterBase<TSignal, TData>.OnEnable
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).OnEnable
+- uid: TirUtilities.Signals.SignalEmitterBase`2.Start
+  name: Start()
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_Start
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`2.Start
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.Start()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).Start()
+  nameWithType: SignalEmitterBase<TSignal, TData>.Start()
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).Start()
+- uid: TirUtilities.Signals.SignalEmitterBase`2.Start*
+  name: Start
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_Start_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`2.Start
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.Start
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).Start
+  nameWithType: SignalEmitterBase<TSignal, TData>.Start
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).Start
+- uid: TirUtilities.Signals.SignalEmitterBase`2.Update
+  name: Update()
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_Update
+  commentId: M:TirUtilities.Signals.SignalEmitterBase`2.Update
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.Update()
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).Update()
+  nameWithType: SignalEmitterBase<TSignal, TData>.Update()
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).Update()
+- uid: TirUtilities.Signals.SignalEmitterBase`2.Update*
+  name: Update
+  href: api/TirUtilities.Signals.SignalEmitterBase-2.html#TirUtilities_Signals_SignalEmitterBase_2_Update_
+  commentId: Overload:TirUtilities.Signals.SignalEmitterBase`2.Update
+  isSpec: "True"
+  fullName: TirUtilities.Signals.SignalEmitterBase<TSignal, TData>.Update
+  fullName.vb: TirUtilities.Signals.SignalEmitterBase(Of TSignal, TData).Update
+  nameWithType: SignalEmitterBase<TSignal, TData>.Update
+  nameWithType.vb: SignalEmitterBase(Of TSignal, TData).Update
 - uid: TirUtilities.Signals.SignalReceiver
   name: SignalReceiver
   href: api/TirUtilities.Signals.SignalReceiver.html
@@ -5737,6 +6489,43 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Signals.StringSignal.RemoveReceiver
   nameWithType: StringSignal.RemoveReceiver
+- uid: TirUtilities.Signals.StringSignalEmitter
+  name: StringSignalEmitter
+  href: api/TirUtilities.Signals.StringSignalEmitter.html
+  commentId: T:TirUtilities.Signals.StringSignalEmitter
+  fullName: TirUtilities.Signals.StringSignalEmitter
+  nameWithType: StringSignalEmitter
+- uid: TirUtilities.Signals.StringSignalEmitter.Data
+  name: Data
+  href: api/TirUtilities.Signals.StringSignalEmitter.html#TirUtilities_Signals_StringSignalEmitter_Data
+  commentId: P:TirUtilities.Signals.StringSignalEmitter.Data
+  fullName: TirUtilities.Signals.StringSignalEmitter.Data
+  nameWithType: StringSignalEmitter.Data
+- uid: TirUtilities.Signals.StringSignalEmitter.Data*
+  name: Data
+  href: api/TirUtilities.Signals.StringSignalEmitter.html#TirUtilities_Signals_StringSignalEmitter_Data_
+  commentId: Overload:TirUtilities.Signals.StringSignalEmitter.Data
+  isSpec: "True"
+  fullName: TirUtilities.Signals.StringSignalEmitter.Data
+  nameWithType: StringSignalEmitter.Data
+- uid: TirUtilities.Signals.StringSignalReceiver
+  name: StringSignalReceiver
+  href: api/TirUtilities.Signals.StringSignalReceiver.html
+  commentId: T:TirUtilities.Signals.StringSignalReceiver
+  fullName: TirUtilities.Signals.StringSignalReceiver
+  nameWithType: StringSignalReceiver
+- uid: TirUtilities.Signals.StringSignalReceiver.OnSignalReceived
+  name: OnSignalReceived
+  href: api/TirUtilities.Signals.StringSignalReceiver.html#TirUtilities_Signals_StringSignalReceiver_OnSignalReceived
+  commentId: E:TirUtilities.Signals.StringSignalReceiver.OnSignalReceived
+  fullName: TirUtilities.Signals.StringSignalReceiver.OnSignalReceived
+  nameWithType: StringSignalReceiver.OnSignalReceived
+- uid: TirUtilities.Signals.StringSignalReceiver.OnStringReceived
+  name: OnStringReceived
+  href: api/TirUtilities.Signals.StringSignalReceiver.html#TirUtilities_Signals_StringSignalReceiver_OnStringReceived
+  commentId: E:TirUtilities.Signals.StringSignalReceiver.OnStringReceived
+  fullName: TirUtilities.Signals.StringSignalReceiver.OnStringReceived
+  nameWithType: StringSignalReceiver.OnStringReceived
 - uid: TirUtilities.Signals.TransformSignal
   name: TransformSignal
   href: api/TirUtilities.Signals.TransformSignal.html
@@ -6905,6 +7694,126 @@ references:
   isSpec: "True"
   fullName: TirUtilities.UI.WorldSpaceMessageBox.Text
   nameWithType: WorldSpaceMessageBox.Text
+- uid: TirUtilities.UnityMessage
+  name: UnityMessage
+  href: api/TirUtilities.UnityMessage.html
+  commentId: T:TirUtilities.UnityMessage
+  fullName: TirUtilities.UnityMessage
+  nameWithType: UnityMessage
+- uid: TirUtilities.UnityMessage.Awake
+  name: Awake
+  href: api/TirUtilities.UnityMessage.html#TirUtilities_UnityMessage_Awake
+  commentId: F:TirUtilities.UnityMessage.Awake
+  fullName: TirUtilities.UnityMessage.Awake
+  nameWithType: UnityMessage.Awake
+- uid: TirUtilities.UnityMessage.FixedUpdate
+  name: FixedUpdate
+  href: api/TirUtilities.UnityMessage.html#TirUtilities_UnityMessage_FixedUpdate
+  commentId: F:TirUtilities.UnityMessage.FixedUpdate
+  fullName: TirUtilities.UnityMessage.FixedUpdate
+  nameWithType: UnityMessage.FixedUpdate
+- uid: TirUtilities.UnityMessage.LateUpdate
+  name: LateUpdate
+  href: api/TirUtilities.UnityMessage.html#TirUtilities_UnityMessage_LateUpdate
+  commentId: F:TirUtilities.UnityMessage.LateUpdate
+  fullName: TirUtilities.UnityMessage.LateUpdate
+  nameWithType: UnityMessage.LateUpdate
+- uid: TirUtilities.UnityMessage.None
+  name: None
+  href: api/TirUtilities.UnityMessage.html#TirUtilities_UnityMessage_None
+  commentId: F:TirUtilities.UnityMessage.None
+  fullName: TirUtilities.UnityMessage.None
+  nameWithType: UnityMessage.None
+- uid: TirUtilities.UnityMessage.OnDestroy
+  name: OnDestroy
+  href: api/TirUtilities.UnityMessage.html#TirUtilities_UnityMessage_OnDestroy
+  commentId: F:TirUtilities.UnityMessage.OnDestroy
+  fullName: TirUtilities.UnityMessage.OnDestroy
+  nameWithType: UnityMessage.OnDestroy
+- uid: TirUtilities.UnityMessage.OnDisable
+  name: OnDisable
+  href: api/TirUtilities.UnityMessage.html#TirUtilities_UnityMessage_OnDisable
+  commentId: F:TirUtilities.UnityMessage.OnDisable
+  fullName: TirUtilities.UnityMessage.OnDisable
+  nameWithType: UnityMessage.OnDisable
+- uid: TirUtilities.UnityMessage.OnEnable
+  name: OnEnable
+  href: api/TirUtilities.UnityMessage.html#TirUtilities_UnityMessage_OnEnable
+  commentId: F:TirUtilities.UnityMessage.OnEnable
+  fullName: TirUtilities.UnityMessage.OnEnable
+  nameWithType: UnityMessage.OnEnable
+- uid: TirUtilities.UnityMessage.Start
+  name: Start
+  href: api/TirUtilities.UnityMessage.html#TirUtilities_UnityMessage_Start
+  commentId: F:TirUtilities.UnityMessage.Start
+  fullName: TirUtilities.UnityMessage.Start
+  nameWithType: UnityMessage.Start
+- uid: TirUtilities.UnityMessage.Update
+  name: Update
+  href: api/TirUtilities.UnityMessage.html#TirUtilities_UnityMessage_Update
+  commentId: F:TirUtilities.UnityMessage.Update
+  fullName: TirUtilities.UnityMessage.Update
+  nameWithType: UnityMessage.Update
+- uid: TirUtilities.UnityMessageFlags
+  name: UnityMessageFlags
+  href: api/TirUtilities.UnityMessageFlags.html
+  commentId: T:TirUtilities.UnityMessageFlags
+  fullName: TirUtilities.UnityMessageFlags
+  nameWithType: UnityMessageFlags
+- uid: TirUtilities.UnityMessageFlags.Awake
+  name: Awake
+  href: api/TirUtilities.UnityMessageFlags.html#TirUtilities_UnityMessageFlags_Awake
+  commentId: F:TirUtilities.UnityMessageFlags.Awake
+  fullName: TirUtilities.UnityMessageFlags.Awake
+  nameWithType: UnityMessageFlags.Awake
+- uid: TirUtilities.UnityMessageFlags.FixedUpdate
+  name: FixedUpdate
+  href: api/TirUtilities.UnityMessageFlags.html#TirUtilities_UnityMessageFlags_FixedUpdate
+  commentId: F:TirUtilities.UnityMessageFlags.FixedUpdate
+  fullName: TirUtilities.UnityMessageFlags.FixedUpdate
+  nameWithType: UnityMessageFlags.FixedUpdate
+- uid: TirUtilities.UnityMessageFlags.LateUpdate
+  name: LateUpdate
+  href: api/TirUtilities.UnityMessageFlags.html#TirUtilities_UnityMessageFlags_LateUpdate
+  commentId: F:TirUtilities.UnityMessageFlags.LateUpdate
+  fullName: TirUtilities.UnityMessageFlags.LateUpdate
+  nameWithType: UnityMessageFlags.LateUpdate
+- uid: TirUtilities.UnityMessageFlags.None
+  name: None
+  href: api/TirUtilities.UnityMessageFlags.html#TirUtilities_UnityMessageFlags_None
+  commentId: F:TirUtilities.UnityMessageFlags.None
+  fullName: TirUtilities.UnityMessageFlags.None
+  nameWithType: UnityMessageFlags.None
+- uid: TirUtilities.UnityMessageFlags.OnDestroy
+  name: OnDestroy
+  href: api/TirUtilities.UnityMessageFlags.html#TirUtilities_UnityMessageFlags_OnDestroy
+  commentId: F:TirUtilities.UnityMessageFlags.OnDestroy
+  fullName: TirUtilities.UnityMessageFlags.OnDestroy
+  nameWithType: UnityMessageFlags.OnDestroy
+- uid: TirUtilities.UnityMessageFlags.OnDisable
+  name: OnDisable
+  href: api/TirUtilities.UnityMessageFlags.html#TirUtilities_UnityMessageFlags_OnDisable
+  commentId: F:TirUtilities.UnityMessageFlags.OnDisable
+  fullName: TirUtilities.UnityMessageFlags.OnDisable
+  nameWithType: UnityMessageFlags.OnDisable
+- uid: TirUtilities.UnityMessageFlags.OnEnable
+  name: OnEnable
+  href: api/TirUtilities.UnityMessageFlags.html#TirUtilities_UnityMessageFlags_OnEnable
+  commentId: F:TirUtilities.UnityMessageFlags.OnEnable
+  fullName: TirUtilities.UnityMessageFlags.OnEnable
+  nameWithType: UnityMessageFlags.OnEnable
+- uid: TirUtilities.UnityMessageFlags.Start
+  name: Start
+  href: api/TirUtilities.UnityMessageFlags.html#TirUtilities_UnityMessageFlags_Start
+  commentId: F:TirUtilities.UnityMessageFlags.Start
+  fullName: TirUtilities.UnityMessageFlags.Start
+  nameWithType: UnityMessageFlags.Start
+- uid: TirUtilities.UnityMessageFlags.Update
+  name: Update
+  href: api/TirUtilities.UnityMessageFlags.html#TirUtilities_UnityMessageFlags_Update
+  commentId: F:TirUtilities.UnityMessageFlags.Update
+  fullName: TirUtilities.UnityMessageFlags.Update
+  nameWithType: UnityMessageFlags.Update
 - uid: TirUtilities.UnityRichTextColors
   name: UnityRichTextColors
   href: api/TirUtilities.UnityRichTextColors.html
