@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace TirUtilities
+namespace TirUtilities.Extensions
 {
     ///<!--
     /// Vector2Extensions.cs
