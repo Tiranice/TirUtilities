@@ -5,7 +5,8 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "TirUtilities.Runtime",
-        "bpc.TirUtilities.Attributes"
+        "bpc.TirUtilities.Attributes",
+        "bpc.TirUtilities.Core"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

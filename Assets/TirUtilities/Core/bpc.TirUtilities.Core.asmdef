@@ -1,7 +1,10 @@
 {
     "name": "bpc.TirUtilities.Core",
     "rootNamespace": "TirUtilities",
-    "references": [],
+    "references": [
+        "GUID:063477da930297d4caf7a30421ccebfa",
+        "GUID:44f2c9ceeeed52f4390dd81b0af45b0f"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

@@ -2,6 +2,7 @@
     "name": "TirUtilities.Editor.Toolbars",
     "rootNamespace": "TirUtilities.Editor.Toolbars",
     "references": [
+        "GUID:3f74abe3fda54c947b4ecc2fda58144c",
         "GUID:fad105419507ca44391cc06a760dbbad",
         "GUID:cfac0e018a8ea7d4a8916f78f2a2b07c"
     ],
