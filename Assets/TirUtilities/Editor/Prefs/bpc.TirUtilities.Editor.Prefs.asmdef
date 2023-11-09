@@ -1,5 +1,5 @@
 {
-    "name": "TirUtilities.Editor.Prefs",
+    "name": "bpc.TirUtilities.Editor.Prefs",
     "rootNamespace": "TirUtilities.Editor.Prefs",
     "references": [],
     "includePlatforms": [
@@ -7,7 +7,7 @@
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
+    "overrideReferences": true,
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
