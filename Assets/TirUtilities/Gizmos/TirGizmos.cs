@@ -6,6 +6,7 @@ using UnityEditor;
 
 namespace TirUtilities.CustomGizmos
 {
+    using TirUtilities.Extensions;
     ///<!--
     /// TirGizmos.cs
     /// 

@@ -1,11 +1,13 @@
 {
-    "name": "TirUtilities.Extensions",
-    "rootNamespace": "TirUtilities",
+    "name": "bpc.TirUtilities.Editor.Prefs",
+    "rootNamespace": "TirUtilities.Editor.Prefs",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
+    "overrideReferences": true,
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],

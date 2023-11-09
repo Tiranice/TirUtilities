@@ -1,11 +1,13 @@
 using System.Collections.Generic;
+using System.Linq;
+
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace TirUtilities.UI
 {
-    using System.Linq;
     using TirUtilities.Extensions;
+
     using static TirLogger;
     ///<!--
     /// MenuStateMachine.cs
