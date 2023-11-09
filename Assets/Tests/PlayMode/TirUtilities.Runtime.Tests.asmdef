@@ -4,8 +4,8 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "TirUtilities.Attributes",
-        "TirUtilities.Runtime"
+        "TirUtilities.Runtime",
+        "bpc.TirUtilities.Attributes"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,11 +1,11 @@
 {
-    "name": "TirUtilities.Attributes",
+    "name": "bpc.TirUtilities.Attributes",
     "rootNamespace": "TirUtilities",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
+    "overrideReferences": true,
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
