@@ -3,7 +3,7 @@ using Object = UnityEngine.Object;
 namespace TirUtilities.Extensions
 {
     ///<!--
-    /// ObjectExstentions.cs
+    /// ObjectExtensions.cs
     /// 
     /// Project:  TirUtilities
     ///        
@@ -14,7 +14,7 @@ namespace TirUtilities.Extensions
     /// <summary>
     /// A set of extensions to UnityEngine.Object.
     /// </summary>
-    public static class ObjectExstentions
+    public static class ObjectExtensions
     {
         public static bool IsNull(this Object self) => self == null;
         public static bool NotNull(this Object self) => self != null;
