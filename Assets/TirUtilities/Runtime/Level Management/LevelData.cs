@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+
 using UnityEngine;
 
 namespace TirUtilities.LevelManagement
@@ -39,7 +40,6 @@ namespace TirUtilities.LevelManagement
 
         public readonly string ActiveScene => _activeScene;
         public readonly IReadOnlyList<string> AdditiveScenes => _additiveScenes;
-
         public readonly int SceneCount => _additiveScenes is null ? 1 : 1 + _additiveScenes.Count;
 
         #endregion
@@ -56,11 +56,14 @@ namespace TirUtilities.LevelManagement
 
             if (other.SceneCount != SceneCount) return false;
 
-            if (_additiveScenes is null) return true;
+            if (other._additiveScenes != _additiveScenes) return false;
 
-            for (int i = 0; i < _additiveScenes.Count; i++)
+            if (_additiveScenes != null)
             {
-                if (other._additiveScenes[i] != _additiveScenes[i]) return false;
+                for (int i = 0; i < _additiveScenes.Count; i++)
+                {
+                    if (other._additiveScenes[i] != _additiveScenes[i]) return false;
+                }
             }
 
             return true;
