@@ -1,5 +1,5 @@
 {
-    "name": "TirUtilities.Editor.Toolbars",
+    "name": "bpc.TirUtilities.Editor.Toolbars",
     "rootNamespace": "TirUtilities.Editor.Toolbars",
     "references": [
         "GUID:3f74abe3fda54c947b4ecc2fda58144c",
@@ -11,7 +11,7 @@
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
+    "overrideReferences": true,
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
