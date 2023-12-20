@@ -152,7 +152,7 @@ namespace TirUtilities.Generics
             }
         }
 
-        protected void OnDestroy()
+        protected void OnApplicationQuit()
         {
             _isShuttingDown = true;
             Teardown();
