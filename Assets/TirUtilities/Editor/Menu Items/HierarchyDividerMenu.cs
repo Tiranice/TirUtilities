@@ -38,6 +38,8 @@ namespace TirUtilities.Editor
 
         private static readonly List<GameObject> _Dividers = new List<GameObject>();
 
+        private const string _ToolPath = @"Tool/TirUtilities/Hierarchy/";
+
         #endregion
 
         #region Menu Items
@@ -45,7 +47,7 @@ namespace TirUtilities.Editor
         /// <summary>
         /// Create the divider empties in the hierarchy.
         /// </summary>
-        [MenuItem("TirUtilities/Hierarchy/Create Dividers", priority = 1)]
+        [MenuItem(_ToolPath + "Create Dividers", priority = 1)]
         internal static void CreateHierarchyDividers()
         {
             foreach (string divider in _Settings.Dividers)
@@ -58,7 +60,7 @@ namespace TirUtilities.Editor
         /// <summary>
         /// Destroy the divider empties in the hierarchy.
         /// </summary>
-        [MenuItem("TirUtilities/Hierarchy/Destroy Dividers", priority = 2)]
+        [MenuItem(_ToolPath + "Destroy Dividers", priority = 2)]
         internal static void DestroyHierarchyDividers()
         {
             if (_Dividers.IsNullOrEmpty()) return;
@@ -70,7 +72,7 @@ namespace TirUtilities.Editor
         }
 
         /// <summary> Selects the settings asset. </summary>
-        [MenuItem("TirUtilities/Hierarchy/Select Divider Settings", priority = 10)]
+        [MenuItem(_ToolPath + "Select Divider Settings", priority = 10)]
         internal static void SelectHierarchyDividerSettings() => 
             Selection.activeObject = _Settings;
 
