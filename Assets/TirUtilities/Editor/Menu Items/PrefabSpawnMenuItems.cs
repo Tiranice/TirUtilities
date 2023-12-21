@@ -19,7 +19,7 @@ namespace TirUtilities.Editor
     /// </summary>
     internal static class PrefabSpawnMenuItems
     {
-        private const string _RootPath = "TirUtilities/Prefabs/";
+        private const string _RootPath = "Tools/TirUtilities/Prefabs/";
 
         internal static void SpawnPrefabInCurrentStage(string prefabPath, MenuCommand command)
         {

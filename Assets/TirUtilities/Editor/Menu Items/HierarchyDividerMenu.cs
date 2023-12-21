@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+
 using UnityEditor;
+
 using UnityEngine;
 
 namespace TirUtilities.Editor
@@ -38,7 +40,7 @@ namespace TirUtilities.Editor
 
         private static readonly List<GameObject> _Dividers = new List<GameObject>();
 
-        private const string _ToolPath = @"Tool/TirUtilities/Hierarchy/";
+        private const string _ToolPath = @"Tools/TirUtilities/Hierarchy/";
 
         #endregion
 
@@ -73,7 +75,7 @@ namespace TirUtilities.Editor
 
         /// <summary> Selects the settings asset. </summary>
         [MenuItem(_ToolPath + "Select Divider Settings", priority = 10)]
-        internal static void SelectHierarchyDividerSettings() => 
+        internal static void SelectHierarchyDividerSettings() =>
             Selection.activeObject = _Settings;
 
         #endregion
