@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using TirUtilities.CustomEvents;
+using TirUtilities.Extensions;
 
 using UnityEngine;
 using UnityEngine.Events;
@@ -31,6 +32,16 @@ namespace TirUtilities.Signals
         public event System.Action OnSignalReceived;
         public event System.Action<string> OnStringReceived;
 
+        private void OnEnable() => _signal.AddReceiver(Receiver);
 
+        private void OnDisable() => _signal.RemoveReceiver(Receiver);
+
+        private void Receiver(string value)
+        {
+            _OnSignalReceived.SafeInvoke();
+            _OnStringReceived.SafeInvoke(value);
+            OnSignalReceived?.Invoke();
+            OnStringReceived?.Invoke(value);
+        }
     }
 }
