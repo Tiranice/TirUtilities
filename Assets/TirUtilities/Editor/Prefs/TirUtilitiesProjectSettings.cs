@@ -5,7 +5,7 @@ namespace TirUtilities.Editor.Prefs
 {
     using static ProjectEditorPaths;
     ///<!--
-    /// TirUtilitesProjectSettings.cs
+    /// TirUtilitiesProjectSettings.cs
     /// 
     /// Project:  TirUtilities
     ///        
@@ -18,7 +18,7 @@ namespace TirUtilities.Editor.Prefs
     /// <remarks>
     /// Based on the ProjectPreferences class in the source of RainbowFolders.
     /// </remarks>
-    public static class TirUtilitesProjectSettings
+    public static class TirUtilitiesProjectSettings
     {
         #region String Constants
 
@@ -26,7 +26,7 @@ namespace TirUtilities.Editor.Prefs
                                                   "\"TirUtilities\" folder if you move it from its " +
                                                   "default location in the project.";
         private const string _AuthorNameTooltip = "This is the name that will be inserted into the" +
-                                                  "#AUTHOR# placeholder in the script templates.";
+                                                  "placeholder in the script templates.";
 
         private const string _HomeFolderPrefKey = "TirUtilities.HomeFolder.";
         private const string _AuthorNamePrefKey = "TirUtilities.AuthorName.";
@@ -52,7 +52,7 @@ namespace TirUtilities.Editor.Prefs
 
         #region Constructor
 
-        static TirUtilitesProjectSettings()
+        static TirUtilitiesProjectSettings()
         {
             var homeLabel = new GUIContent("Folder Location", _HomeFolderTooltip);
             var authorLabel = new GUIContent("Author Name", _AuthorNameTooltip);

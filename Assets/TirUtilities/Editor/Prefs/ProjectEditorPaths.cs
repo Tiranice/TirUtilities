@@ -1,6 +1,6 @@
 namespace TirUtilities.Editor
 {
-    using static TirUtilities.Editor.Prefs.TirUtilitesProjectSettings;
+    using static TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings;
     ///<!--
     /// ProjectPaths.cs
     /// 

@@ -1,3 +1,5 @@
+using System.Text;
+
 using UnityEngine;
 
 namespace TirUtilities.Editor.GitUtilities
@@ -64,11 +66,17 @@ namespace TirUtilities.Editor.GitUtilities
         {
             get
             {
+                // Full describe. v0.0.0-alpha.10.5-109-gc28696e
                 string version = Run(@"describe --tags --long --match ""v[0-9]*""");
-                version = version.Remove(version.LastIndexOf('.'), version.IndexOf('-') - version.LastIndexOf('.'));
-                version = version.Replace('-', '.');
-                version = version.Substring(1, version.LastIndexOf('.') - 1);
-                return version;
+
+                int lastDot = version.LastIndexOf('.');
+
+                // Remove the commit hash. v0.0.0-alpha.10.4-109
+                version = version.Remove(version.LastIndexOf('-'));
+
+                //v0.0.0-alpha.10.109
+                version = version.Remove(lastDot + 1, version.LastIndexOf('-') - lastDot);
+                return version.Substring(1);
             }
         }
 

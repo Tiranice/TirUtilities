@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp-Editor::ExportSettings
   _folderPath: G:/Game Development/UnityPackages/TirUtilities/
-  _majorVersion: 1
-  _patchVersion: 0
+  _majorVersion: 10
+  _patchVersion: 109

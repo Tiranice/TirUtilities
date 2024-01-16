@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+
+using TirUtilities.Editor.GitUtilities;
 using TirUtilities.Editor.Prefs;
 using UnityEditor;
 using UnityEngine;
@@ -122,9 +124,18 @@ public class ExportSettings : ScriptableSingleton<ExportSettings>
 
     private void CreateVersionFile()
     {
-        var filePath = Path.Combine(TirUtilitesProjectSettings.HomeFolder, @"_version.md");
+        var filePath = Path.Combine(TirUtilitiesProjectSettings.HomeFolder, @"_version.md");
         using var writer = File.CreateText(filePath);
         writer.Write($"{FileHeader}{VersionNumber}");
+    }
+
+    public void SetVersionFromGitTag()
+    {
+        var version = Git.BuildVersion;
+        version = version.Substring(version.LastIndexOf("a.") + 2);
+        VersionNumber = version;
+        SaveBundleVersion();
+        base.Save(true);
     }
 
     #endregion
@@ -194,5 +205,11 @@ internal static class ExportSettingsMenuItems
     {
         ExportSettings.instance.CopyVersionNumberFromEditor();
         Debug.Log(ExportSettings.instance.VersionNumber);
+    }
+
+    [MenuItem(_MenuName + "Set Version From Git Tag", priority = 21)]
+    internal static void GitVersion()
+    {
+        ExportSettings.instance.SetVersionFromGitTag();
     }
 }
