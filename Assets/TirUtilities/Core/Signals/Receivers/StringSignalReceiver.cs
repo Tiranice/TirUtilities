@@ -1,33 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
-
-using TirUtilities.CustomEvents;
-using TirUtilities.Extensions;
-
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace TirUtilities.Signals
 {
+    using TirUtilities.CustomEvents;
+    using TirUtilities.Extensions;
+
     ///<!--
     /// StringSignalReceiver.cs
     /// 
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
-    /// Company:  Black Phoenix Software
+    /// Company:  Black Phoenix Creative
     /// Created:  Aug 01, 2022
-    /// Updated:  Aug 01, 2022
+    /// Updated:  Feb 16, 2024
     /// -->
     /// <summary>
-    ///
+    /// Invokes <c>OnSignalReceived</c> when the <see cref="StringSignal"/> is emitted.
     /// </summary>
+    [AddComponentMenu("TirUtilities/Signal Receivers/String Signal Receiver")]
     public class StringSignalReceiver : MonoBehaviour
     {
         [SerializeField] private StringSignal _signal;
 
-        [SerializeField] private UnityEvent _OnSignalReceived;
-        [SerializeField] private StringEvent _OnStringReceived;
+        [SerializeField] private UnityEvent _OnSignalReceived = new UnityEvent();
+        [SerializeField] private StringEvent _OnStringReceived = new StringEvent();
 
         public event System.Action OnSignalReceived;
         public event System.Action<string> OnStringReceived;

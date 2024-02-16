@@ -10,31 +10,32 @@ namespace TirUtilities.Signals
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
     /// Created:  May 02, 2021
-    /// Updated:  Oct 10, 2021
+    /// Updated:  Feb 16, 2024
     /// -->
     /// <summary>
-    /// Invokes <see cref="_OnSignalReceived">On Signal Received</see> when the <see cref="_signal">Signal</see>
-    /// is <see cref="Signal.Emit()">Emitted</see>.
+    /// Invokes <see cref="_OnSignalReceived">On Signal Received</see> when the 
+    /// <see cref="_signal">Signal</see> is <see cref="Signal.Emit()">Emitted</see>.
     /// </summary>
     [AddComponentMenu("TirUtilities/Receivers/Signal Receiver")]
     public class SignalReceiver : MonoBehaviour
     {
-        #region Events & Signals
-
         [Header("Signals")]
         [SerializeField] private Signal _signal;
 
         [Header("Events")]
         [SerializeField] private UnityEvent _OnSignalReceived;
 
-        #endregion
+        public event System.Action OnSignalReceived;
 
-        #region Unity Messages
+        private void OnEnable() => _signal.AddReceiver(Receiver);
+        private void OnDisable() => _signal.RemoveReceiver(Receiver);
 
-        private void OnEnable() => _signal.AddReceiver(() => _OnSignalReceived.SafeInvoke());
-        private void OnDisable() => _signal.RemoveReceiver(() => _OnSignalReceived.SafeInvoke());
-
-        #endregion
+        private void Receiver()
+        {
+            _OnSignalReceived.SafeInvoke();
+            OnSignalReceived?.Invoke();
+        }
     }
 }
