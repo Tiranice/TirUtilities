@@ -1,0 +1,19 @@
+{
+    "name": "bpc.TirUtilities.Editor.SignalMenus",
+    "rootNamespace": "TirUtilities.Editor.SignalMenus",
+    "references": [
+        "GUID:3f74abe3fda54c947b4ecc2fda58144c",
+        "GUID:fad105419507ca44391cc06a760dbbad"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

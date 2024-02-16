@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp-Editor::ExportSettings
-  _folderPath: 
+  _folderPath: C:/Users/wilsd12/Desktop/
   _majorVersion: 10
-  _patchVersion: 5
+  _patchVersion: 111

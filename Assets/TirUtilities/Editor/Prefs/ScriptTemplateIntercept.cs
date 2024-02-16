@@ -39,7 +39,7 @@ namespace TirUtilities.Editor.Prefs.Experimental
             fileContent = fileContent.Replace(ScriptTemplateKeys.ProjectName, PlayerSettings.productName);
             fileContent = fileContent.Replace(ScriptTemplateKeys.CompanyName, PlayerSettings.companyName);
             fileContent = fileContent.Replace(ScriptTemplateKeys.VersionNumber, PlayerSettings.bundleVersion);
-            fileContent = fileContent.Replace(ScriptTemplateKeys.AuthorName, TirUtilitesProjectSettings.AuthorName);
+            fileContent = fileContent.Replace(ScriptTemplateKeys.AuthorName, TirUtilitiesProjectSettings.AuthorName);
 
             File.WriteAllText(path, fileContent);
             AssetDatabase.Refresh();

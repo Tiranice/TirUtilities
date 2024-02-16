@@ -1,5 +1,8 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
+
+using TirUtilities.Editor.GitUtilities;
 using TirUtilities.Editor.Prefs;
 using UnityEditor;
 using UnityEngine;
@@ -24,12 +27,12 @@ public static class ExportMenuItems
     {
         AssetDatabase.ExportPackage(
             new string[] 
-            { 
-                "Assets/TirUtilities",
+            {
                 "Assets/ScriptTemplates",
-                "Assets/Plugins/RainbowAssets/RainbowFolders/Editor/Data/RainbowFoldersRuleset.asset"
+                "Assets/TirUtilities"
             },
-            ExportSettings.instance.FilePath, ExportPackageOptions.Recurse);
+            ExportSettings.instance.FilePath,
+            ExportPackageOptions.Recurse);
     }
 }
 
@@ -69,6 +72,7 @@ public class ExportSettings : ScriptableSingleton<ExportSettings>
         get => $"{_majorVersion}.{_patchVersion}";
         private set
         {
+            Debug.Log(value);
             var dot = value.LastIndexOf('.');
             _majorVersion = int.Parse(value.Substring(0, dot));
             _patchVersion = int.Parse(value.Substring(dot + 1));
@@ -109,15 +113,29 @@ public class ExportSettings : ScriptableSingleton<ExportSettings>
 
         VersionNumber = _previousVersionNumbers.Pop();
         SaveBundleVersion();
-    } 
+    }
+
+    public void CopyVersionNumberFromEditor()
+    {
+        var version = string.Format(PlayerSettings.bundleVersion);
+        version = version.Substring(version.LastIndexOf("a.") + 2);
+        VersionNumber = version;
+    }
 
     private void CreateVersionFile()
     {
-        var filePath = Path.Combine(TirUtilitesProjectSettings.HomeFolder, @"_version.md");
-        using (var writer = File.CreateText(filePath))
-        {
-            writer.Write($"{FileHeader}{VersionNumber}");
-        }
+        var filePath = Path.Combine(TirUtilitiesProjectSettings.HomeFolder, @"_version.md");
+        using var writer = File.CreateText(filePath);
+        writer.Write($"{FileHeader}{VersionNumber}");
+    }
+
+    public void SetVersionFromGitTag()
+    {
+        var version = Git.BuildVersion;
+        version = version.Substring(version.LastIndexOf("a.") + 2);
+        VersionNumber = version;
+        SaveBundleVersion();
+        base.Save(true);
     }
 
     #endregion
@@ -180,5 +198,18 @@ internal static class ExportSettingsMenuItems
     {
         ExportSettings.instance.SetLastVersion();
         Debug.Log(ExportSettings.instance.VersionNumber);
+    }
+
+    [MenuItem(_MenuName + nameof(CopyVersionNumberFromEditor), priority = 20)]
+    internal static void CopyVersionNumberFromEditor()
+    {
+        ExportSettings.instance.CopyVersionNumberFromEditor();
+        Debug.Log(ExportSettings.instance.VersionNumber);
+    }
+
+    [MenuItem(_MenuName + "Set Version From Git Tag", priority = 21)]
+    internal static void GitVersion()
+    {
+        ExportSettings.instance.SetVersionFromGitTag();
     }
 }

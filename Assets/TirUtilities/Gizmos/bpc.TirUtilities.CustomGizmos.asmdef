@@ -1,0 +1,16 @@
+{
+    "name": "bpc.TirUtilities.CustomGizmos",
+    "rootNamespace": "TirUtilities.CustomGizmos",
+    "references": [
+        "GUID:44f2c9ceeeed52f4390dd81b0af45b0f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
