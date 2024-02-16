@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ExportSettings.html",
-          "hash": "Z7ZHaSbqAUBtNXKcJDkUzPEWlZ/dwGLat4cHHtuAfS4="
+          "hash": "RYJ7Ke1ESs7dEr5UZI2XjyEYdCMeB3FZIkeNZoXZdF4="
         }
       },
       "is_incremental": false,
@@ -1164,11 +1164,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.yml",
+      "source_relative_path": "api/TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html",
-          "hash": "rlx1AGRyciocT4puxdQGhH0tACs0e4nDRpsRn4SCeGY="
+          "relative_path": "api/TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.html",
+          "hash": "IjutSSZuos3OMZJBAT9Z+6wGP4NynSKyFSZqQn92Ss8="
         }
       },
       "is_incremental": false,
@@ -1180,7 +1180,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Editor.Prefs.html",
-          "hash": "NlY63aff6YvoKuT8lD57hIYe6iYOLOPT1oBaE1o2D/Y="
+          "hash": "DB1YqwIvKGDzvVF7+B2djBCsxoTIC6ukua8BdOKexHQ="
         }
       },
       "is_incremental": false,
@@ -1476,11 +1476,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TirUtilities.Extensions.ObjectExstentions.yml",
+      "source_relative_path": "api/TirUtilities.Extensions.ObjectExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/TirUtilities.Extensions.ObjectExstentions.html",
-          "hash": "wd3qi7NUxBlXDcL99P/Ta8FzVI/rjNmjdpw6LEq9jYM="
+          "relative_path": "api/TirUtilities.Extensions.ObjectExtensions.html",
+          "hash": "nS7jqER1tEvw4CndzUBegajtAB/uSjeP1M38JPgcIrA="
         }
       },
       "is_incremental": false,
@@ -1500,11 +1500,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Extensions.Vector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Extensions.Vector2Extensions.html",
+          "hash": "0nDVLuPTgpOT5twAwE5T0o/gGHKybBwCdyrcPd5O9Zo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TirUtilities.Extensions.Vector3Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TirUtilities.Extensions.Vector3Extensions.html",
+          "hash": "G0ny1zUNky2hVVMWlbg0GCLDoVW5PToHMvTA1xGcIDQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.Extensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Extensions.html",
-          "hash": "czNZDalZ+KqQINTWxjJdIuF1fkZ6F4Kk82jEX56/n3c="
+          "hash": "8UWAQnEWK/rQJFiyZfx39LeV51as3+Kaf5L1wD0Y62c="
         }
       },
       "is_incremental": false,
@@ -1516,7 +1540,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Generics.MonoSingleton-1.html",
-          "hash": "c12YNZdGQFnFmR12oPJjhA9eFBO81Yzttc9dyU/Ss44="
+          "hash": "x1AcC/DWtW0Rz3jwRYWh2Y9Y55WjC9P2Rkz5JnKA0js="
         }
       },
       "is_incremental": false,
@@ -1612,7 +1636,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.LevelManagement.LevelSystem.html",
-          "hash": "/Cfh0hYB6FAFMobkbSjhvaH7itt24AUX1hGUKRCaupA="
+          "hash": "rcKVY3+C9Be6k5IKd0FTEQKoxCR/qbRH50yfvpC5I3w="
         }
       },
       "is_incremental": false,
@@ -1660,7 +1684,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.BadPathSingleton.html",
-          "hash": "NM75SkbBT/1PeSnUyCiIvNKkNa1UBnSVEt2TlPue0C0="
+          "hash": "trwPUYji4l0KBg8Ygn5KMWTsPgs5KVaRlnhp8Y40N8Q="
         }
       },
       "is_incremental": false,
@@ -1672,7 +1696,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Runtime.Tests.GenericsTestSuite.MonoSingletonTests.TestSingleton.html",
-          "hash": "hZYKk7d/cPrgJsv2vBsV6iU7VAEk2H2ZmTEEs40WXO8="
+          "hash": "x/iWzar2+LZZKgNDZi1DZLrpmMRyVM/0DigUgPD9qSI="
         }
       },
       "is_incremental": false,
@@ -1816,7 +1840,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.Runtime.Tests.TestResourceSingleton.html",
-          "hash": "aNUg1uBmP8ofLl95ocFceKWvqq1ebv/2JiyxzlCCOK4="
+          "hash": "0Qf9tndfPpfoPoUf72x5Srq7L6jBBjG7UF8uLxALElc="
         }
       },
       "is_incremental": false,
@@ -2688,35 +2712,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TirUtilities.Vector2Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TirUtilities.Vector2Extensions.html",
-          "hash": "SXyt0UUwWuId5EaJb3/LvBSLWi+V3AO+2mAqAUNCVIg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/TirUtilities.Vector3Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TirUtilities.Vector3Extensions.html",
-          "hash": "USEpU1NmAWT+slhIJYSIQ04ZLok0a+naLw4CRbzsKOQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/TirUtilities.yml",
       "output": {
         ".html": {
           "relative_path": "api/TirUtilities.html",
-          "hash": "YunJSAEz22nzyZItL/n/5ic1AK1bibLcp//b3ofGySQ="
+          "hash": "GFXUuigL6fejms8J58uHHHNIyljXeBbJIW6cbSEfgZ8="
         }
       },
       "is_incremental": false,
@@ -2728,7 +2728,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "2CZ1t3qof2hvVvSsy3+qM86sK+1nuhe2AkFYn4g8NiM="
+          "hash": "t7ZI+Z+Pp1iB8B8gUZcX/vbfG1oesV+Pjt0Uu8re8NM="
         }
       },
       "is_incremental": false,

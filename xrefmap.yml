@@ -163,6 +163,19 @@ references:
   commentId: T:Global.ExportSettings
   fullName: ExportSettings
   nameWithType: ExportSettings
+- uid: Global.ExportSettings.CopyVersionNumberFromEditor
+  name: CopyVersionNumberFromEditor()
+  href: api/Global.ExportSettings.html#Global_ExportSettings_CopyVersionNumberFromEditor
+  commentId: M:Global.ExportSettings.CopyVersionNumberFromEditor
+  fullName: ExportSettings.CopyVersionNumberFromEditor()
+  nameWithType: ExportSettings.CopyVersionNumberFromEditor()
+- uid: Global.ExportSettings.CopyVersionNumberFromEditor*
+  name: CopyVersionNumberFromEditor
+  href: api/Global.ExportSettings.html#Global_ExportSettings_CopyVersionNumberFromEditor_
+  commentId: Overload:Global.ExportSettings.CopyVersionNumberFromEditor
+  isSpec: "True"
+  fullName: ExportSettings.CopyVersionNumberFromEditor
+  nameWithType: ExportSettings.CopyVersionNumberFromEditor
 - uid: Global.ExportSettings.DecrementPatchNumber
   name: DecrementPatchNumber()
   href: api/Global.ExportSettings.html#Global_ExportSettings_DecrementPatchNumber
@@ -234,6 +247,19 @@ references:
   isSpec: "True"
   fullName: ExportSettings.SetLastVersion
   nameWithType: ExportSettings.SetLastVersion
+- uid: Global.ExportSettings.SetVersionFromGitTag
+  name: SetVersionFromGitTag()
+  href: api/Global.ExportSettings.html#Global_ExportSettings_SetVersionFromGitTag
+  commentId: M:Global.ExportSettings.SetVersionFromGitTag
+  fullName: ExportSettings.SetVersionFromGitTag()
+  nameWithType: ExportSettings.SetVersionFromGitTag()
+- uid: Global.ExportSettings.SetVersionFromGitTag*
+  name: SetVersionFromGitTag
+  href: api/Global.ExportSettings.html#Global_ExportSettings_SetVersionFromGitTag_
+  commentId: Overload:Global.ExportSettings.SetVersionFromGitTag
+  isSpec: "True"
+  fullName: ExportSettings.SetVersionFromGitTag
+  nameWithType: ExportSettings.SetVersionFromGitTag
 - uid: Global.ExportSettings.VersionHeader
   name: VersionHeader
   href: api/Global.ExportSettings.html#Global_ExportSettings_VersionHeader
@@ -2525,51 +2551,51 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Editor.Prefs.Experimental.ScriptTemplateKeys.VersionNumber
   nameWithType: ScriptTemplateKeys.VersionNumber
-- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings
-  name: TirUtilitesProjectSettings
-  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html
-  commentId: T:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings
-  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings
-  nameWithType: TirUtilitesProjectSettings
-- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName
+- uid: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings
+  name: TirUtilitiesProjectSettings
+  href: api/TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.html
+  commentId: T:TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings
+  fullName: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings
+  nameWithType: TirUtilitiesProjectSettings
+- uid: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.AuthorName
   name: AuthorName
-  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_AuthorName
-  commentId: P:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName
-  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName
-  nameWithType: TirUtilitesProjectSettings.AuthorName
-- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName*
+  href: api/TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitiesProjectSettings_AuthorName
+  commentId: P:TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.AuthorName
+  fullName: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.AuthorName
+  nameWithType: TirUtilitiesProjectSettings.AuthorName
+- uid: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.AuthorName*
   name: AuthorName
-  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_AuthorName_
-  commentId: Overload:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName
+  href: api/TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitiesProjectSettings_AuthorName_
+  commentId: Overload:TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.AuthorName
   isSpec: "True"
-  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.AuthorName
-  nameWithType: TirUtilitesProjectSettings.AuthorName
-- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider
+  fullName: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.AuthorName
+  nameWithType: TirUtilitiesProjectSettings.AuthorName
+- uid: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.CreateSettingsProvider
   name: CreateSettingsProvider()
-  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_CreateSettingsProvider
-  commentId: M:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider
-  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider()
-  nameWithType: TirUtilitesProjectSettings.CreateSettingsProvider()
-- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider*
+  href: api/TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitiesProjectSettings_CreateSettingsProvider
+  commentId: M:TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.CreateSettingsProvider
+  fullName: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.CreateSettingsProvider()
+  nameWithType: TirUtilitiesProjectSettings.CreateSettingsProvider()
+- uid: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.CreateSettingsProvider*
   name: CreateSettingsProvider
-  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_CreateSettingsProvider_
-  commentId: Overload:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider
+  href: api/TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitiesProjectSettings_CreateSettingsProvider_
+  commentId: Overload:TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.CreateSettingsProvider
   isSpec: "True"
-  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.CreateSettingsProvider
-  nameWithType: TirUtilitesProjectSettings.CreateSettingsProvider
-- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder
+  fullName: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.CreateSettingsProvider
+  nameWithType: TirUtilitiesProjectSettings.CreateSettingsProvider
+- uid: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.HomeFolder
   name: HomeFolder
-  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_HomeFolder
-  commentId: P:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder
-  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder
-  nameWithType: TirUtilitesProjectSettings.HomeFolder
-- uid: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder*
+  href: api/TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitiesProjectSettings_HomeFolder
+  commentId: P:TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.HomeFolder
+  fullName: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.HomeFolder
+  nameWithType: TirUtilitiesProjectSettings.HomeFolder
+- uid: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.HomeFolder*
   name: HomeFolder
-  href: api/TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitesProjectSettings_HomeFolder_
-  commentId: Overload:TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder
+  href: api/TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.html#TirUtilities_Editor_Prefs_TirUtilitiesProjectSettings_HomeFolder_
+  commentId: Overload:TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.HomeFolder
   isSpec: "True"
-  fullName: TirUtilities.Editor.Prefs.TirUtilitesProjectSettings.HomeFolder
-  nameWithType: TirUtilitesProjectSettings.HomeFolder
+  fullName: TirUtilities.Editor.Prefs.TirUtilitiesProjectSettings.HomeFolder
+  nameWithType: TirUtilitiesProjectSettings.HomeFolder
 - uid: TirUtilities.Editor.ProjectEditorPaths
   name: ProjectEditorPaths
   href: api/TirUtilities.Editor.ProjectEditorPaths.html
@@ -3579,38 +3605,38 @@ references:
   fullName.vb: TirUtilities.Extensions.ListExtensions.NotNull(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: ListExtensions.NotNull<T>(List<T>)
   nameWithType.vb: ListExtensions.NotNull(Of T)(List(Of T))
-- uid: TirUtilities.Extensions.ObjectExstentions
-  name: ObjectExstentions
-  href: api/TirUtilities.Extensions.ObjectExstentions.html
-  commentId: T:TirUtilities.Extensions.ObjectExstentions
-  fullName: TirUtilities.Extensions.ObjectExstentions
-  nameWithType: ObjectExstentions
-- uid: TirUtilities.Extensions.ObjectExstentions.IsNull(System.Object)
+- uid: TirUtilities.Extensions.ObjectExtensions
+  name: ObjectExtensions
+  href: api/TirUtilities.Extensions.ObjectExtensions.html
+  commentId: T:TirUtilities.Extensions.ObjectExtensions
+  fullName: TirUtilities.Extensions.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: TirUtilities.Extensions.ObjectExtensions.IsNull(System.Object)
   name: IsNull(Object)
-  href: api/TirUtilities.Extensions.ObjectExstentions.html#TirUtilities_Extensions_ObjectExstentions_IsNull_System_Object_
-  commentId: M:TirUtilities.Extensions.ObjectExstentions.IsNull(System.Object)
-  fullName: TirUtilities.Extensions.ObjectExstentions.IsNull(System.Object)
-  nameWithType: ObjectExstentions.IsNull(Object)
-- uid: TirUtilities.Extensions.ObjectExstentions.IsNull*
+  href: api/TirUtilities.Extensions.ObjectExtensions.html#TirUtilities_Extensions_ObjectExtensions_IsNull_System_Object_
+  commentId: M:TirUtilities.Extensions.ObjectExtensions.IsNull(System.Object)
+  fullName: TirUtilities.Extensions.ObjectExtensions.IsNull(System.Object)
+  nameWithType: ObjectExtensions.IsNull(Object)
+- uid: TirUtilities.Extensions.ObjectExtensions.IsNull*
   name: IsNull
-  href: api/TirUtilities.Extensions.ObjectExstentions.html#TirUtilities_Extensions_ObjectExstentions_IsNull_
-  commentId: Overload:TirUtilities.Extensions.ObjectExstentions.IsNull
+  href: api/TirUtilities.Extensions.ObjectExtensions.html#TirUtilities_Extensions_ObjectExtensions_IsNull_
+  commentId: Overload:TirUtilities.Extensions.ObjectExtensions.IsNull
   isSpec: "True"
-  fullName: TirUtilities.Extensions.ObjectExstentions.IsNull
-  nameWithType: ObjectExstentions.IsNull
-- uid: TirUtilities.Extensions.ObjectExstentions.NotNull(System.Object)
+  fullName: TirUtilities.Extensions.ObjectExtensions.IsNull
+  nameWithType: ObjectExtensions.IsNull
+- uid: TirUtilities.Extensions.ObjectExtensions.NotNull(System.Object)
   name: NotNull(Object)
-  href: api/TirUtilities.Extensions.ObjectExstentions.html#TirUtilities_Extensions_ObjectExstentions_NotNull_System_Object_
-  commentId: M:TirUtilities.Extensions.ObjectExstentions.NotNull(System.Object)
-  fullName: TirUtilities.Extensions.ObjectExstentions.NotNull(System.Object)
-  nameWithType: ObjectExstentions.NotNull(Object)
-- uid: TirUtilities.Extensions.ObjectExstentions.NotNull*
+  href: api/TirUtilities.Extensions.ObjectExtensions.html#TirUtilities_Extensions_ObjectExtensions_NotNull_System_Object_
+  commentId: M:TirUtilities.Extensions.ObjectExtensions.NotNull(System.Object)
+  fullName: TirUtilities.Extensions.ObjectExtensions.NotNull(System.Object)
+  nameWithType: ObjectExtensions.NotNull(Object)
+- uid: TirUtilities.Extensions.ObjectExtensions.NotNull*
   name: NotNull
-  href: api/TirUtilities.Extensions.ObjectExstentions.html#TirUtilities_Extensions_ObjectExstentions_NotNull_
-  commentId: Overload:TirUtilities.Extensions.ObjectExstentions.NotNull
+  href: api/TirUtilities.Extensions.ObjectExtensions.html#TirUtilities_Extensions_ObjectExtensions_NotNull_
+  commentId: Overload:TirUtilities.Extensions.ObjectExtensions.NotNull
   isSpec: "True"
-  fullName: TirUtilities.Extensions.ObjectExstentions.NotNull
-  nameWithType: ObjectExstentions.NotNull
+  fullName: TirUtilities.Extensions.ObjectExtensions.NotNull
+  nameWithType: ObjectExtensions.NotNull
 - uid: TirUtilities.Extensions.RigidbodyExtensions
   name: RigidbodyExtensions
   href: api/TirUtilities.Extensions.RigidbodyExtensions.html
@@ -3630,6 +3656,83 @@ references:
   isSpec: "True"
   fullName: TirUtilities.Extensions.RigidbodyExtensions.CancelAllVelocity
   nameWithType: RigidbodyExtensions.CancelAllVelocity
+- uid: TirUtilities.Extensions.Vector2Extensions
+  name: Vector2Extensions
+  href: api/TirUtilities.Extensions.Vector2Extensions.html
+  commentId: T:TirUtilities.Extensions.Vector2Extensions
+  fullName: TirUtilities.Extensions.Vector2Extensions
+  nameWithType: Vector2Extensions
+- uid: TirUtilities.Extensions.Vector2Extensions.Abs(Vector2)
+  name: Abs(Vector2)
+  href: api/TirUtilities.Extensions.Vector2Extensions.html#TirUtilities_Extensions_Vector2Extensions_Abs_Vector2_
+  commentId: M:TirUtilities.Extensions.Vector2Extensions.Abs(Vector2)
+  fullName: TirUtilities.Extensions.Vector2Extensions.Abs(Vector2)
+  nameWithType: Vector2Extensions.Abs(Vector2)
+- uid: TirUtilities.Extensions.Vector2Extensions.Abs*
+  name: Abs
+  href: api/TirUtilities.Extensions.Vector2Extensions.html#TirUtilities_Extensions_Vector2Extensions_Abs_
+  commentId: Overload:TirUtilities.Extensions.Vector2Extensions.Abs
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.Vector2Extensions.Abs
+  nameWithType: Vector2Extensions.Abs
+- uid: TirUtilities.Extensions.Vector3Extensions
+  name: Vector3Extensions
+  href: api/TirUtilities.Extensions.Vector3Extensions.html
+  commentId: T:TirUtilities.Extensions.Vector3Extensions
+  fullName: TirUtilities.Extensions.Vector3Extensions
+  nameWithType: Vector3Extensions
+- uid: TirUtilities.Extensions.Vector3Extensions.Abs(Vector3)
+  name: Abs(Vector3)
+  href: api/TirUtilities.Extensions.Vector3Extensions.html#TirUtilities_Extensions_Vector3Extensions_Abs_Vector3_
+  commentId: M:TirUtilities.Extensions.Vector3Extensions.Abs(Vector3)
+  fullName: TirUtilities.Extensions.Vector3Extensions.Abs(Vector3)
+  nameWithType: Vector3Extensions.Abs(Vector3)
+- uid: TirUtilities.Extensions.Vector3Extensions.Abs*
+  name: Abs
+  href: api/TirUtilities.Extensions.Vector3Extensions.html#TirUtilities_Extensions_Vector3Extensions_Abs_
+  commentId: Overload:TirUtilities.Extensions.Vector3Extensions.Abs
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.Vector3Extensions.Abs
+  nameWithType: Vector3Extensions.Abs
+- uid: TirUtilities.Extensions.Vector3Extensions.Invariant(Vector3)
+  name: Invariant(Vector3)
+  href: api/TirUtilities.Extensions.Vector3Extensions.html#TirUtilities_Extensions_Vector3Extensions_Invariant_Vector3_
+  commentId: M:TirUtilities.Extensions.Vector3Extensions.Invariant(Vector3)
+  fullName: TirUtilities.Extensions.Vector3Extensions.Invariant(Vector3)
+  nameWithType: Vector3Extensions.Invariant(Vector3)
+- uid: TirUtilities.Extensions.Vector3Extensions.Invariant*
+  name: Invariant
+  href: api/TirUtilities.Extensions.Vector3Extensions.html#TirUtilities_Extensions_Vector3Extensions_Invariant_
+  commentId: Overload:TirUtilities.Extensions.Vector3Extensions.Invariant
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.Vector3Extensions.Invariant
+  nameWithType: Vector3Extensions.Invariant
+- uid: TirUtilities.Extensions.Vector3Extensions.IsZero(Vector3)
+  name: IsZero(Vector3)
+  href: api/TirUtilities.Extensions.Vector3Extensions.html#TirUtilities_Extensions_Vector3Extensions_IsZero_Vector3_
+  commentId: M:TirUtilities.Extensions.Vector3Extensions.IsZero(Vector3)
+  fullName: TirUtilities.Extensions.Vector3Extensions.IsZero(Vector3)
+  nameWithType: Vector3Extensions.IsZero(Vector3)
+- uid: TirUtilities.Extensions.Vector3Extensions.IsZero*
+  name: IsZero
+  href: api/TirUtilities.Extensions.Vector3Extensions.html#TirUtilities_Extensions_Vector3Extensions_IsZero_
+  commentId: Overload:TirUtilities.Extensions.Vector3Extensions.IsZero
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.Vector3Extensions.IsZero
+  nameWithType: Vector3Extensions.IsZero
+- uid: TirUtilities.Extensions.Vector3Extensions.NotZero(Vector3)
+  name: NotZero(Vector3)
+  href: api/TirUtilities.Extensions.Vector3Extensions.html#TirUtilities_Extensions_Vector3Extensions_NotZero_Vector3_
+  commentId: M:TirUtilities.Extensions.Vector3Extensions.NotZero(Vector3)
+  fullName: TirUtilities.Extensions.Vector3Extensions.NotZero(Vector3)
+  nameWithType: Vector3Extensions.NotZero(Vector3)
+- uid: TirUtilities.Extensions.Vector3Extensions.NotZero*
+  name: NotZero
+  href: api/TirUtilities.Extensions.Vector3Extensions.html#TirUtilities_Extensions_Vector3Extensions_NotZero_
+  commentId: Overload:TirUtilities.Extensions.Vector3Extensions.NotZero
+  isSpec: "True"
+  fullName: TirUtilities.Extensions.Vector3Extensions.NotZero
+  nameWithType: Vector3Extensions.NotZero
 - uid: TirUtilities.Generics
   name: TirUtilities.Generics
   href: api/TirUtilities.Generics.html
@@ -3662,23 +3765,23 @@ references:
   fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).Instance
   nameWithType: MonoSingleton<T>.Instance
   nameWithType.vb: MonoSingleton(Of T).Instance
-- uid: TirUtilities.Generics.MonoSingleton`1.OnDestroy
-  name: OnDestroy()
-  href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_OnDestroy
-  commentId: M:TirUtilities.Generics.MonoSingleton`1.OnDestroy
-  fullName: TirUtilities.Generics.MonoSingleton<T>.OnDestroy()
-  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).OnDestroy()
-  nameWithType: MonoSingleton<T>.OnDestroy()
-  nameWithType.vb: MonoSingleton(Of T).OnDestroy()
-- uid: TirUtilities.Generics.MonoSingleton`1.OnDestroy*
-  name: OnDestroy
-  href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_OnDestroy_
-  commentId: Overload:TirUtilities.Generics.MonoSingleton`1.OnDestroy
+- uid: TirUtilities.Generics.MonoSingleton`1.OnApplicationQuit
+  name: OnApplicationQuit()
+  href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_OnApplicationQuit
+  commentId: M:TirUtilities.Generics.MonoSingleton`1.OnApplicationQuit
+  fullName: TirUtilities.Generics.MonoSingleton<T>.OnApplicationQuit()
+  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).OnApplicationQuit()
+  nameWithType: MonoSingleton<T>.OnApplicationQuit()
+  nameWithType.vb: MonoSingleton(Of T).OnApplicationQuit()
+- uid: TirUtilities.Generics.MonoSingleton`1.OnApplicationQuit*
+  name: OnApplicationQuit
+  href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_OnApplicationQuit_
+  commentId: Overload:TirUtilities.Generics.MonoSingleton`1.OnApplicationQuit
   isSpec: "True"
-  fullName: TirUtilities.Generics.MonoSingleton<T>.OnDestroy
-  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).OnDestroy
-  nameWithType: MonoSingleton<T>.OnDestroy
-  nameWithType.vb: MonoSingleton(Of T).OnDestroy
+  fullName: TirUtilities.Generics.MonoSingleton<T>.OnApplicationQuit
+  fullName.vb: TirUtilities.Generics.MonoSingleton(Of T).OnApplicationQuit
+  nameWithType: MonoSingleton<T>.OnApplicationQuit
+  nameWithType.vb: MonoSingleton(Of T).OnApplicationQuit
 - uid: TirUtilities.Generics.MonoSingleton`1.Teardown
   name: Teardown()
   href: api/TirUtilities.Generics.MonoSingleton-1.html#TirUtilities_Generics_MonoSingleton_1_Teardown
@@ -8106,80 +8209,3 @@ references:
   isSpec: "True"
   fullName: TirUtilities.UnityRichTextColors.Yellow
   nameWithType: UnityRichTextColors.Yellow
-- uid: TirUtilities.Vector2Extensions
-  name: Vector2Extensions
-  href: api/TirUtilities.Vector2Extensions.html
-  commentId: T:TirUtilities.Vector2Extensions
-  fullName: TirUtilities.Vector2Extensions
-  nameWithType: Vector2Extensions
-- uid: TirUtilities.Vector2Extensions.Abs(Vector2)
-  name: Abs(Vector2)
-  href: api/TirUtilities.Vector2Extensions.html#TirUtilities_Vector2Extensions_Abs_Vector2_
-  commentId: M:TirUtilities.Vector2Extensions.Abs(Vector2)
-  fullName: TirUtilities.Vector2Extensions.Abs(Vector2)
-  nameWithType: Vector2Extensions.Abs(Vector2)
-- uid: TirUtilities.Vector2Extensions.Abs*
-  name: Abs
-  href: api/TirUtilities.Vector2Extensions.html#TirUtilities_Vector2Extensions_Abs_
-  commentId: Overload:TirUtilities.Vector2Extensions.Abs
-  isSpec: "True"
-  fullName: TirUtilities.Vector2Extensions.Abs
-  nameWithType: Vector2Extensions.Abs
-- uid: TirUtilities.Vector3Extensions
-  name: Vector3Extensions
-  href: api/TirUtilities.Vector3Extensions.html
-  commentId: T:TirUtilities.Vector3Extensions
-  fullName: TirUtilities.Vector3Extensions
-  nameWithType: Vector3Extensions
-- uid: TirUtilities.Vector3Extensions.Abs(Vector3)
-  name: Abs(Vector3)
-  href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_Abs_Vector3_
-  commentId: M:TirUtilities.Vector3Extensions.Abs(Vector3)
-  fullName: TirUtilities.Vector3Extensions.Abs(Vector3)
-  nameWithType: Vector3Extensions.Abs(Vector3)
-- uid: TirUtilities.Vector3Extensions.Abs*
-  name: Abs
-  href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_Abs_
-  commentId: Overload:TirUtilities.Vector3Extensions.Abs
-  isSpec: "True"
-  fullName: TirUtilities.Vector3Extensions.Abs
-  nameWithType: Vector3Extensions.Abs
-- uid: TirUtilities.Vector3Extensions.Invariant(Vector3)
-  name: Invariant(Vector3)
-  href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_Invariant_Vector3_
-  commentId: M:TirUtilities.Vector3Extensions.Invariant(Vector3)
-  fullName: TirUtilities.Vector3Extensions.Invariant(Vector3)
-  nameWithType: Vector3Extensions.Invariant(Vector3)
-- uid: TirUtilities.Vector3Extensions.Invariant*
-  name: Invariant
-  href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_Invariant_
-  commentId: Overload:TirUtilities.Vector3Extensions.Invariant
-  isSpec: "True"
-  fullName: TirUtilities.Vector3Extensions.Invariant
-  nameWithType: Vector3Extensions.Invariant
-- uid: TirUtilities.Vector3Extensions.IsZero(Vector3)
-  name: IsZero(Vector3)
-  href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_IsZero_Vector3_
-  commentId: M:TirUtilities.Vector3Extensions.IsZero(Vector3)
-  fullName: TirUtilities.Vector3Extensions.IsZero(Vector3)
-  nameWithType: Vector3Extensions.IsZero(Vector3)
-- uid: TirUtilities.Vector3Extensions.IsZero*
-  name: IsZero
-  href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_IsZero_
-  commentId: Overload:TirUtilities.Vector3Extensions.IsZero
-  isSpec: "True"
-  fullName: TirUtilities.Vector3Extensions.IsZero
-  nameWithType: Vector3Extensions.IsZero
-- uid: TirUtilities.Vector3Extensions.NotZero(Vector3)
-  name: NotZero(Vector3)
-  href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_NotZero_Vector3_
-  commentId: M:TirUtilities.Vector3Extensions.NotZero(Vector3)
-  fullName: TirUtilities.Vector3Extensions.NotZero(Vector3)
-  nameWithType: Vector3Extensions.NotZero(Vector3)
-- uid: TirUtilities.Vector3Extensions.NotZero*
-  name: NotZero
-  href: api/TirUtilities.Vector3Extensions.html#TirUtilities_Vector3Extensions_NotZero_
-  commentId: Overload:TirUtilities.Vector3Extensions.NotZero
-  isSpec: "True"
-  fullName: TirUtilities.Vector3Extensions.NotZero
-  nameWithType: Vector3Extensions.NotZero
