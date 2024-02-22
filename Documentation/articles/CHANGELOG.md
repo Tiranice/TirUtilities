@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `TirLogger.LogCall(string remarks, UnityEngine.Object context)` which appends the remarks string to the end of the message.
 - `LevelData.LevelName`
+- `LevelLoadSignal`
+  - You can now access a signal's `LevelData`.
 
 ## [v0.0.0-alpha-10.114]
 
