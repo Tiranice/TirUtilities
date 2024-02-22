@@ -16,8 +16,9 @@ namespace TirUtilities.LevelManagement
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
     /// Created:  May 05, 2021
-    /// Updated:  Oct 16, 2023
+    /// Updated:  Feb 22, 2024
     /// -->
     /// <summary>
     /// Handles the loading of <see cref="LevelData"/> emitted from <see cref="LevelLoadSignal"/>
@@ -44,11 +45,16 @@ namespace TirUtilities.LevelManagement
         [Header("Signals")]
         [Tooltip("Emit one to load its level data.\nLoaded from the resources folder."), SerializeField]
         private List<LevelLoadSignal> _levelLoadSignals;
+        public IReadOnlyList<LevelLoadSignal> LevelLoadSignals => _levelLoadSignals;
+
 
         [Tooltip("Emitted when the level loader finishes."), SerializeField]
         private Signal _loadCompleteSignal;
         
         [SerializeField] private LevelLoadSignal _mainMenuLoadSignal;
+
+        [SerializeField, DisplayOnly] private LevelLoadSignal _lastSignalEmitted;
+        public LevelLoadSignal LastSignalEmitted => _lastSignalEmitted;
 
         #endregion
 
@@ -112,6 +118,8 @@ namespace TirUtilities.LevelManagement
         /// <param name="levelData"> The scenes to be loaded. </param>
         private void LevelLoadSignalReceiver(LevelData levelData)
         {
+            _lastSignalEmitted = _levelLoadSignals.First(s => s.LevelDataEquals(levelData));
+
             if (_loadingScreen.NotNull())
                 StartCoroutine(_loadingScreen.Show(LevelLoader.LoadLevelDataAsync(levelData)));
             else
@@ -132,13 +140,16 @@ namespace TirUtilities.LevelManagement
             return true;
         }
 
+        /// <summary> Reemits <c>_lastSignalEmitted</c>. </summary>
+        public void ReloadLastLevel()
+        {
+            if (_lastSignalEmitted.NotNull())
+                _lastSignalEmitted.Emit();
+        }
+
         #endregion
 
-        #region Public Properties
-
-        public IReadOnlyList<LevelLoadSignal> LevelLoadSignals => _levelLoadSignals;
-
-        #endregion
+        public bool MainMenuIsLoaded => _mainMenuLoadSignal.ActiveSceneIsLoaded;
 
         #region Editor
 #if UNITY_EDITOR

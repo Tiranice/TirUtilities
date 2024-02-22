@@ -20,6 +20,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LevelData.LevelName`
 - `LevelLoadSignal`
   - You can now access a signal's `LevelData`.
+- `LevelSystem`
+  - You can now access the last signal emitted.
+  - `ReloadLastLevel()` reemits the last signal.
 
 ## [v0.0.0-alpha-10.114]
 
