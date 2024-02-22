@@ -11,9 +11,9 @@ namespace TirUtilities.Generics
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
-    /// Company:  Black Phoenix Software
+    /// Company:  Black Phoenix Creative
     /// Created:  Jan 21, 2022
-    /// Updated:  Oct 16, 2023
+    /// Updated:  Feb 22, 2024
     /// -->
     /// <summary>
     /// Extend to create singletons from <c>MonoBehaviour</c>s that can be lazy loaded from 
