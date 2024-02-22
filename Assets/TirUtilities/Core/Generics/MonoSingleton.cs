@@ -1,3 +1,5 @@
+using System.Linq;
+
 using UnityEngine;
 
 namespace TirUtilities.Generics
@@ -122,7 +124,7 @@ namespace TirUtilities.Generics
         private static ResourceSingletonAttribute FindAttribute()
         {
             ResourceSingletonAttribute singletonAttribute = null;
-            foreach (System.Attribute customAttribute in typeof(T).GetCustomAttributes(false))
+            foreach (System.Attribute customAttribute in typeof(T).GetCustomAttributes(false).Cast<System.Attribute>())
             {
                 if (customAttribute is ResourceSingletonAttribute attribute)
                 {
