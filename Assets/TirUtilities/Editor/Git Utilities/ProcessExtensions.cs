@@ -3,7 +3,20 @@ using System.Text;
 
 namespace TirUtilities.Editor.GitUtilities
 {
-    public static class ProcessExtentsions
+    ///<!--
+    /// ProcessExtensions.cs
+    ///
+    /// Project:  TirUtilities
+    ///
+    /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
+    /// Created:  Apr 11, 2021
+    /// Updated:  Oct 13, 2021
+    /// -->
+    /// <summary>
+    ///
+    /// </summary>
+    public static class ProcessExtensions
     {
         /// <summary>
         /// Runs the specified process and waits for it to exit.
@@ -47,7 +60,5 @@ namespace TirUtilities.Editor.GitUtilities
             errors = errorsBuilder.ToString().TrimEnd();
             return process.ExitCode;
         }
-
-            
     }
 }
