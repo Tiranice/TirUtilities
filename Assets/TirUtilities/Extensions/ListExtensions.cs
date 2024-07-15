@@ -4,12 +4,13 @@ namespace TirUtilities.Extensions
 {
     ///<!--
     /// ListExtensions.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
     /// Created:  May 01, 2021
-    /// Updated:  June 18, 2021
+    /// Updated:  Jul 15, 2024
     /// -->
     /// <summary>
     /// A set of extensions to generic lists.
@@ -52,5 +53,14 @@ namespace TirUtilities.Extensions
         /// <param name="i">The index to be tested.</param>
         /// <returns>True if index i is in the range [0, list.Count).</returns>
         public static bool IndexInRange<T>(this List<T> list, int i) => (i >= 0) && (i < list.Count);
+
+        /// <summary> Returns an index shifted by the given amount. </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list"></param>
+        /// <param name="current">Index to shift.</param>
+        /// <param name="shift">Shift the index by this amount.</param>
+        /// <returns>Value between [0, list.Count) - wraps</returns>
+        public static int NextIndexInRange<T>(this List<T> list, int current, int shift) =>
+            current + shift >= list.Count ? 0 : current + shift < 0 ? list.Count - 1 : current + shift;
     }
 }

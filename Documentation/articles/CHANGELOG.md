@@ -23,6 +23,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LevelSystem`
   - You can now access the last signal emitted.
   - `ReloadLastLevel()` reemits the last signal.
+- Color materials
+- `ListExtensions`
+  - `int NextIndexInRange(int current, int shift)` Returns an index shifted by the given amount.
 
 ## [v0.0.0-alpha-10.114]
 
