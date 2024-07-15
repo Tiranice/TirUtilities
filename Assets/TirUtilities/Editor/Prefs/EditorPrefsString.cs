@@ -33,5 +33,11 @@ namespace TirUtilities.Editor.Prefs
             EditorGUIUtility.labelWidth = 100.0f;
             Value = EditorGUILayout.TextField(Label, Value);
         }
+
+        public override void Draw(float labelWidth)
+        {
+            EditorGUIUtility.labelWidth = labelWidth;
+            Value = EditorGUILayout.TextField(Label, Value);
+        }
     }
 }
