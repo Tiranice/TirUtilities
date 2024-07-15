@@ -51,6 +51,10 @@ namespace TirUtilities.Editor.Prefs
         /// <summary> Draw this IMGUI item. </summary>
         public abstract void Draw();
 
+        /// <summary> Draw this IMGUI item with given width. </summary>
+        /// <param name="labelWidth"></param>
+        public abstract void Draw(float labelWidth);
+
         public static implicit operator T(EditorPrefsItem<T> other) => other.Value;
     }
 }
