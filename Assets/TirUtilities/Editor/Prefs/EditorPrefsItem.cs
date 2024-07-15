@@ -4,14 +4,16 @@ namespace TirUtilities.Editor.Prefs
 {
     ///<!--
     /// EditorPrefsItem.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
-    /// Created:  Sep. 03, 2021
-    /// Updated:  Sep. 03, 2021
+    /// Company:  Black Phoenix Creative
+    /// Created:  Sep 03, 2021
+    /// Updated:  Jul 15, 2024
     /// -->
     /// <summary>
+    /// Base class for settings drawers.
     /// </summary>
     /// <remarks>
     /// Based on the EditorPrefItem class in the source of RainbowFolders.
@@ -50,6 +52,10 @@ namespace TirUtilities.Editor.Prefs
 
         /// <summary> Draw this IMGUI item. </summary>
         public abstract void Draw();
+
+        /// <summary> Draw this IMGUI item with given width. </summary>
+        /// <param name="labelWidth"></param>
+        public abstract void Draw(float labelWidth);
 
         public static implicit operator T(EditorPrefsItem<T> other) => other.Value;
     }

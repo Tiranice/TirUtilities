@@ -28,6 +28,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `int NextIndexInRange(int current, int shift)` Returns an index shifted by the given amount.
 - `ObjectExtensions`
   - Adds logging to `IsNull` and `NotNull`.
+- `EditorPrefsItem`
+  - `Draw(float labelWidth)` Draw this IMGUI item with given width.
 
 ## [v0.0.0-alpha-10.114]
 
