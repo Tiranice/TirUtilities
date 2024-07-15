@@ -10,7 +10,7 @@ namespace TirUtilities.Editor.Prefs
     /// Project:  TirUtilities
     ///
     /// Author :  Devon Wilson
-    /// Compony:  Black Phoenix Creative
+    /// Company:  Black Phoenix Creative
     /// Created:  Sep. 03, 2021
     /// Updated:  May. 29, 2024
     /// -->
