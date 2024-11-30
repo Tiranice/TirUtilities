@@ -31,6 +31,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `EditorPrefsItem`
   - `Draw(float labelWidth)` Draw this IMGUI item with given width.
 
+### Changed
+
+- Whitespace in template files has been cleaned.
+
 ## [v0.0.0-alpha-10.114]
 
 See the commit logs for all changes.  I got lazy and stopped updating this.
