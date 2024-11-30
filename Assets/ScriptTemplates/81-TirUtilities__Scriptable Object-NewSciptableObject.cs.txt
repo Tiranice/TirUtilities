@@ -7,14 +7,14 @@ using UnityEngine;
 /// #SCRIPTNAME#.cs
 /// 
 /// Project:  #PROJECT#
-///        
+/// 
 /// Author :  #AUTHOR#
 /// Company:  #COMPANY#
 /// Created:  #DATETODAY#
 /// Updated:  #DATETODAY#
 /// -->
 /// <summary>
-///
+/// 
 /// </summary>
 [CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = "Scriptable Objects/#SCRIPTNAME#")]
 public class #SCRIPTNAME# : ScriptableObject

@@ -8,14 +8,14 @@ using UnityEngine;
 /// #SCRIPTNAME#.cs
 /// 
 /// Project:  #PROJECT#
-///        
+/// 
 /// Author :  #AUTHOR#
 /// Company:  #COMPANY#
 /// Created:  #DATETODAY#
 /// Updated:  #DATETODAY#
 /// -->
 /// <summary>
-///
+/// 
 /// </summary>
 [System.AttributeUsage(System.AttributeTargets.All, Inherited = false, AllowMultiple = true)]
 public sealed class #SCRIPTNAME# : PropertyAttribute
