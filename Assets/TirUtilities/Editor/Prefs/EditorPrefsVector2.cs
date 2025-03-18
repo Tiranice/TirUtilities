@@ -5,14 +5,16 @@ namespace TirUtilities.Editor.Prefs
 {
     ///<!--
     /// EditorPrefsVector2.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
-    /// Created:  Sep. 06, 2021
-    /// Updated:  Sep. 06, 2021
+    /// Company:  Black Phoenix Creative
+    /// Created:  Sep 06, 2021
+    /// Updated:  Jul 15, 2024
     /// -->
     /// <summary>
+    /// Creates a <c>Vector2Field</c>.
     /// </summary>
     /// <remarks>
     /// Based on the EditorPrefString class in the source of RainbowFolders.
@@ -40,6 +42,11 @@ namespace TirUtilities.Editor.Prefs
         public override void Draw()
         {
             EditorGUIUtility.labelWidth = 100.0f;
+            Value = EditorGUILayout.Vector2Field(Label, Value);
+        }
+        public override void Draw(float labelWidth)
+        {
+            EditorGUIUtility.labelWidth = labelWidth;
             Value = EditorGUILayout.Vector2Field(Label, Value);
         }
     }

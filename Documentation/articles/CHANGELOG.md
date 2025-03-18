@@ -16,6 +16,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `TirLogger.LogCall(string remarks, UnityEngine.Object context)` which appends the remarks string to the end of the message.
+- `LevelData.LevelName`
+- `LevelLoadSignal`
+  - You can now access a signal's `LevelData`.
+- `LevelSystem`
+  - You can now access the last signal emitted.
+  - `ReloadLastLevel()` reemits the last signal.
+- Color materials
+- `ListExtensions`
+  - `int NextIndexInRange(int current, int shift)` Returns an index shifted by the given amount.
+- `ObjectExtensions`
+  - Adds logging to `IsNull` and `NotNull`.
+- `EditorPrefsItem`
+  - `Draw(float labelWidth)` Draw this IMGUI item with given width.
+
+### Changed
+
+- Whitespace in template files has been cleaned.
+
+## [v0.0.0-alpha-10.114]
+
+See the commit logs for all changes.  I got lazy and stopped updating this.
+
+### Added
+
 - Setting the patch version in the export tool creates a version file.
 - <code>LevelSystem</code> now has a method, <code>TryLoadMainMenu</code>, that emits a signal assigned in the inspector.
 - <code>TirLogger</code>

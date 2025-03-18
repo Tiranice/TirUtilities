@@ -5,14 +5,16 @@ namespace TirUtilities.Editor.Prefs
 {
     ///<!--
     /// EditorPrefsString.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon
-    /// Created:  Sep. 03, 2021
-    /// Updated:  Sep. 03, 2021
+    /// Company:  Black Phoenix Creative
+    /// Created:  Sep 03, 2021
+    /// Updated:  Jul 15, 2024
     /// -->
     /// <summary>
+    /// Creates a <c>TextField</c>.
     /// </summary>
     /// <remarks>
     /// Based on the EditorPrefString class in the source of RainbowFolders.
@@ -31,6 +33,12 @@ namespace TirUtilities.Editor.Prefs
         public override void Draw()
         {
             EditorGUIUtility.labelWidth = 100.0f;
+            Value = EditorGUILayout.TextField(Label, Value);
+        }
+
+        public override void Draw(float labelWidth)
+        {
+            EditorGUIUtility.labelWidth = labelWidth;
             Value = EditorGUILayout.TextField(Label, Value);
         }
     }

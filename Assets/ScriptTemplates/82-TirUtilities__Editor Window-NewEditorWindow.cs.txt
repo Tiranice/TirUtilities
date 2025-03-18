@@ -8,14 +8,14 @@ using UnityEngine.UIElements;
 /// #SCRIPTNAME#.cs
 /// 
 /// Project:  #PROJECT#
-///        
+/// 
 /// Author :  #AUTHOR#
 /// Company:  #COMPANY#
 /// Created:  #DATETODAY#
 /// Updated:  #DATETODAY#
 /// -->
 /// <summary>
-///
+/// 
 /// </summary>
 public class #SCRIPTNAME# : EditorWindow
 {

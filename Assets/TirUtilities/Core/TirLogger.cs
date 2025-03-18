@@ -10,8 +10,9 @@ namespace TirUtilities
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
     /// Created:  May 15, 2021
-    /// Updated:  May 09, 2022
+    /// Updated:  Feb 22, 2024
     /// -->
     /// <summary>
     /// Contains a handful of specialized logging methods.
@@ -84,6 +85,31 @@ namespace TirUtilities
             var contextName = $"from <color={ContextColor}>context: {context.name}</color>";
 
             Debug.Log($"Call to {classText}.{methodText} {contextName}", context);
+        }
+
+        /// <summary>
+        /// Logs the name of the calling method, its class, and the supplied context object to the 
+        /// console.
+        /// </summary>
+        /// <remarks>
+        /// Not available in WebGL due to the inability to read stack fames.
+        /// </remarks>
+        /// <param name="remarks">String appended to the end of the log</param>
+        /// <param name="context">Supplied to <c>Debug.Log(sting, Object)</c></param>
+        public static void LogCall(string remarks, UnityEngine.Object context)
+        {
+            if (context == null)
+            {
+                throw new System.ArgumentNullException(nameof(context));
+            }
+
+            var frame = new StackFrame(1);
+
+            var classText = $"<color={ClassColor}>{frame.GetMethod().DeclaringType.Name}</color>";
+            var methodText = $"<color={MethodColor}>{frame.GetMethod().Name}</color>";
+            var contextName = $"from <color={ContextColor}>context: {context.name}</color>";
+
+            Debug.Log($"Call to {classText}.{methodText} {contextName}:  {remarks}", context);
         }
 #endif 
 

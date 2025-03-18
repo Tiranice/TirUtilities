@@ -1,6 +1,9 @@
+using System.Collections.Generic;
+using System.IO;
+
 using UnityEngine;
 using UnityEngine.Events;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 #if UNITY_EDITOR
 using UnityEditor.SceneManagement;
@@ -17,13 +20,13 @@ namespace TirUtilities.Signals
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson
-    /// Company:  Black Phoenix Software
+    /// Company:  Black Phoenix Creative
     /// Created:  May 05, 2021
-    /// Updated:  Jul 03, 2022
+    /// Updated:  Feb 22, 2024
     /// -->
     /// <summary> Signal that emits a copy of a <see cref="LevelData"/> value. </summary>
     [CreateAssetMenu(menuName = "Signals/Level Load Signal", order = 60)]
-    public class LevelLoadSignal : SignalBase<LevelData>
+    public class LevelLoadSignal : SignalBase<LevelData>, ISignal<LevelData>
     {
         #region Inspector Fields
 
@@ -32,17 +35,24 @@ namespace TirUtilities.Signals
         /// </summary>
         [Tooltip("The scenes that will be loaded when the signal is emitted.")]
         [SerializeField] private LevelData _levelData;
+        public LevelData GetLevelData => _levelData;
 
         #endregion
 
-        #region Public Properties
+        #region Level Data
 
+        public string LevelName => string.IsNullOrWhiteSpace(_levelData.LevelName)
+            ? ActiveSceneName : _levelData.LevelName;
         public string ActiveScene => _levelData.ActiveScene;
+        public string ActiveSceneName => Path.GetFileNameWithoutExtension(ActiveScene);
+        public bool ActiveSceneIsLoaded => SceneManager.GetSceneByPath(ActiveScene).isLoaded;
         public IReadOnlyList<string> AdditiveScenes => _levelData.AdditiveScenes;
 
+        public bool LevelDataEquals(LevelData other) => _levelData.Equals(other);
+
         #endregion
 
-        #region Public Methods
+        #region Signal Methods
 
         /// <summary>
         /// Register a callback function to be invoked when <see cref="Emit(LevelData)"/> is called.

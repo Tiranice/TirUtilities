@@ -8,14 +8,14 @@ using UnityEngine;
 /// #SCRIPTNAME#.cs
 /// 
 /// Project:  #PROJECT#
-///        
+/// 
 /// Author :  #AUTHOR#
 /// Company:  #COMPANY#
 /// Created:  #DATETODAY#
 /// Updated:  #DATETODAY#
 /// -->
 /// <summary>
-///
+/// 
 /// </summary>
 //[CustomPropertyDrawer(typeof(ThingToDraw))]
 public class #SCRIPTNAME# : PropertyDrawer
@@ -28,7 +28,7 @@ public class #SCRIPTNAME# : PropertyDrawer
         //    base.OnGUI(position, property, label);
         //    return;
         //}
-        
+
         base.OnGUI(position, property, label);
     }
 }

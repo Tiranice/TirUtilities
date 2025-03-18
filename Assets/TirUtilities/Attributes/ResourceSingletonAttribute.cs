@@ -6,7 +6,7 @@ namespace TirUtilities.Generics
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
-    /// Company:  Black Phoenix Software
+    /// Company:  Black Phoenix Creative
     /// Created:  Apr 19, 2022
     /// Updated:  Apr 19, 2022
     /// -->

@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Linq;
+
 using UnityEngine;
 
 namespace TirUtilities.LevelManagement
@@ -9,8 +11,9 @@ namespace TirUtilities.LevelManagement
     /// Project:  TirUtilities
     ///        
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
     /// Created:  May 05, 2021
-    /// Updated:  Oct 16, 2023
+    /// Updated:  Feb 22, 2024
     /// -->
     /// <summary>
     /// Data container for the <see cref="LevelSystem"/>.
@@ -20,25 +23,32 @@ namespace TirUtilities.LevelManagement
     {
         #region Fields
 
+        [SerializeField] private string _levelName;
+        public readonly string LevelName => _levelName;
+        [Space]
         [ScenePath][SerializeField] private string _activeScene;
+        public readonly string ActiveScene => _activeScene;
+
         [ScenePath][SerializeField] private List<string> _additiveScenes;
+        public readonly IReadOnlyList<string> AdditiveScenes => _additiveScenes;
 
         #endregion
 
         #region Constructor
 
-        public LevelData(string activeScene, List<string> additiveScenes = null)
+        public LevelData(string levelName, string activeScene, List<string> additiveScenes = null)
         {
+            _levelName = levelName;
             _activeScene = activeScene;
-            _additiveScenes = additiveScenes;
+            _additiveScenes = additiveScenes ?? new List<string>();
         }
+
+        public LevelData(string activeScene, List<string> additiveScenes = null)
+            : this(string.Empty, activeScene, additiveScenes) { }
 
         #endregion
 
         #region Public Propitiates
-
-        public readonly string ActiveScene => _activeScene;
-        public readonly IReadOnlyList<string> AdditiveScenes => _additiveScenes;
 
         public readonly int SceneCount => _additiveScenes is null ? 1 : 1 + _additiveScenes.Count;
 
@@ -48,28 +58,17 @@ namespace TirUtilities.LevelManagement
 
         public override readonly bool Equals(object obj) => Equals((LevelData)obj);
 
-        public readonly bool Equals(LevelData other)
-        {
-            if (GetType() != other.GetType()) return false;
-
-            if (other._activeScene != _activeScene) return false;
-
-            if (other.SceneCount != SceneCount) return false;
-
-            if (_additiveScenes is null) return true;
-
-            for (int i = 0; i < _additiveScenes.Count; i++)
-            {
-                if (other._additiveScenes[i] != _additiveScenes[i]) return false;
-            }
-
-            return true;
-        }
+        public readonly bool Equals(LevelData other) =>
+            other.GetType() == GetType()
+            && other._levelName == _levelName
+            && other._activeScene == _activeScene
+            && other.SceneCount == SceneCount
+            && other._additiveScenes.SequenceEqual(_additiveScenes);
 
         public override readonly int GetHashCode() => (_activeScene, _additiveScenes).GetHashCode();
 
         public static bool operator ==(LevelData left, LevelData right) => left.Equals(right);
-        public static bool operator !=(LevelData left, LevelData right) => !(left == right); 
+        public static bool operator !=(LevelData left, LevelData right) => !(left == right);
 
         #endregion
     }
