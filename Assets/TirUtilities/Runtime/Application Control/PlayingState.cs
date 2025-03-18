@@ -30,6 +30,11 @@ namespace TirUtilities.Experimental
             
             stateMachine.CurrentState = this;
             Time.timeScale = PlayingTimeScale;
+#if !UNITY_2022_2_OR_NEWER
+            Physics.autoSimulation = false;
+#else
+            Physics.simulationMode = SimulationMode.Script;
+#endif
             AudioListener.pause = false;
         }
 

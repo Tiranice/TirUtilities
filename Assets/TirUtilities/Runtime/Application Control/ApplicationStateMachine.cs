@@ -16,7 +16,7 @@ namespace TirUtilities.Experimental
     /// ApplicationStateMachine.cs
     /// 
     /// Project:  TirUtilities
-    ///        
+    /// 
     /// Author :  Devon Wilson
     /// Created:  Jun 15, 2021
     /// Updated:  Nov 16, 2021
@@ -34,7 +34,7 @@ namespace TirUtilities.Experimental
         private string _mainMenuScene;
 
 #if ENABLE_INPUT_SYSTEM
-        
+
         [Header("Input System")]
 #if ODIN_INSPECTOR
         [SerializeField] private InputActionAsset _inputActions;
@@ -49,7 +49,6 @@ namespace TirUtilities.Experimental
             _inputActions.NotNull() ? _inputActions.actionMaps.Select(m => m.name)
                                     : new string[] { string.Empty };
 #else
-        
         ///<summary> The action map used for player input. </summary>
         [SerializeField, Tooltip("The action map used for player input.")] 
         private string _playerActionMap = string.Empty;
@@ -59,6 +58,12 @@ namespace TirUtilities.Experimental
         private string _uiActionMap = string.Empty;
 #endif
 #endif
+        [Header("Settings")]
+        [SerializeField] private bool _doPauseTimescale = true;
+        public bool DoPauseTimescale => _doPauseTimescale;
+
+        [SerializeField] private bool _doPausePhysics = false;
+        public bool DoPausePhysics => _doPausePhysics;
 
         #endregion
 

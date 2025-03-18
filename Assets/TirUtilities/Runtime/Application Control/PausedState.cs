@@ -31,7 +31,17 @@ namespace TirUtilities.Experimental
 
             UpdateInputSettings(stateMachine);
 
-            Time.timeScale = PausedTimeScale;
+            if (stateMachine.DoPauseTimescale)
+                Time.timeScale = PausedTimeScale;
+
+            if (stateMachine.DoPausePhysics)
+            {
+#if !UNITY_2022_2_OR_NEWER
+                Physics.autoSimulation = false;
+#else
+                Physics.simulationMode = SimulationMode.Script;
+#endif
+            }
             AudioListener.pause = true;
         }
 
