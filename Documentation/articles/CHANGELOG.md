@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+This has gotten away from me.  Diff from the previous version for the full changes.
+
 ### Added
 
 - `TirLogger.LogCall(string remarks, UnityEngine.Object context)` which appends the remarks string to the end of the message.
