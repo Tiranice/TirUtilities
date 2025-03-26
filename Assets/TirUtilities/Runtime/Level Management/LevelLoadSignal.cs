@@ -109,7 +109,7 @@ namespace TirUtilities.Signals
         [ContextMenu(nameof(LoadLevelData)), UnityEngine.TestTools.ExcludeFromCoverage]
         public void LoadLevelData()
         {
-            if (ActiveScene == string.Empty || ActiveScene == null) return;
+            if (string.IsNullOrEmpty(ActiveScene)) return;
 
             if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
 
