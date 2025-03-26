@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.Events;
+
 ///<!--
 ///     Copyright (C) 2025  Devon Wilson
 ///
@@ -19,7 +19,6 @@ using UnityEngine.Events;
 
 namespace TirUtilities.Signals
 {
-    using TirUtilities.Extensions;
     ///<!--
     /// SignalReceiver.cs
     ///
@@ -35,23 +34,5 @@ namespace TirUtilities.Signals
     /// <see cref="_signal">Signal</see> is <see cref="Signal.Emit()">Emitted</see>.
     /// </summary>
     [AddComponentMenu("TirUtilities/Receivers/Signal Receiver")]
-    public class SignalReceiver : MonoBehaviour
-    {
-        [Header("Signals")]
-        [SerializeField] private Signal _signal;
-
-        [Header("Events")]
-        [SerializeField] private UnityEvent _OnSignalReceived;
-
-        public event System.Action OnSignalReceived;
-
-        private void OnEnable() => _signal.AddReceiver(Receiver);
-        private void OnDisable() => _signal.RemoveReceiver(Receiver);
-
-        private void Receiver()
-        {
-            _OnSignalReceived.SafeInvoke();
-            OnSignalReceived?.Invoke();
-        }
-    }
+    public class SignalReceiver : SignalReceiverBase<Signal> { }
 }

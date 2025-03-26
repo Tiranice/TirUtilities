@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.Events;
+
 ///<!--
 ///     Copyright (C) 2025  Devon Wilson
 ///
@@ -36,26 +36,5 @@ namespace TirUtilities.Signals
     /// Invokes <c>OnSignalReceived</c> when the <see cref="StringSignal"/> is emitted.
     /// </summary>
     [AddComponentMenu("TirUtilities/Signal Receivers/String Signal Receiver")]
-    public class StringSignalReceiver : MonoBehaviour
-    {
-        [SerializeField] private StringSignal _signal;
-
-        [SerializeField] private UnityEvent _OnSignalReceived = new UnityEvent();
-        [SerializeField] private StringEvent _OnStringReceived = new StringEvent();
-
-        public event System.Action OnSignalReceived;
-        public event System.Action<string> OnStringReceived;
-
-        private void OnEnable() => _signal.AddReceiver(Receiver);
-
-        private void OnDisable() => _signal.RemoveReceiver(Receiver);
-
-        private void Receiver(string value)
-        {
-            _OnSignalReceived.SafeInvoke();
-            _OnStringReceived.SafeInvoke(value);
-            OnSignalReceived?.Invoke();
-            OnStringReceived?.Invoke(value);
-        }
-    }
+    public class StringSignalReceiver : SignalReceiverBase<StringSignal, string, StringEvent> { }
 }
