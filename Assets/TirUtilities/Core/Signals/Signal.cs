@@ -53,4 +53,25 @@ namespace TirUtilities.Signals
         /// </summary>
         public override void Emit() => _OnEmit.SafeInvoke();
     }
+
+    /// <summary>
+    /// I don't know if this works, but I'mma find out!
+    /// </summary>
+    public static class SignalExtensions
+    {
+        //TODO:  See if these work.
+        public static bool TryAddReceiver(this Signal self, UnityAction receiver)
+        {
+            if (self == null) return false;
+            self.AddReceiver(receiver);
+            return true;
+        }
+
+        public static bool TryRemoveReceiver(this Signal self, UnityAction receiver)
+        {
+            if (self == null) return false;
+            self.RemoveReceiver(receiver);
+            return true;
+        }
+    }
 }
