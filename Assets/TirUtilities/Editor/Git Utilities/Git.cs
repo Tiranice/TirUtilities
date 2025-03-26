@@ -42,20 +42,10 @@ namespace TirUtilities.Editor.GitUtilities
         /// <exception cref="GitException"> Thrown if exit code is not zero. </exception>
         public static string Run(string arguments)
         {
-#if UNITY_2020_2_OR_NEWER
             using var process = new System.Diagnostics.Process();
             int exitCode = process.Run(@"git", arguments, Application.dataPath, out var output, out var errors);
 
             return exitCode == 0 ? output : throw new GitException(exitCode, errors);
-#else
-            using (var process = new System.Diagnostics.Process())
-            {
-                int exitCode = process.Run(@"git", arguments, Application.dataPath, out var output, out var errors);
-
-                return exitCode == 0 ? output
-                                     : throw new GitException(exitCode, errors);
-            }
-#endif
         }
 
         /// <summary>
