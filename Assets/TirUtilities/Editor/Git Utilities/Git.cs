@@ -1,19 +1,36 @@
 using UnityEngine;
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU Lesser General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.Editor.GitUtilities
 {
     ///<!--
     /// Git.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
     /// Created:  Apr 11, 2021
-    /// Updated:  Jul 15, 2024
+    /// Updated:  Mar 26, 2025
     /// -->
     /// <summary>
-    ///
+    /// Run various git commands.  Mostly just getting the version number based on tags.
     /// </summary>
     public static class Git
     {
@@ -53,6 +70,7 @@ namespace TirUtilities.Editor.GitUtilities
         /// </para>
         /// </remarks>
         public static string BuildVersion => GetBuildVersion();
+
         /// <summary>
         /// Retrieves the build version from git based on the most recent matching 
         /// tag and commit history from the <c>main</c> branch.
@@ -65,6 +83,7 @@ namespace TirUtilities.Editor.GitUtilities
         /// </para>
         /// </remarks>
         public static string BuildVersionMain => GetBuildVersion(@" main");
+
         /// <summary>
         /// Retrieves the build version from git based on the most recent matching 
         /// tag and commit history from the <c>master</c> branch.
