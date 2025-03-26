@@ -52,7 +52,7 @@ namespace TirUtilities.Editor
 
         #endregion
 
-        private readonly List<SerializedProperty> _drawnProperites = new List<SerializedProperty>();
+        private readonly List<SerializedProperty> _drawnProperites = new();
 
         private SerializedProperty _menuState;
 
@@ -62,7 +62,6 @@ namespace TirUtilities.Editor
 
         private bool DrawInspector()
         {
-#if UNITY_2020_2_OR_NEWER
             using var checkScope = new EditorGUI.ChangeCheckScope();
 
             serializedObject.UpdateIfRequiredOrScript();
@@ -76,22 +75,6 @@ namespace TirUtilities.Editor
             DrawRest(propertyIterator);
 
             return checkScope.changed;
-#else
-            using (var checkScope = new EditorGUI.ChangeCheckScope())
-            {
-                serializedObject.UpdateIfRequiredOrScript();
-
-                var propertyIterator = serializedObject.GetIterator();
-
-                DrawScriptProperty(propertyIterator);
-
-                MenuStateProperty();
-
-                DrawRest(propertyIterator);
-
-                return checkScope.changed;
-            }
-#endif
         }
 
         private void MenuStateProperty()
