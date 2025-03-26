@@ -91,10 +91,8 @@ namespace TirUtilities
         /// <param name="context">Supplied to <c>Debug.Log(sting, Object)</c></param>
         public static void LogCall(UnityEngine.Object context)
         {
-            if (context is null)
-            {
+            if (context == null)
                 throw new System.ArgumentNullException(nameof(context));
-            }
 
             var frame = new StackFrame(1);
 
@@ -117,9 +115,7 @@ namespace TirUtilities
         public static void LogCall(string remarks, UnityEngine.Object context)
         {
             if (context == null)
-            {
                 throw new System.ArgumentNullException(nameof(context));
-            }
 
             var frame = new StackFrame(1);
 
@@ -129,7 +125,7 @@ namespace TirUtilities
 
             Debug.Log($"Call to {classText}.{methodText} {contextName}:  {remarks}", context);
         }
-#endif 
+#endif
 
         #endregion
     }
