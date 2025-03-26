@@ -34,7 +34,7 @@ namespace TirUtilities.Editor
     /// </summary>
     static internal class MenuStateMachineMenuItems
     {
-        [MenuItem("TirUtilities/Menu State Machine/Open Scene Toolbar")]
+        [MenuItem("Tools/TirUtilities/Menu State Machine/Open Scene Toolbar")]
         internal static void InitSceneToolbar()
         {
             MenuStateMachineEditor.Setup();
