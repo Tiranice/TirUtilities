@@ -38,21 +38,23 @@ namespace TirUtilities.Signals
         [SerializeField] protected UnityMessage _emitOnMessage = UnityMessage.None;
         [SerializeField] protected TSignal _signal;
 
-        protected virtual void Awake() { if (_emitOnMessage == UnityMessage.Awake) _signal.Emit(); }
+        protected virtual void EmitSignal() => _signal.Emit();
 
-        protected virtual void Start() { if (_emitOnMessage == UnityMessage.Start) _signal.Emit(); }
+        protected virtual void Awake() { if (_emitOnMessage == UnityMessage.Awake) EmitSignal(); }
 
-        protected virtual void OnEnable() { if (_emitOnMessage == UnityMessage.OnEnable) _signal.Emit(); }
+        protected virtual void Start() { if (_emitOnMessage == UnityMessage.Start) EmitSignal(); }
 
-        protected virtual void Update() { if (_emitOnMessage == UnityMessage.Update) _signal.Emit(); }
+        protected virtual void OnEnable() { if (_emitOnMessage == UnityMessage.OnEnable) EmitSignal(); }
 
-        protected virtual void FixedUpdate() { if (_emitOnMessage == UnityMessage.FixedUpdate) _signal.Emit(); }
+        protected virtual void Update() { if (_emitOnMessage == UnityMessage.Update) EmitSignal(); }
 
-        protected virtual void LateUpdate() { if (_emitOnMessage == UnityMessage.LateUpdate) _signal.Emit(); }
+        protected virtual void FixedUpdate() { if (_emitOnMessage == UnityMessage.FixedUpdate) EmitSignal(); }
 
-        protected virtual void OnDisable() { if (_emitOnMessage == UnityMessage.OnDisable) _signal.Emit(); }
+        protected virtual void LateUpdate() { if (_emitOnMessage == UnityMessage.LateUpdate) EmitSignal (); }
 
-        protected virtual void OnDestroy() { if (_emitOnMessage == UnityMessage.OnDestroy) _signal.Emit(); }
+        protected virtual void OnDisable() { if (_emitOnMessage == UnityMessage.OnDisable) EmitSignal(); }
+
+        protected virtual void OnDestroy() { if (_emitOnMessage == UnityMessage.OnDestroy) EmitSignal(); }
 
     }
 
@@ -63,20 +65,22 @@ namespace TirUtilities.Signals
 
         [SerializeField] protected virtual TData Data { get; set; }
 
-        protected virtual void Awake() { if (_emitOnMessage == UnityMessage.Awake) _signal.Emit(Data); }
+        protected virtual void EmitSignal() => _signal.Emit(Data);
 
-        protected virtual void Start() { if (_emitOnMessage == UnityMessage.Start) _signal.Emit(Data); }
+        protected virtual void Awake() { if (_emitOnMessage == UnityMessage.Awake) EmitSignal(); }
 
-        protected virtual void OnEnable() { if (_emitOnMessage == UnityMessage.OnEnable) _signal.Emit(Data); }
+        protected virtual void Start() { if (_emitOnMessage == UnityMessage.Start) EmitSignal(); }
 
-        protected virtual void Update() { if (_emitOnMessage == UnityMessage.Update) _signal.Emit(Data); }
+        protected virtual void OnEnable() { if (_emitOnMessage == UnityMessage.OnEnable) EmitSignal(); }
 
-        protected virtual void FixedUpdate() { if (_emitOnMessage == UnityMessage.FixedUpdate) _signal.Emit(Data); }
+        protected virtual void Update() { if (_emitOnMessage == UnityMessage.Update) EmitSignal(); }
 
-        protected virtual void LateUpdate() { if (_emitOnMessage == UnityMessage.LateUpdate) _signal.Emit(Data); }
+        protected virtual void FixedUpdate() { if (_emitOnMessage == UnityMessage.FixedUpdate) EmitSignal(); }
 
-        protected virtual void OnDisable() { if (_emitOnMessage == UnityMessage.OnDisable) _signal.Emit(Data); }
+        protected virtual void LateUpdate() { if (_emitOnMessage == UnityMessage.LateUpdate) EmitSignal(); }
 
-        protected virtual void OnDestroy() { if (_emitOnMessage == UnityMessage.OnDestroy) _signal.Emit(Data); }
+        protected virtual void OnDisable() { if (_emitOnMessage == UnityMessage.OnDisable) EmitSignal(); }
+
+        protected virtual void OnDestroy() { if (_emitOnMessage == UnityMessage.OnDestroy) EmitSignal(); }
     }
 }
