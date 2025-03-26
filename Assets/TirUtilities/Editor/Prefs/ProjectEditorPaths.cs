@@ -35,14 +35,7 @@ namespace TirUtilities.Editor
     {
         private const string _Prefabs = @"/Resources/Prefabs";
 
-        public static string ProjectName
-        {
-            get
-            {
-                var splitPath = UnityEngine.Application.dataPath.Split('/');
-                return splitPath[splitPath.Length - 2];
-            }
-        }
+        public static string ProjectName => UnityEngine.Application.dataPath.Split('/')[^2];
 
         public static string PathToHierarchyDividerSettings =>
             $@"{HomeFolder}/Resources/SettingsAssets/HierarchyDividerSettings.asset";
@@ -56,6 +49,7 @@ namespace TirUtilities.Editor
         public static string PathToRootMenuPrefab =>
             $@"{HomeFolder}{_Prefabs}/RootCanvas.prefab";
 
+        //TODO:  Decide whether or not I'm allowing spaces
         public static string PathToTriggerVolume =>
             $@"{HomeFolder}{_Prefabs}/Trigger Volume.prefab";
     }
