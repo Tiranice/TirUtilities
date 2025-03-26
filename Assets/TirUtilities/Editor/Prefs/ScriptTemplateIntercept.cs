@@ -1,8 +1,7 @@
-using System.Collections.Generic;
 using System.IO;
-using System.Text.RegularExpressions;
+
 using UnityEditor;
-using UnityEditor.Compilation;
+
 ///<!--
 ///     Copyright (C) 2025  Devon Wilson
 ///
@@ -20,7 +19,7 @@ using UnityEditor.Compilation;
 ///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ///-->
 
-namespace TirUtilities.Editor.Prefs.Experimental
+namespace TirUtilities.Editor.Prefs
 {
     ///<!--
     /// ScriptTemplateIntercept.cs
@@ -35,7 +34,7 @@ namespace TirUtilities.Editor.Prefs.Experimental
     /// <summary>
     /// Intercepts the creation of .cs files and replaces the template keys with correct values.
     /// </summary>
-    public class ScriptTemplateIntercept : UnityEditor.AssetModificationProcessor
+    public class ScriptTemplateIntercept : AssetModificationProcessor
     {
         public static void OnWillCreateAsset(string path)
         {
