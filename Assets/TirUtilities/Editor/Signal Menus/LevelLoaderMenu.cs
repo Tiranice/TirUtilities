@@ -59,7 +59,7 @@ namespace TirUtilities.Editor.SignalMenus
 
         #endregion
 
-        [MenuItem("TirUtilities/Level Loader Menu")]
+        [MenuItem("Tools/TirUtilities/Level Loader Menu")]
         public static void Open()
         {
             var window = GetWindow<LevelLoaderMenu>();
