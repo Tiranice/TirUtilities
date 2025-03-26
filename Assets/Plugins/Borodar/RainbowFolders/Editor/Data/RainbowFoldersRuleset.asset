@@ -341,9 +341,9 @@ MonoBehaviour:
     Key: Assets/TirUtilities
     Ordinal: 27
     Priority: 0
-    IconType: 10
-    SmallIcon: {fileID: 0}
-    LargeIcon: {fileID: 0}
+    IconType: 1
+    SmallIcon: {fileID: 2800000, guid: 5b3a75ebd1375e14d9bf07ffbd1bf861, type: 3}
+    LargeIcon: {fileID: 2800000, guid: 1b0b4a9922c7ad64c8b2cbf98875d3ab, type: 3}
     IsIconRecursive: 0
     BackgroundType: 10
     BackgroundTexture: {fileID: 0}
