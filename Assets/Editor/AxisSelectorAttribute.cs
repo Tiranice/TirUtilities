@@ -1,5 +1,4 @@
-using UnityEditor;
-
+#if ENABLE_LEGACY_INPUT_MANAGER
 using UnityEngine;
 
 ///<!--
@@ -19,32 +18,22 @@ using UnityEngine;
 ///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ///-->
 
-namespace TirUtilities.Editor
+namespace TirUtilities.InputManagement
 {
     ///<!--
-    /// TagFieldDrawer.cs
+    /// AxisSelectorAttribute.cs
     ///
     /// Project:  TirUtilities
     ///
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
-    /// Created:  Sep 22, 2021
-    /// Updated:  Sep 22, 2021
+    /// Created:  Jan 15, 2020
+    /// Updated:  Oct 21, 2021
     /// -->
-    /// <summary> The decorated string into a tag selection dropdown. </summary>
-    /// <remarks> 
-    /// Based on [TagSelector] from 
-    /// <see href="https://assetstore.unity.com/packages/tools/ai/sensor-toolkit-88036">Sensor Toolkit</see>.
-    /// </remarks>
-    [CustomPropertyDrawer(typeof(TagFieldAttribute))]
-    public class TagFieldDrawer : PropertyDrawer
-    {
-        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
-        {
-            if (property.propertyType != SerializedPropertyType.String) return;
-
-            using (new EditorGUI.PropertyScope(position, label, property))
-                property.stringValue = EditorGUI.TagField(position, label, property.stringValue);
-        }
-    }
+    /// <summary>
+    /// Use get the names of each axis in the legacy input manager.
+    /// </summary>
+    [System.AttributeUsage(System.AttributeTargets.Field)]
+    public sealed class AxisSelectorAttribute : PropertyAttribute { }
 }
+#endif
