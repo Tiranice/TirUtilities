@@ -1,5 +1,22 @@
 using System.Collections.Generic;
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.Extensions
 {
     ///<!--
@@ -10,7 +27,7 @@ namespace TirUtilities.Extensions
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
     /// Created:  May 01, 2021
-    /// Updated:  Jul 15, 2024
+    /// Updated:  Mar 26, 2025
     /// -->
     /// <summary>
     /// A set of extensions to generic lists.
@@ -47,6 +64,12 @@ namespace TirUtilities.Extensions
         /// <returns>True if the list contains no items or is null.</returns>
         public static bool IsNullOrEmpty<T>(this List<T> list) => list.IsNull() || list.IsEmpty();
 
+        /// <summary> Shorthand for <code>list.NotNull() || list.NotEmpty();</code> </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list"></param>
+        /// <returns>True if the list contains no items or is null.</returns>
+        public static bool NotNullOrEmpty<T>(this List<T> list) => list.NotNull() || list.NotEmpty();
+
         /// <summary> Test whether a given int index is in the range [0, list.Count). </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="list"></param>
@@ -59,8 +82,8 @@ namespace TirUtilities.Extensions
         /// <param name="list"></param>
         /// <param name="current">Index to shift.</param>
         /// <param name="shift">Shift the index by this amount.</param>
-        /// <returns>Value between [0, list.Count) - wraps</returns>
+        /// <returns>Value between [0, list.Count) - wraps to 0 on overflow</returns>
         public static int NextIndexInRange<T>(this List<T> list, int current, int shift) =>
-            current + shift >= list.Count ? 0 : current + shift < 0 ? list.Count - 1 : current + shift;
+            list.IndexInRange(current + shift) ? current + shift : 0;
     }
 }
