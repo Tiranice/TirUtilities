@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 using UnityEditor;
@@ -116,15 +116,7 @@ namespace TirUtilities.Editor.SignalMenus
 
             if (_Signals.Count < 1) return;
 
-            var refreshButton = new Button(Refresh)
-            {
-                text = "↻"
-            };
-            refreshButton.style.width = _ItemHeight;
-            refreshButton.style.fontSize = _ItemHeight - 12;
-            refreshButton.style.unityFontStyleAndWeight = FontStyle.Bold;
-
-            rootVisualElement.Add(refreshButton);
+            CreateRefreshButton();
 
             var boxList = new ListView(_Signals, _ItemHeight, MakeBox, BindBox)
             {
@@ -134,6 +126,16 @@ namespace TirUtilities.Editor.SignalMenus
             boxList.style.flexGrow = 1.0f;
 
             rootVisualElement.Add(boxList);
+        }
+
+        private void CreateRefreshButton()
+        {
+            var refreshButton = new Button(Refresh) { text = "↻" };
+            refreshButton.style.width = _ItemHeight;
+            refreshButton.style.fontSize = _ItemHeight - 12;
+            refreshButton.style.unityFontStyleAndWeight = FontStyle.Bold;
+
+            rootVisualElement.Add(refreshButton);
         }
 
         private static VisualElement MakeBox()
@@ -184,13 +186,13 @@ namespace TirUtilities.Editor.SignalMenus
 
             var activeScene = _Signals[index].ActiveScene;
 
-            if (activeScene == string.Empty || activeScene == null)
+            if (string.IsNullOrEmpty(activeScene))
                 return button;
 
             var start = activeScene.LastIndexOf('/') + 1;
             var end = activeScene.LastIndexOf(".unity");
 
-            button.text = activeScene.Substring(start, end - start);
+            button.text = activeScene[start..end];
             button.tooltip = "Click to load this signal's level data.";
 
             button.clicked += () => _Signals[index].LoadLevelData();
