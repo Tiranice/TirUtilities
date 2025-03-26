@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Events;
 
 ///<!--
 ///     Copyright (C) 2025  Devon Wilson
@@ -21,7 +20,6 @@ using UnityEngine.Events;
 namespace TirUtilities.Signals
 {
     using TirUtilities.CustomEvents;
-    using TirUtilities.Extensions;
     ///<!--
     /// TransformSignalReceiver.cs
     ///
@@ -30,31 +28,10 @@ namespace TirUtilities.Signals
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
     /// Created:  Mar 20, 2025
-    /// Updated:  Mar 20, 2025
+    /// Updated:  Mar 26, 2025
     /// -->
     /// <summary>
     /// Invokes events upon receiving the <see cref="TransformSignal"/>.
     /// </summary>
-    public class TransformSignalReceiver : MonoBehaviour
-    {
-        [SerializeField] private TransformSignal _signal;
-        [Space(20)]
-        [SerializeField] private UnityEvent _OnSignalReceived = new();
-        [SerializeField] private TransformEvent _OnTransformReceived = new();
-
-        public event System.Action OnSignalReceived;
-        public event System.Action<Transform> OnTransformReceived;
-
-        private void OnEnable() => _signal.AddReceiver(Receiver);
-
-        private void OnDisable() => _signal.RemoveReceiver(Receiver);
-
-        private void Receiver(Transform value)
-        {
-            _OnSignalReceived.SafeInvoke();
-            _OnTransformReceived.SafeInvoke(value);
-            OnSignalReceived?.Invoke();
-            OnTransformReceived?.Invoke(value);
-        }
-    }
+    public class TransformSignalReceiver : SignalReceiverBase<TransformSignal, Transform, TransformEvent> { }
 }

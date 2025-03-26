@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Events;
 
 ///<!--
 ///     Copyright (C) 2025  Devon Wilson
@@ -14,25 +13,29 @@ using UnityEngine.Events;
 ///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ///     GNU Lesser General Public License for more details.
 ///
-///     You should have received a copy of the GNU General Public License
+///     You should have received a copy of the GNU Lesser General Public License
 ///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ///-->
 
-namespace TirUtilities.CustomEvents
+namespace TirUtilities.Signals
 {
     ///<!--
-    /// ColliderEvent.cs
-    ///
+    /// Vector2IntEmitter.cs
+    /// 
     /// Project:  TirUtilities
-    ///
+    /// 
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
-    /// Created:  Oct 10, 2021
-    /// Updated:  Oct 10, 2021
+    /// Created:  Mar 26, 2025
+    /// Updated:  Mar 26, 2025
     /// -->
     /// <summary>
-    /// A Unity Event that passes a Collider to its listeners.
+    /// Emits the given <c>Vector2Int</c> value in the given <see cref="UnityMessage"/>.
     /// </summary>
-    [System.Serializable]
-    public class ColliderEvent : UnityEvent<Collider> { }
+    public class Vector2IntEmitter : SignalEmitterBase<Vector2IntSignal, Vector2Int>
+    {
+        [SerializeField] private Vector2Int _value;
+
+        protected override Vector2Int Data => _value;
+    }
 }

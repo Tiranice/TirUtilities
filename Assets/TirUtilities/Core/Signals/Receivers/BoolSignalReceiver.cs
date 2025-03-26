@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Events;
 
 ///<!--
 ///     Copyright (C) 2025  Devon Wilson
@@ -14,25 +13,27 @@ using UnityEngine.Events;
 ///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ///     GNU Lesser General Public License for more details.
 ///
-///     You should have received a copy of the GNU General Public License
+///     You should have received a copy of the GNU Lesser General Public License
 ///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ///-->
 
-namespace TirUtilities.CustomEvents
+namespace TirUtilities.Signals
 {
+    using TirUtilities.CustomEvents;
+    using TirUtilities.Extensions;
     ///<!--
-    /// ColliderEvent.cs
+    /// BoolSignalReceiver.cs
     ///
     /// Project:  TirUtilities
     ///
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
-    /// Created:  Oct 10, 2021
-    /// Updated:  Oct 10, 2021
+    /// Created:  Mar 26, 2025
+    /// Updated:  Mar 26, 2025
     /// -->
     /// <summary>
-    /// A Unity Event that passes a Collider to its listeners.
+    /// Invokes events when the given <see cref="BoolSignal"/> is emitted.
     /// </summary>
-    [System.Serializable]
-    public class ColliderEvent : UnityEvent<Collider> { }
+    [AddComponentMenu("TirUtilities/Signal Receivers/Bool Signal Receiver")]
+    public class BoolSignalReceiver : SignalReceiverBase<BoolSignal, bool, BoolEvent> { }
 }

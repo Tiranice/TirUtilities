@@ -1,14 +1,32 @@
 using System.Diagnostics;
+
 using Debug = UnityEngine.Debug;
+
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU Lesser General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
 
 namespace TirUtilities
 {
     using static UnityRichTextColors;
     ///<!--
     /// TirLogger.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
     /// Created:  May 15, 2021
@@ -73,10 +91,8 @@ namespace TirUtilities
         /// <param name="context">Supplied to <c>Debug.Log(sting, Object)</c></param>
         public static void LogCall(UnityEngine.Object context)
         {
-            if (context is null)
-            {
+            if (context == null)
                 throw new System.ArgumentNullException(nameof(context));
-            }
 
             var frame = new StackFrame(1);
 
@@ -99,9 +115,7 @@ namespace TirUtilities
         public static void LogCall(string remarks, UnityEngine.Object context)
         {
             if (context == null)
-            {
                 throw new System.ArgumentNullException(nameof(context));
-            }
 
             var frame = new StackFrame(1);
 
@@ -111,7 +125,7 @@ namespace TirUtilities
 
             Debug.Log($"Call to {classText}.{methodText} {contextName}:  {remarks}", context);
         }
-#endif 
+#endif
 
         #endregion
     }
