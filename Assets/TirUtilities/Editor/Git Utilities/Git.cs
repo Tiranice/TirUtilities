@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 ///<!--
 ///     Copyright (C) 2025  Devon Wilson
@@ -87,19 +87,35 @@ namespace TirUtilities.Editor.GitUtilities
         /// </remarks>
         public static string BuildVersionMaster => GetBuildVersion(@" master");
 
+        public static string BuildVersionTrunk => GetBuildVersion(@" trunk");
+
         private static string GetBuildVersion(string branch = "")
         {
-            // Full describe. v0.0.0-alpha.10.5-109-gc28696e
+            // Full describe:  v0.0.0-alpha.10.4-190-gc22d3af
             string version = Run(@"describe --tags --long --match ""v[0-9]*""" + branch);
 
+            int lastDash = version.LastIndexOf('-');
+
+            // Remove the commit hash:  v0.0.0-alpha.10.4-190
+            version = version.Remove(lastDash);
+
+            //v0.0.0-alpha.10→.←4-190
             int lastDot = version.LastIndexOf('.');
+            int afterDot = lastDot + 1;
+            lastDash = version.LastIndexOf('-');
 
-            // Remove the commit hash. v0.0.0-alpha.10.4-109
-            version = version.Remove(version.LastIndexOf('-'));
+            // Get the previous patch number:  v0.0.0-alpha.10.→5←-109
+            string previousPatchNumber = version.Substring(afterDot, lastDash - lastDot - 1);
+            int.TryParse(previousPatchNumber, out int versionNumber);
 
-            // Remove tag number. v0.0.0-alpha.10.109
-            version = version.Remove(lastDot + 1, version.LastIndexOf('-') - lastDot);
-            return version.Substring(1);
+            // v0.0.0-alpha.10.190
+            version = version.Remove(afterDot, lastDash - lastDot);
+
+            versionNumber += int.Parse(version[afterDot..]);
+
+            version = version[..afterDot] + versionNumber.ToString();
+
+            return version;
         }
 
         /// <summary> The currently active branch. </summary>
