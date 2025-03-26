@@ -1,23 +1,42 @@
 ﻿using UnityEditor;
 using UnityEditor.AnimatedValues;
 using UnityEditor.SceneManagement;
+
 using UnityEngine;
 using UnityEngine.Events;
+
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU Lesser General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
 
 namespace TirUtilities.Editor
 {
     using TirUtilities.Editor.Prefs;
     using TirUtilities.UI;
-    //TODO :  Refactoring  
+    //TODO :  Refactoring
     //TODO :  Documentation
     ///<!--
     /// MenuStateMachineEditor.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
-    /// Created:  Sep. 06, 2021
-    /// Updated:  Sep. 09, 2021
+    /// Company:  Black Phoenix Creative
+    /// Created:  Sep 06, 2021
+    /// Updated:  Sep 09, 2021
     /// -->
     /// <summary>
     ///
@@ -34,25 +53,21 @@ namespace TirUtilities.Editor
 
         #endregion
 
-        #region Data Structures
-
         private readonly ref struct UIColors
         {
-            public static Color Red => new Color(0.576f, 0.086f, 0.129f, 0.66f);
-            public static Color Orange => new Color(0.843f, 0.306f, 0.035f, 0.66f);
+            public static Color Red => new(0.576f, 0.086f, 0.129f, 0.66f);
+            public static Color Orange => new(0.843f, 0.306f, 0.035f, 0.66f);
         }
-
-        #endregion
 
         #region Fields & Properties
 
         private static MenuStateMachineEditor _Instance;
         internal static MenuStateMachineEditor Instance => _Instance;
 
-        private static Vector2 _ToolbarPosition = new Vector2(100.0f, 30.0f);
-        private static Vector2 _ToolbarSize = new Vector2(200.0f, 100.0f);
+        private static Vector2 _ToolbarPosition = new(100.0f, 30.0f);
+        private static Vector2 _ToolbarSize = new(200.0f, 100.0f);
 
-        private static Vector2 _ScrollbarPosition = new Vector2();
+        private static Vector2 _ScrollbarPosition = new();
 
         private static bool _ShouldMoveToolbar = false;
         private static MenuStateMachine _MenuStateMachine;
@@ -108,15 +123,11 @@ namespace TirUtilities.Editor
                 fixedHeight = _ToolbarFixedHeight
             };
         }
-       
+
         private void RegisterDelegates()
         {
             UnregisterDelegates();
-#if UNITY_2019_1_OR_NEWER
             SceneView.duringSceneGui += OnSceneGUI;
-#else
-			SceneView.onSceneGUIDelegate += OnSceneGUI;
-#endif
             _ToolbarVisable.valueChanged.AddListener(new UnityAction(SceneView.RepaintAll));
         }
 
@@ -129,11 +140,7 @@ namespace TirUtilities.Editor
 
         private void UnregisterDelegates()
         {
-#if UNITY_2019_1_OR_NEWER
             SceneView.duringSceneGui -= OnSceneGUI;
-#else
-			SceneView.onSceneGUIDelegate -= OnSceneGUI;
-#endif
             _ToolbarVisable.valueChanged.RemoveListener(new UnityAction(SceneView.RepaintAll));
         }
 
@@ -155,7 +162,7 @@ namespace TirUtilities.Editor
 
         internal static void SetupIfEnabled() { if (ToolbarEnabledPref.Value) Setup(); }
 
-        
+
         internal static void Close()
         {
             ToolbarEnabledPref.Value = false;
@@ -169,7 +176,7 @@ namespace TirUtilities.Editor
 
         private void OnSceneGUI(SceneView view)
         {
-            var currentEvent = Event.current;
+            //var currentEvent = Event.current;
 
             if (_MenuStateMachine == null) return;
 
@@ -193,7 +200,6 @@ namespace TirUtilities.Editor
                         var previous = Selection.activeObject;
                         Selection.activeObject = _MenuStateMachine;
                         Selection.activeObject = previous;
-                        //_MenuStateMachine.FetchMenuPages();
                         break;
                     }
             }
@@ -221,40 +227,22 @@ namespace TirUtilities.Editor
                     CloseButton();
                 }
 
-                using (var scroll = new GUILayout.ScrollViewScope(_ScrollbarPosition))
+                using var scroll = new GUILayout.ScrollViewScope(_ScrollbarPosition);
+                _ScrollbarPosition = scroll.scrollPosition;
+                using var group = new EditorGUILayout.FadeGroupScope(_ToolbarVisable.faded);
+
+                if (!group.visible) return;
+
+                foreach (var page in _MenuStateMachine.MenuPages)
                 {
-                    _ScrollbarPosition = scroll.scrollPosition;
-#if UNITY_2020_2_OR_NEWER
-                    using var group = new EditorGUILayout.FadeGroupScope(_ToolbarVisable.faded);
-                    if (group.visible)
-                    {
-                        foreach (var page in _MenuStateMachine.MenuPages)
-                        {
-                            if (page == null) continue;
-                            if (page.State == null) continue;
-                            if (GUILayout.Button(page.State.name))
-                                Button_clicked(page);
-                        }
-                    }
-#else
-                    using (var group = new EditorGUILayout.FadeGroupScope(_ToolbarVisable.faded))
-                    {
-                        if (group.visible)
-                        {
-                            foreach (var page in _MenuStateMachine.MenuPages)
-                            {
-                                if (page == null) continue;
-                                if (page.State == null) continue;
-                                if (GUILayout.Button(page.State.name))
-                                    Button_clicked(page);
-                            }
-                        }
-                    }
-#endif
+                    if (page == null) continue;
+                    if (page.State == null) continue;
+                    if (GUILayout.Button(page.State.name))
+                        Button_clicked(page);
                 }
             }
         }
-       
+
         private static void FoldoutButton()
         {
             if (_ToolbarVisable.target)
@@ -273,7 +261,7 @@ namespace TirUtilities.Editor
                 SceneView.RepaintAll();
             }
         }
-        
+
         private static void HeaderButton()
         {
             var lastColor = GUI.backgroundColor;
@@ -283,8 +271,7 @@ namespace TirUtilities.Editor
                 fontStyle = FontStyle.BoldAndItalic,
                 fixedHeight = _ToolbarFixedHeight
             };
-            _ShouldMoveToolbar =
-                GUILayout.RepeatButton("Menu Pages", style);
+            _ShouldMoveToolbar = GUILayout.RepeatButton("Menu Pages", style);
             GUI.backgroundColor = lastColor;
         }
 
@@ -292,13 +279,13 @@ namespace TirUtilities.Editor
         {
             var lastColor = GUI.backgroundColor;
             GUI.backgroundColor = UIColors.Red;
-            
+
             if (GUILayout.Button(_CloseIcon, _FixedSizeStyle))
                 Close();
 
             GUI.backgroundColor = lastColor;
         }
-       
+
         private void UpdateToolbarPosition(Event currentEvent)
         {
             if ((currentEvent.type == EventType.MouseDrag) && _ShouldMoveToolbar)
@@ -312,8 +299,6 @@ namespace TirUtilities.Editor
 
         #endregion
 
-        #region Click Callbacks
-
         private void Button_clicked(MenuPage page)
         {
             _MenuStateMachine.MenuPages.ForEach(p =>
@@ -322,8 +307,6 @@ namespace TirUtilities.Editor
                 else p.HidePanel();
             });
         }
-
-        #endregion
     }
 
     [InitializeOnLoad]

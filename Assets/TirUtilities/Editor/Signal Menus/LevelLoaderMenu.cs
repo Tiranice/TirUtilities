@@ -1,60 +1,71 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+
 using UnityEditor;
 using UnityEditor.SceneManagement;
+
 using UnityEngine;
 using UnityEngine.UIElements;
+
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU Lesser General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
 
 namespace TirUtilities.Editor.SignalMenus
 {
     using TirUtilities.Signals;
-    using static TirLogger;
     ///<!--
     /// LevelLoaderMenu.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
-    /// Created:  Sep. 02, 2021
-    /// Updated:  Sep. 02, 2021
+    /// Company:  Black Phoenix Creative
+    /// Created:  Sep 02, 2021
+    /// Updated:  Mar 26, 2025
     /// -->
     /// <summary>
     ///
     /// </summary>
     public sealed class LevelLoaderMenu : EditorWindow
     {
-        #region Constants
-
         /// <summary>
         /// Height of the box each button group is placed in.
         /// </summary>
         private const int _ItemHeight = 28;
 
-        #endregion
-
         #region Fields
 
         /// <summary> List of all signals in asset database folders. </summary>
-        private static readonly List<LevelLoadSignal> _Signals = new List<LevelLoadSignal>();
+        private static readonly List<LevelLoadSignal> _Signals = new();
 
         /// <summary> List of all buttons created by the window. </summary>
-        private static readonly List<VisualElement> _Buttons = new List<VisualElement>();
+        private static readonly List<VisualElement> _Buttons = new();
 
-        private static Vector2 _MaxWindowSize = new Vector2(1920, 720);
+        private static Vector2 _MaxWindowSize = new(1920, 720);
 
         #endregion
 
-        #region Open & Close
-
-        [MenuItem("TirUtilities/Level Loader Menu")]
+        [MenuItem("Tools/TirUtilities/Level Loader Menu")]
         public static void Open()
         {
             var window = GetWindow<LevelLoaderMenu>();
             window.titleContent = new GUIContent("Level Loader");
             window.maxSize = _MaxWindowSize;
         }
-
-        #endregion
 
         #region Unity Messages
 
@@ -64,7 +75,7 @@ namespace TirUtilities.Editor.SignalMenus
             PopulateWindow();
         }
 
-        private void OnProjectChange() => Refresh();        
+        private void OnProjectChange() => Refresh();
 
         private void Update()
         {
@@ -105,15 +116,7 @@ namespace TirUtilities.Editor.SignalMenus
 
             if (_Signals.Count < 1) return;
 
-            var refreshButton = new Button(Refresh)
-            {
-                text = "↻"
-            };
-            refreshButton.style.width = _ItemHeight;
-            refreshButton.style.fontSize = _ItemHeight - 12;
-            refreshButton.style.unityFontStyleAndWeight = FontStyle.Bold;
-
-            rootVisualElement.Add(refreshButton);
+            CreateRefreshButton();
 
             var boxList = new ListView(_Signals, _ItemHeight, MakeBox, BindBox)
             {
@@ -125,6 +128,16 @@ namespace TirUtilities.Editor.SignalMenus
             rootVisualElement.Add(boxList);
         }
 
+        private void CreateRefreshButton()
+        {
+            var refreshButton = new Button(Refresh) { text = "↻" };
+            refreshButton.style.width = _ItemHeight;
+            refreshButton.style.fontSize = _ItemHeight - 12;
+            refreshButton.style.unityFontStyleAndWeight = FontStyle.Bold;
+
+            rootVisualElement.Add(refreshButton);
+        }
+
         private static VisualElement MakeBox()
         {
             var box = new Box();
@@ -134,10 +147,7 @@ namespace TirUtilities.Editor.SignalMenus
             var loadButtion = new Button() { text = "No Active Scene" };
             box.Add(loadButtion);
 
-            var selectButton = new Button()
-            {
-                text = "Select"
-            };
+            var selectButton = new Button() { text = "Select" };
 
             selectButton.style.fontSize = _ItemHeight - 12;
             selectButton.style.unityFontStyleAndWeight = FontStyle.Bold;
@@ -176,19 +186,18 @@ namespace TirUtilities.Editor.SignalMenus
 
             var activeScene = _Signals[index].ActiveScene;
 
-            if (activeScene == string.Empty || activeScene == null)
+            if (string.IsNullOrEmpty(activeScene))
                 return button;
 
             var start = activeScene.LastIndexOf('/') + 1;
             var end = activeScene.LastIndexOf(".unity");
 
-            button.text = activeScene.Substring(start, end - start);
+            button.text = activeScene[start..end];
             button.tooltip = "Click to load this signal's level data.";
 
             button.clicked += () => _Signals[index].LoadLevelData();
 
             return button;
-            
         }
 
         #endregion
