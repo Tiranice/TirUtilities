@@ -1,4 +1,4 @@
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEditor.AnimatedValues;
 using UnityEditor.SceneManagement;
 
@@ -127,11 +127,7 @@ namespace TirUtilities.Editor
         private void RegisterDelegates()
         {
             UnregisterDelegates();
-#if UNITY_2019_1_OR_NEWER
             SceneView.duringSceneGui += OnSceneGUI;
-#else
-			SceneView.onSceneGUIDelegate += OnSceneGUI;
-#endif
             _ToolbarVisable.valueChanged.AddListener(new UnityAction(SceneView.RepaintAll));
         }
 
@@ -144,11 +140,7 @@ namespace TirUtilities.Editor
 
         private void UnregisterDelegates()
         {
-#if UNITY_2019_1_OR_NEWER
             SceneView.duringSceneGui -= OnSceneGUI;
-#else
-			SceneView.onSceneGUIDelegate -= OnSceneGUI;
-#endif
             _ToolbarVisable.valueChanged.RemoveListener(new UnityAction(SceneView.RepaintAll));
         }
 
@@ -235,36 +227,18 @@ namespace TirUtilities.Editor
                     CloseButton();
                 }
 
-                using (var scroll = new GUILayout.ScrollViewScope(_ScrollbarPosition))
+                using var scroll = new GUILayout.ScrollViewScope(_ScrollbarPosition);
+                _ScrollbarPosition = scroll.scrollPosition;
+                using var group = new EditorGUILayout.FadeGroupScope(_ToolbarVisable.faded);
+
+                if (!group.visible) return;
+
+                foreach (var page in _MenuStateMachine.MenuPages)
                 {
-                    _ScrollbarPosition = scroll.scrollPosition;
-#if UNITY_2020_2_OR_NEWER
-                    using var group = new EditorGUILayout.FadeGroupScope(_ToolbarVisable.faded);
-                    if (group.visible)
-                    {
-                        foreach (var page in _MenuStateMachine.MenuPages)
-                        {
-                            if (page == null) continue;
-                            if (page.State == null) continue;
-                            if (GUILayout.Button(page.State.name))
-                                Button_clicked(page);
-                        }
-                    }
-#else
-                    using (var group = new EditorGUILayout.FadeGroupScope(_ToolbarVisable.faded))
-                    {
-                        if (group.visible)
-                        {
-                            foreach (var page in _MenuStateMachine.MenuPages)
-                            {
-                                if (page == null) continue;
-                                if (page.State == null) continue;
-                                if (GUILayout.Button(page.State.name))
-                                    Button_clicked(page);
-                            }
-                        }
-                    }
-#endif
+                    if (page == null) continue;
+                    if (page.State == null) continue;
+                    if (GUILayout.Button(page.State.name))
+                        Button_clicked(page);
                 }
             }
         }
