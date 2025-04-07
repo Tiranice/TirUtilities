@@ -99,6 +99,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.dll.meta
 /[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.unitypackage
 /[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.unitypackage.meta
+/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.cs
+/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.cs.meta
 /[Aa]ssets/Plugins/RainbowAssets/RainbowFolders/Demo*
 /Assets/Plugins/RainbowAssets/RainbowFolders/QuickStart.pdf*
 
