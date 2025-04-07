@@ -7,6 +7,23 @@ using UnityEngine.InputSystem;
 #endif
 using UnityEngine.SceneManagement;
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.Experimental
 {
     using TirUtilities.Extensions;
@@ -14,10 +31,11 @@ namespace TirUtilities.Experimental
 
     ///<!--
     /// ApplicationStateMachine.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
     /// Created:  Jun 15, 2021
     /// Updated:  Nov 16, 2021
     /// -->
@@ -34,7 +52,7 @@ namespace TirUtilities.Experimental
         private string _mainMenuScene;
 
 #if ENABLE_INPUT_SYSTEM
-        
+
         [Header("Input System")]
 #if ODIN_INSPECTOR
         [SerializeField] private InputActionAsset _inputActions;
@@ -49,13 +67,13 @@ namespace TirUtilities.Experimental
             _inputActions.NotNull() ? _inputActions.actionMaps.Select(m => m.name)
                                     : new string[] { string.Empty };
 #else
-        
+
         ///<summary> The action map used for player input. </summary>
-        [SerializeField, Tooltip("The action map used for player input.")] 
+        [SerializeField, Tooltip("The action map used for player input.")]
         private string _playerActionMap = string.Empty;
 
         /// <summary> The action map used for UI input. </summary>
-        [SerializeField, Tooltip("The action map used for UI input.")] 
+        [SerializeField, Tooltip("The action map used for UI input.")]
         private string _uiActionMap = string.Empty;
 #endif
 #endif
@@ -64,9 +82,9 @@ namespace TirUtilities.Experimental
 
         #region States
 
-        private readonly PlayingState _playingState = new PlayingState();
-        private readonly PausedState _pausedState = new PausedState();
-        private readonly QuittingState _quittingState = new QuittingState();
+        private readonly PlayingState _playingState = new();
+        private readonly PausedState _pausedState = new();
+        private readonly QuittingState _quittingState = new();
 
         #endregion
 
@@ -98,12 +116,12 @@ namespace TirUtilities.Experimental
 
         #region Setup & Teardown
 
-        private void Wakeup() 
+        private void Wakeup()
         {
             AssignReceivers();
             AssignListeners();
         }
-        
+
         private void Startup() => CurrentState = _playingState;
 
         private void AssignReceivers()
@@ -121,8 +139,8 @@ namespace TirUtilities.Experimental
                 _playerPauseSignal.RemoveReceiver(TogglePaused);
 #endif
         }
-        
-        private void AssignListeners() 
+
+        private void AssignListeners()
         {
             if (_playSignal.NotNull())
                 _playingState.OnEnterState += _playSignal.Emit;
@@ -206,7 +224,7 @@ namespace TirUtilities.Experimental
         public bool InGame { get; set; } = false;
         public bool BlockPauseState { get; private set; } = false;
 #if ENABLE_INPUT_SYSTEM
-        public bool EnterUIModeOnPause => _enterUIModeOnPause; 
+        public bool EnterUIModeOnPause => _enterUIModeOnPause;
 
         ///<summary> The action map used for player input. </summary>
         public string PlayerActionMap => _playerActionMap;

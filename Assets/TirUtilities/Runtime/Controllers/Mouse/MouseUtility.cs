@@ -3,19 +3,37 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.Controllers
 {
     ///<!--
     /// MouseUtility.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
     /// Created:  April 24, 2021
     /// Updated:  July 13, 2021
     /// -->
     /// <summary>
-    /// Contains utility functions that make working with the mouse easier. 
+    /// Contains utility functions that make working with the Input Manager mouse easier.
     /// </summary>
     public sealed class MouseUtility
     {
@@ -26,14 +44,14 @@ namespace TirUtilities.Controllers
 
         /// <summary> Short hand for Input.GetMouseButtonDown(1) </summary>
         public static bool RightMouseButtonDown => Input.GetMouseButtonDown(1);
-        
+
         /// <summary> Short hand for Input.GetMouseButtonDown(2) </summary>
         public static bool MiddleMouseButtonDown => Input.GetMouseButtonDown(2);
 
         #endregion
 
         #region Mouse Raycast Methods 2D
-        
+
         /// <summary>
         /// Casts a ray from the camera returning true if it hits anything.
         /// </summary>
@@ -199,7 +217,7 @@ namespace TirUtilities.Controllers
         /// <param name="point">The point in the scene.</param>
         /// <param name="targetLayers">The layers that the raycast can hit.</param>
         /// <returns>True if something was hit by the raycast, otherwise false.</returns>
-        public static bool TryGetSceneVieweMousePosition(out Vector3 point, LayerMask targetLayers)
+        public static bool TryGetSceneViewMousePosition(out Vector3 point, LayerMask targetLayers)
         {
             Vector3 mousePosition = Event.current.mousePosition;
             Camera sceneCamera = SceneView.currentDrawingSceneView.camera;
@@ -265,7 +283,7 @@ namespace TirUtilities.Controllers
         /// Finds the first game object under the mouse that has an attached collider.
         /// </summary>
         /// <returns>The game object found or null.</returns>
-        public static GameObject GetGameObjectAtMousePosition() => 
+        public static GameObject GetGameObjectAtMousePosition() =>
             MouseRaycast(out RaycastHit raycastHit) ? raycastHit.collider.gameObject : null;
 
         /// <summary>
@@ -273,7 +291,7 @@ namespace TirUtilities.Controllers
         /// </summary>
         /// <returns>The game object found or null.</returns>
         public static GameObject GetGameObjectAtMousePosition(LayerMask targetLayers) =>
-            MouseRaycast(out RaycastHit raycastHit, targetLayers) ? raycastHit.collider.gameObject 
+            MouseRaycast(out RaycastHit raycastHit, targetLayers) ? raycastHit.collider.gameObject
                                                                   : null;
 
         /// <summary>

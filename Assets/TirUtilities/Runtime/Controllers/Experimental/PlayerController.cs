@@ -6,17 +6,34 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 #endif
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.Controllers.Experimental
 {
     using TirUtilities.Extensions;
     using TirUtilities.Signals;
     ///<!--
     /// PlayerController.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
-    /// Company:  BlackPheonixSoftware
+    /// Company:  Black Pheonix Creative
     /// Created:  Sep 26, 2021
     /// Updated:  Oct 13, 2021
     /// -->
@@ -25,22 +42,14 @@ namespace TirUtilities.Controllers.Experimental
     /// </summary>
     [DisallowMultipleComponent, RequireComponent(typeof(CharacterController))]
 #if ENABLE_INPUT_SYSTEM
-    [RequireComponent(typeof(PlayerInput)), RequireComponent(typeof(InputSignalReceiver))] 
+    [RequireComponent(typeof(PlayerInput)), RequireComponent(typeof(InputSignalReceiver))]
 #endif
     public class PlayerController : MonoBehaviour
     {
-        #region Constants
-
         private const float _LookThreshold = 0.01f;
-
-        #endregion
-
-        #region Data Structures
 
         [System.Serializable]
         private enum ControllerType { FirstPerson, ThirdPerson, }
-
-        #endregion
 
         #region Inspector Fields
 
@@ -65,7 +74,7 @@ namespace TirUtilities.Controllers.Experimental
         [SerializeField] private Camera _mainCamera;
 #if ENABLE_CINEMACHINE
         [SerializeField] private CinemachineVirtualCamera _mainVCam;
-        [SerializeField] private CinemachineVirtualCamera _sprintVCam; 
+        [SerializeField] private CinemachineVirtualCamera _sprintVCam;
 #endif
         [Space]
         [Tooltip("How far in degrees can you move the camera up")]
@@ -99,7 +108,9 @@ namespace TirUtilities.Controllers.Experimental
 
         private Vector2 _move;
         private Vector2 _look;
+#pragma warning disable IDE0052 // Remove unread private members
         private bool _isJumping;
+#pragma warning restore IDE0052 // Remove unread private members
         private bool _isSprinting;
 
         #endregion

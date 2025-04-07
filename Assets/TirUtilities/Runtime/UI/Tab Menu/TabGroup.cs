@@ -1,17 +1,36 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+
 using UnityEngine;
+
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
 
 namespace TirUtilities.UI
 {
     ///<!--
     /// TabGroup.cs
-    /// 
+    ///
     /// Project:  TirUtilities
     /// 
-    /// Author :  Devon Wilson  
-    /// Created:  Oct. 08, 2020
-    /// Updated:  July 03, 2021
+    /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
+    /// Created:  Oct 08, 2020
+    /// Updated:  Jul 03, 2021
     /// -->
     /// <summary>
     /// Derived from code written by Matt Gambell https://youtu.be/211t6r12XPQ
@@ -26,14 +45,14 @@ namespace TirUtilities.UI
         [SerializeField, Tooltip("The panel where all of the buttons live.")]
         private GameObject _tabButtonPanel;
 
-        [DisplayOnly, SerializeField, Tooltip("All tabs associated with this group.")] 
+        [DisplayOnly, SerializeField, Tooltip("All tabs associated with this group.")]
         private List<TabButton> _tabButtons;
-        [Tooltip("Tab unselected."), SerializeField] 
+        [Tooltip("Tab unselected."), SerializeField]
         private Sprite _tabIdle;
-        [Tooltip("Tab clicked."), SerializeField] 
+        [Tooltip("Tab clicked."), SerializeField]
         private Sprite _tabSelected;
-        [Tooltip("Defaults to #c8c8c8"), SerializeField] 
-        private Color _hoverColor = new Color(_ShadeColor, _ShadeColor, _ShadeColor);
+        [Tooltip("Defaults to #c8c8c8"), SerializeField]
+        private Color _hoverColor = new(_ShadeColor, _ShadeColor, _ShadeColor);
 
         #endregion
 
@@ -76,8 +95,7 @@ namespace TirUtilities.UI
                 return tabBIndex == 0 ? 0 : -1;
             }
             // tabB is the top
-            else if (tabBIndex == 0) return 1;
-            else return tabAIndex.CompareTo(tabBIndex);
+            else return tabBIndex == 0 ? 1 : tabAIndex.CompareTo(tabBIndex);
         }
 
         /// <summary>

@@ -3,21 +3,38 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 #endif
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.Controllers.Experimental
 {
     using TirUtilities.Signals;
     ///<!--
     /// InputSignals.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
-    /// Company:  BlackPheonixSoftware
+    /// Company:  Black Pheonix Creative
     /// Created:  Sep 26, 2021
     /// Updated:  Oct 13, 2021
     /// -->
     /// <summary>
-    ///
+    /// Unfinished.  Use at your own risk.
     /// </summary>
     public class InputSignalReceiver : MonoBehaviour
     {
@@ -27,10 +44,12 @@ namespace TirUtilities.Controllers.Experimental
         [SerializeField] private bool _verboseLogging = false;
 
         [Header("Player Input Values")]
+#pragma warning disable IDE0052 // Remove unread private members
         [SerializeField, DisplayOnly] private Vector2 _move;
         [SerializeField, DisplayOnly] private Vector2 _look;
         [SerializeField, DisplayOnly] private bool _isJumping;
         [SerializeField, DisplayOnly] private bool _isSprinting;
+#pragma warning restore IDE0052 // Remove unread private members
 
         //[Header("Movement Settings")]
         //[SerializeField] private bool _analogMovement;
