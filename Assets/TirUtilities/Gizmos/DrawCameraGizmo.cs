@@ -58,22 +58,21 @@ namespace TirUtilities.CustomGizmos
 
         private void OnDrawGizmos()
         {
-            if (_camera.NotNull())
+            if (_camera.IsNull()) return;
+
+            Gizmos.matrix = _camera.transform.localToWorldMatrix;
+
+            if (_drawFrustum)
             {
-                Gizmos.matrix = _camera.transform.localToWorldMatrix;
+                Gizmos.color = _frustumColor;
+                Gizmos.DrawFrustum(Vector3.zero, _camera.fieldOfView, _camera.farClipPlane, _camera.nearClipPlane, _camera.aspect);
+            }
 
-                if (_drawFrustum)
-                {
-                    Gizmos.color = _frustumColor;
-                    Gizmos.DrawFrustum(Vector3.zero, _camera.fieldOfView, _camera.farClipPlane, _camera.nearClipPlane, _camera.aspect);
-                }
-
-                if (_drawForwardLine)
-                {
-                    Gizmos.color = _lineColor;
-                    var forwardVector = new Vector3(0.0f, 0.0f, _camera.transform.position.z).normalized;
-                    Gizmos.DrawLine(Vector3.zero, forwardVector  * -_lineLength);
-                }
+            if (_drawForwardLine)
+            {
+                Gizmos.color = _lineColor;
+                var forwardVector = new Vector3(0.0f, 0.0f, _camera.transform.position.z).normalized;
+                Gizmos.DrawLine(Vector3.zero, forwardVector * -_lineLength);
             }
         }
 
