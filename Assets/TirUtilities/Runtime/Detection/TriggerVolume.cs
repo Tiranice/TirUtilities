@@ -31,7 +31,7 @@ namespace TirUtilities.Detection
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
     /// Created:  Jan 20, 2021
-    /// Updated:  May 04, 2022
+    /// Updated:  Apr 06, 2025
     /// -->
     /// <summary>
     /// Checks if the object that enter's its collider is on a layer in the layer mask.  If it was,
