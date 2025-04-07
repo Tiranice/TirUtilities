@@ -28,7 +28,7 @@ namespace TirUtilities.CustomGizmos
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
     /// Created:  May 29, 2021
-    /// Updated:  Jan 03, 2022
+    /// Updated:  Apr 06, 2025
     /// -->
     /// <summary>
     /// Draws a gizmo for the given collider.
@@ -50,6 +50,9 @@ namespace TirUtilities.CustomGizmos
     [AddComponentMenu("TirUtilities/Gizmos/Draw Collider Gizmo"), RequireComponent(typeof(Collider))]
     public class DrawColliderGizmo : MonoBehaviour
     {
+        [System.Flags]
+        private enum Vector3Direction { Forward, Backward, Up, Down, Left, Right, }
+
         #region Inspector Fields
 
         [Header("Collider")]
@@ -59,7 +62,9 @@ namespace TirUtilities.CustomGizmos
         [SerializeField] private bool _drawWhenNotSelected = true;
         [SerializeField] private bool _drawSolidShape = true;
         [Space]
-        [SerializeField] private Color _gizmoColor = new Color(1, 0, 1, 0.5f);
+        [SerializeField] private Vector3Direction _drawDirections = (Vector3Direction)~0;
+        [Space]
+        [SerializeField] private Color _gizmoColor = new(1, 0, 1, 0.5f);
         [SerializeField] private float _sizeScaler = 1.0f;
         [Space]
         [SerializeField] private float _lineThickness = 2.0f;
