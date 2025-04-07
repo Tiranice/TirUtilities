@@ -73,21 +73,11 @@ namespace TirUtilities.CustomGizmos
 
         #region Unity Messages
 
-        private void OnValidate()
-        {
-            if (_collider.IsNull()) TryGetComponent(out _collider);
-        }
+        private void OnValidate() { if (_collider.IsNull()) TryGetComponent(out _collider); }
 
+        private void OnDrawGizmosSelected() { if (!_drawWhenNotSelected) DrawGizmo(); }
 
-        private void OnDrawGizmosSelected()
-        {
-            if (!_drawWhenNotSelected) DrawGizmo();
-        }
-
-        private void OnDrawGizmos()
-        {
-            if (_drawWhenNotSelected) DrawGizmo();
-        }
+        private void OnDrawGizmos() { if (_drawWhenNotSelected) DrawGizmo(); }
 
         #endregion
 
