@@ -81,13 +81,8 @@ namespace TirUtilities.Serialization
             }
 
             return parsedObjects;
-#if UNITY_2020_2_OR_NEWER
             static bool IsStartOfNewObject(string line) => line.Equals("{");
             static bool IsEndOfJsonObject(string line) => line.Equals("}") || line.Equals("},");
-#else
-            bool IsStartOfNewObject(string line) => line.Equals("{");
-            bool IsEndOfJsonObject(string line) => line.Equals("}") || line.Equals("},");
-#endif
         }
 
         /// <summary>
@@ -105,8 +100,8 @@ namespace TirUtilities.Serialization
             string[] lines;
             try { lines = File.ReadAllLines(path); }
 
-            catch (System.Exception) 
-            { 
+            catch (System.Exception)
+            {
                 data = null;
                 return false;
             }
@@ -133,13 +128,8 @@ namespace TirUtilities.Serialization
             data = parsedObjects;
             return true;
 
-#if UNITY_2020_2_OR_NEWER
             static bool IsStartOfNewObject(string line) => line.Equals("{");
             static bool IsEndOfJsonObject(string line) => line.Equals("}") || line.Equals("},");
-#else
-            bool IsStartOfNewObject(string line) => line.Equals("{");
-            bool IsEndOfJsonObject(string line) => line.Equals("}") || line.Equals("},");
-#endif
         }
 
     }
