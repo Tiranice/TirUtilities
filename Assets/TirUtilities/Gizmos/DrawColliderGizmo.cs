@@ -120,7 +120,7 @@ namespace TirUtilities.CustomGizmos
             else if (_collider is CharacterController characterController)
             {
                 // TODO:  Implement a way to draw a solid gizmo.
-                TirGizmos.DrawWireCapsule(characterController, _sizeScaler, _lineThickness); 
+                TirGizmos.DrawWireCapsule(characterController, _sizeScaler, _lineThickness);
             }
         }
 
