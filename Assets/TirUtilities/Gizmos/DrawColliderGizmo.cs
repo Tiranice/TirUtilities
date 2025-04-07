@@ -51,7 +51,13 @@ namespace TirUtilities.CustomGizmos
     public class DrawColliderGizmo : MonoBehaviour
     {
         [System.Flags]
-        private enum Vector3Direction { Forward, Backward, Up, Down, Left, Right, }
+        private enum Vector3Direction
+        {
+            Nothing = 0,
+            Forward, Backward,
+            Up, Down,
+            Left, Right,
+        }
 
         #region Inspector Fields
 
@@ -63,7 +69,7 @@ namespace TirUtilities.CustomGizmos
         [SerializeField] private bool _drawWhenNotSelected = true;
         [SerializeField] private bool _drawSolidShape = true;
         [Space]
-        [SerializeField] private Vector3Direction _drawDirections = (Vector3Direction)~0;
+        [SerializeField] private Vector3Direction _drawDirections = Vector3Direction.Nothing;
         [Space]
         [SerializeField] private Color _gizmoColor = new(1, 0, 1, 0.5f);
         [SerializeField] private float _sizeScaler = 1.0f;
