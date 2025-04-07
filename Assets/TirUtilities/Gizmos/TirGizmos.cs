@@ -67,7 +67,7 @@ namespace TirUtilities.CustomGizmos
             if (radius >= halfHeight)
                 Gizmos.DrawWireSphere(capsuleCollider.center, radius);
             else
-                DrawWireCapsuleInternal(one, two, radius, lineThickness);
+                DrawWireCapsule(one, two, radius, lineThickness);
 #endif
         }
 
@@ -98,7 +98,7 @@ namespace TirUtilities.CustomGizmos
             if (radius >= halfHeight)
                 Gizmos.DrawWireSphere(characterController.center, radius);
             else
-                DrawWireCapsuleInternal(one, two, radius, lineThickness);
+                DrawWireCapsule(one, two, radius, lineThickness);
 #endif
         }
 
@@ -155,7 +155,7 @@ namespace TirUtilities.CustomGizmos
             return (p1, p2);
         }
 
-        private static void DrawWireCapsuleInternal(Vector3 p1, Vector3 p2, float radius, float lineThickness = 0)
+        private static void DrawWireCapsule(Vector3 p1, Vector3 p2, float radius, float lineThickness = 0)
         {
             #region Special case when both points are in the same position
 
