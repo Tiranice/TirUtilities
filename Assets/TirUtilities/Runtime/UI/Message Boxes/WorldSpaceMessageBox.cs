@@ -1,19 +1,37 @@
-using TirUtilities.Extensions;
-using TirUtilities.Signals;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.UI
 {
+    using TirUtilities.Extensions;
+    using TirUtilities.Signals;
     ///<!--
     /// MessagePanel.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    /// 
+    ///
     /// Author :  Devon Wilson
-    /// Created:  Mar. 27, 2021
-    /// Updated:  April 02, 2021
+    /// Company:  Black Phoenix Creative
+    /// Created:  Mar 27, 2021
+    /// Updated:  Apr 02, 2021
     /// -->
     /// <summary>
     /// A world space UI panel that holds TMP text and links to another message.
@@ -25,14 +43,14 @@ namespace TirUtilities.UI
 
         [Tooltip("Whether or not this message is the first in a chain.")]
         [SerializeField] private bool _isFirstMessage = false;
-        [Space(2)]
+        [Space(20)]
 
         [Header("Child UI Elements")]
         [Tooltip("The button that dismisses this message & opens the next one.")]
         [SerializeField] private Button _dismissButton;
         [Tooltip("The panel that the text appears in.")]
         [SerializeField] private GameObject _panel;
-        [Space(2)]
+        [Space(20)]
 
         [Header("Relatives")]
         [Tooltip("This game object will be activated when the message box is closed.")]
@@ -81,7 +99,7 @@ namespace TirUtilities.UI
         #region Setup & Teardown
 
         /// <summary>
-        /// Cache the <see cref="_dismissButton">Dismiss Button</see> & setup event listeners.
+        /// Cache the <see cref="_dismissButton">Dismiss Button</see> and setup event listeners.
         /// </summary>
         private void Setup()
         {
@@ -106,7 +124,7 @@ namespace TirUtilities.UI
 
         /// <summary>
         /// Deactivate this message's game object, activate the <see cref="_nextMessage">Next Message</see>,
-        /// & invoke <see cref="OnMessageBoxDismissed">On Message Box Dismissed</see>.
+        /// and invoke <see cref="OnMessageBoxDismissed">On Message Box Dismissed</see>.
         /// </summary>
         private void DismissMessages()
         {

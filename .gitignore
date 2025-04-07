@@ -95,12 +95,7 @@ crashlytics-build.properties
 /[Aa]ssets/**/obj.meta
 
 # Rainbow Folders Plugin
-/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.dll
-/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.dll.meta
-/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.unitypackage
-/[Aa]ssets/[Pp]lugins/[Rr]ainbow[Aa]ssets/**/*.unitypackage.meta
-/[Aa]ssets/Plugins/RainbowAssets/RainbowFolders/Demo*
-/Assets/Plugins/RainbowAssets/RainbowFolders/QuickStart.pdf*
+/[Aa]ssets/[Pp]lugins/[Bb]orodar/[Rr]ainbow[Ff]olders/**/*.cs
 
 # Code Coverage Results
 /[Cc]ode[Cc]overage/

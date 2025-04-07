@@ -1,7 +1,26 @@
 using System.Collections.Generic;
 using System.IO;
+
 using UnityEditor;
+
 using UnityEngine;
+
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU Lesser General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
 
 namespace TirUtilities.Editor
 {
@@ -14,10 +33,11 @@ namespace TirUtilities.Editor
     /// MenuPageInspector.cs
     /// 
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
     /// Created:  Sep 09, 2021
-    /// Updated:  Oct 10, 2021
+    /// Updated:  Mar 26, 2025
     /// -->
     /// <summary>
     ///
@@ -32,7 +52,7 @@ namespace TirUtilities.Editor
 
         #endregion
 
-        private readonly List<SerializedProperty> _drawnProperites = new List<SerializedProperty>();
+        private readonly List<SerializedProperty> _drawnProperites = new();
 
         private SerializedProperty _menuState;
 
@@ -42,7 +62,6 @@ namespace TirUtilities.Editor
 
         private bool DrawInspector()
         {
-#if UNITY_2020_2_OR_NEWER
             using var checkScope = new EditorGUI.ChangeCheckScope();
 
             serializedObject.UpdateIfRequiredOrScript();
@@ -56,22 +75,6 @@ namespace TirUtilities.Editor
             DrawRest(propertyIterator);
 
             return checkScope.changed;
-#else
-            using (var checkScope = new EditorGUI.ChangeCheckScope())
-            {
-                serializedObject.UpdateIfRequiredOrScript();
-
-                var propertyIterator = serializedObject.GetIterator();
-
-                DrawScriptProperty(propertyIterator);
-
-                MenuStateProperty();
-
-                DrawRest(propertyIterator);
-
-                return checkScope.changed;
-            }
-#endif
         }
 
         private void MenuStateProperty()

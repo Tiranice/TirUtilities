@@ -4,6 +4,23 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.UI
 {
     using TirUtilities.Extensions;
@@ -11,12 +28,13 @@ namespace TirUtilities.UI
     using static TirLogger;
     ///<!--
     /// MenuStateMachine.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    /// 
+    ///
     /// Author :  Devon Wilson
-    /// Created:  June 03, 2021
-    /// Updated:  Aug. 22, 2021
+    /// Company:  Black Phoenix Creative
+    /// Created:  Jun 03, 2021
+    /// Updated:  Aug 22, 2021
     /// -->
     /// <summary>
     /// Controls the state of a set of <see cref="MenuPage"/> objects in the scene.
@@ -26,10 +44,10 @@ namespace TirUtilities.UI
         #region Data Structures
 
         /// <summary> The set of states and the pages they link to. </summary>
-        private readonly Dictionary<MenuState, MenuPage> _transitions = new Dictionary<MenuState, MenuPage>();
+        private readonly Dictionary<MenuState, MenuPage> _transitions = new();
 
         /// <summary> The states that were visited before the current one. </summary>
-        private readonly Stack<MenuState> _history = new Stack<MenuState>();
+        private readonly Stack<MenuState> _history = new();
 
         #endregion
 
@@ -42,6 +60,8 @@ namespace TirUtilities.UI
         [Space]
         [Tooltip("All of the pages that this state machine manages.")]
         [SerializeField] private List<MenuPage> _menuPages;
+        public List<MenuPage> MenuPages => _menuPages;
+
 
         [Header("Controls")]
         [Tooltip("The button that routes back to the previous menu page.")]
@@ -144,12 +164,6 @@ namespace TirUtilities.UI
             if (_activePage.NotNull())
                 _activePage.HidePanel();
         }
-
-        #endregion
-
-        #region Public Properties
-
-        public List<MenuPage> MenuPages => _menuPages;
 
         #endregion
     }
