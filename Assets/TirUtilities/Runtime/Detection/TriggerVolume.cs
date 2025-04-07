@@ -75,7 +75,6 @@ namespace TirUtilities.Detection
         /// </summary>
         private void ColliderSetup()
         {
-#if UNITY_2019_2_OR_NEWER
             if (TryGetComponent(out Collider collider))
             {
                 if (collider is MeshCollider meshCollider)
@@ -83,15 +82,6 @@ namespace TirUtilities.Detection
 
                 collider.isTrigger = true;
             }
-#else
-            if (GetComponent<Collider>() is Collider collider)
-            {
-                if (collider is MeshCollider meshCollider)
-                    meshCollider.convex = true;
-
-                collider.isTrigger = true;
-            }
-#endif
         }
 
         /// <summary>
