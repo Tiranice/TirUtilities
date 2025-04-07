@@ -88,28 +88,11 @@ namespace TirUtilities.CustomGizmos
             if (_collider.IsNull()) return;
 
             Gizmos.color = _gizmoColor;
-            Gizmos.matrix = transform.localToWorldMatrix;
-            if (_collider is BoxCollider)
-            {
-                if (_drawSolidShape)
-                    Gizmos.DrawCube(Vector3.zero, Vector3.one * _sizeScaler);
-                else
-                    Gizmos.DrawWireCube(Vector3.zero, Vector3.one * _sizeScaler);
-            }
-            else if (_collider is SphereCollider)
-            {
-                if (_drawSolidShape)
-                    Gizmos.DrawSphere(Vector3.zero, 0.5f * _sizeScaler);
-                else
-                    Gizmos.DrawWireSphere(Vector3.zero, 0.5f * _sizeScaler);
-            }
-            else if (_collider is MeshCollider meshCollider)
-            {
-                if (_drawSolidShape)
-                    Gizmos.DrawMesh(meshCollider.sharedMesh, Vector3.zero, Quaternion.identity, Vector3.one * _sizeScaler);
-                else
-                    Gizmos.DrawWireMesh(meshCollider.sharedMesh, Vector3.zero, Quaternion.identity, Vector3.one * _sizeScaler);
-            }
+            Gizmos.matrix = _collider.transform.localToWorldMatrix;
+
+            if      (_collider is BoxCollider)               DrawBoxGizmo();
+            else if (_collider is SphereCollider)            DrawSphereGizmo();
+            else if (_collider is MeshCollider meshCollider) DrawMeshGizmo(meshCollider);
             else if (_collider is CapsuleCollider capsuleCollider)
             {
                 // TODO:  Implement a way to draw a solid gizmo.
@@ -120,6 +103,30 @@ namespace TirUtilities.CustomGizmos
                 // TODO:  Implement a way to draw a solid gizmo.
                 TirGizmos.DrawWireCapsule(characterController, _sizeScaler, _lineThickness); 
             }
+        }
+
+        private void DrawMeshGizmo(MeshCollider meshCollider)
+        {
+            if (_drawSolidShape)
+                Gizmos.DrawMesh(meshCollider.sharedMesh, Vector3.zero, Quaternion.identity, Vector3.one * _sizeScaler);
+            else
+                Gizmos.DrawWireMesh(meshCollider.sharedMesh, Vector3.zero, Quaternion.identity, Vector3.one * _sizeScaler);
+        }
+
+        private void DrawSphereGizmo()
+        {
+            if (_drawSolidShape)
+                Gizmos.DrawSphere(Vector3.zero, 0.5f * _sizeScaler);
+            else
+                Gizmos.DrawWireSphere(Vector3.zero, 0.5f * _sizeScaler);
+        }
+
+        private void DrawBoxGizmo()
+        {
+            if (_drawSolidShape)
+                Gizmos.DrawCube(Vector3.zero, Vector3.one * _sizeScaler);
+            else
+                Gizmos.DrawWireCube(Vector3.zero, Vector3.one * _sizeScaler);
         }
 
         #endregion
