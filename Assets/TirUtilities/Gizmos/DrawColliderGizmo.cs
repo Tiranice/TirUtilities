@@ -39,7 +39,7 @@ namespace TirUtilities.CustomGizmos
     ///     <item> BoxCollider </item>
     ///     <item> SphereCollider </item>
     ///     <item> MeshCollider </item>
-    ///     <item> CapsuleCollider � <description> Only wire gizmo. </description> </item>
+    ///     <item> CapsuleCollider - <description> Only wire gizmo. </description> </item>
     /// </list>
     /// </remarks>
     // TODO:  Add line gizmos for the vector3 directions.
