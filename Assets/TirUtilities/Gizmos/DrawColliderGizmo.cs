@@ -57,6 +57,7 @@ namespace TirUtilities.CustomGizmos
 
         [Header("Collider")]
         [SerializeField] private Collider _collider;
+        private Transform _transform;
 
         [Header("Gizmo Settings")]
         [SerializeField] private bool _drawWhenNotSelected = true;
@@ -73,7 +74,11 @@ namespace TirUtilities.CustomGizmos
 
         #region Unity Messages
 
-        private void OnValidate() { if (_collider.IsNull()) TryGetComponent(out _collider); }
+        private void OnValidate()
+        {
+            if (_collider.IsNull()) TryGetComponent(out _collider);
+            _transform = _collider.transform;
+        }
 
         private void OnDrawGizmosSelected() { if (!_drawWhenNotSelected) DrawGizmo(); }
 
@@ -87,8 +92,16 @@ namespace TirUtilities.CustomGizmos
         {
             if (_collider.IsNull()) return;
 
-            Gizmos.color = _gizmoColor;
             Gizmos.matrix = _collider.transform.localToWorldMatrix;
+
+            if (_drawDirections.HasFlag(Vector3Direction.Left))     DrawLine(-_transform.right,   Color.magenta);
+            if (_drawDirections.HasFlag(Vector3Direction.Right))    DrawLine( _transform.right,   Color.red);
+            if (_drawDirections.HasFlag(Vector3Direction.Up))       DrawLine( _transform.up,      Color.green);
+            if (_drawDirections.HasFlag(Vector3Direction.Down))     DrawLine(-_transform.up,      Color.yellow);
+            if (_drawDirections.HasFlag(Vector3Direction.Forward))  DrawLine( _transform.forward, Color.blue);
+            if (_drawDirections.HasFlag(Vector3Direction.Backward)) DrawLine(-_transform.forward, Color.cyan);
+
+            Gizmos.color = _gizmoColor;
 
             if      (_collider is BoxCollider)               DrawBoxGizmo();
             else if (_collider is SphereCollider)            DrawSphereGizmo();
@@ -103,6 +116,12 @@ namespace TirUtilities.CustomGizmos
                 // TODO:  Implement a way to draw a solid gizmo.
                 TirGizmos.DrawWireCapsule(characterController, _sizeScaler, _lineThickness); 
             }
+        }
+
+        private void DrawLine(Vector3 direction, Color color)
+        {
+            Gizmos.color = color;
+            Gizmos.DrawRay(_collider.transform.position, direction);
         }
 
         private void DrawMeshGizmo(MeshCollider meshCollider)
