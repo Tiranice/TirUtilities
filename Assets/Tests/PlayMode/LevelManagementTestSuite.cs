@@ -38,7 +38,9 @@ namespace TirUtilities.Runtime.Tests
             {
                 Assert.That(_DummyAdditiveLevelData.Equals(_DummyLevelData), Is.False);
                 Assert.That(_DummyAdditiveLevelData.Equals(_DummyAdditiveLevelData), Is.True);
+#pragma warning disable CS1718 // Comparison made to same variable
                 Assert.That(_DummyAdditiveLevelData == _DummyAdditiveLevelData, Is.True);
+#pragma warning restore CS1718 // Comparison made to same variable
                 Assert.That(_DummyAdditiveLevelData != _DummyLevelData, Is.True);
             }
         }
