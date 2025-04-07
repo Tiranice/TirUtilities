@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 ///<!--
 ///     Copyright (C) 2025  Devon Wilson
@@ -21,6 +22,7 @@ namespace TirUtilities.Detection
 {
     using TirUtilities.CustomEvents;
     using TirUtilities.Extensions;
+
     ///<!--
     /// TriggerVolume.cs
     ///
@@ -49,10 +51,15 @@ namespace TirUtilities.Detection
 
         #region Events
 
+        [Header("Trigger Volume Event")]
         /// <summary>
         /// Subscribed methods will be passed a true and the game object that entered the volume.
         /// </summary>
         [SerializeField] private TriggerVolumeEvent OnEnterVolume;
+        [Space(20)]
+        [Header("Unity Events")]
+        [SerializeField] private UnityEvent OnTriggerEntered;
+        [SerializeField] private UnityEvent OnTriggerExited;
 
         public System.Action<bool, GameObject> OnVolumeTriggered;
 
@@ -99,6 +106,9 @@ namespace TirUtilities.Detection
 
             OnEnterVolume.SafeInvoke(entered, other.gameObject);
             OnVolumeTriggered?.Invoke(entered, other.gameObject);
+
+            if (entered) OnTriggerEntered.SafeInvoke();
+            else OnTriggerExited.SafeInvoke();
         }
 
         #endregion
