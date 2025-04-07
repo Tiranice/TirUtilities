@@ -32,7 +32,7 @@ namespace TirUtilities.CustomGizmos
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
     /// Created:  May 28, 2021
-    /// Updated:  Jan 09, 2022
+    /// Updated:  Apr 06, 2025
     /// -->
     /// <summary>
     /// A collection of gizmos that function like those from UnityEngine.Gizmos.
@@ -188,7 +188,6 @@ namespace TirUtilities.CustomGizmos
                 var p2LeftFrom = p2Rotation * Vector3.down;
                 var p2UpRotation = p2Rotation * Vector3.up;
 
-#if UNITY_2020_2_OR_NEWER
                 // First side
                 Handles.DrawWireArc(p1, p1ArcLeftNormal, p1LeftFrom, 180f, radius, lineThickness);
                 Handles.DrawWireArc(p1, p1ArcUpNormal, p1ArcLeftNormal, 180f, radius, lineThickness);
@@ -202,24 +201,9 @@ namespace TirUtilities.CustomGizmos
                 Handles.DrawLine(p1 + p1Rotation * Vector3.left * radius, p2 + p2Rotation * Vector3.right * radius, lineThickness);
                 Handles.DrawLine(p1 + p1Rotation * Vector3.up * radius, p2 + p2Rotation * Vector3.up * radius, lineThickness);
                 Handles.DrawLine(p1 + p1Rotation * Vector3.right * radius, p2 + p2Rotation * Vector3.left * radius, lineThickness);
-#else
-                // First side
-                Handles.DrawWireArc(p1, p1Rotation * Vector3.left, p1Rotation * Vector3.down, 180f, radius);
-                Handles.DrawWireArc(p1, p1Rotation * Vector3.up, p1Rotation * Vector3.left, 180f, radius);
-                Handles.DrawWireDisc(p1, (p2 - p1).normalized, radius);
-                // Second side
-                Handles.DrawWireArc(p2, p2Rotation * Vector3.left, p2Rotation * Vector3.down, 180f, radius);
-                Handles.DrawWireArc(p2, p2Rotation * Vector3.up, p2Rotation * Vector3.left, 180f, radius);
-                Handles.DrawWireDisc(p2, (p1 - p2).normalized, radius);
-                // Lines
-                Handles.DrawLine(p1 + p1Rotation * Vector3.down * radius, p2 + p2Rotation * Vector3.down * radius);
-                Handles.DrawLine(p1 + p1Rotation * Vector3.left * radius, p2 + p2Rotation * Vector3.right * radius);
-                Handles.DrawLine(p1 + p1Rotation * Vector3.up * radius, p2 + p2Rotation * Vector3.up * radius);
-                Handles.DrawLine(p1 + p1Rotation * Vector3.right * radius, p2 + p2Rotation * Vector3.left * radius);
-#endif
             }
-#endif            
-        } 
+#endif
+        }
 
         #endregion
     }
