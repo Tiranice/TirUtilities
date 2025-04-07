@@ -1,14 +1,32 @@
 using UnityEngine;
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.Automation
 {
     using TirUtilities.Extensions;
     ///<!--
     /// AutoRotate.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    ///        
+    ///
     /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
     /// Created:  Apr 27, 2021
     /// Updated:  Sep 22, 2021
     /// -->
@@ -64,28 +82,12 @@ namespace TirUtilities.Automation
         {
             if (!_shouldRotate) return;
 
-#if UNITY_2020_2_OR_NEWER
             var axis = _axis switch
             {
                 Axis.X => Vector3.right,
                 Axis.Z => Vector3.forward,
                 _ => Vector3.up,
             };
-#else
-            Vector3 axis = Vector3.zero;
-            switch (_axis)
-            {
-                case Axis.X:
-                    axis = Vector3.right;
-                    break;
-                case Axis.Z:
-                    axis = Vector3.forward;
-                    break;
-                default:
-                    axis = Vector3.up;
-                    break;
-            }
-#endif
             _transform.Rotate(axis, _degreesPerSec * Time.deltaTime);
         }
 

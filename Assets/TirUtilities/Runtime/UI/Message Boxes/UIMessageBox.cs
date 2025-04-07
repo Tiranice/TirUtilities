@@ -1,46 +1,55 @@
-using TirUtilities.Extensions;
 using TMPro;
+
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.UI
 {
+    using TirUtilities.Extensions;
     ///<!--
     /// UIMessageBox.cs
     /// 
     /// Project:  TirUtilities
     /// 
     /// Author :  Devon Wilson
-    /// Created:  Mar. 29, 2021
-    /// Updated:  Mar. 29, 2021
+    /// Company:  Black Phoenix Creative
+    /// Created:  Mar 29, 2021
+    /// Updated:  Mar 29, 2021
     /// -->
     /// <summary>
     ///
     /// </summary>
     public class UIMessageBox : MonoBehaviour
     {
-        #region Inspector Fields
-
         [SerializeField][TextArea] private string _text;
-        [Space(2)]
+        [Space(20)]
 
         [SerializeField] private Button _dismissButton;
-        [Space(2)]
+        [Space(20)]
 
         [SerializeField] private TextMeshProUGUI _textUGUI;
         [SerializeField] private TextMeshProUGUI _icon;
-        [Space(2)]
-
-        #endregion
-
-        #region Events
+        [Space(20)]
 
         public UnityEvent OnDissmissed;
-
-        #endregion
-
-        #region Unity Messages
 
         private void OnValidate()
         {
@@ -49,7 +58,5 @@ namespace TirUtilities.UI
         }
 
         private void Start() => _dismissButton.onClick.AddListener(() => gameObject.SetActive(false));
-
-        #endregion
     }
 }

@@ -1,18 +1,37 @@
 using System.Collections.Generic;
-using TirUtilities.Extensions;
+
 using UnityEngine;
 using UnityEngine.Events;
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.UI
 {
+    using TirUtilities.Extensions;
     ///<!--
     /// MessagePanel.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    /// 
+    ///
     /// Author :  Devon Wilson
-    /// Created:  Mar. 27, 2021
-    /// Updated:  April 02, 2021
+    /// Company:  Black Phoenix Creative
+    /// Created:  Mar 27, 2021
+    /// Updated:  Apr 02, 2021
     /// -->
     /// <summary>
     /// A UI panel that displays TMP text elements and moves through them in order.
@@ -20,33 +39,19 @@ namespace TirUtilities.UI
     [AddComponentMenu("TirUtilities/UI/Message Panel")]
     public class MessagePanel : MonoBehaviour
     {
-        #region Inspector Fields
-
         [Tooltip("The UI panel that holds the messages.")]
         [SerializeField] private GameObject _messagePanel;
 
         [Tooltip("A list of messages in the order that they should be displayed.")]
-        [SerializeField] private List<GameObject> _messages = new List<GameObject>();
-
-        #endregion
-
-        #region Private Fields
+        [SerializeField] private List<GameObject> _messages = new();
 
         /// <summary> The index of the message currently being displayed. </summary>
         private int _listPosistion = 0;
-
-        #endregion
-
-        #region Events
 
         /// <summary> 
         /// Invoked after the <see cref="_messagePanel">Message Panel</see> is deactivated. 
         /// </summary>
         public UnityEvent OnMessagePanelClosed;
-
-        #endregion
-
-        #region Public Methods
 
         /// <summary>
         /// Activates the next message in the <see cref="_messages">Messages</see> list.
@@ -70,7 +75,5 @@ namespace TirUtilities.UI
             _messagePanel.SetActive(false);
             OnMessagePanelClosed.SafeInvoke();
         }
-
-        #endregion
     }
 }

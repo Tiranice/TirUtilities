@@ -3,16 +3,34 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+///<!--
+///     Copyright (C) 2025  Devon Wilson
+///
+///     This program is free software: you can redistribute it and/or modify
+///     it under the terms of the GNU Lesser General Public License as published
+///     by the Free Software Foundation, either version 3 of the License, or
+///     (at your option) any later version.
+///
+///     This program is distributed in the hope that it will be useful,
+///     but WITHOUT ANY WARRANTY; without even the implied warranty of
+///     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+///     GNU Lesser General Public License for more details.
+///
+///     You should have received a copy of the GNU General Public License
+///     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+///-->
+
 namespace TirUtilities.UI
 {
     ///<!--
     /// TabButton.cs
-    /// 
+    ///
     /// Project:  TirUtilities
-    /// 
-    /// Author :  Devon Wilson  
-    /// Created:  Oct. 08, 2020
-    /// Updated:  Feb. 22, 2021
+    ///
+    /// Author :  Devon Wilson
+    /// Company:  Black Phoenix Creative
+    /// Created:  Oct 08, 2020
+    /// Updated:  Feb 22, 2021
     /// -->
     /// <summary>
     /// Derived from code written by Matt Gambell https://youtu.be/211t6r12XPQ
@@ -22,21 +40,11 @@ namespace TirUtilities.UI
     [RequireComponent(typeof(Image))]
     public class TabButton : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler
     {
-        #region Inspector Field
-
         [SerializeField] private TabGroup _tabGroup;
         public Image Background { get; private set; }
 
-        #endregion
-
-        #region EVENTS
-
         public UnityEvent onTabSelected;
         public UnityEvent onTabDeselected;
-
-        #endregion
-
-        #region UNITY_MESSAGES
 
         private void Start()
         {
@@ -44,19 +52,11 @@ namespace TirUtilities.UI
             _tabGroup.Subscribe(this);
         }
 
-        #endregion UNITY_MESSAGES
-
-        #region POINTER_EVENTS
-
         public void OnPointerEnter(PointerEventData eventData) => _tabGroup.OnTabEnter(this);
 
         public void OnPointerClick(PointerEventData eventData) => _tabGroup.OnTabSelected(this);
 
         public void OnPointerExit(PointerEventData eventData) => _tabGroup.OnTabExit();
-
-        #endregion
-
-        #region CALLBACKS
 
         /// <summary>
         /// Invokes onTabSelected.
@@ -67,7 +67,5 @@ namespace TirUtilities.UI
         /// Invokes onTabDeselected.
         /// </summary>
         public void Deselect() => onTabDeselected.Invoke();
-
-        #endregion
     }
 }
