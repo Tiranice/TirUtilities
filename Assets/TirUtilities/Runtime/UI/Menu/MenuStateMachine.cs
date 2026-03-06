@@ -34,7 +34,7 @@ namespace TirUtilities.UI
     /// Author :  Devon Wilson
     /// Company:  Black Phoenix Creative
     /// Created:  Jun 03, 2021
-    /// Updated:  Aug 22, 2021
+    /// Updated:  Apr 09, 2025
     /// -->
     /// <summary>
     /// Controls the state of a set of <see cref="MenuPage"/> objects in the scene.
@@ -69,22 +69,16 @@ namespace TirUtilities.UI
 
         #endregion
 
-        #region Private Fields
+        #region Pages
 
         [Header("Debug Display")]
         [DisplayOnly, SerializeField]
         private MenuPage _activePage;
-
-        [DisplayOnly, SerializeField]
-        private MenuPage _previousPage;
-
-        #endregion
-
-        #region Public Properties
-
         /// <summary> Get the currently active page. </summary>
         public MenuPage ActivePage => _activePage;
 
+        [DisplayOnly, SerializeField]
+        private MenuPage _previousPage;
         /// <summary> Get the last active page. </summary>
         public MenuPage PreviousPage => _previousPage;
 
