@@ -8,7 +8,7 @@
 
 TirUtilities is a set of generally useful utilities that I carry around between projects.
 
-Unity 2021.3 or newer
+Unity 2021.3.45f2 or newer
 
 ## Features
 
